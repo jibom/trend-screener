@@ -1,0 +1,258 @@
+[
+  {
+    "ticker": "0981.HK",
+    "name": "SMIC",
+    "event": "ENTER_TRENDING",
+    "substate": "",
+    "date": "2026-05-24",
+    "detail": ""
+  },
+  {
+    "ticker": "2382.HK",
+    "name": "SUNNY OPTICAL",
+    "event": "ENTER_TRENDING",
+    "substate": "",
+    "date": "2026-05-24",
+    "detail": ""
+  },
+  {
+    "ticker": "2718.HK",
+    "name": "MININGLAMP-W",
+    "event": "ENTER_TRENDING",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0371.HK",
+    "name": "BJ ENT WATER",
+    "event": "UPGRADE",
+    "substate": "PULLBACK",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0425.HK",
+    "name": "MINTH GROUP",
+    "event": "UPGRADE",
+    "substate": "STRONGEST",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0817.HK",
+    "name": "CHINA JINMAO",
+    "event": "UPGRADE",
+    "substate": "PULLBACK",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0991.HK",
+    "name": "DATANG POWER",
+    "event": "UPGRADE",
+    "substate": "PULLBACK",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "1208.HK",
+    "name": "MMG",
+    "event": "UPGRADE",
+    "substate": "STRONGEST",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0012.HK",
+    "name": "HENDERSON LAND",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0293.HK",
+    "name": "CATHAY PAC AIR",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0300.HK",
+    "name": "MIDEA GROUP",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "1070.HK",
+    "name": "TCL ELECTRONICS",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "1113.HK",
+    "name": "CK ASSET",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "1651.HK",
+    "name": "TSUGAMI CHINA",
+    "event": "DOWNGRADE",
+    "substate": "PULLBACK",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "2338.HK",
+    "name": "WEICHAI POWER",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "2343.HK",
+    "name": "PACIFIC BASIN",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "2888.HK",
+    "name": "STANCHART",
+    "event": "DOWNGRADE",
+    "substate": "WATCHING",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "3988.HK",
+    "name": "BANK OF CHINA",
+    "event": "DOWNGRADE",
+    "substate": "PULLBACK",
+    "date": "2026-05-26",
+    "detail": ""
+  },
+  {
+    "ticker": "0003.HK",
+    "name": "HK & CHINA GAS",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "0006.HK",
+    "name": "POWER ASSETS",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "0016.HK",
+    "name": "SHK PPT",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "0083.HK",
+    "name": "SINO LAND",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "0290.HK",
+    "name": "GOFINTECH-500",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "0317.HK",
+    "name": "COMEC",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1138.HK",
+    "name": "COSCO SHIP ENGY",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1258.HK",
+    "name": "CHINFMINING",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "周线多头排列破坏"
+  },
+  {
+    "ticker": "1288.HK",
+    "name": "ABC",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1299.HK",
+    "name": "AIA",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1308.HK",
+    "name": "SITC",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1398.HK",
+    "name": "ICBC",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "1729.HK",
+    "name": "TIME INTERCON",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "跌破 50D"
+  },
+  {
+    "ticker": "3360.HK",
+    "name": "FE HORIZON",
+    "event": "BROKEN",
+    "substate": "",
+    "date": "2026-05-26",
+    "detail": "周线多头排列破坏"
+  }
+]
