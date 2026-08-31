@@ -18,7 +18,7 @@
         "share_5d": 0.4,
         "share5_pctile200": 80.5,
         "ret_60": 0.355,
-        "composite": 2.686,
+        "composite": 2.685,
         "sector": "Energy"
       },
       {
@@ -35,7 +35,7 @@
         "share_5d": 0.81,
         "share5_pctile200": 83.5,
         "ret_60": 0.32,
-        "composite": 1.546,
+        "composite": 1.545,
         "sector": "Healthcare"
       },
       {
@@ -103,7 +103,7 @@
         "share_5d": 0.39,
         "share5_pctile200": 68.0,
         "ret_60": 0.099,
-        "composite": 0.709,
+        "composite": 0.708,
         "sector": "Energy"
       },
       {
@@ -2680,11 +2680,11 @@
     {
       "sub_industry": "Aero & Def",
       "n": 21,
-      "pctile_now": 79.0,
+      "pctile_now": 79.5,
       "pctile_ago": 93.5,
-      "delta10": -14.5,
-      "amt5_now_yi": 641.6,
-      "amt5_chg_pct": -51.5,
+      "delta10": -14.0,
+      "amt5_now_yi": 643.85,
+      "amt5_chg_pct": -51.3,
       "flag": ""
     },
     {
