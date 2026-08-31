@@ -1654,6 +1654,7 @@
       "emoji": "🔴",
       "days_in_state": 1,
       "last_close": 26.86
+<<<<<<< HEAD
     },
     {
       "ticker": "0016.HK",
@@ -1664,6 +1665,8 @@
       "emoji": "🔴",
       "days_in_state": 1,
       "last_close": 116.2
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     },
     {
       "ticker": "1113.HK",
@@ -1674,6 +1677,19 @@
       "emoji": "🔴",
       "days_in_state": 3,
       "last_close": 45.3
+<<<<<<< HEAD
+=======
+    },
+    {
+      "ticker": "0016.HK",
+      "name_cn": "新鸿基地产",
+      "gics_sector": "Real Estate",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 1,
+      "last_close": 116.2
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     },
     {
       "ticker": "0902.HK",
@@ -2006,6 +2022,7 @@
       "last_close": 2.835
     },
     {
+<<<<<<< HEAD
       "ticker": "2588.HK",
       "name_cn": "中银航空租赁",
       "gics_sector": "Consumer Discretionary",
@@ -2016,6 +2033,8 @@
       "last_close": 75.15
     },
     {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
       "ticker": "0868.HK",
       "name_cn": "信义玻璃",
       "gics_sector": "Industrials",
@@ -2026,6 +2045,19 @@
       "last_close": 8.775
     },
     {
+<<<<<<< HEAD
+=======
+      "ticker": "2588.HK",
+      "name_cn": "中银航空租赁",
+      "gics_sector": "Consumer Discretionary",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 1,
+      "last_close": 75.15
+    },
+    {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
       "ticker": "0552.HK",
       "name_cn": "中国通信服务",
       "gics_sector": "Information Technology",

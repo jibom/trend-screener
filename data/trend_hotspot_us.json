@@ -2683,8 +2683,13 @@
       "pctile_now": 79.5,
       "pctile_ago": 93.5,
       "delta10": -14.0,
+<<<<<<< HEAD
       "amt5_now_yi": 646.82,
       "amt5_chg_pct": -51.1,
+=======
+      "amt5_now_yi": 649.55,
+      "amt5_chg_pct": -50.9,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
       "flag": ""
     },
     {

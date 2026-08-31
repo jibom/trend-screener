@@ -1,5 +1,35 @@
 [
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0939.HK",
+    "name":"建设银行",
+    "name_cn":"建设银行",
+    "gics_sector":"Financials",
+    "sub_industry":"中国银行",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":9.5,
+    "ma10":9.18,
+    "ma20":9.002,
+    "ma60":8.621,
+    "ma200":8.11,
+    "ma200_slope":2.16,
+    "ma10_slope_pct":4.04,
+    "days_in_state":11,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-A",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2388.HK",
     "name":"中银香港",
     "name_cn":"中银香港",
@@ -79,6 +109,7 @@
     "trending_to_pullback_recent":true,
     "to_exit_recent":false,
     "date":"2026-08-31"
+<<<<<<< HEAD
   },
   {
     "ticker":"0939.HK",
@@ -106,6 +137,8 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
   },
   {
     "ticker":"1398.HK",
@@ -133,6 +166,8 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+<<<<<<< HEAD
+=======
   },
   {
     "ticker":"3968.HK",
@@ -153,6 +188,48 @@
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"SOS-B",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+  },
+  {
+    "ticker":"3968.HK",
+    "name":"招商银行",
+    "name_cn":"招商银行",
+    "gics_sector":"Financials",
+    "sub_industry":"中国银行",
+    "state":"TRENDING",
+    "substate":"",
+<<<<<<< HEAD
+    "last_close":50.95,
+    "ma10":49.295,
+    "ma20":48.914,
+    "ma60":47.533,
+    "ma200":47.757,
+    "ma200_slope":0.5,
+    "ma10_slope_pct":1.57,
+    "days_in_state":9,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-B",
+=======
+    "last_close":5.9,
+    "ma10":5.525,
+    "ma20":5.398,
+    "ma60":5.24,
+    "ma200":4.8,
+    "ma200_slope":2.74,
+    "ma10_slope_pct":4.82,
+    "days_in_state":11,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-A",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "bear_gate":false,
     "is_new_stock":false,
     "sos_setup_recent":"",
@@ -187,6 +264,7 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+<<<<<<< HEAD
   },
   {
     "ticker":"3988.HK",
@@ -214,6 +292,8 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
   },
   {
     "ticker":"0998.HK",
@@ -349,6 +429,7 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+<<<<<<< HEAD
   },
   {
     "ticker":"2628.HK",
@@ -376,6 +457,8 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
   },
   {
     "ticker":"2601.HK",
@@ -405,6 +488,51 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+    "ticker":"1336.HK",
+    "name":"新华保险",
+    "name_cn":"新华保险",
+=======
+    "ticker":"2628.HK",
+    "name":"中国人寿",
+    "name_cn":"中国人寿",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "gics_sector":"Financials",
+    "sub_industry":"保险",
+    "state":"POOL",
+    "substate":"",
+<<<<<<< HEAD
+    "last_close":46.4,
+    "ma10":46.858,
+    "ma20":46.917,
+    "ma60":46.961,
+    "ma200":49.278,
+    "ma200_slope":0.12,
+    "ma10_slope_pct":-0.25,
+=======
+    "last_close":30.3,
+    "ma10":28.362,
+    "ma20":28.195,
+    "ma60":28.155,
+    "ma200":28.38,
+    "ma200_slope":1.81,
+    "ma10_slope_pct":1.19,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+<<<<<<< HEAD
+=======
     "ticker":"1336.HK",
     "name":"新华保险",
     "name_cn":"新华保险",
@@ -432,6 +560,7 @@
     "date":"2026-08-31"
   },
   {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2328.HK",
     "name":"中国财险",
     "name_cn":"中国财险",
@@ -567,6 +696,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3908.HK",
     "name":"中金公司",
     "name_cn":"中金公司",
@@ -594,6 +724,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6881.HK",
     "name":"中国银河",
     "name_cn":"中国银河",
@@ -621,6 +753,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"3908.HK",
+    "name":"中金公司",
+    "name_cn":"中金公司",
+    "gics_sector":"Financials",
+    "sub_industry":"其他非银",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":22.54,
+    "ma10":21.45,
+    "ma20":21.464,
+    "ma60":21.133,
+    "ma200":20.154,
+    "ma200_slope":0.14,
+    "ma10_slope_pct":-0.13,
+    "days_in_state":4,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2611.HK",
     "name":"国泰海通",
     "name_cn":"国泰海通",
@@ -675,6 +837,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1776.HK",
+    "name":"广发证券",
+    "name_cn":"广发证券",
+    "gics_sector":"Financials",
+    "sub_industry":"其他非银",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":18.58,
+    "ma10":17.757,
+    "ma20":17.461,
+    "ma60":16.939,
+    "ma200":16.701,
+    "ma200_slope":-0.86,
+    "ma10_slope_pct":3.45,
+    "days_in_state":19,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-C",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6099.HK",
     "name":"招商证券",
     "name_cn":"招商证券",
@@ -702,6 +894,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1776.HK",
     "name":"广发证券",
     "name_cn":"广发证券",
@@ -718,6 +911,24 @@
     "ma10_slope_pct":3.45,
     "days_in_state":19,
     "days_in_pullback":0,
+=======
+    "ticker":"6066.HK",
+    "name":"中信建投证券",
+    "name_cn":"中信建投证券",
+    "gics_sector":"Financials",
+    "sub_industry":"其他非银",
+    "state":"POOL",
+    "substate":"",
+    "last_close":12.17,
+    "ma10":11.721,
+    "ma20":11.691,
+    "ma60":11.835,
+    "ma200":11.816,
+    "ma200_slope":-1.15,
+    "ma10_slope_pct":0.51,
+    "days_in_state":1,
+    "days_in_pullback":15,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "pullback_dd_pct":null,
     "sos":"SOS-C",
     "bear_gate":false,
@@ -891,6 +1102,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1088.HK",
+    "name":"中国神华",
+    "name_cn":"中国神华",
+    "gics_sector":"Energy",
+    "sub_industry":"能源",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":46.36,
+    "ma10":45.116,
+    "ma20":44.069,
+    "ma60":42.806,
+    "ma200":42.402,
+    "ma200_slope":1.3,
+    "ma10_slope_pct":4.87,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-A",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-A",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1171.HK",
     "name":"兖矿能源",
     "name_cn":"兖矿能源",
@@ -945,6 +1186,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1088.HK",
     "name":"中国神华",
     "name_cn":"中国神华",
@@ -972,6 +1214,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3668.HK",
     "name":"兖煤澳大利亚",
     "name_cn":"兖煤澳大利亚",
@@ -1485,13 +1729,20 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0016.HK",
     "name":"新鸿基地产",
     "name_cn":"新鸿基地产",
+=======
+    "ticker":"1113.HK",
+    "name":"长实集团",
+    "name_cn":"长实集团",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "gics_sector":"Real Estate",
     "sub_industry":"香港地产",
     "state":"EXIT",
     "substate":"",
+<<<<<<< HEAD
     "last_close":116.2,
     "ma10":122.79,
     "ma20":120.28,
@@ -1500,6 +1751,16 @@
     "ma200_slope":2.43,
     "ma10_slope_pct":4.26,
     "days_in_state":1,
+=======
+    "last_close":45.3,
+    "ma10":46.382,
+    "ma20":46.639,
+    "ma60":46.244,
+    "ma200":44.493,
+    "ma200_slope":2.2,
+    "ma10_slope_pct":-1.1,
+    "days_in_state":3,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -1512,6 +1773,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1113.HK",
     "name":"长实集团",
     "name_cn":"长实集团",
@@ -1539,6 +1801,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1997.HK",
     "name":"九龙仓置业",
     "name_cn":"九龙仓置业",
@@ -1566,6 +1830,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0016.HK",
+    "name":"新鸿基地产",
+    "name_cn":"新鸿基地产",
+    "gics_sector":"Real Estate",
+    "sub_industry":"香港地产",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":116.2,
+    "ma10":122.79,
+    "ma20":120.28,
+    "ma60":118.645,
+    "ma200":120.154,
+    "ma200_slope":2.43,
+    "ma10_slope_pct":4.26,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1193.HK",
     "name":"华润燃气",
     "name_cn":"华润燃气",
@@ -1836,6 +2130,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0586.HK",
     "name":"海螺创业",
     "name_cn":"海螺创业",
@@ -1863,6 +2158,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1816.HK",
     "name":"中广核电力",
     "name_cn":"中广核电力",
@@ -1917,6 +2214,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0586.HK",
+    "name":"海螺创业",
+    "name_cn":"海螺创业",
+    "gics_sector":"Industrials",
+    "sub_industry":"公共事业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":7.865,
+    "ma10":8.522,
+    "ma20":8.632,
+    "ma60":9.235,
+    "ma200":10.255,
+    "ma200_slope":-1.19,
+    "ma10_slope_pct":-2.51,
+    "days_in_state":24,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1038.HK",
     "name":"长江基建集团",
     "name_cn":"长江基建集团",
@@ -1944,6 +2271,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0006.HK",
     "name":"电能实业",
     "name_cn":"电能实业",
@@ -1971,6 +2299,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0270.HK",
     "name":"粤海投资",
     "name_cn":"粤海投资",
@@ -1998,6 +2328,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0006.HK",
+    "name":"电能实业",
+    "name_cn":"电能实业",
+    "gics_sector":"Utilities",
+    "sub_industry":"公共事业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":60.2,
+    "ma10":60.84,
+    "ma20":59.58,
+    "ma60":58.288,
+    "ma200":57.689,
+    "ma200_slope":2.0,
+    "ma10_slope_pct":4.32,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0003.HK",
     "name":"香港中华煤气",
     "name_cn":"香港中华煤气",
@@ -2187,6 +2547,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3690.HK",
     "name":"美团-W",
     "name_cn":"美团-W",
@@ -2268,6 +2629,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9988.HK",
     "name":"阿里巴巴-W",
     "name_cn":"阿里巴巴-W",
@@ -2295,6 +2658,178 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+    "ticker":"9999.HK",
+    "name":"网易-S",
+    "name_cn":"网易-S",
+    "gics_sector":"Communication Services",
+    "sub_industry":"互联网",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":192.4,
+    "ma10":195.08,
+    "ma20":197.38,
+    "ma60":198.265,
+    "ma200":195.431,
+    "ma200_slope":-1.36,
+    "ma10_slope_pct":-2.3,
+    "days_in_state":7,
+=======
+    "ticker":"3690.HK",
+    "name":"美团-W",
+    "name_cn":"美团-W",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"互联网",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":78.9,
+    "ma10":81.53,
+    "ma20":86.507,
+    "ma60":81.651,
+    "ma200":87.759,
+    "ma200_slope":-1.51,
+    "ma10_slope_pct":-10.88,
+    "days_in_state":1,
+    "days_in_pullback":9,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+    "ticker":"1024.HK",
+    "name":"快手-W",
+    "name_cn":"快手-W",
+    "gics_sector":"Communication Services",
+    "sub_industry":"互联网",
+    "state":"POOL",
+    "substate":"",
+    "last_close":33.58,
+    "ma10":34.584,
+    "ma20":38.736,
+    "ma60":42.0,
+    "ma200":54.565,
+    "ma200_slope":-6.23,
+    "ma10_slope_pct":-19.36,
+    "days_in_state":2,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+<<<<<<< HEAD
+    "ticker":"9618.HK",
+    "name":"京东集团-SW",
+    "name_cn":"京东集团-SW",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"互联网",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":112.2,
+    "ma10":112.75,
+    "ma20":118.375,
+    "ma60":114.4,
+    "ma200":112.29,
+    "ma200_slope":-0.51,
+    "ma10_slope_pct":-9.07,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+    "ticker":"9888.HK",
+    "name":"百度集团-SW",
+    "name_cn":"百度集团-SW",
+    "gics_sector":"Communication Services",
+    "sub_industry":"互联网",
+    "state":"SETUP_OK",
+    "substate":"",
+    "last_close":96.2,
+    "ma10":93.445,
+    "ma20":99.427,
+    "ma60":106.178,
+    "ma200":120.875,
+    "ma200_slope":-1.75,
+    "ma10_slope_pct":-11.35,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-B",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-B",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+    "ticker":"1698.HK",
+    "name":"腾讯音乐-SW",
+    "name_cn":"腾讯音乐-SW",
+=======
+    "ticker":"9626.HK",
+    "name":"哔哩哔哩-W",
+    "name_cn":"哔哩哔哩-W",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "gics_sector":"Communication Services",
+    "sub_industry":"互联网",
+    "state":"POOL",
+    "substate":"",
+<<<<<<< HEAD
+    "last_close":33.72,
+    "ma10":34.2,
+    "ma20":35.147,
+    "ma60":35.103,
+    "ma200":48.851,
+    "ma200_slope":-9.47,
+    "ma10_slope_pct":-5.25,
+    "days_in_state":64,
+=======
+    "last_close":129.1,
+    "ma10":130.84,
+    "ma20":136.725,
+    "ma60":138.112,
+    "ma200":182.49,
+    "ma200_slope":-4.52,
+    "ma10_slope_pct":-8.25,
+    "days_in_state":10,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+<<<<<<< HEAD
+=======
     "ticker":"9999.HK",
     "name":"网易-S",
     "name_cn":"网易-S",
@@ -2376,33 +2911,7 @@
     "date":"2026-08-31"
   },
   {
-    "ticker":"1698.HK",
-    "name":"腾讯音乐-SW",
-    "name_cn":"腾讯音乐-SW",
-    "gics_sector":"Communication Services",
-    "sub_industry":"互联网",
-    "state":"POOL",
-    "substate":"",
-    "last_close":33.72,
-    "ma10":34.2,
-    "ma20":35.147,
-    "ma60":35.103,
-    "ma200":48.851,
-    "ma200_slope":-9.47,
-    "ma10_slope_pct":-5.25,
-    "days_in_state":64,
-    "days_in_pullback":0,
-    "pullback_dd_pct":null,
-    "sos":"",
-    "bear_gate":false,
-    "is_new_stock":false,
-    "sos_setup_recent":"",
-    "recent_new_high_flag":false,
-    "trending_to_pullback_recent":false,
-    "to_exit_recent":false,
-    "date":"2026-08-31"
-  },
-  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9961.HK",
     "name":"携程集团-S",
     "name_cn":"携程集团-S",
@@ -2430,6 +2939,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1698.HK",
+    "name":"腾讯音乐-SW",
+    "name_cn":"腾讯音乐-SW",
+    "gics_sector":"Communication Services",
+    "sub_industry":"互联网",
+    "state":"POOL",
+    "substate":"",
+    "last_close":33.72,
+    "ma10":34.2,
+    "ma20":35.147,
+    "ma60":35.103,
+    "ma200":48.851,
+    "ma200_slope":-9.47,
+    "ma10_slope_pct":-5.25,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0772.HK",
     "name":"阅文集团",
     "name_cn":"阅文集团",
@@ -2592,6 +3131,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"9863.HK",
+    "name":"零跑汽车",
+    "name_cn":"零跑汽车",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"汽车",
+    "state":"POOL",
+    "substate":"",
+    "last_close":36.72,
+    "ma10":40.492,
+    "ma20":40.212,
+    "ma60":37.973,
+    "ma200":44.486,
+    "ma200_slope":-4.21,
+    "ma10_slope_pct":1.4,
+    "days_in_state":19,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2333.HK",
     "name":"长城汽车",
     "name_cn":"长城汽车",
@@ -2619,13 +3188,20 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"9863.HK",
     "name":"零跑汽车",
     "name_cn":"零跑汽车",
+=======
+    "ticker":"9866.HK",
+    "name":"蔚来-SW",
+    "name_cn":"蔚来-SW",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "gics_sector":"Consumer Discretionary",
     "sub_industry":"汽车",
     "state":"POOL",
     "substate":"",
+<<<<<<< HEAD
     "last_close":36.72,
     "ma10":40.492,
     "ma20":40.212,
@@ -2634,6 +3210,16 @@
     "ma200_slope":-4.21,
     "ma10_slope_pct":1.4,
     "days_in_state":19,
+=======
+    "last_close":33.18,
+    "ma10":34.826,
+    "ma20":35.724,
+    "ma60":38.076,
+    "ma200":41.859,
+    "ma200_slope":-4.39,
+    "ma10_slope_pct":-4.9,
+    "days_in_state":29,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -2673,6 +3259,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"9866.HK",
     "name":"蔚来-SW",
     "name_cn":"蔚来-SW",
@@ -2700,6 +3287,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3606.HK",
     "name":"福耀玻璃",
     "name_cn":"福耀玻璃",
@@ -2727,6 +3316,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1316.HK",
+    "name":"耐世特",
+    "name_cn":"耐世特",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"汽车",
+    "state":"PULLBACK",
+    "substate":"",
+    "last_close":5.075,
+    "ma10":5.171,
+    "ma20":4.894,
+    "ma60":4.362,
+    "ma200":5.462,
+    "ma200_slope":-3.46,
+    "ma10_slope_pct":11.99,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":-5.41,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":true,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0425.HK",
     "name":"敏实集团",
     "name_cn":"敏实集团",
@@ -2781,6 +3400,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1316.HK",
     "name":"耐世特",
     "name_cn":"耐世特",
@@ -2815,6 +3435,15 @@
     "sub_industry":"汽车",
     "state":"TRENDING",
     "substate":"",
+=======
+    "ticker":"3808.HK",
+    "name":"中国重汽",
+    "name_cn":"中国重汽",
+    "gics_sector":"Industrials",
+    "sub_industry":"汽车",
+    "state":"TRENDING",
+    "substate":"",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "last_close":40.2,
     "ma10":39.584,
     "ma20":40.351,
@@ -2835,6 +3464,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0881.HK",
     "name":"中升控股",
     "name_cn":"中升控股",
@@ -2869,6 +3499,15 @@
     "sub_industry":"智能驾驶",
     "state":"POOL",
     "substate":"",
+=======
+    "ticker":"2525.HK",
+    "name":"禾赛-W",
+    "name_cn":"禾赛-W",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"智能驾驶",
+    "state":"POOL",
+    "substate":"",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "last_close":16.32,
     "ma10":17.681,
     "ma20":17.91,
@@ -2889,6 +3528,60 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+    "ticker":"0800.HK",
+    "name":"文远知行-W",
+    "name_cn":"文远知行-W",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"智能驾驶",
+    "state":"POOL",
+    "substate":"",
+    "last_close":15.37,
+    "ma10":15.91,
+    "ma20":15.905,
+    "ma60":15.633,
+    "ma200":19.229,
+    "ma200_slope":8.72,
+    "ma10_slope_pct":0.06,
+    "days_in_state":5,
+=======
+    "ticker":"0881.HK",
+    "name":"中升控股",
+    "name_cn":"中升控股",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"汽车",
+    "state":"POOL",
+    "substate":"",
+    "last_close":4.27,
+    "ma10":4.379,
+    "ma20":4.454,
+    "ma60":4.82,
+    "ma200":8.412,
+    "ma200_slope":-9.31,
+    "ma10_slope_pct":-3.31,
+    "days_in_state":64,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+<<<<<<< HEAD
+    "ticker":"2026.HK",
+    "name":"小马智行-W",
+    "name_cn":"小马智行-W",
+    "gics_sector":"Information Technology",
+    "sub_industry":"智能驾驶",
+    "state":"POOL",
+    "substate":"",
+=======
     "ticker":"0800.HK",
     "name":"文远知行-W",
     "name_cn":"文远知行-W",
@@ -2923,6 +3616,7 @@
     "sub_industry":"智能驾驶",
     "state":"POOL",
     "substate":"",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "last_close":55.9,
     "ma10":59.09,
     "ma20":61.2,
@@ -3186,6 +3880,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0300.HK",
+    "name":"美的集团",
+    "name_cn":"美的集团",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"耐用品",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":101.4,
+    "ma10":98.225,
+    "ma20":97.425,
+    "ma60":91.72,
+    "ma200":85.725,
+    "ma200_slope":2.32,
+    "ma10_slope_pct":1.66,
+    "days_in_state":9,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-A",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0551.HK",
     "name":"裕元集团",
     "name_cn":"裕元集团",
@@ -3240,6 +3964,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0300.HK",
     "name":"美的集团",
     "name_cn":"美的集团",
@@ -3267,6 +3992,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1070.HK",
     "name":"TCL电子",
     "name_cn":"TCL电子",
@@ -3321,6 +4048,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1913.HK",
     "name":"普拉达",
     "name_cn":"普拉达",
@@ -3348,6 +4076,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1910.HK",
     "name":"新秀丽",
     "name_cn":"新秀丽",
@@ -3375,6 +4105,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1913.HK",
+    "name":"普拉达",
+    "name_cn":"普拉达",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"耐用品",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":41.02,
+    "ma10":41.094,
+    "ma20":42.268,
+    "ma60":40.519,
+    "ma200":39.909,
+    "ma200_slope":-0.54,
+    "ma10_slope_pct":-5.4,
+    "days_in_state":2,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1929.HK",
     "name":"周大福",
     "name_cn":"周大福",
@@ -3429,6 +4189,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"9992.HK",
     "name":"泡泡玛特",
     "name_cn":"泡泡玛特",
@@ -3456,6 +4217,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9896.HK",
     "name":"名创优品",
     "name_cn":"名创优品",
@@ -3483,6 +4246,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"9992.HK",
+    "name":"泡泡玛特",
+    "name_cn":"泡泡玛特",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"零售",
+    "state":"POOL",
+    "substate":"",
+    "last_close":156.1,
+    "ma10":153.66,
+    "ma20":154.66,
+    "ma60":159.783,
+    "ma200":181.748,
+    "ma200_slope":-4.65,
+    "ma10_slope_pct":-1.28,
+    "days_in_state":2,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0325.HK",
     "name":"布鲁可",
     "name_cn":"布鲁可",
@@ -3537,6 +4330,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1880.HK",
     "name":"中国中免",
     "name_cn":"中国中免",
@@ -3564,6 +4358,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1768.HK",
     "name":"鸣鸣很忙",
     "name_cn":"鸣鸣很忙",
@@ -3591,6 +4387,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1880.HK",
+    "name":"中国中免",
+    "name_cn":"中国中免",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"零售",
+    "state":"POOL",
+    "substate":"",
+    "last_close":48.32,
+    "ma10":48.876,
+    "ma20":49.898,
+    "ma60":50.413,
+    "ma200":66.108,
+    "ma200_slope":-1.64,
+    "ma10_slope_pct":-4.01,
+    "days_in_state":29,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1797.HK",
     "name":"东方甄选",
     "name_cn":"东方甄选",
@@ -3726,6 +4552,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0027.HK",
     "name":"银河娱乐",
     "name_cn":"银河娱乐",
@@ -3753,6 +4580,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1928.HK",
     "name":"金沙中国有限公司",
     "name_cn":"金沙中国有限公司",
@@ -3780,6 +4609,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0027.HK",
+    "name":"银河娱乐",
+    "name_cn":"银河娱乐",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"消费服务",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":34.16,
+    "ma10":34.465,
+    "ma20":33.7,
+    "ma60":31.558,
+    "ma200":34.583,
+    "ma200_slope":-0.79,
+    "ma10_slope_pct":4.65,
+    "days_in_state":14,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2282.HK",
     "name":"美高梅中国",
     "name_cn":"美高梅中国",
@@ -3942,6 +4801,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1364.HK",
     "name":"古茗",
     "name_cn":"古茗",
@@ -3969,6 +4829,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2589.HK",
     "name":"沪上阿姨",
     "name_cn":"沪上阿姨",
@@ -3996,6 +4858,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1364.HK",
+    "name":"古茗",
+    "name_cn":"古茗",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"消费服务",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":26.1,
+    "ma10":25.176,
+    "ma20":24.153,
+    "ma60":22.299,
+    "ma200":24.579,
+    "ma200_slope":0.87,
+    "ma10_slope_pct":8.85,
+    "days_in_state":2,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-A",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6969.HK",
     "name":"思摩尔国际",
     "name_cn":"思摩尔国际",
@@ -4050,6 +4942,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2689.HK",
     "name":"玖龙纸业",
     "name_cn":"玖龙纸业",
@@ -4077,6 +4970,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9633.HK",
     "name":"农夫山泉",
     "name_cn":"农夫山泉",
@@ -4104,6 +4999,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0322.HK",
     "name":"康师傅控股",
     "name_cn":"康师傅控股",
@@ -4121,12 +5017,35 @@
     "days_in_state":2,
     "days_in_pullback":1,
     "pullback_dd_pct":-9.12,
+=======
+    "ticker":"2689.HK",
+    "name":"玖龙纸业",
+    "name_cn":"玖龙纸业",
+    "gics_sector":"Materials",
+    "sub_industry":"轻工",
+    "state":"PULLBACK",
+    "substate":"MID",
+    "last_close":6.82,
+    "ma10":7.121,
+    "ma20":7.617,
+    "ma60":7.299,
+    "ma200":7.051,
+    "ma200_slope":3.18,
+    "ma10_slope_pct":-12.24,
+    "days_in_state":8,
+    "days_in_pullback":7,
+    "pullback_dd_pct":-18.66,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "sos":"",
     "bear_gate":false,
     "is_new_stock":false,
     "sos_setup_recent":"",
     "recent_new_high_flag":false,
+<<<<<<< HEAD
     "trending_to_pullback_recent":true,
+=======
+    "trending_to_pullback_recent":false,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "to_exit_recent":false,
     "date":"2026-08-31"
   },
@@ -4185,6 +5104,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0322.HK",
+    "name":"康师傅控股",
+    "name_cn":"康师傅控股",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"食品饮料调味品\/酒",
+    "state":"PULLBACK",
+    "substate":"EARLY",
+    "last_close":12.76,
+    "ma10":13.329,
+    "ma20":12.712,
+    "ma60":11.527,
+    "ma200":11.434,
+    "ma200_slope":2.43,
+    "ma10_slope_pct":10.21,
+    "days_in_state":2,
+    "days_in_pullback":1,
+    "pullback_dd_pct":-9.12,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":true,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0168.HK",
     "name":"青岛啤酒股份",
     "name_cn":"青岛啤酒股份",
@@ -4347,6 +5296,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1579.HK",
     "name":"颐海国际",
     "name_cn":"颐海国际",
@@ -4374,6 +5324,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3288.HK",
     "name":"海天味业",
     "name_cn":"海天味业",
@@ -4401,6 +5353,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1579.HK",
+    "name":"颐海国际",
+    "name_cn":"颐海国际",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"食品饮料调味品\/酒",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":15.82,
+    "ma10":15.562,
+    "ma20":15.375,
+    "ma60":14.607,
+    "ma200":14.192,
+    "ma200_slope":2.66,
+    "ma10_slope_pct":2.46,
+    "days_in_state":8,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9985.HK",
     "name":"卫龙美味",
     "name_cn":"卫龙美味",
@@ -4590,6 +5572,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2698.HK",
     "name":"乐舒适",
     "name_cn":"乐舒适",
@@ -4617,6 +5600,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6699.HK",
     "name":"时代天使",
     "name_cn":"时代天使",
@@ -4644,6 +5629,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2698.HK",
+    "name":"乐舒适",
+    "name_cn":"乐舒适",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"美妆个护",
+    "state":"PULLBACK",
+    "substate":"",
+    "last_close":31.7,
+    "ma10":32.956,
+    "ma20":33.917,
+    "ma60":30.229,
+    "ma200":29.69,
+    "ma200_slope":9.54,
+    "ma10_slope_pct":-5.51,
+    "days_in_state":4,
+    "days_in_pullback":3,
+    "pullback_dd_pct":-10.6,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":true,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0241.HK",
     "name":"阿里健康",
     "name_cn":"阿里健康",
@@ -4698,6 +5713,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1833.HK",
     "name":"平安好医生",
     "name_cn":"平安好医生",
@@ -4725,6 +5741,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3750.HK",
     "name":"宁德时代",
     "name_cn":"宁德时代",
@@ -4752,6 +5770,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1833.HK",
+    "name":"平安好医生",
+    "name_cn":"平安好医生",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"互联网药店",
+    "state":"POOL",
+    "substate":"",
+    "last_close":6.415,
+    "ma10":6.714,
+    "ma20":7.183,
+    "ma60":7.535,
+    "ma200":11.419,
+    "ma200_slope":-6.91,
+    "ma10_slope_pct":-12.26,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2579.HK",
     "name":"中伟新材",
     "name_cn":"中伟新材",
@@ -5238,6 +6286,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0001.HK",
     "name":"长和",
     "name_cn":"长和",
@@ -5265,6 +6314,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0267.HK",
     "name":"中信股份",
     "name_cn":"中信股份",
@@ -5292,6 +6343,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0001.HK",
+    "name":"长和",
+    "name_cn":"长和",
+    "gics_sector":"Industrials",
+    "sub_industry":"综合企业",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":70.5,
+    "ma10":70.15,
+    "ma20":71.2,
+    "ma60":69.797,
+    "ma200":62.91,
+    "ma200_slope":3.45,
+    "ma10_slope_pct":-2.91,
+    "days_in_state":3,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0019.HK",
     "name":"太古股份公司A",
     "name_cn":"太古股份公司A",
@@ -5319,6 +6400,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0066.HK",
     "name":"港铁公司",
     "name_cn":"港铁公司",
@@ -5346,6 +6428,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2208.HK",
     "name":"金风科技",
     "name_cn":"金风科技",
@@ -5373,6 +6457,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0066.HK",
+    "name":"港铁公司",
+    "name_cn":"港铁公司",
+    "gics_sector":"Industrials",
+    "sub_industry":"综合企业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":32.34,
+    "ma10":32.81,
+    "ma20":32.438,
+    "ma60":31.712,
+    "ma200":31.586,
+    "ma200_slope":1.95,
+    "ma10_slope_pct":2.32,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1072.HK",
     "name":"东方电气",
     "name_cn":"东方电气",
@@ -5427,6 +6541,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6031.HK",
+    "name":"三一重工",
+    "name_cn":"三一重工",
+    "gics_sector":"Industrials",
+    "sub_industry":"其他工业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":19.61,
+    "ma10":18.905,
+    "ma20":19.295,
+    "ma60":19.728,
+    "ma200":21.641,
+    "ma200_slope":null,
+    "ma10_slope_pct":-3.97,
+    "days_in_state":12,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0317.HK",
     "name":"中船防务",
     "name_cn":"中船防务",
@@ -5481,6 +6625,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6031.HK",
     "name":"三一重工",
     "name_cn":"三一重工",
@@ -5508,6 +6653,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1157.HK",
     "name":"中联重科",
     "name_cn":"中联重科",
@@ -5724,6 +6871,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2590.HK",
     "name":"极智嘉-W",
     "name_cn":"极智嘉-W",
@@ -5751,6 +6899,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1286.HK",
     "name":"鹰普精密",
     "name_cn":"鹰普精密",
@@ -5778,6 +6928,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2590.HK",
+    "name":"极智嘉-W",
+    "name_cn":"极智嘉-W",
+    "gics_sector":"Industrials",
+    "sub_industry":"其他工业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":9.5,
+    "ma10":10.158,
+    "ma20":10.159,
+    "ma60":10.893,
+    "ma200":18.818,
+    "ma200_slope":-8.83,
+    "ma10_slope_pct":-0.02,
+    "days_in_state":37,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2507.HK",
     "name":"西锐",
     "name_cn":"西锐",
@@ -6237,6 +7417,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6680.HK",
     "name":"金力永磁",
     "name_cn":"金力永磁",
@@ -6264,6 +7445,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3858.HK",
     "name":"佳鑫国际资源",
     "name_cn":"佳鑫国际资源",
@@ -6291,6 +7474,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6680.HK",
+    "name":"金力永磁",
+    "name_cn":"金力永磁",
+    "gics_sector":"Industrials",
+    "sub_industry":"能源金属\/小金属",
+    "state":"POOL",
+    "substate":"",
+    "last_close":17.0,
+    "ma10":17.156,
+    "ma20":17.316,
+    "ma60":17.505,
+    "ma200":19.367,
+    "ma200_slope":-2.97,
+    "ma10_slope_pct":-1.84,
+    "days_in_state":28,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2465.HK",
     "name":"龙蟠科技",
     "name_cn":"龙蟠科技",
@@ -6345,6 +7558,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1866.HK",
     "name":"中国心连心化肥",
     "name_cn":"中国心连心化肥",
@@ -6372,6 +7586,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0914.HK",
     "name":"海螺水泥",
     "name_cn":"海螺水泥",
@@ -6399,6 +7615,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1866.HK",
+    "name":"中国心连心化肥",
+    "name_cn":"中国心连心化肥",
+    "gics_sector":"Materials",
+    "sub_industry":"化工",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":11.16,
+    "ma10":10.212,
+    "ma20":9.866,
+    "ma60":9.287,
+    "ma200":9.617,
+    "ma200_slope":2.9,
+    "ma10_slope_pct":7.29,
+    "days_in_state":7,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"SOS-A",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6655.HK",
     "name":"华新建材",
     "name_cn":"华新建材",
@@ -6588,6 +7834,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0148.HK",
     "name":"建滔集团",
     "name_cn":"建滔集团",
@@ -6615,6 +7862,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2631.HK",
     "name":"天岳先进",
     "name_cn":"天岳先进",
@@ -6642,6 +7891,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0148.HK",
+    "name":"建滔集团",
+    "name_cn":"建滔集团",
+    "gics_sector":"Information Technology",
+    "sub_industry":"AI算力",
+    "state":"SETUP_OK",
+    "substate":"",
+    "last_close":54.1,
+    "ma10":49.287,
+    "ma20":47.635,
+    "ma60":69.696,
+    "ma200":46.098,
+    "ma200_slope":4.88,
+    "ma10_slope_pct":7.19,
+    "days_in_state":1,
+    "days_in_pullback":15,
+    "pullback_dd_pct":null,
+    "sos":"SOS-B",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-B",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3200.HK",
     "name":"大族数控",
     "name_cn":"大族数控",
@@ -6750,6 +8029,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"3986.HK",
+    "name":"兆易创新",
+    "name_cn":"兆易创新",
+    "gics_sector":"Information Technology",
+    "sub_industry":"AI算力",
+    "state":"POOL",
+    "substate":"",
+    "last_close":486.2,
+    "ma10":494.29,
+    "ma20":499.155,
+    "ma60":660.545,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":-1.93,
+    "days_in_state":21,
+    "days_in_pullback":15,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6809.HK",
     "name":"澜起科技",
     "name_cn":"澜起科技",
@@ -6777,6 +8086,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3986.HK",
     "name":"兆易创新",
     "name_cn":"兆易创新",
@@ -6793,6 +8103,24 @@
     "ma10_slope_pct":-1.93,
     "days_in_state":21,
     "days_in_pullback":15,
+=======
+    "ticker":"3296.HK",
+    "name":"华勤技术",
+    "name_cn":"华勤技术",
+    "gics_sector":"Information Technology",
+    "sub_industry":"AI算力",
+    "state":"TRENDING",
+    "substate":"NEW",
+    "last_close":78.6,
+    "ma10":74.705,
+    "ma20":73.42,
+    "ma60":70.737,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":3.56,
+    "days_in_state":5,
+    "days_in_pullback":0,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "pullback_dd_pct":null,
     "sos":"",
     "bear_gate":false,
@@ -6831,6 +8159,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3296.HK",
     "name":"华勤技术",
     "name_cn":"华勤技术",
@@ -6858,6 +8187,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0763.HK",
     "name":"中兴通讯",
     "name_cn":"中兴通讯",
@@ -6939,6 +8270,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0522.HK",
     "name":"ASMPT",
     "name_cn":"ASMPT",
@@ -6966,6 +8298,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9698.HK",
     "name":"万国数据-SW",
     "name_cn":"万国数据-SW",
@@ -7128,6 +8462,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0522.HK",
+    "name":"ASMPT",
+    "name_cn":"ASMPT",
+    "gics_sector":"Information Technology",
+    "sub_industry":"AI算力",
+    "state":"POOL",
+    "substate":"",
+    "last_close":164.0,
+    "ma10":162.92,
+    "ma20":165.404,
+    "ma60":176.277,
+    "ma200":131.222,
+    "ma200_slope":6.47,
+    "ma10_slope_pct":-2.96,
+    "days_in_state":5,
+    "days_in_pullback":14,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3277.HK",
     "name":"长光辰芯",
     "name_cn":"长光辰芯",
@@ -7236,6 +8600,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0501.HK",
     "name":"豪威集团",
     "name_cn":"豪威集团",
@@ -7263,6 +8628,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1810.HK",
     "name":"小米集团-W",
     "name_cn":"小米集团-W",
@@ -7290,6 +8657,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0501.HK",
+    "name":"豪威集团",
+    "name_cn":"豪威集团",
+    "gics_sector":"Information Technology",
+    "sub_industry":"其他芯片",
+    "state":"POOL",
+    "substate":"",
+    "last_close":72.55,
+    "ma10":74.73,
+    "ma20":76.513,
+    "ma60":77.238,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":-4.55,
+    "days_in_state":24,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2676.HK",
     "name":"纳芯微",
     "name_cn":"纳芯微",
@@ -7317,6 +8714,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1385.HK",
     "name":"上海复旦",
     "name_cn":"上海复旦",
@@ -7344,6 +8742,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0068.HK",
     "name":"MANYCORE TECH",
     "name_cn":"MANYCORE TECH",
@@ -7371,6 +8771,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1385.HK",
+    "name":"上海复旦",
+    "name_cn":"上海复旦",
+    "gics_sector":"Information Technology",
+    "sub_industry":"其他芯片",
+    "state":"POOL",
+    "substate":"",
+    "last_close":27.78,
+    "ma10":26.124,
+    "ma20":26.455,
+    "ma60":27.319,
+    "ma200":38.463,
+    "ma200_slope":-3.89,
+    "ma10_slope_pct":-2.47,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0100.HK",
     "name":"MINIMAX-WP",
     "name_cn":"MINIMAX-WP",
@@ -7560,6 +8990,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6990.HK",
     "name":"科伦博泰生物-B",
     "name_cn":"科伦博泰生物-B",
@@ -7587,6 +9018,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9969.HK",
     "name":"诺诚健华",
     "name_cn":"诺诚健华",
@@ -7641,6 +9074,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6990.HK",
+    "name":"科伦博泰生物-B",
+    "name_cn":"科伦博泰生物-B",
+    "gics_sector":"Health Care",
+    "sub_industry":"创新药",
+    "state":"PULLBACK",
+    "substate":"",
+    "last_close":497.2,
+    "ma10":524.02,
+    "ma20":520.765,
+    "ma60":481.998,
+    "ma200":450.125,
+    "ma200_slope":1.33,
+    "ma10_slope_pct":1.26,
+    "days_in_state":3,
+    "days_in_pullback":2,
+    "pullback_dd_pct":-8.35,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":true,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9606.HK",
     "name":"映恩生物-B",
     "name_cn":"映恩生物-B",
@@ -7749,6 +9212,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1093.HK",
     "name":"石药集团",
     "name_cn":"石药集团",
@@ -7776,6 +9240,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1177.HK",
     "name":"中国生物制药",
     "name_cn":"中国生物制药",
@@ -7803,6 +9269,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1093.HK",
+    "name":"石药集团",
+    "name_cn":"石药集团",
+    "gics_sector":"Health Care",
+    "sub_industry":"创新药",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":9.24,
+    "ma10":9.298,
+    "ma20":8.966,
+    "ma60":8.115,
+    "ma200":8.379,
+    "ma200_slope":0.86,
+    "ma10_slope_pct":7.68,
+    "days_in_state":4,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-C",
+    "recent_new_high_flag":true,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3692.HK",
     "name":"翰森制药",
     "name_cn":"翰森制药",
@@ -8179,6 +9675,36 @@
     "trending_to_pullback_recent":false,
     "to_exit_recent":false,
     "date":"2026-08-31"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "ticker":"0179.HK",
+    "name":"德昌电机控股",
+    "name_cn":"德昌电机控股",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"机器人产业链",
+    "state":"POOL",
+    "substate":"",
+    "last_close":19.65,
+    "ma10":19.835,
+    "ma20":19.918,
+    "ma60":20.143,
+    "ma200":24.814,
+    "ma200_slope":-5.57,
+    "ma10_slope_pct":-0.83,
+    "days_in_state":17,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
   },
   {
     "ticker":"0699.HK",
@@ -8208,6 +9734,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0179.HK",
     "name":"德昌电机控股",
     "name_cn":"德昌电机控股",
@@ -8235,6 +9762,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1585.HK",
     "name":"雅迪控股",
     "name_cn":"雅迪控股",
@@ -8316,6 +9845,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2889.HK",
     "name":"博泰车联",
     "name_cn":"博泰车联",
@@ -8343,6 +9873,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1057.HK",
     "name":"浙江世宝",
     "name_cn":"浙江世宝",
@@ -8370,6 +9902,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2889.HK",
+    "name":"博泰车联",
+    "name_cn":"博泰车联",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"汽车",
+    "state":"PULLBACK",
+    "substate":"NEW",
+    "last_close":159.2,
+    "ma10":169.13,
+    "ma20":164.945,
+    "ma60":154.197,
+    "ma200":179.434,
+    "ma200_slope":-1.03,
+    "ma10_slope_pct":5.21,
+    "days_in_state":5,
+    "days_in_pullback":4,
+    "pullback_dd_pct":-29.99,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":true,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2238.HK",
     "name":"广汽集团",
     "name_cn":"广汽集团",
@@ -8397,6 +9959,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1114.HK",
     "name":"华晨中国",
     "name_cn":"华晨中国",
@@ -8424,6 +9987,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2431.HK",
     "name":"佑驾创新",
     "name_cn":"佑驾创新",
@@ -8451,6 +10016,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1114.HK",
+    "name":"华晨中国",
+    "name_cn":"华晨中国",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"汽车",
+    "state":"POOL",
+    "substate":"",
+    "last_close":2.335,
+    "ma10":2.385,
+    "ma20":2.292,
+    "ma60":2.205,
+    "ma200":3.154,
+    "ma200_slope":-4.86,
+    "ma10_slope_pct":8.51,
+    "days_in_state":19,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3328.HK",
     "name":"交通银行",
     "name_cn":"交通银行",
@@ -8505,6 +10100,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6818.HK",
     "name":"中国光大银行",
     "name_cn":"中国光大银行",
@@ -8532,6 +10128,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1988.HK",
     "name":"民生银行",
     "name_cn":"民生银行",
@@ -8559,6 +10157,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6818.HK",
+    "name":"中国光大银行",
+    "name_cn":"中国光大银行",
+    "gics_sector":"Financials",
+    "sub_industry":"银行",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":2.835,
+    "ma10":3.006,
+    "ma20":3.023,
+    "ma60":3.07,
+    "ma200":3.176,
+    "ma200_slope":-0.35,
+    "ma10_slope_pct":-1.17,
+    "days_in_state":2,
+    "days_in_pullback":1,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1081.HK",
     "name":"大金重工",
     "name_cn":"大金重工",
@@ -8613,6 +10241,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0659.HK",
     "name":"周大福创建",
     "name_cn":"周大福创建",
@@ -8628,6 +10257,23 @@
     "ma200_slope":0.94,
     "ma10_slope_pct":1.54,
     "days_in_state":1,
+=======
+    "ticker":"0868.HK",
+    "name":"信义玻璃",
+    "name_cn":"信义玻璃",
+    "gics_sector":"Industrials",
+    "sub_industry":"工业工程",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":8.775,
+    "ma10":9.031,
+    "ma20":9.06,
+    "ma60":8.902,
+    "ma200":9.189,
+    "ma200_slope":0.37,
+    "ma10_slope_pct":-0.63,
+    "days_in_state":3,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -8636,7 +10282,11 @@
     "sos_setup_recent":"",
     "recent_new_high_flag":false,
     "trending_to_pullback_recent":false,
+<<<<<<< HEAD
     "to_exit_recent":false,
+=======
+    "to_exit_recent":true,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "date":"2026-08-31"
   },
   {
@@ -8667,6 +10317,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0659.HK",
+    "name":"周大福创建",
+    "name_cn":"周大福创建",
+    "gics_sector":"Industrials",
+    "sub_industry":"综合企业",
+    "state":"POOL",
+    "substate":"",
+    "last_close":7.99,
+    "ma10":7.968,
+    "ma20":7.908,
+    "ma60":7.931,
+    "ma200":8.019,
+    "ma200_slope":0.94,
+    "ma10_slope_pct":1.54,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0038.HK",
     "name":"第一拖拉机股份",
     "name_cn":"第一拖拉机股份",
@@ -8694,6 +10374,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0868.HK",
     "name":"信义玻璃",
     "name_cn":"信义玻璃",
@@ -8721,6 +10402,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"3996.HK",
     "name":"中国能源建设",
     "name_cn":"中国能源建设",
@@ -8748,6 +10431,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"7618.HK",
     "name":"京东工业",
     "name_cn":"京东工业",
@@ -8775,6 +10459,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0552.HK",
     "name":"中国通信服务",
     "name_cn":"中国通信服务",
@@ -8802,6 +10488,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"7618.HK",
+    "name":"京东工业",
+    "name_cn":"京东工业",
+    "gics_sector":"Industrials",
+    "sub_industry":"工用支援",
+    "state":"POOL",
+    "substate":"",
+    "last_close":13.49,
+    "ma10":13.237,
+    "ma20":13.313,
+    "ma60":12.969,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":-1.14,
+    "days_in_state":2,
+    "days_in_pullback":3,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0656.HK",
     "name":"复星国际",
     "name_cn":"复星国际",
@@ -8883,6 +10599,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1729.HK",
     "name":"汇聚科技",
     "name_cn":"汇聚科技",
@@ -8910,6 +10627,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2866.HK",
     "name":"中远海发",
     "name_cn":"中远海发",
@@ -8937,6 +10656,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1729.HK",
+    "name":"汇聚科技",
+    "name_cn":"汇聚科技",
+    "gics_sector":"Information Technology",
+    "sub_industry":"资讯科技器材",
+    "state":"SETUP_OK",
+    "substate":"",
+    "last_close":17.88,
+    "ma10":15.905,
+    "ma20":15.816,
+    "ma60":16.116,
+    "ma200":17.031,
+    "ma200_slope":0.53,
+    "ma10_slope_pct":1.14,
+    "days_in_state":1,
+    "days_in_pullback":1,
+    "pullback_dd_pct":null,
+    "sos":"SOS-B",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-B",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2727.HK",
     "name":"上海电气",
     "name_cn":"上海电气",
@@ -9072,6 +10821,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3677.HK",
     "name":"正力新能",
     "name_cn":"正力新能",
@@ -9087,6 +10837,23 @@
     "ma200_slope":-6.08,
     "ma10_slope_pct":-7.59,
     "days_in_state":12,
+=======
+    "ticker":"1800.HK",
+    "name":"中国交通建设",
+    "name_cn":"中国交通建设",
+    "gics_sector":"Industrials",
+    "sub_industry":"建筑",
+    "state":"POOL",
+    "substate":"",
+    "last_close":3.615,
+    "ma10":3.657,
+    "ma20":3.708,
+    "ma60":3.799,
+    "ma200":4.473,
+    "ma200_slope":-2.61,
+    "ma10_slope_pct":-2.7,
+    "days_in_state":64,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -9126,6 +10893,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1800.HK",
     "name":"中国交通建设",
     "name_cn":"中国交通建设",
@@ -9141,6 +10909,23 @@
     "ma200_slope":-2.61,
     "ma10_slope_pct":-2.7,
     "days_in_state":64,
+=======
+    "ticker":"3677.HK",
+    "name":"正力新能",
+    "name_cn":"正力新能",
+    "gics_sector":"Industrials",
+    "sub_industry":"工业工程",
+    "state":"POOL",
+    "substate":"",
+    "last_close":5.155,
+    "ma10":5.214,
+    "ma20":5.428,
+    "ma60":5.742,
+    "ma200":7.704,
+    "ma200_slope":-6.08,
+    "ma10_slope_pct":-7.59,
+    "days_in_state":12,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -9288,6 +11073,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6168.HK",
     "name":"周六福",
     "name_cn":"周六福",
@@ -9315,6 +11101,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9690.HK",
     "name":"途虎-W",
     "name_cn":"途虎-W",
@@ -9342,6 +11130,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6168.HK",
+    "name":"周六福",
+    "name_cn":"周六福",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"专业零售",
+    "state":"POOL",
+    "substate":"",
+    "last_close":13.76,
+    "ma10":14.326,
+    "ma20":14.305,
+    "ma60":15.126,
+    "ma200":22.831,
+    "ma200_slope":-10.69,
+    "ma10_slope_pct":0.29,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0590.HK",
     "name":"六福集团",
     "name_cn":"六福集团",
@@ -9531,6 +11349,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"9869.HK",
     "name":"海伦司",
     "name_cn":"海伦司",
@@ -9558,6 +11377,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1999.HK",
     "name":"敏华控股",
     "name_cn":"敏华控股",
@@ -9585,6 +11406,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"9869.HK",
+    "name":"海伦司",
+    "name_cn":"海伦司",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"旅游及消闲设施",
+    "state":"TRENDING",
+    "substate":"",
+    "last_close":1.64,
+    "ma10":1.62,
+    "ma20":1.611,
+    "ma60":1.708,
+    "ma200":1.167,
+    "ma200_slope":5.59,
+    "ma10_slope_pct":1.06,
+    "days_in_state":9,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0696.HK",
     "name":"中国民航信息网络",
     "name_cn":"中国民航信息网络",
@@ -10044,6 +11895,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1359.HK",
     "name":"中国信达",
     "name_cn":"中国信达",
@@ -10071,6 +11923,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2799.HK",
     "name":"中信金融资产",
     "name_cn":"中信金融资产",
@@ -10098,6 +11952,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"1359.HK",
+    "name":"中国信达",
+    "name_cn":"中国信达",
+    "gics_sector":"Financials",
+    "sub_industry":"其他金融",
+    "state":"POOL",
+    "substate":"",
+    "last_close":0.925,
+    "ma10":0.923,
+    "ma20":0.929,
+    "ma60":0.959,
+    "ma200":1.113,
+    "ma200_slope":-2.59,
+    "ma10_slope_pct":-1.34,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"9636.HK",
     "name":"九方智投控股",
     "name_cn":"九方智投控股",
@@ -10125,6 +12009,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"3887.HK",
+    "name":"HASHKEY HLDGS",
+    "name_cn":"HASHKEY HLDGS",
+    "gics_sector":"Financials",
+    "sub_industry":"其他金融",
+    "state":"TRENDING",
+    "substate":"NEW",
+    "last_close":2.605,
+    "ma10":2.7,
+    "ma20":2.529,
+    "ma60":2.23,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":14.48,
+    "days_in_state":9,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2858.HK",
     "name":"易鑫集团",
     "name_cn":"易鑫集团",
@@ -10179,6 +12093,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3887.HK",
     "name":"HASHKEY HLDGS",
     "name_cn":"HASHKEY HLDGS",
@@ -10206,6 +12121,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0345.HK",
     "name":"维他奶国际",
     "name_cn":"维他奶国际",
@@ -10233,6 +12150,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6979.HK",
+    "name":"珍酒李渡",
+    "name_cn":"珍酒李渡",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"食物饮品",
+    "state":"POOL",
+    "substate":"",
+    "last_close":7.81,
+    "ma10":7.915,
+    "ma20":7.861,
+    "ma60":7.723,
+    "ma200":8.279,
+    "ma200_slope":-1.18,
+    "ma10_slope_pct":1.39,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0220.HK",
     "name":"统一企业中国",
     "name_cn":"统一企业中国",
@@ -10287,6 +12234,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6979.HK",
     "name":"珍酒李渡",
     "name_cn":"珍酒李渡",
@@ -10314,6 +12262,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2460.HK",
     "name":"华润饮料",
     "name_cn":"华润饮料",
@@ -10368,6 +12318,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1187.HK",
     "name":"可孚医疗",
     "name_cn":"可孚医疗",
@@ -10388,6 +12339,28 @@
     "sos":"",
     "bear_gate":false,
     "is_new_stock":true,
+=======
+    "ticker":"1610.HK",
+    "name":"中粮家佳康",
+    "name_cn":"中粮家佳康",
+    "gics_sector":"Consumer Staples",
+    "sub_industry":"农业产品",
+    "state":"POOL",
+    "substate":"",
+    "last_close":1.065,
+    "ma10":1.115,
+    "ma20":1.11,
+    "ma60":1.087,
+    "ma200":1.383,
+    "ma200_slope":-4.09,
+    "ma10_slope_pct":0.81,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "sos_setup_recent":"",
     "recent_new_high_flag":false,
     "trending_to_pullback_recent":false,
@@ -10422,6 +12395,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"1610.HK",
     "name":"中粮家佳康",
     "name_cn":"中粮家佳康",
@@ -10442,6 +12416,28 @@
     "sos":"",
     "bear_gate":false,
     "is_new_stock":false,
+=======
+    "ticker":"1187.HK",
+    "name":"可孚医疗",
+    "name_cn":"可孚医疗",
+    "gics_sector":"Health Care",
+    "sub_industry":"其他医疗保健",
+    "state":"TRENDING",
+    "substate":"NEW",
+    "last_close":32.84,
+    "ma10":32.38,
+    "ma20":32.203,
+    "ma60":31.872,
+    "ma200":null,
+    "ma200_slope":null,
+    "ma10_slope_pct":1.11,
+    "days_in_state":2,
+    "days_in_pullback":4,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "sos_setup_recent":"",
     "recent_new_high_flag":false,
     "trending_to_pullback_recent":false,
@@ -10557,6 +12553,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0874.HK",
     "name":"白云山",
     "name_cn":"白云山",
@@ -10584,6 +12581,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1099.HK",
     "name":"国药控股",
     "name_cn":"国药控股",
@@ -10611,6 +12610,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0874.HK",
+    "name":"白云山",
+    "name_cn":"白云山",
+    "gics_sector":"Health Care",
+    "sub_industry":"药品及生物科技",
+    "state":"POOL",
+    "substate":"",
+    "last_close":13.89,
+    "ma10":14.49,
+    "ma20":14.944,
+    "ma60":15.136,
+    "ma200":16.782,
+    "ma200_slope":-1.59,
+    "ma10_slope_pct":-5.9,
+    "days_in_state":17,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2158.HK",
     "name":"医渡科技",
     "name_cn":"医渡科技",
@@ -10746,6 +12775,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2192.HK",
     "name":"医脉通",
     "name_cn":"医脉通",
@@ -10773,6 +12803,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2609.HK",
     "name":"佰泽医疗",
     "name_cn":"佰泽医疗",
@@ -10800,6 +12832,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2192.HK",
+    "name":"医脉通",
+    "name_cn":"医脉通",
+    "gics_sector":"Health Care",
+    "sub_industry":"其他医疗保健",
+    "state":"POOL",
+    "substate":"",
+    "last_close":7.65,
+    "ma10":7.662,
+    "ma20":7.784,
+    "ma60":7.437,
+    "ma200":8.746,
+    "ma200_slope":-3.8,
+    "ma10_slope_pct":-3.08,
+    "days_in_state":11,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0853.HK",
     "name":"微创医疗",
     "name_cn":"微创医疗",
@@ -10854,6 +12916,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2276.HK",
     "name":"康耐特光学",
     "name_cn":"康耐特光学",
@@ -10881,6 +12944,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2587.HK",
     "name":"健康之路",
     "name_cn":"健康之路",
@@ -10908,6 +12973,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2276.HK",
+    "name":"康耐特光学",
+    "name_cn":"康耐特光学",
+    "gics_sector":"Health Care",
+    "sub_industry":"其他医疗保健",
+    "state":"SETUP_OK",
+    "substate":"",
+    "last_close":44.78,
+    "ma10":42.354,
+    "ma20":39.597,
+    "ma60":35.497,
+    "ma200":47.286,
+    "ma200_slope":-0.43,
+    "ma10_slope_pct":14.97,
+    "days_in_state":5,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-C",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2160.HK",
     "name":"微创心通-B",
     "name_cn":"微创心通-B",
@@ -10989,6 +13084,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2378.HK",
     "name":"保诚",
     "name_cn":"保诚",
@@ -11016,6 +13112,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1508.HK",
     "name":"中国再保险",
     "name_cn":"中国再保险",
@@ -11043,6 +13141,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2378.HK",
+    "name":"保诚",
+    "name_cn":"保诚",
+    "gics_sector":"Financials",
+    "sub_industry":"保险",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":107.4,
+    "ma10":109.26,
+    "ma20":109.36,
+    "ma60":108.103,
+    "ma200":113.585,
+    "ma200_slope":0.43,
+    "ma10_slope_pct":-0.18,
+    "days_in_state":2,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1828.HK",
     "name":"富卫集团",
     "name_cn":"富卫集团",
@@ -11556,6 +13684,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0917.HK",
     "name":"趣致集团",
     "name_cn":"趣致集团",
@@ -11583,6 +13712,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2493.HK",
     "name":"迈威生物-B",
     "name_cn":"迈威生物-B",
@@ -11610,6 +13741,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0917.HK",
+    "name":"趣致集团",
+    "name_cn":"趣致集团",
+    "gics_sector":"Communication Services",
+    "sub_industry":"媒体及娱乐",
+    "state":"POOL",
+    "substate":"",
+    "last_close":9.365,
+    "ma10":8.721,
+    "ma20":8.454,
+    "ma60":8.765,
+    "ma200":18.407,
+    "ma200_slope":-15.77,
+    "ma10_slope_pct":6.53,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6821.HK",
     "name":"凯莱英",
     "name_cn":"凯莱英",
@@ -12150,6 +14311,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0460.HK",
     "name":"四环医药",
     "name_cn":"四环医药",
@@ -12177,6 +14339,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6855.HK",
     "name":"亚盛医药-B",
     "name_cn":"亚盛医药-B",
@@ -12204,6 +14368,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0460.HK",
+    "name":"四环医药",
+    "name_cn":"四环医药",
+    "gics_sector":"Health Care",
+    "sub_industry":"药品及生物科技",
+    "state":"POOL",
+    "substate":"",
+    "last_close":0.75,
+    "ma10":0.838,
+    "ma20":0.86,
+    "ma60":0.878,
+    "ma200":1.195,
+    "ma200_slope":-5.11,
+    "ma10_slope_pct":-4.93,
+    "days_in_state":3,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6185.HK",
     "name":"康希诺生物",
     "name_cn":"康希诺生物",
@@ -12258,6 +14452,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2591.HK",
     "name":"银诺医药-B",
     "name_cn":"银诺医药-B",
@@ -12285,6 +14480,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0570.HK",
     "name":"中国中药",
     "name_cn":"中国中药",
@@ -12312,6 +14509,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2591.HK",
+    "name":"银诺医药-B",
+    "name_cn":"银诺医药-B",
+    "gics_sector":"Health Care",
+    "sub_industry":"药品及生物科技",
+    "state":"POOL",
+    "substate":"",
+    "last_close":3.635,
+    "ma10":4.044,
+    "ma20":5.488,
+    "ma60":7.146,
+    "ma200":20.049,
+    "ma200_slope":-12.26,
+    "ma10_slope_pct":-41.66,
+    "days_in_state":64,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2565.HK",
     "name":"派格生物医药-B",
     "name_cn":"派格生物医药-B",
@@ -12447,6 +14674,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0010.HK",
     "name":"恒隆集团",
     "name_cn":"恒隆集团",
@@ -12474,6 +14702,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2602.HK",
     "name":"万物云",
     "name_cn":"万物云",
@@ -12501,13 +14731,20 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0017.HK",
     "name":"新世界发展",
     "name_cn":"新世界发展",
+=======
+    "ticker":"0010.HK",
+    "name":"恒隆集团",
+    "name_cn":"恒隆集团",
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "gics_sector":"Real Estate",
     "sub_industry":"地产",
     "state":"POOL",
     "substate":"",
+<<<<<<< HEAD
     "last_close":6.59,
     "ma10":6.908,
     "ma20":6.915,
@@ -12516,6 +14753,16 @@
     "ma200_slope":-0.86,
     "ma10_slope_pct":-0.2,
     "days_in_state":11,
+=======
+    "last_close":12.39,
+    "ma10":12.66,
+    "ma20":12.824,
+    "ma60":13.055,
+    "ma200":14.463,
+    "ma200_slope":-0.79,
+    "ma10_slope_pct":-2.52,
+    "days_in_state":3,
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "days_in_pullback":0,
     "pullback_dd_pct":null,
     "sos":"",
@@ -12582,6 +14829,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0017.HK",
+    "name":"新世界发展",
+    "name_cn":"新世界发展",
+    "gics_sector":"Real Estate",
+    "sub_industry":"地产",
+    "state":"POOL",
+    "substate":"",
+    "last_close":6.59,
+    "ma10":6.908,
+    "ma20":6.915,
+    "ma60":6.877,
+    "ma200":8.091,
+    "ma200_slope":-0.86,
+    "ma10_slope_pct":-0.2,
+    "days_in_state":11,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0604.HK",
     "name":"深圳控股",
     "name_cn":"深圳控股",
@@ -12663,6 +14940,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"3990.HK",
     "name":"美的置业",
     "name_cn":"美的置业",
@@ -12690,6 +14968,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1516.HK",
     "name":"融创服务",
     "name_cn":"融创服务",
@@ -12717,6 +14997,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"3990.HK",
+    "name":"美的置业",
+    "name_cn":"美的置业",
+    "gics_sector":"Real Estate",
+    "sub_industry":"地产",
+    "state":"POOL",
+    "substate":"",
+    "last_close":2.265,
+    "ma10":2.417,
+    "ma20":2.5,
+    "ma60":2.629,
+    "ma200":3.326,
+    "ma200_slope":-5.25,
+    "ma10_slope_pct":-6.46,
+    "days_in_state":49,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2007.HK",
     "name":"碧桂园",
     "name_cn":"碧桂园",
@@ -12798,6 +15108,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2577.HK",
+    "name":"英诺赛科",
+    "name_cn":"英诺赛科",
+    "gics_sector":"Information Technology",
+    "sub_industry":"半导体",
+    "state":"POOL",
+    "substate":"",
+    "last_close":45.7,
+    "ma10":45.432,
+    "ma20":45.05,
+    "ma60":51.885,
+    "ma200":62.258,
+    "ma200_slope":-4.82,
+    "ma10_slope_pct":1.71,
+    "days_in_state":27,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2865.HK",
     "name":"钧达股份",
     "name_cn":"钧达股份",
@@ -12852,6 +15192,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2577.HK",
     "name":"英诺赛科",
     "name_cn":"英诺赛科",
@@ -12879,6 +15220,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2556.HK",
     "name":"迈富时",
     "name_cn":"迈富时",
@@ -13014,6 +15357,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"6682.HK",
     "name":"范式智能",
     "name_cn":"范式智能",
@@ -13041,6 +15385,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1384.HK",
     "name":"滴普科技",
     "name_cn":"滴普科技",
@@ -13068,6 +15414,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"6682.HK",
+    "name":"范式智能",
+    "name_cn":"范式智能",
+    "gics_sector":"Information Technology",
+    "sub_industry":"软件服务",
+    "state":"SETUP_OK",
+    "substate":"",
+    "last_close":28.02,
+    "ma10":26.904,
+    "ma20":28.278,
+    "ma60":27.727,
+    "ma200":37.897,
+    "ma200_slope":-6.8,
+    "ma10_slope_pct":-9.27,
+    "days_in_state":2,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-B",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0268.HK",
     "name":"金蝶国际",
     "name_cn":"金蝶国际",
@@ -13095,6 +15471,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0909.HK",
     "name":"明源云",
     "name_cn":"明源云",
@@ -13122,6 +15499,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"6687.HK",
     "name":"聚水潭",
     "name_cn":"聚水潭",
@@ -13176,6 +15555,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0909.HK",
+    "name":"明源云",
+    "name_cn":"明源云",
+    "gics_sector":"Information Technology",
+    "sub_industry":"软件服务",
+    "state":"POOL",
+    "substate":"",
+    "last_close":1.19,
+    "ma10":1.276,
+    "ma20":1.294,
+    "ma60":1.387,
+    "ma200":2.215,
+    "ma200_slope":-7.53,
+    "ma10_slope_pct":-2.86,
+    "days_in_state":59,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"2477.HK",
     "name":"经纬天地",
     "name_cn":"经纬天地",
@@ -13257,6 +15666,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2498.HK",
     "name":"速腾聚创",
     "name_cn":"速腾聚创",
@@ -13284,6 +15694,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0303.HK",
     "name":"伟易达",
     "name_cn":"伟易达",
@@ -13311,6 +15723,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2498.HK",
+    "name":"速腾聚创",
+    "name_cn":"速腾聚创",
+    "gics_sector":"Information Technology",
+    "sub_industry":"软件服务",
+    "state":"EXIT",
+    "substate":"",
+    "last_close":18.06,
+    "ma10":19.689,
+    "ma20":21.42,
+    "ma60":23.185,
+    "ma200":31.056,
+    "ma200_slope":-4.43,
+    "ma10_slope_pct":-14.96,
+    "days_in_state":4,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"SOS-B",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":true,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0638.HK",
     "name":"广和通",
     "name_cn":"广和通",
@@ -13392,6 +15834,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"0315.HK",
     "name":"数码通电讯",
     "name_cn":"数码通电讯",
@@ -13419,6 +15862,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"1310.HK",
     "name":"香港宽频",
     "name_cn":"香港宽频",
@@ -13473,6 +15918,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"0315.HK",
+    "name":"数码通电讯",
+    "name_cn":"数码通电讯",
+    "gics_sector":"Communication Services",
+    "sub_industry":"电讯",
+    "state":"POOL",
+    "substate":"",
+    "last_close":4.815,
+    "ma10":4.795,
+    "ma20":4.802,
+    "ma60":4.786,
+    "ma200":4.83,
+    "ma200_slope":0.69,
+    "ma10_slope_pct":-0.3,
+    "days_in_state":1,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":false,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0995.HK",
     "name":"安徽皖通高速公路",
     "name_cn":"安徽皖通高速公路",
@@ -13797,6 +16272,7 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
     "ticker":"2643.HK",
     "name":"曹操出行",
     "name_cn":"曹操出行",
@@ -13824,6 +16300,8 @@
     "date":"2026-08-31"
   },
   {
+=======
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0694.HK",
     "name":"北京首都机场股份",
     "name_cn":"北京首都机场股份",
@@ -13851,6 +16329,36 @@
     "date":"2026-08-31"
   },
   {
+<<<<<<< HEAD
+=======
+    "ticker":"2643.HK",
+    "name":"曹操出行",
+    "name_cn":"曹操出行",
+    "gics_sector":"Consumer Discretionary",
+    "sub_industry":"旅游及消闲设施",
+    "state":"POOL",
+    "substate":"",
+    "last_close":14.3,
+    "ma10":13.935,
+    "ma20":14.551,
+    "ma60":18.964,
+    "ma200":29.14,
+    "ma200_slope":-10.69,
+    "ma10_slope_pct":-8.12,
+    "days_in_state":45,
+    "days_in_pullback":0,
+    "pullback_dd_pct":null,
+    "sos":"",
+    "bear_gate":false,
+    "is_new_stock":true,
+    "sos_setup_recent":"",
+    "recent_new_high_flag":false,
+    "trending_to_pullback_recent":false,
+    "to_exit_recent":false,
+    "date":"2026-08-31"
+  },
+  {
+>>>>>>> 92e37d7 (Update scan data 2026-08-31 15:17 UTC)
     "ticker":"0357.HK",
     "name":"美兰空港",
     "name_cn":"美兰空港",
