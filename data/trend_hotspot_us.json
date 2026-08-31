@@ -190,7 +190,7 @@
         "share_5d": 6.99,
         "share5_pctile200": 68.0,
         "ret_60": 0.208,
-        "composite": 1.208
+        "composite": 1.206
       },
       {
         "sector": "Energy",
@@ -206,7 +206,7 @@
         "share_5d": 2.99,
         "share5_pctile200": 66.0,
         "ret_60": 0.073,
-        "composite": 1.106
+        "composite": 1.105
       },
       {
         "sector": "Tech",
@@ -222,7 +222,7 @@
         "share_5d": 47.19,
         "share5_pctile200": 67.0,
         "ret_60": -0.084,
-        "composite": 0.172
+        "composite": 0.171
       },
       {
         "sector": "Consumer Def",
@@ -238,7 +238,7 @@
         "share_5d": 3.22,
         "share5_pctile200": 50.0,
         "ret_60": 0.094,
-        "composite": 0.084
+        "composite": 0.083
       },
       {
         "sector": "Basic Mat",
@@ -254,7 +254,7 @@
         "share_5d": 2.82,
         "share5_pctile200": 62.0,
         "ret_60": 0.028,
-        "composite": 0.059
+        "composite": 0.058
       },
       {
         "sector": "Fin Svc",
@@ -270,7 +270,7 @@
         "share_5d": 9.17,
         "share5_pctile200": 36.0,
         "ret_60": 0.104,
-        "composite": 0.055
+        "composite": 0.054
       },
       {
         "sector": "Comm Svc",
@@ -300,9 +300,9 @@
         "amt_5d_yi": 367.52,
         "share_1d": 6.65,
         "share_5d": 7.23,
-        "share5_pctile200": 59.0,
+        "share5_pctile200": 59.5,
         "ret_60": -0.067,
-        "composite": -0.293
+        "composite": -0.288
       },
       {
         "sector": "Consumer Cyc",
@@ -334,7 +334,7 @@
         "share_5d": 1.46,
         "share5_pctile200": 28.5,
         "ret_60": -0.068,
-        "composite": -0.868
+        "composite": -0.869
       },
       {
         "sector": "Real Estate",
@@ -350,7 +350,7 @@
         "share_5d": 0.83,
         "share5_pctile200": 6.0,
         "ret_60": 0.019,
-        "composite": -1.032
+        "composite": -1.031
       }
     ]
   },
@@ -2683,8 +2683,8 @@
       "pctile_now": 79.5,
       "pctile_ago": 93.5,
       "delta10": -14.0,
-      "amt5_now_yi": 643.85,
-      "amt5_chg_pct": -51.3,
+      "amt5_now_yi": 646.82,
+      "amt5_chg_pct": -51.1,
       "flag": ""
     },
     {
