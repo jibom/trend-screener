@@ -657,6 +657,7 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热细分</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">最热个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
       `;
@@ -700,15 +701,7 @@
       html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
 
-      // ── Part 2: 最热个股 top30 ──
-      const p2 = d.part2 || [];
-      const p2Rows = p2.map(e => [
-        tk(e.ticker, 'part2'), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), yn(e.ma_aligned), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`]);
-      html += trendSection('Part 2 · 趋势个股 (60日涨幅>10%, hotness 排序, ≤30)', p2.length,
-        trendTable(['代码','名称','细分行业','收盘','距250高','量放','5日均额排','60日涨幅','多头','MA10','热度分'], p2Rows));
-
-      // ── Part 3: SOS 异动个股 (Wyckoff Sign of Strength: 低位/均线纠缠平台放量中大阳, 排除Part2/4) ──
+      // ── Part 2: SOS 异动个股 (Wyckoff Sign of Strength: 低位/纠缠平台/Stage突破放量中大阳, 全量显示) ──
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
@@ -721,10 +714,18 @@
         e.ret_1d != null ? `<span class="chg-pos">+${e.ret_1d}%</span>` : '-',
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
         num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness)]);
-      html += trendSection('Part 3 · SOS 当日 (最新一根, Wyckoff Sign of Strength: 低位/均线纠缠平台放量中大阳, 已排除Part2/4)', sosToday.length,
+      html += trendSection('Part 2 · SOS 当日 (最新一根, Wyckoff Sign of Strength: 低位/纠缠平台/Stage突破的放量中大阳, 全量)', sosToday.length,
         trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sosToday)));
-      html += trendSection('Part 3b · SOS 3日内 (最新根之前的3根内触发, 已排除Part2/4)', sos3d.length,
+      html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
         trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sos3d)));
+
+      // ── Part 3: 最热个股 top30 ──
+      const p2 = d.part2 || [];
+      const p2Rows = p2.map(e => [
+        tk(e.ticker, 'part2'), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
+        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), yn(e.ma_aligned), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`]);
+      html += trendSection('Part 3 · 趋势个股 (60日涨幅>10%, hotness 排序, ≤30, 已排除SOS)', p2.length,
+        trendTable(['代码','名称','细分行业','收盘','距250高','量放','5日均额排','60日涨幅','多头','MA10','热度分'], p2Rows));
 
       // ── Part 4: 回调买点 ──
       const p4 = d.part4 || [];
@@ -770,6 +771,7 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热行业</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
       `;
@@ -921,6 +923,7 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热申万三级</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
       `;

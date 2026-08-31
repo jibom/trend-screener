@@ -924,23 +924,42 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "hotness": -0.214
-    },
+    }
+  ],
+  "part3": [
     {
       "ticker": "002155.SZ",
       "name": "湖南黄金",
       "sub_industry": "黄金",
-      "sector": "有色金属",
       "close": 28.92,
-      "pct_high_250": 0.707,
-      "amt_surge": 0.71,
-      "amt_rank": 0.531,
-      "ret_60": 0.178,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
+      "ret_1d": 7.0,
+      "ret_3d": 17.8,
+      "vol_ratio": 3.81,
+      "trigger": "SOS",
       "hotness": -0.284
-    }
-  ],
-  "part3": [
+    },
+    {
+      "ticker": "000062.SZ",
+      "name": "深圳华强",
+      "sub_industry": "其他电子",
+      "close": 24.85,
+      "ret_1d": 10.0,
+      "ret_3d": 12.2,
+      "vol_ratio": 2.61,
+      "trigger": "SOS",
+      "hotness": -0.842
+    },
+    {
+      "ticker": "601233.SH",
+      "name": "桐昆股份",
+      "sub_industry": "其他石化",
+      "close": 27.45,
+      "ret_1d": 5.6,
+      "ret_3d": 15.8,
+      "vol_ratio": 2.25,
+      "trigger": "SOS",
+      "hotness": 1.025
+    },
     {
       "ticker": "000878.SZ",
       "name": "云南铜业",
@@ -949,8 +968,107 @@
       "ret_1d": 4.1,
       "ret_3d": 10.4,
       "vol_ratio": 2.24,
-      "trigger": "SOS 3日",
+      "trigger": "SOS+3日",
       "hotness": -0.502
+    },
+    {
+      "ticker": "002129.SZ",
+      "name": "TCL中环",
+      "sub_industry": "硅料硅片",
+      "close": 9.82,
+      "ret_1d": 6.9,
+      "ret_3d": 6.5,
+      "vol_ratio": 1.81,
+      "trigger": "SOS",
+      "hotness": 0.151
+    },
+    {
+      "ticker": "300456.SZ",
+      "name": "赛微电子",
+      "sub_industry": "集成电路制造",
+      "close": 40.4,
+      "ret_1d": 9.0,
+      "ret_3d": 30.2,
+      "vol_ratio": 4.28,
+      "trigger": "SOS 3日",
+      "hotness": -0.454
+    },
+    {
+      "ticker": "688183.SH",
+      "name": "生益电子",
+      "sub_industry": "印制电路板",
+      "close": 131.2,
+      "ret_1d": 7.8,
+      "ret_3d": 27.4,
+      "vol_ratio": 2.2,
+      "trigger": "SOS 3日",
+      "hotness": 0.643
+    },
+    {
+      "ticker": "600869.SH",
+      "name": "远东股份",
+      "sub_industry": "线缆部件及其他",
+      "close": 18.65,
+      "ret_1d": 3.9,
+      "ret_3d": 15.1,
+      "vol_ratio": 1.78,
+      "trigger": "SOS 3日",
+      "hotness": 0.661
+    },
+    {
+      "ticker": "300085.SZ",
+      "name": "银之杰",
+      "sub_industry": "垂直应用软件",
+      "close": 31.82,
+      "ret_1d": 0.5,
+      "ret_3d": 10.2,
+      "vol_ratio": 1.76,
+      "trigger": "SOS 3日",
+      "hotness": -0.52
+    },
+    {
+      "ticker": "600345.SH",
+      "name": "长江通信",
+      "sub_industry": "其他通信设备",
+      "close": 51.05,
+      "ret_1d": -1.9,
+      "ret_3d": 6.4,
+      "vol_ratio": 1.74,
+      "trigger": "SOS 3日",
+      "hotness": -0.267
+    },
+    {
+      "ticker": "688772.SH",
+      "name": "珠海冠宇",
+      "sub_industry": "锂电池",
+      "close": 15.63,
+      "ret_1d": 4.0,
+      "ret_3d": 11.2,
+      "vol_ratio": 1.69,
+      "trigger": "SOS 3日",
+      "hotness": -0.705
+    },
+    {
+      "ticker": "002837.SZ",
+      "name": "英维克",
+      "sub_industry": "其他专用设备",
+      "close": 64.48,
+      "ret_1d": -2.3,
+      "ret_3d": 7.1,
+      "vol_ratio": 1.65,
+      "trigger": "SOS 3日",
+      "hotness": 0.012
+    },
+    {
+      "ticker": "301373.SZ",
+      "name": "凌玮科技",
+      "sub_industry": "其他化学制品",
+      "close": 111.64,
+      "ret_1d": -4.4,
+      "ret_3d": 17.5,
+      "vol_ratio": 1.58,
+      "trigger": "SOS 3日",
+      "hotness": -0.049
     },
     {
       "ticker": "000737.SZ",
@@ -964,15 +1082,81 @@
       "hotness": 0.078
     },
     {
-      "ticker": "000630.SZ",
-      "name": "铜陵有色",
-      "sub_industry": "铜",
-      "close": 6.76,
-      "ret_1d": 0.0,
-      "ret_3d": 5.1,
-      "vol_ratio": 1.05,
+      "ticker": "300803.SZ",
+      "name": "指南针",
+      "sub_industry": "垂直应用软件",
+      "close": 86.18,
+      "ret_1d": -1.5,
+      "ret_3d": 7.9,
+      "vol_ratio": 1.32,
       "trigger": "SOS 3日",
-      "hotness": 0.27
+      "hotness": -0.676
+    },
+    {
+      "ticker": "600999.SH",
+      "name": "招商证券",
+      "sub_industry": "证券",
+      "close": 18.71,
+      "ret_1d": 0.3,
+      "ret_3d": 5.9,
+      "vol_ratio": 0.97,
+      "trigger": "SOS 3日",
+      "hotness": 0.742
+    },
+    {
+      "ticker": "301018.SZ",
+      "name": "申菱环境",
+      "sub_industry": "制冷空调设备",
+      "close": 103.17,
+      "ret_1d": -4.4,
+      "ret_3d": -1.0,
+      "vol_ratio": 0.96,
+      "trigger": "SOS 3日",
+      "hotness": 0.55
+    },
+    {
+      "ticker": "601696.SH",
+      "name": "中银证券",
+      "sub_industry": "证券",
+      "close": 12.08,
+      "ret_1d": -0.9,
+      "ret_3d": 4.0,
+      "vol_ratio": 0.95,
+      "trigger": "SOS 3日",
+      "hotness": -0.598
+    },
+    {
+      "ticker": "600114.SH",
+      "name": "东睦股份",
+      "sub_industry": "金属制品",
+      "close": 30.42,
+      "ret_1d": -2.6,
+      "ret_3d": 3.4,
+      "vol_ratio": 0.85,
+      "trigger": "SOS 3日",
+      "hotness": -0.137
+    },
+    {
+      "ticker": "002179.SZ",
+      "name": "中航光电",
+      "sub_industry": "军工电子",
+      "close": 35.18,
+      "ret_1d": -0.9,
+      "ret_3d": 5.4,
+      "vol_ratio": 0.79,
+      "trigger": "SOS 3日",
+      "hotness": -0.091
+    },
+    {
+      "ticker": "603993.SH",
+      "name": "洛阳钼业",
+      "sub_industry": "钼",
+      "close": 19.51,
+      "ret_1d": 0.0,
+      "ret_3d": 5.9,
+      "vol_ratio": 0.72,
+      "trigger": "SOS 3日",
+      "hotness": 0.395
     }
   ],
   "part4": [
