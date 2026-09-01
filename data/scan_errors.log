@@ -1,17 +1,25 @@
-2026-08-31 15:02:19,412 $6606.HK: possibly delisted; no price data found  (1d 2026-07-02 -> 2026-09-01)
-2026-08-31 15:02:19,427 
+2026-09-01 00:12:46,574 $6606.HK: possibly delisted; no price data found  (1d 2026-07-03 -> 2026-09-02)
+2026-09-01 00:12:46,580 
 1 Failed download:
-2026-08-31 15:02:19,427 ['6606.HK']: possibly delisted; no price data found  (1d 2026-07-02 -> 2026-09-01)
-2026-08-31 15:02:28,866 $0973.HK: possibly delisted; no timezone found
-2026-08-31 15:02:28,866 
+2026-09-01 00:12:46,580 ['6606.HK']: possibly delisted; no price data found  (1d 2026-07-03 -> 2026-09-02)
+2026-09-01 00:12:55,751 $0973.HK: possibly delisted; no timezone found
+2026-09-01 00:12:55,758 
 1 Failed download:
-2026-08-31 15:02:28,866 ['0973.HK']: possibly delisted; no timezone found
-2026-08-31 15:02:43,789 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1558.HK"}}}
-2026-08-31 15:02:43,899 $1558.HK: possibly delisted; no timezone found
-2026-08-31 15:02:43,905 
+2026-09-01 00:12:55,758 ['0973.HK']: possibly delisted; no timezone found
+2026-09-01 00:13:08,945 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1558.HK"}}}
+2026-09-01 00:13:09,084 $1558.HK: possibly delisted; no timezone found
+2026-09-01 00:13:09,093 
 1 Failed download:
-2026-08-31 15:02:43,905 ['1558.HK']: possibly delisted; no timezone found
-2026-08-31 15:02:59,038 $9666.HK: possibly delisted; no timezone found
-2026-08-31 15:02:59,045 
+2026-09-01 00:13:09,093 ['1558.HK']: possibly delisted; no timezone found
+2026-09-01 00:13:18,679 $2627.HK: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-02)
+2026-09-01 00:13:18,687 
 1 Failed download:
-2026-08-31 15:02:59,045 ['9666.HK']: possibly delisted; no timezone found
+2026-09-01 00:13:18,687 ['2627.HK']: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-02)
+2026-09-01 00:13:20,432 $2629.HK: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-02)
+2026-09-01 00:13:20,438 
+1 Failed download:
+2026-09-01 00:13:20,438 ['2629.HK']: possibly delisted; no price data found  (1d 2026-09-01 -> 2026-09-02)
+2026-09-01 00:13:22,555 $9666.HK: possibly delisted; no timezone found
+2026-09-01 00:13:22,560 
+1 Failed download:
+2026-09-01 00:13:22,560 ['9666.HK']: possibly delisted; no timezone found
