@@ -109,13 +109,13 @@
       "pct_high_250": 0.986,
       "pct_high_126": 0.986,
       "nh_ratio_126": 0.079,
-      "amt_surge": 0.892,
+      "amt_surge": 0.891,
       "amt_rank": 0.65,
       "ret_60": 0.047,
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "ma_stack": 0,
-      "hotness": 1.013
+      "hotness": 1.012
     },
     {
       "ticker": "XLF.US",
@@ -189,7 +189,7 @@
       "pct_high_250": 1.0,
       "pct_high_126": 1.0,
       "nh_ratio_126": 0.135,
-      "amt_surge": 0.885,
+      "amt_surge": 0.886,
       "amt_rank": 0.768,
       "ret_60": 0.167,
       "ma_aligned": 1,
@@ -623,7 +623,7 @@
       "pct_high_250": 1.0,
       "pct_high_126": 1.0,
       "nh_ratio_126": 0.135,
-      "amt_surge": 0.885,
+      "amt_surge": 0.886,
       "amt_rank": 0.768,
       "ret_60": 0.167,
       "ma_aligned": 1,
@@ -639,7 +639,7 @@
       "pct_high_250": 0.941,
       "pct_high_126": 0.941,
       "nh_ratio_126": 0.119,
-      "amt_surge": 1.581,
+      "amt_surge": 1.58,
       "amt_rank": 0.537,
       "ret_60": 0.111,
       "ma_aligned": 0,
@@ -1049,7 +1049,7 @@
       "ret_60": 0.047,
       "ma_aligned": 1,
       "days_below_ma10": 4,
-      "hotness": 1.013
+      "hotness": 1.012
     },
     {
       "ticker": "XLF.US",
@@ -1313,7 +1313,7 @@
       "ret_60": 0.038,
       "ma_aligned": 0,
       "days_below_ma10": 12,
-      "hotness": 0.49
+      "hotness": 0.495
     },
     {
       "ticker": "IXUS.US",
@@ -1973,7 +1973,7 @@
       "ret_60": 0.019,
       "ma_aligned": 0,
       "days_below_ma10": 5,
-      "hotness": 0.018
+      "hotness": 0.019
     },
     {
       "ticker": "RSPG.US",
@@ -2226,7 +2226,7 @@
       "ret_60": 0.026,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.141
+      "hotness": -0.14
     },
     {
       "ticker": "IBIT.US",
@@ -2468,7 +2468,7 @@
       "ret_60": -0.004,
       "ma_aligned": 0,
       "days_below_ma10": 5,
-      "hotness": -0.359
+      "hotness": -0.366
     },
     {
       "ticker": "METV.US",
@@ -2644,7 +2644,7 @@
       "ret_60": -0.013,
       "ma_aligned": 1,
       "days_below_ma10": 3,
-      "hotness": -0.574
+      "hotness": -0.573
     },
     {
       "ticker": "SHLD.US",
