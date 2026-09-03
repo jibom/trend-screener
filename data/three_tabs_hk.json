@@ -1429,16 +1429,6 @@
       "last_close": 65.0
     },
     {
-      "ticker": "1908.HK",
-      "name_cn": "建发国际集团",
-      "gics_sector": "Real Estate",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 12.8
-    },
-    {
       "ticker": "0688.HK",
       "name_cn": "中国海外发展",
       "gics_sector": "Real Estate",
@@ -1457,6 +1447,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 1.35
+    },
+    {
+      "ticker": "1908.HK",
+      "name_cn": "建发国际集团",
+      "gics_sector": "Real Estate",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 12.8
     },
     {
       "ticker": "1030.HK",
