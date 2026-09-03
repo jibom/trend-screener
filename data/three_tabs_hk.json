@@ -1429,16 +1429,6 @@
       "last_close": 65.0
     },
     {
-      "ticker": "0688.HK",
-      "name_cn": "中国海外发展",
-      "gics_sector": "Real Estate",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 13.17
-    },
-    {
       "ticker": "1908.HK",
       "name_cn": "建发国际集团",
       "gics_sector": "Real Estate",
@@ -1447,6 +1437,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 12.8
+    },
+    {
+      "ticker": "0688.HK",
+      "name_cn": "中国海外发展",
+      "gics_sector": "Real Estate",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 13.17
     },
     {
       "ticker": "0817.HK",
@@ -1499,6 +1499,16 @@
       "last_close": 77.65
     },
     {
+      "ticker": "9999.HK",
+      "name_cn": "网易-S",
+      "gics_sector": "Communication Services",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 3,
+      "last_close": 183.0
+    },
+    {
       "ticker": "9618.HK",
       "name_cn": "京东集团-SW",
       "gics_sector": "Consumer Discretionary",
@@ -1517,16 +1527,6 @@
       "emoji": "🔴",
       "days_in_state": 3,
       "last_close": 91.5
-    },
-    {
-      "ticker": "9999.HK",
-      "name_cn": "网易-S",
-      "gics_sector": "Communication Services",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 183.0
     },
     {
       "ticker": "0772.HK",
