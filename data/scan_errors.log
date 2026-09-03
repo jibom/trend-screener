@@ -1,0 +1,17 @@
+2026-09-03 14:19:55,680 $6606.HK: possibly delisted; no price data found  (1d 2026-07-05 -> 2026-09-04)
+2026-09-03 14:19:55,685 
+1 Failed download:
+2026-09-03 14:19:55,686 ['6606.HK']: possibly delisted; no price data found  (1d 2026-07-05 -> 2026-09-04)
+2026-09-03 14:20:04,046 $0973.HK: possibly delisted; no timezone found
+2026-09-03 14:20:04,053 
+1 Failed download:
+2026-09-03 14:20:04,053 ['0973.HK']: possibly delisted; no timezone found
+2026-09-03 14:20:17,636 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1558.HK"}}}
+2026-09-03 14:20:17,743 $1558.HK: possibly delisted; no timezone found
+2026-09-03 14:20:17,753 
+1 Failed download:
+2026-09-03 14:20:17,753 ['1558.HK']: possibly delisted; no timezone found
+2026-09-03 14:20:31,415 $9666.HK: possibly delisted; no timezone found
+2026-09-03 14:20:31,415 
+1 Failed download:
+2026-09-03 14:20:31,415 ['9666.HK']: possibly delisted; no timezone found

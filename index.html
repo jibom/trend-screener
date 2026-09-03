@@ -475,9 +475,9 @@
       const sosCount = (tabData.tab1?.sos_section || []).length;
       const poolCount = (tabData.tab1?.pool_section || []).length;
       const entryTotal = sosCount + poolCount;
-      const trendCount = (trendData?.part4 || []).length;
-      const usCount = (usData?.part4 || []).length;
-      const aCount = (aData?.part2 || []).length;
+      const trendCount = (trendData?.bottom || []).length;
+      const usCount = (usData?.bottom || []).length;
+      const aCount = (aData?.bottom || []).length;
       const etfCount = (etfData?.part2 || []).length;
       const cetfCount = (cetfData?.part2 || []).length;
 
@@ -570,7 +570,7 @@
           const sections = [
             {key: 'part1c1', label: m.name + ' First New High'},
             {key: 'part1c2', label: m.name + ' Sustained New High'},
-            {key: 'part2',   label: m.name + ' Trending Up'},
+            {key: 'bottom',  label: m.name + ' Bottom Watch'},
           ];
           for (const sec of sections) {
             const tickers = (m.data[sec.key] || []).filter(r => r.ticker && !seen.has(r.ticker)).map(r => { seen.add(r.ticker); return toTV(r.ticker); });
@@ -635,6 +635,8 @@
     const pctRaw = v => v != null ? Number(v).toFixed(1) + '%' : '-';       // 已是%→%
     const signedR = v => v != null ? (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%' : '-';
     const num2 = v => v != null ? Number(v).toFixed(2) : '-';
+    const ser = a => (a || []).map(v => v == null ? '-' : (v >= 0 ? '+' : '') + Number(v).toFixed(1)).join('·') || '-';
+    const per = a => (a || []).join('·');
     const yn = v => v ? '<span style="color:#22c55e">✓</span>' : '<span class="muted-val">·</span>';
     const ma10warn = v => v > 3 ? `<span style="color:#ef5350;font-weight:700">⚠${v}</span>` : v > 0 ? `<span style="color:#fb8c00">${v}</span>` : '<span class="muted-val">·</span>';
 
@@ -658,8 +660,7 @@
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">最热个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
       `;
     }
 
@@ -689,11 +690,11 @@
         trendTable(['板块','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
 
       // ── Part 1c: 6月新高 (首次/持续) ──
-      const p1cCols = ['代码','名称','细分行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','MA10','热度分'];
+      const p1cCols = ['代码','名称','细分行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','营收YoY·4期','净利YoY·4期','ROE·4期','报告期','MA10','热度分'];
       const p1cRow = (e, sc) => [
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
@@ -713,51 +714,26 @@
         tk(e.ticker, 'part3'), e.name, e.sub_industry, num2(e.close),
         e.ret_1d != null ? `<span class="chg-pos">+${e.ret_1d}%</span>` : '-',
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
-        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness)]);
+        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness),
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, Wyckoff Sign of Strength: 低位/纠缠平台/Stage突破的放量中大阳, 全量)', sosToday.length,
-        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sosToday)));
+        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sosToday)));
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sos3d)));
+        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sos3d)));
 
       // ── Part 3: 最热个股 top30 ──
-      const p2 = d.part2 || [];
-      const p2Rows = p2.map(e => [
-        tk(e.ticker, 'part2'), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), yn(e.ma_aligned), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`]);
-      html += trendSection('Part 3 · 趋势个股 (60日涨幅>10%, hotness 排序, ≤30, 已排除SOS)', p2.length,
-        trendTable(['代码','名称','细分行业','收盘','距250高','量放','5日均额排','60日涨幅','多头','MA10','热度分'], p2Rows));
-
       // ── Part 4: 回调买点 ──
-      const p4 = d.part4 || [];
-      const sigStr = e => ['doji','shrink','entangle','kdj_div','at_support']
-        .map((k,i) => `<span style="color:${e[k]?'#22c55e':'var(--text-muted)'}">${'DSEKP'[i]}</span>`).join(' ');
-      const p4Rows = p4.map(e => [
-        tk(e.ticker, 'part4'), e.name, e.sub_industry, pctRaw(e.retrace), num2(e.ind_comp),
-        num2(e.hotness), sigStr(e), `<b>${e.nsig}</b>`]);
-      html += trendSection('Part 4 · 趋势股回调买点 (行业综合分→个股综合分)', p4.length,
-        trendTable(['代码','名称','细分行业','回撤','行业综合分','个股综合分','信号(D S E K P)','数'], p4Rows));
-
-      // ── Part 5: 资金轮动信号 ──
-      const ra = d.rotation_alerts || {lose:[], gain:[]};
-      const loseBox = (ra.lose||[]).map(p => `<span class="rot-item">${p.sub_industry} ${p.pctile_ago}→${p.pctile_now} <b>(${p.delta10})</b></span>`).join('') || '<span class="rot-item muted-val">无</span>';
-      const gainBox = (ra.gain||[]).map(p => `<span class="rot-item">${p.sub_industry} ${p.pctile_ago}→${p.pctile_now} <b>(+${p.delta10})</b> 量${p.amt5_chg_pct>=0?'+':''}${p.amt5_chg_pct}%</span>`).join('') || '<span class="rot-item muted-val">无</span>';
-      const banner = `
-        <div class="rot-banner">
-          <div class="rot-box rot-lose">🔻 高位失宠 (高水位显著下行)<div class="rot-list">${loseBox}</div></div>
-          <div class="rot-box rot-gain">🔺 资金涌入 (分位显著上行 + 量能匹配)<div class="rot-list">${gainBox}</div></div>
-        </div>`;
-      const p5All = d.part5 || [];
-      const p5 = p5All.filter(p => p.flag === 'lose' || p.flag === 'gain');
-      const flagBadge = f => f === 'lose' ? '<span class="chg-badge chg-neg">🔻高位失宠</span>'
-                              : f === 'gain' ? '<span class="chg-badge chg-pos">🔺低位突破</span>'
-                              : '<span class="muted-val">·</span>';
-      const p5Rows = p5.map(p => [
-        p.sub_industry, p.n, num2(p.pctile_ago), num2(p.pctile_now),
-        `<b style="color:${p.delta10>=0?'#22c55e':'#ef4444'}">${p.delta10>0?'+':''}${p.delta10}</b>`,
-        num2(p.amt5_now_yi), (p.amt5_chg_pct != null ? (p.amt5_chg_pct>=0?'+':'') + p.amt5_chg_pct + '%' : '-'),
-        flagBadge(p.flag)]);
-      html += trendSection(`Part 5 · 资金轮动信号 (仅高位失宠 + 低位放量突破, ${p5.length})`, p5.length,
-        banner + trendTable(['细分行业','n','分位(10天前)','分位(今)','Δ10','5日均额(亿)','5日均额变化','标识'], p5Rows));
+      // ── Part 3: 底部观察 (周J<20 + 相对低位 池; 背离/跌不动/日线买点 评分 + AKShare基本面) ──
+      const bt = d.bottom || [];
+      const pct1 = v => v != null ? (v >= 0 ? '+' : '') + Number(v).toFixed(1) + '%' : '-';
+      const btRows = bt.map(e => [
+        tk(e.ticker, 'bottom'), e.name, e.sub_industry, num2(e.close),
+        num2(e.wj_min), num2(e.pos250), yn(e.div), yn(e.stall),
+        yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
+        `<b>${e.score}</b>`,
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+        trendTable(['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], btRows));
 
       return html;
     }
@@ -772,8 +748,7 @@
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
       `;
     }
 
@@ -801,7 +776,7 @@
       html += trendSection('Part 1 · GICS Sector 热度 (全量)', secs.length,
         trendTable(['Sector','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
 
-      const p1cCols = ['代码','名称','行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','销售增长','盈利增长','ROE','MA10','热度分'];
+      const p1cCols = ['代码','名称','行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','营收YoY·4期','净利YoY·4期','ROE·4期','报告期','MA10','热度分'];
       const p1cRow = (e, sc) => [
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
@@ -825,29 +800,24 @@
         tk(e.ticker, 'part3'), e.name, e.sub_industry, num2(e.close),
         e.ret_1d != null ? `<span class="chg-pos">+${e.ret_1d}%</span>` : '-',
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
-        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness)]);
+        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness),
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, 全量)', sosToday.length,
-        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sosToday)));
+        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sosToday)));
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sos3d)));
+        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sos3d)));
 
-      const p2 = d.part2 || [];
-      const p2Rows = p2.map(e => [
-        tk(e.ticker, 'part2'), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60),
-        signedR(e.sales_growth), signedR(e.earn_growth), pctR(e.roe),
-        yn(e.ma_aligned), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`]);
-      html += trendSection('Part 3 · 趋势个股 (Top10行业内, 60日>10%, hotness 排序, ≤30, 已排除SOS)', p2.length,
-        trendTable(['代码','名称','行业','收盘','距250高','量放','5日均额排','60日涨幅','销售增长','盈利增长','ROE','多头','MA10','热度分'], p2Rows));
-
-      const p4 = d.part4 || [];
-      const sigStr = e => ['doji','shrink','entangle','kdj_div','at_support']
-        .map((k,i) => `<span style="color:${e[k]?'#22c55e':'var(--text-muted)'}">${'DSEKP'[i]}</span>`).join(' ');
-      const p4Rows = p4.map(e => [
-        tk(e.ticker, 'part4'), e.name, e.sub_industry, pctRaw(e.retrace), num2(e.ind_comp),
-        num2(e.hotness), signedR(e.sales_growth), signedR(e.earn_growth), pctR(e.roe), sigStr(e), `<b>${e.nsig}</b>`]);
-      html += trendSection('Part 4 · 趋势股回调买点 (Top10行业内, 行业综合分→个股综合分)', p4.length,
-        trendTable(['代码','名称','行业','回撤','行业分','个股分','销售增长','盈利增长','ROE','信号(D S E K P)','数'], p4Rows));
+      // ── Part 3: 底部观察 (周J<20 + 相对低位 池; 背离/跌不动/日线买点 评分 + AKShare基本面) ──
+      const bt = d.bottom || [];
+      const pct1 = v => v != null ? (v >= 0 ? '+' : '') + Number(v).toFixed(1) + '%' : '-';
+      const btRows = bt.map(e => [
+        tk(e.ticker, 'bottom'), e.name, e.sub_industry, num2(e.close),
+        num2(e.wj_min), num2(e.pos250), yn(e.div), yn(e.stall),
+        yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
+        `<b>${e.score}</b>`,
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+        trendTable(['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], btRows));
 
       return html;
     }
@@ -870,7 +840,7 @@
       const row = (e, sc) => [
         tk(e.ticker, sc), e.name, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
@@ -901,7 +871,7 @@
       const row = (e, sc) => [
         tk(e.ticker, sc), e.name, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
@@ -924,8 +894,7 @@
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势个股</span><span class="summary-val">${(d.part2 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">回调买点</span><span class="summary-val">${(d.part4 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
       `;
     }
 
@@ -952,11 +921,11 @@
       html += trendSection('Part 1 · 申万一级热度 (Top 10)', secs.length,
         trendTable(['申万一级','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
 
-      const p1cCols = ['代码','名称','申万三级','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','MA10','热度分'];
+      const p1cCols = ['代码','名称','申万三级','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅','营收YoY·4期','净利YoY·4期','ROE·4期','报告期','MA10','热度分'];
       const p1cRow = (e, sc) => [
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
@@ -975,27 +944,24 @@
         tk(e.ticker, 'part3'), e.name, e.sub_industry, num2(e.close),
         e.ret_1d != null ? `<span class="chg-pos">+${e.ret_1d}%</span>` : '-',
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
-        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness)]);
+        num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness),
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, 全量)', sosToday.length,
-        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sosToday)));
+        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sosToday)));
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分'], p3Rows(sos3d)));
+        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], p3Rows(sos3d)));
 
-      const p2 = d.part2 || [];
-      const p2Rows = p2.map(e => [
-        tk(e.ticker, 'part2'), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
-        num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), yn(e.ma_aligned), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`]);
-      html += trendSection('Part 3 · 趋势个股 (Top10申万三级内, 60日>10%, hotness 排序, ≤30, 已排除SOS)', p2.length,
-        trendTable(['代码','名称','申万三级','收盘','距250高','量放','5日均额排','60日涨幅','多头','MA10','热度分'], p2Rows));
-
-      const p4 = d.part4 || [];
-      const sigStr = e => ['doji','shrink','entangle','kdj_div','at_support']
-        .map((k,i) => `<span style="color:${e[k]?'#22c55e':'var(--text-muted)'}">${'DSEKP'[i]}</span>`).join(' ');
-      const p4Rows = p4.map(e => [
-        tk(e.ticker, 'part4'), e.name, e.sub_industry, pctRaw(e.retrace), num2(e.ind_comp),
-        num2(e.hotness), sigStr(e), `<b>${e.nsig}</b>`]);
-      html += trendSection('Part 4 · 趋势股回调买点 (Top10申万三级内, 行业综合分→个股综合分)', p4.length,
-        trendTable(['代码','名称','申万三级','回撤','行业综合分','个股综合分','信号(D S E K P)','数'], p4Rows));
+      // ── Part 3: 底部观察 (周J<20 + 相对低位 池; 背离/跌不动/日线买点 评分 + AKShare基本面) ──
+      const bt = d.bottom || [];
+      const pct1 = v => v != null ? (v >= 0 ? '+' : '') + Number(v).toFixed(1) + '%' : '-';
+      const btRows = bt.map(e => [
+        tk(e.ticker, 'bottom'), e.name, e.sub_industry, num2(e.close),
+        num2(e.wj_min), num2(e.pos250), yn(e.div), yn(e.stall),
+        yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
+        `<b>${e.score}</b>`,
+        ser(e.sales_yoy4), ser(e.profit_yoy4), ser(e.roe4), per(e.fund_periods)]);
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+        trendTable(['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分','营收YoY·4期','净利YoY·4期','ROE·4期','报告期'], btRows));
 
       return html;
     }
