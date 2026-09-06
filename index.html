@@ -269,15 +269,14 @@
     .tier-badge-EARLY { color: var(--state-early); background: var(--state-early-bg); }
     .chg-badge { font-size: 12px; font-weight: 600; }
     .chg-pos { color: var(--positive); }
-    .yoy-xhi { color:#16a34a; font-weight:700; white-space:nowrap; }
-    .yoy-hi  { color:#22c55e; font-weight:600; white-space:nowrap; }
-    .yoy-mid { color:inherit; white-space:nowrap; }
-    .yoy-neg { color:#ef4444; opacity:.85; white-space:nowrap; }
-    .roe-xhi { color:#b45309; font-weight:700; white-space:nowrap; }
-    .roe-hi  { color:#2563eb; font-weight:600; white-space:nowrap; }
-    .roe-mid { color:inherit; white-space:nowrap; }
-    .roe-neg { color:#ef4444; opacity:.85; white-space:nowrap; }
-    .fund-td { font-size:11px; padding:2px 5px; }
+    /* 基本面列: 窄体等大字体; YoY绿随加速加深(1→3级), 负值红; ROE>=12%绿其余默认 */
+    .yoy-g1  { color:#4ade80; }
+    .yoy-g2  { color:#22c55e; font-weight:600; }
+    .yoy-g3  { color:#16a34a; font-weight:700; }
+    .yoy-neg { color:#ef4444; }
+    .roe-g   { color:#16a34a; font-weight:600; }
+    .fund-td { font-family:'Arial Narrow','Segoe UI','Microsoft YaHei',sans-serif; white-space:nowrap; }
+    td.grp-start, th.grp-start { border-left:2px solid rgba(127,127,127,.45); }
     .chg-neg { color: var(--negative); }
     @media (max-width: 640px) {
       .header-inner, .main { padding-left: 12px; padding-right: 12px; }
@@ -645,30 +644,38 @@
     const signedR = v => v != null ? (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%' : '-';
     const num2 = v => v != null ? Number(v).toFixed(2) : '-';
     const pad4 = a => [...(a || []), null, null, null, null].slice(0, 4);
-    const yoyCell = (v, acc) => {
-      if (v == null) return '<span class="yoy-mid fund-td">-</span>';
-      const cls = v >= 50 ? 'yoy-xhi' : v >= 20 ? 'yoy-hi' : v >= 0 ? 'yoy-mid' : 'yoy-neg';
-      return `<span class="${cls} fund-td">${v >= 0 ? '+' : ''}${Number(v).toFixed(1)}${acc ? '▲' : ''}</span>`;
+    const accelLv = (a, th) => {          // 0=无加速 1=加速(最新>上期) 2=连续加速(再上一期还在升)
+      const p = pad4(a);
+      if (p[0] == null || p[0] < th || p[1] == null || p[0] <= p[1]) return 0;
+      return (p[2] != null && p[1] > p[2]) ? 2 : 1;
     };
-    const roeCell = v => {
-      if (v == null) return '<span class="roe-mid fund-td">-</span>';
-      const cls = v >= 15 ? 'roe-xhi' : v >= 8 ? 'roe-hi' : v >= 0 ? 'roe-mid' : 'roe-neg';
-      return `<span class="${cls} fund-td">${Number(v).toFixed(1)}</span>`;
+    const yoyCell = (v, th, lv, mark) => {
+      if (v == null) return '<span class="fund-td">-</span>';
+      if (v < 0) return `<span class="yoy-neg fund-td">${Number(v).toFixed(1)}</span>`;
+      const cls = v >= th ? (lv >= 2 ? 'yoy-g3' : lv === 1 ? 'yoy-g2' : 'yoy-g1') : 'fund-td';
+      return `<span class="${cls} fund-td">+${Number(v).toFixed(1)}${mark && lv >= 1 ? '▲' : ''}</span>`;
     };
-    const acc4 = a => { const p = pad4(a); return p[0] != null && p[0] >= 20 && p[1] != null && p[0] > p[1]; };
-    const fundCells = e => [
-      ...pad4(e.sales_yoy4).map((v, i) => yoyCell(v, i === 0 && acc4(e.sales_yoy4))),
-      ...pad4(e.profit_yoy4).map((v, i) => yoyCell(v, i === 0 && acc4(e.profit_yoy4))),
-      ...pad4(e.roe4).map(roeCell)];    const ser = a => (a || []).map(v => v == null ? '-' : (v >= 0 ? '+' : '') + Number(v).toFixed(1)).join('·') || '-';
+    const roeCell = v => v == null ? '<span class="fund-td">-</span>'
+        : `<span class="${v >= 12 ? 'roe-g' : ''} fund-td">${Number(v).toFixed(1)}</span>`;
+    const fundCells = e => {
+      const sLv = accelLv(e.sales_yoy4, 20), pLv = accelLv(e.profit_yoy4, 30);
+      const cell = (v, i) => i === 0 ? '§G§' + v : v;
+      return [
+        ...pad4(e.sales_yoy4).map((v, i) => cell(yoyCell(v, 20, sLv, i === 0), i)),
+        ...pad4(e.profit_yoy4).map((v, i) => cell(yoyCell(v, 30, pLv, i === 0), i)),
+        ...pad4(e.roe4).map((v, i) => cell(roeCell(v), i))];
+    };
+    const ser = a => (a || []).map(v => v == null ? '-' : (v >= 0 ? '+' : '') + Number(v).toFixed(1)).join('·') || '-';
     const per = a => (a || []).join('·');
     const yn = v => v ? '<span style="color:#22c55e">✓</span>' : '<span class="muted-val">·</span>';
     const ma10warn = v => v > 3 ? `<span style="color:#ef5350;font-weight:700">⚠${v}</span>` : v > 0 ? `<span style="color:#fb8c00">${v}</span>` : '<span class="muted-val">·</span>';
 
     function trendTable(headers, rows) {
       // headers 支持字符串 或 [label, colspan] 分组表头; colspan>1 的列其数据列按最小单元对齐
-      const ths = headers.map(h => Array.isArray(h) ? `<th colspan="${h[1]}">${h[0]}</th>` : `<th>${h}</th>`).join('');
+      const ths = headers.map(h => Array.isArray(h) ? `<th colspan="${h[1]}" class="grp-start">${h[0]}</th>` : `<th>${h}</th>`).join('');
       const nCols = headers.reduce((a, h) => a + (Array.isArray(h) ? h[1] : 1), 0);
-      const trs = rows.length ? rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')
+      const trs = rows.length ? rows.map(r => `<tr>${r.map(c => typeof c === 'string' && c.startsWith('§G§')
+        ? `<td class="grp-start">${c.slice(3)}</td>` : `<td>${c}</td>`).join('')}</tr>`).join('')
                                : `<tr><td colspan="${nCols}" class="empty-state"><p>暂无数据</p></td></tr>`;
       return `<div class="table-wrap"><div class="table-scroll"><table><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table></div></div>`;
     }
@@ -757,7 +764,7 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
       return html;
@@ -840,7 +847,7 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
       return html;
@@ -983,7 +990,7 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 250日位置≤0.5; 标注 周背离/跌不动/日线买点 各1分, 按分排序; 基本面=最新中报/年报YoY+ROE)', bt.length,
+      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
       return html;
