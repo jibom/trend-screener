@@ -576,9 +576,9 @@
         for (const m of markets) {
           if (!m.data) continue;
           const sections = [
+            {key: 'bottom',  label: m.name + ' Bottom Watch'},
             {key: 'part1c1', label: m.name + ' First New High'},
             {key: 'part1c2', label: m.name + ' Sustained New High'},
-            {key: 'bottom',  label: m.name + ' Bottom Watch'},
           ];
           for (const sec of sections) {
             const tickers = (m.data[sec.key] || []).filter(r => r.ticker && !seen.has(r.ticker)).map(r => { seen.add(r.ticker); return toTV(r.ticker); });
@@ -690,10 +690,10 @@
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
         <div class="summary-item"><span class="state-badge state-STRONG">最热细分</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
     }
 
@@ -728,13 +728,6 @@
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
-      const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
-      const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
-
       // ── Part 2: SOS 异动个股 (Wyckoff Sign of Strength: 低位/纠缠平台/Stage突破放量中大阳, 全量显示) ──
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
@@ -767,6 +760,13 @@
       html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
+      const p1c1 = d.part1c1 || [];
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+      const p1c2 = d.part1c2 || [];
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
+
       return html;
     }
 
@@ -777,10 +777,10 @@
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
         <div class="summary-item"><span class="state-badge state-STRONG">最热行业</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
     }
 
@@ -814,13 +814,6 @@
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60),
         signedR(e.sales_growth), signedR(e.earn_growth), pctR(e.roe), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
-      const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
-      const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
-
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
@@ -850,6 +843,13 @@
       html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
+      const p1c1 = d.part1c1 || [];
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+      const p1c2 = d.part1c2 || [];
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
+
       return html;
     }
 
@@ -872,15 +872,16 @@
         tk(e.ticker, sc), e.name, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
-      const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
-      const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))));
+      const p1c1 = d.part1c1 || [];
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
+      const p1c2 = d.part1c2 || [];
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
+
       return html;
     }
 
@@ -903,15 +904,16 @@
         tk(e.ticker, sc), e.name, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
-      const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
-      const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))));
+      const p1c1 = d.part1c1 || [];
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
+      const p1c2 = d.part1c2 || [];
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
+
       return html;
     }
 
@@ -922,10 +924,10 @@
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
         <div class="summary-item"><span class="state-badge state-STRONG">最热申万三级</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
     }
 
@@ -957,13 +959,6 @@
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
-      const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 1c-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
-      const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 1c-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
-
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
@@ -992,6 +987,13 @@
         ...fundCells(e)]);
       html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
+
+      const p1c1 = d.part1c1 || [];
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+      const p1c2 = d.part1c2 || [];
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
 
       return html;
     }
@@ -1224,22 +1226,36 @@
   let _chartIdx = -1;        // 当前 ticker 在列表中的索引
   let _detailStockList = []; // 钻取弹窗(子行业成分股)的 ticker 列表, 供个股图方向键用
 
-  function calcMA(data, period) {
+  function calcMA(data, period) {   // EMA: 首值=SMA种子, 之后指数平滑 (2026-09-06 SMA→EMA)
     const out = [];
+    let ema = null;
+    const k = 2 / (period + 1);
     for (let i = period - 1; i < data.length; i++) {
-      let sum = 0;
-      for (let j = i - period + 1; j <= i; j++) sum += data[j][4];
-      out.push({ time: data[i][0], value: +(sum / period).toFixed(2) });
+      if (ema === null) {
+        let sum = 0;
+        for (let j = i - period + 1; j <= i; j++) sum += data[j][4];
+        ema = sum / period;
+      } else {
+        ema = data[i][4] * k + ema * (1 - k);
+      }
+      out.push({ time: data[i][0], value: +ema.toFixed(2) });
     }
     return out;
   }
 
-  function calcVolMA(data, period) {
+  function calcVolMA(data, period) {  // EMA: 首值=SMA种子 (与价格均线一致改EMA)
     const out = [];
+    let ema = null;
+    const k = 2 / (period + 1);
     for (let i = period - 1; i < data.length; i++) {
-      let sum = 0;
-      for (let j = i - period + 1; j <= i; j++) sum += data[j][5];
-      out.push({ time: data[i][0], value: +(sum / period).toFixed(0) });
+      if (ema === null) {
+        let sum = 0;
+        for (let j = i - period + 1; j <= i; j++) sum += data[j][5];
+        ema = sum / period;
+      } else {
+        ema = data[i][5] * k + ema * (1 - k);
+      }
+      out.push({ time: data[i][0], value: +ema.toFixed(0) });
     }
     return out;
   }
@@ -1329,7 +1345,7 @@
     const theme = _lcTheme();
     _charts = [];
 
-    // 均线: 5/10/20/30/40/50/60/70; 高亮 MA5(橙)/MA10(红)/MA50(蓝) 不透明加粗, 其余淡灰背景
+    // 均线(EMA): 5/10/20/30/40/50/60/70; 高亮 EMA5(橙)/EMA10(红)/EMA50(蓝) 不透明加粗, 其余淡灰背景
     const ma5  = calcMA(rows, 5),  ma10 = calcMA(rows, 10), ma20 = calcMA(rows, 20), ma30 = calcMA(rows, 30);
     const ma40 = calcMA(rows, 40), ma50 = calcMA(rows, 50), ma60 = calcMA(rows, 60), ma70 = calcMA(rows, 70);
     const macd = calcMACD(rows);
@@ -1363,7 +1379,7 @@
     cs.setData(candles); allSeries.push(cs);
 
     const maOpts = (color, width) => ({ color, lineWidth: width || 1, priceLineVisible: false, lastValueVisible: false });
-    // 高亮 MA5(橙)/MA10(红)/MA50(蓝) — 不透明; 其余 MA20/30/40/60/70 淡灰细线作背景
+    // 高亮 EMA5(橙)/EMA10(红)/EMA50(蓝) — 不透明; 其余 EMA20/30/40/60/70 淡灰细线作背景
     [['#FB8C00', ma5, 1.5], ['#E53935', ma10, 1.5], ['rgba(150,150,150,0.4)', ma20, 1], ['rgba(150,150,150,0.4)', ma30, 1],
      ['rgba(150,150,150,0.4)', ma40, 1], ['#42A5F5', ma50, 1.5], ['rgba(150,150,150,0.4)', ma60, 1], ['rgba(150,150,150,0.4)', ma70, 1]]
       .forEach(([c, arr, w]) => { if (arr.length) addSer(mainChart, maOpts(c, w), arr); });

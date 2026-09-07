@@ -832,7 +832,7 @@
       "ret_1d": 8.0,
       "ret_3d": 13.6,
       "vol_ratio": 2.59,
-      "trigger": "SOS+3日",
+      "trigger": "SOS",
       "hotness": -0.054
     },
     {
@@ -867,28 +867,6 @@
       "vol_ratio": 2.05,
       "trigger": "SOS",
       "hotness": 0.871
-    },
-    {
-      "ticker": "000592.SZ",
-      "name": "平潭发展",
-      "sub_industry": "林业",
-      "close": 7.49,
-      "ret_1d": 10.0,
-      "ret_3d": 7.5,
-      "vol_ratio": 1.91,
-      "trigger": "SOS",
-      "hotness": -0.753
-    },
-    {
-      "ticker": "600809.SH",
-      "name": "山西汾酒",
-      "sub_industry": "白酒",
-      "close": 122.56,
-      "ret_1d": 4.8,
-      "ret_3d": 1.6,
-      "vol_ratio": 1.53,
-      "trigger": "SOS",
-      "hotness": -0.682
     },
     {
       "ticker": "300413.SZ",
@@ -957,17 +935,6 @@
       "hotness": -0.295
     },
     {
-      "ticker": "603067.SH",
-      "name": "振华股份",
-      "sub_industry": "无机盐",
-      "close": 36.95,
-      "ret_1d": 4.1,
-      "ret_3d": 8.7,
-      "vol_ratio": 2.81,
-      "trigger": "SOS 3日",
-      "hotness": -0.003
-    },
-    {
       "ticker": "002017.SZ",
       "name": "东信和平",
       "sub_industry": "通信终端及配件",
@@ -990,28 +957,6 @@
       "hotness": -0.754
     },
     {
-      "ticker": "600693.SH",
-      "name": "东百集团",
-      "sub_industry": "百货",
-      "close": 10.93,
-      "ret_1d": -1.0,
-      "ret_3d": 6.7,
-      "vol_ratio": 2.19,
-      "trigger": "SOS 3日",
-      "hotness": -0.628
-    },
-    {
-      "ticker": "603778.SH",
-      "name": "国晟科技",
-      "sub_industry": "园林工程",
-      "close": 10.79,
-      "ret_1d": 2.7,
-      "ret_3d": 10.4,
-      "vol_ratio": 2.09,
-      "trigger": "SOS 3日",
-      "hotness": -1.319
-    },
-    {
       "ticker": "603596.SH",
       "name": "伯特利",
       "sub_industry": "底盘与发动机系统",
@@ -1023,39 +968,6 @@
       "hotness": -0.24
     },
     {
-      "ticker": "600714.SH",
-      "name": "金瑞矿业",
-      "sub_industry": "无机盐",
-      "close": 21.48,
-      "ret_1d": 2.4,
-      "ret_3d": 14.7,
-      "vol_ratio": 2.02,
-      "trigger": "SOS 3日",
-      "hotness": -0.462
-    },
-    {
-      "ticker": "301216.SZ",
-      "name": "万凯新材",
-      "sub_industry": "其他塑料制品",
-      "close": 20.6,
-      "ret_1d": -0.4,
-      "ret_3d": 3.4,
-      "vol_ratio": 1.97,
-      "trigger": "SOS 3日",
-      "hotness": -0.48
-    },
-    {
-      "ticker": "600869.SH",
-      "name": "远东股份",
-      "sub_industry": "线缆部件及其他",
-      "close": 21.2,
-      "ret_1d": 0.7,
-      "ret_3d": 19.6,
-      "vol_ratio": 1.97,
-      "trigger": "SOS 3日",
-      "hotness": 0.522
-    },
-    {
       "ticker": "301071.SZ",
       "name": "力量钻石",
       "sub_industry": "非金属材料",
@@ -1065,17 +977,6 @@
       "vol_ratio": 1.95,
       "trigger": "SOS 3日",
       "hotness": -0.225
-    },
-    {
-      "ticker": "000768.SZ",
-      "name": "中航西飞",
-      "sub_industry": "航空装备",
-      "close": 23.7,
-      "ret_1d": 2.9,
-      "ret_3d": 4.8,
-      "vol_ratio": 1.93,
-      "trigger": "SOS 3日",
-      "hotness": -0.135
     },
     {
       "ticker": "600172.SH",
@@ -1100,17 +1001,6 @@
       "hotness": 0.059
     },
     {
-      "ticker": "600048.SH",
-      "name": "保利发展",
-      "sub_industry": "住宅开发",
-      "close": 5.25,
-      "ret_1d": 3.1,
-      "ret_3d": 7.1,
-      "vol_ratio": 1.8,
-      "trigger": "SOS 3日",
-      "hotness": -0.304
-    },
-    {
       "ticker": "300179.SZ",
       "name": "四方达",
       "sub_industry": "磨具磨料",
@@ -1131,50 +1021,6 @@
       "vol_ratio": 1.58,
       "trigger": "SOS 3日",
       "hotness": -1.025
-    },
-    {
-      "ticker": "688028.SH",
-      "name": "沃尔德",
-      "sub_industry": "磨具磨料",
-      "close": 97.52,
-      "ret_1d": -4.0,
-      "ret_3d": 3.3,
-      "vol_ratio": 1.44,
-      "trigger": "SOS 3日",
-      "hotness": -0.56
-    },
-    {
-      "ticker": "002155.SZ",
-      "name": "湖南黄金",
-      "sub_industry": "黄金",
-      "close": 26.78,
-      "ret_1d": -2.8,
-      "ret_3d": 1.2,
-      "vol_ratio": 1.43,
-      "trigger": "SOS 3日",
-      "hotness": -0.174
-    },
-    {
-      "ticker": "600026.SH",
-      "name": "中远海能",
-      "sub_industry": "航运",
-      "close": 20.34,
-      "ret_1d": 0.0,
-      "ret_3d": 6.7,
-      "vol_ratio": 1.41,
-      "trigger": "SOS 3日",
-      "hotness": -0.063
-    },
-    {
-      "ticker": "601169.SH",
-      "name": "北京银行",
-      "sub_industry": "城商行",
-      "close": 5.6,
-      "ret_1d": 1.1,
-      "ret_3d": 2.0,
-      "vol_ratio": 1.41,
-      "trigger": "SOS 3日",
-      "hotness": 0.97
     },
     {
       "ticker": "601658.SH",
