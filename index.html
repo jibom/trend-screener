@@ -703,6 +703,30 @@
       let html = `<div class="subtitle" style="padding:4px 0 10px">港股趋势四部曲 · ${d.date || ''}　最热细分行业：${d.hottest_sub || '-'}</div>`;
 
       // ── Part 1: 行业热度 (仅显示 60日涨幅>10% 的强势行业) ──
+      // ── Part 1a: 行业RS排名 (Mansfield RS, 谁在跑赢基准) ──
+      const rsTop = d.rs_top || [];
+      if (rsTop.length) {
+        const rsTopRows = rsTop.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','hk'); return false;">${e.sub_industry}</a>`,
+          e.n, `<b>${num2(e.rs)}</b>`,
+          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多)', rsTop.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+      }
+
+      // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
+      const rsMom = d.rs_momentum || [];
+      if (rsMom.length) {
+        const rsMomRows = rsMom.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','hk'); return false;">${e.sub_industry}</a>`,
+          e.n, num2(e.rs),
+          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1b · 行业RS动量 (1W RS变化最大 = 加速走强)', rsMom.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
+      }
+
       const subsAll = (d.part1 && d.part1.sub_industries || []);
       const subs = subsAll.filter(s => (s.ret_60 || 0) > 0.10).slice(0, 15);
       const subRows = subs.map(s => [
@@ -788,6 +812,30 @@
       const d = usData;
       if (!d) return `<div class="empty-state"><p>美股趋势数据未加载 (public/data/trend_hotspot_us.json)</p></div>`;
       let html = `<div class="subtitle" style="padding:4px 0 10px">美股趋势四部曲 · ${d.date || ''}　最热行业：${d.hottest_sub || '-'}</div>`;
+
+      // ── Part 1a: 行业RS排名 (Mansfield RS, 谁在跑赢基准) ──
+      const rsTop = d.rs_top || [];
+      if (rsTop.length) {
+        const rsTopRows = rsTop.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','us'); return false;">${e.sub_industry}</a>`,
+          e.n, `<b>${num2(e.rs)}</b>`,
+          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多)', rsTop.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+      }
+
+      // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
+      const rsMom = d.rs_momentum || [];
+      if (rsMom.length) {
+        const rsMomRows = rsMom.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','us'); return false;">${e.sub_industry}</a>`,
+          e.n, num2(e.rs),
+          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1b · 行业RS动量 (1W RS变化最大 = 加速走强)', rsMom.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
+      }
 
       const subsAll = (d.part1 && d.part1.sub_industries || []);
       const subs = subsAll.slice(0, 10);
@@ -935,6 +983,30 @@
       const d = aData;
       if (!d) return `<div class="empty-state"><p>A股趋势数据未加载 (public/data/trend_hotspot_a.json)</p></div>`;
       let html = `<div class="subtitle" style="padding:4px 0 10px">A股趋势四部曲 · ${d.date || ''}　最热申万三级：${d.hottest_sub || '-'}</div>`;
+
+      // ── Part 1a: 行业RS排名 ──
+      const rsTop = d.rs_top || [];
+      if (rsTop.length) {
+        const rsTopRows = rsTop.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','a'); return false;">${e.sub_industry}</a>`,
+          e.n, `<b>${num2(e.rs)}</b>`,
+          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高)', rsTop.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+      }
+
+      // ── Part 1b: 行业RS动量 ──
+      const rsMom = d.rs_momentum || [];
+      if (rsMom.length) {
+        const rsMomRows = rsMom.map(e => [
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','a'); return false;">${e.sub_industry}</a>`,
+          e.n, num2(e.rs),
+          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
+          e.ret_60 != null ? e.ret_60 + '%' : '-']);
+        html += trendSection('Part 1b · 行业RS动量 (1W变化最大)', rsMom.length,
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
+      }
 
       const subs = (d.part1 && d.part1.sub_industries || []).slice(0, 10);
       const subRows = subs.map(s => [
