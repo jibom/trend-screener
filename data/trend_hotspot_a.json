@@ -1,1163 +1,3039 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-10",
   "market": "A",
-  "hottest_sub": "种子",
+  "hottest_sub": "城商行",
   "part1": {
     "sub_industries": [
       {
-        "sub_industry": "种子",
-        "n": 6,
-        "pct_high_250": 0.931,
-        "breadth_250": 50.0,
-        "breadth_60": 100.0,
-        "amt_surge": 2.926,
-        "amt_rank": 0.413,
-        "amt_1d_yi": 90.68,
-        "amt_5d_yi": 76.19,
-        "share_1d": 0.78,
-        "share_5d": 0.68,
-        "share5_pctile200": 99.0,
-        "ret_60": 0.616,
-        "composite": 2.523,
-        "sector": "农林牧渔"
-      },
-      {
         "sub_industry": "城商行",
-        "n": 4,
-        "pct_high_250": 0.987,
+        "n": 3,
+        "pct_high_250": 0.99,
         "breadth_250": 100.0,
         "breadth_60": 100.0,
-        "amt_surge": 0.978,
-        "amt_rank": 0.316,
-        "amt_1d_yi": 32.0,
-        "amt_5d_yi": 40.51,
-        "share_1d": 0.28,
-        "share_5d": 0.36,
-        "share5_pctile200": 74.0,
-        "ret_60": 0.087,
-        "composite": 2.14,
+        "amt_surge": 1.026,
+        "amt_rank": 0.364,
+        "amt_1d_yi": 42.54,
+        "amt_5d_yi": 31.19,
+        "share_1d": 0.45,
+        "share_5d": 0.28,
+        "share5_pctile200": 71.0,
+        "ret_60": 0.15,
+        "composite": 2.314,
         "sector": "银行"
       },
       {
-        "sub_industry": "百货",
-        "n": 4,
-        "pct_high_250": 0.711,
-        "breadth_250": 25.0,
-        "breadth_60": 100.0,
-        "amt_surge": 1.184,
-        "amt_rank": 0.475,
-        "amt_1d_yi": 67.48,
-        "amt_5d_yi": 50.89,
-        "share_1d": 0.58,
-        "share_5d": 0.45,
-        "share5_pctile200": 88.0,
-        "ret_60": 0.477,
-        "composite": 1.495,
-        "sector": "商贸零售"
+        "sub_industry": "种子",
+        "n": 6,
+        "pct_high_250": 0.878,
+        "breadth_250": 16.667,
+        "breadth_60": 16.667,
+        "amt_surge": 3.28,
+        "amt_rank": 0.476,
+        "amt_1d_yi": 76.56,
+        "amt_5d_yi": 81.02,
+        "share_1d": 0.8,
+        "share_5d": 0.72,
+        "share5_pctile200": 100.0,
+        "ret_60": 0.622,
+        "composite": 1.503,
+        "sector": "农林牧渔"
       },
       {
-        "sub_industry": "化学制剂",
-        "n": 5,
-        "pct_high_250": 0.777,
+        "sub_industry": "中药",
+        "n": 3,
+        "pct_high_250": 0.808,
         "breadth_250": 0.0,
         "breadth_60": 0.0,
-        "amt_surge": 4.087,
-        "amt_rank": 0.597,
-        "amt_1d_yi": 108.6,
-        "amt_5d_yi": 98.02,
-        "share_1d": 0.93,
-        "share_5d": 0.88,
-        "share5_pctile200": 92.0,
-        "ret_60": 0.588,
-        "composite": 1.313,
+        "amt_surge": 4.789,
+        "amt_rank": 0.224,
+        "amt_1d_yi": 29.85,
+        "amt_5d_yi": 28.37,
+        "share_1d": 0.31,
+        "share_5d": 0.25,
+        "share5_pctile200": 97.0,
+        "ret_60": 0.421,
+        "composite": 1.267,
         "sector": "医药生物"
-      },
-      {
-        "sub_industry": "仪器仪表",
-        "n": 4,
-        "pct_high_250": 0.791,
-        "breadth_250": 25.0,
-        "breadth_60": 25.0,
-        "amt_surge": 2.118,
-        "amt_rank": 0.605,
-        "amt_1d_yi": 66.83,
-        "amt_5d_yi": 72.87,
-        "share_1d": 0.57,
-        "share_5d": 0.65,
-        "share5_pctile200": 96.0,
-        "ret_60": 0.365,
-        "composite": 1.24,
-        "sector": "机械设备"
-      },
-      {
-        "sub_industry": "其他塑料制品",
-        "n": 5,
-        "pct_high_250": 0.759,
-        "breadth_250": 0.0,
-        "breadth_60": 0.0,
-        "amt_surge": 3.206,
-        "amt_rank": 0.179,
-        "amt_1d_yi": 39.29,
-        "amt_5d_yi": 42.03,
-        "share_1d": 0.34,
-        "share_5d": 0.38,
-        "share5_pctile200": 92.5,
-        "ret_60": 0.365,
-        "composite": 0.934,
-        "sector": "基础化工"
       },
       {
         "sub_industry": "国有大型银行",
         "n": 6,
-        "pct_high_250": 0.927,
+        "pct_high_250": 0.946,
         "breadth_250": 66.667,
-        "breadth_60": 0.0,
-        "amt_surge": 1.029,
-        "amt_rank": 0.633,
-        "amt_1d_yi": 84.28,
-        "amt_5d_yi": 102.67,
-        "share_1d": 0.72,
-        "share_5d": 0.92,
-        "share5_pctile200": 67.0,
-        "ret_60": 0.054,
-        "composite": 0.902,
+        "breadth_60": 66.667,
+        "amt_surge": 1.015,
+        "amt_rank": 0.532,
+        "amt_1d_yi": 79.83,
+        "amt_5d_yi": 85.46,
+        "share_1d": 0.84,
+        "share_5d": 0.76,
+        "share5_pctile200": 45.0,
+        "ret_60": 0.102,
+        "composite": 1.255,
         "sector": "银行"
       },
       {
-        "sub_industry": "其他通用设备",
-        "n": 6,
-        "pct_high_250": 0.83,
-        "breadth_250": 16.667,
-        "breadth_60": 16.667,
-        "amt_surge": 1.613,
-        "amt_rank": 0.434,
-        "amt_1d_yi": 66.73,
-        "amt_5d_yi": 72.61,
-        "share_1d": 0.57,
-        "share_5d": 0.65,
-        "share5_pctile200": 99.5,
-        "ret_60": 0.259,
-        "composite": 0.893,
-        "sector": "机械设备"
+        "sub_industry": "航运",
+        "n": 5,
+        "pct_high_250": 0.914,
+        "breadth_250": 40.0,
+        "breadth_60": 40.0,
+        "amt_surge": 1.245,
+        "amt_rank": 0.62,
+        "amt_1d_yi": 103.53,
+        "amt_5d_yi": 83.98,
+        "share_1d": 1.09,
+        "share_5d": 0.75,
+        "share5_pctile200": 83.5,
+        "ret_60": 0.234,
+        "composite": 1.176,
+        "sector": "交通运输"
       },
       {
-        "sub_industry": "线缆部件及其他",
-        "n": 3,
-        "pct_high_250": 0.712,
+        "sub_industry": "化学制剂",
+        "n": 5,
+        "pct_high_250": 0.717,
         "breadth_250": 0.0,
         "breadth_60": 0.0,
-        "amt_surge": 2.992,
-        "amt_rank": 0.789,
-        "amt_1d_yi": 141.91,
-        "amt_5d_yi": 122.59,
-        "share_1d": 1.22,
-        "share_5d": 1.09,
-        "share5_pctile200": 100.0,
-        "ret_60": 0.025,
-        "composite": 0.706,
-        "sector": "电力设备"
-      },
-      {
-        "sub_industry": "医疗研发外包",
-        "n": 6,
-        "pct_high_250": 0.834,
-        "breadth_250": 0.0,
-        "breadth_60": 0.0,
-        "amt_surge": 2.287,
-        "amt_rank": 0.557,
-        "amt_1d_yi": 144.85,
-        "amt_5d_yi": 115.53,
-        "share_1d": 1.25,
-        "share_5d": 1.03,
-        "share5_pctile200": 78.5,
-        "ret_60": 0.554,
-        "composite": 0.699,
+        "amt_surge": 3.986,
+        "amt_rank": 0.593,
+        "amt_1d_yi": 101.6,
+        "amt_5d_yi": 97.88,
+        "share_1d": 1.07,
+        "share_5d": 0.88,
+        "share5_pctile200": 90.5,
+        "ret_60": 0.493,
+        "composite": 1.085,
         "sector": "医药生物"
+      },
+      {
+        "sub_industry": "百货",
+        "n": 4,
+        "pct_high_250": 0.683,
+        "breadth_250": 25.0,
+        "breadth_60": 25.0,
+        "amt_surge": 1.387,
+        "amt_rank": 0.497,
+        "amt_1d_yi": 42.26,
+        "amt_5d_yi": 51.14,
+        "share_1d": 0.44,
+        "share_5d": 0.46,
+        "share5_pctile200": 88.5,
+        "ret_60": 0.416,
+        "composite": 1.041,
+        "sector": "商贸零售"
+      },
+      {
+        "sub_industry": "其他塑料制品",
+        "n": 6,
+        "pct_high_250": 0.753,
+        "breadth_250": 16.667,
+        "breadth_60": 0.0,
+        "amt_surge": 2.922,
+        "amt_rank": 0.13,
+        "amt_1d_yi": 41.9,
+        "amt_5d_yi": 47.45,
+        "share_1d": 0.44,
+        "share_5d": 0.42,
+        "share5_pctile200": 93.0,
+        "ret_60": 0.269,
+        "composite": 0.991,
+        "sector": "基础化工"
+      },
+      {
+        "sub_industry": "股份制银行",
+        "n": 4,
+        "pct_high_250": 0.927,
+        "breadth_250": 50.0,
+        "breadth_60": 75.0,
+        "amt_surge": 0.918,
+        "amt_rank": 0.48,
+        "amt_1d_yi": 55.09,
+        "amt_5d_yi": 58.94,
+        "share_1d": 0.58,
+        "share_5d": 0.53,
+        "share5_pctile200": 37.0,
+        "ret_60": 0.07,
+        "composite": 0.936,
+        "sector": "银行"
+      },
+      {
+        "sub_industry": "其他种植业",
+        "n": 3,
+        "pct_high_250": 0.848,
+        "breadth_250": 0.0,
+        "breadth_60": 0.0,
+        "amt_surge": 2.729,
+        "amt_rank": 0.66,
+        "amt_1d_yi": 62.71,
+        "amt_5d_yi": 50.14,
+        "share_1d": 0.66,
+        "share_5d": 0.45,
+        "share5_pctile200": 100.0,
+        "ret_60": 0.441,
+        "composite": 0.883,
+        "sector": "农林牧渔"
       }
     ],
     "sectors": [
       {
+        "sector": "银行",
+        "n": 13,
+        "pct_high_250": 0.95,
+        "breadth_250": 69.231,
+        "breadth_60": 76.923,
+        "amt_surge": 0.988,
+        "amt_rank": 0.477,
+        "amt_1d_yi": 177.46,
+        "amt_5d_yi": 175.59,
+        "share_1d": 1.86,
+        "share_5d": 1.57,
+        "share5_pctile200": 43.5,
+        "ret_60": 0.103,
+        "composite": 1.129
+      },
+      {
         "sector": "农林牧渔",
-        "n": 15,
-        "pct_high_250": 0.872,
-        "breadth_250": 40.0,
-        "breadth_60": 93.333,
-        "amt_surge": 2.458,
-        "amt_rank": 0.482,
-        "amt_1d_yi": 273.74,
-        "amt_5d_yi": 222.89,
-        "share_1d": 2.35,
-        "share_5d": 1.99,
+        "n": 19,
+        "pct_high_250": 0.808,
+        "breadth_250": 5.263,
+        "breadth_60": 10.526,
+        "amt_surge": 2.483,
+        "amt_rank": 0.512,
+        "amt_1d_yi": 297.3,
+        "amt_5d_yi": 303.38,
+        "share_1d": 3.12,
+        "share_5d": 2.71,
         "share5_pctile200": 100.0,
-        "ret_60": 0.471,
-        "composite": 2.055
+        "ret_60": 0.429,
+        "composite": 0.988
       },
       {
         "sector": "医药生物",
         "n": 23,
-        "pct_high_250": 0.789,
-        "breadth_250": 4.348,
-        "breadth_60": 8.696,
-        "amt_surge": 3.149,
-        "amt_rank": 0.452,
-        "amt_1d_yi": 391.42,
-        "amt_5d_yi": 339.56,
-        "share_1d": 3.36,
-        "share_5d": 3.03,
-        "share5_pctile200": 85.5,
-        "ret_60": 0.48,
-        "composite": 0.974
-      },
-      {
-        "sector": "银行",
-        "n": 16,
-        "pct_high_250": 0.918,
-        "breadth_250": 62.5,
-        "breadth_60": 43.75,
-        "amt_surge": 0.98,
-        "amt_rank": 0.462,
-        "amt_1d_yi": 178.61,
-        "amt_5d_yi": 222.72,
-        "share_1d": 1.54,
-        "share_5d": 1.99,
-        "share5_pctile200": 62.5,
-        "ret_60": 0.05,
-        "composite": 0.877
-      },
-      {
-        "sector": "房地产",
-        "n": 7,
-        "pct_high_250": 0.765,
-        "breadth_250": 28.571,
-        "breadth_60": 28.571,
-        "amt_surge": 1.626,
-        "amt_rank": 0.447,
-        "amt_1d_yi": 87.88,
-        "amt_5d_yi": 89.88,
-        "share_1d": 0.76,
-        "share_5d": 0.8,
-        "share5_pctile200": 92.5,
-        "ret_60": 0.101,
-        "composite": 0.815
-      },
-      {
-        "sector": "轻工制造",
-        "n": 5,
-        "pct_high_250": 0.836,
-        "breadth_250": 20.0,
-        "breadth_60": 20.0,
-        "amt_surge": 1.624,
-        "amt_rank": 0.431,
-        "amt_1d_yi": 60.35,
-        "amt_5d_yi": 61.46,
-        "share_1d": 0.52,
-        "share_5d": 0.55,
-        "share5_pctile200": 94.5,
-        "ret_60": 0.287,
-        "composite": 0.804
-      },
-      {
-        "sector": "商贸零售",
-        "n": 7,
-        "pct_high_250": 0.666,
-        "breadth_250": 14.286,
-        "breadth_60": 71.429,
-        "amt_surge": 1.114,
-        "amt_rank": 0.432,
-        "amt_1d_yi": 104.15,
-        "amt_5d_yi": 84.1,
-        "share_1d": 0.9,
-        "share_5d": 0.75,
-        "share5_pctile200": 71.5,
-        "ret_60": 0.288,
-        "composite": 0.592
-      },
-      {
-        "sector": "石油石化",
-        "n": 9,
-        "pct_high_250": 0.788,
-        "breadth_250": 11.111,
-        "breadth_60": 55.556,
-        "amt_surge": 1.154,
-        "amt_rank": 0.453,
-        "amt_1d_yi": 128.06,
-        "amt_5d_yi": 109.73,
-        "share_1d": 1.1,
-        "share_5d": 0.98,
-        "share5_pctile200": 66.0,
-        "ret_60": 0.183,
-        "composite": 0.295
-      },
-      {
-        "sector": "机械设备",
-        "n": 51,
-        "pct_high_250": 0.71,
-        "breadth_250": 5.882,
-        "breadth_60": 5.882,
-        "amt_surge": 1.377,
-        "amt_rank": 0.513,
-        "amt_1d_yi": 844.88,
-        "amt_5d_yi": 854.39,
-        "share_1d": 7.26,
-        "share_5d": 7.63,
-        "share5_pctile200": 99.5,
-        "ret_60": 0.006,
-        "composite": 0.227
+        "pct_high_250": 0.757,
+        "breadth_250": 0.0,
+        "breadth_60": 0.0,
+        "amt_surge": 3.066,
+        "amt_rank": 0.437,
+        "amt_1d_yi": 303.62,
+        "amt_5d_yi": 327.68,
+        "share_1d": 3.19,
+        "share_5d": 2.93,
+        "share5_pctile200": 84.0,
+        "ret_60": 0.412,
+        "composite": 0.796
       },
       {
         "sector": "交通运输",
         "n": 7,
-        "pct_high_250": 0.832,
-        "breadth_250": 14.286,
-        "breadth_60": 0.0,
-        "amt_surge": 1.263,
-        "amt_rank": 0.435,
-        "amt_1d_yi": 72.04,
-        "amt_5d_yi": 86.32,
-        "share_1d": 0.62,
-        "share_5d": 0.77,
-        "share5_pctile200": 82.0,
-        "ret_60": 0.121,
-        "composite": 0.184
+        "pct_high_250": 0.865,
+        "breadth_250": 28.571,
+        "breadth_60": 28.571,
+        "amt_surge": 1.385,
+        "amt_rank": 0.5,
+        "amt_1d_yi": 111.79,
+        "amt_5d_yi": 101.22,
+        "share_1d": 1.17,
+        "share_5d": 0.91,
+        "share5_pctile200": 85.0,
+        "ret_60": 0.161,
+        "composite": 0.757
+      },
+      {
+        "sector": "轻工制造",
+        "n": 5,
+        "pct_high_250": 0.78,
+        "breadth_250": 20.0,
+        "breadth_60": 20.0,
+        "amt_surge": 1.687,
+        "amt_rank": 0.358,
+        "amt_1d_yi": 42.03,
+        "amt_5d_yi": 54.64,
+        "share_1d": 0.44,
+        "share_5d": 0.49,
+        "share5_pctile200": 88.0,
+        "ret_60": 0.176,
+        "composite": 0.694
+      },
+      {
+        "sector": "商贸零售",
+        "n": 8,
+        "pct_high_250": 0.68,
+        "breadth_250": 25.0,
+        "breadth_60": 25.0,
+        "amt_surge": 1.275,
+        "amt_rank": 0.415,
+        "amt_1d_yi": 85.07,
+        "amt_5d_yi": 92.81,
+        "share_1d": 0.89,
+        "share_5d": 0.83,
+        "share5_pctile200": 73.5,
+        "ret_60": 0.267,
+        "composite": 0.597
+      },
+      {
+        "sector": "煤炭",
+        "n": 6,
+        "pct_high_250": 0.817,
+        "breadth_250": 16.667,
+        "breadth_60": 16.667,
+        "amt_surge": 1.416,
+        "amt_rank": 0.455,
+        "amt_1d_yi": 75.57,
+        "amt_5d_yi": 70.62,
+        "share_1d": 0.79,
+        "share_5d": 0.63,
+        "share5_pctile200": 84.5,
+        "ret_60": 0.151,
+        "composite": 0.472
+      },
+      {
+        "sector": "公用事业",
+        "n": 7,
+        "pct_high_250": 0.788,
+        "breadth_250": 28.571,
+        "breadth_60": 14.286,
+        "amt_surge": 1.435,
+        "amt_rank": 0.521,
+        "amt_1d_yi": 144.18,
+        "amt_5d_yi": 111.9,
+        "share_1d": 1.51,
+        "share_5d": 1.0,
+        "share5_pctile200": 66.0,
+        "ret_60": 0.013,
+        "composite": 0.304
+      },
+      {
+        "sector": "石油石化",
+        "n": 9,
+        "pct_high_250": 0.774,
+        "breadth_250": 11.111,
+        "breadth_60": 33.333,
+        "amt_surge": 1.166,
+        "amt_rank": 0.455,
+        "amt_1d_yi": 110.83,
+        "amt_5d_yi": 107.02,
+        "share_1d": 1.16,
+        "share_5d": 0.96,
+        "share5_pctile200": 61.0,
+        "ret_60": 0.202,
+        "composite": 0.224
       },
       {
         "sector": "基础化工",
-        "n": 38,
-        "pct_high_250": 0.706,
-        "breadth_250": 2.632,
-        "breadth_60": 7.895,
-        "amt_surge": 1.711,
-        "amt_rank": 0.39,
-        "amt_1d_yi": 484.53,
-        "amt_5d_yi": 501.32,
-        "share_1d": 4.16,
-        "share_5d": 4.48,
-        "share5_pctile200": 84.5,
-        "ret_60": 0.08,
-        "composite": 0.162
+        "n": 42,
+        "pct_high_250": 0.684,
+        "breadth_250": 4.762,
+        "breadth_60": 4.762,
+        "amt_surge": 1.681,
+        "amt_rank": 0.406,
+        "amt_1d_yi": 540.66,
+        "amt_5d_yi": 542.18,
+        "share_1d": 5.68,
+        "share_5d": 4.85,
+        "share5_pctile200": 86.0,
+        "ret_60": 0.024,
+        "composite": 0.18
       }
     ]
   },
+  "rs_top": [
+    {
+      "sub_industry": "仪器仪表",
+      "n": 5,
+      "rs": 88.7,
+      "rs_1w": 2.5,
+      "ret_60": 15.5
+    },
+    {
+      "sub_industry": "线缆部件及其他",
+      "n": 4,
+      "rs": 61.8,
+      "rs_1w": -6.2,
+      "ret_60": -6.0
+    },
+    {
+      "sub_industry": "磨具磨料",
+      "n": 4,
+      "rs": 60.6,
+      "rs_1w": 8.3,
+      "ret_60": 2.9
+    },
+    {
+      "sub_industry": "印制电路板",
+      "n": 27,
+      "rs": 58.7,
+      "rs_1w": 13.9,
+      "ret_60": -10.2
+    },
+    {
+      "sub_industry": "通信线缆及配套",
+      "n": 7,
+      "rs": 57.6,
+      "rs_1w": -1.6,
+      "ret_60": -26.9
+    },
+    {
+      "sub_industry": "半导体设备",
+      "n": 13,
+      "rs": 53.0,
+      "rs_1w": -3.5,
+      "ret_60": -2.3
+    },
+    {
+      "sub_industry": "其他塑料制品",
+      "n": 6,
+      "rs": 52.5,
+      "rs_1w": -6.5,
+      "ret_60": 22.4
+    },
+    {
+      "sub_industry": "分立器件",
+      "n": 5,
+      "rs": 51.9,
+      "rs_1w": 5.7,
+      "ret_60": -14.5
+    },
+    {
+      "sub_industry": "激光设备",
+      "n": 6,
+      "rs": 51.6,
+      "rs_1w": 3.6,
+      "ret_60": -18.8
+    },
+    {
+      "sub_industry": "模拟芯片设计",
+      "n": 4,
+      "rs": 49.9,
+      "rs_1w": -5.7,
+      "ret_60": -3.4
+    },
+    {
+      "sub_industry": "半导体材料",
+      "n": 6,
+      "rs": 48.5,
+      "rs_1w": -3.6,
+      "ret_60": -19.7
+    },
+    {
+      "sub_industry": "玻纤制造",
+      "n": 6,
+      "rs": 48.4,
+      "rs_1w": 4.6,
+      "ret_60": -33.4
+    },
+    {
+      "sub_industry": "被动元件",
+      "n": 8,
+      "rs": 47.1,
+      "rs_1w": -1.0,
+      "ret_60": -28.6
+    },
+    {
+      "sub_industry": "其他通用设备",
+      "n": 6,
+      "rs": 46.8,
+      "rs_1w": -18.7,
+      "ret_60": 13.0
+    },
+    {
+      "sub_industry": "通信网络设备及器件",
+      "n": 18,
+      "rs": 45.8,
+      "rs_1w": 3.9,
+      "ret_60": -10.1
+    }
+  ],
+  "rs_momentum": [
+    {
+      "sub_industry": "其他种植业",
+      "n": 3,
+      "rs": 43.6,
+      "rs_1w": 18.9,
+      "ret_60": 46.4
+    },
+    {
+      "sub_industry": "印制电路板",
+      "n": 27,
+      "rs": 58.7,
+      "rs_1w": 13.9,
+      "ret_60": -10.2
+    },
+    {
+      "sub_industry": "种子",
+      "n": 6,
+      "rs": 36.6,
+      "rs_1w": 13.7,
+      "ret_60": 59.7
+    },
+    {
+      "sub_industry": "百货",
+      "n": 4,
+      "rs": 14.8,
+      "rs_1w": 9.6,
+      "ret_60": 38.8
+    },
+    {
+      "sub_industry": "航运",
+      "n": 5,
+      "rs": 45.4,
+      "rs_1w": 9.0,
+      "ret_60": 23.8
+    },
+    {
+      "sub_industry": "磨具磨料",
+      "n": 4,
+      "rs": 60.6,
+      "rs_1w": 8.3,
+      "ret_60": 2.9
+    },
+    {
+      "sub_industry": "生猪养殖",
+      "n": 5,
+      "rs": -0.8,
+      "rs_1w": 6.7,
+      "ret_60": 19.6
+    },
+    {
+      "sub_industry": "分立器件",
+      "n": 5,
+      "rs": 51.9,
+      "rs_1w": 5.7,
+      "ret_60": -14.5
+    },
+    {
+      "sub_industry": "航空装备",
+      "n": 7,
+      "rs": 15.2,
+      "rs_1w": 5.5,
+      "ret_60": 3.7
+    },
+    {
+      "sub_industry": "玻纤制造",
+      "n": 6,
+      "rs": 48.4,
+      "rs_1w": 4.6,
+      "ret_60": -33.4
+    },
+    {
+      "sub_industry": "通信网络设备及器件",
+      "n": 18,
+      "rs": 45.8,
+      "rs_1w": 3.9,
+      "ret_60": -10.1
+    },
+    {
+      "sub_industry": "城商行",
+      "n": 3,
+      "rs": 19.8,
+      "rs_1w": 3.8,
+      "ret_60": 15.2
+    },
+    {
+      "sub_industry": "激光设备",
+      "n": 6,
+      "rs": 51.6,
+      "rs_1w": 3.6,
+      "ret_60": -18.8
+    },
+    {
+      "sub_industry": "地面兵装",
+      "n": 4,
+      "rs": -8.7,
+      "rs_1w": 3.3,
+      "ret_60": 7.2
+    },
+    {
+      "sub_industry": "家电零部件",
+      "n": 3,
+      "rs": 3.5,
+      "rs_1w": 2.7,
+      "ret_60": 7.0
+    }
+  ],
   "part1c1": [
     {
-      "ticker": "002041.SZ",
-      "name": "登海种业",
-      "sub_industry": "种子",
-      "sector": "农林牧渔",
-      "close": 12.02,
-      "pct_high_250": 0.976,
-      "amt_surge": 3.211,
-      "amt_rank": 0.239,
-      "ret_60": 0.348,
+      "ticker": "600150.SH",
+      "name": "中国船舶",
+      "sub_industry": "航海装备",
+      "sector": "国防军工",
+      "close": 40.82,
+      "pct_high_250": 0.988,
+      "amt_surge": 1.084,
+      "amt_rank": 0.981,
+      "ret_60": 0.111,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 1.019,
+      "pct_high_126": 0.988,
+      "nh_ratio_126": 0.024,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        26.0,
+        54.9,
+        14.0,
+        18.0
+      ],
+      "profit_yoy4": [
+        163.5,
+        251.6,
+        86.0,
+        115.4
+      ],
+      "roe4": [
+        6.7,
+        3.3,
+        7.4,
+        6.2
+      ]
+    },
+    {
+      "ticker": "000759.SZ",
+      "name": "中百集团",
+      "sub_industry": "超市",
+      "sector": "商贸零售",
+      "close": 8.69,
+      "pct_high_250": 0.975,
+      "amt_surge": 1.397,
+      "amt_rank": 0.426,
+      "ret_60": 0.436,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 0.91,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.024,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -22.4,
+        -20.8,
+        -20.2,
+        -19.4
+      ],
+      "profit_yoy4": [
+        -16.2,
+        1.5,
+        -81.1,
+        -74.8
+      ],
+      "roe4": [
+        -44.0,
+        -12.6,
+        -73.3,
+        -38.8
+      ]
+    },
+    {
+      "ticker": "601398.SH",
+      "name": "工商银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 8.1,
+      "pct_high_250": 0.985,
+      "amt_surge": 0.952,
+      "amt_rank": 0.752,
+      "ret_60": 0.101,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.097,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.008
+      "hotness": 0.703,
+      "pct_high_126": 0.985,
+      "nh_ratio_126": 0.032,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        9.1,
+        8.3,
+        2.0,
+        2.2
+      ],
+      "profit_yoy4": [
+        3.3,
+        3.3,
+        0.7,
+        0.3
+      ],
+      "roe4": [
+        4.3,
+        2.2,
+        9.4,
+        7.0
+      ]
     },
     {
-      "ticker": "000560.SZ",
-      "name": "我爱我家",
-      "sub_industry": "房产租赁经纪",
-      "sector": "房地产",
-      "close": 3.44,
-      "pct_high_250": 0.95,
-      "amt_surge": 2.41,
-      "amt_rank": 0.764,
-      "ret_60": 0.47,
-      "ma_aligned": 0,
+      "ticker": "002059.SZ",
+      "name": "云南旅游",
+      "sub_industry": "人工景区",
+      "sector": "社会服务",
+      "close": 6.31,
+      "pct_high_250": 0.78,
+      "amt_surge": 2.109,
+      "amt_rank": 0.471,
+      "ret_60": 0.441,
+      "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.994,
-      "pct_high_126": 0.991,
-      "nh_ratio_126": 0.0
-    },
-    {
-      "ticker": "600737.SH",
-      "name": "中粮糖业",
-      "sub_industry": "其他农产品加工",
-      "sector": "农林牧渔",
-      "close": 18.16,
-      "pct_high_250": 0.963,
-      "amt_surge": 2.193,
-      "amt_rank": 0.671,
-      "ret_60": 0.352,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.952,
+      "hotness": 0.49,
       "pct_high_126": 1.0,
-      "nh_ratio_126": 0.024
+      "nh_ratio_126": 0.032,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -52.9,
+        24.4,
+        -37.0,
+        -58.7
+      ],
+      "profit_yoy4": [
+        -43.8,
+        30.3,
+        -1073.0,
+        -196.8
+      ],
+      "roe4": [
+        -15.8,
+        -3.1,
+        -26.2,
+        -9.8
+      ]
     },
     {
       "ticker": "000001.SZ",
       "name": "平安银行",
       "sub_industry": "股份制银行",
       "sector": "银行",
-      "close": 11.78,
-      "pct_high_250": 0.988,
-      "amt_surge": 1.014,
-      "amt_rank": 0.43,
-      "ret_60": 0.065,
+      "close": 11.85,
+      "pct_high_250": 0.994,
+      "amt_surge": 1.029,
+      "amt_rank": 0.297,
+      "ret_60": 0.099,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.475,
-      "pct_high_126": 0.988,
-      "nh_ratio_126": 0.04
+      "hotness": 0.423,
+      "pct_high_126": 0.994,
+      "nh_ratio_126": 0.04,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        1.8,
+        4.7,
+        -10.4,
+        -9.8
+      ],
+      "profit_yoy4": [
+        3.3,
+        3.0,
+        -4.2,
+        -3.5
+      ],
+      "roe4": [
+        5.2,
+        2.8,
+        9.2,
+        8.3
+      ]
     },
     {
-      "ticker": "688333.SH",
-      "name": "铂力特",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 116.47,
-      "pct_high_250": 0.831,
-      "amt_surge": 1.17,
-      "amt_rank": 0.612,
-      "ret_60": 0.544,
+      "ticker": "601658.SH",
+      "name": "邮储银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 5.46,
+      "pct_high_250": 0.892,
+      "amt_surge": 1.227,
+      "amt_rank": 0.323,
+      "ret_60": 0.119,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.406,
-      "pct_high_126": 0.993,
-      "nh_ratio_126": 0.008
-    },
-    {
-      "ticker": "600309.SH",
-      "name": "万华化学",
-      "sub_industry": "聚氨酯",
-      "sector": "基础化工",
-      "close": 78.09,
-      "pct_high_250": 0.841,
-      "amt_surge": 0.903,
-      "amt_rank": 0.806,
-      "ret_60": 0.062,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.296,
-      "pct_high_126": 0.861,
-      "nh_ratio_126": 0.0
-    },
-    {
-      "ticker": "600598.SH",
-      "name": "北大荒",
-      "sub_industry": "粮食种植",
-      "sector": "农林牧渔",
-      "close": 14.06,
-      "pct_high_250": 0.821,
-      "amt_surge": 1.883,
-      "amt_rank": 0.337,
-      "ret_60": -0.011,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.039,
-      "pct_high_126": 0.821,
-      "nh_ratio_126": 0.016
+      "hotness": 0.397,
+      "pct_high_126": 0.982,
+      "nh_ratio_126": 0.04,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        7.3,
+        7.6,
+        2.0,
+        1.8
+      ],
+      "profit_yoy4": [
+        4.6,
+        1.9,
+        1.1,
+        1.0
+      ],
+      "roe4": [
+        4.8,
+        2.4,
+        8.7,
+        8.0
+      ]
     },
     {
       "ticker": "000737.SZ",
       "name": "北方铜业",
       "sub_industry": "铜",
       "sector": "有色金属",
-      "close": 15.71,
-      "pct_high_250": 0.772,
-      "amt_surge": 1.113,
-      "amt_rank": 0.6,
-      "ret_60": 0.055,
+      "close": 16.38,
+      "pct_high_250": 0.805,
+      "amt_surge": 1.31,
+      "amt_rank": 0.784,
+      "ret_60": 0.128,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.021,
-      "pct_high_126": 0.977,
-      "nh_ratio_126": 0.0
+      "hotness": 0.357,
+      "pct_high_126": 0.995,
+      "nh_ratio_126": 0.008,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        69.3,
+        46.9,
+        15.8,
+        9.6
+      ],
+      "profit_yoy4": [
+        186.6,
+        65.7,
+        29.0,
+        26.1
+      ],
+      "roe4": [
+        18.7,
+        8.7,
+        12.2,
+        10.7
+      ]
     },
     {
-      "ticker": "000564.SZ",
-      "name": "供销大集",
-      "sub_industry": "百货",
-      "sector": "商贸零售",
-      "close": 1.73,
-      "pct_high_250": 0.584,
-      "amt_surge": 0.885,
-      "amt_rank": 0.538,
-      "ret_60": 0.193,
+      "ticker": "002011.SZ",
+      "name": "盾安环境",
+      "sub_industry": "家电零部件",
+      "sector": "家用电器",
+      "close": 13.14,
+      "pct_high_250": 0.885,
+      "amt_surge": 1.431,
+      "amt_rank": 0.367,
+      "ret_60": 0.23,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.379,
-      "pct_high_126": 0.779,
-      "nh_ratio_126": 0.0
+      "hotness": 0.323,
+      "pct_high_126": 0.994,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        7.5,
+        1.2,
+        2.8,
+        4.1
+      ],
+      "profit_yoy4": [
+        -12.8,
+        -9.9,
+        3.2,
+        18.5
+      ],
+      "roe4": [
+        6.8,
+        2.9,
+        17.7,
+        13.0
+      ]
     },
     {
-      "ticker": "000592.SZ",
-      "name": "平潭发展",
-      "sub_industry": "林业",
-      "sector": "农林牧渔",
-      "close": 7.9,
-      "pct_high_250": 0.47,
-      "amt_surge": 0.605,
-      "amt_rank": 0.804,
-      "ret_60": 0.038,
+      "ticker": "600893.SH",
+      "name": "航发动力",
+      "sub_industry": "航空装备",
+      "sector": "国防军工",
+      "close": 41.71,
+      "pct_high_250": 0.673,
+      "amt_surge": 0.777,
+      "amt_rank": 0.699,
+      "ret_60": 0.049,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.417,
-      "pct_high_126": 0.618,
-      "nh_ratio_126": 0.0
+      "hotness": -0.166,
+      "pct_high_126": 0.75,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        47.2,
+        14.8,
+        -3.2,
+        -11.7
+      ],
+      "profit_yoy4": [
+        59.3,
+        -65.9,
+        -26.3,
+        -85.1
+      ],
+      "roe4": [
+        0.4,
+        0.0,
+        1.6,
+        0.3
+      ]
     },
     {
-      "ticker": "603444.SH",
-      "name": "吉比特",
-      "sub_industry": "游戏",
-      "sector": "传媒",
-      "close": 402.87,
-      "pct_high_250": 0.628,
-      "amt_surge": 0.88,
-      "amt_rank": 0.167,
-      "ret_60": 0.18,
+      "ticker": "600403.SH",
+      "name": "大有能源",
+      "sub_industry": "动力煤",
+      "sector": "煤炭",
+      "close": 7.78,
+      "pct_high_250": 0.698,
+      "amt_surge": 1.866,
+      "amt_rank": 0.294,
+      "ret_60": 0.251,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": -0.476,
-      "pct_high_126": 0.984,
-      "nh_ratio_126": 0.0
+      "hotness": -0.182,
+      "pct_high_126": 0.869,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        12.5,
+        -8.1,
+        -16.6,
+        -19.7
+      ],
+      "profit_yoy4": [
+        24.5,
+        -19.4,
+        -84.8,
+        -42.8
+      ],
+      "roe4": [
+        -18.9,
+        -10.5,
+        -43.2,
+        -21.9
+      ]
     },
     {
-      "ticker": "601933.SH",
-      "name": "永辉超市",
-      "sub_industry": "超市",
-      "sector": "商贸零售",
-      "close": 3.36,
-      "pct_high_250": 0.583,
-      "amt_surge": 0.525,
-      "amt_rank": 0.346,
-      "ret_60": 0.034,
+      "ticker": "600016.SH",
+      "name": "民生银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 3.65,
+      "pct_high_250": 0.84,
+      "amt_surge": 0.712,
+      "amt_rank": 0.191,
+      "ret_60": 0.041,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.718,
-      "pct_high_126": 0.818,
-      "nh_ratio_126": 0.0
+      "hotness": -0.255,
+      "pct_high_126": 0.929,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        3.8,
+        2.7,
+        4.8,
+        6.7
+      ],
+      "profit_yoy4": [
+        -8.6,
+        -9.6,
+        -5.4,
+        -6.4
+      ],
+      "roe4": [
+        3.0,
+        2.0,
+        4.9,
+        4.6
+      ]
     },
     {
-      "ticker": "603619.SH",
-      "name": "中曼石油",
-      "sub_industry": "油田服务",
-      "sector": "石油石化",
-      "close": 24.9,
-      "pct_high_250": 0.532,
-      "amt_surge": 1.112,
-      "amt_rank": 0.238,
-      "ret_60": 0.062,
+      "ticker": "601890.SH",
+      "name": "亚星锚链",
+      "sub_industry": "航海装备",
+      "sector": "国防军工",
+      "close": 10.38,
+      "pct_high_250": 0.763,
+      "amt_surge": 0.969,
+      "amt_rank": 0.23,
+      "ret_60": 0.165,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.744,
-      "pct_high_126": 0.656,
-      "nh_ratio_126": 0.0
+      "hotness": -0.286,
+      "pct_high_126": 0.886,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        12.3,
+        -7.0,
+        5.6,
+        5.3
+      ],
+      "profit_yoy4": [
+        33.4,
+        60.8,
+        12.6,
+        9.4
+      ],
+      "roe4": [
+        3.9,
+        2.2,
+        8.5,
+        5.7
+      ]
+    },
+    {
+      "ticker": "601985.SH",
+      "name": "中国核电",
+      "sub_industry": "核力发电",
+      "sector": "公用事业",
+      "close": 9.08,
+      "pct_high_250": 0.974,
+      "amt_surge": 0.646,
+      "amt_rank": 0.084,
+      "ret_60": -0.006,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": -0.286,
+      "pct_high_126": 0.991,
+      "nh_ratio_126": 0.0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -6.3,
+        -6.6,
+        6.2,
+        8.2
+      ],
+      "profit_yoy4": [
+        -35.7,
+        -34.2,
+        6.0,
+        -10.4
+      ],
+      "roe4": [
+        3.0,
+        1.7,
+        8.2,
+        7.1
+      ]
     }
   ],
   "part1c2": [
-    {
-      "ticker": "600127.SH",
-      "name": "金健米业",
-      "sub_industry": "粮油加工",
-      "sector": "农林牧渔",
-      "close": 14.79,
-      "pct_high_250": 1.0,
-      "amt_surge": 6.338,
-      "amt_rank": 0.875,
-      "ret_60": 1.533,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 2.815,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.111
-    },
-    {
-      "ticker": "600479.SH",
-      "name": "千金药业",
-      "sub_industry": "中药",
-      "sector": "医药生物",
-      "close": 14.81,
-      "pct_high_250": 1.0,
-      "amt_surge": 5.893,
-      "amt_rank": 0.656,
-      "ret_60": 0.567,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 2.056,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.048
-    },
-    {
-      "ticker": "600371.SH",
-      "name": "万向德农",
-      "sub_industry": "种子",
-      "sector": "农林牧渔",
-      "close": 15.83,
-      "pct_high_250": 1.0,
-      "amt_surge": 4.518,
-      "amt_rank": 0.509,
-      "ret_60": 1.261,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 1.867,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.056
-    },
-    {
-      "ticker": "600722.SH",
-      "name": "金牛化工",
-      "sub_industry": "煤化工",
-      "sector": "基础化工",
-      "close": 19.77,
-      "pct_high_250": 1.0,
-      "amt_surge": 2.797,
-      "amt_rank": 0.828,
-      "ret_60": 1.066,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 1.688,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.048
-    },
     {
       "ticker": "600354.SH",
       "name": "敦煌种业",
       "sub_industry": "种子",
       "sector": "农林牧渔",
-      "close": 10.48,
+      "close": 11.45,
       "pct_high_250": 1.0,
-      "amt_surge": 3.03,
-      "amt_rank": 0.265,
-      "ret_60": 0.966,
+      "amt_surge": 3.716,
+      "amt_rank": 0.623,
+      "ret_60": 1.258,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.186,
+      "hotness": 1.9,
       "pct_high_126": 1.0,
-      "nh_ratio_126": 0.048
-    },
-    {
-      "ticker": "600036.SH",
-      "name": "招商银行",
-      "sub_industry": "股份制银行",
-      "sector": "银行",
-      "close": 40.9,
-      "pct_high_250": 0.981,
-      "amt_surge": 0.854,
-      "amt_rank": 0.836,
-      "ret_60": 0.079,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 1.149,
-      "pct_high_126": 0.981,
-      "nh_ratio_126": 0.063
-    },
-    {
-      "ticker": "603228.SH",
-      "name": "景旺电子",
-      "sub_industry": "印制电路板",
-      "sector": "电子",
-      "close": 106.97,
-      "pct_high_250": 1.0,
-      "amt_surge": 1.601,
-      "amt_rank": 0.941,
-      "ret_60": 0.346,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 1.093,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.063
-    },
-    {
-      "ticker": "600162.SH",
-      "name": "香江控股",
-      "sub_industry": "住宅开发",
-      "sector": "房地产",
-      "close": 5.5,
-      "pct_high_250": 1.0,
-      "amt_surge": 2.812,
-      "amt_rank": 0.258,
-      "ret_60": 0.511,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.897,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.111
-    },
-    {
-      "ticker": "601169.SH",
-      "name": "北京银行",
-      "sub_industry": "城商行",
-      "sector": "银行",
-      "close": 5.54,
-      "pct_high_250": 0.951,
-      "amt_surge": 1.078,
-      "amt_rank": 0.558,
-      "ret_60": 0.121,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.842,
-      "pct_high_126": 0.989,
-      "nh_ratio_126": 0.056
+      "nh_ratio_126": 0.063,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        20.9,
+        5.1,
+        0.4,
+        14.5
+      ],
+      "profit_yoy4": [
+        165.7,
+        -26.0,
+        -5.3,
+        107.0
+      ],
+      "roe4": [
+        18.7,
+        6.5,
+        7.0,
+        5.5
+      ]
     },
     {
       "ticker": "601086.SH",
       "name": "国芳集团",
       "sub_industry": "百货",
       "sector": "商贸零售",
-      "close": 14.95,
+      "close": 15.11,
       "pct_high_250": 1.0,
-      "amt_surge": 1.621,
-      "amt_rank": 0.325,
-      "ret_60": 1.082,
+      "amt_surge": 2.201,
+      "amt_rank": 0.566,
+      "ret_60": 1.143,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.791,
+      "hotness": 1.29,
       "pct_high_126": 1.0,
-      "nh_ratio_126": 0.048
+      "nh_ratio_126": 0.056,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        10.3,
+        14.7,
+        5.7,
+        -4.3
+      ],
+      "profit_yoy4": [
+        214.1,
+        174.1,
+        21.2,
+        71.3
+      ],
+      "roe4": [
+        4.3,
+        2.6,
+        4.4,
+        3.8
+      ]
+    },
+    {
+      "ticker": "603228.SH",
+      "name": "景旺电子",
+      "sub_industry": "印制电路板",
+      "sector": "电子",
+      "close": 110.01,
+      "pct_high_250": 1.0,
+      "amt_surge": 1.484,
+      "amt_rank": 0.958,
+      "ret_60": 0.362,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 1.282,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.079,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        21.4,
+        16.4,
+        20.9,
+        22.1
+      ],
+      "profit_yoy4": [
+        -7.4,
+        -28.4,
+        5.3,
+        4.8
+      ],
+      "roe4": [
+        4.5,
+        1.8,
+        10.3,
+        8.2
+      ]
+    },
+    {
+      "ticker": "600036.SH",
+      "name": "招商银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 41.57,
+      "pct_high_250": 0.997,
+      "amt_surge": 0.865,
+      "amt_rank": 0.814,
+      "ret_60": 0.117,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 1.22,
+      "pct_high_126": 0.997,
+      "nh_ratio_126": 0.063,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        4.8,
+        3.8,
+        0.0,
+        -0.5
+      ],
+      "profit_yoy4": [
+        2.0,
+        1.5,
+        1.2,
+        0.5
+      ],
+      "roe4": [
+        6.7,
+        3.4,
+        13.4,
+        10.5
+      ]
+    },
+    {
+      "ticker": "688002.SH",
+      "name": "睿创微纳",
+      "sub_industry": "军工电子",
+      "sector": "国防军工",
+      "close": 183.43,
+      "pct_high_250": 0.992,
+      "amt_surge": 1.702,
+      "amt_rank": 0.731,
+      "ret_60": 0.261,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 1.129,
+      "pct_high_126": 0.992,
+      "nh_ratio_126": 0.127,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        72.8,
+        71.1,
+        46.1,
+        29.7
+      ],
+      "profit_yoy4": [
+        258.8,
+        228.3,
+        97.7,
+        46.2
+      ],
+      "roe4": [
+        17.0,
+        6.8,
+        18.7,
+        12.0
+      ]
+    },
+    {
+      "ticker": "603162.SH",
+      "name": "海通发展",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 15.52,
+      "pct_high_250": 1.0,
+      "amt_surge": 2.021,
+      "amt_rank": 0.606,
+      "ret_60": 0.595,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 0.966,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.095,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        92.8,
+        66.7,
+        21.4,
+        16.3
+      ],
+      "profit_yoy4": [
+        502.6,
+        211.1,
+        -15.3,
+        -38.5
+      ],
+      "roe4": [
+        11.2,
+        4.6,
+        10.8,
+        6.0
+      ]
     },
     {
       "ticker": "603268.SH",
       "name": "松发股份",
       "sub_industry": "其他家居用品",
       "sector": "轻工制造",
-      "close": 192.4,
-      "pct_high_250": 0.991,
-      "amt_surge": 1.425,
-      "amt_rank": 0.25,
-      "ret_60": 0.215,
+      "close": 199.59,
+      "pct_high_250": 1.0,
+      "amt_surge": 1.409,
+      "amt_rank": 0.221,
+      "ret_60": 0.319,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.733,
-      "pct_high_126": 0.991,
-      "nh_ratio_126": 0.151
+      "hotness": 0.935,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.159,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        251.9,
+        199.1,
+        275.0,
+        237.2
+      ],
+      "profit_yoy4": [
+        457.7,
+        330.3,
+        1083.0,
+        1614.1
+      ],
+      "roe4": [
+        32.1,
+        10.9,
+        46.8,
+        30.5
+      ]
     },
     {
-      "ticker": "688808.SH",
-      "name": "联讯仪器",
-      "sub_industry": "仪器仪表",
-      "sector": "机械设备",
-      "close": 2653.0,
-      "pct_high_250": 0.983,
-      "amt_surge": 0.631,
-      "amt_rank": 0.791,
-      "ret_60": 0.214,
+      "ticker": "601169.SH",
+      "name": "北京银行",
+      "sub_industry": "城商行",
+      "sector": "银行",
+      "close": 5.64,
+      "pct_high_250": 0.969,
+      "amt_surge": 1.142,
+      "amt_rank": 0.407,
+      "ret_60": 0.161,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.677,
-      "pct_high_126": 0.983,
-      "nh_ratio_126": 0.245
+      "hotness": 0.892,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.063,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        5.6,
+        14.4,
+        -3.4,
+        -1.1
+      ],
+      "profit_yoy4": [
+        5.6,
+        5.5,
+        -23.7,
+        0.3
+      ],
+      "roe4": [
+        5.3,
+        2.9,
+        6.1,
+        7.4
+      ]
     },
     {
       "ticker": "002142.SZ",
       "name": "宁波银行",
       "sub_industry": "城商行",
       "sector": "银行",
-      "close": 34.66,
+      "close": 35.87,
       "pct_high_250": 1.0,
-      "amt_surge": 0.987,
-      "amt_rank": 0.273,
-      "ret_60": 0.111,
+      "amt_surge": 1.03,
+      "amt_rank": 0.306,
+      "ret_60": 0.173,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.578,
+      "hotness": 0.829,
       "pct_high_126": 1.0,
-      "nh_ratio_126": 0.087
+      "nh_ratio_126": 0.103,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        11.5,
+        10.2,
+        8.0,
+        8.3
+      ],
+      "profit_yoy4": [
+        12.1,
+        10.3,
+        8.1,
+        8.4
+      ],
+      "roe4": [
+        7.1,
+        3.6,
+        13.1,
+        10.4
+      ]
+    },
+    {
+      "ticker": "600601.SH",
+      "name": "方正科技",
+      "sub_industry": "印制电路板",
+      "sector": "电子",
+      "close": 14.82,
+      "pct_high_250": 0.98,
+      "amt_surge": 0.977,
+      "amt_rank": 0.936,
+      "ret_60": 0.033,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 0.782,
+      "pct_high_126": 0.98,
+      "nh_ratio_126": 0.048,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        72.9,
+        64.3,
+        41.9,
+        38.7
+      ],
+      "profit_yoy4": [
+        232.4,
+        195.2,
+        83.5,
+        50.8
+      ],
+      "roe4": [
+        11.6,
+        4.9,
+        10.3,
+        8.4
+      ]
     },
     {
       "ticker": "600919.SH",
       "name": "江苏银行",
       "sub_industry": "城商行",
       "sector": "银行",
-      "close": 12.26,
-      "pct_high_250": 0.998,
-      "amt_surge": 0.872,
-      "amt_rank": 0.374,
-      "ret_60": 0.06,
+      "close": 12.62,
+      "pct_high_250": 1.0,
+      "amt_surge": 0.908,
+      "amt_rank": 0.378,
+      "ret_60": 0.117,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.556,
-      "pct_high_126": 0.998,
-      "nh_ratio_126": 0.167
+      "hotness": 0.781,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.183,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        9.1,
+        8.4,
+        8.8,
+        7.8
+      ],
+      "profit_yoy4": [
+        8.1,
+        8.2,
+        8.3,
+        8.3
+      ],
+      "roe4": [
+        7.9,
+        4.1,
+        13.1,
+        11.9
+      ]
     },
     {
       "ticker": "002980.SZ",
       "name": "华盛昌",
       "sub_industry": "电工仪器仪表",
       "sector": "电力设备",
-      "close": 129.91,
-      "pct_high_250": 0.989,
-      "amt_surge": 1.813,
-      "amt_rank": 0.621,
-      "ret_60": 0.15,
+      "close": 132.91,
+      "pct_high_250": 0.99,
+      "amt_surge": 1.93,
+      "amt_rank": 0.711,
+      "ret_60": 0.059,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.552,
-      "pct_high_126": 0.989,
-      "nh_ratio_126": 0.222
+      "hotness": 0.781,
+      "pct_high_126": 0.99,
+      "nh_ratio_126": 0.214,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        37.1,
+        -13.4,
+        -0.5,
+        -5.5
+      ],
+      "profit_yoy4": [
+        72.9,
+        -39.1,
+        -35.7,
+        -40.9
+      ],
+      "roe4": [
+        6.5,
+        1.6,
+        8.2,
+        5.9
+      ]
+    },
+    {
+      "ticker": "601328.SH",
+      "name": "交通银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 7.44,
+      "pct_high_250": 1.0,
+      "amt_surge": 0.918,
+      "amt_rank": 0.389,
+      "ret_60": 0.106,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 0.638,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.056,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        6.7,
+        4.9,
+        2.0,
+        1.8
+      ],
+      "profit_yoy4": [
+        4.0,
+        3.1,
+        2.2,
+        1.9
+      ],
+      "roe4": [
+        4.0,
+        2.3,
+        8.4,
+        6.4
+      ]
     },
     {
       "ticker": "301282.SZ",
       "name": "金禄电子",
       "sub_industry": "印制电路板",
       "sector": "电子",
-      "close": 40.3,
-      "pct_high_250": 0.985,
-      "amt_surge": 2.364,
-      "amt_rank": 0.106,
-      "ret_60": 0.419,
+      "close": 42.69,
+      "pct_high_250": 0.996,
+      "amt_surge": 2.372,
+      "amt_rank": 0.081,
+      "ret_60": 0.452,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.471,
-      "pct_high_126": 0.985,
-      "nh_ratio_126": 0.111
+      "hotness": 0.598,
+      "pct_high_126": 0.996,
+      "nh_ratio_126": 0.103,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        43.5,
+        33.3,
+        28.7,
+        25.5
+      ],
+      "profit_yoy4": [
+        6.3,
+        -42.6,
+        12.7,
+        7.9
+      ],
+      "roe4": [
+        3.2,
+        0.5,
+        5.3,
+        3.6
+      ]
     },
     {
-      "ticker": "920045.BJ",
-      "name": "蘅东光",
-      "sub_industry": "通信网络设备及器件",
-      "sector": "通信",
-      "close": 549.63,
-      "pct_high_250": 1.0,
-      "amt_surge": 1.165,
-      "amt_rank": 0.204,
-      "ret_60": 0.386,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.34,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.087
-    },
-    {
-      "ticker": "600926.SH",
-      "name": "杭州银行",
-      "sub_industry": "城商行",
+      "ticker": "601939.SH",
+      "name": "建设银行",
+      "sub_industry": "国有大型银行",
       "sector": "银行",
-      "close": 17.2,
-      "pct_high_250": 0.997,
-      "amt_surge": 0.975,
-      "amt_rank": 0.059,
-      "ret_60": 0.057,
+      "close": 10.95,
+      "pct_high_250": 0.983,
+      "amt_surge": 1.117,
+      "amt_rank": 0.404,
+      "ret_60": 0.103,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.31,
-      "pct_high_126": 0.997,
-      "nh_ratio_126": 0.071
+      "hotness": 0.519,
+      "pct_high_126": 0.983,
+      "nh_ratio_126": 0.143,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        10.7,
+        11.1,
+        1.9,
+        0.8
+      ],
+      "profit_yoy4": [
+        4.6,
+        3.5,
+        1.0,
+        0.6
+      ],
+      "roe4": [
+        4.8,
+        2.5,
+        10.0,
+        7.7
+      ]
     }
   ],
   "part3": [
     {
+      "ticker": "000823.SZ",
+      "name": "超声电子",
+      "sub_industry": "印制电路板",
+      "close": 18.7,
+      "ret_1d": 10.0,
+      "ret_3d": 17.3,
+      "vol_ratio": 2.71,
+      "trigger": "SOS",
+      "hotness": 0.095,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        10.0,
+        6.8,
+        10.0,
+        10.9
+      ],
+      "profit_yoy4": [
+        -1.2,
+        -21.0,
+        3.1,
+        20.9
+      ],
+      "roe4": [
+        2.3,
+        0.7,
+        4.6,
+        3.7
+      ]
+    },
+    {
+      "ticker": "603601.SH",
+      "name": "再升科技",
+      "sub_industry": "玻纤制造",
+      "close": 9.96,
+      "ret_1d": 10.1,
+      "ret_3d": 10.2,
+      "vol_ratio": 2.69,
+      "trigger": "SOS",
+      "hotness": -1.329,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -1.0,
+        -7.3,
+        -13.6,
+        -10.1
+      ],
+      "profit_yoy4": [
+        -25.6,
+        -57.4,
+        -38.2,
+        -10.6
+      ],
+      "roe4": [
+        1.8,
+        0.6,
+        2.5,
+        3.7
+      ]
+    },
+    {
+      "ticker": "600391.SH",
+      "name": "航发科技",
+      "sub_industry": "航空装备",
+      "close": 42.6,
+      "ret_1d": 4.2,
+      "ret_3d": 12.2,
+      "vol_ratio": 2.33,
+      "trigger": "SOS",
+      "hotness": -0.135,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        2.7,
+        -4.6,
+        12.3,
+        17.8
+      ],
+      "profit_yoy4": [
+        -40.8,
+        -418.0,
+        -11.5,
+        -45.0
+      ],
+      "roe4": [
+        0.3,
+        -0.6,
+        3.5,
+        1.7
+      ]
+    },
+    {
+      "ticker": "002011.SZ",
+      "name": "盾安环境",
+      "sub_industry": "家电零部件",
+      "close": 13.14,
+      "ret_1d": 5.5,
+      "ret_3d": 10.1,
+      "vol_ratio": 5.64,
+      "trigger": "SOS 3日",
+      "hotness": 0.323,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        7.5,
+        1.2,
+        2.8,
+        4.1
+      ],
+      "profit_yoy4": [
+        -12.8,
+        -9.9,
+        3.2,
+        18.5
+      ],
+      "roe4": [
+        6.8,
+        2.9,
+        17.7,
+        13.0
+      ]
+    },
+    {
+      "ticker": "601890.SH",
+      "name": "亚星锚链",
+      "sub_industry": "航海装备",
+      "close": 10.38,
+      "ret_1d": 3.0,
+      "ret_3d": 13.9,
+      "vol_ratio": 5.2,
+      "trigger": "SOS 3日",
+      "hotness": -0.286,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        12.3,
+        -7.0,
+        5.6,
+        5.3
+      ],
+      "profit_yoy4": [
+        33.4,
+        60.8,
+        12.6,
+        9.4
+      ],
+      "roe4": [
+        3.9,
+        2.2,
+        8.5,
+        5.7
+      ]
+    },
+    {
+      "ticker": "002470.SZ",
+      "name": "金正大",
+      "sub_industry": "复合肥",
+      "close": 2.51,
+      "ret_1d": -9.7,
+      "ret_3d": 9.1,
+      "vol_ratio": 4.09,
+      "trigger": "SOS 3日",
+      "hotness": -0.358,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        24.1,
+        25.9,
+        19.1,
+        14.4
+      ],
+      "profit_yoy4": [
+        -534.5,
+        30.0,
+        -42.0,
+        -116.4
+      ],
+      "roe4": [
+        -26.6,
+        0.5,
+        1.7,
+        -1.4
+      ]
+    },
+    {
+      "ticker": "002171.SZ",
+      "name": "楚江新材",
+      "sub_industry": "铜",
+      "close": 11.04,
+      "ret_1d": -0.2,
+      "ret_3d": 8.2,
+      "vol_ratio": 2.71,
+      "trigger": "SOS 3日",
+      "hotness": -0.476,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        39.4,
+        36.1,
+        12.7,
+        13.3
+      ],
+      "profit_yoy4": [
+        21.0,
+        6.4,
+        66.7,
+        2089.5
+      ],
+      "roe4": [
+        3.4,
+        1.6,
+        4.8,
+        4.5
+      ]
+    },
+    {
+      "ticker": "600596.SH",
+      "name": "新安股份",
+      "sub_industry": "农药",
+      "close": 12.02,
+      "ret_1d": -4.8,
+      "ret_3d": 9.5,
+      "vol_ratio": 2.24,
+      "trigger": "SOS 3日",
+      "hotness": -0.055,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        6.3,
+        12.7,
+        -0.3,
+        -1.1
+      ],
+      "profit_yoy4": [
+        268.0,
+        190.6,
+        185.7,
+        -46.2
+      ],
+      "roe4": [
+        2.0,
+        0.8,
+        1.2,
+        0.6
+      ]
+    },
+    {
       "ticker": "600967.SH",
       "name": "内蒙一机",
       "sub_industry": "地面兵装",
-      "close": 13.87,
-      "ret_1d": 4.0,
-      "ret_3d": 2.3,
-      "vol_ratio": 3.28,
-      "trigger": "SOS",
-      "hotness": -0.133
-    },
-    {
-      "ticker": "002639.SZ",
-      "name": "雪人集团",
-      "sub_industry": "制冷空调设备",
-      "close": 14.78,
-      "ret_1d": 5.6,
-      "ret_3d": 5.0,
-      "vol_ratio": 3.14,
-      "trigger": "SOS",
-      "hotness": -0.591
-    },
-    {
-      "ticker": "000737.SZ",
-      "name": "北方铜业",
-      "sub_industry": "铜",
-      "close": 15.71,
-      "ret_1d": 9.6,
-      "ret_3d": 5.6,
-      "vol_ratio": 2.97,
-      "trigger": "SOS",
-      "hotness": -0.021
-    },
-    {
-      "ticker": "002297.SZ",
-      "name": "博云新材",
-      "sub_industry": "航空装备",
-      "close": 22.32,
-      "ret_1d": 7.1,
-      "ret_3d": 1.5,
-      "vol_ratio": 2.58,
-      "trigger": "SOS",
-      "hotness": 0.17
-    },
-    {
-      "ticker": "603123.SH",
-      "name": "翠微股份",
-      "sub_industry": "百货",
-      "close": 12.28,
-      "ret_1d": 4.4,
-      "ret_3d": 20.9,
-      "vol_ratio": 2.48,
-      "trigger": "SOS",
-      "hotness": -0.051
-    },
-    {
-      "ticker": "002181.SZ",
-      "name": "粤传媒",
-      "sub_industry": "大众出版",
-      "close": 10.29,
-      "ret_1d": 5.1,
-      "ret_3d": 9.7,
-      "vol_ratio": 2.41,
-      "trigger": "SOS",
-      "hotness": -0.759
-    },
-    {
-      "ticker": "002436.SZ",
-      "name": "兴森科技",
-      "sub_industry": "印制电路板",
-      "close": 40.12,
-      "ret_1d": 9.2,
-      "ret_3d": 14.0,
-      "vol_ratio": 2.34,
-      "trigger": "SOS",
-      "hotness": 0.577
+      "close": 13.62,
+      "ret_1d": -5.6,
+      "ret_3d": 2.1,
+      "vol_ratio": 2.13,
+      "trigger": "SOS 3日",
+      "hotness": 0.076,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -8.6,
+        -4.8,
+        2.4,
+        11.1
+      ],
+      "profit_yoy4": [
+        -40.7,
+        -25.8,
+        -33.0,
+        6.2
+      ],
+      "roe4": [
+        1.4,
+        1.2,
+        2.9,
+        3.3
+      ]
     },
     {
       "ticker": "002815.SZ",
       "name": "崇达技术",
       "sub_industry": "印制电路板",
-      "close": 17.08,
-      "ret_1d": 6.7,
-      "ret_3d": 16.3,
-      "vol_ratio": 4.31,
+      "close": 18.25,
+      "ret_1d": 1.1,
+      "ret_3d": 14.0,
+      "vol_ratio": 1.98,
       "trigger": "SOS 3日",
-      "hotness": 0.045
+      "hotness": 0.299,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        22.6,
+        19.9,
+        20.2,
+        22.3
+      ],
+      "profit_yoy4": [
+        -31.3,
+        -71.9,
+        25.7,
+        19.6
+      ],
+      "roe4": [
+        1.7,
+        0.4,
+        4.2,
+        4.3
+      ]
     },
     {
-      "ticker": "000892.SZ",
-      "name": "欢瑞世纪",
-      "sub_industry": "影视动漫制作",
-      "close": 5.58,
-      "ret_1d": -4.8,
-      "ret_3d": 9.8,
-      "vol_ratio": 2.46,
+      "ticker": "002297.SZ",
+      "name": "博云新材",
+      "sub_industry": "航空装备",
+      "close": 21.9,
+      "ret_1d": -2.7,
+      "ret_3d": 5.1,
+      "vol_ratio": 1.84,
       "trigger": "SOS 3日",
-      "hotness": -0.152
-    },
-    {
-      "ticker": "000560.SZ",
-      "name": "我爱我家",
-      "sub_industry": "房产租赁经纪",
-      "close": 3.44,
-      "ret_1d": 9.9,
-      "ret_3d": 20.3,
-      "vol_ratio": 2.34,
-      "trigger": "SOS 3日",
-      "hotness": 0.994
-    },
-    {
-      "ticker": "001330.SZ",
-      "name": "博纳影业",
-      "sub_industry": "影视动漫制作",
-      "close": 6.12,
-      "ret_1d": -3.6,
-      "ret_3d": 5.0,
-      "vol_ratio": 2.16,
-      "trigger": "SOS 3日",
-      "hotness": -0.741
+      "hotness": 0.26,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        88.3,
+        125.9,
+        27.8,
+        45.1
+      ],
+      "profit_yoy4": [
+        1911.6,
+        13362.4,
+        192.0,
+        278.3
+      ],
+      "roe4": [
+        7.7,
+        6.0,
+        3.0,
+        1.4
+      ]
     },
     {
       "ticker": "000519.SZ",
       "name": "中兵红箭",
       "sub_industry": "地面兵装",
-      "close": 16.06,
-      "ret_1d": 2.4,
-      "ret_3d": 5.0,
-      "vol_ratio": 1.94,
+      "close": 16.14,
+      "ret_1d": -2.9,
+      "ret_3d": 2.9,
+      "vol_ratio": 1.83,
       "trigger": "SOS 3日",
-      "hotness": -0.078
+      "hotness": -0.086,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        38.2,
+        181.3,
+        103.0,
+        25.9
+      ],
+      "profit_yoy4": [
+        191.4,
+        142.4,
+        112.7,
+        2.3
+      ],
+      "roe4": [
+        0.4,
+        0.5,
+        0.4,
+        -0.6
+      ]
     },
     {
       "ticker": "002897.SZ",
       "name": "意华股份",
       "sub_industry": "通信网络设备及器件",
-      "close": 64.3,
-      "ret_1d": 4.9,
-      "ret_3d": 8.8,
-      "vol_ratio": 1.82,
-      "trigger": "SOS 3日",
-      "hotness": -0.711
-    },
-    {
-      "ticker": "603124.SH",
-      "name": "江南新材",
-      "sub_industry": "其他金属新材料",
-      "close": 132.0,
+      "close": 63.33,
       "ret_1d": 0.7,
-      "ret_3d": 7.4,
-      "vol_ratio": 1.69,
+      "ret_3d": 3.3,
+      "vol_ratio": 1.83,
       "trigger": "SOS 3日",
-      "hotness": -0.312
+      "hotness": -0.456,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -6.0,
+        -5.3,
+        5.0,
+        4.6
+      ],
+      "profit_yoy4": [
+        -37.9,
+        -37.7,
+        156.3,
+        16.3
+      ],
+      "roe4": [
+        3.5,
+        1.4,
+        12.2,
+        10.5
+      ]
     },
     {
-      "ticker": "600601.SH",
-      "name": "方正科技",
+      "ticker": "002155.SZ",
+      "name": "湖南黄金",
+      "sub_industry": "黄金",
+      "close": 28.54,
+      "ret_1d": 0.3,
+      "ret_3d": 9.9,
+      "vol_ratio": 1.79,
+      "trigger": "SOS 3日",
+      "hotness": -0.099,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        12.6,
+        43.5,
+        80.3,
+        96.3
+      ],
+      "profit_yoy4": [
+        46.0,
+        79.2,
+        75.8,
+        54.3
+      ],
+      "roe4": [
+        11.1,
+        7.1,
+        19.1,
+        14.2
+      ]
+    },
+    {
+      "ticker": "603077.SH",
+      "name": "和邦生物",
+      "sub_industry": "磷肥及磷化工",
+      "close": 2.46,
+      "ret_1d": -3.9,
+      "ret_3d": 7.0,
+      "vol_ratio": 1.43,
+      "trigger": "SOS 3日",
+      "hotness": -0.371,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -26.3,
+        -19.6,
+        -15.9,
+        -13.0
+      ],
+      "profit_yoy4": [
+        634.3,
+        1286.8,
+        -1804.8,
+        -57.9
+      ],
+      "roe4": [
+        2.1,
+        1.0,
+        -3.0,
+        0.5
+      ]
+    },
+    {
+      "ticker": "000737.SZ",
+      "name": "北方铜业",
+      "sub_industry": "铜",
+      "close": 16.38,
+      "ret_1d": -0.5,
+      "ret_3d": 14.3,
+      "vol_ratio": 1.38,
+      "trigger": "SOS 3日",
+      "hotness": 0.357,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        69.3,
+        46.9,
+        15.8,
+        9.6
+      ],
+      "profit_yoy4": [
+        186.6,
+        65.7,
+        29.0,
+        26.1
+      ],
+      "roe4": [
+        18.7,
+        8.7,
+        12.2,
+        10.7
+      ]
+    },
+    {
+      "ticker": "603650.SH",
+      "name": "彤程新材",
+      "sub_industry": "橡胶助剂",
+      "close": 64.51,
+      "ret_1d": -1.1,
+      "ret_3d": 9.7,
+      "vol_ratio": 1.37,
+      "trigger": "SOS 3日",
+      "hotness": 0.094,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        29.1,
+        22.5,
+        4.8,
+        4.1
+      ],
+      "profit_yoy4": [
+        10.9,
+        13.8,
+        8.9,
+        12.7
+      ],
+      "roe4": [
+        9.0,
+        4.3,
+        16.0,
+        14.5
+      ]
+    },
+    {
+      "ticker": "002436.SZ",
+      "name": "兴森科技",
       "sub_industry": "印制电路板",
-      "close": 14.48,
-      "ret_1d": 3.7,
-      "ret_3d": 14.7,
-      "vol_ratio": 1.66,
+      "close": 39.71,
+      "ret_1d": 0.7,
+      "ret_3d": 8.1,
+      "vol_ratio": 1.18,
       "trigger": "SOS 3日",
-      "hotness": 0.751
+      "hotness": 0.477,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        17.9,
+        15.1,
+        23.7,
+        23.5
+      ],
+      "profit_yoy4": [
+        283.3,
+        100.0,
+        168.1,
+        516.1
+      ],
+      "roe4": [
+        2.0,
+        0.3,
+        2.6,
+        2.5
+      ]
     },
     {
-      "ticker": "600150.SH",
-      "name": "中国船舶",
-      "sub_industry": "航海装备",
-      "close": 39.08,
-      "ret_1d": 1.8,
-      "ret_3d": 13.9,
-      "vol_ratio": 1.63,
+      "ticker": "601126.SH",
+      "name": "四方股份",
+      "sub_industry": "电网自动化设备",
+      "close": 41.81,
+      "ret_1d": -3.1,
+      "ret_3d": 1.3,
+      "vol_ratio": 1.16,
       "trigger": "SOS 3日",
-      "hotness": 0.719
+      "hotness": -0.724,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        11.5,
+        18.1,
+        17.9,
+        20.4
+      ],
+      "profit_yoy4": [
+        8.0,
+        12.1,
+        15.8,
+        15.6
+      ],
+      "roe4": [
+        10.2,
+        5.4,
+        17.8,
+        15.0
+      ]
     },
     {
-      "ticker": "300179.SZ",
-      "name": "四方达",
-      "sub_industry": "磨具磨料",
-      "close": 39.41,
-      "ret_1d": 2.1,
-      "ret_3d": 4.1,
-      "vol_ratio": 1.61,
-      "trigger": "SOS 3日",
-      "hotness": 0.066
-    },
-    {
-      "ticker": "600172.SH",
-      "name": "黄河旋风",
-      "sub_industry": "磨具磨料",
-      "close": 16.5,
-      "ret_1d": 3.8,
-      "ret_3d": 3.6,
-      "vol_ratio": 1.33,
-      "trigger": "SOS 3日",
-      "hotness": 0.997
-    },
-    {
-      "ticker": "002354.SZ",
-      "name": "天娱数科",
-      "sub_industry": "营销代理",
-      "close": 8.26,
-      "ret_1d": -2.0,
-      "ret_3d": 6.3,
+      "ticker": "688001.SH",
+      "name": "华兴源创",
+      "sub_industry": "仪器仪表",
+      "close": 64.6,
+      "ret_1d": -2.6,
+      "ret_3d": 10.9,
       "vol_ratio": 1.12,
       "trigger": "SOS 3日",
-      "hotness": 0.807
-    },
-    {
-      "ticker": "002602.SZ",
-      "name": "世纪华通",
-      "sub_industry": "游戏",
-      "close": 16.13,
-      "ret_1d": -0.2,
-      "ret_3d": 10.7,
-      "vol_ratio": 0.99,
-      "trigger": "SOS 3日",
-      "hotness": 0.113
+      "hotness": -0.124,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        23.9,
+        37.0,
+        22.9,
+        23.7
+      ],
+      "profit_yoy4": [
+        20.9,
+        109.6,
+        116.1,
+        396.4
+      ],
+      "roe4": [
+        2.6,
+        0.1,
+        2.3,
+        4.3
+      ]
     },
     {
       "ticker": "688700.SH",
       "name": "东威科技",
       "sub_industry": "其他专用设备",
-      "close": 60.39,
-      "ret_1d": -2.4,
-      "ret_3d": 6.9,
-      "vol_ratio": 0.89,
+      "close": 64.05,
+      "ret_1d": -0.9,
+      "ret_3d": 3.6,
+      "vol_ratio": 1.08,
       "trigger": "SOS 3日",
-      "hotness": -0.575
+      "hotness": -0.429,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        51.9,
+        44.5,
+        46.5,
+        30.6
+      ],
+      "profit_yoy4": [
+        133.2,
+        160.6,
+        74.6,
+        24.8
+      ],
+      "roe4": [
+        5.3,
+        2.4,
+        6.8,
+        4.8
+      ]
     },
     {
-      "ticker": "300498.SZ",
-      "name": "温氏股份",
-      "sub_industry": "生猪养殖",
-      "close": 15.23,
-      "ret_1d": -0.3,
-      "ret_3d": 5.3,
-      "vol_ratio": 0.85,
+      "ticker": "300088.SZ",
+      "name": "长信科技",
+      "sub_industry": "面板",
+      "close": 7.01,
+      "ret_1d": -4.2,
+      "ret_3d": 1.4,
+      "vol_ratio": 1.04,
       "trigger": "SOS 3日",
-      "hotness": -0.321
+      "hotness": -0.749,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -19.7,
+        -11.8,
+        4.7,
+        3.7
+      ],
+      "profit_yoy4": [
+        -47.8,
+        -39.9,
+        -42.9,
+        -2.5
+      ],
+      "roe4": [
+        1.3,
+        0.6,
+        2.5,
+        3.3
+      ]
     },
     {
-      "ticker": "603444.SH",
-      "name": "吉比特",
-      "sub_industry": "游戏",
-      "close": 402.87,
-      "ret_1d": -0.5,
-      "ret_3d": 5.8,
-      "vol_ratio": 0.59,
+      "ticker": "600875.SH",
+      "name": "东方电气",
+      "sub_industry": "综合电力设备商",
+      "close": 25.6,
+      "ret_1d": -2.9,
+      "ret_3d": 2.4,
+      "vol_ratio": 1.03,
       "trigger": "SOS 3日",
-      "hotness": -0.476
+      "hotness": -0.691,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        1.2,
+        5.6,
+        12.8,
+        16.0
+      ],
+      "profit_yoy4": [
+        42.1,
+        37.4,
+        31.1,
+        13.0
+      ],
+      "roe4": [
+        5.9,
+        3.4,
+        9.0,
+        7.1
+      ]
+    },
+    {
+      "ticker": "600601.SH",
+      "name": "方正科技",
+      "sub_industry": "印制电路板",
+      "close": 14.82,
+      "ret_1d": 1.4,
+      "ret_3d": 6.1,
+      "vol_ratio": 0.95,
+      "trigger": "SOS 3日",
+      "hotness": 0.782,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        72.9,
+        64.3,
+        41.9,
+        38.7
+      ],
+      "profit_yoy4": [
+        232.4,
+        195.2,
+        83.5,
+        50.8
+      ],
+      "roe4": [
+        11.6,
+        4.9,
+        10.3,
+        8.4
+      ]
+    },
+    {
+      "ticker": "603124.SH",
+      "name": "江南新材",
+      "sub_industry": "其他金属新材料",
+      "close": 126.5,
+      "ret_1d": -1.8,
+      "ret_3d": -3.5,
+      "vol_ratio": 0.83,
+      "trigger": "SOS 3日",
+      "hotness": -0.343,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        40.8,
+        39.7,
+        18.7,
+        18.3
+      ],
+      "profit_yoy4": [
+        51.7,
+        113.9,
+        24.3,
+        21.9
+      ],
+      "roe4": [
+        8.3,
+        4.1,
+        13.0,
+        10.0
+      ]
     }
   ],
   "bottom": [
     {
-      "ticker": "688385.SH",
-      "name": "复旦微电",
-      "sub_industry": "数字芯片设计",
-      "close": 53.61,
-      "wj_min": 3.4,
-      "pos250": 0.14,
+      "ticker": "002027.SZ",
+      "name": "分众传媒",
+      "sub_industry": "广告媒体",
+      "close": 4.81,
+      "wj_min": 18.8,
+      "pos250": 0.08,
       "div": 1,
       "stall": 0,
       "buy": 1,
       "buy_types": "上穿MA20",
-      "score": 2
+      "score": 2,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -2.0,
+        2.0,
+        4.0,
+        3.7
+      ],
+      "profit_yoy4": [
+        17.4,
+        57.6,
+        -42.9,
+        6.9
+      ],
+      "roe4": [
+        20.4,
+        12.1,
+        18.3,
+        23.7
+      ]
     },
     {
-      "ticker": "000425.SZ",
-      "name": "徐工机械",
-      "sub_industry": "工程机械整机",
-      "close": 8.33,
-      "wj_min": 17.9,
-      "pos250": 0.1,
-      "div": 1,
+      "ticker": "603936.SH",
+      "name": "博敏电子",
+      "sub_industry": "印制电路板",
+      "close": 18.98,
+      "wj_min": -16.6,
+      "pos250": 0.48,
+      "div": 0,
+      "stall": 0,
+      "buy": 1,
+      "buy_types": "KDJ金叉",
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        9.3,
+        -0.6,
+        10.6,
+        10.9
+      ],
+      "profit_yoy4": [
+        -235.3,
+        -139.7,
+        102.8,
+        -21.3
+      ],
+      "roe4": [
+        -1.2,
+        -0.2,
+        0.2,
+        0.9
+      ]
+    },
+    {
+      "ticker": "688559.SH",
+      "name": "海目星",
+      "sub_industry": "激光设备",
+      "close": 59.6,
+      "wj_min": -10.0,
+      "pos250": 0.5,
+      "div": 0,
       "stall": 0,
       "buy": 1,
       "buy_types": "KDJ金叉+上穿MA20",
-      "score": 2
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        84.6,
+        144.4,
+        -6.8,
+        -25.5
+      ],
+      "profit_yoy4": [
+        107.3,
+        113.4,
+        -439.4,
+        -645.0
+      ],
+      "roe4": [
+        2.1,
+        1.1,
+        -31.4,
+        -32.8
+      ]
     },
     {
-      "ticker": "300657.SZ",
-      "name": "弘信电子",
-      "sub_industry": "印制电路板",
-      "close": 34.67,
-      "wj_min": -8.3,
-      "pos250": 0.32,
-      "div": 0,
+      "ticker": "300773.SZ",
+      "name": "拉卡拉",
+      "sub_industry": "金融信息服务",
+      "close": 15.8,
+      "wj_min": -5.0,
+      "pos250": 0.22,
+      "div": 1,
       "stall": 0,
-      "buy": 1,
-      "buy_types": "上穿MA20",
-      "score": 1
+      "buy": 0,
+      "buy_types": "",
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        22.8,
+        24.1,
+        -3.7,
+        -7.3
+      ],
+      "profit_yoy4": [
+        191.7,
+        491.0,
+        233.3,
+        -33.9
+      ],
+      "roe4": [
+        14.7,
+        13.0,
+        30.4,
+        9.7
+      ]
     },
     {
-      "ticker": "300058.SZ",
-      "name": "蓝色光标",
-      "sub_industry": "营销代理",
-      "close": 13.98,
-      "wj_min": -5.6,
-      "pos250": 0.46,
-      "div": 0,
-      "stall": 0,
-      "buy": 1,
-      "buy_types": "上穿MA20",
-      "score": 1
-    },
-    {
-      "ticker": "601360.SH",
-      "name": "三六零",
-      "sub_industry": "横向通用软件",
-      "close": 8.97,
-      "wj_min": 7.9,
+      "ticker": "300803.SZ",
+      "name": "指南针",
+      "sub_industry": "垂直应用软件",
+      "close": 84.72,
+      "wj_min": -0.9,
       "pos250": 0.11,
       "div": 1,
       "stall": 0,
       "buy": 0,
       "buy_types": "",
-      "score": 1
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        33.8,
+        31.0,
+        40.4,
+        80.5
+      ],
+      "profit_yoy4": [
+        -12.2,
+        -19.8,
+        118.7,
+        205.5
+      ],
+      "roe4": [
+        4.4,
+        3.9,
+        9.2,
+        5.0
+      ]
+    },
+    {
+      "ticker": "002792.SZ",
+      "name": "通宇通讯",
+      "sub_industry": "通信网络设备及器件",
+      "close": 30.35,
+      "wj_min": 2.3,
+      "pos250": 0.27,
+      "div": 1,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        9.3,
+        11.6,
+        -7.0,
+        -3.3
+      ],
+      "profit_yoy4": [
+        -202.5,
+        -215.6,
+        -0.6,
+        -50.9
+      ],
+      "roe4": [
+        -0.8,
+        -0.5,
+        1.5,
+        1.0
+      ]
+    },
+    {
+      "ticker": "600711.SH",
+      "name": "盛屯矿业",
+      "sub_industry": "钴",
+      "close": 12.01,
+      "wj_min": 17.9,
+      "pos250": 0.39,
+      "div": 0,
+      "stall": 0,
+      "buy": 1,
+      "buy_types": "KDJ金叉+上穿MA20",
+      "score": 1,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        39.6,
+        65.1,
+        16.6,
+        23.0
+      ],
+      "profit_yoy4": [
+        71.4,
+        250.4,
+        -2.2,
+        0.1
+      ],
+      "roe4": [
+        10.5,
+        6.0,
+        12.1,
+        10.4
+      ]
+    },
+    {
+      "ticker": "688677.SH",
+      "name": "海泰新光",
+      "sub_industry": "医疗设备",
+      "close": 87.14,
+      "wj_min": -10.8,
+      "pos250": 0.43,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        20.7,
+        18.8,
+        36.1,
+        40.5
+      ],
+      "profit_yoy4": [
+        2.5,
+        1.1,
+        26.1,
+        40.0
+      ],
+      "roe4": [
+        5.6,
+        3.5,
+        12.9,
+        10.4
+      ]
+    },
+    {
+      "ticker": "300058.SZ",
+      "name": "蓝色光标",
+      "sub_industry": "营销代理",
+      "close": 13.46,
+      "wj_min": -5.6,
+      "pos250": 0.43,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        6.8,
+        31.9,
+        13.0,
+        12.5
+      ],
+      "profit_yoy4": [
+        119.3,
+        32.0,
+        177.3,
+        58.9
+      ],
+      "roe4": [
+        2.7,
+        1.6,
+        2.9,
+        2.5
+      ]
+    },
+    {
+      "ticker": "601688.SH",
+      "name": "华泰证券",
+      "sub_industry": "证券",
+      "close": 19.52,
+      "wj_min": -2.4,
+      "pos250": 0.3,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        45.9,
+        41.5,
+        6.8,
+        12.6
+      ],
+      "profit_yoy4": [
+        54.9,
+        31.8,
+        6.7,
+        1.7
+      ],
+      "roe4": [
+        6.3,
+        2.6,
+        9.2,
+        7.2
+      ]
+    },
+    {
+      "ticker": "000779.SZ",
+      "name": "甘咨询",
+      "sub_industry": "工程咨询服务",
+      "close": 9.15,
+      "wj_min": 11.9,
+      "pos250": 0.27,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        -3.2,
+        5.2,
+        4.2,
+        3.2
+      ],
+      "profit_yoy4": [
+        -21.6,
+        5.9,
+        -31.3,
+        -12.5
+      ],
+      "roe4": [
+        2.6,
+        1.5,
+        3.9,
+        4.0
+      ]
+    },
+    {
+      "ticker": "000858.SZ",
+      "name": "五粮液",
+      "sub_industry": "白酒",
+      "close": 70.48,
+      "wj_min": 15.1,
+      "pos250": 0.04,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        20.9,
+        33.7,
+        -54.6,
+        -54.9
+      ],
+      "profit_yoy4": [
+        89.3,
+        82.6,
+        -71.9,
+        -74.0
+      ],
+      "roe4": [
+        7.1,
+        6.5,
+        6.9,
+        4.9
+      ]
+    },
+    {
+      "ticker": "603538.SH",
+      "name": "美诺华",
+      "sub_industry": "原料药",
+      "close": 26.46,
+      "wj_min": 16.1,
+      "pos250": 0.36,
+      "div": 0,
+      "stall": 0,
+      "buy": 0,
+      "buy_types": "",
+      "score": 0,
+      "fund_periods": [
+        "2026-06",
+        "2026-03",
+        "2025-12",
+        "2025-09"
+      ],
+      "sales_yoy4": [
+        26.8,
+        22.1,
+        9.5,
+        17.7
+      ],
+      "profit_yoy4": [
+        29.8,
+        46.8,
+        53.0,
+        51.7
+      ],
+      "roe4": [
+        2.4,
+        1.3,
+        4.5,
+        4.3
+      ]
     }
   ],
   "all_stocks": [
@@ -1166,46 +3042,70 @@
       "name": "艾艾精工",
       "sub_industry": "其他塑料制品",
       "sector": "基础化工",
-      "close": 73.99,
-      "hotness": 2.624,
-      "ret_60": 2.054,
-      "pct_high_250": 0.862,
+      "close": 64.67,
+      "hotness": 2.468,
+      "ret_60": 1.486,
+      "pct_high_250": 0.753,
       "ma_aligned": 1,
-      "days_below_ma10": 5
+      "days_below_ma10": 7
     },
     {
       "ticker": "600664.SH",
       "name": "哈药股份",
       "sub_industry": "化学制剂",
       "sector": "医药生物",
-      "close": 7.75,
-      "hotness": 2.582,
-      "ret_60": 1.445,
-      "pct_high_250": 0.817,
+      "close": 7.13,
+      "hotness": 2.433,
+      "ret_60": 1.322,
+      "pct_high_250": 0.751,
       "ma_aligned": 0,
-      "days_below_ma10": 4
+      "days_below_ma10": 6
     },
     {
       "ticker": "600613.SH",
       "name": "神奇制药",
       "sub_industry": "化学制剂",
       "sector": "医药生物",
-      "close": 9.91,
-      "hotness": 2.414,
-      "ret_60": 1.043,
-      "pct_high_250": 0.799,
+      "close": 8.51,
+      "hotness": 2.341,
+      "ret_60": 0.795,
+      "pct_high_250": 0.686,
       "ma_aligned": 1,
-      "days_below_ma10": 5
+      "days_below_ma10": 7
+    },
+    {
+      "ticker": "600479.SH",
+      "name": "千金药业",
+      "sub_industry": "中药",
+      "sector": "医药生物",
+      "close": 12.71,
+      "hotness": 1.975,
+      "ret_60": 0.388,
+      "pct_high_250": 0.858,
+      "ma_aligned": 1,
+      "days_below_ma10": 1
+    },
+    {
+      "ticker": "600354.SH",
+      "name": "敦煌种业",
+      "sub_industry": "种子",
+      "sector": "农林牧渔",
+      "close": 11.45,
+      "hotness": 1.9,
+      "ret_60": 1.258,
+      "pct_high_250": 1.0,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
     },
     {
       "ticker": "600371.SH",
       "name": "万向德农",
       "sub_industry": "种子",
       "sector": "农林牧渔",
-      "close": 15.83,
-      "hotness": 1.867,
-      "ret_60": 1.261,
-      "pct_high_250": 1.0,
+      "close": 14.15,
+      "hotness": 1.898,
+      "ret_60": 1.125,
+      "pct_high_250": 0.894,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -1214,95 +3114,59 @@
       "name": "誉衡药业",
       "sub_industry": "化学制剂",
       "sector": "医药生物",
-      "close": 4.03,
-      "hotness": 1.841,
-      "ret_60": 0.504,
-      "pct_high_250": 0.809,
+      "close": 3.55,
+      "hotness": 1.575,
+      "ret_60": 0.381,
+      "pct_high_250": 0.713,
       "ma_aligned": 0,
-      "days_below_ma10": 4
+      "days_below_ma10": 6
     },
     {
-      "ticker": "600721.SH",
-      "name": "百花医药",
-      "sub_industry": "医疗研发外包",
-      "sector": "医药生物",
-      "close": 12.28,
-      "hotness": 1.676,
-      "ret_60": 0.603,
-      "pct_high_250": 0.736,
+      "ticker": "601919.SH",
+      "name": "中远海控",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 16.38,
+      "hotness": 1.387,
+      "ret_60": 0.205,
+      "pct_high_250": 0.94,
       "ma_aligned": 0,
       "days_below_ma10": 7
     },
     {
-      "ticker": "300862.SZ",
-      "name": "蓝盾光电",
-      "sub_industry": "仪器仪表",
-      "sector": "机械设备",
-      "close": 49.8,
-      "hotness": 1.62,
-      "ret_60": 1.264,
-      "pct_high_250": 0.881,
-      "ma_aligned": 0,
-      "days_below_ma10": 8
-    },
-    {
-      "ticker": "603259.SH",
-      "name": "药明康德",
-      "sub_industry": "医疗研发外包",
-      "sector": "医药生物",
-      "close": 156.35,
-      "hotness": 1.617,
-      "ret_60": 0.579,
-      "pct_high_250": 0.934,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "603269.SH",
-      "name": "海鸥股份",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 26.91,
-      "hotness": 1.428,
-      "ret_60": 0.549,
-      "pct_high_250": 0.96,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "601700.SH",
-      "name": "风范股份",
-      "sub_industry": "线缆部件及其他",
-      "sector": "电力设备",
-      "close": 7.01,
-      "hotness": 1.332,
-      "ret_60": 0.442,
-      "pct_high_250": 0.835,
-      "ma_aligned": 1,
-      "days_below_ma10": 3
-    },
-    {
-      "ticker": "300759.SZ",
-      "name": "康龙化成",
-      "sub_industry": "医疗研发外包",
-      "sector": "医药生物",
-      "close": 42.76,
-      "hotness": 1.212,
-      "ret_60": 0.915,
-      "pct_high_250": 0.836,
-      "ma_aligned": 0,
-      "days_below_ma10": 13
-    },
-    {
-      "ticker": "600354.SH",
-      "name": "敦煌种业",
-      "sub_industry": "种子",
-      "sector": "农林牧渔",
-      "close": 10.48,
-      "hotness": 1.186,
-      "ret_60": 0.966,
+      "ticker": "601086.SH",
+      "name": "国芳集团",
+      "sub_industry": "百货",
+      "sector": "商贸零售",
+      "close": 15.11,
+      "hotness": 1.29,
+      "ret_60": 1.143,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "600036.SH",
+      "name": "招商银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 41.57,
+      "hotness": 1.22,
+      "ret_60": 0.117,
+      "pct_high_250": 0.997,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "600540.SH",
+      "name": "新赛股份",
+      "sub_industry": "其他种植业",
+      "sector": "农林牧渔",
+      "close": 6.56,
+      "hotness": 1.178,
+      "ret_60": 0.547,
+      "pct_high_250": 0.91,
+      "ma_aligned": 0,
       "days_below_ma10": 0
     },
     {
@@ -1310,23 +3174,47 @@
       "name": "登海种业",
       "sub_industry": "种子",
       "sector": "农林牧渔",
-      "close": 12.02,
-      "hotness": 1.097,
-      "ret_60": 0.348,
-      "pct_high_250": 0.976,
+      "close": 11.14,
+      "hotness": 1.093,
+      "ret_60": 0.315,
+      "pct_high_250": 0.905,
       "ma_aligned": 1,
+      "days_below_ma10": 1
+    },
+    {
+      "ticker": "601118.SH",
+      "name": "海南橡胶",
+      "sub_industry": "其他种植业",
+      "sector": "农林牧渔",
+      "close": 7.34,
+      "hotness": 1.035,
+      "ret_60": 0.244,
+      "pct_high_250": 0.88,
+      "ma_aligned": 0,
       "days_below_ma10": 0
     },
     {
-      "ticker": "300189.SZ",
-      "name": "神农种业",
-      "sub_industry": "种子",
-      "sector": "农林牧渔",
-      "close": 7.68,
-      "hotness": 0.85,
-      "ret_60": 0.558,
-      "pct_high_250": 0.822,
-      "ma_aligned": 0,
+      "ticker": "002412.SZ",
+      "name": "汉森制药",
+      "sub_industry": "中药",
+      "sector": "医药生物",
+      "close": 9.05,
+      "hotness": 1.014,
+      "ret_60": 0.534,
+      "pct_high_250": 0.646,
+      "ma_aligned": 1,
+      "days_below_ma10": 8
+    },
+    {
+      "ticker": "603162.SH",
+      "name": "海通发展",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 15.52,
+      "hotness": 0.966,
+      "ret_60": 0.595,
+      "pct_high_250": 1.0,
+      "ma_aligned": 1,
       "days_below_ma10": 0
     },
     {
@@ -1334,119 +3222,47 @@
       "name": "天洋新材",
       "sub_industry": "其他塑料制品",
       "sector": "基础化工",
-      "close": 10.19,
-      "hotness": 0.85,
-      "ret_60": 0.217,
-      "pct_high_250": 0.867,
+      "close": 9.63,
+      "hotness": 0.926,
+      "ret_60": 0.196,
+      "pct_high_250": 0.82,
       "ma_aligned": 1,
-      "days_below_ma10": 3
+      "days_below_ma10": 5
+    },
+    {
+      "ticker": "300189.SZ",
+      "name": "神农种业",
+      "sub_industry": "种子",
+      "sector": "农林牧渔",
+      "close": 7.21,
+      "hotness": 0.915,
+      "ret_60": 0.515,
+      "pct_high_250": 0.772,
+      "ma_aligned": 0,
+      "days_below_ma10": 0
     },
     {
       "ticker": "601169.SH",
       "name": "北京银行",
       "sub_industry": "城商行",
       "sector": "银行",
-      "close": 5.54,
-      "hotness": 0.842,
-      "ret_60": 0.121,
-      "pct_high_250": 0.951,
+      "close": 5.64,
+      "hotness": 0.892,
+      "ret_60": 0.161,
+      "pct_high_250": 0.969,
       "ma_aligned": 1,
       "days_below_ma10": 0
-    },
-    {
-      "ticker": "002821.SZ",
-      "name": "凯莱英",
-      "sub_industry": "医疗研发外包",
-      "sector": "医药生物",
-      "close": 174.31,
-      "hotness": 0.833,
-      "ret_60": 0.535,
-      "pct_high_250": 0.89,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "601086.SH",
-      "name": "国芳集团",
-      "sub_industry": "百货",
-      "sector": "商贸零售",
-      "close": 14.95,
-      "hotness": 0.791,
-      "ret_60": 1.082,
-      "pct_high_250": 1.0,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "688627.SH",
-      "name": "精智达",
-      "sub_industry": "仪器仪表",
-      "sector": "机械设备",
-      "close": 487.95,
-      "hotness": 0.752,
-      "ret_60": 0.043,
-      "pct_high_250": 0.682,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "603618.SH",
-      "name": "杭电股份",
-      "sub_industry": "线缆部件及其他",
-      "sector": "电力设备",
-      "close": 40.11,
-      "hotness": 0.695,
-      "ret_60": -0.062,
-      "pct_high_250": 0.701,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "688808.SH",
-      "name": "联讯仪器",
-      "sub_industry": "仪器仪表",
-      "sector": "机械设备",
-      "close": 2653.0,
-      "hotness": 0.677,
-      "ret_60": 0.214,
-      "pct_high_250": 0.983,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "601398.SH",
-      "name": "工商银行",
-      "sub_industry": "国有大型银行",
-      "sector": "银行",
-      "close": 7.94,
-      "hotness": 0.677,
-      "ret_60": 0.049,
-      "pct_high_250": 0.966,
-      "ma_aligned": 1,
-      "days_below_ma10": 2
     },
     {
       "ticker": "600313.SH",
       "name": "农发种业",
       "sub_industry": "种子",
       "sector": "农林牧渔",
-      "close": 7.96,
-      "hotness": 0.664,
-      "ret_60": 0.352,
-      "pct_high_250": 0.863,
+      "close": 7.61,
+      "hotness": 0.852,
+      "ret_60": 0.335,
+      "pct_high_250": 0.825,
       "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "601328.SH",
-      "name": "交通银行",
-      "sub_industry": "国有大型银行",
-      "sector": "银行",
-      "close": 7.28,
-      "hotness": 0.611,
-      "ret_60": 0.066,
-      "pct_high_250": 0.98,
-      "ma_aligned": 1,
       "days_below_ma10": 0
     },
     {
@@ -1454,9 +3270,9 @@
       "name": "宁波银行",
       "sub_industry": "城商行",
       "sector": "银行",
-      "close": 34.66,
-      "hotness": 0.578,
-      "ret_60": 0.111,
+      "close": 35.87,
+      "hotness": 0.829,
+      "ret_60": 0.173,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
       "days_below_ma10": 0
@@ -1466,10 +3282,70 @@
       "name": "江苏银行",
       "sub_industry": "城商行",
       "sector": "银行",
-      "close": 12.26,
-      "hotness": 0.556,
-      "ret_60": 0.06,
-      "pct_high_250": 0.998,
+      "close": 12.62,
+      "hotness": 0.781,
+      "ret_60": 0.117,
+      "pct_high_250": 1.0,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "600108.SH",
+      "name": "亚盛集团",
+      "sub_industry": "其他种植业",
+      "sector": "农林牧渔",
+      "close": 5.25,
+      "hotness": 0.756,
+      "ret_60": 0.531,
+      "pct_high_250": 0.754,
+      "ma_aligned": 0,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "002349.SZ",
+      "name": "精华制药",
+      "sub_industry": "中药",
+      "sector": "医药生物",
+      "close": 8.51,
+      "hotness": 0.755,
+      "ret_60": 0.34,
+      "pct_high_250": 0.919,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "601398.SH",
+      "name": "工商银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 8.1,
+      "hotness": 0.703,
+      "ret_60": 0.101,
+      "pct_high_250": 0.985,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "603991.SH",
+      "name": "领先股份",
+      "sub_industry": "其他塑料制品",
+      "sector": "基础化工",
+      "close": 176.68,
+      "hotness": 0.686,
+      "ret_60": 0.499,
+      "pct_high_250": 0.979,
+      "ma_aligned": 0,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "601328.SH",
+      "name": "交通银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 7.44,
+      "hotness": 0.638,
+      "ret_60": 0.106,
+      "pct_high_250": 1.0,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -1478,22 +3354,22 @@
       "name": "中国银行",
       "sub_industry": "国有大型银行",
       "sector": "银行",
-      "close": 6.39,
-      "hotness": 0.548,
-      "ret_60": 0.064,
-      "pct_high_250": 0.957,
+      "close": 6.53,
+      "hotness": 0.562,
+      "ret_60": 0.122,
+      "pct_high_250": 0.978,
       "ma_aligned": 1,
-      "days_below_ma10": 1
+      "days_below_ma10": 0
     },
     {
-      "ticker": "601658.SH",
-      "name": "邮储银行",
-      "sub_industry": "国有大型银行",
-      "sector": "银行",
-      "close": 5.42,
-      "hotness": 0.541,
-      "ret_60": 0.082,
-      "pct_high_250": 0.885,
+      "ticker": "601872.SH",
+      "name": "招商轮船",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 20.58,
+      "hotness": 0.533,
+      "ret_60": 0.222,
+      "pct_high_250": 0.954,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -1502,34 +3378,10 @@
       "name": "隆平高科",
       "sub_industry": "种子",
       "sector": "农林牧渔",
-      "close": 10.15,
-      "hotness": 0.527,
-      "ret_60": 0.211,
-      "pct_high_250": 0.924,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "603757.SH",
-      "name": "大元泵业",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 71.27,
-      "hotness": 0.494,
-      "ret_60": 0.412,
-      "pct_high_250": 0.896,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "600869.SH",
-      "name": "远东股份",
-      "sub_industry": "线缆部件及其他",
-      "sector": "电力设备",
-      "close": 22.66,
-      "hotness": 0.488,
-      "ret_60": -0.306,
-      "pct_high_250": 0.6,
+      "close": 9.59,
+      "hotness": 0.533,
+      "ret_60": 0.182,
+      "pct_high_250": 0.873,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -1538,35 +3390,47 @@
       "name": "建设银行",
       "sub_industry": "国有大型银行",
       "sector": "银行",
-      "close": 10.68,
-      "hotness": 0.48,
-      "ret_60": 0.049,
-      "pct_high_250": 0.959,
+      "close": 10.95,
+      "hotness": 0.519,
+      "ret_60": 0.103,
+      "pct_high_250": 0.983,
       "ma_aligned": 1,
-      "days_below_ma10": 2
+      "days_below_ma10": 0
     },
     {
-      "ticker": "603127.SH",
-      "name": "昭衍新药",
-      "sub_industry": "医疗研发外包",
-      "sector": "医药生物",
-      "close": 43.62,
-      "hotness": 0.411,
-      "ret_60": 0.336,
-      "pct_high_250": 0.809,
+      "ticker": "000001.SZ",
+      "name": "平安银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 11.85,
+      "hotness": 0.423,
+      "ret_60": 0.099,
+      "pct_high_250": 0.994,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "601658.SH",
+      "name": "邮储银行",
+      "sub_industry": "国有大型银行",
+      "sector": "银行",
+      "close": 5.46,
+      "hotness": 0.397,
+      "ret_60": 0.119,
+      "pct_high_250": 0.892,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "601166.SH",
+      "name": "兴业银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 18.24,
+      "hotness": 0.273,
+      "ret_60": 0.022,
+      "pct_high_250": 0.877,
       "ma_aligned": 0,
-      "days_below_ma10": 13
-    },
-    {
-      "ticker": "688333.SH",
-      "name": "铂力特",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 116.47,
-      "hotness": 0.406,
-      "ret_60": 0.544,
-      "pct_high_250": 0.831,
-      "ma_aligned": 1,
       "days_below_ma10": 0
     },
     {
@@ -1574,130 +3438,94 @@
       "name": "肯特股份",
       "sub_industry": "其他塑料制品",
       "sector": "基础化工",
-      "close": 46.22,
-      "hotness": 0.368,
+      "close": 45.37,
+      "hotness": 0.254,
       "ret_60": -0.107,
-      "pct_high_250": 0.798,
+      "pct_high_250": 0.783,
       "ma_aligned": 0,
-      "days_below_ma10": 4
-    },
-    {
-      "ticker": "300420.SZ",
-      "name": "五洋自控",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 8.08,
-      "hotness": 0.329,
-      "ret_60": 0.237,
-      "pct_high_250": 0.818,
-      "ma_aligned": 0,
-      "days_below_ma10": 3
-    },
-    {
-      "ticker": "600926.SH",
-      "name": "杭州银行",
-      "sub_industry": "城商行",
-      "sector": "银行",
-      "close": 17.2,
-      "hotness": 0.31,
-      "ret_60": 0.057,
-      "pct_high_250": 0.997,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 6
     },
     {
       "ticker": "601288.SH",
       "name": "农业银行",
       "sub_industry": "国有大型银行",
       "sector": "银行",
-      "close": 6.76,
-      "hotness": 0.22,
-      "ret_60": 0.012,
-      "pct_high_250": 0.815,
-      "ma_aligned": 0,
-      "days_below_ma10": 2
-    },
-    {
-      "ticker": "603123.SH",
-      "name": "翠微股份",
-      "sub_industry": "百货",
-      "sector": "商贸零售",
-      "close": 12.28,
-      "hotness": -0.051,
-      "ret_60": 0.326,
-      "pct_high_250": 0.731,
-      "ma_aligned": 0,
+      "close": 6.94,
+      "hotness": 0.254,
+      "ret_60": 0.063,
+      "pct_high_250": 0.837,
+      "ma_aligned": 1,
       "days_below_ma10": 0
     },
     {
-      "ticker": "688433.SH",
-      "name": "华曙高科",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 103.22,
-      "hotness": -0.071,
-      "ret_60": 0.081,
-      "pct_high_250": 0.826,
-      "ma_aligned": 0,
-      "days_below_ma10": 1
-    },
-    {
-      "ticker": "001696.SZ",
-      "name": "宗申动力",
-      "sub_industry": "其他通用设备",
-      "sector": "机械设备",
-      "close": 16.7,
-      "hotness": -0.086,
-      "ret_60": -0.269,
-      "pct_high_250": 0.648,
+      "ticker": "600026.SH",
+      "name": "中远海能",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 21.3,
+      "hotness": 0.073,
+      "ret_60": 0.11,
+      "pct_high_250": 0.838,
       "ma_aligned": 0,
       "days_below_ma10": 0
-    },
-    {
-      "ticker": "300567.SZ",
-      "name": "精测电子",
-      "sub_industry": "仪器仪表",
-      "sector": "机械设备",
-      "close": 196.2,
-      "hotness": -0.115,
-      "ret_60": -0.059,
-      "pct_high_250": 0.618,
-      "ma_aligned": 0,
-      "days_below_ma10": 8
-    },
-    {
-      "ticker": "600276.SH",
-      "name": "恒瑞医药",
-      "sub_industry": "化学制剂",
-      "sector": "医药生物",
-      "close": 45.71,
-      "hotness": -0.133,
-      "ret_60": -0.045,
-      "pct_high_250": 0.633,
-      "ma_aligned": 0,
-      "days_below_ma10": 19
     },
     {
       "ticker": "300199.SZ",
       "name": "翰宇药业",
       "sub_industry": "化学制剂",
       "sector": "医药生物",
-      "close": 22.88,
-      "hotness": -0.138,
-      "ret_60": -0.007,
-      "pct_high_250": 0.827,
+      "close": 23.25,
+      "hotness": -0.04,
+      "ret_60": 0.051,
+      "pct_high_250": 0.84,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 0
     },
     {
-      "ticker": "300347.SZ",
-      "name": "泰格医药",
-      "sub_industry": "医疗研发外包",
+      "ticker": "603123.SH",
+      "name": "翠微股份",
+      "sub_industry": "百货",
+      "sector": "商贸零售",
+      "close": 11.47,
+      "hotness": -0.043,
+      "ret_60": 0.173,
+      "pct_high_250": 0.682,
+      "ma_aligned": 0,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "600276.SH",
+      "name": "恒瑞医药",
+      "sub_industry": "化学制剂",
       "sector": "医药生物",
-      "close": 53.3,
-      "hotness": -0.218,
-      "ret_60": 0.357,
-      "pct_high_250": 0.795,
+      "close": 42.93,
+      "hotness": -0.124,
+      "ret_60": -0.086,
+      "pct_high_250": 0.595,
+      "ma_aligned": 0,
+      "days_below_ma10": 21
+    },
+    {
+      "ticker": "601975.SH",
+      "name": "招商南油",
+      "sub_industry": "航运",
+      "sector": "交通运输",
+      "close": 4.83,
+      "hotness": -0.167,
+      "ret_60": 0.036,
+      "pct_high_250": 0.837,
+      "ma_aligned": 0,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "600016.SH",
+      "name": "民生银行",
+      "sub_industry": "股份制银行",
+      "sector": "银行",
+      "close": 3.65,
+      "hotness": -0.255,
+      "ret_60": 0.041,
+      "pct_high_250": 0.84,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -1706,10 +3534,10 @@
       "name": "东百集团",
       "sub_industry": "百货",
       "sector": "商贸零售",
-      "close": 11.52,
-      "hotness": -0.24,
-      "ret_60": 0.306,
-      "pct_high_250": 0.529,
+      "close": 10.76,
+      "hotness": -0.281,
+      "ret_60": 0.262,
+      "pct_high_250": 0.494,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -1718,10 +3546,10 @@
       "name": "供销大集",
       "sub_industry": "百货",
       "sector": "商贸零售",
-      "close": 1.73,
-      "hotness": -0.379,
-      "ret_60": 0.193,
-      "pct_high_250": 0.584,
+      "close": 1.65,
+      "hotness": -0.515,
+      "ret_60": 0.086,
+      "pct_high_250": 0.557,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -1730,22 +3558,22 @@
       "name": "万凯新材",
       "sub_industry": "其他塑料制品",
       "sector": "基础化工",
-      "close": 20.39,
-      "hotness": -0.569,
-      "ret_60": -0.168,
-      "pct_high_250": 0.663,
+      "close": 17.9,
+      "hotness": -0.764,
+      "ret_60": -0.273,
+      "pct_high_250": 0.582,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 2
     },
     {
       "ticker": "600589.SH",
       "name": "大位科技",
       "sub_industry": "其他塑料制品",
       "sector": "基础化工",
-      "close": 8.37,
-      "hotness": -0.74,
-      "ret_60": -0.17,
-      "pct_high_250": 0.604,
+      "close": 8.31,
+      "hotness": -0.836,
+      "ret_60": -0.188,
+      "pct_high_250": 0.6,
       "ma_aligned": 0,
       "days_below_ma10": 0
     }
