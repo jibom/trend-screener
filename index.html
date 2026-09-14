@@ -367,10 +367,11 @@
     let aData = null;       // A股-趋势 (Part1-4), 来自 data/trend_hotspot_a.json
     let etfData = null;     // 美国ETF-趋势, 来自 data/trend_hotspot_etf.json
     let cetfData = null;    // 中国ETF-趋势, 来自 data/trend_hotspot_cetf.json
+    let dsData = null;      // 东吴信号, 来自 data/ds_signals.json
     let search = '';
     let sortField = 'ma10_slope_pct';
     let sortDir = 'desc';
-    let tab = 'trend'; // 'trend' | 'ustrend' | 'atrend' | 'entry'  (默认港股-趋势)
+    let tab = 'trend'; // 'trend' | 'ustrend' | 'atrend' | 'entry' | 'ds'  (默认港股-趋势)
     let groupMode = true;
     let isDark = true;
     let copied = false;
@@ -389,6 +390,11 @@
         loadError = e.message || String(e);
         tabData = { date: '', tab1: { sos_section: [], pool_section: [] } };
       }
+      // 东吴风险趋势信号 (B/b/S/s): 失败不阻塞
+      try {
+        const rds = await fetch('data/ds_signals.json');
+        dsData = JSON.parse(await rds.text());
+      } catch (e) { dsData = null; }
       // 港股-趋势 (Part1-4): 失败不阻塞原 tab
       try {
         const r2 = await fetch('data/trend_hotspot_hk.json');
@@ -500,6 +506,8 @@
         mainContent = renderCETF();
       } else if (tab === 'atrend') {
         mainContent = renderA();
+      } else if (tab === 'ds') {
+        mainContent = renderDS();
       } else {
         mainContent = renderTable();
       }
@@ -518,7 +526,7 @@
               </svg>
               <div>
                 <div class="title">CPG扫描</div>
-                <div class="subtitle">更新日期：${(tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tabData.date) || '-'}</div>
+                <div class="subtitle">更新日期：${(tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tab === 'ds' ? (dsData && dsData.asof) : tabData.date) || '-'}</div>
               </div>
               <div class="tab-toggle">
                 <button class="tab-btn ${tab==='trend'?'active':''}" data-tab="trend">港股-趋势<span class="tab-count">${trendCount}</span></button>
@@ -526,6 +534,7 @@
                 <button class="tab-btn ${tab==='etf'?'active':''}" data-tab="etf">美国ETF<span class="tab-count">${etfCount}</span></button>
                 <button class="tab-btn ${tab==='cetf'?'active':''}" data-tab="cetf">中国ETF<span class="tab-count">${cetfCount}</span></button>
                 <button class="tab-btn ${tab==='atrend'?'active':''}" data-tab="atrend">A股-趋势<span class="tab-count">${aCount}</span></button>
+                <button class="tab-btn ${tab==='ds'?'active':''}" data-tab="ds">东吴信号<span class="tab-count">${dsData ? ((dsData.A||[]).length + (dsData.US||[]).length) : 0}</span></button>
                 <button class="tab-btn ${tab==='entry'?'active':''}" data-tab="entry">进场候选<span class="tab-count">${entryTotal}</span></button>
               </div>
             </div>
@@ -979,6 +988,54 @@
       `;
     }
 
+
+    // ─── 东吴风险趋势信号 ───
+    function dsSigBadge(sig) {
+      if (!sig) return '<span style="color:var(--text-2)">-</span>';
+      const map = {B:['#dc2626','B 底右·强买'], b:['#f87171','b 底左·早买'], S:['#16a34a','S 顶右·强卖'], s:['#4ade80','s 顶左·早卖']};
+      const first = map[sig[0]] || ['var(--text-2)', sig];
+      return `<b style="color:${first[0]}" title="${first[1]}">${sig}</b>`;
+    }
+    function dsTRColor(tr) {
+      if (tr == null || tr === '') return '-';
+      const v = Number(tr);
+      const c = v < 20 ? '#16a34a' : v < 50 ? '#65a30d' : v <= 85 ? 'var(--text)' : '#dc2626';
+      return `<b style="color:${c}">${v}</b>`;
+    }
+    function renderDSSummary() {
+      const d = dsData;
+      if (!d) return '';
+      const nA = (d.A||[]).length, nUS = (d.US||[]).length, nHK = (d.HK||[]).length;
+      return `
+        <div class="summary-item"><div class="summary-val">${nA}</div><div class="summary-label">A股信号池</div></div>
+        <div class="summary-item"><div class="summary-val">${nUS}</div><div class="summary-label">美股信号池</div></div>
+        <div class="summary-item"><div class="summary-val">${nHK}</div><div class="summary-label">HK指数监控</div></div>
+        <div class="summary-item"><div class="summary-val">v${d.version||''}</div><div class="summary-label">信号版本</div></div>`;
+    }
+    function renderDS() {
+      const d = dsData;
+      if (!d) return `<div class="empty-state"><p>东吴信号数据未加载 (public/data/ds_signals.json)</p></div>`;
+      let html = `<div class="subtitle" style="padding:4px 0 10px">东吴风险趋势信号 · ${d.asof||''} · 入选: 当日信号 或 B距今≤5 或 S距今≤3 (HK指数全列)　命中口径见meta</div>`;
+
+      const cols = ['代码','名称','行业','信号','B距今','S距今','风险度','动量','急杀','周线档'];
+      function rowsOf(arr) {
+        return (arr||[]).map(e => [
+          `<a class="tk-link" href="#" onclick="event.preventDefault()">${e.code}</a>`,
+          e.name||'', e.sector||'',
+          dsSigBadge(e['DS信号']),
+          e['B距今']!=null&&e['B距今']!==''?e['B距今']:'-', e['S距今']!=null&&e['S距今']!==''?e['S距今']:'-',
+          dsTRColor(e['风险度']), e['动量']!=null&&e['动量']!==''?e['动量']:'-',
+          e['急杀']?'<b style="color:#dc2626">✓</b>':'-', e['周线档']||'-']);
+      }
+      html += trendSection('A股 · 当日信号池 (top600宇宙)', (d.A||[]).length, trendTable(cols, rowsOf(d.A)));
+      html += trendSection('HK · 指数层择时 (全部输出)', (d.HK||[]).length, trendTable(cols, rowsOf(d.HK)));
+      html += trendSection('美股 · 当日信号池', (d.US||[]).length, trendTable(cols, rowsOf(d.US)));
+      if (d.meta) {
+        html += trendSection('信号定义与回测基准', Object.keys(d.meta).length,
+          trendTable(['项','说明'], Object.entries(d.meta).map(([k,v]) => [k, v])));
+      }
+      return html;
+    }
     function renderA() {
       const d = aData;
       if (!d) return `<div class="empty-state"><p>A股趋势数据未加载 (public/data/trend_hotspot_a.json)</p></div>`;
