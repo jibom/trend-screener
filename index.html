@@ -367,11 +367,10 @@
     let aData = null;       // A股-趋势 (Part1-4), 来自 data/trend_hotspot_a.json
     let etfData = null;     // 美国ETF-趋势, 来自 data/trend_hotspot_etf.json
     let cetfData = null;    // 中国ETF-趋势, 来自 data/trend_hotspot_cetf.json
-    let dsData = null;      // 东吴信号, 来自 data/ds_signals.json
     let search = '';
     let sortField = 'ma10_slope_pct';
     let sortDir = 'desc';
-    let tab = 'trend'; // 'trend' | 'ustrend' | 'atrend' | 'entry' | 'ds'  (默认港股-趋势)
+    let tab = 'trend'; // 'trend' | 'ustrend' | 'atrend' | 'entry'  (默认港股-趋势)
     let groupMode = true;
     let isDark = true;
     let copied = false;
@@ -390,11 +389,6 @@
         loadError = e.message || String(e);
         tabData = { date: '', tab1: { sos_section: [], pool_section: [] } };
       }
-      // 东吴风险趋势信号 (B/b/S/s): 失败不阻塞
-      try {
-        const rds = await fetch('data/ds_signals.json');
-        dsData = JSON.parse(await rds.text());
-      } catch (e) { dsData = null; }
       // 港股-趋势 (Part1-4): 失败不阻塞原 tab
       try {
         const r2 = await fetch('data/trend_hotspot_hk.json');
@@ -506,8 +500,6 @@
         mainContent = renderCETF();
       } else if (tab === 'atrend') {
         mainContent = renderA();
-      } else if (tab === 'ds') {
-        mainContent = renderDS();
       } else {
         mainContent = renderTable();
       }
@@ -526,7 +518,7 @@
               </svg>
               <div>
                 <div class="title">CPG扫描</div>
-                <div class="subtitle">更新日期：${(tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tab === 'ds' ? (dsData && dsData.asof) : tabData.date) || '-'}</div>
+                <div class="subtitle">更新日期：${(tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tabData.date) || '-'}</div>
               </div>
               <div class="tab-toggle">
                 <button class="tab-btn ${tab==='trend'?'active':''}" data-tab="trend">港股-趋势<span class="tab-count">${trendCount}</span></button>
@@ -534,7 +526,6 @@
                 <button class="tab-btn ${tab==='etf'?'active':''}" data-tab="etf">美国ETF<span class="tab-count">${etfCount}</span></button>
                 <button class="tab-btn ${tab==='cetf'?'active':''}" data-tab="cetf">中国ETF<span class="tab-count">${cetfCount}</span></button>
                 <button class="tab-btn ${tab==='atrend'?'active':''}" data-tab="atrend">A股-趋势<span class="tab-count">${aCount}</span></button>
-                <button class="tab-btn ${tab==='ds'?'active':''}" data-tab="ds">东吴信号<span class="tab-count">${dsData ? ((dsData.A||[]).length + (dsData.US||[]).length) : 0}</span></button>
                 <button class="tab-btn ${tab==='entry'?'active':''}" data-tab="entry">进场候选<span class="tab-count">${entryTotal}</span></button>
               </div>
             </div>
@@ -701,6 +692,8 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热细分</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${(d.ds_b || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">东吴S</span><span class="summary-val">${(d.ds_s || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -790,14 +783,17 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
+      html += trendSection('Part 3.1 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
+      // ── Part 3.2 / Part 4: 东吴B/S信号 ──
+      html += dsSections(d, 'Part 3.2', 'Part 4');
+
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
 
       return html;
@@ -812,6 +808,8 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热行业</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${(d.ds_b || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">东吴S</span><span class="summary-val">${(d.ds_s || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -897,14 +895,17 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
+      html += trendSection('Part 3.1 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
+      // ── Part 3.2 / Part 4: 东吴B/S信号 ──
+      html += dsSections(d, 'Part 3.2', 'Part 4');
+
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
 
       return html;
@@ -918,6 +919,8 @@
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1||[]).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2||[]).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势向上</span><span class="summary-val">${(d.part2||[]).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${(d.ds_b||[]).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">东吴S</span><span class="summary-val">${(d.ds_s||[]).length}</span></div>
       `;
     }
     function renderETF() {
@@ -932,11 +935,14 @@
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))));
+
+      // ── Part 3.2 / Part 4: 东吴B/S信号 ──
+      html += dsSections(d, 'Part 3.2', 'Part 4');
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
 
       return html;
@@ -950,6 +956,8 @@
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1||[]).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2||[]).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势向上</span><span class="summary-val">${(d.part2||[]).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${(d.ds_b||[]).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">东吴S</span><span class="summary-val">${(d.ds_s||[]).length}</span></div>
       `;
     }
     function renderCETF() {
@@ -964,11 +972,14 @@
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))));
+
+      // ── Part 3.2 / Part 4: 东吴B/S信号 ──
+      html += dsSections(d, 'Part 3.2', 'Part 4');
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
 
       return html;
@@ -983,6 +994,8 @@
         <div class="summary-item"><span class="state-badge state-STRONG">最热申万三级</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${(d.ds_b || []).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">东吴S</span><span class="summary-val">${(d.ds_s || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -1002,38 +1015,22 @@
       const c = v < 20 ? '#16a34a' : v < 50 ? '#65a30d' : v <= 85 ? 'var(--text)' : '#dc2626';
       return `<b style="color:${c}">${v}</b>`;
     }
-    function renderDSSummary() {
-      const d = dsData;
-      if (!d) return '';
-      const nA = (d.A||[]).length, nUS = (d.US||[]).length, nHK = (d.HK||[]).length;
-      return `
-        <div class="summary-item"><div class="summary-val">${nA}</div><div class="summary-label">A股信号池</div></div>
-        <div class="summary-item"><div class="summary-val">${nUS}</div><div class="summary-label">美股信号池</div></div>
-        <div class="summary-item"><div class="summary-val">${nHK}</div><div class="summary-label">HK指数监控</div></div>
-        <div class="summary-item"><div class="summary-val">v${d.version||''}</div><div class="summary-label">信号版本</div></div>`;
+    // ─── 东吴B/S信号 section (Part 3.2/Part 4, 数据在各 trend_hotspot_*.json 的 ds_b/ds_s) ───
+    function dsRows(arr) {
+      return (arr || []).map(e => [
+        tk(e.ticker), e.name || '', e.sub_industry || '-', num2(e.close),
+        `<b>${e.days}</b>`, dsSigBadge(e.sig), dsTRColor(e.tr),
+        (e.mom != null && e.mom !== '') ? e.mom : '-',
+        e.panic ? '<b style="color:#dc2626">✓</b>' : '-', e.weekly || '-']);
     }
-    function renderDS() {
-      const d = dsData;
-      if (!d) return `<div class="empty-state"><p>东吴信号数据未加载 (public/data/ds_signals.json)</p></div>`;
-      let html = `<div class="subtitle" style="padding:4px 0 10px">东吴风险趋势信号 · ${d.asof||''} · 入选: 当日信号 或 B距今≤5 或 S距今≤3 (HK指数全列)　命中口径见meta</div>`;
-
-      const cols = ['代码','名称','行业','信号','B距今','S距今','风险度','动量','急杀','周线档'];
-      function rowsOf(arr) {
-        return (arr||[]).map(e => [
-          `<a class="tk-link" href="#" onclick="event.preventDefault()">${e.code}</a>`,
-          e.name||'', e.sector||'',
-          dsSigBadge(e['DS信号']),
-          e['B距今']!=null&&e['B距今']!==''?e['B距今']:'-', e['S距今']!=null&&e['S距今']!==''?e['S距今']:'-',
-          dsTRColor(e['风险度']), e['动量']!=null&&e['动量']!==''?e['动量']:'-',
-          e['急杀']?'<b style="color:#dc2626">✓</b>':'-', e['周线档']||'-']);
-      }
-      html += trendSection('A股 · 当日信号池 (top600宇宙)', (d.A||[]).length, trendTable(cols, rowsOf(d.A)));
-      html += trendSection('HK · 指数层择时 (全部输出)', (d.HK||[]).length, trendTable(cols, rowsOf(d.HK)));
-      html += trendSection('美股 · 当日信号池', (d.US||[]).length, trendTable(cols, rowsOf(d.US)));
-      if (d.meta) {
-        html += trendSection('信号定义与回测基准', Object.keys(d.meta).length,
-          trendTable(['项','说明'], Object.entries(d.meta).map(([k,v]) => [k, v])));
-      }
+    const DS_B_COLS = ['代码','名称','行业','收盘','B距今(天)','当日信号','风险度','动量','急杀','周线档'];
+    const DS_S_COLS = ['代码','名称','行业','收盘','S距今(天)','当日信号','风险度','动量','急杀','周线档'];
+    function dsSections(d, partBLabel, partSLabel) {
+      const b = d.ds_b || [], s = d.ds_s || [];
+      let html = trendSection(`${partBLabel} · 东吴B信号 (B/b距今≤10天, 算法同swing pattern宽表: B=底右强买/b=底左早买, 按距今升序; 急杀=恐慌宣泄型底部, A/美股胜率+4pp)`, b.length,
+        trendTable(DS_B_COLS, dsRows(b)));
+      html += trendSection(`${partSLabel} · 东吴S信号 (S/s距今≤10天, S=顶右强卖/s=顶左早卖, 按距今升序)`, s.length,
+        trendTable(DS_S_COLS, dsRows(s)));
       return html;
     }
     function renderA() {
@@ -1114,14 +1111,17 @@
         yn(e.buy) + (e.buy_types ? `<br><span class="muted-val" style="font-size:11px">${e.buy_types}</span>` : ''),
         `<b>${e.score}</b>`,
         ...fundCells(e)]);
-      html += trendSection('Part 3 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
+      html += trendSection('Part 3.1 · 底部观察 (周J<20 + 低位 + 均线纠缠(MA5/10/20/60粘合<6%) + 短线均线走平不再下行; 标注 周背离/跌不动/日线买点 各1分; 基本面近4期)', bt.length,
         trendTable(['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], btRows));
 
+      // ── Part 3.2 / Part 4: 东吴B/S信号 ──
+      html += dsSections(d, 'Part 3.2', 'Part 4');
+
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
 
       return html;
