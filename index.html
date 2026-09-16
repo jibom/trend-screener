@@ -337,6 +337,7 @@
           <span id="modal-industry"></span>
         </div>
         <span id="modal-ticker"></span>
+        <span id="modal-ds-legend" style="font-size:11px;color:var(--text-muted);margin-left:8px"></span>
         <button id="btn-daily" class="interval-btn active" onclick="switchInterval('D')">Daily</button>
         <button id="btn-weekly" class="interval-btn" onclick="switchInterval('W')">Weekly</button>
         <button class="close-btn" onclick="closeChart()">&#10005;</button>
@@ -1016,9 +1017,9 @@
       return `<b style="color:${c}">${v}</b>`;
     }
     // ─── 东吴B/S信号 section (Part 3.2/Part 4, 数据在各 trend_hotspot_*.json 的 ds_b/ds_s) ───
-    function dsRows(arr) {
+    function dsRows(arr, screen) {
       return (arr || []).map(e => [
-        tk(e.ticker), e.name || '', e.sub_industry || '-', num2(e.close),
+        tk(e.ticker, screen), e.name || '', e.sub_industry || '-', num2(e.close),
         `<b>${e.days}</b>`, dsSigBadge(e.sig), dsTRColor(e.tr),
         (e.mom != null && e.mom !== '') ? e.mom : '-',
         e.panic ? '<b style="color:#dc2626">✓</b>' : '-', e.weekly || '-']);
@@ -1028,9 +1029,9 @@
     function dsSections(d, partBLabel, partSLabel) {
       const b = d.ds_b || [], s = d.ds_s || [];
       let html = trendSection(`${partBLabel} · 东吴B信号 (B/b距今≤10天, 算法同swing pattern宽表: B=底右强买/b=底左早买, 按距今升序; 急杀=恐慌宣泄型底部, A/美股胜率+4pp)`, b.length,
-        trendTable(DS_B_COLS, dsRows(b)));
+        trendTable(DS_B_COLS, dsRows(b, 'ds_b')));
       html += trendSection(`${partSLabel} · 东吴S信号 (S/s距今≤10天, S=顶右强卖/s=顶左早卖, 按距今升序)`, s.length,
-        trendTable(DS_S_COLS, dsRows(s)));
+        trendTable(DS_S_COLS, dsRows(s, 'ds_s')));
       return html;
     }
     function renderA() {
@@ -1507,6 +1508,27 @@
     });
     cs.setData(candles); allSeries.push(cs);
 
+    // 东吴B/S信号标记 (仅日线; ds=[[ts,sig],...] 由chartdata导出, ts与daily行同口径)
+    if (_chartInterval !== 'W' && Array.isArray(_chartData.ds) && _chartData.ds.length) {
+      try {
+        const tset = new Set(rows.map(r => r[0]));
+        const mk = [];
+        for (const ent of _chartData.ds) {
+          if (!tset.has(ent[0])) continue;
+          const sig = String(ent[1]), buy = sig.includes('B') || sig.includes('b');
+          const color = sig.includes('B') ? '#dc2626' : sig.includes('b') ? '#f87171'
+                      : sig.includes('S') ? '#16a34a' : '#4ade80';
+          mk.push({ time: ent[0], position: buy ? 'belowBar' : 'aboveBar', color,
+                    shape: buy ? 'arrowUp' : 'arrowDown', text: sig,
+                    size: (sig === 'B' || sig === 'S') ? 2 : 1 });
+        }
+        if (mk.length) {
+          if (LightweightCharts.createSeriesMarkers) LightweightCharts.createSeriesMarkers(cs, mk);
+          else if (cs.setMarkers) cs.setMarkers(mk);
+        }
+      } catch (e) {}
+    }
+
     const maOpts = (color, width) => ({ color, lineWidth: width || 1, priceLineVisible: false, lastValueVisible: false });
     // 高亮 EMA5(橙)/EMA10(红)/EMA50(蓝) — 不透明; 其余 EMA20/30/40/60/70 淡灰细线作背景
     [['#FB8C00', ma5, 1.5], ['#E53935', ma10, 1.5], ['rgba(150,150,150,0.4)', ma20, 1], ['rgba(150,150,150,0.4)', ma30, 1],
@@ -1654,6 +1676,12 @@
     document.getElementById('modal-ticker').textContent =
       ticker + (_chartIdx >= 0 ? `   (${_chartIdx + 1}/${_chartList.length})  ←→切换 D/W日周` : '');
     _updateIntervalBtns();
+    // 东吴信号图例 (chartdata含ds标记时显示)
+    try {
+      const lg = document.getElementById('modal-ds-legend');
+      lg.textContent = (Array.isArray(_chartData.ds) && _chartData.ds.length)
+        ? 'B/b 东吴买 · S/s 东吴卖' : '';
+    } catch (e) {}
     document.body.style.overflow = 'hidden';
 
     const code = ticker.replace(/\.(HK|US|SH|SZ|BJ)$/, '');

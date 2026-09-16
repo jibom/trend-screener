@@ -51,7 +51,7 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 1.13
+      "hotness": 1.131
     },
     {
       "ticker": "XLE.US",
@@ -77,13 +77,13 @@
       "pct_high_250": 0.983,
       "pct_high_126": 0.983,
       "nh_ratio_126": 0.103,
-      "amt_surge": 0.555,
-      "amt_rank": 0.48,
+      "amt_surge": 0.558,
+      "amt_rank": 0.486,
       "ret_60": 0.065,
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "ma_stack": 0,
-      "hotness": 0.536
+      "hotness": 0.543
     },
     {
       "ticker": "USO.US",
@@ -93,13 +93,13 @@
       "pct_high_250": 1.0,
       "pct_high_126": 1.0,
       "nh_ratio_126": 0.079,
-      "amt_surge": 0.504,
+      "amt_surge": 0.505,
       "amt_rank": 0.881,
       "ret_60": 0.409,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 0,
-      "hotness": 0.496
+      "hotness": 0.497
     },
     {
       "ticker": "CIBR.US",
@@ -110,12 +110,12 @@
       "pct_high_126": 0.988,
       "nh_ratio_126": 0.119,
       "amt_surge": 1.495,
-      "amt_rank": 0.486,
+      "amt_rank": 0.48,
       "ret_60": 0.196,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.463
+      "hotness": 0.458
     },
     {
       "ticker": "JEPQ.US",
@@ -277,7 +277,7 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 1.13
+      "hotness": 1.131
     },
     {
       "ticker": "ARKG.US",
@@ -335,7 +335,7 @@
       "pct_high_250": 0.954,
       "pct_high_126": 0.954,
       "nh_ratio_126": 0.071,
-      "amt_surge": 0.763,
+      "amt_surge": 0.764,
       "amt_rank": 0.904,
       "ret_60": 0.127,
       "ma_aligned": 0,
@@ -367,13 +367,13 @@
       "pct_high_250": 1.0,
       "pct_high_126": 1.0,
       "nh_ratio_126": 0.079,
-      "amt_surge": 0.504,
+      "amt_surge": 0.505,
       "amt_rank": 0.881,
       "ret_60": 0.409,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 0,
-      "hotness": 0.496
+      "hotness": 0.497
     },
     {
       "ticker": "FBT.US",
@@ -400,12 +400,12 @@
       "pct_high_126": 0.988,
       "nh_ratio_126": 0.119,
       "amt_surge": 1.495,
-      "amt_rank": 0.486,
+      "amt_rank": 0.48,
       "ret_60": 0.196,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.463
+      "hotness": 0.458
     },
     {
       "ticker": "GDX.US",
@@ -447,7 +447,7 @@
       "pct_high_250": 0.914,
       "pct_high_126": 0.914,
       "nh_ratio_126": 0.032,
-      "amt_surge": 0.92,
+      "amt_surge": 0.921,
       "amt_rank": 0.825,
       "ret_60": 0.12,
       "ma_aligned": 0,
@@ -485,7 +485,7 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "ma_stack": 1,
-      "hotness": 0.131
+      "hotness": 0.13
     },
     {
       "ticker": "RSPG.US",
@@ -527,7 +527,7 @@
       "pct_high_250": 0.896,
       "pct_high_126": 0.957,
       "nh_ratio_126": 0.008,
-      "amt_surge": 0.816,
+      "amt_surge": 0.815,
       "amt_rank": 0.853,
       "ret_60": 0.185,
       "ma_aligned": 0,
@@ -623,7 +623,7 @@
       "pct_high_250": 0.549,
       "pct_high_126": 0.764,
       "nh_ratio_126": 0.0,
-      "amt_surge": 0.963,
+      "amt_surge": 0.964,
       "amt_rank": 0.362,
       "ret_60": 0.215,
       "ma_aligned": 0,
@@ -1487,7 +1487,7 @@
       "ret_60": 0.308,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.13
+      "hotness": 1.131
     },
     {
       "ticker": "ARKG.US",
@@ -1696,7 +1696,7 @@
       "ret_60": 0.065,
       "ma_aligned": 1,
       "days_below_ma10": 2,
-      "hotness": 0.536
+      "hotness": 0.543
     },
     {
       "ticker": "KRE.US",
@@ -1729,7 +1729,7 @@
       "ret_60": 0.409,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.496
+      "hotness": 0.497
     },
     {
       "ticker": "FBT.US",
@@ -1776,17 +1776,6 @@
       "hotness": 0.47
     },
     {
-      "ticker": "CIBR.US",
-      "name": "First Trust NASDAQ Cybersecurity ETF",
-      "sub_industry": "Technology",
-      "close": 101.0,
-      "pct_high_250": 0.988,
-      "ret_60": 0.196,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.463
-    },
-    {
       "ticker": "QUAL.US",
       "name": "iShares MSCI USA Quality Factor ETF",
       "sub_industry": "MSCI USA Quality",
@@ -1796,6 +1785,17 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "hotness": 0.461
+    },
+    {
+      "ticker": "CIBR.US",
+      "name": "First Trust NASDAQ Cybersecurity ETF",
+      "sub_industry": "Technology",
+      "close": 101.0,
+      "pct_high_250": 0.988,
+      "ret_60": 0.196,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 0.458
     },
     {
       "ticker": "GDX.US",
@@ -2158,7 +2158,7 @@
       "ret_60": 0.018,
       "ma_aligned": 0,
       "days_below_ma10": 12,
-      "hotness": 0.143
+      "hotness": 0.144
     },
     {
       "ticker": "IWN.US",
@@ -2191,7 +2191,7 @@
       "ret_60": 0.114,
       "ma_aligned": 1,
       "days_below_ma10": 3,
-      "hotness": 0.131
+      "hotness": 0.13
     },
     {
       "ticker": "SCHV.US",
@@ -2730,7 +2730,7 @@
       "ret_60": -0.111,
       "ma_aligned": 0,
       "days_below_ma10": 4,
-      "hotness": -0.184
+      "hotness": -0.185
     },
     {
       "ticker": "FTXN.US",
