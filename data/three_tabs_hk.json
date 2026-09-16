@@ -3,6 +3,87 @@
   "tab1": {
     "sos_section": [
       {
+        "ticker": "0257.HK",
+        "name": "光大环境",
+        "name_cn": "光大环境",
+        "gics_sector": "Industrials",
+        "sub_industry": "公共事业",
+        "state": "SETUP_OK",
+        "substate": "",
+        "last_close": 5.04,
+        "ma10": 5.013,
+        "ma20": 5.035,
+        "ma60": 4.941,
+        "ma200": 5.012,
+        "ma200_slope": 0.41,
+        "ma10_slope_pct": -0.84,
+        "days_in_state": 1,
+        "days_in_pullback": 0,
+        "pullback_dd_pct": null,
+        "sos": "SOS-B",
+        "bear_gate": false,
+        "is_new_stock": false,
+        "sos_setup_recent": "SOS-B",
+        "recent_new_high_flag": false,
+        "trending_to_pullback_recent": false,
+        "to_exit_recent": false,
+        "date": "2026-09-16"
+      },
+      {
+        "ticker": "3931.HK",
+        "name": "中创新航",
+        "name_cn": "中创新航",
+        "gics_sector": "Consumer Discretionary",
+        "sub_industry": "新能源产业链",
+        "state": "SETUP_OK",
+        "substate": "",
+        "last_close": 17.52,
+        "ma10": 17.124,
+        "ma20": 17.884,
+        "ma60": 19.297,
+        "ma200": 26.054,
+        "ma200_slope": -5.24,
+        "ma10_slope_pct": -8.16,
+        "days_in_state": 1,
+        "days_in_pullback": 0,
+        "pullback_dd_pct": null,
+        "sos": "SOS-B",
+        "bear_gate": false,
+        "is_new_stock": false,
+        "sos_setup_recent": "SOS-B",
+        "recent_new_high_flag": false,
+        "trending_to_pullback_recent": false,
+        "to_exit_recent": false,
+        "date": "2026-09-16"
+      },
+      {
+        "ticker": "9961.HK",
+        "name": "携程集团-S",
+        "name_cn": "携程集团-S",
+        "gics_sector": "Consumer Discretionary",
+        "sub_industry": "互联网",
+        "state": "SETUP_OK",
+        "substate": "",
+        "last_close": 323.2,
+        "ma10": 317.78,
+        "ma20": 336.59,
+        "ma60": 341.443,
+        "ma200": 416.712,
+        "ma200_slope": -5.07,
+        "ma10_slope_pct": -10.59,
+        "days_in_state": 1,
+        "days_in_pullback": 0,
+        "pullback_dd_pct": null,
+        "sos": "SOS-B",
+        "bear_gate": false,
+        "is_new_stock": false,
+        "sos_setup_recent": "SOS-B",
+        "recent_new_high_flag": false,
+        "trending_to_pullback_recent": false,
+        "to_exit_recent": false,
+        "date": "2026-09-16"
+      },
+      {
         "ticker": "2192.HK",
         "name": "医脉通",
         "name_cn": "医脉通",
@@ -10,14 +91,14 @@
         "sub_industry": "其他医疗保健",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 6.805,
-        "ma10": 6.913,
-        "ma20": 7.205,
-        "ma60": 7.292,
-        "ma200": 8.411,
-        "ma200_slope": -3.15,
-        "ma10_slope_pct": -7.77,
-        "days_in_state": 3,
+        "last_close": 6.87,
+        "ma10": 6.876,
+        "ma20": 7.176,
+        "ma60": 7.298,
+        "ma200": 8.4,
+        "ma200_slope": -3.08,
+        "ma10_slope_pct": -8.01,
+        "days_in_state": 4,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
         "sos": "",
@@ -30,26 +111,26 @@
         "date": "2026-09-16"
       },
       {
-        "ticker": "1729.HK",
-        "name": "汇聚科技",
-        "name_cn": "汇聚科技",
+        "ticker": "9903.HK",
+        "name": "天数智芯",
+        "name_cn": "天数智芯",
         "gics_sector": "Information Technology",
-        "sub_industry": "资讯科技器材",
+        "sub_industry": "AI算力",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 17.3,
-        "ma10": 17.914,
-        "ma20": 16.902,
-        "ma60": 16.02,
-        "ma200": 17.173,
-        "ma200_slope": 1.16,
-        "ma10_slope_pct": 12.73,
-        "days_in_state": 12,
-        "days_in_pullback": 1,
+        "last_close": 117.6,
+        "ma10": 114.457,
+        "ma20": 120.912,
+        "ma60": 157.858,
+        "ma200": null,
+        "ma200_slope": null,
+        "ma10_slope_pct": -10.14,
+        "days_in_state": 1,
+        "days_in_pullback": 0,
         "pullback_dd_pct": null,
-        "sos": "",
+        "sos": "SOS-B",
         "bear_gate": false,
-        "is_new_stock": false,
+        "is_new_stock": true,
         "sos_setup_recent": "SOS-B",
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
@@ -64,14 +145,14 @@
         "sub_industry": "食物饮品",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 7.1,
-        "ma10": 7.342,
-        "ma20": 7.514,
-        "ma60": 7.459,
-        "ma200": 7.416,
-        "ma200_slope": -0.67,
-        "ma10_slope_pct": -4.48,
-        "days_in_state": 3,
+        "last_close": 7.12,
+        "ma10": 7.306,
+        "ma20": 7.478,
+        "ma60": 7.463,
+        "ma200": 7.413,
+        "ma200_slope": -0.71,
+        "ma10_slope_pct": -4.5,
+        "days_in_state": 4,
         "days_in_pullback": 1,
         "pullback_dd_pct": null,
         "sos": "",
@@ -84,24 +165,24 @@
         "date": "2026-09-16"
       },
       {
-        "ticker": "1113.HK",
-        "name": "长实集团",
-        "name_cn": "长实集团",
-        "gics_sector": "Real Estate",
-        "sub_industry": "香港地产",
+        "ticker": "2390.HK",
+        "name": "知乎-W",
+        "name_cn": "知乎-W",
+        "gics_sector": "Communication Services",
+        "sub_industry": "媒体及娱乐",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 46.4,
-        "ma10": 46.803,
-        "ma20": 46.371,
-        "ma60": 46.094,
-        "ma200": 44.546,
-        "ma200_slope": 1.9,
-        "ma10_slope_pct": 1.88,
-        "days_in_state": 5,
+        "last_close": 7.8,
+        "ma10": 7.198,
+        "ma20": 7.536,
+        "ma60": 8.013,
+        "ma200": 8.486,
+        "ma200_slope": -3.71,
+        "ma10_slope_pct": -8.59,
+        "days_in_state": 1,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
-        "sos": "",
+        "sos": "SOS-B",
         "bear_gate": false,
         "is_new_stock": false,
         "sos_setup_recent": "SOS-B",
@@ -118,14 +199,14 @@
         "sub_industry": "公用事业",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 4.14,
-        "ma10": 4.056,
-        "ma20": 4.002,
-        "ma60": 3.988,
+        "last_close": 4.135,
+        "ma10": 4.074,
+        "ma20": 4.013,
+        "ma60": 3.989,
         "ma200": 4.127,
-        "ma200_slope": -1.04,
-        "ma10_slope_pct": 2.72,
-        "days_in_state": 2,
+        "ma200_slope": -1.01,
+        "ma10_slope_pct": 3.06,
+        "days_in_state": 3,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
         "sos": "",
@@ -145,17 +226,17 @@
         "sub_industry": "公共事业",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 30.04,
-        "ma10": 30.153,
-        "ma20": 30.213,
-        "ma60": 29.481,
-        "ma200": 30.71,
-        "ma200_slope": -0.91,
-        "ma10_slope_pct": -0.39,
-        "days_in_state": 1,
+        "last_close": 30.16,
+        "ma10": 30.141,
+        "ma20": 30.243,
+        "ma60": 29.537,
+        "ma200": 30.701,
+        "ma200_slope": -0.89,
+        "ma10_slope_pct": -0.67,
+        "days_in_state": 2,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
-        "sos": "SOS-B",
+        "sos": "",
         "bear_gate": false,
         "is_new_stock": false,
         "sos_setup_recent": "SOS-B",
@@ -172,44 +253,17 @@
         "sub_industry": "工用运输",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 10.31,
-        "ma10": 10.014,
-        "ma20": 9.788,
-        "ma60": 9.72,
-        "ma200": 9.679,
-        "ma200_slope": 0.58,
-        "ma10_slope_pct": 4.72,
-        "days_in_state": 2,
+        "last_close": 10.47,
+        "ma10": 10.087,
+        "ma20": 9.839,
+        "ma60": 9.73,
+        "ma200": 9.684,
+        "ma200_slope": 0.61,
+        "ma10_slope_pct": 5.18,
+        "days_in_state": 3,
         "days_in_pullback": 8,
         "pullback_dd_pct": null,
         "sos": "SOS-C",
-        "bear_gate": false,
-        "is_new_stock": false,
-        "sos_setup_recent": "SOS-C",
-        "recent_new_high_flag": false,
-        "trending_to_pullback_recent": false,
-        "to_exit_recent": false,
-        "date": "2026-09-16"
-      },
-      {
-        "ticker": "2866.HK",
-        "name": "中远海发",
-        "name_cn": "中远海发",
-        "gics_sector": "Industrials",
-        "sub_industry": "工用运输",
-        "state": "SETUP_OK",
-        "substate": "",
-        "last_close": 0.92,
-        "ma10": 0.943,
-        "ma20": 0.929,
-        "ma60": 0.906,
-        "ma200": 1.035,
-        "ma200_slope": -2.14,
-        "ma10_slope_pct": 2.95,
-        "days_in_state": 9,
-        "days_in_pullback": 0,
-        "pullback_dd_pct": null,
-        "sos": "",
         "bear_gate": false,
         "is_new_stock": false,
         "sos_setup_recent": "SOS-C",
@@ -226,17 +280,17 @@
         "sub_industry": "家庭电器及用品",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 1.595,
-        "ma10": 1.513,
-        "ma20": 1.492,
-        "ma60": 1.431,
-        "ma200": 1.648,
-        "ma200_slope": -2.11,
-        "ma10_slope_pct": 2.75,
-        "days_in_state": 1,
+        "last_close": 1.59,
+        "ma10": 1.52,
+        "ma20": 1.498,
+        "ma60": 1.435,
+        "ma200": 1.647,
+        "ma200_slope": -2.05,
+        "ma10_slope_pct": 2.95,
+        "days_in_state": 2,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
-        "sos": "SOS-C",
+        "sos": "",
         "bear_gate": false,
         "is_new_stock": false,
         "sos_setup_recent": "SOS-C",
@@ -253,14 +307,14 @@
         "sub_industry": "旅游及消闲设施",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 8.07,
-        "ma10": 7.841,
-        "ma20": 7.836,
-        "ma60": 7.318,
-        "ma200": 7.492,
-        "ma200_slope": -2.95,
-        "ma10_slope_pct": 0.15,
-        "days_in_state": 6,
+        "last_close": 8.19,
+        "ma10": 7.919,
+        "ma20": 7.844,
+        "ma60": 7.349,
+        "ma200": 7.486,
+        "ma200_slope": -2.85,
+        "ma10_slope_pct": 1.93,
+        "days_in_state": 7,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
         "sos": "",
@@ -280,94 +334,13 @@
         "sub_industry": "银行",
         "state": "SETUP_OK",
         "substate": "",
-        "last_close": 3.58,
-        "ma10": 3.482,
-        "ma20": 3.402,
-        "ma60": 3.316,
-        "ma200": 3.528,
-        "ma200_slope": -1.55,
-        "ma10_slope_pct": 4.84,
-        "days_in_state": 4,
-        "days_in_pullback": 0,
-        "pullback_dd_pct": null,
-        "sos": "",
-        "bear_gate": false,
-        "is_new_stock": false,
-        "sos_setup_recent": "SOS-C",
-        "recent_new_high_flag": false,
-        "trending_to_pullback_recent": false,
-        "to_exit_recent": false,
-        "date": "2026-09-16"
-      },
-      {
-        "ticker": "2600.HK",
-        "name": "中国铝业",
-        "name_cn": "中国铝业",
-        "gics_sector": "Materials",
-        "sub_industry": "工业金属",
-        "state": "SETUP_OK",
-        "substate": "",
-        "last_close": 7.995,
-        "ma10": 8.448,
-        "ma20": 8.313,
-        "ma60": 7.958,
-        "ma200": 10.301,
-        "ma200_slope": -1.49,
-        "ma10_slope_pct": 3.3,
-        "days_in_state": 6,
-        "days_in_pullback": 0,
-        "pullback_dd_pct": null,
-        "sos": "",
-        "bear_gate": false,
-        "is_new_stock": false,
-        "sos_setup_recent": "SOS-C",
-        "recent_new_high_flag": false,
-        "trending_to_pullback_recent": false,
-        "to_exit_recent": false,
-        "date": "2026-09-16"
-      },
-      {
-        "ticker": "2688.HK",
-        "name": "新奥能源",
-        "name_cn": "新奥能源",
-        "gics_sector": "Utilities",
-        "sub_industry": "公共事业",
-        "state": "SETUP_OK",
-        "substate": "",
-        "last_close": 49.48,
-        "ma10": 49.799,
-        "ma20": 49.042,
-        "ma60": 45.715,
-        "ma200": 57.162,
-        "ma200_slope": -2.86,
-        "ma10_slope_pct": 3.13,
-        "days_in_state": 6,
-        "days_in_pullback": 0,
-        "pullback_dd_pct": null,
-        "sos": "",
-        "bear_gate": false,
-        "is_new_stock": false,
-        "sos_setup_recent": "SOS-C",
-        "recent_new_high_flag": false,
-        "trending_to_pullback_recent": false,
-        "to_exit_recent": false,
-        "date": "2026-09-16"
-      },
-      {
-        "ticker": "0956.HK",
-        "name": "新天绿色能源",
-        "name_cn": "新天绿色能源",
-        "gics_sector": "Utilities",
-        "sub_industry": "公用事业",
-        "state": "SETUP_OK",
-        "substate": "",
-        "last_close": 3.34,
-        "ma10": 3.293,
-        "ma20": 3.274,
-        "ma60": 3.167,
+        "last_close": 3.585,
+        "ma10": 3.497,
+        "ma20": 3.416,
+        "ma60": 3.322,
         "ma200": 3.526,
-        "ma200_slope": -2.59,
-        "ma10_slope_pct": 1.18,
+        "ma200_slope": -1.5,
+        "ma10_slope_pct": 4.83,
         "days_in_state": 5,
         "days_in_pullback": 0,
         "pullback_dd_pct": null,
@@ -392,14 +365,14 @@
       "sub_industry": "创新药",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 50.65,
-      "ma10": 49.918,
-      "ma20": 46.959,
-      "ma60": 44.589,
+      "last_close": 50.3,
+      "ma10": 50.452,
+      "ma20": 47.503,
+      "ma60": 44.713,
       "ma200": null,
       "ma200_slope": null,
-      "ma10_slope_pct": 13.45,
-      "days_in_state": 8,
+      "ma10_slope_pct": 13.24,
+      "days_in_state": 9,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
       "sos": "",
@@ -420,14 +393,14 @@
       "sub_industry": "其他医疗保健",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 32.08,
-      "ma10": 31.806,
-      "ma20": 32.147,
-      "ma60": 32.219,
+      "last_close": 32.38,
+      "ma10": 31.86,
+      "ma20": 32.184,
+      "ma60": 32.313,
       "ma200": null,
       "ma200_slope": null,
-      "ma10_slope_pct": -2.1,
-      "days_in_state": 2,
+      "ma10_slope_pct": -1.99,
+      "days_in_state": 3,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
       "sos": "",
@@ -448,14 +421,14 @@
       "sub_industry": "AI算力",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 109.4,
-      "ma10": 111.166,
-      "ma20": 103.95,
-      "ma60": 101.515,
-      "ma200": 98.562,
+      "last_close": 121.1,
+      "ma10": 113.724,
+      "ma20": 105.552,
+      "ma60": 101.085,
+      "ma200": 98.775,
       "ma200_slope": null,
-      "ma10_slope_pct": 14.92,
-      "days_in_state": 7,
+      "ma10_slope_pct": 16.78,
+      "days_in_state": 8,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
       "sos": "",
@@ -476,17 +449,17 @@
       "sub_industry": "保险",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 34.4,
-      "ma10": 33.538,
-      "ma20": 31.782,
-      "ma60": 30.127,
-      "ma200": 33.15,
-      "ma200_slope": -2.38,
-      "ma10_slope_pct": 11.7,
-      "days_in_state": 13,
+      "last_close": 33.48,
+      "ma10": 33.574,
+      "ma20": 32.07,
+      "ma60": 30.201,
+      "ma200": 33.123,
+      "ma200_slope": -2.27,
+      "ma10_slope_pct": 9.84,
+      "days_in_state": 14,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
-      "sos": "SOS-C",
+      "sos": "",
       "bear_gate": false,
       "is_new_stock": true,
       "sos_setup_recent": "",
@@ -504,14 +477,14 @@
       "sub_industry": "农林牧渔",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 38.4,
-      "ma10": 38.286,
-      "ma20": 36.363,
-      "ma60": 33.667,
+      "last_close": 37.28,
+      "ma10": 38.366,
+      "ma20": 36.522,
+      "ma60": 33.797,
       "ma200": null,
       "ma200_slope": null,
-      "ma10_slope_pct": 11.17,
-      "days_in_state": 14,
+      "ma10_slope_pct": 10.63,
+      "days_in_state": 15,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
       "sos": "",
@@ -532,14 +505,14 @@
       "sub_industry": "贵金属",
       "state": "TRENDING",
       "substate": "NEW",
-      "last_close": 155.8,
-      "ma10": 159.65,
-      "ma20": 156.38,
-      "ma60": 126.485,
-      "ma200": 153.041,
-      "ma200_slope": 1.62,
-      "ma10_slope_pct": 4.27,
-      "days_in_state": 29,
+      "last_close": 161.6,
+      "ma10": 160.85,
+      "ma20": 157.858,
+      "ma60": 127.535,
+      "ma200": 153.199,
+      "ma200_slope": 1.71,
+      "ma10_slope_pct": 3.86,
+      "days_in_state": 30,
       "days_in_pullback": 0,
       "pullback_dd_pct": null,
       "sos": "",
@@ -561,64 +534,9 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -27.57,
-      "days_in_pullback": 0,
-      "last_close": 48.96
-    },
-    {
-      "ticker": "6693.HK",
-      "name_cn": "赤峰黄金",
-      "gics_sector": "Materials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -20.24,
-      "days_in_pullback": 3,
-      "last_close": 36.58
-    },
-    {
-      "ticker": "3268.HK",
-      "name_cn": "美格智能",
-      "gics_sector": "Information Technology",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -19.87,
+      "pullback_dd_pct": -25.52,
       "days_in_pullback": 1,
-      "last_close": 18.51
-    },
-    {
-      "ticker": "3887.HK",
-      "name_cn": "HASHKEY HLDGS",
-      "gics_sector": "Financials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -18.88,
-      "days_in_pullback": 0,
-      "last_close": 2.385
-    },
-    {
-      "ticker": "2315.HK",
-      "name_cn": "百奥赛图-B",
-      "gics_sector": "Health Care",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -18.86,
-      "days_in_pullback": 0,
-      "last_close": 57.0
-    },
-    {
-      "ticker": "2698.HK",
-      "name_cn": "乐舒适",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -17.72,
-      "days_in_pullback": 3,
-      "last_close": 28.6
+      "last_close": 50.35
     },
     {
       "ticker": "2696.HK",
@@ -627,20 +545,53 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -17.59,
-      "days_in_pullback": 3,
-      "last_close": 59.25
+      "pullback_dd_pct": -20.24,
+      "days_in_pullback": 4,
+      "last_close": 57.35
     },
     {
-      "ticker": "2076.HK",
-      "name_cn": "BOSS直聘-W",
-      "gics_sector": "Industrials",
+      "ticker": "3887.HK",
+      "name_cn": "HASHKEY HLDGS",
+      "gics_sector": "Financials",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -17.02,
+      "pullback_dd_pct": -19.56,
+      "days_in_pullback": 1,
+      "last_close": 2.365
+    },
+    {
+      "ticker": "3268.HK",
+      "name_cn": "美格智能",
+      "gics_sector": "Information Technology",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -19.22,
+      "days_in_pullback": 2,
+      "last_close": 18.66
+    },
+    {
+      "ticker": "2698.HK",
+      "name_cn": "乐舒适",
+      "gics_sector": "Consumer Staples",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -16.68,
       "days_in_pullback": 4,
-      "last_close": 60.2
+      "last_close": 28.96
+    },
+    {
+      "ticker": "2315.HK",
+      "name_cn": "百奥赛图-B",
+      "gics_sector": "Health Care",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -16.58,
+      "days_in_pullback": 1,
+      "last_close": 58.6
     },
     {
       "ticker": "2096.HK",
@@ -649,42 +600,9 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -15.54,
-      "days_in_pullback": 0,
-      "last_close": 11.25
-    },
-    {
-      "ticker": "2382.HK",
-      "name_cn": "舜宇光学科技",
-      "gics_sector": "Information Technology",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -15.37,
-      "days_in_pullback": 0,
-      "last_close": 67.15
-    },
-    {
-      "ticker": "0325.HK",
-      "name_cn": "布鲁可",
-      "gics_sector": "Consumer Discretionary",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -15.11,
-      "days_in_pullback": 3,
-      "last_close": 67.15
-    },
-    {
-      "ticker": "1787.HK",
-      "name_cn": "山东黄金",
-      "gics_sector": "Materials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -14.99,
-      "days_in_pullback": 3,
-      "last_close": 23.36
+      "pullback_dd_pct": -16.14,
+      "days_in_pullback": 1,
+      "last_close": 11.17
     },
     {
       "ticker": "2162.HK",
@@ -693,9 +611,9 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -14.45,
-      "days_in_pullback": 1,
-      "last_close": 74.6
+      "pullback_dd_pct": -16.0,
+      "days_in_pullback": 2,
+      "last_close": 73.25
     },
     {
       "ticker": "9966.HK",
@@ -704,20 +622,53 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -13.49,
-      "days_in_pullback": 3,
-      "last_close": 7.885
+      "pullback_dd_pct": -15.25,
+      "days_in_pullback": 4,
+      "last_close": 7.725
     },
     {
-      "ticker": "1508.HK",
-      "name_cn": "中国再保险",
-      "gics_sector": "Financials",
+      "ticker": "0325.HK",
+      "name_cn": "布鲁可",
+      "gics_sector": "Consumer Discretionary",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -13.31,
+      "pullback_dd_pct": -14.79,
+      "days_in_pullback": 4,
+      "last_close": 67.4
+    },
+    {
+      "ticker": "1866.HK",
+      "name_cn": "中国心连心化肥",
+      "gics_sector": "Materials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -14.14,
+      "days_in_pullback": 0,
+      "last_close": 9.96
+    },
+    {
+      "ticker": "6693.HK",
+      "name_cn": "赤峰黄金",
+      "gics_sector": "Materials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -14.13,
+      "days_in_pullback": 4,
+      "last_close": 39.38
+    },
+    {
+      "ticker": "2382.HK",
+      "name_cn": "舜宇光学科技",
+      "gics_sector": "Information Technology",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -13.67,
       "days_in_pullback": 1,
-      "last_close": 1.205
+      "last_close": 68.5
     },
     {
       "ticker": "0668.HK",
@@ -726,31 +677,53 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -12.75,
+      "pullback_dd_pct": -13.47,
+      "days_in_pullback": 3,
+      "last_close": 120.1
+    },
+    {
+      "ticker": "1508.HK",
+      "name_cn": "中国再保险",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -12.95,
       "days_in_pullback": 2,
-      "last_close": 121.1
+      "last_close": 1.21
     },
     {
-      "ticker": "1316.HK",
-      "name_cn": "耐世特",
-      "gics_sector": "Consumer Discretionary",
+      "ticker": "1208.HK",
+      "name_cn": "五矿资源",
+      "gics_sector": "Materials",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -12.58,
-      "days_in_pullback": 4,
-      "last_close": 4.69
-    },
-    {
-      "ticker": "3800.HK",
-      "name_cn": "协鑫科技",
-      "gics_sector": "Information Technology",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -12.03,
+      "pullback_dd_pct": -12.55,
       "days_in_pullback": 0,
-      "last_close": 0.695
+      "last_close": 8.64
+    },
+    {
+      "ticker": "2423.HK",
+      "name_cn": "贝壳-W",
+      "gics_sector": "Real Estate",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -12.24,
+      "days_in_pullback": 4,
+      "last_close": 42.14
+    },
+    {
+      "ticker": "1258.HK",
+      "name_cn": "中国有色矿业",
+      "gics_sector": "Materials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -11.91,
+      "days_in_pullback": 0,
+      "last_close": 15.6
     },
     {
       "ticker": "0669.HK",
@@ -760,41 +733,30 @@
       "label": "A·PULLBACK",
       "emoji": "🟡",
       "pullback_dd_pct": -11.39,
-      "days_in_pullback": 3,
+      "days_in_pullback": 4,
       "last_close": 129.6
     },
     {
-      "ticker": "1951.HK",
-      "name_cn": "锦欣生殖",
-      "gics_sector": "Health Care",
+      "ticker": "2899.HK",
+      "name_cn": "紫金矿业",
+      "gics_sector": "Materials",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -10.87,
+      "pullback_dd_pct": -10.74,
       "days_in_pullback": 0,
-      "last_close": 2.09
+      "last_close": 34.42
     },
     {
-      "ticker": "2423.HK",
-      "name_cn": "贝壳-W",
-      "gics_sector": "Real Estate",
+      "ticker": "1787.HK",
+      "name_cn": "山东黄金",
+      "gics_sector": "Materials",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -10.83,
-      "days_in_pullback": 3,
-      "last_close": 42.82
-    },
-    {
-      "ticker": "1093.HK",
-      "name_cn": "石药集团",
-      "gics_sector": "Health Care",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -10.17,
-      "days_in_pullback": 2,
-      "last_close": 8.7
+      "pullback_dd_pct": -10.55,
+      "days_in_pullback": 4,
+      "last_close": 24.58
     },
     {
       "ticker": "6098.HK",
@@ -803,9 +765,31 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -9.94,
+      "pullback_dd_pct": -9.68,
+      "days_in_pullback": 4,
+      "last_close": 5.225
+    },
+    {
+      "ticker": "1951.HK",
+      "name_cn": "锦欣生殖",
+      "gics_sector": "Health Care",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -9.38,
+      "days_in_pullback": 1,
+      "last_close": 2.125
+    },
+    {
+      "ticker": "1093.HK",
+      "name_cn": "石药集团",
+      "gics_sector": "Health Care",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -9.09,
       "days_in_pullback": 3,
-      "last_close": 5.21
+      "last_close": 8.805
     },
     {
       "ticker": "9688.HK",
@@ -814,42 +798,9 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -9.85,
-      "days_in_pullback": 3,
-      "last_close": 19.04
-    },
-    {
-      "ticker": "1997.HK",
-      "name_cn": "九龙仓置业",
-      "gics_sector": "Real Estate",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -8.39,
-      "days_in_pullback": 0,
-      "last_close": 29.78
-    },
-    {
-      "ticker": "0966.HK",
-      "name_cn": "中国太平",
-      "gics_sector": "Financials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -8.3,
-      "days_in_pullback": 2,
-      "last_close": 20.78
-    },
-    {
-      "ticker": "3692.HK",
-      "name_cn": "翰森制药",
-      "gics_sector": "Health Care",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -7.88,
-      "days_in_pullback": 1,
-      "last_close": 33.92
+      "pullback_dd_pct": -8.29,
+      "days_in_pullback": 4,
+      "last_close": 19.37
     },
     {
       "ticker": "1776.HK",
@@ -858,9 +809,53 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
+      "pullback_dd_pct": -8.03,
+      "days_in_pullback": 3,
+      "last_close": 17.29
+    },
+    {
+      "ticker": "1997.HK",
+      "name_cn": "九龙仓置业",
+      "gics_sector": "Real Estate",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.72,
+      "days_in_pullback": 1,
+      "last_close": 30.0
+    },
+    {
+      "ticker": "3692.HK",
+      "name_cn": "翰森制药",
+      "gics_sector": "Health Care",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
       "pullback_dd_pct": -7.66,
       "days_in_pullback": 2,
-      "last_close": 17.36
+      "last_close": 34.0
+    },
+    {
+      "ticker": "2628.HK",
+      "name_cn": "中国人寿",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.64,
+      "days_in_pullback": 0,
+      "last_close": 28.54
+    },
+    {
+      "ticker": "9979.HK",
+      "name_cn": "绿城管理控股",
+      "gics_sector": "Real Estate",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.46,
+      "days_in_pullback": 0,
+      "last_close": 1.86
     },
     {
       "ticker": "9901.HK",
@@ -869,31 +864,20 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -7.55,
+      "pullback_dd_pct": -7.42,
+      "days_in_pullback": 4,
+      "last_close": 43.92
+    },
+    {
+      "ticker": "0966.HK",
+      "name_cn": "中国太平",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.33,
       "days_in_pullback": 3,
-      "last_close": 43.86
-    },
-    {
-      "ticker": "1177.HK",
-      "name_cn": "中国生物制药",
-      "gics_sector": "Health Care",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -7.27,
-      "days_in_pullback": 0,
-      "last_close": 5.42
-    },
-    {
-      "ticker": "1361.HK",
-      "name_cn": "361度",
-      "gics_sector": "Consumer Discretionary",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -6.78,
-      "days_in_pullback": 0,
-      "last_close": 4.38
+      "last_close": 21.0
     },
     {
       "ticker": "0038.HK",
@@ -902,9 +886,64 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -6.57,
+      "pullback_dd_pct": -7.13,
+      "days_in_pullback": 1,
+      "last_close": 9.185
+    },
+    {
+      "ticker": "1128.HK",
+      "name_cn": "永利澳门",
+      "gics_sector": "Consumer Discretionary",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.05,
       "days_in_pullback": 0,
-      "last_close": 9.24
+      "last_close": 5.29
+    },
+    {
+      "ticker": "6699.HK",
+      "name_cn": "时代天使",
+      "gics_sector": "Health Care",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -7.03,
+      "days_in_pullback": 0,
+      "last_close": 87.4
+    },
+    {
+      "ticker": "1339.HK",
+      "name_cn": "中国人民保险集团",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -6.88,
+      "days_in_pullback": 0,
+      "last_close": 5.82
+    },
+    {
+      "ticker": "0019.HK",
+      "name_cn": "太古股份公司A",
+      "gics_sector": "Industrials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -6.63,
+      "days_in_pullback": 0,
+      "last_close": 100.0
+    },
+    {
+      "ticker": "0386.HK",
+      "name_cn": "中国石油化工股份",
+      "gics_sector": "Energy",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -6.4,
+      "days_in_pullback": 0,
+      "last_close": 4.605
     },
     {
       "ticker": "0293.HK",
@@ -913,31 +952,42 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -6.29,
+      "pullback_dd_pct": -6.15,
+      "days_in_pullback": 1,
+      "last_close": 13.95
+    },
+    {
+      "ticker": "0308.HK",
+      "name_cn": "香港中旅",
+      "gics_sector": "Consumer Discretionary",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -6.1,
       "days_in_pullback": 0,
-      "last_close": 13.93
+      "last_close": 1.155
     },
     {
-      "ticker": "6881.HK",
-      "name_cn": "中国银河",
-      "gics_sector": "Financials",
+      "ticker": "1177.HK",
+      "name_cn": "中国生物制药",
+      "gics_sector": "Health Care",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -6.26,
-      "days_in_pullback": 3,
-      "last_close": 7.56
+      "pullback_dd_pct": -6.07,
+      "days_in_pullback": 1,
+      "last_close": 5.49
     },
     {
-      "ticker": "0696.HK",
-      "name_cn": "中国民航信息网络",
-      "gics_sector": "Information Technology",
+      "ticker": "1361.HK",
+      "name_cn": "361度",
+      "gics_sector": "Consumer Discretionary",
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -5.22,
-      "days_in_pullback": 3,
-      "last_close": 8.625
+      "pullback_dd_pct": -5.72,
+      "days_in_pullback": 1,
+      "last_close": 4.43
     },
     {
       "ticker": "1766.HK",
@@ -946,53 +996,31 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -4.7,
+      "pullback_dd_pct": -5.71,
+      "days_in_pullback": 1,
+      "last_close": 5.115
+    },
+    {
+      "ticker": "6881.HK",
+      "name_cn": "中国银河",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -5.39,
+      "days_in_pullback": 4,
+      "last_close": 7.63
+    },
+    {
+      "ticker": "6886.HK",
+      "name_cn": "华泰证券",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -5.36,
       "days_in_pullback": 0,
-      "last_close": 5.17
-    },
-    {
-      "ticker": "2328.HK",
-      "name_cn": "中国财险",
-      "gics_sector": "Financials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -4.33,
-      "days_in_pullback": 2,
-      "last_close": 16.79
-    },
-    {
-      "ticker": "1288.HK",
-      "name_cn": "农业银行",
-      "gics_sector": "Financials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -4.1,
-      "days_in_pullback": 2,
-      "last_close": 6.31
-    },
-    {
-      "ticker": "0525.HK",
-      "name_cn": "广深铁路股份",
-      "gics_sector": "Consumer Discretionary",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -3.87,
-      "days_in_pullback": 0,
-      "last_close": 2.36
-    },
-    {
-      "ticker": "2611.HK",
-      "name_cn": "国泰海通",
-      "gics_sector": "Financials",
-      "alert_type": "A_PULLBACK",
-      "label": "A·PULLBACK",
-      "emoji": "🟡",
-      "pullback_dd_pct": -3.63,
-      "days_in_pullback": 3,
-      "last_close": 14.86
+      "last_close": 16.9
     },
     {
       "ticker": "6690.HK",
@@ -1001,19 +1029,64 @@
       "alert_type": "A_PULLBACK",
       "label": "A·PULLBACK",
       "emoji": "🟡",
-      "pullback_dd_pct": -2.99,
-      "days_in_pullback": 3,
-      "last_close": 21.04
+      "pullback_dd_pct": -4.56,
+      "days_in_pullback": 4,
+      "last_close": 20.7
     },
     {
-      "ticker": "2318.HK",
-      "name_cn": "中国平安",
+      "ticker": "0696.HK",
+      "name_cn": "中国民航信息网络",
+      "gics_sector": "Information Technology",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -4.23,
+      "days_in_pullback": 4,
+      "last_close": 8.715
+    },
+    {
+      "ticker": "2328.HK",
+      "name_cn": "中国财险",
       "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 53.05
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -4.22,
+      "days_in_pullback": 3,
+      "last_close": 16.81
+    },
+    {
+      "ticker": "0003.HK",
+      "name_cn": "香港中华煤气",
+      "gics_sector": "Utilities",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -4.04,
+      "days_in_pullback": 0,
+      "last_close": 7.08
+    },
+    {
+      "ticker": "0525.HK",
+      "name_cn": "广深铁路股份",
+      "gics_sector": "Consumer Discretionary",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -3.46,
+      "days_in_pullback": 1,
+      "last_close": 2.37
+    },
+    {
+      "ticker": "1288.HK",
+      "name_cn": "农业银行",
+      "gics_sector": "Financials",
+      "alert_type": "A_PULLBACK",
+      "label": "A·PULLBACK",
+      "emoji": "🟡",
+      "pullback_dd_pct": -3.34,
+      "days_in_pullback": 3,
+      "last_close": 6.36
     },
     {
       "ticker": "3618.HK",
@@ -1022,8 +1095,18 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 6.24
+      "days_in_state": 3,
+      "last_close": 6.31
+    },
+    {
+      "ticker": "2318.HK",
+      "name_cn": "中国平安",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 52.8
     },
     {
       "ticker": "1336.HK",
@@ -1032,18 +1115,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 46.3
-    },
-    {
-      "ticker": "6030.HK",
-      "name_cn": "中信证券",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 24.56
+      "days_in_state": 2,
+      "last_close": 46.5
     },
     {
       "ticker": "3908.HK",
@@ -1052,18 +1125,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 19.85
-    },
-    {
-      "ticker": "6099.HK",
-      "name_cn": "招商证券",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 14.47
+      "days_in_state": 3,
+      "last_close": 19.97
     },
     {
       "ticker": "6066.HK",
@@ -1072,8 +1135,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 11.33
+      "days_in_state": 4,
+      "last_close": 11.4
     },
     {
       "ticker": "6060.HK",
@@ -1082,8 +1145,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 9.98
+      "days_in_state": 4,
+      "last_close": 10.08
     },
     {
       "ticker": "1109.HK",
@@ -1092,8 +1155,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 28.48
+      "days_in_state": 4,
+      "last_close": 28.8
     },
     {
       "ticker": "0688.HK",
@@ -1102,8 +1165,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 12.12
+      "days_in_state": 3,
+      "last_close": 12.08
     },
     {
       "ticker": "1908.HK",
@@ -1112,8 +1175,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 11.84
+      "days_in_state": 3,
+      "last_close": 12.06
     },
     {
       "ticker": "0817.HK",
@@ -1122,7 +1185,7 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
+      "days_in_state": 3,
       "last_close": 1.2
     },
     {
@@ -1132,8 +1195,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 38.2
+      "days_in_state": 4,
+      "last_close": 38.06
     },
     {
       "ticker": "2869.HK",
@@ -1142,8 +1205,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 4.14
+      "days_in_state": 4,
+      "last_close": 4.17
     },
     {
       "ticker": "0016.HK",
@@ -1152,8 +1215,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 108.9
+      "days_in_state": 4,
+      "last_close": 109.6
     },
     {
       "ticker": "0902.HK",
@@ -1162,7 +1225,7 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
+      "days_in_state": 4,
       "last_close": 5.675
     },
     {
@@ -1172,8 +1235,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 106.3
+      "days_in_state": 3,
+      "last_close": 105.9
     },
     {
       "ticker": "0175.HK",
@@ -1182,18 +1245,18 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 16.14
+      "days_in_state": 3,
+      "last_close": 16.11
     },
     {
-      "ticker": "0551.HK",
-      "name_cn": "裕元集团",
-      "gics_sector": "Consumer Discretionary",
+      "ticker": "3808.HK",
+      "name_cn": "中国重汽",
+      "gics_sector": "Industrials",
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 13.08
+      "days_in_state": 1,
+      "last_close": 38.72
     },
     {
       "ticker": "0921.HK",
@@ -1202,8 +1265,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 22.38
+      "days_in_state": 3,
+      "last_close": 21.98
     },
     {
       "ticker": "1929.HK",
@@ -1212,18 +1275,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 11.1
-    },
-    {
-      "ticker": "9987.HK",
-      "name_cn": "百胜中国",
-      "gics_sector": "Consumer Discretionary",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 331.2
+      "days_in_state": 3,
+      "last_close": 11.29
     },
     {
       "ticker": "0168.HK",
@@ -1232,8 +1285,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 39.8
+      "days_in_state": 3,
+      "last_close": 39.84
     },
     {
       "ticker": "6186.HK",
@@ -1242,8 +1295,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 2.475
+      "days_in_state": 3,
+      "last_close": 2.495
     },
     {
       "ticker": "2648.HK",
@@ -1252,38 +1305,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 60.4
-    },
-    {
-      "ticker": "3288.HK",
-      "name_cn": "海天味业",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 26.92
-    },
-    {
-      "ticker": "2367.HK",
-      "name_cn": "巨子生物",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 24.56
-    },
-    {
-      "ticker": "2057.HK",
-      "name_cn": "中通快递-W",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 161.1
+      "days_in_state": 3,
+      "last_close": 61.0
     },
     {
       "ticker": "2618.HK",
@@ -1292,8 +1315,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 10.61
+      "days_in_state": 4,
+      "last_close": 10.37
     },
     {
       "ticker": "0001.HK",
@@ -1302,28 +1325,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 67.2
-    },
-    {
-      "ticker": "1133.HK",
-      "name_cn": "哈尔滨电气",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 14.08
-    },
-    {
-      "ticker": "1651.HK",
-      "name_cn": "津上机床中国",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 46.9
+      "days_in_state": 2,
+      "last_close": 67.5
     },
     {
       "ticker": "3993.HK",
@@ -1332,8 +1335,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 15.19
+      "days_in_state": 4,
+      "last_close": 15.67
     },
     {
       "ticker": "0358.HK",
@@ -1342,8 +1345,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 32.64
+      "days_in_state": 3,
+      "last_close": 33.62
     },
     {
       "ticker": "2788.HK",
@@ -1352,28 +1355,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 16.01
-    },
-    {
-      "ticker": "9981.HK",
-      "name_cn": "沃尔核材",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 9.0
-    },
-    {
-      "ticker": "0763.HK",
-      "name_cn": "中兴通讯",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 22.46
+      "days_in_state": 3,
+      "last_close": 16.25
     },
     {
       "ticker": "3296.HK",
@@ -1382,18 +1365,18 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 69.0
+      "days_in_state": 3,
+      "last_close": 70.9
     },
     {
-      "ticker": "0981.HK",
-      "name_cn": "中芯国际",
+      "ticker": "0763.HK",
+      "name_cn": "中兴通讯",
       "gics_sector": "Information Technology",
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 60.75
+      "days_in_state": 3,
+      "last_close": 22.62
     },
     {
       "ticker": "0285.HK",
@@ -1402,18 +1385,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 22.66
-    },
-    {
-      "ticker": "3277.HK",
-      "name_cn": "长光辰芯",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 77.65
+      "days_in_state": 3,
+      "last_close": 23.36
     },
     {
       "ticker": "0068.HK",
@@ -1422,18 +1395,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 7.9
-    },
-    {
-      "ticker": "0100.HK",
-      "name_cn": "MINIMAX-WP",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
       "days_in_state": 4,
-      "last_close": 234.6
+      "last_close": 8.045
     },
     {
       "ticker": "0819.HK",
@@ -1442,8 +1405,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 3.95
+      "days_in_state": 2,
+      "last_close": 4.04
     },
     {
       "ticker": "6818.HK",
@@ -1452,18 +1415,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 2.79
-    },
-    {
-      "ticker": "0868.HK",
-      "name_cn": "信义玻璃",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
       "days_in_state": 4,
-      "last_close": 8.52
+      "last_close": 2.8
     },
     {
       "ticker": "0659.HK",
@@ -1472,8 +1425,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 7.775
+      "days_in_state": 4,
+      "last_close": 7.83
     },
     {
       "ticker": "2588.HK",
@@ -1482,8 +1435,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 71.55
+      "days_in_state": 3,
+      "last_close": 71.3
     },
     {
       "ticker": "0552.HK",
@@ -1492,8 +1445,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 4.065
+      "days_in_state": 4,
+      "last_close": 4.07
     },
     {
       "ticker": "7618.HK",
@@ -1502,18 +1455,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 13.68
-    },
-    {
-      "ticker": "1186.HK",
-      "name_cn": "中国铁建",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
       "days_in_state": 4,
-      "last_close": 4.43
+      "last_close": 13.43
     },
     {
       "ticker": "0590.HK",
@@ -1522,8 +1465,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 20.92
+      "days_in_state": 4,
+      "last_close": 21.1
     },
     {
       "ticker": "2150.HK",
@@ -1532,7 +1475,7 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
+      "days_in_state": 4,
       "last_close": 0.695
     },
     {
@@ -1542,8 +1485,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 11.01
+      "days_in_state": 4,
+      "last_close": 10.86
     },
     {
       "ticker": "0811.HK",
@@ -1552,18 +1495,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 8.0
-    },
-    {
-      "ticker": "1357.HK",
-      "name_cn": "美图公司",
-      "gics_sector": "Communication Services",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
       "days_in_state": 4,
-      "last_close": 3.88
+      "last_close": 8.18
     },
     {
       "ticker": "3320.HK",
@@ -1572,8 +1505,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 4.26
+      "days_in_state": 3,
+      "last_close": 4.27
     },
     {
       "ticker": "6049.HK",
@@ -1582,8 +1515,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 27.1
+      "days_in_state": 4,
+      "last_close": 27.18
     },
     {
       "ticker": "2586.HK",
@@ -1592,18 +1525,8 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 4.765
-    },
-    {
-      "ticker": "0008.HK",
-      "name_cn": "电讯盈科",
-      "gics_sector": "Communication Services",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 5.375
+      "days_in_state": 2,
+      "last_close": 4.98
     },
     {
       "ticker": "0576.HK",
@@ -1612,8 +1535,30 @@
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 5.955
+      "days_in_state": 3,
+      "last_close": 6.055
+    },
+    {
+      "ticker": "2142.HK",
+      "name_cn": "和铂医药-B",
+      "gics_sector": "Health Care",
+      "alert_type": "C_PULLBACK",
+      "label": "C·PULLBACK",
+      "emoji": "🟠",
+      "pullback_dd_pct": -24.79,
+      "days_in_pullback": 10,
+      "last_close": 12.44
+    },
+    {
+      "ticker": "6127.HK",
+      "name_cn": "昭衍新药",
+      "gics_sector": "Health Care",
+      "alert_type": "C_PULLBACK",
+      "label": "C·PULLBACK",
+      "emoji": "🟠",
+      "pullback_dd_pct": -19.42,
+      "days_in_pullback": 10,
+      "last_close": 22.16
     },
     {
       "ticker": "0322.HK",
@@ -1622,20 +1567,9 @@
       "alert_type": "C_PULLBACK",
       "label": "C·PULLBACK",
       "emoji": "🟠",
-      "pullback_dd_pct": -15.95,
-      "days_in_pullback": 12,
-      "last_close": 11.8
-    },
-    {
-      "ticker": "6990.HK",
-      "name_cn": "科伦博泰生物-B",
-      "gics_sector": "Health Care",
-      "alert_type": "C_PULLBACK",
-      "label": "C·PULLBACK",
-      "emoji": "🟠",
-      "pullback_dd_pct": -14.76,
+      "pullback_dd_pct": -16.45,
       "days_in_pullback": 13,
-      "last_close": 462.4
+      "last_close": 11.73
     },
     {
       "ticker": "1519.HK",
@@ -1644,9 +1578,20 @@
       "alert_type": "C_PULLBACK",
       "label": "C·PULLBACK",
       "emoji": "🟠",
-      "pullback_dd_pct": -14.64,
-      "days_in_pullback": 10,
-      "last_close": 9.125
+      "pullback_dd_pct": -15.34,
+      "days_in_pullback": 11,
+      "last_close": 9.05
+    },
+    {
+      "ticker": "6990.HK",
+      "name_cn": "科伦博泰生物-B",
+      "gics_sector": "Health Care",
+      "alert_type": "C_PULLBACK",
+      "label": "C·PULLBACK",
+      "emoji": "🟠",
+      "pullback_dd_pct": -15.1,
+      "days_in_pullback": 14,
+      "last_close": 460.6
     },
     {
       "ticker": "0027.HK",
@@ -1655,9 +1600,9 @@
       "alert_type": "C_PULLBACK",
       "label": "C·PULLBACK",
       "emoji": "🟠",
-      "pullback_dd_pct": -7.46,
-      "days_in_pullback": 10,
-      "last_close": 32.48
+      "pullback_dd_pct": -7.8,
+      "days_in_pullback": 11,
+      "last_close": 32.36
     }
   ]
 }
