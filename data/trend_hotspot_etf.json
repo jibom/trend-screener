@@ -205,12 +205,12 @@
       "pct_high_126": 0.995,
       "nh_ratio_126": 0.048,
       "amt_surge": 1.13,
-      "amt_rank": 0.695,
+      "amt_rank": 0.689,
       "ret_60": 0.103,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.363
+      "hotness": 0.358
     },
     {
       "ticker": "SCHG.US",
@@ -237,12 +237,12 @@
       "pct_high_126": 0.999,
       "nh_ratio_126": 0.151,
       "amt_surge": 0.953,
-      "amt_rank": 0.785,
+      "amt_rank": 0.791,
       "ret_60": 0.078,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.309
+      "hotness": 0.314
     },
     {
       "ticker": "XLK.US",
@@ -316,13 +316,13 @@
       "pct_high_250": 0.991,
       "pct_high_126": 0.991,
       "nh_ratio_126": 0.079,
-      "amt_surge": 0.665,
-      "amt_rank": 0.684,
+      "amt_surge": 0.668,
+      "amt_rank": 0.695,
       "ret_60": 0.052,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.211
+      "hotness": 0.222
     },
     {
       "ticker": "VUG.US",
@@ -370,7 +370,7 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.132
+      "hotness": 0.131
     },
     {
       "ticker": "ACWI.US",
@@ -412,7 +412,7 @@
       "pct_high_250": 1.0,
       "pct_high_126": 1.0,
       "nh_ratio_126": 0.159,
-      "amt_surge": 0.659,
+      "amt_surge": 0.66,
       "amt_rank": 0.48,
       "ret_60": 0.07,
       "ma_aligned": 1,
@@ -526,7 +526,7 @@
       "pct_high_250": 0.912,
       "pct_high_126": 0.912,
       "nh_ratio_126": 0.079,
-      "amt_surge": 1.052,
+      "amt_surge": 1.053,
       "amt_rank": 0.819,
       "ret_60": 0.185,
       "ma_aligned": 0,
@@ -638,13 +638,13 @@
       "pct_high_250": 0.802,
       "pct_high_126": 0.88,
       "nh_ratio_126": 0.0,
-      "amt_surge": 0.949,
+      "amt_surge": 0.95,
       "amt_rank": 0.938,
       "ret_60": 0.237,
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "ma_stack": 0,
-      "hotness": 0.368
+      "hotness": 0.369
     },
     {
       "ticker": "MAGS.US",
@@ -655,12 +655,12 @@
       "pct_high_126": 0.995,
       "nh_ratio_126": 0.048,
       "amt_surge": 1.13,
-      "amt_rank": 0.695,
+      "amt_rank": 0.689,
       "ret_60": 0.103,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.363
+      "hotness": 0.358
     },
     {
       "ticker": "IXC.US",
@@ -676,7 +676,7 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "ma_stack": 0,
-      "hotness": 0.223
+      "hotness": 0.222
     },
     {
       "ticker": "METV.US",
@@ -735,12 +735,12 @@
       "pct_high_126": 0.961,
       "nh_ratio_126": 0.008,
       "amt_surge": 0.737,
-      "amt_rank": 0.836,
+      "amt_rank": 0.831,
       "ret_60": 0.136,
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "ma_stack": 1,
-      "hotness": 0.012
+      "hotness": 0.007
     },
     {
       "ticker": "FXN.US",
@@ -750,7 +750,7 @@
       "pct_high_250": 0.925,
       "pct_high_126": 0.925,
       "nh_ratio_126": 0.079,
-      "amt_surge": 0.543,
+      "amt_surge": 0.542,
       "amt_rank": 0.13,
       "ret_60": 0.126,
       "ma_aligned": 0,
@@ -980,7 +980,7 @@
       "ticker": "RSPD.US",
       "name": "Invesco S&P 500 Equal Weight Co",
       "sub_industry": "S&P 500 EW Consumer Disc",
-      "close": 52.325,
+      "close": 52.33,
       "sig": "",
       "tr": 2.6,
       "mom": 31.0,
@@ -1414,7 +1414,7 @@
       "ticker": "RSPC.US",
       "name": "Invesco S&P 500 Equal Weight Co",
       "sub_industry": "S&P 500 EW Communication",
-      "close": 35.498,
+      "close": 35.5,
       "sig": "",
       "tr": 62.8,
       "mom": 21.0,
@@ -1440,8 +1440,8 @@
       "sub_industry": "Equity Energy",
       "close": 22.37,
       "sig": "",
-      "tr": 82.5,
-      "mom": 30.0,
+      "tr": 81.4,
+      "mom": 33.0,
       "panic": "",
       "weekly": "柱≥0",
       "days": 7
@@ -1593,7 +1593,7 @@
       "ret_60": 0.016,
       "ma_aligned": 0,
       "days_below_ma10": 14,
-      "hotness": 0.903
+      "hotness": 0.904
     },
     {
       "ticker": "RSPS.US",
@@ -1604,7 +1604,7 @@
       "ret_60": -0.029,
       "ma_aligned": 0,
       "days_below_ma10": 21,
-      "hotness": 0.846
+      "hotness": 0.847
     },
     {
       "ticker": "EFV.US",
@@ -1637,7 +1637,7 @@
       "ret_60": -0.007,
       "ma_aligned": 0,
       "days_below_ma10": 21,
-      "hotness": 0.625
+      "hotness": 0.63
     },
     {
       "ticker": "VYM.US",
@@ -1720,12 +1720,12 @@
       "ticker": "RSPD.US",
       "name": "Invesco S&P 500 Equal Weight Co",
       "sub_industry": "S&P 500 EW Consumer Disc",
-      "close": 52.325,
+      "close": 52.33,
       "pct_high_250": 0.878,
       "ret_60": -0.064,
       "ma_aligned": 0,
       "days_below_ma10": 22,
-      "hotness": 0.529
+      "hotness": 0.53
     },
     {
       "ticker": "XBI.US",
@@ -1736,7 +1736,18 @@
       "ret_60": -0.01,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": 0.514
+      "hotness": 0.516
+    },
+    {
+      "ticker": "XLB.US",
+      "name": "Materials Select Sector SPDR® Fund",
+      "sub_industry": "S&P Materials",
+      "close": 49.8,
+      "pct_high_250": 0.932,
+      "ret_60": -0.019,
+      "ma_aligned": 0,
+      "days_below_ma10": 3,
+      "hotness": 0.513
     },
     {
       "ticker": "SPY.US",
@@ -1750,17 +1761,6 @@
       "hotness": 0.51
     },
     {
-      "ticker": "XLB.US",
-      "name": "Materials Select Sector SPDR® Fund",
-      "sub_industry": "S&P Materials",
-      "close": 49.8,
-      "pct_high_250": 0.932,
-      "ret_60": -0.019,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "hotness": 0.508
-    },
-    {
       "ticker": "USMV.US",
       "name": "iShares MSCI USA Min Vol Factor ETF",
       "sub_industry": "MSCI USA Min Volatility",
@@ -1769,7 +1769,7 @@
       "ret_60": 0.018,
       "ma_aligned": 0,
       "days_below_ma10": 4,
-      "hotness": 0.478
+      "hotness": 0.482
     },
     {
       "ticker": "IBB.US",
@@ -1857,7 +1857,7 @@
       "ret_60": 0.024,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.415
+      "hotness": 0.41
     },
     {
       "ticker": "FBT.US",
@@ -1879,7 +1879,7 @@
       "ret_60": -0.005,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": 0.405
+      "hotness": 0.4
     },
     {
       "ticker": "USO.US",
@@ -1915,17 +1915,6 @@
       "hotness": 0.377
     },
     {
-      "ticker": "MTUM.US",
-      "name": "iShares MSCI USA Momentum Factor ETF",
-      "sub_industry": "MSCI USA Momentum",
-      "close": 318.5,
-      "pct_high_250": 0.924,
-      "ret_60": -0.027,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.373
-    },
-    {
       "ticker": "GDX.US",
       "name": "VanEck Gold Miners ETF",
       "sub_industry": "Gold Miners",
@@ -1934,6 +1923,17 @@
       "ret_60": 0.237,
       "ma_aligned": 0,
       "days_below_ma10": 3,
+      "hotness": 0.369
+    },
+    {
+      "ticker": "MTUM.US",
+      "name": "iShares MSCI USA Momentum Factor ETF",
+      "sub_industry": "MSCI USA Momentum",
+      "close": 318.5,
+      "pct_high_250": 0.924,
+      "ret_60": -0.027,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
       "hotness": 0.368
     },
     {
@@ -1967,7 +1967,7 @@
       "ret_60": 0.103,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.363
+      "hotness": 0.358
     },
     {
       "ticker": "SCHF.US",
@@ -2000,7 +2000,7 @@
       "ret_60": 0.078,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.309
+      "hotness": 0.314
     },
     {
       "ticker": "VGK.US",
@@ -2124,6 +2124,17 @@
       "hotness": 0.239
     },
     {
+      "ticker": "XLP.US",
+      "name": "Consumer Staples Select Sector SPDR®",
+      "sub_industry": "S&P Consumer Staples",
+      "close": 82.06,
+      "pct_high_250": 0.929,
+      "ret_60": -0.008,
+      "ma_aligned": 0,
+      "days_below_ma10": 9,
+      "hotness": 0.238
+    },
+    {
       "ticker": "XLC.US",
       "name": "Communication Services Select Sector",
       "sub_industry": "S&P Communication Services",
@@ -2135,15 +2146,15 @@
       "hotness": 0.236
     },
     {
-      "ticker": "XLP.US",
-      "name": "Consumer Staples Select Sector SPDR®",
-      "sub_industry": "S&P Consumer Staples",
-      "close": 82.06,
-      "pct_high_250": 0.929,
-      "ret_60": -0.008,
+      "ticker": "MDY.US",
+      "name": "SPDR® S&P MIDCAP 400 ETF Trust",
+      "sub_industry": "Mid-Cap Blend",
+      "close": 665.87,
+      "pct_high_250": 0.931,
+      "ret_60": -0.042,
       "ma_aligned": 0,
-      "days_below_ma10": 9,
-      "hotness": 0.233
+      "days_below_ma10": 3,
+      "hotness": 0.225
     },
     {
       "ticker": "BAI.US",
@@ -2154,7 +2165,7 @@
       "ret_60": -0.039,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.23
+      "hotness": 0.225
     },
     {
       "ticker": "KBWB.US",
@@ -2168,17 +2179,6 @@
       "hotness": 0.223
     },
     {
-      "ticker": "MDY.US",
-      "name": "SPDR® S&P MIDCAP 400 ETF Trust",
-      "sub_industry": "Mid-Cap Blend",
-      "close": 665.87,
-      "pct_high_250": 0.931,
-      "ret_60": -0.042,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "hotness": 0.223
-    },
-    {
       "ticker": "IXC.US",
       "name": "iShares Global Energy ETF",
       "sub_industry": "Equity Energy",
@@ -2187,7 +2187,18 @@
       "ret_60": 0.181,
       "ma_aligned": 0,
       "days_below_ma10": 8,
-      "hotness": 0.223
+      "hotness": 0.222
+    },
+    {
+      "ticker": "EWJ.US",
+      "name": "iShares MSCI Japan ETF",
+      "sub_industry": "Japan Stock",
+      "close": 97.93,
+      "pct_high_250": 0.991,
+      "ret_60": 0.052,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 0.222
     },
     {
       "ticker": "KRE.US",
@@ -2198,18 +2209,7 @@
       "ret_60": -0.055,
       "ma_aligned": 0,
       "days_below_ma10": 9,
-      "hotness": 0.218
-    },
-    {
-      "ticker": "EWZ.US",
-      "name": "iShares MSCI Brazil ETF",
-      "sub_industry": "Focused Region",
-      "close": 36.82,
-      "pct_high_250": 0.891,
-      "ret_60": 0.077,
-      "ma_aligned": 1,
-      "days_below_ma10": 3,
-      "hotness": 0.217
+      "hotness": 0.219
     },
     {
       "ticker": "EEM.US",
@@ -2223,15 +2223,15 @@
       "hotness": 0.217
     },
     {
-      "ticker": "EWJ.US",
-      "name": "iShares MSCI Japan ETF",
-      "sub_industry": "Japan Stock",
-      "close": 97.93,
-      "pct_high_250": 0.991,
-      "ret_60": 0.052,
+      "ticker": "EWZ.US",
+      "name": "iShares MSCI Brazil ETF",
+      "sub_industry": "Focused Region",
+      "close": 36.82,
+      "pct_high_250": 0.891,
+      "ret_60": 0.077,
       "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.211
+      "days_below_ma10": 3,
+      "hotness": 0.217
     },
     {
       "ticker": "CGDV.US",
@@ -2319,7 +2319,7 @@
       "ret_60": 0.029,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.132
+      "hotness": 0.131
     },
     {
       "ticker": "SMH.US",
@@ -2407,7 +2407,7 @@
       "ret_60": 0.062,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": 0.044
+      "hotness": 0.045
     },
     {
       "ticker": "VWO.US",
@@ -2487,17 +2487,6 @@
       "hotness": 0.016
     },
     {
-      "ticker": "IGV.US",
-      "name": "iShares Expanded Tech-Software Secto",
-      "sub_industry": "Technology",
-      "close": 106.01,
-      "pct_high_250": 0.906,
-      "ret_60": 0.136,
-      "ma_aligned": 1,
-      "days_below_ma10": 1,
-      "hotness": 0.012
-    },
-    {
       "ticker": "IHI.US",
       "name": "iShares U.S. Medical Devices ETF",
       "sub_industry": "Health",
@@ -2507,6 +2496,17 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "hotness": 0.008
+    },
+    {
+      "ticker": "IGV.US",
+      "name": "iShares Expanded Tech-Software Secto",
+      "sub_industry": "Technology",
+      "close": 106.01,
+      "pct_high_250": 0.906,
+      "ret_60": 0.136,
+      "ma_aligned": 1,
+      "days_below_ma10": 1,
+      "hotness": 0.007
     },
     {
       "ticker": "FXN.US",
@@ -2575,17 +2575,6 @@
       "hotness": -0.045
     },
     {
-      "ticker": "IYT.US",
-      "name": "iShares Transportation Average ETF",
-      "sub_industry": "Industrials",
-      "close": 79.35,
-      "pct_high_250": 0.884,
-      "ret_60": -0.091,
-      "ma_aligned": 0,
-      "days_below_ma10": 21,
-      "hotness": -0.046
-    },
-    {
       "ticker": "XLU.US",
       "name": "Utilities Select Sector SPDR® Fund",
       "sub_industry": "S&P Utilities",
@@ -2594,6 +2583,17 @@
       "ret_60": -0.111,
       "ma_aligned": 0,
       "days_below_ma10": 12,
+      "hotness": -0.046
+    },
+    {
+      "ticker": "IYT.US",
+      "name": "iShares Transportation Average ETF",
+      "sub_industry": "Industrials",
+      "close": 79.35,
+      "pct_high_250": 0.884,
+      "ret_60": -0.091,
+      "ma_aligned": 0,
+      "days_below_ma10": 21,
       "hotness": -0.046
     },
     {
@@ -2704,7 +2704,7 @@
       "ret_60": -0.037,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.101
+      "hotness": -0.102
     },
     {
       "ticker": "IXJ.US",
@@ -2726,7 +2726,7 @@
       "ret_60": -0.042,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": -0.114
+      "hotness": -0.115
     },
     {
       "ticker": "URTH.US",
@@ -2770,7 +2770,7 @@
       "ret_60": -0.037,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": -0.146
+      "hotness": -0.151
     },
     {
       "ticker": "FXL.US",
@@ -2781,7 +2781,7 @@
       "ret_60": 0.046,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.152
+      "hotness": -0.153
     },
     {
       "ticker": "MGK.US",
@@ -2792,7 +2792,7 @@
       "ret_60": 0.062,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": -0.152
+      "hotness": -0.153
     },
     {
       "ticker": "BITO.US",
@@ -2858,7 +2858,7 @@
       "ret_60": -0.039,
       "ma_aligned": 0,
       "days_below_ma10": 14,
-      "hotness": -0.187
+      "hotness": -0.188
     },
     {
       "ticker": "VBK.US",
@@ -2919,7 +2919,7 @@
       "ticker": "AIA.US",
       "name": "iShares Asia 50 ETF",
       "sub_industry": "Pacific/Asia ex-Japan Stk",
-      "close": 144.645,
+      "close": 144.65,
       "pct_high_250": 0.963,
       "ret_60": 0.061,
       "ma_aligned": 0,
@@ -3001,7 +3001,7 @@
       "ret_60": -0.001,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.312
+      "hotness": -0.313
     },
     {
       "ticker": "FXI.US",
@@ -3034,7 +3034,7 @@
       "ret_60": 0.03,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.372
+      "hotness": -0.371
     },
     {
       "ticker": "XT.US",
@@ -3144,7 +3144,7 @@
       "ret_60": 0.093,
       "ma_aligned": 0,
       "days_below_ma10": 12,
-      "hotness": -0.536
+      "hotness": -0.531
     },
     {
       "ticker": "RSPR.US",
@@ -3177,7 +3177,7 @@
       "ret_60": -0.146,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": -0.57
+      "hotness": -0.571
     },
     {
       "ticker": "SOXL.US",
@@ -3243,7 +3243,7 @@
       "ret_60": 0.038,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.696
+      "hotness": -0.697
     },
     {
       "ticker": "BOTZ.US",
@@ -3298,7 +3298,7 @@
       "ret_60": 0.021,
       "ma_aligned": 0,
       "days_below_ma10": 2,
-      "hotness": -0.832
+      "hotness": -0.833
     },
     {
       "ticker": "KWEB.US",
@@ -3309,7 +3309,7 @@
       "ret_60": -0.021,
       "ma_aligned": 0,
       "days_below_ma10": 2,
-      "hotness": -0.882
+      "hotness": -0.887
     },
     {
       "ticker": "YANG.US",
@@ -3320,7 +3320,7 @@
       "ret_60": -0.175,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.89
+      "hotness": -0.891
     },
     {
       "ticker": "IBAT.US",
@@ -3370,7 +3370,7 @@
       "ticker": "RSPC.US",
       "name": "Invesco S&P 500 Equal Weight Co",
       "sub_industry": "S&P 500 EW Communication",
-      "close": 35.498,
+      "close": 35.5,
       "pct_high_250": 0.87,
       "ret_60": -0.009,
       "ma_aligned": 0,
@@ -3408,7 +3408,7 @@
       "ret_60": -0.238,
       "ma_aligned": 0,
       "days_below_ma10": 3,
-      "hotness": -1.293
+      "hotness": -1.294
     },
     {
       "ticker": "VXX.US",

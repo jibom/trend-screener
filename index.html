@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CPG扫描</title>
-  <meta name="description" content="CPG扫描 — 港股/美股/A股 趋势热点扫描 (五部曲)" />
+  <meta name="description" content="CPG扫描 — 港股/海外/A股 趋势热点扫描 (五部曲)" />
   <script src="lib/lightweight-charts.standalone.js" defer></script>
   <style>
     :root {
@@ -364,7 +364,7 @@
     // ─── State ─────────────────────────────────────────
     let tabData = { date: '', tab1: { sos_section: [], pool_section: [] } };
     let trendData = null;   // 港股-趋势 (Part1-4), 来自 data/trend_hotspot_hk.json
-    let usData = null;      // 美股-趋势 (Part1-5), 来自 data/trend_hotspot_us.json
+    let usData = null;      // 海外-趋势 (Part1-5, US+JP), 来自 data/trend_hotspot_us.json
     let aData = null;       // A股-趋势 (Part1-4), 来自 data/trend_hotspot_a.json
     let etfData = null;     // 美国ETF-趋势, 来自 data/trend_hotspot_etf.json
     let cetfData = null;    // 中国ETF-趋势, 来自 data/trend_hotspot_cetf.json
@@ -396,7 +396,7 @@
         if (r2.ok) trendData = JSON.parse(await r2.text());
       } catch(e) { trendData = null; }
       window.trendData = trendData;   // 暴露给全局 showChart (图表切换用)
-      // 美股-趋势 (Part1-5): 失败不阻塞
+      // 海外-趋势 (Part1-5): 失败不阻塞
       try {
         const r3 = await fetch('data/trend_hotspot_us.json');
         if (r3.ok) usData = JSON.parse(await r3.text());
@@ -523,7 +523,7 @@
               </div>
               <div class="tab-toggle">
                 <button class="tab-btn ${tab==='trend'?'active':''}" data-tab="trend">港股-趋势<span class="tab-count">${trendCount}</span></button>
-                <button class="tab-btn ${tab==='ustrend'?'active':''}" data-tab="ustrend">美股-趋势<span class="tab-count">${usCount}</span></button>
+                <button class="tab-btn ${tab==='ustrend'?'active':''}" data-tab="ustrend">海外-趋势<span class="tab-count">${usCount}</span></button>
                 <button class="tab-btn ${tab==='etf'?'active':''}" data-tab="etf">美国ETF<span class="tab-count">${etfCount}</span></button>
                 <button class="tab-btn ${tab==='cetf'?'active':''}" data-tab="cetf">中国ETF<span class="tab-count">${cetfCount}</span></button>
                 <button class="tab-btn ${tab==='atrend'?'active':''}" data-tab="atrend">A股-趋势<span class="tab-count">${aCount}</span></button>
@@ -800,10 +800,10 @@
       return html;
     }
 
-    // ─── 美股-趋势 (Part1-5) 渲染 (复用 renderTrend 的 helper, 字段名同HK: sub_industry=Industry) ──
+    // ─── 海外-趋势 (Part1-5) 渲染 (复用 renderTrend 的 helper, 字段名同HK: sub_industry=Industry) ──
     function renderUsSummary() {
       const d = usData;
-      if (!d) return `<div class="summary-item"><span class="summary-val">美股趋势数据未加载</span></div>`;
+      if (!d) return `<div class="summary-item"><span class="summary-val">海外趋势数据未加载</span></div>`;
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
         <div class="summary-item"><span class="state-badge state-STRONG">最热行业</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
@@ -818,8 +818,8 @@
 
     function renderUs() {
       const d = usData;
-      if (!d) return `<div class="empty-state"><p>美股趋势数据未加载 (public/data/trend_hotspot_us.json)</p></div>`;
-      let html = `<div class="subtitle" style="padding:4px 0 10px">美股趋势四部曲 · ${d.date || ''}　最热行业：${d.hottest_sub || '-'}</div>`;
+      if (!d) return `<div class="empty-state"><p>海外趋势数据未加载 (public/data/trend_hotspot_us.json)</p></div>`;
+      let html = `<div class="subtitle" style="padding:4px 0 10px">海外趋势四部曲 · ${d.date || ''}　最热行业：${d.hottest_sub || '-'}</div>`;
 
       // ── Part 1a: 行业RS排名 (Mansfield RS, 谁在跑赢基准) ──
       const rsTop = d.rs_top || [];
