@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "market": "Overseas",
   "hottest_sub": "Diagnostics & Research",
   "part1": {
@@ -9,169 +9,169 @@
         "n": 3,
         "pct_high_250": 0.973,
         "breadth_250": 66.667,
-        "breadth_60": 100.0,
-        "amt_surge": 1.625,
-        "amt_rank": 0.612,
-        "amt_1d_yi": 29.04,
-        "amt_5d_yi": 29.62,
-        "share_1d": 0.95,
-        "share_5d": 0.87,
-        "share5_pctile200": 90.5,
-        "ret_60": 0.421,
-        "composite": 2.046,
+        "breadth_60": 66.667,
+        "amt_surge": 1.661,
+        "amt_rank": 0.614,
+        "amt_1d_yi": 28.0,
+        "amt_5d_yi": 29.21,
+        "share_1d": 0.87,
+        "share_5d": 0.9,
+        "share5_pctile200": 93.0,
+        "ret_60": 0.419,
+        "composite": 2.169,
         "sector": "Health Care"
       },
       {
         "sub_industry": "Computer Hardware",
         "n": 3,
-        "pct_high_250": 0.892,
-        "breadth_250": 66.667,
-        "breadth_60": 66.667,
-        "amt_surge": 1.544,
-        "amt_rank": 0.77,
-        "amt_1d_yi": 79.48,
-        "amt_5d_yi": 72.92,
-        "share_1d": 2.61,
-        "share_5d": 2.14,
-        "share5_pctile200": 88.0,
-        "ret_60": 0.377,
-        "composite": 1.732,
+        "pct_high_250": 0.87,
+        "breadth_250": 33.333,
+        "breadth_60": 0.0,
+        "amt_surge": 1.556,
+        "amt_rank": 0.753,
+        "amt_1d_yi": 55.19,
+        "amt_5d_yi": 69.03,
+        "share_1d": 1.72,
+        "share_5d": 2.13,
+        "share5_pctile200": 87.5,
+        "ret_60": 0.399,
+        "composite": 1.044,
         "sector": "Info Tech"
       },
       {
         "sub_industry": "Oil & Gas Midstream",
         "n": 4,
-        "pct_high_250": 0.936,
+        "pct_high_250": 0.949,
         "breadth_250": 25.0,
         "breadth_60": 0.0,
-        "amt_surge": 1.716,
-        "amt_rank": 0.117,
-        "amt_1d_yi": 3.02,
-        "amt_5d_yi": 4.79,
-        "share_1d": 0.1,
+        "amt_surge": 1.74,
+        "amt_rank": 0.106,
+        "amt_1d_yi": 3.96,
+        "amt_5d_yi": 4.45,
+        "share_1d": 0.12,
         "share_5d": 0.14,
-        "share5_pctile200": 91.5,
-        "ret_60": 0.37,
-        "composite": 0.979,
+        "share5_pctile200": 90.5,
+        "ret_60": 0.321,
+        "composite": 1.009,
         "sector": "Energy"
       },
       {
         "sub_industry": "Oil & Gas Refg & Mktg",
         "n": 4,
-        "pct_high_250": 0.934,
+        "pct_high_250": 0.93,
         "breadth_250": 0.0,
         "breadth_60": 0.0,
-        "amt_surge": 1.818,
-        "amt_rank": 0.562,
-        "amt_1d_yi": 32.03,
-        "amt_5d_yi": 43.8,
-        "share_1d": 1.05,
+        "amt_surge": 1.846,
+        "amt_rank": 0.556,
+        "amt_1d_yi": 34.25,
+        "amt_5d_yi": 42.04,
+        "share_1d": 1.07,
         "share_5d": 1.29,
         "share5_pctile200": 97.5,
-        "ret_60": 0.397,
-        "composite": 0.843,
+        "ret_60": 0.39,
+        "composite": 0.899,
         "sector": "Energy"
-      },
-      {
-        "sub_industry": "Internet Content & Info",
-        "n": 3,
-        "pct_high_250": 0.883,
-        "breadth_250": 33.333,
-        "breadth_60": 0.0,
-        "amt_surge": 1.16,
-        "amt_rank": 0.952,
-        "amt_1d_yi": 294.89,
-        "amt_5d_yi": 387.78,
-        "share_1d": 9.67,
-        "share_5d": 11.39,
-        "share5_pctile200": 100.0,
-        "ret_60": 0.072,
-        "composite": 0.614,
-        "sector": "Comm Svc"
-      },
-      {
-        "sub_industry": "Biotech",
-        "n": 7,
-        "pct_high_250": 0.782,
-        "breadth_250": 14.286,
-        "breadth_60": 14.286,
-        "amt_surge": 1.133,
-        "amt_rank": 0.354,
-        "amt_1d_yi": 40.58,
-        "amt_5d_yi": 50.8,
-        "share_1d": 1.33,
-        "share_5d": 1.49,
-        "share5_pctile200": 94.0,
-        "ret_60": 0.279,
-        "composite": 0.593,
-        "sector": "Health Care"
       },
       {
         "sub_industry": "Marine Shipping",
         "n": 4,
-        "pct_high_250": 0.952,
+        "pct_high_250": 0.946,
         "breadth_250": 75.0,
         "breadth_60": 0.0,
-        "amt_surge": 1.261,
-        "amt_rank": 0.107,
-        "amt_1d_yi": 3.72,
-        "amt_5d_yi": 4.35,
-        "share_1d": 0.12,
-        "share_5d": 0.13,
-        "share5_pctile200": 5.0,
-        "ret_60": 0.348,
-        "composite": 0.426,
+        "amt_surge": 1.254,
+        "amt_rank": 0.105,
+        "amt_1d_yi": 4.04,
+        "amt_5d_yi": 4.55,
+        "share_1d": 0.13,
+        "share_5d": 0.14,
+        "share5_pctile200": 32.0,
+        "ret_60": 0.34,
+        "composite": 0.758,
         "sector": "Industrials"
-      },
-      {
-        "sub_industry": "Comm Equip",
-        "n": 3,
-        "pct_high_250": 0.783,
-        "breadth_250": 33.333,
-        "breadth_60": 33.333,
-        "amt_surge": 1.206,
-        "amt_rank": 0.692,
-        "amt_1d_yi": 50.02,
-        "amt_5d_yi": 54.3,
-        "share_1d": 1.64,
-        "share_5d": 1.59,
-        "share5_pctile200": 46.5,
-        "ret_60": 0.11,
-        "composite": 0.364,
-        "sector": "Info Tech"
       },
       {
         "sub_industry": "Software - Infra",
         "n": 8,
-        "pct_high_250": 0.798,
+        "pct_high_250": 0.804,
         "breadth_250": 37.5,
-        "breadth_60": 25.0,
-        "amt_surge": 1.14,
-        "amt_rank": 0.807,
-        "amt_1d_yi": 338.38,
-        "amt_5d_yi": 303.18,
-        "share_1d": 11.1,
-        "share_5d": 8.9,
-        "share5_pctile200": 36.0,
-        "ret_60": 0.203,
-        "composite": 0.295,
+        "breadth_60": 50.0,
+        "amt_surge": 1.137,
+        "amt_rank": 0.809,
+        "amt_1d_yi": 251.91,
+        "amt_5d_yi": 291.15,
+        "share_1d": 7.87,
+        "share_5d": 8.96,
+        "share5_pctile200": 36.5,
+        "ret_60": 0.211,
+        "composite": 0.643,
         "sector": "Info Tech"
+      },
+      {
+        "sub_industry": "Biotech",
+        "n": 7,
+        "pct_high_250": 0.774,
+        "breadth_250": 14.286,
+        "breadth_60": 14.286,
+        "amt_surge": 1.107,
+        "amt_rank": 0.353,
+        "amt_1d_yi": 42.35,
+        "amt_5d_yi": 48.72,
+        "share_1d": 1.32,
+        "share_5d": 1.5,
+        "share5_pctile200": 93.5,
+        "ret_60": 0.19,
+        "composite": 0.603,
+        "sector": "Health Care"
+      },
+      {
+        "sub_industry": "Comm Equip",
+        "n": 3,
+        "pct_high_250": 0.773,
+        "breadth_250": 33.333,
+        "breadth_60": 33.333,
+        "amt_surge": 1.211,
+        "amt_rank": 0.682,
+        "amt_1d_yi": 54.72,
+        "amt_5d_yi": 52.18,
+        "share_1d": 1.71,
+        "share_5d": 1.61,
+        "share5_pctile200": 46.5,
+        "ret_60": 0.168,
+        "composite": 0.55,
+        "sector": "Info Tech"
+      },
+      {
+        "sub_industry": "Internet Content & Info",
+        "n": 3,
+        "pct_high_250": 0.86,
+        "breadth_250": 0.0,
+        "breadth_60": 0.0,
+        "amt_surge": 1.17,
+        "amt_rank": 0.951,
+        "amt_1d_yi": 292.81,
+        "amt_5d_yi": 344.33,
+        "share_1d": 9.14,
+        "share_5d": 10.6,
+        "share5_pctile200": 99.5,
+        "ret_60": 0.086,
+        "composite": 0.313,
+        "sector": "Comm Svc"
       },
       {
         "sub_industry": "Semis",
         "n": 11,
-        "pct_high_250": 0.848,
-        "breadth_250": 18.182,
-        "breadth_60": 36.364,
-        "amt_surge": 1.098,
-        "amt_rank": 0.853,
-        "amt_1d_yi": 839.15,
-        "amt_5d_yi": 1005.23,
-        "share_1d": 27.52,
-        "share_5d": 29.52,
-        "share5_pctile200": 60.5,
-        "ret_60": -0.002,
-        "composite": 0.207,
+        "pct_high_250": 0.823,
+        "breadth_250": 27.273,
+        "breadth_60": 18.182,
+        "amt_surge": 1.096,
+        "amt_rank": 0.846,
+        "amt_1d_yi": 1018.73,
+        "amt_5d_yi": 943.8,
+        "share_1d": 31.81,
+        "share_5d": 29.06,
+        "share5_pctile200": 57.0,
+        "ret_60": 0.016,
+        "composite": 0.264,
         "sector": "Info Tech"
       }
     ],
@@ -179,130 +179,130 @@
       {
         "sector": "Health Care",
         "n": 31,
-        "pct_high_250": 0.858,
-        "breadth_250": 29.032,
-        "breadth_60": 32.258,
-        "amt_surge": 1.1,
-        "amt_rank": 0.413,
-        "amt_1d_yi": 183.93,
-        "amt_5d_yi": 217.1,
-        "share_1d": 6.03,
-        "share_5d": 6.38,
-        "share5_pctile200": 66.5,
-        "ret_60": 0.159,
-        "composite": 1.037
+        "pct_high_250": 0.857,
+        "breadth_250": 32.258,
+        "breadth_60": 22.581,
+        "amt_surge": 1.108,
+        "amt_rank": 0.414,
+        "amt_1d_yi": 204.33,
+        "amt_5d_yi": 212.91,
+        "share_1d": 6.38,
+        "share_5d": 6.55,
+        "share5_pctile200": 73.0,
+        "ret_60": 0.117,
+        "composite": 1.089
       },
       {
         "sector": "Energy",
         "n": 9,
-        "pct_high_250": 0.904,
+        "pct_high_250": 0.907,
         "breadth_250": 11.111,
         "breadth_60": 0.0,
-        "amt_surge": 1.648,
-        "amt_rank": 0.339,
-        "amt_1d_yi": 36.79,
-        "amt_5d_yi": 51.2,
-        "share_1d": 1.21,
-        "share_5d": 1.5,
+        "amt_surge": 1.67,
+        "amt_rank": 0.328,
+        "amt_1d_yi": 40.72,
+        "amt_5d_yi": 49.02,
+        "share_1d": 1.27,
+        "share_5d": 1.51,
         "share5_pctile200": 97.5,
-        "ret_60": 0.33,
-        "composite": 0.987
+        "ret_60": 0.305,
+        "composite": 1.012
       },
       {
         "sector": "Consumer Staples",
         "n": 5,
-        "pct_high_250": 0.897,
+        "pct_high_250": 0.9,
         "breadth_250": 20.0,
         "breadth_60": 0.0,
-        "amt_surge": 1.092,
-        "amt_rank": 0.501,
-        "amt_1d_yi": 58.5,
-        "amt_5d_yi": 45.01,
-        "share_1d": 1.92,
-        "share_5d": 1.32,
-        "share5_pctile200": 76.5,
-        "ret_60": 0.032,
-        "composite": 0.341
+        "amt_surge": 1.095,
+        "amt_rank": 0.503,
+        "amt_1d_yi": 38.44,
+        "amt_5d_yi": 44.8,
+        "share_1d": 1.2,
+        "share_5d": 1.38,
+        "share5_pctile200": 84.0,
+        "ret_60": 0.017,
+        "composite": 0.396
       },
       {
         "sector": "Info Tech",
         "n": 53,
-        "pct_high_250": 0.769,
+        "pct_high_250": 0.758,
         "breadth_250": 15.094,
-        "breadth_60": 16.981,
-        "amt_surge": 1.109,
+        "breadth_60": 13.208,
+        "amt_surge": 1.106,
         "amt_rank": 0.709,
-        "amt_1d_yi": 1629.59,
-        "amt_5d_yi": 1828.1,
-        "share_1d": 53.44,
-        "share_5d": 53.69,
-        "share5_pctile200": 49.0,
-        "ret_60": 0.039,
-        "composite": 0.21
+        "amt_1d_yi": 1752.54,
+        "amt_5d_yi": 1733.79,
+        "share_1d": 54.72,
+        "share_5d": 53.38,
+        "share5_pctile200": 47.5,
+        "ret_60": 0.048,
+        "composite": 0.199
       },
       {
         "sector": "Financials",
         "n": 19,
-        "pct_high_250": 0.807,
+        "pct_high_250": 0.794,
         "breadth_250": 5.263,
         "breadth_60": 0.0,
-        "amt_surge": 0.908,
-        "amt_rank": 0.65,
-        "amt_1d_yi": 212.2,
-        "amt_5d_yi": 241.0,
-        "share_1d": 6.96,
-        "share_5d": 7.08,
-        "share5_pctile200": 40.5,
-        "ret_60": 0.097,
-        "composite": -0.388
+        "amt_surge": 0.912,
+        "amt_rank": 0.644,
+        "amt_1d_yi": 217.45,
+        "amt_5d_yi": 233.2,
+        "share_1d": 6.79,
+        "share_5d": 7.18,
+        "share5_pctile200": 41.5,
+        "ret_60": 0.059,
+        "composite": -0.419
       },
       {
         "sector": "Industrials",
         "n": 40,
-        "pct_high_250": 0.763,
-        "breadth_250": 15.0,
-        "breadth_60": 2.5,
-        "amt_surge": 0.94,
-        "amt_rank": 0.342,
-        "amt_1d_yi": 205.52,
-        "amt_5d_yi": 212.3,
-        "share_1d": 6.74,
-        "share_5d": 6.23,
-        "share5_pctile200": 2.5,
-        "ret_60": -0.008,
-        "composite": -0.552
+        "pct_high_250": 0.749,
+        "breadth_250": 10.0,
+        "breadth_60": 0.0,
+        "amt_surge": 0.953,
+        "amt_rank": 0.349,
+        "amt_1d_yi": 228.99,
+        "amt_5d_yi": 215.93,
+        "share_1d": 7.15,
+        "share_5d": 6.65,
+        "share5_pctile200": 14.0,
+        "ret_60": -0.029,
+        "composite": -0.658
       },
       {
         "sector": "Mat",
         "n": 22,
-        "pct_high_250": 0.838,
+        "pct_high_250": 0.823,
         "breadth_250": 0.0,
-        "breadth_60": 4.545,
-        "amt_surge": 0.938,
-        "amt_rank": 0.279,
-        "amt_1d_yi": 51.59,
-        "amt_5d_yi": 60.23,
-        "share_1d": 1.69,
-        "share_5d": 1.77,
-        "share5_pctile200": 7.0,
-        "ret_60": 0.087,
-        "composite": -0.754
+        "breadth_60": 0.0,
+        "amt_surge": 0.936,
+        "amt_rank": 0.281,
+        "amt_1d_yi": 66.75,
+        "amt_5d_yi": 61.47,
+        "share_1d": 2.08,
+        "share_5d": 1.89,
+        "share5_pctile200": 22.5,
+        "ret_60": 0.047,
+        "composite": -0.726
       },
       {
         "sector": "Consumer Discretionary",
         "n": 8,
-        "pct_high_250": 0.748,
+        "pct_high_250": 0.741,
         "breadth_250": 0.0,
         "breadth_60": 0.0,
         "amt_surge": 0.96,
-        "amt_rank": 0.624,
-        "amt_1d_yi": 293.94,
-        "amt_5d_yi": 274.41,
-        "share_1d": 9.64,
-        "share_5d": 8.06,
-        "share5_pctile200": 25.5,
-        "ret_60": -0.134,
-        "composite": -0.88
+        "amt_rank": 0.617,
+        "amt_1d_yi": 248.69,
+        "amt_5d_yi": 265.32,
+        "share_1d": 7.76,
+        "share_5d": 8.17,
+        "share5_pctile200": 26.5,
+        "ret_60": -0.14,
+        "composite": -0.893
       }
     ]
   },
@@ -310,235 +310,259 @@
     {
       "sub_industry": "Diagnostics & Research",
       "n": 3,
-      "rs": 53.5,
-      "rs_1w": 5.6,
+      "rs": 54.2,
+      "rs_1w": 7.8,
       "ret_60": 43.7
     },
     {
       "sub_industry": "Computer Hardware",
       "n": 3,
-      "rs": 44.8,
-      "rs_1w": 3.1,
-      "ret_60": 38.0
+      "rs": 42.0,
+      "rs_1w": -1.9,
+      "ret_60": 34.5
     },
     {
       "sub_industry": "Oil & Gas Refining & Marketing",
       "n": 4,
-      "rs": 41.1,
-      "rs_1w": -13.7,
-      "ret_60": 41.5
+      "rs": 41.2,
+      "rs_1w": -3.7,
+      "ret_60": 36.5
     },
     {
       "sub_industry": "Electronic Components",
       "n": 6,
-      "rs": 36.8,
-      "rs_1w": 2.3,
-      "ret_60": -25.8
+      "rs": 35.1,
+      "rs_1w": -4.7,
+      "ret_60": -21.5
     },
     {
       "sub_industry": "Oil & Gas Midstream",
       "n": 4,
-      "rs": 31.2,
-      "rs_1w": -12.0,
-      "ret_60": 28.6
-    },
-    {
-      "sub_industry": "Semiconductors",
-      "n": 11,
-      "rs": 30.4,
-      "rs_1w": 6.6,
-      "ret_60": 0.6
+      "rs": 33.9,
+      "rs_1w": -3.5,
+      "ret_60": 30.6
     },
     {
       "sub_industry": "Marine Shipping",
       "n": 4,
-      "rs": 28.2,
-      "rs_1w": -13.5,
-      "ret_60": 35.4
+      "rs": 28.1,
+      "rs_1w": -8.0,
+      "ret_60": 30.3
     },
     {
-      "sub_industry": "Internet Content & Information",
-      "n": 3,
+      "sub_industry": "Semiconductors",
+      "n": 11,
       "rs": 27.0,
-      "rs_1w": 4.5,
-      "ret_60": 12.6
+      "rs_1w": -2.3,
+      "ret_60": -2.6
     },
     {
       "sub_industry": "Biotechnology",
       "n": 7,
-      "rs": 26.4,
-      "rs_1w": 3.7,
-      "ret_60": 25.7
-    },
-    {
-      "sub_industry": "Communication Equipment",
-      "n": 3,
-      "rs": 25.2,
+      "rs": 26.1,
       "rs_1w": 1.0,
-      "ret_60": 7.2
+      "ret_60": 24.7
     },
     {
       "sub_industry": "Semiconductor Equipment & Materials",
       "n": 11,
-      "rs": 24.7,
-      "rs_1w": 5.8,
-      "ret_60": -11.6
+      "rs": 25.2,
+      "rs_1w": 4.5,
+      "ret_60": -11.3
+    },
+    {
+      "sub_industry": "Internet Content & Information",
+      "n": 3,
+      "rs": 24.6,
+      "rs_1w": -2.7,
+      "ret_60": 9.8
+    },
+    {
+      "sub_industry": "Communication Equipment",
+      "n": 3,
+      "rs": 24.2,
+      "rs_1w": -1.9,
+      "ret_60": 5.8
     },
     {
       "sub_industry": "Software - Infrastructure",
       "n": 8,
-      "rs": 20.6,
-      "rs_1w": 1.5,
-      "ret_60": 19.1
+      "rs": 22.0,
+      "rs_1w": 0.9,
+      "ret_60": 19.7
     },
     {
       "sub_industry": "Electrical Equipment & Parts",
       "n": 9,
-      "rs": 13.3,
-      "rs_1w": 1.2,
-      "ret_60": -12.3
+      "rs": 11.7,
+      "rs_1w": -0.4,
+      "ret_60": -13.6
     },
     {
       "sub_industry": "Copper",
       "n": 3,
-      "rs": 5.0,
-      "rs_1w": 0.2,
-      "ret_60": 9.8
+      "rs": 4.8,
+      "rs_1w": 0.3,
+      "ret_60": 8.9
     },
     {
       "sub_industry": "Software - Application",
       "n": 8,
-      "rs": 5.0,
-      "rs_1w": -1.1,
-      "ret_60": 34.5
+      "rs": 4.3,
+      "rs_1w": -3.0,
+      "ret_60": 32.4
     }
   ],
   "rs_momentum": [
     {
-      "sub_industry": "Semiconductors",
-      "n": 11,
-      "rs": 30.4,
-      "rs_1w": 6.6,
-      "ret_60": 0.6
+      "sub_industry": "Diagnostics & Research",
+      "n": 3,
+      "rs": 54.2,
+      "rs_1w": 7.8,
+      "ret_60": 43.7
     },
     {
       "sub_industry": "Semiconductor Equipment & Materials",
       "n": 11,
-      "rs": 24.7,
-      "rs_1w": 5.8,
-      "ret_60": -11.6
-    },
-    {
-      "sub_industry": "Diagnostics & Research",
-      "n": 3,
-      "rs": 53.5,
-      "rs_1w": 5.6,
-      "ret_60": 43.7
-    },
-    {
-      "sub_industry": "Internet Content & Information",
-      "n": 3,
-      "rs": 27.0,
-      "rs_1w": 4.5,
-      "ret_60": 12.6
-    },
-    {
-      "sub_industry": "Biotechnology",
-      "n": 7,
-      "rs": 26.4,
-      "rs_1w": 3.7,
-      "ret_60": 25.7
-    },
-    {
-      "sub_industry": "Computer Hardware",
-      "n": 3,
-      "rs": 44.8,
-      "rs_1w": 3.1,
-      "ret_60": 38.0
-    },
-    {
-      "sub_industry": "Electronic Components",
-      "n": 6,
-      "rs": 36.8,
-      "rs_1w": 2.3,
-      "ret_60": -25.8
-    },
-    {
-      "sub_industry": "Software - Infrastructure",
-      "n": 8,
-      "rs": 20.6,
-      "rs_1w": 1.5,
-      "ret_60": 19.1
-    },
-    {
-      "sub_industry": "Electrical Equipment & Parts",
-      "n": 9,
-      "rs": 13.3,
-      "rs_1w": 1.2,
-      "ret_60": -12.3
-    },
-    {
-      "sub_industry": "Utilities - Independent Power Producers",
-      "n": 4,
-      "rs": -32.2,
-      "rs_1w": 1.1,
-      "ret_60": -14.2
-    },
-    {
-      "sub_industry": "Communication Equipment",
-      "n": 3,
       "rs": 25.2,
-      "rs_1w": 1.0,
-      "ret_60": 7.2
-    },
-    {
-      "sub_industry": "Specialty Industrial Machinery",
-      "n": 6,
-      "rs": -4.7,
-      "rs_1w": 1.0,
-      "ret_60": -4.8
-    },
-    {
-      "sub_industry": "Copper",
-      "n": 3,
-      "rs": 5.0,
-      "rs_1w": 0.2,
-      "ret_60": 9.8
+      "rs_1w": 4.5,
+      "ret_60": -11.3
     },
     {
       "sub_industry": "Specialty Chemicals",
       "n": 4,
       "rs": -6.6,
-      "rs_1w": 0.0,
-      "ret_60": -7.2
+      "rs_1w": 2.4,
+      "ret_60": -8.7
+    },
+    {
+      "sub_industry": "Drug Manufacturers - General",
+      "n": 17,
+      "rs": -0.3,
+      "rs_1w": 1.0,
+      "ret_60": 2.8
+    },
+    {
+      "sub_industry": "Biotechnology",
+      "n": 7,
+      "rs": 26.1,
+      "rs_1w": 1.0,
+      "ret_60": 24.7
+    },
+    {
+      "sub_industry": "Software - Infrastructure",
+      "n": 8,
+      "rs": 22.0,
+      "rs_1w": 0.9,
+      "ret_60": 19.7
     },
     {
       "sub_industry": "Conglomerates",
       "n": 8,
-      "rs": -1.5,
-      "rs_1w": -0.5,
-      "ret_60": 4.0
+      "rs": -1.8,
+      "rs_1w": 0.7,
+      "ret_60": 1.9
+    },
+    {
+      "sub_industry": "Credit Services",
+      "n": 3,
+      "rs": -4.1,
+      "rs_1w": 0.4,
+      "ret_60": -0.6
+    },
+    {
+      "sub_industry": "Copper",
+      "n": 3,
+      "rs": 4.8,
+      "rs_1w": 0.3,
+      "ret_60": 8.9
+    },
+    {
+      "sub_industry": "Utilities - Independent Power Producers",
+      "n": 4,
+      "rs": -32.2,
+      "rs_1w": 0.0,
+      "ret_60": -15.1
+    },
+    {
+      "sub_industry": "Electrical Equipment & Parts",
+      "n": 9,
+      "rs": 11.7,
+      "rs_1w": -0.4,
+      "ret_60": -13.6
+    },
+    {
+      "sub_industry": "Other Industrial Metals & Mining",
+      "n": 4,
+      "rs": -1.4,
+      "rs_1w": -1.3,
+      "ret_60": -0.1
+    },
+    {
+      "sub_industry": "Communication Equipment",
+      "n": 3,
+      "rs": 24.2,
+      "rs_1w": -1.9,
+      "ret_60": 5.8
+    },
+    {
+      "sub_industry": "Computer Hardware",
+      "n": 3,
+      "rs": 42.0,
+      "rs_1w": -1.9,
+      "ret_60": 34.5
+    },
+    {
+      "sub_industry": "Financial Data & Stock Exchanges",
+      "n": 3,
+      "rs": -6.0,
+      "rs_1w": -2.0,
+      "ret_60": 17.6
     }
   ],
   "part1c1": [
     {
-      "ticker": "6988.JP",
-      "name": "Nitto Denko",
-      "sub_industry": "Specialty Chemicals",
-      "sector": "Mat",
-      "close": 22.543,
-      "pct_high_250": 0.881,
-      "amt_surge": 0.874,
-      "amt_rank": 0.041,
-      "ret_60": 0.126,
+      "ticker": "TSM.US",
+      "name": "Taiwan Semi",
+      "sub_industry": "Semis",
+      "sector": "Info Tech",
+      "close": 452.88,
+      "pct_high_250": 0.951,
+      "amt_surge": 0.889,
+      "amt_rank": 0.929,
+      "ret_60": 0.046,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.296,
-      "sales_growth": null,
-      "earn_growth": null,
-      "roe": null,
-      "pct_high_126": 0.991,
-      "nh_ratio_126": 0.0
+      "hotness": 0.366,
+      "sales_growth": 0.36,
+      "earn_growth": 0.774,
+      "roe": 0.115,
+      "pct_high_126": 0.951,
+      "nh_ratio_126": 0.087,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        36.0,
+        35.1,
+        20.5,
+        30.3
+      ],
+      "profit_yoy4": [
+        77.4,
+        58.3,
+        35.0,
+        39.1
+      ],
+      "roe4": [
+        11.5,
+        10.1,
+        9.7,
+        9.4
+      ]
     }
   ],
   "part1c2": [
@@ -547,18 +571,18 @@
       "name": "Moderna",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 198.88,
-      "pct_high_250": 1.0,
-      "amt_surge": 2.87,
-      "amt_rank": 0.898,
-      "ret_60": 1.743,
+      "close": 197.28,
+      "pct_high_250": 0.992,
+      "amt_surge": 2.782,
+      "amt_rank": 0.903,
+      "ret_60": 1.473,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.9,
+      "hotness": 1.794,
       "sales_growth": 0.021,
       "earn_growth": 0.052,
       "roe": -0.11,
-      "pct_high_126": 1.0,
+      "pct_high_126": 0.992,
       "nh_ratio_126": 0.095,
       "fund_periods": [
         "202606",
@@ -586,66 +610,23 @@
       ]
     },
     {
-      "ticker": "TWST.US",
-      "name": "Twist Bioscience",
-      "sub_industry": "Diagnostics & Research",
-      "sector": "Health Care",
-      "close": 182.83,
-      "pct_high_250": 0.993,
-      "amt_surge": 2.712,
-      "amt_rank": 0.464,
-      "ret_60": 0.788,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 1.702,
-      "sales_growth": 0.232,
-      "earn_growth": -2.719,
-      "roe": -0.078,
-      "pct_high_126": 0.993,
-      "nh_ratio_126": 0.254,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        23.2,
-        19.3,
-        16.9,
-        16.9
-      ],
-      "profit_yoy4": [
-        -271.9,
-        -11.9,
-        3.4,
-        21.7
-      ],
-      "roe4": [
-        -7.8,
-        -9.7,
-        -6.6,
-        null
-      ]
-    },
-    {
       "ticker": "TMO.US",
       "name": "Thermo Fisher",
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
-      "close": 675.0,
-      "pct_high_250": 0.995,
-      "amt_surge": 1.188,
+      "close": 678.6,
+      "pct_high_250": 1.0,
+      "amt_surge": 1.216,
       "amt_rank": 0.735,
-      "ret_60": 0.316,
+      "ret_60": 0.297,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.498,
+      "hotness": 1.584,
       "sales_growth": 0.105,
       "earn_growth": 0.074,
       "roe": 0.033,
-      "pct_high_126": 0.995,
-      "nh_ratio_126": 0.119,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.127,
       "fund_periods": [
         "202606",
         "202603",
@@ -672,22 +653,65 @@
       ]
     },
     {
+      "ticker": "CRWD.US",
+      "name": "CrowdStrike",
+      "sub_industry": "Software - Infra",
+      "sector": "Info Tech",
+      "close": 259.25,
+      "pct_high_250": 0.988,
+      "amt_surge": 1.636,
+      "amt_rank": 0.857,
+      "ret_60": 0.336,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 1.456,
+      "sales_growth": 0.258,
+      "earn_growth": 1.076,
+      "roe": 0.001,
+      "pct_high_126": 0.988,
+      "nh_ratio_126": 0.183,
+      "fund_periods": [
+        "202607",
+        "202604",
+        "202601",
+        "202510"
+      ],
+      "sales_yoy4": [
+        25.8,
+        25.6,
+        23.3,
+        22.2
+      ],
+      "profit_yoy4": [
+        107.6,
+        126.6,
+        144.8,
+        -102.1
+      ],
+      "roe4": [
+        0.1,
+        0.6,
+        0.9,
+        -0.9
+      ]
+    },
+    {
       "ticker": "HPE.US",
       "name": "Hewlett Packard Ente…",
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
-      "close": 62.94,
-      "pct_high_250": 0.991,
-      "amt_surge": 1.972,
-      "amt_rank": 0.663,
-      "ret_60": 0.436,
+      "close": 62.63,
+      "pct_high_250": 0.986,
+      "amt_surge": 1.98,
+      "amt_rank": 0.648,
+      "ret_60": 0.523,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.064,
+      "hotness": 1.059,
       "sales_growth": 0.4,
       "earn_growth": 1.594,
       "roe": 0.025,
-      "pct_high_126": 0.991,
+      "pct_high_126": 0.986,
       "nh_ratio_126": 0.167,
       "fund_periods": [
         "202607",
@@ -715,23 +739,66 @@
       ]
     },
     {
-      "ticker": "AMD.US",
-      "name": "AMD",
-      "sub_industry": "Semis",
+      "ticker": "PANW.US",
+      "name": "Palo Alto Net",
+      "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 630.63,
-      "pct_high_250": 1.0,
-      "amt_surge": 0.982,
-      "amt_rank": 0.985,
-      "ret_60": 0.166,
+      "close": 392.09,
+      "pct_high_250": 0.99,
+      "amt_surge": 1.468,
+      "amt_rank": 0.847,
+      "ret_60": 0.127,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.68,
-      "sales_growth": 0.501,
-      "earn_growth": 1.634,
-      "roe": 0.035,
+      "hotness": 0.961,
+      "sales_growth": 0.311,
+      "earn_growth": -1.676,
+      "roe": -0.01,
+      "pct_high_126": 0.99,
+      "nh_ratio_126": 0.143,
+      "fund_periods": [
+        "202607",
+        "202604",
+        "202601",
+        "202510"
+      ],
+      "sales_yoy4": [
+        34.5,
+        31.1,
+        14.9,
+        15.7
+      ],
+      "profit_yoy4": [
+        -211.0,
+        -167.6,
+        61.8,
+        -4.8
+      ],
+      "roe4": [
+        -1.0,
+        -1.0,
+        4.8,
+        4.1
+      ]
+    },
+    {
+      "ticker": "DHR.US",
+      "name": "Danaher",
+      "sub_industry": "Diagnostics & Research",
+      "sector": "Health Care",
+      "close": 227.33,
+      "pct_high_250": 0.943,
+      "amt_surge": 1.0,
+      "amt_rank": 0.653,
+      "ret_60": 0.149,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 0.761,
+      "sales_growth": 0.055,
+      "earn_growth": 0.568,
+      "roe": 0.017,
       "pct_high_126": 1.0,
-      "nh_ratio_126": 0.183,
+      "nh_ratio_126": 0.063,
       "fund_periods": [
         "202606",
         "202603",
@@ -739,22 +806,22 @@
         "202509"
       ],
       "sales_yoy4": [
-        50.1,
-        37.8,
-        34.1,
-        35.6
+        5.5,
+        3.7,
+        4.6,
+        4.4
       ],
       "profit_yoy4": [
-        163.4,
-        95.1,
-        213.5,
-        61.2
+        56.8,
+        7.9,
+        10.2,
+        11.0
       ],
       "roe4": [
-        3.5,
-        2.2,
-        2.4,
-        2.1
+        1.6,
+        2.0,
+        2.3,
+        1.8
       ]
     },
     {
@@ -762,18 +829,18 @@
       "name": "Microsoft",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 516.17,
-      "pct_high_250": 0.96,
-      "amt_surge": 0.793,
+      "close": 509.22,
+      "pct_high_250": 0.947,
+      "amt_surge": 0.775,
       "amt_rank": 0.969,
-      "ret_60": 0.346,
-      "ma_aligned": 0,
+      "ret_60": 0.307,
+      "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.676,
+      "hotness": 0.659,
       "sales_growth": 0.177,
       "earn_growth": 0.313,
       "roe": 0.084,
-      "pct_high_126": 1.0,
+      "pct_high_126": 0.987,
       "nh_ratio_126": 0.063,
       "fund_periods": [
         "202606",
@@ -801,65 +868,22 @@
       ]
     },
     {
-      "ticker": "DHR.US",
-      "name": "Danaher",
-      "sub_industry": "Diagnostics & Research",
-      "sector": "Health Care",
-      "close": 224.49,
-      "pct_high_250": 0.931,
-      "amt_surge": 0.974,
-      "amt_rank": 0.638,
-      "ret_60": 0.159,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.651,
-      "sales_growth": 0.055,
-      "earn_growth": 0.568,
-      "roe": 0.017,
-      "pct_high_126": 1.0,
-      "nh_ratio_126": 0.056,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        5.5,
-        3.7,
-        4.6,
-        4.4
-      ],
-      "profit_yoy4": [
-        56.8,
-        7.9,
-        10.2,
-        11.0
-      ],
-      "roe4": [
-        1.6,
-        2.0,
-        2.3,
-        1.8
-      ]
-    },
-    {
       "ticker": "GILD.US",
       "name": "Gilead Sciences",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 150.93,
-      "pct_high_250": 0.986,
-      "amt_surge": 0.959,
-      "amt_rank": 0.566,
-      "ret_60": 0.205,
+      "close": 152.21,
+      "pct_high_250": 0.995,
+      "amt_surge": 0.97,
+      "amt_rank": 0.561,
+      "ret_60": 0.166,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.617,
+      "hotness": 0.647,
       "sales_growth": 0.102,
       "earn_growth": -6.355,
       "roe": -0.594,
-      "pct_high_126": 0.989,
+      "pct_high_126": 0.997,
       "nh_ratio_126": 0.048,
       "fund_periods": [
         "202606",
@@ -887,23 +911,23 @@
       ]
     },
     {
-      "ticker": "PLTR.US",
-      "name": "Palantir",
+      "ticker": "FTNT.US",
+      "name": "Fortinet",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 189.67,
-      "pct_high_250": 0.915,
-      "amt_surge": 0.67,
-      "amt_rank": 0.939,
-      "ret_60": 0.509,
+      "close": 176.33,
+      "pct_high_250": 0.987,
+      "amt_surge": 1.176,
+      "amt_rank": 0.52,
+      "ret_60": 0.129,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.597,
-      "sales_growth": 0.928,
-      "earn_growth": 2.25,
-      "roe": 0.117,
-      "pct_high_126": 0.985,
-      "nh_ratio_126": 0.079,
+      "hotness": 0.537,
+      "sales_growth": 0.256,
+      "earn_growth": 0.378,
+      "roe": 0.477,
+      "pct_high_126": 0.987,
+      "nh_ratio_126": 0.23,
       "fund_periods": [
         "202606",
         "202603",
@@ -911,22 +935,22 @@
         "202509"
       ],
       "sales_yoy4": [
-        92.8,
-        84.7,
-        70.0,
-        62.8
+        25.6,
+        20.1,
+        14.8,
+        14.4
       ],
       "profit_yoy4": [
-        225.0,
-        306.7,
-        670.4,
-        231.4
+        37.8,
+        23.3,
+        -3.8,
+        -12.2
       ],
       "roe4": [
-        11.7,
-        11.0,
-        8.7,
-        7.6
+        47.7,
+        48.0,
+        51.3,
+        33.9
       ]
     },
     {
@@ -934,18 +958,18 @@
       "name": "Pfizer",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 28.67,
-      "pct_high_250": 0.988,
-      "amt_surge": 0.789,
-      "amt_rank": 0.582,
-      "ret_60": 0.222,
+      "close": 28.72,
+      "pct_high_250": 0.99,
+      "amt_surge": 0.788,
+      "amt_rank": 0.577,
+      "ret_60": 0.202,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.382,
+      "hotness": 0.394,
       "sales_growth": 0.026,
       "earn_growth": -1.085,
       "roe": -0.003,
-      "pct_high_126": 0.988,
+      "pct_high_126": 0.99,
       "nh_ratio_126": 0.048,
       "fund_periods": [
         "202606",
@@ -973,65 +997,22 @@
       ]
     },
     {
-      "ticker": "ANET.US",
-      "name": "Arista Net",
-      "sub_industry": "Computer Hardware",
-      "sector": "Info Tech",
-      "close": 206.55,
-      "pct_high_250": 0.981,
-      "amt_surge": 0.774,
-      "amt_rank": 0.587,
-      "ret_60": 0.24,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.318,
-      "sales_growth": 0.377,
-      "earn_growth": 0.365,
-      "roe": 0.086,
-      "pct_high_126": 0.981,
-      "nh_ratio_126": 0.087,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        37.7,
-        35.1,
-        28.9,
-        27.5
-      ],
-      "profit_yoy4": [
-        36.5,
-        25.7,
-        19.3,
-        14.0
-      ],
-      "roe4": [
-        8.6,
-        7.9,
-        7.9,
-        7.5
-      ]
-    },
-    {
       "ticker": "4502.JP",
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & G…",
       "sector": "Health Care",
-      "close": 37.926,
-      "pct_high_250": 1.0,
-      "amt_surge": 1.053,
-      "amt_rank": 0.23,
-      "ret_60": 0.173,
+      "close": 37.692,
+      "pct_high_250": 0.993,
+      "amt_surge": 1.075,
+      "amt_rank": 0.24,
+      "ret_60": 0.146,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.312,
+      "hotness": 0.338,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
-      "pct_high_126": 1.0,
+      "pct_high_126": 0.993,
       "nh_ratio_126": 0.048
     },
     {
@@ -1039,19 +1020,19 @@
       "name": "AbbVie",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 264.34,
-      "pct_high_250": 0.994,
-      "amt_surge": 0.742,
-      "amt_rank": 0.571,
-      "ret_60": 0.06,
+      "close": 266.28,
+      "pct_high_250": 1.0,
+      "amt_surge": 0.754,
+      "amt_rank": 0.592,
+      "ret_60": 0.027,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.208,
+      "hotness": 0.258,
       "sales_growth": 0.102,
       "earn_growth": 2.852,
       "roe": -0.574,
-      "pct_high_126": 0.994,
-      "nh_ratio_126": 0.079,
+      "pct_high_126": 1.0,
+      "nh_ratio_126": 0.087,
       "fund_periods": [
         "202606",
         "202603",
@@ -1078,49 +1059,13 @@
       ]
     }
   ],
-  "part3": [
-    {
-      "ticker": "MPWR.US",
-      "name": "Monolithic Power Sys",
-      "sub_industry": "Semis",
-      "close": 1367.43,
-      "ret_1d": 2.4,
-      "ret_3d": -1.0,
-      "vol_ratio": 0.78,
-      "trigger": "SOS 3日",
-      "hotness": -0.025,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        47.6,
-        26.1,
-        20.8,
-        18.9
-      ],
-      "profit_yoy4": [
-        90.6,
-        43.1,
-        -88.3,
-        23.4
-      ],
-      "roe4": [
-        6.8,
-        5.4,
-        4.8,
-        5.1
-      ]
-    }
-  ],
+  "part3": [],
   "bottom": [
     {
       "ticker": "COST.US",
       "name": "Cost",
       "sub_industry": "Discount Stores",
-      "close": 922.765,
+      "close": 922.92,
       "wj_min": -0.1,
       "pos250": 0.31,
       "div": 1,
@@ -1157,9 +1102,9 @@
       "ticker": "AZN.US",
       "name": "AstraZeneca",
       "sub_industry": "Drug Mfr - General",
-      "close": 166.58,
+      "close": 166.15,
       "wj_min": 6.3,
-      "pos250": 0.34,
+      "pos250": 0.27,
       "div": 1,
       "stall": 0,
       "buy": 0,
@@ -1189,232 +1134,266 @@
         4.9,
         5.6
       ]
-    },
-    {
-      "ticker": "GSK.US",
-      "name": "GSK plc Sponsored",
-      "sub_industry": "Drug Mfr - General",
-      "close": 49.24,
-      "wj_min": -1.3,
-      "pos250": 0.48,
-      "div": 0,
-      "stall": 0,
-      "buy": 0,
-      "buy_types": "",
-      "score": 0,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        5.3,
-        1.5,
-        6.2,
-        6.7
-      ],
-      "profit_yoy4": [
-        -69.9,
-        7.0,
-        53.6,
-        3570.7
-      ],
-      "roe4": [
-        2.5,
-        10.1,
-        3.9,
-        13.0
-      ]
-    },
-    {
-      "ticker": "ORLY.US",
-      "name": "O’Reilly Auto",
-      "sub_industry": "Auto Parts",
-      "close": 86.12,
-      "wj_min": 10.4,
-      "pos250": 0.14,
-      "div": 0,
-      "stall": 0,
-      "buy": 0,
-      "buy_types": "",
-      "score": 0,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        8.1,
-        10.2,
-        7.8,
-        7.8
-      ],
-      "profit_yoy4": [
-        7.0,
-        12.2,
-        9.8,
-        9.1
-      ],
-      "roe4": [
-        -49.3,
-        -66.0,
-        -73.0,
-        -68.3
-      ]
     }
   ],
   "ds_b": [
     {
+      "ticker": "7741.JP",
+      "name": "HOYA",
+      "sub_industry": "Medical Instruments & Supplies",
+      "close": 149.941,
+      "sig": "B",
+      "tr": 7.5,
+      "mom": "",
+      "panic": "",
+      "weekly": "背离",
+      "days": 0
+    },
+    {
+      "ticker": "ASTS.US",
+      "name": "AST SpaceMobile",
+      "sub_industry": "Communication Equipment",
+      "close": 61.0,
+      "sig": "B",
+      "tr": 12.3,
+      "mom": 52.0,
+      "panic": "",
+      "weekly": "无背离",
+      "days": 0,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        2626.6,
+        1952.2,
+        2731.3,
+        1239.9
+      ],
+      "profit_yoy4": [
+        -132.3,
+        -317.9,
+        -106.3,
+        28.5
+      ],
+      "roe4": [
+        -11.6,
+        -9.7,
+        null,
+        -11.7
+      ]
+    },
+    {
+      "ticker": "KLAC.US",
+      "name": "KLA",
+      "sub_industry": "Semiconductor Equipment & Materials",
+      "close": 189.17,
+      "sig": "B",
+      "tr": -1.8,
+      "mom": 70.0,
+      "panic": "",
+      "weekly": "无背离",
+      "days": 0,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        15.2,
+        11.5,
+        7.2,
+        13.0
+      ],
+      "profit_yoy4": [
+        13.3,
+        10.3,
+        39.0,
+        18.5
+      ],
+      "roe4": [
+        22.4,
+        21.3,
+        21.9,
+        23.2
+      ]
+    },
+    {
       "ticker": "6976.JP",
       "name": "Taiyo Yuden Co., Ltd.",
       "sub_industry": "Electronic Components",
-      "close": 58.201,
-      "sig": "B",
-      "tr": -9.4,
+      "close": 57.796,
+      "sig": "",
+      "tr": -9.5,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 0
+      "days": 1
     },
     {
       "ticker": "CAT.US",
       "name": "Caterpillar",
       "sub_industry": "Farm & Heavy Construction Machinery",
-      "close": 821.58,
-      "sig": "B",
-      "tr": -3.1,
-      "mom": 70.0,
+      "close": 819.95,
+      "sig": "",
+      "tr": -2.1,
+      "mom": 68.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 0
+      "days": 1,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        24.0,
+        22.2,
+        18.0,
+        9.5
+      ],
+      "profit_yoy4": [
+        64.9,
+        27.3,
+        -13.9,
+        -6.7
+      ],
+      "roe4": [
+        18.9,
+        12.8,
+        11.4,
+        11.7
+      ]
     },
     {
       "ticker": "COST.US",
       "name": "Costco",
       "sub_industry": "Discount Stores",
-      "close": 922.765,
-      "sig": "b",
-      "tr": 9.1,
-      "mom": 71.0,
+      "close": 922.92,
+      "sig": "",
+      "tr": 12.4,
+      "mom": 73.0,
       "panic": "",
       "weekly": "背离",
-      "days": 0
+      "days": 1,
+      "fund_periods": [
+        "202605",
+        "202602",
+        "202511",
+        "202508"
+      ],
+      "sales_yoy4": [
+        11.6,
+        9.2,
+        8.3,
+        8.1
+      ],
+      "profit_yoy4": [
+        15.2,
+        13.8,
+        11.3,
+        10.9
+      ],
+      "roe4": [
+        6.7,
+        6.5,
+        6.7,
+        9.3
+      ]
     },
     {
       "ticker": "NVS.US",
       "name": "Novartis AG Sponsored ADR",
       "sub_industry": "Drug Manufacturers - General",
-      "close": 145.46,
-      "sig": "B",
-      "tr": 13.6,
-      "mom": 74.0,
+      "close": 146.88,
+      "sig": "",
+      "tr": 14.7,
+      "mom": 76.0,
       "panic": "",
       "weekly": "背离",
-      "days": 0
+      "days": 1,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        0.8,
+        -0.7,
+        2.2,
+        9.0
+      ],
+      "profit_yoy4": [
+        -19.2,
+        -12.5,
+        -14.5,
+        23.2
+      ],
+      "roe4": [
+        8.2,
+        7.5,
+        null,
+        9.1
+      ]
     },
     {
       "ticker": "4063.JP",
       "name": "Shin-Etsu Chemical",
       "sub_industry": "Chemicals",
-      "close": 37.418,
+      "close": 36.954,
       "sig": "",
-      "tr": -5.0,
+      "tr": -4.8,
       "mom": "",
       "panic": "",
       "weekly": "背离",
-      "days": 1
+      "days": 2
     },
     {
       "ticker": "4186.JP",
       "name": "Tokyo Ohka Kogyo",
       "sub_industry": "Electronic Components",
-      "close": 53.105,
+      "close": 52.807,
       "sig": "",
-      "tr": -1.4,
+      "tr": -0.4,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 1
+      "days": 2
     },
     {
       "ticker": "5802.JP",
       "name": "Sumitomo Electric",
       "sub_industry": "Auto Parts",
-      "close": 14.048,
+      "close": 13.983,
       "sig": "",
-      "tr": -0.2,
+      "tr": 0.8,
       "mom": "",
       "panic": "",
       "weekly": "背离",
-      "days": 1
+      "days": 2
     },
     {
       "ticker": "6146.JP",
       "name": "DISCO",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 344.506,
+      "close": 345.772,
       "sig": "",
-      "tr": -0.2,
+      "tr": 0.1,
       "mom": "",
       "panic": "✓",
       "weekly": "无背离",
-      "days": 1
+      "days": 2
     },
     {
       "ticker": "6361.JP",
       "name": "Ebara",
       "sub_industry": "Specialty Industrial Machinery",
-      "close": 28.211,
-      "sig": "",
-      "tr": -8.2,
-      "mom": "",
-      "panic": "✓",
-      "weekly": "无背离",
-      "days": 1
-    },
-    {
-      "ticker": "6506.JP",
-      "name": "Yaskawa",
-      "sub_industry": "Electrical Equipment & Parts",
-      "close": 28.465,
-      "sig": "",
-      "tr": -9.0,
-      "mom": "",
-      "panic": "✓",
-      "weekly": "无背离",
-      "days": 1
-    },
-    {
-      "ticker": "6762.JP",
-      "name": "TDK",
-      "sub_industry": "Electronic Components",
-      "close": 18.922,
-      "sig": "",
-      "tr": 1.7,
-      "mom": "",
-      "panic": "",
-      "weekly": "无背离",
-      "days": 1
-    },
-    {
-      "ticker": "TLN.US",
-      "name": "Talen Energy Corp",
-      "sub_industry": "Utilities - Independent Power Producers",
-      "close": 304.42,
-      "sig": "",
-      "tr": -0.2,
-      "mom": "",
-      "panic": "✓",
-      "weekly": "背离",
-      "days": 1
-    },
-    {
-      "ticker": "3436.JP",
-      "name": "SUMCO",
-      "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 19.805,
+      "close": 29.016,
       "sig": "",
       "tr": -6.7,
       "mom": "",
@@ -1423,795 +1402,1419 @@
       "days": 2
     },
     {
-      "ticker": "4519.JP",
-      "name": "Chugai Pharmaceutical Co., Ltd",
-      "sub_industry": "Drug Manufacturers - General",
-      "close": 42.037,
+      "ticker": "6506.JP",
+      "name": "Yaskawa",
+      "sub_industry": "Electrical Equipment & Parts",
+      "close": 28.304,
       "sig": "",
-      "tr": 16.8,
+      "tr": -8.5,
+      "mom": "",
+      "panic": "✓",
+      "weekly": "无背离",
+      "days": 2
+    },
+    {
+      "ticker": "6762.JP",
+      "name": "TDK",
+      "sub_industry": "Electronic Components",
+      "close": 18.782,
+      "sig": "",
+      "tr": 2.5,
+      "mom": "",
+      "panic": "",
+      "weekly": "无背离",
+      "days": 2
+    },
+    {
+      "ticker": "TLN.US",
+      "name": "Talen Energy Corp",
+      "sub_industry": "Utilities - Independent Power Producers",
+      "close": 303.5,
+      "sig": "",
+      "tr": 0.6,
       "mom": "",
       "panic": "✓",
       "weekly": "背离",
-      "days": 2
+      "days": 2,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        18.6,
+        189.5,
+        60.4,
+        24.9
+      ],
+      "profit_yoy4": [
+        -227.8,
+        146.7,
+        -542.7,
+        23.2
+      ],
+      "roe4": [
+        -6.8,
+        5.8,
+        null,
+        15.2
+      ]
+    },
+    {
+      "ticker": "3436.JP",
+      "name": "SUMCO",
+      "sub_industry": "Semiconductor Equipment & Materials",
+      "close": 19.195,
+      "sig": "",
+      "tr": -6.9,
+      "mom": "",
+      "panic": "✓",
+      "weekly": "无背离",
+      "days": 3
+    },
+    {
+      "ticker": "4519.JP",
+      "name": "Chugai Pharmaceutical Co., Ltd",
+      "sub_industry": "Drug Manufacturers - General",
+      "close": 40.438,
+      "sig": "",
+      "tr": 15.1,
+      "mom": "",
+      "panic": "✓",
+      "weekly": "背离",
+      "days": 3
     },
     {
       "ticker": "7735.JP",
       "name": "SCREEN Holdings",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 87.302,
+      "close": 88.731,
       "sig": "",
-      "tr": 9.9,
+      "tr": 11.1,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 2
+      "days": 3
     },
     {
       "ticker": "8035.JP",
       "name": "Tokyo Electron",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 359.119,
+      "close": 71.595,
       "sig": "",
-      "tr": -0.1,
+      "tr": 1.0,
       "mom": "",
       "panic": "✓",
       "weekly": "无背离",
-      "days": 2
+      "days": 3
     },
     {
       "ticker": "HUBB.US",
       "name": "Hubbell Incorporated",
       "sub_industry": "Electrical Equipment & Parts",
-      "close": 466.62,
+      "close": 465.72,
       "sig": "",
-      "tr": 11.3,
-      "mom": 70.0,
+      "tr": 12.8,
+      "mom": 65.0,
       "panic": "",
       "weekly": "背离",
-      "days": 2
+      "days": 3,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        15.3,
+        11.1,
+        11.9,
+        4.1
+      ],
+      "profit_yoy4": [
+        -1.6,
+        11.4,
+        13.1,
+        13.0
+      ],
+      "roe4": [
+        6.3,
+        4.8,
+        6.0,
+        7.1
+      ]
     },
     {
       "ticker": "4901.JP",
       "name": "Fujifilm",
       "sub_industry": "Conglomerates",
-      "close": 21.914,
+      "close": 21.325,
       "sig": "",
-      "tr": 10.0,
+      "tr": 10.7,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "AVGO.US",
       "name": "Broadcom",
       "sub_industry": "Semiconductors",
-      "close": 352.81,
+      "close": 349.57,
       "sig": "",
-      "tr": 5.4,
-      "mom": 30.0,
+      "tr": 5.7,
+      "mom": 34.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 3
+      "days": 4,
+      "fund_periods": [
+        "202608",
+        "202605",
+        "202602",
+        "202511"
+      ],
+      "sales_yoy4": [
+        85.5,
+        47.9,
+        29.5,
+        28.2
+      ],
+      "profit_yoy4": [
+        216.1,
+        87.5,
+        33.5,
+        97.0
+      ],
+      "roe4": [
+        14.0,
+        11.1,
+        9.1,
+        11.0
+      ]
     },
     {
       "ticker": "LIN.US",
       "name": "Linde",
       "sub_industry": "Specialty Chemicals",
-      "close": 469.89,
+      "close": 472.04,
       "sig": "",
-      "tr": -3.2,
-      "mom": 68.0,
+      "tr": -1.8,
+      "mom": 65.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 3
+      "days": 4,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        9.3,
+        8.2,
+        5.8,
+        3.1
+      ],
+      "profit_yoy4": [
+        9.2,
+        11.0,
+        -11.3,
+        24.5
+      ],
+      "roe4": [
+        5.0,
+        4.8,
+        4.0,
+        5.0
+      ]
     },
     {
       "ticker": "6920.JP",
       "name": "Lasertec",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 259.936,
+      "close": 254.244,
       "sig": "",
-      "tr": 6.1,
+      "tr": 8.5,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 4
+      "days": 5
     },
     {
       "ticker": "6981.JP",
       "name": "Murata",
       "sub_industry": "Electronic Components",
-      "close": 50.971,
+      "close": 50.874,
       "sig": "",
-      "tr": 10.9,
+      "tr": 12.2,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 4
-    },
-    {
-      "ticker": "ASTS.US",
-      "name": "AST SpaceMobile",
-      "sub_industry": "Communication Equipment",
-      "close": 61.81,
-      "sig": "",
-      "tr": 11.5,
-      "mom": 58.0,
-      "panic": "",
-      "weekly": "无背离",
-      "days": 4
+      "days": 5
     },
     {
       "ticker": "DECK.US",
       "name": "Deckers Outdoor",
       "sub_industry": "Footwear & Accessories",
-      "close": 78.67,
+      "close": 78.36,
       "sig": "",
-      "tr": -7.5,
-      "mom": 40.0,
+      "tr": -7.4,
+      "mom": 39.0,
       "panic": "✓",
       "weekly": "背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        5.7,
+        9.6,
+        7.1,
+        9.1
+      ],
+      "profit_yoy4": [
+        -6.6,
+        -10.5,
+        5.3,
+        10.7
+      ],
+      "roe4": [
+        5.4,
+        5.3,
+        19.0,
+        10.9
+      ]
     },
     {
       "ticker": "GE.US",
       "name": "GE Aerospace",
       "sub_industry": "Aerospace & Defense",
-      "close": 327.09,
+      "close": 318.24,
       "sig": "",
-      "tr": 5.4,
-      "mom": 71.0,
+      "tr": 3.9,
+      "mom": 37.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        21.1,
+        24.7,
+        17.6,
+        23.8
+      ],
+      "profit_yoy4": [
+        16.9,
+        -3.7,
+        33.8,
+        16.5
+      ],
+      "roe4": [
+        13.3,
+        10.4,
+        13.6,
+        11.4
+      ]
     },
     {
       "ticker": "LRCX.US",
       "name": "Lam Research",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 315.21,
+      "close": 314.47,
       "sig": "",
-      "tr": 15.0,
-      "mom": 73.0,
+      "tr": 16.5,
+      "mom": 71.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        30.0,
+        23.8,
+        22.1,
+        27.7
+      ],
+      "profit_yoy4": [
+        32.4,
+        37.2,
+        33.8,
+        40.5
+      ],
+      "roe4": [
+        19.8,
+        17.6,
+        15.7,
+        15.6
+      ]
     },
     {
       "ticker": "MPWR.US",
       "name": "Monolithic Power Systems",
       "sub_industry": "Semiconductors",
-      "close": 1367.43,
+      "close": 1351.2,
       "sig": "",
-      "tr": 13.1,
-      "mom": 73.0,
+      "tr": 16.4,
+      "mom": 56.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        47.6,
+        26.1,
+        20.8,
+        18.9
+      ],
+      "profit_yoy4": [
+        90.6,
+        43.1,
+        -88.3,
+        23.4
+      ],
+      "roe4": [
+        6.8,
+        5.4,
+        4.8,
+        5.1
+      ]
     },
     {
       "ticker": "TJX.US",
       "name": "TJX Companies",
       "sub_industry": "Apparel Retail",
-      "close": 130.06,
+      "close": 130.25,
       "sig": "",
-      "tr": -0.8,
+      "tr": 0.2,
       "mom": 45.0,
       "panic": "",
       "weekly": "背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202608",
+        "202605",
+        "202601",
+        "202511"
+      ],
+      "sales_yoy4": [
+        5.4,
+        9.2,
+        8.5,
+        7.5
+      ],
+      "profit_yoy4": [
+        22.3,
+        28.6,
+        26.8,
+        11.2
+      ],
+      "roe4": [
+        14.4,
+        12.9,
+        18.1,
+        15.8
+      ]
     },
     {
       "ticker": "VRT.US",
       "name": "Vertiv",
       "sub_industry": "Electrical Equipment & Parts",
-      "close": 253.28,
+      "close": 244.04,
       "sig": "",
-      "tr": 14.0,
-      "mom": 55.0,
+      "tr": 13.4,
+      "mom": 37.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 4
+      "days": 5,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        24.1,
+        30.1,
+        22.7,
+        29.0
+      ],
+      "profit_yoy4": [
+        53.5,
+        137.1,
+        203.1,
+        125.7
+      ],
+      "roe4": [
+        11.1,
+        9.5,
+        12.0,
+        12.0
+      ]
     },
     {
       "ticker": "AMAT.US",
       "name": "Applied Materials",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 485.0,
+      "close": 486.76,
       "sig": "",
-      "tr": -1.2,
-      "mom": 81.0,
+      "tr": 0.3,
+      "mom": 79.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 5
+      "days": 6,
+      "fund_periods": [
+        "202607",
+        "202604",
+        "202601",
+        "202510"
+      ],
+      "sales_yoy4": [
+        24.8,
+        11.4,
+        -2.1,
+        -3.5
+      ],
+      "profit_yoy4": [
+        42.7,
+        31.3,
+        71.0,
+        9.6
+      ],
+      "roe4": [
+        10.2,
+        12.3,
+        9.6,
+        9.5
+      ]
     },
     {
       "ticker": "GEV.US",
       "name": "GE Vernova",
       "sub_industry": "Specialty Industrial Machinery",
-      "close": 957.63,
+      "close": 949.77,
       "sig": "",
-      "tr": 14.4,
+      "tr": 14.6,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 5
-    },
-    {
-      "ticker": "KLAC.US",
-      "name": "KLA",
-      "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 187.92,
-      "sig": "",
-      "tr": -3.1,
-      "mom": 70.0,
-      "panic": "",
-      "weekly": "无背离",
-      "days": 5
+      "days": 6,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        21.9,
+        16.3,
+        3.8,
+        11.8
+      ],
+      "profit_yoy4": [
+        30.0,
+        1768.1,
+        657.0,
+        570.8
+      ],
+      "roe4": [
+        5.2,
+        37.8,
+        37.0,
+        5.2
+      ]
     },
     {
       "ticker": "ARM.US",
       "name": "Arm Holdings",
       "sub_industry": "Semiconductors",
-      "close": 310.32,
+      "close": 283.33,
       "sig": "",
-      "tr": 20.1,
+      "tr": 20.4,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        22.4,
+        20.1,
+        26.3,
+        34.5
+      ],
+      "profit_yoy4": [
+        107.7,
+        49.0,
+        -11.5,
+        122.4
+      ],
+      "roe4": [
+        3.2,
+        3.9,
+        2.9,
+        3.3
+      ]
     },
     {
       "ticker": "CRDO.US",
       "name": "Credo Technology",
       "sub_industry": "Semiconductors",
-      "close": 210.97,
+      "close": 192.67,
       "sig": "",
-      "tr": 7.3,
+      "tr": 8.2,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202608",
+        "202605",
+        "202601",
+        "202511"
+      ],
+      "sales_yoy4": [
+        114.7,
+        157.0,
+        201.5,
+        272.1
+      ],
+      "profit_yoy4": [
+        104.1,
+        362.2,
+        435.2,
+        2055.9
+      ],
+      "roe4": [
+        5.4,
+        8.6,
+        10.0,
+        8.0
+      ]
     },
     {
       "ticker": "GLW.US",
       "name": "Corning",
       "sub_industry": "Electronic Components",
-      "close": 156.74,
+      "close": 151.59,
       "sig": "",
       "tr": 18.7,
-      "mom": 48.0,
+      "mom": 37.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        16.6,
+        20.0,
+        20.4,
+        20.9
+      ],
+      "profit_yoy4": [
+        19.2,
+        136.3,
+        74.2,
+        467.5
+      ],
+      "roe4": [
+        4.6,
+        3.1,
+        4.6,
+        3.8
+      ]
     },
     {
       "ticker": "INTC.US",
       "name": "Intel Corporation",
       "sub_industry": "Semiconductors",
-      "close": 123.0,
+      "close": 116.03,
       "sig": "",
-      "tr": 43.6,
-      "mom": 64.0,
+      "tr": 45.6,
+      "mom": 36.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        25.4,
+        7.2,
+        -4.1,
+        2.8
+      ],
+      "profit_yoy4": [
+        -278.1,
+        -354.1,
+        -369.0,
+        124.4
+      ],
+      "roe4": [
+        -11.1,
+        -3.3,
+        -0.5,
+        4.0
+      ]
     },
     {
       "ticker": "OKLO.US",
       "name": "Oklo Inc. Class A",
       "sub_industry": "Utilities - Independent Power Producers",
-      "close": 38.04,
+      "close": 37.11,
       "sig": "",
-      "tr": 9.3,
-      "mom": 43.0,
+      "tr": 9.1,
+      "mom": 38.0,
       "panic": "✓",
       "weekly": "背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "profit_yoy4": [
+        -96.6,
+        -237.1,
+        -235.8,
+        -198.4
+      ],
+      "roe4": [
+        -1.6,
+        -1.6,
+        null,
+        -3.1
+      ]
     },
     {
       "ticker": "POWL.US",
       "name": "Powell Industries, Inc.",
       "sub_industry": "Electrical Equipment & Parts",
-      "close": 189.53,
+      "close": 187.23,
       "sig": "",
-      "tr": -0.9,
-      "mom": 53.0,
+      "tr": -0.1,
+      "mom": 41.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        8.9,
+        6.5,
+        4.0,
+        8.3
+      ],
+      "profit_yoy4": [
+        8.1,
+        -1.0,
+        19.1,
+        11.7
+      ],
+      "roe4": [
+        7.1,
+        6.7,
+        6.3,
+        null
+      ]
     },
     {
       "ticker": "RKLB.US",
       "name": "Rocket Lab",
       "sub_industry": "Aerospace & Defense",
-      "close": 73.95,
+      "close": 72.19,
       "sig": "",
-      "tr": 8.8,
-      "mom": 74.0,
+      "tr": 10.4,
+      "mom": 58.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        62.0,
+        63.5,
+        35.7,
+        48.0
+      ],
+      "profit_yoy4": [
+        25.8,
+        25.7,
+        -1.1,
+        64.8
+      ],
+      "roe4": [
+        -1.7,
+        -2.3,
+        null,
+        -1.9
+      ]
     },
     {
       "ticker": "VST.US",
       "name": "Vistra Corp.",
       "sub_industry": "Utilities - Independent Power Producers",
-      "close": 138.46,
+      "close": 138.02,
       "sig": "",
-      "tr": 10.0,
-      "mom": 33.0,
+      "tr": 8.7,
+      "mom": 36.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 6
+      "days": 7,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        -5.5,
+        43.4,
+        13.5,
+        -20.9
+      ],
+      "profit_yoy4": [
+        -6.7,
+        484.0,
+        -47.2,
+        -65.5
+      ],
+      "roe4": [
+        5.5,
+        19.2,
+        null,
+        13.0
+      ]
     },
     {
       "ticker": "AVAV.US",
       "name": "AeroVironment, Inc.",
       "sub_industry": "Aerospace & Defense",
-      "close": 152.05,
+      "close": 147.23,
       "sig": "",
-      "tr": 26.9,
-      "mom": 41.0,
-      "panic": "",
+      "tr": 25.5,
+      "mom": 28.0,
+      "panic": "✓",
       "weekly": "柱≥0",
-      "days": 8
+      "days": 9,
+      "fund_periods": [
+        "202608",
+        "202604",
+        "202601",
+        "202511"
+      ],
+      "sales_yoy4": [
+        5.7,
+        133.3,
+        143.4,
+        150.7
+      ],
+      "profit_yoy4": [
+        92.5,
+        -244.6,
+        -8825.4,
+        -326.7
+      ],
+      "roe4": [
+        -0.1,
+        null,
+        -3.6,
+        -0.4
+      ]
     },
     {
       "ticker": "BA.US",
       "name": "Boeing Company",
       "sub_industry": "Aerospace & Defense",
-      "close": 198.07,
+      "close": 184.39,
       "sig": "",
-      "tr": -2.3,
-      "mom": 37.0,
+      "tr": -3.8,
+      "mom": 11.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 9
+      "days": 10,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        8.0,
+        14.0,
+        57.1,
+        30.4
+      ],
+      "profit_yoy4": [
+        27.3,
+        89.2,
+        312.7,
+        13.5
+      ],
+      "roe4": [
+        -7.3,
+        -0.1,
+        -588.0,
+        92.5
+      ]
     },
     {
       "ticker": "GOOGL.US",
       "name": "Alphabet",
       "sub_industry": "Internet Content & Information",
-      "close": 343.92,
+      "close": 342.75,
       "sig": "",
-      "tr": 35.5,
-      "mom": 33.0,
+      "tr": 35.9,
+      "mom": 39.0,
       "panic": "",
       "weekly": "无背离",
-      "days": 9
+      "days": 10,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        24.2,
+        21.8,
+        18.0,
+        15.9
+      ],
+      "profit_yoy4": [
+        297.9,
+        81.2,
+        29.8,
+        33.0
+      ],
+      "roe4": [
+        20.0,
+        14.0,
+        8.6,
+        9.3
+      ]
     },
     {
       "ticker": "MCD.US",
       "name": "McDonald’s",
       "sub_industry": "Restaurants",
-      "close": 236.5,
+      "close": 233.6,
       "sig": "",
-      "tr": 2.7,
-      "mom": 11.0,
+      "tr": 1.8,
+      "mom": 12.0,
       "panic": "",
       "weekly": "背离",
-      "days": 9
-    },
-    {
-      "ticker": "MO.US",
-      "name": "Altria Group, Inc.",
-      "sub_industry": "Tobacco",
-      "close": 68.82,
-      "sig": "",
-      "tr": 37.8,
-      "mom": 39.0,
-      "panic": "",
-      "weekly": "无背离",
-      "days": 10
+      "days": 10,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        3.7,
+        9.4,
+        9.7,
+        3.0
+      ],
+      "profit_yoy4": [
+        4.8,
+        6.2,
+        7.3,
+        1.0
+      ],
+      "roe4": [
+        -204.6,
+        -128.9,
+        -109.5,
+        -92.5
+      ]
     }
   ],
   "ds_s": [
     {
-      "ticker": "ABBV.US",
-      "name": "AbbVie, Inc.",
-      "sub_industry": "Drug Manufacturers - General",
-      "close": 264.34,
-      "sig": "s",
-      "tr": 93.9,
-      "mom": 45.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 0
-    },
-    {
-      "ticker": "COIN.US",
-      "name": "Coinbase",
-      "sub_industry": "Financial Data & Stock Exchanges",
-      "close": 195.11,
-      "sig": "s",
-      "tr": 90.2,
-      "mom": 47.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 0
-    },
-    {
-      "ticker": "FTNT.US",
-      "name": "Fortinet, Inc.",
-      "sub_industry": "Software - Infrastructure",
-      "close": 173.46,
-      "sig": "s",
-      "tr": 85.7,
-      "mom": 50.0,
+      "ticker": "CRM.US",
+      "name": "Salesforce, Inc.",
+      "sub_industry": "Software - Application",
+      "close": 227.27,
+      "sig": "S",
+      "tr": 90.3,
+      "mom": 13.0,
       "panic": "✓",
-      "weekly": "无背离",
-      "days": 0
-    },
-    {
-      "ticker": "MSTR.US",
-      "name": "Strategy",
-      "sub_industry": "Software - Application",
-      "close": 158.61,
-      "sig": "S",
-      "tr": 93.9,
-      "mom": 36.0,
-      "panic": "",
       "weekly": "柱≥0",
       "days": 0
     },
     {
-      "ticker": "NOW.US",
-      "name": "ServiceNow",
-      "sub_industry": "Software - Application",
-      "close": 135.62,
-      "sig": "S",
-      "tr": 91.7,
-      "mom": 35.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 0
-    },
-    {
-      "ticker": "REGN.US",
-      "name": "Regeneron Pharmaceuticals",
-      "sub_industry": "Biotechnology",
-      "close": 788.04,
-      "sig": "S",
-      "tr": 87.0,
-      "mom": 32.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 0
-    },
-    {
-      "ticker": "RGLD.US",
-      "name": "Royal Gold",
-      "sub_industry": "Gold",
-      "close": 252.49,
-      "sig": "S",
-      "tr": 96.6,
-      "mom": 38.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 0
-    },
-    {
-      "ticker": "ZS.US",
-      "name": "Zscaler, Inc.",
+      "ticker": "CRWD.US",
+      "name": "CrowdStrike",
       "sub_industry": "Software - Infrastructure",
-      "close": 193.05,
-      "sig": "S",
-      "tr": 102.3,
-      "mom": 23.0,
+      "close": 259.25,
+      "sig": "s",
+      "tr": 92.2,
+      "mom": 56.0,
       "panic": "",
       "weekly": "柱≥0",
       "days": 0
-    },
-    {
-      "ticker": "GILD.US",
-      "name": "Gilead Sciences, Inc.",
-      "sub_industry": "Drug Manufacturers - General",
-      "close": 150.93,
-      "sig": "",
-      "tr": 102.4,
-      "mom": 43.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 1
-    },
-    {
-      "ticker": "HOOD.US",
-      "name": "Robinhood",
-      "sub_industry": "Capital Markets",
-      "close": 119.4,
-      "sig": "",
-      "tr": 87.5,
-      "mom": 36.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 1
-    },
-    {
-      "ticker": "NEM.US",
-      "name": "Newmont Corporation",
-      "sub_industry": "Gold",
-      "close": 121.43,
-      "sig": "",
-      "tr": 91.3,
-      "mom": 15.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 1
-    },
-    {
-      "ticker": "SDGR.US",
-      "name": "Schrodinger",
-      "sub_industry": "Health Information Services",
-      "close": 28.85,
-      "sig": "",
-      "tr": 95.4,
-      "mom": 26.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 1
-    },
-    {
-      "ticker": "AEM.US",
-      "name": "Agnico Eagle Mines Limited",
-      "sub_industry": "Gold",
-      "close": 194.48,
-      "sig": "",
-      "tr": 87.6,
-      "mom": 18.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 2
-    },
-    {
-      "ticker": "FNV.US",
-      "name": "Franco-Nevada",
-      "sub_industry": "Gold",
-      "close": 257.87,
-      "sig": "",
-      "tr": 103.9,
-      "mom": 15.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 2
-    },
-    {
-      "ticker": "TWST.US",
-      "name": "Twist Bioscience",
-      "sub_industry": "Diagnostics & Research",
-      "close": 182.83,
-      "sig": "",
-      "tr": 90.2,
-      "mom": 88.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 2
-    },
-    {
-      "ticker": "WPM.US",
-      "name": "Wheaton Precious Metals",
-      "sub_industry": "Gold",
-      "close": 142.92,
-      "sig": "",
-      "tr": 91.5,
-      "mom": 11.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 2
-    },
-    {
-      "ticker": "CME.US",
-      "name": "CME Group",
-      "sub_industry": "Financial Data & Stock Exchanges",
-      "close": 264.48,
-      "sig": "",
-      "tr": 88.1,
-      "mom": 26.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 3
     },
     {
       "ticker": "DELL.US",
       "name": "Dell Technologies, Inc. Class ",
       "sub_industry": "Computer Hardware",
-      "close": 562.89,
-      "sig": "",
-      "tr": 87.1,
-      "mom": 49.0,
+      "close": 543.43,
+      "sig": "S",
+      "tr": 85.9,
+      "mom": 26.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 0
     },
     {
-      "ticker": "DHT.US",
-      "name": "DHT Holdings, Inc.",
-      "sub_industry": "Oil & Gas Midstream",
-      "close": 21.78,
-      "sig": "",
-      "tr": 95.6,
-      "mom": 34.0,
+      "ticker": "HOOD.US",
+      "name": "Robinhood",
+      "sub_industry": "Capital Markets",
+      "close": 116.46,
+      "sig": "S",
+      "tr": 86.9,
+      "mom": 25.0,
       "panic": "✓",
       "weekly": "柱≥0",
-      "days": 3
-    },
-    {
-      "ticker": "FRO.US",
-      "name": "Frontline Plc",
-      "sub_industry": "Oil & Gas Midstream",
-      "close": 47.73,
-      "sig": "",
-      "tr": 94.5,
-      "mom": 25.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 3
+      "days": 0
     },
     {
       "ticker": "ICE.US",
       "name": "Intercontinental Exchange",
       "sub_industry": "Financial Data & Stock Exchanges",
-      "close": 154.31,
+      "close": 152.91,
+      "sig": "S",
+      "tr": 92.0,
+      "mom": 29.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 0
+    },
+    {
+      "ticker": "META.US",
+      "name": "Meta Platforms",
+      "sub_industry": "Internet Content & Information",
+      "close": 715.62,
+      "sig": "s",
+      "tr": 92.5,
+      "mom": 31.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 0
+    },
+    {
+      "ticker": "PLTR.US",
+      "name": "Palantir",
+      "sub_industry": "Software - Infrastructure",
+      "close": 187.48,
+      "sig": "s",
+      "tr": 103.0,
+      "mom": 45.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 0
+    },
+    {
+      "ticker": "ABBV.US",
+      "name": "AbbVie, Inc.",
+      "sub_industry": "Drug Manufacturers - General",
+      "close": 266.28,
       "sig": "",
-      "tr": 93.6,
+      "tr": 94.5,
+      "mom": 62.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "COIN.US",
+      "name": "Coinbase",
+      "sub_industry": "Financial Data & Stock Exchanges",
+      "close": 191.79,
+      "sig": "",
+      "tr": 90.6,
+      "mom": 40.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "FTNT.US",
+      "name": "Fortinet, Inc.",
+      "sub_industry": "Software - Infrastructure",
+      "close": 176.33,
+      "sig": "",
+      "tr": 86.1,
+      "mom": 49.0,
+      "panic": "✓",
+      "weekly": "无背离",
+      "days": 1
+    },
+    {
+      "ticker": "MSTR.US",
+      "name": "Strategy",
+      "sub_industry": "Software - Application",
+      "close": 157.14,
+      "sig": "",
+      "tr": 95.5,
       "mom": 34.0,
+      "panic": "✓",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "NOW.US",
+      "name": "ServiceNow",
+      "sub_industry": "Software - Application",
+      "close": 131.45,
+      "sig": "",
+      "tr": 89.9,
+      "mom": 14.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "REGN.US",
+      "name": "Regeneron Pharmaceuticals",
+      "sub_industry": "Biotechnology",
+      "close": 752.25,
+      "sig": "",
+      "tr": 83.9,
+      "mom": 26.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "RGLD.US",
+      "name": "Royal Gold",
+      "sub_industry": "Gold",
+      "close": 240.32,
+      "sig": "",
+      "tr": 93.8,
+      "mom": 12.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "ZS.US",
+      "name": "Zscaler, Inc.",
+      "sub_industry": "Software - Infrastructure",
+      "close": 199.39,
+      "sig": "",
+      "tr": 101.2,
+      "mom": 24.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 1
+    },
+    {
+      "ticker": "GILD.US",
+      "name": "Gilead Sciences, Inc.",
+      "sub_industry": "Drug Manufacturers - General",
+      "close": 152.21,
+      "sig": "",
+      "tr": 102.9,
+      "mom": 59.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 2
+    },
+    {
+      "ticker": "NEM.US",
+      "name": "Newmont Corporation",
+      "sub_industry": "Gold",
+      "close": 116.05,
+      "sig": "",
+      "tr": 88.3,
+      "mom": 13.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 2
+    },
+    {
+      "ticker": "SDGR.US",
+      "name": "Schrodinger",
+      "sub_industry": "Health Information Services",
+      "close": 29.5,
+      "sig": "",
+      "tr": 95.1,
+      "mom": 51.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 2
+    },
+    {
+      "ticker": "AEM.US",
+      "name": "Agnico Eagle Mines Limited",
+      "sub_industry": "Gold",
+      "close": 184.15,
+      "sig": "",
+      "tr": 84.7,
+      "mom": 12.0,
       "panic": "",
       "weekly": "柱≥0",
       "days": 3
+    },
+    {
+      "ticker": "FNV.US",
+      "name": "Franco-Nevada",
+      "sub_industry": "Gold",
+      "close": 245.81,
+      "sig": "",
+      "tr": 100.4,
+      "mom": 12.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 3
+    },
+    {
+      "ticker": "TWST.US",
+      "name": "Twist Bioscience",
+      "sub_industry": "Diagnostics & Research",
+      "close": 179.6,
+      "sig": "",
+      "tr": 90.9,
+      "mom": 75.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 3
+    },
+    {
+      "ticker": "WPM.US",
+      "name": "Wheaton Precious Metals",
+      "sub_industry": "Gold",
+      "close": 135.62,
+      "sig": "",
+      "tr": 87.9,
+      "mom": 12.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 3
+    },
+    {
+      "ticker": "CME.US",
+      "name": "CME Group",
+      "sub_industry": "Financial Data & Stock Exchanges",
+      "close": 263.24,
+      "sig": "",
+      "tr": 86.4,
+      "mom": 26.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 4
+    },
+    {
+      "ticker": "DHT.US",
+      "name": "DHT Holdings, Inc.",
+      "sub_industry": "Oil & Gas Midstream",
+      "close": 21.9,
+      "sig": "",
+      "tr": 94.5,
+      "mom": 45.0,
+      "panic": "✓",
+      "weekly": "柱≥0",
+      "days": 4
+    },
+    {
+      "ticker": "FRO.US",
+      "name": "Frontline Plc",
+      "sub_industry": "Oil & Gas Midstream",
+      "close": 48.1,
+      "sig": "",
+      "tr": 93.1,
+      "mom": 44.0,
+      "panic": "",
+      "weekly": "柱≥0",
+      "days": 4
     },
     {
       "ticker": "INSW.US",
       "name": "International Seaways, Inc.",
       "sub_industry": "Oil & Gas Midstream",
-      "close": 105.64,
+      "close": 108.31,
       "sig": "",
-      "tr": 89.9,
-      "mom": 45.0,
+      "tr": 89.8,
+      "mom": 69.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "JNJ.US",
       "name": "Johnson & Johnson",
       "sub_industry": "Drug Manufacturers - General",
-      "close": 271.22,
+      "close": 271.95,
       "sig": "",
-      "tr": 84.7,
-      "mom": 61.0,
+      "tr": 84.9,
+      "mom": 62.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "SBLK.US",
       "name": "Star Bulk Carriers Corp.",
       "sub_industry": "Marine Shipping",
-      "close": 29.54,
+      "close": 29.3,
       "sig": "",
-      "tr": 82.3,
-      "mom": 13.0,
+      "tr": 79.5,
+      "mom": 15.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "STNG.US",
       "name": "Scorpio Tankers Inc.",
       "sub_industry": "Oil & Gas Midstream",
-      "close": 81.49,
+      "close": 83.19,
       "sig": "",
-      "tr": 84.1,
-      "mom": 20.0,
+      "tr": 83.0,
+      "mom": 48.0,
       "panic": "✓",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "VLO.US",
       "name": "Valero",
       "sub_industry": "Oil & Gas Refining & Marketing",
-      "close": 387.18,
+      "close": 389.57,
       "sig": "",
-      "tr": 90.5,
-      "mom": 34.0,
+      "tr": 89.5,
+      "mom": 55.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 3
+      "days": 4
     },
     {
       "ticker": "MPC.US",
       "name": "Marathon Petroleum",
       "sub_industry": "Oil & Gas Refining & Marketing",
-      "close": 393.52,
+      "close": 389.44,
       "sig": "",
-      "tr": 89.9,
-      "mom": 20.0,
+      "tr": 88.2,
+      "mom": 27.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 4
+      "days": 5
     },
     {
       "ticker": "PSX.US",
       "name": "Phillips 66",
       "sub_industry": "Oil & Gas Refining & Marketing",
-      "close": 255.75,
+      "close": 253.55,
       "sig": "",
-      "tr": 93.1,
-      "mom": 15.0,
-      "panic": "✓",
-      "weekly": "柱≥0",
-      "days": 4
-    },
-    {
-      "ticker": "CF.US",
-      "name": "CF Industries Holdings, Inc.",
-      "sub_industry": "Agricultural Inputs",
-      "close": 114.67,
-      "sig": "",
-      "tr": 69.0,
+      "tr": 91.3,
       "mom": 17.0,
       "panic": "✓",
       "weekly": "柱≥0",
       "days": 5
     },
     {
+      "ticker": "CF.US",
+      "name": "CF Industries Holdings, Inc.",
+      "sub_industry": "Agricultural Inputs",
+      "close": 115.51,
+      "sig": "",
+      "tr": 64.5,
+      "mom": 19.0,
+      "panic": "✓",
+      "weekly": "无背离",
+      "days": 6
+    },
+    {
       "ticker": "LDOS.US",
       "name": "Leidos Holdings, Inc.",
       "sub_industry": "Information Technology Services",
-      "close": 123.61,
+      "close": 122.35,
       "sig": "",
-      "tr": 72.9,
-      "mom": 35.0,
+      "tr": 70.6,
+      "mom": 30.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 5
+      "days": 6
     },
     {
       "ticker": "MOS.US",
       "name": "Mosaic Company",
       "sub_industry": "Agricultural Inputs",
-      "close": 23.01,
+      "close": 22.25,
       "sig": "",
-      "tr": 82.4,
-      "mom": 23.0,
-      "panic": "",
+      "tr": 77.0,
+      "mom": 22.0,
+      "panic": "✓",
       "weekly": "柱≥0",
-      "days": 5
+      "days": 6
     },
     {
       "ticker": "MSFT.US",
       "name": "Microsoft",
       "sub_industry": "Software - Infrastructure",
-      "close": 516.17,
+      "close": 509.22,
       "sig": "",
-      "tr": 101.2,
-      "mom": 75.0,
+      "tr": 101.6,
+      "mom": 68.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 5
+      "days": 6
     },
     {
       "ticker": "NTR.US",
       "name": "Nutrien Ltd.",
       "sub_industry": "Agricultural Inputs",
-      "close": 72.23,
+      "close": 71.98,
       "sig": "",
-      "tr": 87.0,
+      "tr": 83.7,
       "mom": 18.0,
-      "panic": "",
-      "weekly": "柱≥0",
-      "days": 5
-    },
-    {
-      "ticker": "CRM.US",
-      "name": "Salesforce, Inc.",
-      "sub_industry": "Software - Application",
-      "close": 234.02,
-      "sig": "",
-      "tr": 92.7,
-      "mom": 26.0,
       "panic": "✓",
       "weekly": "柱≥0",
       "days": 6
@@ -2220,85 +2823,85 @@
       "ticker": "V.US",
       "name": "Visa",
       "sub_industry": "Credit Services",
-      "close": 367.38,
+      "close": 367.74,
       "sig": "",
-      "tr": 77.7,
-      "mom": 47.0,
+      "tr": 76.8,
+      "mom": 51.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 6
+      "days": 7
     },
     {
       "ticker": "WFC.US",
       "name": "Wells Fargo",
       "sub_industry": "Banks - Diversified",
-      "close": 82.97,
+      "close": 80.81,
       "sig": "",
-      "tr": 50.4,
-      "mom": 30.0,
-      "panic": "",
+      "tr": 42.3,
+      "mom": 19.0,
+      "panic": "✓",
       "weekly": "柱≥0",
-      "days": 6
+      "days": 7
     },
     {
       "ticker": "ADBE.US",
       "name": "Adobe Inc.",
       "sub_industry": "Software - Application",
-      "close": 235.47,
+      "close": 231.01,
       "sig": "",
-      "tr": 63.6,
-      "mom": 29.0,
+      "tr": 60.0,
+      "mom": 16.0,
       "panic": "✓",
       "weekly": "柱≥0",
-      "days": 7
+      "days": 8
     },
     {
       "ticker": "MA.US",
       "name": "Mastercard",
       "sub_industry": "Credit Services",
-      "close": 567.65,
+      "close": 568.26,
       "sig": "",
-      "tr": 77.5,
+      "tr": 76.6,
       "mom": 61.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 7
+      "days": 8
     },
     {
       "ticker": "VRTX.US",
       "name": "Vertex Pharmaceuticals Incorpo",
       "sub_industry": "Biotechnology",
-      "close": 526.19,
+      "close": 527.67,
       "sig": "",
-      "tr": 76.0,
-      "mom": 63.0,
+      "tr": 75.9,
+      "mom": 66.0,
       "panic": "",
       "weekly": "柱≥0",
-      "days": 7
+      "days": 8
     },
     {
       "ticker": "GLNCY.US",
       "name": "Glencore plc",
       "sub_industry": "Other Industrial Metals & Mining",
-      "close": 14.86,
+      "close": 14.62,
       "sig": "",
-      "tr": 64.6,
-      "mom": 52.0,
+      "tr": 61.6,
+      "mom": 47.0,
       "panic": "✓",
-      "weekly": "柱≥0",
-      "days": 9
+      "weekly": "无背离",
+      "days": 10
     },
     {
       "ticker": "JPM.US",
       "name": "JPMorgan Chase",
       "sub_industry": "Banks - Diversified",
-      "close": 343.06,
+      "close": 336.59,
       "sig": "",
-      "tr": 67.7,
-      "mom": 39.0,
+      "tr": 64.2,
+      "mom": 24.0,
       "panic": "",
-      "weekly": "柱≥0",
-      "days": 9
+      "weekly": "无背离",
+      "days": 10
     }
   ],
   "all_stocks": [
@@ -2307,46 +2910,46 @@
       "name": "Marathon Petroleum",
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
-      "close": 393.52,
-      "hotness": 2.2,
-      "ret_60": 0.49,
-      "pct_high_250": 0.926,
+      "close": 389.44,
+      "hotness": 2.187,
+      "ret_60": 0.466,
+      "pct_high_250": 0.917,
       "ma_aligned": 1,
-      "days_below_ma10": 5
+      "days_below_ma10": 6
     },
     {
       "ticker": "VLO.US",
       "name": "Valero",
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
-      "close": 387.18,
-      "hotness": 2.137,
-      "ret_60": 0.443,
-      "pct_high_250": 0.937,
+      "close": 389.57,
+      "hotness": 2.184,
+      "ret_60": 0.461,
+      "pct_high_250": 0.943,
       "ma_aligned": 1,
-      "days_below_ma10": 5
+      "days_below_ma10": 6
     },
     {
       "ticker": "DELL.US",
       "name": "Dell Tech, Inc. Clas…",
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
-      "close": 562.89,
-      "hotness": 1.945,
-      "ret_60": 0.326,
-      "pct_high_250": 0.957,
+      "close": 543.43,
+      "hotness": 1.912,
+      "ret_60": 0.38,
+      "pct_high_250": 0.924,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 1
     },
     {
       "ticker": "MRNA.US",
       "name": "Moderna",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 198.88,
-      "hotness": 1.9,
-      "ret_60": 1.743,
-      "pct_high_250": 1.0,
+      "close": 197.28,
+      "hotness": 1.794,
+      "ret_60": 1.473,
+      "pct_high_250": 0.992,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2355,10 +2958,10 @@
       "name": "Twist Bioscience",
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
-      "close": 182.83,
-      "hotness": 1.702,
-      "ret_60": 0.788,
-      "pct_high_250": 0.993,
+      "close": 179.6,
+      "hotness": 1.707,
+      "ret_60": 0.81,
+      "pct_high_250": 0.976,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2367,22 +2970,22 @@
       "name": "Phillips 66",
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
-      "close": 255.75,
-      "hotness": 1.675,
-      "ret_60": 0.473,
-      "pct_high_250": 0.933,
+      "close": 253.55,
+      "hotness": 1.701,
+      "ret_60": 0.445,
+      "pct_high_250": 0.925,
       "ma_aligned": 1,
-      "days_below_ma10": 5
+      "days_below_ma10": 6
     },
     {
       "ticker": "TMO.US",
       "name": "Thermo Fisher",
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
-      "close": 675.0,
-      "hotness": 1.498,
-      "ret_60": 0.316,
-      "pct_high_250": 0.995,
+      "close": 678.6,
+      "hotness": 1.584,
+      "ret_60": 0.297,
+      "pct_high_250": 1.0,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2391,22 +2994,22 @@
       "name": "Intl Seaways",
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
-      "close": 105.64,
-      "hotness": 1.435,
-      "ret_60": 0.427,
-      "pct_high_250": 0.95,
+      "close": 108.31,
+      "hotness": 1.494,
+      "ret_60": 0.381,
+      "pct_high_250": 0.974,
       "ma_aligned": 1,
-      "days_below_ma10": 4
+      "days_below_ma10": 0
     },
     {
       "ticker": "CRWD.US",
       "name": "CrowdStrike",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 252.13,
-      "hotness": 1.422,
-      "ret_60": 0.305,
-      "pct_high_250": 0.961,
+      "close": 259.25,
+      "hotness": 1.456,
+      "ret_60": 0.336,
+      "pct_high_250": 0.988,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2415,10 +3018,10 @@
       "name": "Hewlett Packard Ente…",
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
-      "close": 62.94,
-      "hotness": 1.064,
-      "ret_60": 0.436,
-      "pct_high_250": 0.991,
+      "close": 62.63,
+      "hotness": 1.059,
+      "ret_60": 0.523,
+      "pct_high_250": 0.986,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2427,47 +3030,47 @@
       "name": "Frontline",
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
-      "close": 47.73,
-      "hotness": 1.013,
-      "ret_60": 0.468,
-      "pct_high_250": 0.928,
+      "close": 48.1,
+      "hotness": 1.01,
+      "ret_60": 0.397,
+      "pct_high_250": 0.935,
       "ma_aligned": 1,
-      "days_below_ma10": 4
-    },
-    {
-      "ticker": "META.US",
-      "name": "Meta Platforms",
-      "sub_industry": "Internet Content & Info",
-      "sector": "Comm Svc",
-      "close": 751.66,
-      "hotness": 0.942,
-      "ret_60": 0.227,
-      "pct_high_250": 0.967,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 5
     },
     {
       "ticker": "PANW.US",
       "name": "Palo Alto Net",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 374.74,
-      "hotness": 0.867,
-      "ret_60": 0.064,
-      "pct_high_250": 0.946,
-      "ma_aligned": 0,
+      "close": 392.09,
+      "hotness": 0.961,
+      "ret_60": 0.127,
+      "pct_high_250": 0.99,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "META.US",
+      "name": "Meta Platforms",
+      "sub_industry": "Internet Content & Info",
+      "sector": "Comm Svc",
+      "close": 715.62,
+      "hotness": 0.904,
+      "ret_60": 0.229,
+      "pct_high_250": 0.92,
+      "ma_aligned": 1,
       "days_below_ma10": 1
     },
     {
-      "ticker": "AMD.US",
-      "name": "AMD",
-      "sub_industry": "Semis",
-      "sector": "Info Tech",
-      "close": 630.63,
-      "hotness": 0.68,
-      "ret_60": 0.166,
-      "pct_high_250": 1.0,
-      "ma_aligned": 1,
+      "ticker": "DHR.US",
+      "name": "Danaher",
+      "sub_industry": "Diagnostics & Research",
+      "sector": "Health Care",
+      "close": 227.33,
+      "hotness": 0.761,
+      "ret_60": 0.149,
+      "pct_high_250": 0.943,
+      "ma_aligned": 0,
       "days_below_ma10": 0
     },
     {
@@ -2475,58 +3078,82 @@
       "name": "Microsoft",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 516.17,
-      "hotness": 0.676,
-      "ret_60": 0.346,
-      "pct_high_250": 0.96,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "DHR.US",
-      "name": "Danaher",
-      "sub_industry": "Diagnostics & Research",
-      "sector": "Health Care",
-      "close": 224.49,
-      "hotness": 0.651,
-      "ret_60": 0.159,
-      "pct_high_250": 0.931,
+      "close": 509.22,
+      "hotness": 0.659,
+      "ret_60": 0.307,
+      "pct_high_250": 0.947,
       "ma_aligned": 1,
       "days_below_ma10": 0
-    },
-    {
-      "ticker": "SBLK.US",
-      "name": "Star Bulk Carriers",
-      "sub_industry": "Marine Shipping",
-      "sector": "Industrials",
-      "close": 29.54,
-      "hotness": 0.622,
-      "ret_60": 0.227,
-      "pct_high_250": 0.909,
-      "ma_aligned": 0,
-      "days_below_ma10": 4
     },
     {
       "ticker": "DHT.US",
       "name": "DHT",
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
-      "close": 21.78,
-      "hotness": 0.613,
-      "ret_60": 0.405,
-      "pct_high_250": 0.936,
+      "close": 21.9,
+      "hotness": 0.653,
+      "ret_60": 0.36,
+      "pct_high_250": 0.941,
       "ma_aligned": 1,
-      "days_below_ma10": 4
+      "days_below_ma10": 5
+    },
+    {
+      "ticker": "SBLK.US",
+      "name": "Star Bulk Carriers",
+      "sub_industry": "Marine Shipping",
+      "sector": "Industrials",
+      "close": 29.3,
+      "hotness": 0.652,
+      "ret_60": 0.201,
+      "pct_high_250": 0.902,
+      "ma_aligned": 0,
+      "days_below_ma10": 5
+    },
+    {
+      "ticker": "AMD.US",
+      "name": "AMD",
+      "sub_industry": "Semis",
+      "sector": "Info Tech",
+      "close": 607.87,
+      "hotness": 0.652,
+      "ret_60": 0.174,
+      "pct_high_250": 0.964,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
     },
     {
       "ticker": "PLTR.US",
       "name": "Palantir",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 189.67,
-      "hotness": 0.597,
-      "ret_60": 0.509,
-      "pct_high_250": 0.915,
+      "close": 187.48,
+      "hotness": 0.586,
+      "ret_60": 0.45,
+      "pct_high_250": 0.905,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "NVDA.US",
+      "name": "NVIDIA",
+      "sub_industry": "Semis",
+      "sector": "Info Tech",
+      "close": 228.86,
+      "hotness": 0.542,
+      "ret_60": 0.176,
+      "pct_high_250": 0.973,
+      "ma_aligned": 1,
+      "days_below_ma10": 0
+    },
+    {
+      "ticker": "FTNT.US",
+      "name": "Fortinet",
+      "sub_industry": "Software - Infra",
+      "sector": "Info Tech",
+      "close": 176.33,
+      "hotness": 0.537,
+      "ret_60": 0.129,
+      "pct_high_250": 0.987,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2535,34 +3162,10 @@
       "name": "Intel",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 123.0,
-      "hotness": 0.57,
-      "ret_60": -0.032,
-      "pct_high_250": 0.873,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "FTNT.US",
-      "name": "Fortinet",
-      "sub_industry": "Software - Infra",
-      "sector": "Info Tech",
-      "close": 173.46,
-      "hotness": 0.513,
-      "ret_60": 0.091,
-      "pct_high_250": 0.97,
-      "ma_aligned": 1,
-      "days_below_ma10": 1
-    },
-    {
-      "ticker": "NVDA.US",
-      "name": "NVIDIA",
-      "sub_industry": "Semis",
-      "sector": "Info Tech",
-      "close": 225.07,
-      "hotness": 0.507,
-      "ret_60": 0.14,
-      "pct_high_250": 0.957,
+      "close": 116.03,
+      "hotness": 0.518,
+      "ret_60": -0.036,
+      "pct_high_250": 0.823,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2571,11 +3174,23 @@
       "name": "Kawasaki Kisen",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 21.927,
-      "hotness": 0.491,
-      "ret_60": 0.403,
-      "pct_high_250": 0.972,
+      "close": 21.655,
+      "hotness": 0.476,
+      "ret_60": 0.394,
+      "pct_high_250": 0.959,
       "ma_aligned": 1,
+      "days_below_ma10": 1
+    },
+    {
+      "ticker": "LITE.US",
+      "name": "Lumentum",
+      "sub_industry": "Comm Equip",
+      "sector": "Info Tech",
+      "close": 921.32,
+      "hotness": 0.476,
+      "ret_60": 0.265,
+      "pct_high_250": 0.875,
+      "ma_aligned": 0,
       "days_below_ma10": 0
     },
     {
@@ -2583,22 +3198,22 @@
       "name": "Nippon Yusen Kaisha",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 46.796,
-      "hotness": 0.487,
-      "ret_60": 0.399,
-      "pct_high_250": 0.973,
+      "close": 46.419,
+      "hotness": 0.457,
+      "ret_60": 0.405,
+      "pct_high_250": 0.965,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 1
     },
     {
-      "ticker": "LITE.US",
-      "name": "Lumentum",
-      "sub_industry": "Comm Equip",
+      "ticker": "TSM.US",
+      "name": "Taiwan Semi",
+      "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 941.65,
-      "hotness": 0.477,
-      "ret_60": 0.175,
-      "pct_high_250": 0.894,
+      "close": 452.88,
+      "hotness": 0.366,
+      "ret_60": 0.046,
+      "pct_high_250": 0.951,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2607,10 +3222,10 @@
       "name": "Micron Tech",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 1082.28,
-      "hotness": 0.385,
-      "ret_60": 0.049,
-      "pct_high_250": 0.892,
+      "close": 1053.98,
+      "hotness": 0.364,
+      "ret_60": 0.081,
+      "pct_high_250": 0.869,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2619,10 +3234,10 @@
       "name": "Arista Net",
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
-      "close": 206.55,
-      "hotness": 0.318,
-      "ret_60": 0.24,
-      "pct_high_250": 0.981,
+      "close": 204.92,
+      "hotness": 0.306,
+      "ret_60": 0.281,
+      "pct_high_250": 0.973,
       "ma_aligned": 1,
       "days_below_ma10": 0
     },
@@ -2631,34 +3246,22 @@
       "name": "Regeneron Pharma",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 788.04,
-      "hotness": 0.31,
-      "ret_60": 0.263,
-      "pct_high_250": 0.925,
+      "close": 752.25,
+      "hotness": 0.301,
+      "ret_60": 0.151,
+      "pct_high_250": 0.883,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 2
     },
     {
       "ticker": "NBIS.US",
       "name": "Nebius Group N.V. Cl…",
       "sub_industry": "Internet Content & Info",
       "sector": "Info Tech",
-      "close": 237.33,
-      "hotness": 0.293,
-      "ret_60": 0.036,
-      "pct_high_250": 0.828,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "TSM.US",
-      "name": "Taiwan Semi",
-      "sub_industry": "Semis",
-      "sector": "Info Tech",
-      "close": 450.61,
-      "hotness": 0.293,
-      "ret_60": 0.017,
-      "pct_high_250": 0.946,
+      "close": 231.88,
+      "hotness": 0.279,
+      "ret_60": 0.075,
+      "pct_high_250": 0.809,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2667,10 +3270,22 @@
       "name": "Mitsui O.S.K. Lines",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 45.15,
+      "close": 45.262,
       "hotness": 0.27,
-      "ret_60": 0.362,
-      "pct_high_250": 0.955,
+      "ret_60": 0.361,
+      "pct_high_250": 0.957,
+      "ma_aligned": 1,
+      "days_below_ma10": 3
+    },
+    {
+      "ticker": "ZS.US",
+      "name": "Zscaler",
+      "sub_industry": "Software - Infra",
+      "sector": "Info Tech",
+      "close": 199.39,
+      "hotness": 0.22,
+      "ret_60": 0.353,
+      "pct_high_250": 0.593,
       "ma_aligned": 1,
       "days_below_ma10": 2
     },
@@ -2679,34 +3294,10 @@
       "name": "Vertex Pharma Incorp…",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 526.19,
-      "hotness": 0.228,
-      "ret_60": 0.057,
-      "pct_high_250": 0.943,
-      "ma_aligned": 0,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "SMCI.US",
-      "name": "Super Micro Computer",
-      "sub_industry": "Computer Hardware",
-      "sector": "Info Tech",
-      "close": 43.26,
-      "hotness": 0.211,
-      "ret_60": 0.565,
-      "pct_high_250": 0.737,
-      "ma_aligned": 1,
-      "days_below_ma10": 0
-    },
-    {
-      "ticker": "MRVL.US",
-      "name": "Marvell Tech",
-      "sub_industry": "Semis",
-      "sector": "Info Tech",
-      "close": 261.94,
-      "hotness": 0.201,
-      "ret_60": -0.037,
-      "pct_high_250": 0.828,
+      "close": 527.67,
+      "hotness": 0.198,
+      "ret_60": -0.001,
+      "pct_high_250": 0.946,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2715,82 +3306,82 @@
       "name": "Alphabet",
       "sub_industry": "Internet Content & Info",
       "sector": "Comm Svc",
-      "close": 343.92,
-      "hotness": 0.171,
+      "close": 342.75,
+      "hotness": 0.176,
       "ret_60": -0.047,
-      "pct_high_250": 0.855,
+      "pct_high_250": 0.852,
       "ma_aligned": 0,
-      "days_below_ma10": 3
+      "days_below_ma10": 4
     },
     {
-      "ticker": "ZS.US",
-      "name": "Zscaler",
-      "sub_industry": "Software - Infra",
+      "ticker": "SMCI.US",
+      "name": "Super Micro Computer",
+      "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
-      "close": 193.05,
-      "hotness": 0.142,
-      "ret_60": 0.318,
-      "pct_high_250": 0.574,
+      "close": 41.78,
+      "hotness": 0.169,
+      "ret_60": 0.535,
+      "pct_high_250": 0.712,
       "ma_aligned": 1,
-      "days_below_ma10": 1
-    },
-    {
-      "ticker": "CRDO.US",
-      "name": "Credo Tech",
-      "sub_industry": "Semis",
-      "sector": "Info Tech",
-      "close": 210.97,
-      "hotness": 0.104,
-      "ret_60": -0.186,
-      "pct_high_250": 0.697,
-      "ma_aligned": 0,
       "days_below_ma10": 0
     },
     {
-      "ticker": "AVGO.US",
-      "name": "Broadcom",
+      "ticker": "MRVL.US",
+      "name": "Marvell Tech",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 352.81,
-      "hotness": 0.078,
-      "ret_60": -0.043,
-      "pct_high_250": 0.735,
+      "close": 251.9,
+      "hotness": 0.116,
+      "ret_60": 0.027,
+      "pct_high_250": 0.796,
       "ma_aligned": 0,
       "days_below_ma10": 0
-    },
-    {
-      "ticker": "5020.JP",
-      "name": "ENEOS",
-      "sub_industry": "Oil & Gas Refg & Mktg",
-      "sector": "Energy",
-      "close": 9.124,
-      "hotness": 0.074,
-      "ret_60": 0.182,
-      "pct_high_250": 0.941,
-      "ma_aligned": 1,
-      "days_below_ma10": 3
     },
     {
       "ticker": "STNG.US",
       "name": "Scorpio Tankers",
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
-      "close": 81.49,
-      "hotness": 0.04,
-      "ret_60": 0.179,
-      "pct_high_250": 0.928,
+      "close": 83.19,
+      "hotness": 0.096,
+      "ret_60": 0.146,
+      "pct_high_250": 0.947,
+      "ma_aligned": 1,
+      "days_below_ma10": 5
+    },
+    {
+      "ticker": "AVGO.US",
+      "name": "Broadcom",
+      "sub_industry": "Semis",
+      "sector": "Info Tech",
+      "close": 349.57,
+      "hotness": 0.089,
+      "ret_60": -0.028,
+      "pct_high_250": 0.728,
+      "ma_aligned": 0,
+      "days_below_ma10": 1
+    },
+    {
+      "ticker": "5020.JP",
+      "name": "ENEOS",
+      "sub_industry": "Oil & Gas Refg & Mktg",
+      "sector": "Energy",
+      "close": 9.08,
+      "hotness": 0.082,
+      "ret_60": 0.19,
+      "pct_high_250": 0.936,
       "ma_aligned": 1,
       "days_below_ma10": 4
     },
     {
-      "ticker": "UMC.US",
-      "name": "United Microelectron…",
+      "ticker": "CRDO.US",
+      "name": "Credo Tech",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 24.31,
-      "hotness": 0.0,
-      "ret_60": -0.038,
-      "pct_high_250": 0.883,
+      "close": 192.67,
+      "hotness": 0.042,
+      "ret_60": -0.204,
+      "pct_high_250": 0.637,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2799,34 +3390,46 @@
       "name": "Monolithic Power Sys",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 1367.43,
-      "hotness": -0.025,
-      "ret_60": 0.027,
-      "pct_high_250": 0.81,
+      "close": 1351.2,
+      "hotness": -0.039,
+      "ret_60": 0.049,
+      "pct_high_250": 0.801,
       "ma_aligned": 0,
       "days_below_ma10": 0
+    },
+    {
+      "ticker": "UMC.US",
+      "name": "United Microelectron…",
+      "sub_industry": "Semis",
+      "sector": "Info Tech",
+      "close": 23.85,
+      "hotness": -0.093,
+      "ret_60": -0.011,
+      "pct_high_250": 0.866,
+      "ma_aligned": 0,
+      "days_below_ma10": 1
     },
     {
       "ticker": "ARM.US",
       "name": "Arm",
       "sub_industry": "Semis",
       "sector": "Info Tech",
-      "close": 310.32,
-      "hotness": -0.07,
-      "ret_60": -0.08,
-      "pct_high_250": 0.706,
+      "close": 283.33,
+      "hotness": -0.131,
+      "ret_60": -0.101,
+      "pct_high_250": 0.645,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 1
     },
     {
       "ticker": "CRWV.US",
       "name": "CoreWeave",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 87.59,
-      "hotness": -0.266,
-      "ret_60": 0.022,
-      "pct_high_250": 0.612,
+      "close": 85.07,
+      "hotness": -0.289,
+      "ret_60": 0.041,
+      "pct_high_250": 0.595,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2835,22 +3438,22 @@
       "name": "Oracle",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
-      "close": 137.1,
-      "hotness": -0.426,
-      "ret_60": -0.035,
-      "pct_high_250": 0.442,
+      "close": 132.6,
+      "hotness": -0.406,
+      "ret_60": -0.051,
+      "pct_high_250": 0.428,
       "ma_aligned": 0,
-      "days_below_ma10": 3
+      "days_below_ma10": 4
     },
     {
       "ticker": "BNTX.US",
       "name": "BioNTech",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 98.52,
-      "hotness": -0.508,
-      "ret_60": 0.049,
-      "pct_high_250": 0.826,
+      "close": 99.08,
+      "hotness": -0.555,
+      "ret_60": 0.016,
+      "pct_high_250": 0.83,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2859,22 +3462,22 @@
       "name": "CRISPR Therapeutics",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 54.23,
-      "hotness": -0.731,
-      "ret_60": -0.025,
-      "pct_high_250": 0.706,
+      "close": 54.09,
+      "hotness": -0.774,
+      "ret_60": -0.1,
+      "pct_high_250": 0.704,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 2
     },
     {
       "ticker": "ALNY.US",
       "name": "Alnylam",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 255.96,
-      "hotness": -0.894,
-      "ret_60": -0.152,
-      "pct_high_250": 0.521,
+      "close": 255.36,
+      "hotness": -0.873,
+      "ret_60": -0.184,
+      "pct_high_250": 0.52,
       "ma_aligned": 0,
       "days_below_ma10": 0
     },
@@ -2883,11 +3486,11 @@
       "name": "Recursion",
       "sub_industry": "Biotech",
       "sector": "Health Care",
-      "close": 3.74,
-      "hotness": -0.996,
-      "ret_60": 0.019,
-      "pct_high_250": 0.551,
-      "ma_aligned": 0,
+      "close": 3.7,
+      "hotness": -1.066,
+      "ret_60": -0.026,
+      "pct_high_250": 0.545,
+      "ma_aligned": 1,
       "days_below_ma10": 0
     },
     {
@@ -2895,10 +3498,10 @@
       "name": "AST SpaceMobile",
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
-      "close": 61.81,
-      "hotness": -1.097,
-      "ret_60": -0.282,
-      "pct_high_250": 0.464,
+      "close": 61.0,
+      "hotness": -1.108,
+      "ret_60": -0.283,
+      "pct_high_250": 0.458,
       "ma_aligned": 0,
       "days_below_ma10": 0
     }

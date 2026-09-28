@@ -1,17 +1,17 @@
-2026-09-28 19:39:49,844 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6606.HK"}}}
-2026-09-28 19:39:49,897 $6606.HK: possibly delisted; no timezone found
-2026-09-28 19:39:49,903 
+2026-09-28 23:39:22,848 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6606.HK"}}}
+2026-09-28 23:39:22,956 $6606.HK: possibly delisted; no timezone found
+2026-09-28 23:39:22,965 
 1 Failed download:
-2026-09-28 19:39:49,903 ['6606.HK']: possibly delisted; no timezone found
-2026-09-28 19:39:56,145 $0973.HK: possibly delisted; no timezone found
-2026-09-28 19:39:56,147 
+2026-09-28 23:39:22,965 ['6606.HK']: possibly delisted; no timezone found
+2026-09-28 23:39:30,755 $0973.HK: possibly delisted; no timezone found
+2026-09-28 23:39:30,764 
 1 Failed download:
-2026-09-28 19:39:56,147 ['0973.HK']: possibly delisted; no timezone found
-2026-09-28 19:40:06,105 $1558.HK: possibly delisted; no timezone found
-2026-09-28 19:40:06,114 
+2026-09-28 23:39:30,764 ['0973.HK']: possibly delisted; no timezone found
+2026-09-28 23:39:43,307 $1558.HK: possibly delisted; no timezone found
+2026-09-28 23:39:43,316 
 1 Failed download:
-2026-09-28 19:40:06,114 ['1558.HK']: possibly delisted; no timezone found
-2026-09-28 19:40:17,217 $9666.HK: possibly delisted; no timezone found
-2026-09-28 19:40:17,226 
+2026-09-28 23:39:43,316 ['1558.HK']: possibly delisted; no timezone found
+2026-09-28 23:39:57,167 $9666.HK: possibly delisted; no timezone found
+2026-09-28 23:39:57,171 
 1 Failed download:
-2026-09-28 19:40:17,226 ['9666.HK']: possibly delisted; no timezone found
+2026-09-28 23:39:57,171 ['9666.HK']: possibly delisted; no timezone found
