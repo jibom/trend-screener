@@ -1,45 +1,17 @@
-2026-09-27 22:03:51,935 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6606.HK"}}}
-2026-09-27 22:03:52,152 $6606.HK: possibly delisted; no timezone found
-2026-09-27 22:03:52,154 
+2026-09-28 19:39:49,844 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6606.HK"}}}
+2026-09-28 19:39:49,897 $6606.HK: possibly delisted; no timezone found
+2026-09-28 19:39:49,903 
 1 Failed download:
-2026-09-27 22:03:52,154 ['6606.HK']: possibly delisted; no timezone found
-2026-09-27 22:03:56,645 $2252.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:03:56,650 
+2026-09-28 19:39:49,903 ['6606.HK']: possibly delisted; no timezone found
+2026-09-28 19:39:56,145 $0973.HK: possibly delisted; no timezone found
+2026-09-28 19:39:56,147 
 1 Failed download:
-2026-09-27 22:03:56,650 ['2252.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:03:57,627 $2172.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:03:57,627 
+2026-09-28 19:39:56,147 ['0973.HK']: possibly delisted; no timezone found
+2026-09-28 19:40:06,105 $1558.HK: possibly delisted; no timezone found
+2026-09-28 19:40:06,114 
 1 Failed download:
-2026-09-27 22:03:57,627 ['2172.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:00,120 $0853.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:00,121 
+2026-09-28 19:40:06,114 ['1558.HK']: possibly delisted; no timezone found
+2026-09-28 19:40:17,217 $9666.HK: possibly delisted; no timezone found
+2026-09-28 19:40:17,226 
 1 Failed download:
-2026-09-27 22:04:00,121 ['0853.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:02,569 $2160.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:02,575 
-1 Failed download:
-2026-09-27 22:04:02,575 ['2160.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:03,023 $0973.HK: possibly delisted; no timezone found
-2026-09-27 22:04:03,029 
-1 Failed download:
-2026-09-27 22:04:03,029 ['0973.HK']: possibly delisted; no timezone found
-2026-09-27 22:04:10,402 $2518.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:10,412 
-1 Failed download:
-2026-09-27 22:04:10,412 ['2518.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:19,049 $1558.HK: possibly delisted; no timezone found
-2026-09-27 22:04:19,051 
-1 Failed download:
-2026-09-27 22:04:19,051 ['1558.HK']: possibly delisted; no timezone found
-2026-09-27 22:04:31,232 $2627.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:31,238 
-1 Failed download:
-2026-09-27 22:04:31,238 ['2627.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:33,478 $2629.HK: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:33,486 
-1 Failed download:
-2026-09-27 22:04:33,486 ['2629.HK']: possibly delisted; no price data found  (1d 2026-09-26 -> 2026-09-28)
-2026-09-27 22:04:36,113 $9666.HK: possibly delisted; no timezone found
-2026-09-27 22:04:36,116 
-1 Failed download:
-2026-09-27 22:04:36,117 ['9666.HK']: possibly delisted; no timezone found
+2026-09-28 19:40:17,226 ['9666.HK']: possibly delisted; no timezone found
