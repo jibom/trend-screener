@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "tab1": {
     "sos_section": [
       {
@@ -27,7 +27,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0670.HK",
@@ -54,7 +54,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0257.HK",
@@ -81,7 +81,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "6031.HK",
@@ -108,7 +108,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0694.HK",
@@ -135,7 +135,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "1276.HK",
@@ -162,7 +162,34 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
+      },
+      {
+        "ticker": "2162.HK",
+        "name": "康诺亚-B",
+        "name_cn": "康诺亚-B",
+        "gics_sector": "Health Care",
+        "sub_industry": "药品及生物科技",
+        "state": "SETUP_OK",
+        "substate": "",
+        "last_close": 81.55,
+        "ma10": 76.495,
+        "ma20": 76.433,
+        "ma60": 78.807,
+        "ma200": 66.463,
+        "ma200_slope": 2.61,
+        "ma10_slope_pct": 0.16,
+        "days_in_state": 2,
+        "days_in_pullback": 0,
+        "pullback_dd_pct": null,
+        "sos": "",
+        "bear_gate": false,
+        "is_new_stock": false,
+        "sos_setup_recent": "SOS-B",
+        "recent_new_high_flag": false,
+        "trending_to_pullback_recent": false,
+        "to_exit_recent": false,
+        "date": "2026-10-01"
       },
       {
         "ticker": "2007.HK",
@@ -189,7 +216,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "2869.HK",
@@ -216,7 +243,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0902.HK",
@@ -243,7 +270,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0579.HK",
@@ -270,7 +297,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0384.HK",
@@ -297,7 +324,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "1691.HK",
@@ -324,7 +351,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "2196.HK",
@@ -351,7 +378,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "0345.HK",
@@ -378,7 +405,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "1918.HK",
@@ -405,7 +432,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       },
       {
         "ticker": "1071.HK",
@@ -432,7 +459,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-09-30"
+        "date": "2026-10-01"
       }
     ],
     "pool_section": []
@@ -463,7 +490,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -491,7 +518,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -519,7 +546,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -547,7 +574,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -575,7 +602,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -603,7 +630,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -631,7 +658,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -659,7 +686,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": true,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     },
     {
@@ -687,7 +714,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "display_tier": "STRONG NEW"
     }
   ],
@@ -1000,16 +1027,6 @@
       "last_close": 28.12
     },
     {
-      "ticker": "3908.HK",
-      "name_cn": "中金公司",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 19.56
-    },
-    {
       "ticker": "6881.HK",
       "name_cn": "中国银河",
       "gics_sector": "Financials",
@@ -1018,6 +1035,16 @@
       "emoji": "🔴",
       "days_in_state": 1,
       "last_close": 7.18
+    },
+    {
+      "ticker": "3908.HK",
+      "name_cn": "中金公司",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 3,
+      "last_close": 19.56
     },
     {
       "ticker": "2611.HK",
@@ -1220,16 +1247,6 @@
       "last_close": 28.48
     },
     {
-      "ticker": "6936.HK",
-      "name_cn": "顺丰控股",
-      "gics_sector": "Industrials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 29.0
-    },
-    {
       "ticker": "2618.HK",
       "name_cn": "京东物流",
       "gics_sector": "Industrials",
@@ -1238,6 +1255,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 10.06
+    },
+    {
+      "ticker": "6936.HK",
+      "name_cn": "顺丰控股",
+      "gics_sector": "Industrials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 29.0
     },
     {
       "ticker": "2507.HK",
@@ -1418,16 +1445,6 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 6.85
-    },
-    {
-      "ticker": "2162.HK",
-      "name_cn": "康诺亚-B",
-      "gics_sector": "Health Care",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 81.55
     },
     {
       "ticker": "9887.HK",
