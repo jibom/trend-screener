@@ -322,18 +322,18 @@
       "ret_60": 30.8
     },
     {
-      "sub_industry": "Electronic Comp",
-      "n": 6,
-      "rs": 43.8,
-      "rs_1w": 7.0,
-      "ret_60": -9.4
-    },
-    {
       "sub_industry": "Oil & Gas Refg & Mktg",
       "n": 4,
       "rs": 43.8,
       "rs_1w": 2.8,
       "ret_60": 36.0
+    },
+    {
+      "sub_industry": "Electronic Comp",
+      "n": 6,
+      "rs": 43.8,
+      "rs_1w": 7.0,
+      "ret_60": -9.4
     },
     {
       "sub_industry": "Oil & Gas Midstream",

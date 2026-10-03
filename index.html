@@ -560,6 +560,7 @@
       function toTV(t) {
         if (t.endsWith('.HK')) return 'HKEX:' + t.replace('.HK', '').replace(/^0+/, '');
         if (t.endsWith('.US')) return t.replace('.US', '');
+        if (t.endsWith('.JP')) return 'TSE:' + t.replace('.JP', '');
         if (t.endsWith('.SH')) return 'SSE:' + t.replace('.SH', '');
         if (t.endsWith('.SZ')) return 'SZSE:' + t.replace('.SZ', '');
         if (t.endsWith('.BJ')) return 'BSE:' + t.replace('.BJ', '');
@@ -1625,7 +1626,7 @@
     // _chartInterval 不重置: 首次默认 D(模块初值), 切换 W 后下次打开保持 W
     _chartData = null;
     _chartScreen = screen || null;
-    const mkt = ticker.endsWith('.US') ? 'us'
+    const mkt = ticker.endsWith('.US') || ticker.endsWith('.JP') ? 'us'   // 日股图数据也在 chartdata/us/ (文件名保留.JP)
               : (/\.S[HZ]$|\.BJ$/.test(ticker) ? 'a' : 'hk');
     // .US 的 ticker 可能是 ETF (在 etfData 里) 或股票; ETF 用 etfData 做导航列表源
     const _inEtf = mkt === 'us' && window.etfData && ['all_stocks','part1c1','part1c2','part2']
