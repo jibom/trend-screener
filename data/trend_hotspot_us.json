@@ -322,18 +322,18 @@
       "ret_60": 30.8
     },
     {
-      "sub_industry": "Oil & Gas Refg & Mktg",
-      "n": 4,
-      "rs": 43.8,
-      "rs_1w": 2.8,
-      "ret_60": 36.0
-    },
-    {
       "sub_industry": "Electronic Comp",
       "n": 6,
       "rs": 43.8,
       "rs_1w": 7.0,
       "ret_60": -9.4
+    },
+    {
+      "sub_industry": "Oil & Gas Refg & Mktg",
+      "n": 4,
+      "rs": 43.8,
+      "rs_1w": 2.8,
+      "ret_60": 36.0
     },
     {
       "sub_industry": "Oil & Gas Midstream",
@@ -1633,6 +1633,177 @@
     }
   ],
   "part3": [
+    {
+      "ticker": "4004.JP",
+      "name": "Resonac",
+      "sub_industry": "Chemicals",
+      "close": 109.48,
+      "ret_1d": 8.7,
+      "ret_3d": 24.2,
+      "vol_ratio": 2.11,
+      "trigger": "SOS",
+      "hotness": -0.326
+    },
+    {
+      "ticker": "5801.JP",
+      "name": "Furukawa Electric",
+      "sub_industry": "Electrical Equip & Parts",
+      "close": 28.06,
+      "ret_1d": 7.7,
+      "ret_3d": 20.2,
+      "vol_ratio": 1.75,
+      "trigger": "SOS",
+      "hotness": -0.529
+    },
+    {
+      "ticker": "6857.JP",
+      "name": "Advantest",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "close": 244.76,
+      "ret_1d": 2.7,
+      "ret_3d": 13.9,
+      "vol_ratio": 1.74,
+      "trigger": "SOS 3日",
+      "hotness": 0.83
+    },
+    {
+      "ticker": "5802.JP",
+      "name": "Sumitomo Electric",
+      "sub_industry": "Auto Parts",
+      "close": 15.54,
+      "ret_1d": 3.5,
+      "ret_3d": 12.8,
+      "vol_ratio": 1.52,
+      "trigger": "SOS 3日",
+      "hotness": -0.714
+    },
+    {
+      "ticker": "6762.JP",
+      "name": "TDK",
+      "sub_industry": "Electronic Comp",
+      "close": 20.26,
+      "ret_1d": -0.1,
+      "ret_3d": 9.6,
+      "vol_ratio": 1.25,
+      "trigger": "SOS 3日",
+      "hotness": -0.534
+    },
+    {
+      "ticker": "COHR.US",
+      "name": "Coherent",
+      "sub_industry": "Sci & Tech Instr",
+      "close": 337.04,
+      "ret_1d": 5.6,
+      "ret_3d": 15.3,
+      "vol_ratio": 1.19,
+      "trigger": "SOS 3日",
+      "hotness": 0.209,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        33.7,
+        20.5,
+        17.5,
+        17.3
+      ],
+      "profit_yoy4": [
+        351.6,
+        1118.3,
+        41.9,
+        774.2
+      ],
+      "roe4": [
+        2.2,
+        2.0,
+        1.7,
+        2.7
+      ]
+    },
+    {
+      "ticker": "6146.JP",
+      "name": "DIS",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "close": 381.99,
+      "ret_1d": -0.2,
+      "ret_3d": 6.4,
+      "vol_ratio": 1.11,
+      "trigger": "SOS 3日",
+      "hotness": -0.675
+    },
+    {
+      "ticker": "MU.US",
+      "name": "Micron Tech",
+      "sub_industry": "Semiconductors",
+      "close": 1074.89,
+      "ret_1d": -2.1,
+      "ret_3d": 0.9,
+      "vol_ratio": 1.07,
+      "trigger": "SOS 3日",
+      "hotness": 0.457,
+      "fund_periods": [
+        "202609",
+        "202605",
+        "202602",
+        "202511"
+      ],
+      "sales_yoy4": [
+        379.3,
+        345.7,
+        196.3,
+        56.7
+      ],
+      "profit_yoy4": [
+        1077.8,
+        1398.3,
+        770.8,
+        180.2
+      ],
+      "roe4": [
+        31.5,
+        32.6,
+        21.0,
+        9.3
+      ]
+    },
+    {
+      "ticker": "LITE.US",
+      "name": "Lumentum",
+      "sub_industry": "Comm Equip",
+      "close": 1085.42,
+      "ret_1d": 3.8,
+      "ret_3d": 11.5,
+      "vol_ratio": 1.04,
+      "trigger": "SOS 3日",
+      "hotness": 0.852,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        109.3,
+        90.1,
+        65.5,
+        58.4
+      ],
+      "profit_yoy4": [
+        -3457.6,
+        427.0,
+        228.4,
+        105.1
+      ],
+      "roe4": [
+        -188.0,
+        7.5,
+        9.6,
+        0.4
+      ]
+    },
     {
       "ticker": "STNG.US",
       "name": "Scorpio Tankers",
