@@ -589,7 +589,7 @@
       "pct_high_250": 0.981,
       "pct_high_126": 0.981,
       "nh_ratio_126": 0.159,
-      "amt_surge": 0.795,
+      "amt_surge": 0.796,
       "amt_rank": 0.333,
       "ret_60": 0.019,
       "ma_aligned": 0,
@@ -789,7 +789,7 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "ma_stack": 0,
-      "hotness": 0.247
+      "hotness": 0.246
     },
     {
       "ticker": "METV.US",
@@ -959,13 +959,13 @@
       "pct_high_250": 0.472,
       "pct_high_126": 0.656,
       "nh_ratio_126": 0.0,
-      "amt_surge": 0.787,
+      "amt_surge": 0.788,
       "amt_rank": 0.328,
       "ret_60": 0.254,
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "ma_stack": 0,
-      "hotness": -0.981
+      "hotness": -0.98
     }
   ],
   "ds_b": [
@@ -2413,7 +2413,7 @@
       "ret_60": 0.14,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.247
+      "hotness": 0.246
     },
     {
       "ticker": "CGDV.US",
@@ -3161,7 +3161,7 @@
       "ret_60": 0.019,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.223
+      "hotness": -0.221
     },
     {
       "ticker": "SPSM.US",
@@ -3491,7 +3491,7 @@
       "ret_60": 0.006,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.611
+      "hotness": -0.61
     },
     {
       "ticker": "OIH.US",
@@ -3502,7 +3502,7 @@
       "ret_60": 0.022,
       "ma_aligned": 0,
       "days_below_ma10": 17,
-      "hotness": -0.631
+      "hotness": -0.63
     },
     {
       "ticker": "ICLN.US",
@@ -3634,7 +3634,7 @@
       "ret_60": 0.254,
       "ma_aligned": 0,
       "days_below_ma10": 8,
-      "hotness": -0.981
+      "hotness": -0.98
     },
     {
       "ticker": "RSPC.US",
