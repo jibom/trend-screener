@@ -1,0 +1,17 @@
+2026-10-08 18:51:56,733 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6606.HK"}}}
+2026-10-08 18:51:57,010 $6606.HK: possibly delisted; no timezone found
+2026-10-08 18:51:57,014 
+1 Failed download:
+2026-10-08 18:51:57,014 ['6606.HK']: possibly delisted; no timezone found
+2026-10-08 18:52:04,809 $0973.HK: possibly delisted; no timezone found
+2026-10-08 18:52:04,819 
+1 Failed download:
+2026-10-08 18:52:04,819 ['0973.HK']: possibly delisted; no timezone found
+2026-10-08 18:52:16,950 $1558.HK: possibly delisted; no timezone found
+2026-10-08 18:52:16,957 
+1 Failed download:
+2026-10-08 18:52:16,957 ['1558.HK']: possibly delisted; no timezone found
+2026-10-08 18:52:29,575 $9666.HK: possibly delisted; no timezone found
+2026-10-08 18:52:29,583 
+1 Failed download:
+2026-10-08 18:52:29,583 ['9666.HK']: possibly delisted; no timezone found
