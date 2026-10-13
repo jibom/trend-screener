@@ -756,6 +756,7 @@
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       // ── Part 2: SOS 异动个股 (Wyckoff Sign of Strength: 放量中大阳+RS超额, 无位置门, 全量显示) ──
+      html += lifecyclePart(d);
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
@@ -852,6 +853,7 @@
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60),
         signedR(e.sales_growth), signedR(e.earn_growth), pctR(e.roe), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+      html += lifecyclePart(d);
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
@@ -1008,6 +1010,47 @@
       return trendSection(`${partBLabel} · 东吴B信号 (仅当日 B/b 信号: B=底右强买/b=底左早买, 按营收增速降序; 急杀=恐慌宣泄型底部, A/美股胜率+4pp)`, b.length,
         trendTable(DS_B_COLS_B, b.map(e => [...dsRow(e, 'ds_b'), growCell(e)])), 'sec-dsb');
     }
+    // ── 生命周期 · Stage×SATA 五段式: 筑底→要起来→刚起来→趋势上→见顶/初下行 (2026-10-13) ──
+    function lifecyclePart(d) {
+      const all = d.all_stocks || [];
+      const LC_COLS = ['代码','名称','行业','收盘','子档','SATA日','SATA周','持续','转换/备注'];
+      const sataSort = (a, b) => (b.sata_w || 0) - (a.sata_w || 0) || (b.sata_d || 0) - (a.sata_d || 0);
+      const note = s => ((s.t12 != null && s.t12 <= 10) ? `<b style="color:var(--positive)">1→2·${s.t12}d</b> ` : '')
+        + ((s.t34 != null && s.t34 <= 10) ? `<b style="color:var(--negative)">3→4·${s.t34}d</b> ` : '')
+        + ((s.stage === '1' && /^2/.test(s.sub || '')) ? '<b style="color:#f59e0b">⚠上穿待确认</b>' : '')
+        + ((s.stage === '3' && /^4/.test(s.sub || '')) ? '<b style="color:#f59e0b">⚠下穿待确认</b>' : '');
+      const row = s => [
+        tk(s.ticker, 'lifecycle'), s.name, s.sub_industry || '-', num2(s.close),
+        (s.sub ? `<b>${s.sub}</b>` : '-'), sataCell(s.sata_d), sataCell(s.sata_w),
+        s.stage_days != null ? s.stage_days : '-', note(s)];
+      const grp = (title, arr, cap) => {
+        const shown = cap ? arr.slice(0, cap) : arr;
+        return `<div style="padding:10px 0 4px;font-size:12px;color:#475569;font-weight:600">${title} (${arr.length}${cap && arr.length > cap ? ` · 显示前${cap}` : ''})</div>`
+          + (shown.length ? trendTable(LC_COLS, shown.map(row)) : '<div style="padding:2px 0 4px;color:#94a3b8">—</div>');
+      };
+      // ③ 刚起来集合: 1→2确认≤10日 ∪ 2A ∪ 今日上穿未确认(防抖仍1但子档2x)
+      const g3set = new Set(all.filter(s =>
+        (s.stage === '2' && ((s.t12 != null && s.t12 <= 10) || s.sub === '2A'))
+        || (s.stage === '1' && /^2/.test(s.sub || ''))).map(s => s.ticker));
+      const g1 = all.filter(s => s.stage === '1' && !g3set.has(s.ticker) && s.sub !== '1B' && s.sub !== '1C').sort(sataSort);
+      const g2 = all.filter(s => s.stage === '1' && (s.sub === '1B' || s.sub === '1C'))
+        .sort((a, b) => (a.sub === '1C' ? 0 : 1) - (b.sub === '1C' ? 0 : 1) || sataSort(a, b));
+      const g3 = all.filter(s => g3set.has(s.ticker))
+        .sort((a, b) => (a.stage === '1' ? -1 : (a.t12 != null ? a.t12 : 99)) - (b.stage === '1' ? -1 : (b.t12 != null ? b.t12 : 99)));
+      const g4 = all.filter(s => s.stage === '2' && !g3set.has(s.ticker)).sort(sataSort);
+      const g5 = all.filter(s => s.stage === '3' || (s.stage === '4' && s.t34 != null && s.t34 <= 10))
+        .sort((a, b) => ((a.stage === '4' ? 0 : /^4/.test(a.sub || '') ? 1 : a.sub === '3B' ? 2 : 3)
+                       - (b.stage === '4' ? 0 : /^4/.test(b.sub || '') ? 1 : b.sub === '3B' ? 2 : 3))
+                      || ((a.t34 != null ? a.t34 : 99) - (b.t34 != null ? b.t34 : 99)));
+      let h = '';
+      h += grp('① 筑底 (Stage 1 其余, 按SATA周降序 — SATA回升=底部质量改善)', g1, 15);
+      h += grp('② 要起来 (1B筑底后期 / 1C突破前夜·距60日高点≤5%, 1C优先)', g2);
+      h += grp('③ 刚起来 (1→2确认·≤10日 或 2A; ⚠=今日上穿待3日确认)', g3);
+      h += grp('④ 趋势上 (Stage 2 成熟段, 按SATA周降序; 2C=延伸忌追高)', g4, 20);
+      h += grp('⑤ 见顶/初下行 (3→4确认·≤10日 → 3B → 3A; ⚠=今日下穿待确认)', g5);
+      const n = g1.length + g2.length + g3.length + g4.length + g5.length;
+      return trendSection(`生命周期 · Stage×SATA (SATA≥6绿; 各组: ①筑底→②要起来→③刚起来→④趋势上→⑤见顶/初下行)`, n, h, 'sec-lc');
+    }
     // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
     const fundLv = a => (Array.isArray(a) && a.length && a[0] != null && a[0] !== '') ? Number(a[0]) : null;
     const yoyLvCell = v => v == null ? '<span class="muted-val">-</span>'
@@ -1092,6 +1135,7 @@
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
+      html += lifecyclePart(d);
       const p3 = d.part3 || [];
       const isSosToday = t => t === 'SOS' || t === 'SOS+3日';
       const sosToday = p3.filter(e => isSosToday(e.trigger));
