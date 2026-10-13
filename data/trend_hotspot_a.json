@@ -431,18 +431,18 @@
       "ret_60": 22.3
     },
     {
-      "sub_industry": "半导体材料",
-      "n": 10,
-      "rs": 31.0,
-      "rs_1w": -23.2,
-      "ret_60": -36.2
-    },
-    {
       "sub_industry": "火力发电",
       "n": 5,
       "rs": 31.0,
       "rs_1w": 1.6,
       "ret_60": 2.1
+    },
+    {
+      "sub_industry": "半导体材料",
+      "n": 10,
+      "rs": 31.0,
+      "rs_1w": -23.2,
+      "ret_60": -36.2
     }
   ],
   "rs_momentum": [
@@ -8453,7 +8453,9 @@
       "ret_60": 2.768,
       "pct_high_250": 0.912,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "301080.SZ",
@@ -8465,7 +8467,9 @@
       "ret_60": 1.269,
       "pct_high_250": 0.814,
       "ma_aligned": 1,
-      "days_below_ma10": 2
+      "days_below_ma10": 2,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "600371.SH",
@@ -8477,7 +8481,9 @@
       "ret_60": 1.103,
       "pct_high_250": 0.812,
       "ma_aligned": 1,
-      "days_below_ma10": 6
+      "days_below_ma10": 6,
+      "sata_d": 8,
+      "sata_w": 7
     },
     {
       "ticker": "301047.SZ",
@@ -8489,7 +8495,9 @@
       "ret_60": 0.988,
       "pct_high_250": 0.869,
       "ma_aligned": 1,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 9,
+      "sata_w": 6
     },
     {
       "ticker": "601328.SH",
@@ -8501,7 +8509,9 @@
       "ret_60": 0.194,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "600036.SH",
@@ -8513,7 +8523,9 @@
       "ret_60": 0.159,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "600354.SH",
@@ -8525,7 +8537,9 @@
       "ret_60": 0.881,
       "pct_high_250": 0.813,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 8,
+      "sata_w": 7
     },
     {
       "ticker": "002349.SZ",
@@ -8537,7 +8551,9 @@
       "ret_60": 0.286,
       "pct_high_250": 0.913,
       "ma_aligned": 1,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 8,
+      "sata_w": 7
     },
     {
       "ticker": "601398.SH",
@@ -8549,7 +8565,9 @@
       "ret_60": 0.151,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "601169.SH",
@@ -8561,7 +8579,9 @@
       "ret_60": 0.161,
       "pct_high_250": 1.0,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "600479.SH",
@@ -8573,7 +8593,9 @@
       "ret_60": 0.228,
       "pct_high_250": 0.792,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 7,
+      "sata_w": 6
     },
     {
       "ticker": "601988.SH",
@@ -8585,7 +8607,9 @@
       "ret_60": 0.204,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "002142.SZ",
@@ -8597,7 +8621,9 @@
       "ret_60": 0.21,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "600919.SH",
@@ -8609,7 +8635,9 @@
       "ret_60": 0.134,
       "pct_high_250": 0.995,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 8
     },
     {
       "ticker": "601939.SH",
@@ -8621,7 +8649,9 @@
       "ret_60": 0.151,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "000001.SZ",
@@ -8633,7 +8663,9 @@
       "ret_60": 0.147,
       "pct_high_250": 0.996,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 9
     },
     {
       "ticker": "600121.SH",
@@ -8645,7 +8677,9 @@
       "ret_60": 0.551,
       "pct_high_250": 0.917,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "601218.SH",
@@ -8657,7 +8691,9 @@
       "ret_60": 0.394,
       "pct_high_250": 0.724,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 7,
+      "sata_w": 5
     },
     {
       "ticker": "601658.SH",
@@ -8669,7 +8705,9 @@
       "ret_60": 0.123,
       "pct_high_250": 0.954,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 9
     },
     {
       "ticker": "601088.SH",
@@ -8681,7 +8719,9 @@
       "ret_60": 0.204,
       "pct_high_250": 0.997,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "601288.SH",
@@ -8693,7 +8733,9 @@
       "ret_60": 0.154,
       "pct_high_250": 0.867,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9
     },
     {
       "ticker": "300189.SZ",
@@ -8705,7 +8747,9 @@
       "ret_60": 0.449,
       "pct_high_250": 0.66,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 6,
+      "sata_w": 5
     },
     {
       "ticker": "603087.SH",
@@ -8717,7 +8761,9 @@
       "ret_60": 0.095,
       "pct_high_250": 0.932,
       "ma_aligned": 1,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 8,
+      "sata_w": 7
     },
     {
       "ticker": "601225.SH",
@@ -8729,7 +8775,9 @@
       "ret_60": 0.193,
       "pct_high_250": 0.99,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 9
     },
     {
       "ticker": "601166.SH",
@@ -8741,7 +8789,9 @@
       "ret_60": 0.064,
       "pct_high_250": 0.903,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "002487.SZ",
@@ -8753,7 +8803,9 @@
       "ret_60": 0.022,
       "pct_high_250": 0.527,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 4,
+      "sata_w": 3
     },
     {
       "ticker": "601009.SH",
@@ -8765,7 +8817,9 @@
       "ret_60": 0.146,
       "pct_high_250": 0.983,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 8
     },
     {
       "ticker": "600016.SH",
@@ -8777,7 +8831,9 @@
       "ret_60": 0.101,
       "pct_high_250": 0.89,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 6,
+      "sata_w": 7
     },
     {
       "ticker": "300676.SZ",
@@ -8789,7 +8845,9 @@
       "ret_60": 0.224,
       "pct_high_250": 0.748,
       "ma_aligned": 1,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 7,
+      "sata_w": 8
     },
     {
       "ticker": "002531.SZ",
@@ -8801,7 +8859,9 @@
       "ret_60": 0.094,
       "pct_high_250": 0.634,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 4,
+      "sata_w": 4
     },
     {
       "ticker": "000710.SZ",
@@ -8813,7 +8873,9 @@
       "ret_60": 0.494,
       "pct_high_250": 0.78,
       "ma_aligned": 1,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 9
     },
     {
       "ticker": "300133.SZ",
@@ -8825,7 +8887,9 @@
       "ret_60": 0.217,
       "pct_high_250": 0.811,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "001330.SZ",
@@ -8837,7 +8901,9 @@
       "ret_60": 0.442,
       "pct_high_250": 0.572,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 7,
+      "sata_w": 7
     },
     {
       "ticker": "688235.SH",
@@ -8849,7 +8915,9 @@
       "ret_60": -0.074,
       "pct_high_250": 0.786,
       "ma_aligned": 0,
-      "days_below_ma10": 3
+      "days_below_ma10": 3,
+      "sata_d": 2,
+      "sata_w": 3
     },
     {
       "ticker": "600000.SH",
@@ -8861,7 +8929,9 @@
       "ret_60": 0.118,
       "pct_high_250": 0.76,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "002317.SZ",
@@ -8873,7 +8943,9 @@
       "ret_60": -0.127,
       "pct_high_250": 0.775,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 6,
+      "sata_w": 5
     },
     {
       "ticker": "300850.SZ",
@@ -8885,7 +8957,9 @@
       "ret_60": 0.312,
       "pct_high_250": 0.607,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 5,
+      "sata_w": 5
     },
     {
       "ticker": "300182.SZ",
@@ -8897,7 +8971,9 @@
       "ret_60": 0.167,
       "pct_high_250": 0.634,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 6,
+      "sata_w": 7
     },
     {
       "ticker": "600403.SH",
@@ -8909,7 +8985,9 @@
       "ret_60": 0.458,
       "pct_high_250": 0.642,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 6,
+      "sata_w": 7
     },
     {
       "ticker": "300244.SZ",
@@ -8921,7 +8999,9 @@
       "ret_60": 0.026,
       "pct_high_250": 0.725,
       "ma_aligned": 0,
-      "days_below_ma10": 0
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8
     },
     {
       "ticker": "600188.SH",
@@ -8933,7 +9013,9 @@
       "ret_60": 0.113,
       "pct_high_250": 0.741,
       "ma_aligned": 0,
-      "days_below_ma10": 1
+      "days_below_ma10": 1,
+      "sata_d": 4,
+      "sata_w": 2
     },
     {
       "ticker": "688331.SH",
@@ -8945,7 +9027,9 @@
       "ret_60": -0.187,
       "pct_high_250": 0.711,
       "ma_aligned": 0,
-      "days_below_ma10": 7
+      "days_below_ma10": 7,
+      "sata_d": 2,
+      "sata_w": 1
     },
     {
       "ticker": "600397.SH",
@@ -8957,7 +9041,9 @@
       "ret_60": -0.225,
       "pct_high_250": 0.487,
       "ma_aligned": 0,
-      "days_below_ma10": 6
+      "days_below_ma10": 6,
+      "sata_d": 4,
+      "sata_w": 2
     }
   ]
 }

@@ -1129,9 +1129,9 @@
       const rows = stocks.map(s => [
         `<a class="tk-link" href="#" onclick="openStockFromDetail('${s.ticker}'); return false;">${s.ticker}</a>`,
         s.name, num2(s.close), signedR(s.ret_60), pctR(s.pct_high_250),
-        yn(s.ma_aligned), `<b>${num2(s.hotness)}</b>`]);
+        yn(s.ma_aligned), sataCell(s.sata_d), sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`]);
       document.getElementById('sector-content').innerHTML = (stocks.length
-        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','热度分'], rows)
+        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','SATA日','SATA周','热度分'], rows)
         : '<p class="empty-state">该子行业无成分股</p>');
       document.getElementById('sector-modal').classList.add('open');
       document.body.style.overflow = 'hidden';
@@ -1606,6 +1606,18 @@
     }
     return '';
   }
+  // SATA 技术属性评分单元格 (0-10; ≥6绿=趋势健康, 复刻工作侧SATA_AHADR算法, 2026-10-13)
+  const sataCell = v => v == null ? '<span class="muted-val">-</span>'
+    : `<b style="color:${v >= 6 ? 'var(--positive)' : v >= 4 ? 'var(--text)' : 'var(--text-muted)'}">${v}</b>`;
+  function stockSATA(ticker) {
+    // 从已加载各市场 all_stocks 查个股 SATA 日/周分 (图表弹窗显示用)
+    for (const d of [window.trendData, window.usData, window.etfData, window.cetfData, window.aData]) {
+      if (!d || !Array.isArray(d.all_stocks)) continue;
+      const m = d.all_stocks.find(e => e && e.ticker === ticker);
+      if (m && (m.sata_d != null || m.sata_w != null)) return m;
+    }
+    return null;
+  }
 
   async function showChart(ticker, screen, list) {
     _chartTicker = ticker;
@@ -1630,7 +1642,9 @@
     } else { _chartList = []; _chartIdx = -1; }
     document.getElementById('chart-modal').classList.add('open');
     document.getElementById('modal-name').textContent = stockName(ticker);
-    document.getElementById('modal-industry').textContent = stockIndustry(ticker);
+    const _sat = stockSATA(ticker);
+    document.getElementById('modal-industry').textContent = stockIndustry(ticker)
+      + (_sat ? `　SATA 日${_sat.sata_d != null ? _sat.sata_d : '-'} / 周${_sat.sata_w != null ? _sat.sata_w : '-'}` : '');
     document.getElementById('modal-ticker').textContent =
       ticker + (_chartIdx >= 0 ? `   (${_chartIdx + 1}/${_chartList.length})  ←→切换 D/W日周` : '');
     _updateIntervalBtns();
