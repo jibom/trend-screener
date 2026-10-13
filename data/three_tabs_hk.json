@@ -882,16 +882,6 @@
       "last_close": 73.05
     },
     {
-      "ticker": "1336.HK",
-      "name_cn": "新华保险",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 43.9
-    },
-    {
       "ticker": "2628.HK",
       "name_cn": "中国人寿",
       "gics_sector": "Financials",
@@ -900,6 +890,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 25.62
+    },
+    {
+      "ticker": "1336.HK",
+      "name_cn": "新华保险",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 43.9
     },
     {
       "ticker": "1339.HK",
@@ -922,16 +922,6 @@
       "last_close": 18.01
     },
     {
-      "ticker": "0388.HK",
-      "name_cn": "香港交易所",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 379.6
-    },
-    {
       "ticker": "6030.HK",
       "name_cn": "中信证券",
       "gics_sector": "Financials",
@@ -940,6 +930,16 @@
       "emoji": "🔴",
       "days_in_state": 3,
       "last_close": 23.74
+    },
+    {
+      "ticker": "0388.HK",
+      "name_cn": "香港交易所",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 379.6
     },
     {
       "ticker": "6886.HK",
@@ -1162,16 +1162,6 @@
       "last_close": 98.55
     },
     {
-      "ticker": "2367.HK",
-      "name_cn": "巨子生物",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 23.14
-    },
-    {
       "ticker": "9858.HK",
       "name_cn": "优然牧业",
       "gics_sector": "Consumer Staples",
@@ -1180,6 +1170,16 @@
       "emoji": "🔴",
       "days_in_state": 3,
       "last_close": 3.46
+    },
+    {
+      "ticker": "2367.HK",
+      "name_cn": "巨子生物",
+      "gics_sector": "Consumer Staples",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 2,
+      "last_close": 23.14
     },
     {
       "ticker": "2698.HK",
@@ -1290,16 +1290,6 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 65.8
-    },
-    {
-      "ticker": "1810.HK",
-      "name_cn": "小米集团-W",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 25.04
     },
     {
       "ticker": "2696.HK",
