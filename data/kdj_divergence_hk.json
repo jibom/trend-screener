@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "summary": {
     "total_oversold": 483,
     "weekly_kdj_divergence": 80,
@@ -633,7 +633,7 @@
       "w_combined": true,
       "any_combined": true,
       "div_desc": "p=9.1->8.9, J=-6.3->-3.3",
-      "industry": "电信"
+      "industry": "电讯"
     },
     {
       "code": "1268.HK",
@@ -685,7 +685,7 @@
       "w_combined": true,
       "any_combined": true,
       "div_desc": "p=1.7->1.6, J=-11.6->3.0",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "6110.HK",
@@ -737,7 +737,7 @@
       "w_combined": true,
       "any_combined": true,
       "div_desc": "p=3.5->3.2, J=0.9->23.7",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "2015.HK",
@@ -945,7 +945,7 @@
       "w_combined": true,
       "any_combined": true,
       "div_desc": "p=4.8->4.1, J=-3.7->0.4",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "1313.HK",
@@ -997,7 +997,7 @@
       "w_combined": true,
       "any_combined": true,
       "div_desc": "p=43.5->22.6, J=-13.8->6.5",
-      "industry": "一般金属及矿石"
+      "industry": "工业金属"
     },
     {
       "code": "2788.HK",
@@ -1101,7 +1101,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0991.HK",
@@ -1127,7 +1127,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "1766.HK",
@@ -1231,7 +1231,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0598.HK",
@@ -1257,7 +1257,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "6185.HK",
@@ -1335,7 +1335,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "电信"
+      "industry": "电讯"
     },
     {
       "code": "3998.HK",
@@ -1413,7 +1413,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "0083.HK",
@@ -1517,7 +1517,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "1910.HK",
@@ -1569,7 +1569,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "1579.HK",
@@ -1595,7 +1595,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "1836.HK",
@@ -1751,7 +1751,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "0316.HK",
@@ -1829,7 +1829,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "1186.HK",
@@ -1933,7 +1933,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "6055.HK",
@@ -2141,7 +2141,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0325.HK",
@@ -2323,7 +2323,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "0762.HK",
@@ -2349,7 +2349,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "p=6.2->5.4, J=-8.0->2.8",
-      "industry": "电信"
+      "industry": "电讯"
     },
     {
       "code": "9987.HK",
@@ -2427,7 +2427,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "6600.HK",
@@ -2531,7 +2531,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "2282.HK",
@@ -2583,7 +2583,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "p=17.7->17.5, J=-11.2->4.2",
-      "industry": "地产"
+      "industry": "香港地产"
     },
     {
       "code": "9980.HK",
@@ -2609,7 +2609,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "3800.HK",
@@ -2739,7 +2739,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "香港地产"
     },
     {
       "code": "1810.HK",
@@ -2791,7 +2791,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "p=30.9->25.3, J=-14.7->-11.8",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "1896.HK",
@@ -2947,7 +2947,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "2579.HK",
@@ -3077,7 +3077,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "p=4.6->4.5, J=-15.2->-2.8",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0914.HK",
@@ -3129,7 +3129,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "9973.HK",
@@ -3285,7 +3285,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "3908.HK",
@@ -3389,7 +3389,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "石油及天然气"
+      "industry": "能源"
     },
     {
       "code": "2727.HK",
@@ -3493,7 +3493,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "p=8.7->6.4, J=-14.0->-6.6",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "9988.HK",
@@ -3675,7 +3675,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "3898.HK",
@@ -4325,7 +4325,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "1989.HK",
@@ -5235,7 +5235,7 @@
       "w_combined": false,
       "any_combined": true,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "香港地产"
     },
     {
       "code": "2402.HK",
@@ -5651,7 +5651,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0902.HK",
@@ -5677,7 +5677,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "3328.HK",
@@ -5703,7 +5703,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "银行"
+      "industry": "中国银行"
     },
     {
       "code": "3988.HK",
@@ -5781,7 +5781,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "1038.HK",
@@ -5807,7 +5807,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "9926.HK",
@@ -5885,7 +5885,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "2657.HK",
@@ -6015,7 +6015,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "0135.HK",
@@ -6041,7 +6041,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "1398.HK",
@@ -6119,7 +6119,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "1112.HK",
@@ -6171,7 +6171,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "0956.HK",
@@ -6249,7 +6249,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "0998.HK",
@@ -6587,7 +6587,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "3347.HK",
@@ -6951,7 +6951,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0941.HK",
@@ -6977,7 +6977,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "电信"
+      "industry": "电讯"
     },
     {
       "code": "0354.HK",
@@ -7029,7 +7029,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0267.HK",
@@ -7133,7 +7133,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "9690.HK",
@@ -7211,7 +7211,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "0688.HK",
@@ -7471,7 +7471,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "2460.HK",
@@ -7497,7 +7497,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "p=7.7->7.2, J=-1.5->3.9",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "0019.HK",
@@ -7627,7 +7627,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "1081.HK",
@@ -7705,7 +7705,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "9606.HK",
@@ -8043,7 +8043,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "0579.HK",
@@ -8095,7 +8095,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "0014.HK",
@@ -8121,7 +8121,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "p=16.3->15.5, J=-7.5->-3.0",
-      "industry": "地产"
+      "industry": "香港地产"
     },
     {
       "code": "0066.HK",
@@ -8173,7 +8173,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "0392.HK",
@@ -8199,7 +8199,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "7618.HK",
@@ -8251,7 +8251,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "p=12.4->12.1, J=-15.0->1.1",
-      "industry": "地产"
+      "industry": "香港地产"
     },
     {
       "code": "1318.HK",
@@ -8537,7 +8537,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食品饮料调味品/酒"
+      "industry": "食品饮料"
     },
     {
       "code": "2869.HK",
@@ -8615,7 +8615,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "9688.HK",
@@ -8693,7 +8693,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "2057.HK",
@@ -8953,7 +8953,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "2145.HK",
@@ -9005,7 +9005,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "银行"
+      "industry": "中国银行"
     },
     {
       "code": "0874.HK",
@@ -9395,7 +9395,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "食物饮品"
+      "industry": "食品饮料"
     },
     {
       "code": "2493.HK",
@@ -9525,7 +9525,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "工用运输"
+      "industry": "交运"
     },
     {
       "code": "1208.HK",
@@ -10747,7 +10747,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "农业产品"
+      "industry": "农林牧渔"
     },
     {
       "code": "0669.HK",
@@ -11423,7 +11423,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "0005.HK",
@@ -11527,7 +11527,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "公共事业"
+      "industry": "公用事业"
     },
     {
       "code": "2171.HK",
@@ -11631,7 +11631,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "一般金属及矿石"
+      "industry": "贵金属"
     },
     {
       "code": "3268.HK",
@@ -11761,7 +11761,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "黄金及贵金属"
+      "industry": "贵金属"
     },
     {
       "code": "0819.HK",
@@ -12411,7 +12411,7 @@
       "w_combined": false,
       "any_combined": false,
       "div_desc": "",
-      "industry": "地产"
+      "industry": "中国地产&物管"
     },
     {
       "code": "2698.HK",

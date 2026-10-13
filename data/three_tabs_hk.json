@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "tab1": {
     "sos_section": [
       {
@@ -27,7 +27,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "9927.HK",
@@ -54,7 +54,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0116.HK",
@@ -81,7 +81,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0027.HK",
@@ -108,7 +108,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "3618.HK",
@@ -135,14 +135,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "1579.HK",
         "name": "颐海国际",
         "name_cn": "颐海国际",
         "gics_sector": "Consumer Staples",
-        "sub_industry": "食品饮料调味品/酒",
+        "sub_industry": "食品饮料",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 14.97,
@@ -162,14 +162,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0220.HK",
         "name": "统一企业中国",
         "name_cn": "统一企业中国",
         "gics_sector": "Consumer Staples",
-        "sub_industry": "食物饮品",
+        "sub_industry": "食品饮料",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 7.625,
@@ -189,14 +189,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "9980.HK",
         "name": "东鹏饮料",
         "name_cn": "东鹏饮料",
         "gics_sector": "Consumer Staples",
-        "sub_industry": "食品饮料调味品/酒",
+        "sub_industry": "食品饮料",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 99.5,
@@ -216,14 +216,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "2768.HK",
         "name": "国恩科技",
         "name_cn": "国恩科技",
         "gics_sector": "Materials",
-        "sub_industry": "原材料",
+        "sub_industry": "化工",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 44.8,
@@ -243,7 +243,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0772.HK",
@@ -270,7 +270,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0579.HK",
@@ -297,7 +297,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "9926.HK",
@@ -324,14 +324,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "6979.HK",
         "name": "珍酒李渡",
         "name_cn": "珍酒李渡",
         "gics_sector": "Consumer Staples",
-        "sub_industry": "食物饮品",
+        "sub_industry": "食品饮料",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 8.295,
@@ -351,14 +351,14 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "ticker": "0345.HK",
         "name": "维他奶国际",
         "name_cn": "维他奶国际",
         "gics_sector": "Consumer Staples",
-        "sub_industry": "食物饮品",
+        "sub_industry": "食品饮料",
         "state": "SETUP_OK",
         "substate": "",
         "last_close": 6.82,
@@ -378,7 +378,7 @@
         "recent_new_high_flag": false,
         "trending_to_pullback_recent": false,
         "to_exit_recent": false,
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       }
     ],
     "pool_section": []
@@ -409,7 +409,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "display_tier": "STRONG NEW"
     },
     {
@@ -437,7 +437,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "display_tier": "STRONG NEW"
     },
     {
@@ -465,7 +465,7 @@
       "recent_new_high_flag": true,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "display_tier": "STRONG NEW"
     },
     {
@@ -473,7 +473,7 @@
       "name": "MERDEKAGOLD-DRS",
       "name_cn": "MERDEKAGOLD-DRS",
       "gics_sector": "Materials",
-      "sub_industry": "黄金及贵金属",
+      "sub_industry": "贵金属",
       "state": "TRENDING",
       "substate": "NEW",
       "last_close": 35.02,
@@ -493,7 +493,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "display_tier": "STRONG NEW"
     },
     {
@@ -521,7 +521,7 @@
       "recent_new_high_flag": false,
       "trending_to_pullback_recent": false,
       "to_exit_recent": false,
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "display_tier": "STRONG NEW"
     }
   ],
@@ -883,16 +883,6 @@
       "last_close": 18.46
     },
     {
-      "ticker": "6030.HK",
-      "name_cn": "中信证券",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 23.8
-    },
-    {
       "ticker": "0388.HK",
       "name_cn": "香港交易所",
       "gics_sector": "Financials",
@@ -901,6 +891,16 @@
       "emoji": "🔴",
       "days_in_state": 3,
       "last_close": 375.4
+    },
+    {
+      "ticker": "6030.HK",
+      "name_cn": "中信证券",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 2,
+      "last_close": 23.8
     },
     {
       "ticker": "6099.HK",
@@ -993,16 +993,6 @@
       "last_close": 9.185
     },
     {
-      "ticker": "1024.HK",
-      "name_cn": "快手-W",
-      "gics_sector": "Communication Services",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 29.26
-    },
-    {
       "ticker": "3690.HK",
       "name_cn": "美团-W",
       "gics_sector": "Consumer Discretionary",
@@ -1011,6 +1001,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 71.8
+    },
+    {
+      "ticker": "1024.HK",
+      "name_cn": "快手-W",
+      "gics_sector": "Communication Services",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 1,
+      "last_close": 29.26
     },
     {
       "ticker": "9999.HK",
