@@ -681,9 +681,16 @@
                                : `<tr><td colspan="${nCols}" class="empty-state"><p>暂无数据</p></td></tr>`;
       return `<div class="table-wrap"><div class="table-scroll"><table><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table></div></div>`;
     }
-    function trendSection(title, count, body) {
-      return `<div class="section-divider">${title}<span class="section-count">${count}</span></div>${body}`;
+    function trendSection(title, count, body, id) {
+      return `<div class="section-divider"${id ? ` id="${id}"` : ''}>${title}<span class="section-count">${count}</span></div>${body}`;
     }
+    function gotoSection(id) {   // 汇总chip点击 → 平滑滚动到对应section
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    const chip = (label, cls, val, target) => target
+      ? `<a href="#${target}" onclick="gotoSection('${target}');return false;" class="summary-item" style="text-decoration:none;cursor:pointer"><span class="state-badge ${cls}">${label}</span><span class="summary-val">${val}</span></a>`
+      : `<div class="summary-item"><span class="state-badge ${cls}">${label}</span><span class="summary-val">${val}</span></div>`;
     function tk(t, screen) { return `<a class="tk-link" href="#" onclick="showChart('${t}'${screen ? `, '${screen}'` : ''}); return false;">${t}</a>`; }
 
     function renderTrendSummary() {
@@ -691,14 +698,14 @@
       if (!d) return `<div class="summary-item"><span class="summary-val">趋势数据未加载</span></div>`;
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
-        <div class="summary-item"><span class="state-badge state-STRONG">最热细分</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        ${chip('最热细分', 'state-STRONG', `${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}`, 'sec-p1')}
+        ${chip('SOS异动', 'state-EARLY', (d.part3 || []).length, 'sec-sos')}
+        ${chip('底部观察', 'state-EARLY', (d.bottom || []).length, 'sec-bottom')}
+        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-bottom')}
+        ${chip('1→2', 'state-STRONG', t12Count(d), 'sec-t12')}
+        ${chip('3→4', 'state-PULLBACK', t34Count(d), 'sec-t34')}
+        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1 || []).length, 'sec-nh1')}
+        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2 || []).length, 'sec-nh2')}
       `;
     }
 
@@ -719,7 +726,7 @@
           e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
           e.ret_60 != null ? e.ret_60 + '%' : '-']);
         html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
       }
 
       // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
@@ -762,21 +769,23 @@
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
         num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness), ...fundCells(e)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, Wyckoff Sign of Strength: 放量中大阳+RS超额, 无位置门)', sosToday.length,
-        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)));
+        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)), 'sec-sos');
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)));
+        trendTable(['代码','名称','细分行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)), 'sec-sos3');
 
       // ── Part 3: 最热个股 top30 ──
       // ── Part 4: 回调买点 ──
+      html += transPart(d, 't12', 'Part 2c · 1→2 转换 (近10个交易日刚进入Stage 2, 进场关注; 最新在前)', 'var(--positive)');
+      html += transPart(d, 't34', 'Part 2d · 3→4 转换 (近10个交易日跌破进入Stage 4, 离场/回避; 最新在前)', 'var(--negative)');
       // ── Part 3 (合并原3.1+3.2): 底部区 (东吴S信号已于2026-10-13全部tab移除) ──
       html += bottomPart(d, 'trend', ['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
       html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
     }
@@ -787,14 +796,14 @@
       if (!d) return `<div class="summary-item"><span class="summary-val">海外趋势数据未加载</span></div>`;
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
-        <div class="summary-item"><span class="state-badge state-STRONG">最热行业</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        ${chip('最热行业', 'state-STRONG', `${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}`, 'sec-p1')}
+        ${chip('SOS异动', 'state-EARLY', (d.part3 || []).length, 'sec-sos')}
+        ${chip('底部观察', 'state-EARLY', (d.bottom || []).length, 'sec-bottom')}
+        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-bottom')}
+        ${chip('1→2', 'state-STRONG', t12Count(d), 'sec-t12')}
+        ${chip('3→4', 'state-PULLBACK', t34Count(d), 'sec-t34')}
+        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1 || []).length, 'sec-nh1')}
+        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2 || []).length, 'sec-nh2')}
       `;
     }
 
@@ -814,7 +823,7 @@
           e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
           e.ret_60 != null ? e.ret_60 + '%' : '-']);
         html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
       }
 
       // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
@@ -856,19 +865,21 @@
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
         num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness), ...fundCells(e)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, 全量)', sosToday.length,
-        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)));
+        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)), 'sec-sos');
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)));
+        trendTable(['代码','名称','行业','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)), 'sec-sos3');
 
+      html += transPart(d, 't12', 'Part 2c · 1→2 转换 (近10个交易日刚进入Stage 2, 进场关注; 最新在前)', 'var(--positive)');
+      html += transPart(d, 't34', 'Part 2d · 3→4 转换 (近10个交易日跌破进入Stage 4, 离场/回避; 最新在前)', 'var(--negative)');
       // ── Part 3 (合并原3.1+3.2): 底部区 (东吴S信号已于2026-10-13全部tab移除) ──
       html += bottomPart(d, 'trend', ['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
       html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
     }
@@ -878,10 +889,10 @@
       const d = etfData;
       if (!d) return `<div class="summary-item"><span class="summary-val">ETF数据未加载</span></div>`;
       return `
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势向上</span><span class="summary-val">${(d.part2||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
+        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1||[]).length, 'sec-nh1')}
+        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2||[]).length, 'sec-nh2')}
+        ${chip('趋势向上', 'state-SETUP_OK', (d.part2||[]).length, 'sec-p2')}
+        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-dsb')}
       `;
     }
     function renderETF() {
@@ -895,16 +906,16 @@
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
-        trendTable(cols, p2.map(e => row(e, 'part2'))));
+        trendTable(cols, p2.map(e => row(e, 'part2'))), 'sec-p2');
 
       // ── Part 3.2 / Part 4: 东吴B/S信号 ──
       html += dsBPart(d, 'Part 3.2');
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
+        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
       html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
+        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))), 'sec-nh2');
 
       return html;
     }
@@ -914,10 +925,10 @@
       const d = cetfData;
       if (!d) return `<div class="summary-item"><span class="summary-val">ETF数据未加载</span></div>`;
       return `
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">趋势向上</span><span class="summary-val">${(d.part2||[]).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
+        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1||[]).length, 'sec-nh1')}
+        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2||[]).length, 'sec-nh2')}
+        ${chip('趋势向上', 'state-SETUP_OK', (d.part2||[]).length, 'sec-p2')}
+        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-dsb')}
       `;
     }
     function renderCETF() {
@@ -931,16 +942,16 @@
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p2 = d.part2 || [];
       html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
-        trendTable(cols, p2.map(e => row(e, 'part2'))));
+        trendTable(cols, p2.map(e => row(e, 'part2'))), 'sec-p2');
 
       // ── Part 3.2 / Part 4: 东吴B/S信号 ──
       html += dsBPart(d, 'Part 3.2');
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))));
+        trendTable(cols, p1c1.map(e => row(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
       html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))));
+        trendTable(cols, p1c2.map(e => row(e, 'part1c2'))), 'sec-nh2');
 
       return html;
     }
@@ -951,14 +962,14 @@
       if (!d) return `<div class="summary-item"><span class="summary-val">A股趋势数据未加载</span></div>`;
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
       return `
-        <div class="summary-item"><span class="state-badge state-STRONG">最热申万三级</span><span class="summary-val">${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
-        <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
+        ${chip('最热申万三级', 'state-STRONG', `${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}`, 'sec-p1')}
+        ${chip('SOS异动', 'state-EARLY', (d.part3 || []).length, 'sec-sos')}
+        ${chip('底部观察', 'state-EARLY', (d.bottom || []).length, 'sec-bottom')}
+        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-bottom')}
+        ${chip('1→2', 'state-STRONG', t12Count(d), 'sec-t12')}
+        ${chip('3→4', 'state-PULLBACK', t34Count(d), 'sec-t34')}
+        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1 || []).length, 'sec-nh1')}
+        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2 || []).length, 'sec-nh2')}
       `;
     }
 
@@ -995,7 +1006,26 @@
     function dsBPart(d, partBLabel) {
       const b = dsBFilter(d.ds_b).slice().sort((x, y) => (x.sig === y.sig ? growVal(y) - growVal(x) : (x.sig === 'B' ? -1 : 1)));
       return trendSection(`${partBLabel} · 东吴B信号 (仅当日 B/b 信号: B=底右强买/b=底左早买, 按营收增速降序; 急杀=恐慌宣泄型底部, A/美股胜率+4pp)`, b.length,
-        trendTable(DS_B_COLS_B, b.map(e => [...dsRow(e, 'ds_b'), growCell(e)])));
+        trendTable(DS_B_COLS_B, b.map(e => [...dsRow(e, 'ds_b'), growCell(e)])), 'sec-dsb');
+    }
+    // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
+    const fundLv = a => (Array.isArray(a) && a.length && a[0] != null && a[0] !== '') ? Number(a[0]) : null;
+    const yoyLvCell = v => v == null ? '<span class="muted-val">-</span>'
+      : `<b style="color:${v >= 0 ? 'var(--positive)' : 'var(--negative)'}">${v >= 0 ? '+' : ''}${v.toFixed(1)}%</b>`;
+    const roeLvCell = v => v == null ? '<span class="muted-val">-</span>' : `<b>${v.toFixed(1)}%</b>`;
+    function transPart(d, key, title, col) {
+      const arr = (d.all_stocks || []).filter(s => s[key] != null && s[key] <= 10)
+        .sort((a, b) => a[key] - b[key]);
+      const rows = arr.map(s => [
+        tk(s.ticker, key), s.name, s.sub_industry || '-', num2(s.close),
+        stageCell(s.stage), `<b style="color:${col}">${s[key]}d</b>`,
+        s.stage_days != null ? s.stage_days : '-',
+        sataCell(s.sata_d), sataCell(s.sata_w), signedR(s.ret_60),
+        yoyLvCell(fundLv(s.sales_yoy4)), yoyLvCell(fundLv(s.profit_yoy4)), roeLvCell(fundLv(s.roe4)),
+        `<b>${num2(s.hotness)}</b>`]);
+      return trendSection(title, rows.length,
+        trendTable(['代码','名称','行业','收盘','Stage','转换','持续','SATA日','SATA周','60日涨幅','营收YoY','净利YoY','ROE','热度分'], rows),
+        key === 't12' ? 'sec-t12' : 'sec-t34');
     }
     // ── Part 3 (合并原3.1+3.2): 底部区 — ①当日B/b信号 ②无B信号的底部观察; 两类均按最新营收增速降序 ──
     function bottomPart(d, screen, btCols) {
@@ -1016,7 +1046,7 @@
         (b.length ? trendTable(DS_B_COLS_B, bRows) : '<div style="padding:2px 0 6px;color:#94a3b8">今日无 B/b 信号</div>') +
         `<div style="padding:12px 0 6px;font-size:12px;color:#475569;font-weight:600">② 底部观察 · 无B信号 (${bt.length}) — 按营收增速降序 (入池: 周J<20+低位+均线纠缠+短线走平; 背离/跌不动/买点各1分, 仅保留≥1分)</div>` +
         trendTable(btCols, btRows);
-      return trendSection(`Part 3 · 底部区 (①当日B/b信号 ②底部观察·无B信号; 均优先高增速/明显改善)`, b.length + bt.length, inner);
+      return trendSection(`Part 3 · 底部区 (①当日B/b信号 ②底部观察·无B信号; 均优先高增速/明显改善)`, b.length + bt.length, inner, 'sec-bottom');
     }
     function renderA() {
       const d = aData;
@@ -1034,7 +1064,7 @@
           e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
           e.ret_60 != null ? e.ret_60 + '%' : '-']);
         html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows));
+          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
       }
 
       // ── Part 1b: 行业RS动量 ──
@@ -1075,19 +1105,21 @@
         e.ret_3d != null ? `<span class="chg-pos">+${e.ret_3d}%</span>` : '-',
         num2(e.vol_ratio) + 'x', trigBadge(e.trigger), num2(e.hotness), ...fundCells(e)]);
       html += trendSection('Part 2 · SOS 当日 (最新一根, 全量)', sosToday.length,
-        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)));
+        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sosToday)), 'sec-sos');
       html += trendSection('Part 2b · SOS 3日内 (最新根之前的3根内触发+3日确认, 全量)', sos3d.length,
-        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)));
+        trendTable(['代码','名称','申万三级','收盘','当日涨幅','3日涨幅','量比','触发','热度分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]], p3Rows(sos3d)), 'sec-sos3');
 
+      html += transPart(d, 't12', 'Part 2c · 1→2 转换 (近10个交易日刚进入Stage 2, 进场关注; 最新在前)', 'var(--positive)');
+      html += transPart(d, 't34', 'Part 2d · 3→4 转换 (近10个交易日跌破进入Stage 4, 离场/回避; 最新在前)', 'var(--negative)');
       // ── Part 3 (合并原3.1+3.2): 底部区 (东吴S信号已于2026-10-13全部tab移除) ──
       html += bottomPart(d, 'trend', ['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
       html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
-        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))));
+        trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
       html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
-        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))));
+        trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
     }
@@ -1658,11 +1690,18 @@
     document.getElementById('chart-modal').classList.add('open');
     document.getElementById('modal-name').textContent = stockName(ticker);
     const _sat = stockSATA(ticker);
-    document.getElementById('modal-industry').textContent = stockIndustry(ticker)
-      + (_sat && _sat.stage ? `　Stage ${_sat.stage}` : '')
-      + (_sat && _sat.t12 != null && _sat.t12 <= 10 ? `　1→2 ${_sat.t12}天前` : '')
-      + (_sat && _sat.t34 != null && _sat.t34 <= 10 ? `　3→4 ${_sat.t34}天前` : '')
-      + (_sat ? `　SATA 日${_sat.sata_d != null ? _sat.sata_d : '-'} / 周${_sat.sata_w != null ? _sat.sata_w : '-'}` : '');
+    const _mb = [];
+    if (_sat && _sat.stage) _mb.push(`<b style="color:${_sat.stage === '2' ? 'var(--positive)' : _sat.stage === '4' ? 'var(--negative)' : 'var(--text)'}">Stage ${_sat.stage}</b>${_sat.stage_days != null ? ` <span class="muted-val">(${_sat.stage_days}d)</span>` : ''}`);
+    if (_sat && _sat.t12 != null && _sat.t12 <= 10) _mb.push(`<b style="color:var(--positive)">1→2 ${_sat.t12}天前</b>`);
+    if (_sat && _sat.t34 != null && _sat.t34 <= 10) _mb.push(`<b style="color:var(--negative)">3→4 ${_sat.t34}天前</b>`);
+    if (_sat && (_sat.sata_d != null || _sat.sata_w != null)) _mb.push(`SATA <b>${_sat.sata_d != null ? _sat.sata_d : '-'}</b>/<b>${_sat.sata_w != null ? _sat.sata_w : '-'}</b>`);
+    if (_sat) {
+      const _sy = fundLv(_sat.sales_yoy4), _py = fundLv(_sat.profit_yoy4), _ro = fundLv(_sat.roe4);
+      if (_sy != null || _py != null || _ro != null)
+        _mb.push(`营收${yoyLvCell(_sy)} 净利${yoyLvCell(_py)} ROE${roeLvCell(_ro)}`);
+    }
+    document.getElementById('modal-industry').innerHTML = stockIndustry(ticker)
+      + (_mb.length ? '　' + _mb.join('　·　') : '');
     document.getElementById('modal-ticker').textContent =
       ticker + (_chartIdx >= 0 ? `   (${_chartIdx + 1}/${_chartList.length})  ←→切换 D/W日周` : '');
     _updateIntervalBtns();
