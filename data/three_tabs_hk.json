@@ -922,16 +922,6 @@
       "last_close": 18.01
     },
     {
-      "ticker": "6030.HK",
-      "name_cn": "中信证券",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 23.74
-    },
-    {
       "ticker": "0388.HK",
       "name_cn": "香港交易所",
       "gics_sector": "Financials",
@@ -940,6 +930,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 379.6
+    },
+    {
+      "ticker": "6030.HK",
+      "name_cn": "中信证券",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 3,
+      "last_close": 23.74
     },
     {
       "ticker": "6886.HK",
@@ -1142,16 +1142,6 @@
       "last_close": 5.025
     },
     {
-      "ticker": "9980.HK",
-      "name_cn": "东鹏饮料",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 98.55
-    },
-    {
       "ticker": "2689.HK",
       "name_cn": "玖龙纸业",
       "gics_sector": "Materials",
@@ -1162,14 +1152,14 @@
       "last_close": 5.215
     },
     {
-      "ticker": "9858.HK",
-      "name_cn": "优然牧业",
+      "ticker": "9980.HK",
+      "name_cn": "东鹏饮料",
       "gics_sector": "Consumer Staples",
       "alert_type": "B_EXIT",
       "label": "B·EXIT",
       "emoji": "🔴",
-      "days_in_state": 3,
-      "last_close": 3.46
+      "days_in_state": 1,
+      "last_close": 98.55
     },
     {
       "ticker": "2367.HK",
@@ -1180,6 +1170,16 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 23.14
+    },
+    {
+      "ticker": "9858.HK",
+      "name_cn": "优然牧业",
+      "gics_sector": "Consumer Staples",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 3,
+      "last_close": 3.46
     },
     {
       "ticker": "2698.HK",
@@ -1262,16 +1262,6 @@
       "last_close": 55.55
     },
     {
-      "ticker": "1810.HK",
-      "name_cn": "小米集团-W",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 25.04
-    },
-    {
       "ticker": "2018.HK",
       "name_cn": "瑞声科技",
       "gics_sector": "Information Technology",
@@ -1300,6 +1290,16 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 65.8
+    },
+    {
+      "ticker": "1810.HK",
+      "name_cn": "小米集团-W",
+      "gics_sector": "Information Technology",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 2,
+      "last_close": 25.04
     },
     {
       "ticker": "2696.HK",
