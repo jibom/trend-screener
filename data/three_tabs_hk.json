@@ -912,16 +912,6 @@
       "last_close": 5.21
     },
     {
-      "ticker": "0966.HK",
-      "name_cn": "中国太平",
-      "gics_sector": "Financials",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 18.01
-    },
-    {
       "ticker": "0388.HK",
       "name_cn": "香港交易所",
       "gics_sector": "Financials",
@@ -930,6 +920,16 @@
       "emoji": "🔴",
       "days_in_state": 4,
       "last_close": 379.6
+    },
+    {
+      "ticker": "0966.HK",
+      "name_cn": "中国太平",
+      "gics_sector": "Financials",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 2,
+      "last_close": 18.01
     },
     {
       "ticker": "6030.HK",
@@ -1272,16 +1272,6 @@
       "last_close": 36.56
     },
     {
-      "ticker": "1810.HK",
-      "name_cn": "小米集团-W",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 2,
-      "last_close": 25.04
-    },
-    {
       "ticker": "0501.HK",
       "name_cn": "豪威集团",
       "gics_sector": "Information Technology",
@@ -1290,6 +1280,16 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 65.8
+    },
+    {
+      "ticker": "1810.HK",
+      "name_cn": "小米集团-W",
+      "gics_sector": "Information Technology",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 2,
+      "last_close": 25.04
     },
     {
       "ticker": "2696.HK",

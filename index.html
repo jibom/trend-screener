@@ -695,6 +695,8 @@
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
+        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -789,6 +791,8 @@
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
+        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -951,6 +955,8 @@
         <div class="summary-item"><span class="state-badge state-EARLY">SOS异动</span><span class="summary-val">${(d.part3 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-EARLY">底部观察</span><span class="summary-val">${(d.bottom || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">东吴B</span><span class="summary-val">${dsBFilter(d.ds_b).length}</span></div>
+        <div class="summary-item"><span class="state-badge state-STRONG">1→2</span><span class="summary-val">${t12Count(d)}</span></div>
+        <div class="summary-item"><span class="state-badge state-PULLBACK">3→4</span><span class="summary-val">${t34Count(d)}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">首次新高</span><span class="summary-val">${(d.part1c1 || []).length}</span></div>
         <div class="summary-item"><span class="state-badge state-SETUP_OK">持续新高</span><span class="summary-val">${(d.part1c2 || []).length}</span></div>
       `;
@@ -1129,9 +1135,11 @@
       const rows = stocks.map(s => [
         `<a class="tk-link" href="#" onclick="openStockFromDetail('${s.ticker}'); return false;">${s.ticker}</a>`,
         s.name, num2(s.close), signedR(s.ret_60), pctR(s.pct_high_250),
-        yn(s.ma_aligned), sataCell(s.sata_d), sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`]);
+        yn(s.ma_aligned), stageCell(s.stage), transCell(s.t12, 'var(--positive)'),
+        transCell(s.t34, 'var(--negative)'), sataCell(s.sata_d), sataCell(s.sata_w),
+        `<b>${num2(s.hotness)}</b>`]);
       document.getElementById('sector-content').innerHTML = (stocks.length
-        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','SATA日','SATA周','热度分'], rows)
+        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','Stage','1→2','3→4','SATA日','SATA周','热度分'], rows)
         : '<p class="empty-state">该子行业无成分股</p>');
       document.getElementById('sector-modal').classList.add('open');
       document.body.style.overflow = 'hidden';
@@ -1609,6 +1617,13 @@
   // SATA 技术属性评分单元格 (0-10; ≥6绿=趋势健康, 复刻工作侧SATA_AHADR算法, 2026-10-13)
   const sataCell = v => v == null ? '<span class="muted-val">-</span>'
     : `<b style="color:${v >= 6 ? 'var(--positive)' : v >= 4 ? 'var(--text)' : 'var(--text-muted)'}">${v}</b>`;
+  // Weinstein 大阶段 + 1→2/3→4 转换单元格 (2026-10-13; 转换触发后≤10交易日追溯显示 "Nd")
+  const stageCell = s => s == null ? '<span class="muted-val">-</span>'
+    : `<b style="color:${s === '2' ? 'var(--positive)' : s === '4' ? 'var(--negative)' : 'var(--text)'}">${s}</b>`;
+  const transCell = (d, col) => (d != null && d <= 10)
+    ? `<b style="color:${col}">${d}d</b>` : '<span class="muted-val">·</span>';
+  const t12Count = d => (d.all_stocks || []).filter(s => s.t12 != null && s.t12 <= 10).length;
+  const t34Count = d => (d.all_stocks || []).filter(s => s.t34 != null && s.t34 <= 10).length;
   function stockSATA(ticker) {
     // 从已加载各市场 all_stocks 查个股 SATA 日/周分 (图表弹窗显示用)
     for (const d of [window.trendData, window.usData, window.etfData, window.cetfData, window.aData]) {
@@ -1644,6 +1659,9 @@
     document.getElementById('modal-name').textContent = stockName(ticker);
     const _sat = stockSATA(ticker);
     document.getElementById('modal-industry').textContent = stockIndustry(ticker)
+      + (_sat && _sat.stage ? `　Stage ${_sat.stage}` : '')
+      + (_sat && _sat.t12 != null && _sat.t12 <= 10 ? `　1→2 ${_sat.t12}天前` : '')
+      + (_sat && _sat.t34 != null && _sat.t34 <= 10 ? `　3→4 ${_sat.t34}天前` : '')
       + (_sat ? `　SATA 日${_sat.sata_d != null ? _sat.sata_d : '-'} / 周${_sat.sata_w != null ? _sat.sata_w : '-'}` : '');
     document.getElementById('modal-ticker').textContent =
       ticker + (_chartIdx >= 0 ? `   (${_chartIdx + 1}/${_chartList.length})  ←→切换 D/W日周` : '');

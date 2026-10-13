@@ -8455,7 +8455,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 40,
+      "t12": 40,
+      "t34": 135
     },
     {
       "ticker": "600127.SH",
@@ -8469,7 +8473,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 30,
+      "t12": 30,
+      "t34": null
     },
     {
       "ticker": "601579.SH",
@@ -8483,7 +8491,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 21,
+      "t12": 21,
+      "t34": 407
     },
     {
       "ticker": "301080.SZ",
@@ -8497,7 +8509,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": 140
     },
     {
       "ticker": "600664.SH",
@@ -8511,7 +8527,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 56,
+      "t12": 56,
+      "t34": null
     },
     {
       "ticker": "600371.SH",
@@ -8525,7 +8545,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 25,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "003006.SZ",
@@ -8539,7 +8563,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": 209
     },
     {
       "ticker": "600059.SH",
@@ -8553,7 +8581,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 10,
+      "t12": 10,
+      "t34": 174
     },
     {
       "ticker": "603230.SH",
@@ -8567,7 +8599,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 6,
+      "t12": 6,
+      "t34": 538
     },
     {
       "ticker": "601811.SH",
@@ -8581,7 +8617,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 5,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "301047.SZ",
@@ -8595,7 +8635,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 9,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 45,
+      "t12": 57,
+      "t34": null
     },
     {
       "ticker": "601086.SH",
@@ -8609,7 +8653,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 17,
+      "t12": 17,
+      "t34": 193
     },
     {
       "ticker": "002172.SZ",
@@ -8623,7 +8671,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 29,
+      "t12": 29,
+      "t34": 117
     },
     {
       "ticker": "002827.SZ",
@@ -8637,7 +8689,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "sata_d": 8,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 39,
+      "t12": 39,
+      "t34": 142
     },
     {
       "ticker": "000504.SZ",
@@ -8651,7 +8707,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 11,
+      "t12": 11,
+      "t34": 338
     },
     {
       "ticker": "000011.SZ",
@@ -8665,7 +8725,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 24,
+      "t12": 24,
+      "t34": null
     },
     {
       "ticker": "601328.SH",
@@ -8679,7 +8743,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 24,
+      "t12": 24,
+      "t34": null
     },
     {
       "ticker": "605058.SH",
@@ -8693,7 +8761,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 14,
+      "t12": 14,
+      "t34": 49
     },
     {
       "ticker": "600036.SH",
@@ -8707,7 +8779,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 24,
+      "t12": 24,
+      "t34": null
     },
     {
       "ticker": "603259.SH",
@@ -8721,7 +8797,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 73,
+      "t12": 73,
+      "t34": null
     },
     {
       "ticker": "002913.SZ",
@@ -8735,7 +8815,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 42,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "000560.SZ",
@@ -8749,7 +8833,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 7,
+      "t12": 7,
+      "t34": 324
     },
     {
       "ticker": "600354.SH",
@@ -8763,7 +8851,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 32,
+      "t12": 32,
+      "t34": null
     },
     {
       "ticker": "300829.SZ",
@@ -8777,7 +8869,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 11,
+      "t12": 11,
+      "t34": 104
     },
     {
       "ticker": "000993.SZ",
@@ -8791,7 +8887,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "sata_d": 9,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 12,
+      "t12": 12,
+      "t34": 66
     },
     {
       "ticker": "601919.SH",
@@ -8805,7 +8905,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 58,
+      "t12": 58,
+      "t34": null
     },
     {
       "ticker": "600721.SH",
@@ -8819,7 +8923,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 31,
+      "t12": 31,
+      "t34": 104
     },
     {
       "ticker": "603268.SH",
@@ -8833,7 +8941,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 9,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 295,
+      "t12": 295,
+      "t34": null
     },
     {
       "ticker": "002349.SZ",
@@ -8847,7 +8959,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 27,
+      "t12": 222,
+      "t34": null
     },
     {
       "ticker": "688315.SH",
@@ -8861,7 +8977,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 9,
+      "t12": 9,
+      "t34": 240
     },
     {
       "ticker": "002242.SZ",
@@ -8875,7 +8995,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 10
+      "sata_w": 10,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": null
     },
     {
       "ticker": "688185.SH",
@@ -8889,7 +9013,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 4,
+      "t12": 4,
+      "t34": 131
     },
     {
       "ticker": "300413.SZ",
@@ -8903,7 +9031,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 159,
+      "t34": 122
     },
     {
       "ticker": "600722.SH",
@@ -8917,7 +9049,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 47,
+      "t12": 47,
+      "t34": null
     },
     {
       "ticker": "300192.SZ",
@@ -8931,7 +9067,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 28,
+      "t12": 28,
+      "t34": 535
     },
     {
       "ticker": "301190.SZ",
@@ -8945,7 +9085,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": 176
     },
     {
       "ticker": "601398.SH",
@@ -8959,7 +9103,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 23,
+      "t12": 23,
+      "t34": null
     },
     {
       "ticker": "300862.SZ",
@@ -8973,7 +9121,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 36,
+      "t12": 36,
+      "t34": 322
     },
     {
       "ticker": "002614.SZ",
@@ -8987,7 +9139,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": 123
     },
     {
       "ticker": "300759.SZ",
@@ -9001,7 +9157,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 58,
+      "t12": 58,
+      "t34": 125
     },
     {
       "ticker": "300725.SZ",
@@ -9015,7 +9175,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 8,
+      "t12": 57,
+      "t34": 138
     },
     {
       "ticker": "601169.SH",
@@ -9029,7 +9193,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 25,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "603228.SH",
@@ -9043,7 +9211,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 8,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 46,
+      "t12": 46,
+      "t34": null
     },
     {
       "ticker": "301218.SZ",
@@ -9057,7 +9229,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 210,
+      "t12": 210,
+      "t34": null
     },
     {
       "ticker": "600900.SH",
@@ -9071,7 +9247,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 21,
+      "t12": 90,
+      "t34": 380
     },
     {
       "ticker": "600150.SH",
@@ -9085,7 +9265,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 21,
+      "t12": 21,
+      "t34": 126
     },
     {
       "ticker": "002815.SZ",
@@ -9099,7 +9283,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 16,
+      "t12": 65,
+      "t34": 38
     },
     {
       "ticker": "300369.SZ",
@@ -9113,7 +9301,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 15,
+      "t12": 15,
+      "t34": 328
     },
     {
       "ticker": "600479.SH",
@@ -9127,7 +9319,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 28,
+      "t12": 28,
+      "t34": 419
     },
     {
       "ticker": "300647.SZ",
@@ -9141,7 +9337,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 19,
+      "t12": 19,
+      "t34": 125
     },
     {
       "ticker": "601988.SH",
@@ -9155,7 +9355,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 31,
+      "t12": 100,
+      "t34": null
     },
     {
       "ticker": "601118.SH",
@@ -9169,7 +9373,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 22,
+      "t34": 64
     },
     {
       "ticker": "002285.SZ",
@@ -9183,7 +9391,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 5,
+      "t12": 5,
+      "t34": 63
     },
     {
       "ticker": "002142.SZ",
@@ -9197,7 +9409,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 57,
+      "t12": 65,
+      "t34": null
     },
     {
       "ticker": "002303.SZ",
@@ -9211,7 +9427,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 62,
+      "t12": 62,
+      "t34": 123
     },
     {
       "ticker": "000333.SZ",
@@ -9225,7 +9445,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 58,
+      "t12": 70,
+      "t34": null
     },
     {
       "ticker": "603127.SH",
@@ -9239,7 +9463,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 65,
+      "t12": 364,
+      "t34": null
     },
     {
       "ticker": "600737.SH",
@@ -9253,7 +9481,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 4,
+      "t12": 17,
+      "t34": 110
     },
     {
       "ticker": "300489.SZ",
@@ -9267,7 +9499,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 128,
+      "t12": 138,
+      "t34": 322
     },
     {
       "ticker": "600919.SH",
@@ -9281,7 +9517,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 54,
+      "t12": 119,
+      "t34": 166
     },
     {
       "ticker": "002912.SZ",
@@ -9295,7 +9535,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "1",
+      "stage_days": 16,
+      "t12": 147,
+      "t34": 102
     },
     {
       "ticker": "603236.SH",
@@ -9309,7 +9553,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 5,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 9,
+      "t12": 9,
+      "t34": 125
     },
     {
       "ticker": "300981.SZ",
@@ -9323,7 +9571,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 39,
+      "t12": 39,
+      "t34": null
     },
     {
       "ticker": "000823.SZ",
@@ -9337,7 +9589,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 17,
+      "t12": 209,
+      "t34": null
     },
     {
       "ticker": "001216.SZ",
@@ -9351,7 +9607,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 9,
+      "t12": 9,
+      "t34": 61
     },
     {
       "ticker": "300684.SZ",
@@ -9365,7 +9625,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 35,
+      "t12": 314,
+      "t34": null
     },
     {
       "ticker": "601939.SH",
@@ -9379,7 +9643,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 50,
+      "t12": 137,
+      "t34": null
     },
     {
       "ticker": "300209.SZ",
@@ -9393,7 +9661,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 169,
+      "t12": 201,
+      "t34": null
     },
     {
       "ticker": "601857.SH",
@@ -9407,7 +9679,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 10,
+      "t12": 10,
+      "t34": 456
     },
     {
       "ticker": "601872.SH",
@@ -9421,7 +9697,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 9,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 54,
+      "t12": 54,
+      "t34": 456
     },
     {
       "ticker": "000523.SZ",
@@ -9435,7 +9715,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 195,
+      "t34": null
     },
     {
       "ticker": "301520.SZ",
@@ -9449,7 +9733,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 63,
+      "t12": 63,
+      "t34": null
     },
     {
       "ticker": "000001.SZ",
@@ -9463,7 +9751,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 48,
+      "t12": 48,
+      "t34": 328
     },
     {
       "ticker": "600641.SH",
@@ -9477,7 +9769,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": 317
     },
     {
       "ticker": "301366.SZ",
@@ -9491,7 +9787,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 46,
+      "t12": 46,
+      "t34": 148
     },
     {
       "ticker": "688485.SH",
@@ -9505,7 +9805,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 364,
+      "t12": 364,
+      "t34": null
     },
     {
       "ticker": "688002.SH",
@@ -9519,7 +9823,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 482,
+      "t12": 482,
+      "t34": null
     },
     {
       "ticker": "300454.SZ",
@@ -9533,7 +9841,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 20,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "301132.SZ",
@@ -9547,7 +9859,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 18,
+      "t12": 79,
+      "t34": 392
     },
     {
       "ticker": "688655.SH",
@@ -9561,7 +9877,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 42,
+      "t12": 42,
+      "t34": 179
     },
     {
       "ticker": "002396.SZ",
@@ -9575,7 +9895,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 65,
+      "t12": 65,
+      "t34": 120
     },
     {
       "ticker": "600121.SH",
@@ -9589,7 +9913,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 24,
+      "t12": 24,
+      "t34": 77
     },
     {
       "ticker": "688202.SH",
@@ -9603,7 +9931,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 67,
+      "t12": 67,
+      "t34": null
     },
     {
       "ticker": "688222.SH",
@@ -9617,7 +9949,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 11,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "603186.SH",
@@ -9631,7 +9967,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "601218.SH",
@@ -9645,7 +9985,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 4,
+      "t12": 4,
+      "t34": 79
     },
     {
       "ticker": "601658.SH",
@@ -9659,7 +10003,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 25,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "600988.SH",
@@ -9673,7 +10021,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "3",
+      "stage_days": 1,
+      "t12": 4,
+      "t34": 443
     },
     {
       "ticker": "000002.SZ",
@@ -9687,7 +10039,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 388,
+      "t34": 335
     },
     {
       "ticker": "688432.SH",
@@ -9701,7 +10057,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 125,
+      "t12": 125,
+      "t34": 323
     },
     {
       "ticker": "600028.SH",
@@ -9715,7 +10075,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 127,
+      "t34": null
     },
     {
       "ticker": "000703.SZ",
@@ -9729,7 +10093,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 277,
+      "t12": 295,
+      "t34": null
     },
     {
       "ticker": "603893.SH",
@@ -9743,7 +10111,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "3",
+      "stage_days": 27,
+      "t12": 63,
+      "t34": 121
     },
     {
       "ticker": "002415.SZ",
@@ -9757,7 +10129,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "3",
+      "stage_days": 4,
+      "t12": 11,
+      "t34": null
     },
     {
       "ticker": "600293.SH",
@@ -9771,7 +10147,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": null
     },
     {
       "ticker": "002141.SZ",
@@ -9785,7 +10165,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 73,
+      "t12": 73,
+      "t34": null
     },
     {
       "ticker": "000651.SZ",
@@ -9799,7 +10183,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "3",
+      "stage_days": 5,
+      "t12": 55,
+      "t34": null
     },
     {
       "ticker": "300142.SZ",
@@ -9813,7 +10201,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 41,
+      "t34": null
     },
     {
       "ticker": "600026.SH",
@@ -9827,7 +10219,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 22,
+      "t12": 22,
+      "t34": 464
     },
     {
       "ticker": "301251.SZ",
@@ -9841,7 +10237,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 28,
+      "t12": 64,
+      "t34": null
     },
     {
       "ticker": "601088.SH",
@@ -9855,7 +10255,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 42,
+      "t12": 42,
+      "t34": 401
     },
     {
       "ticker": "600792.SH",
@@ -9869,7 +10273,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 5,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 19,
+      "t12": 109,
+      "t34": 75
     },
     {
       "ticker": "002821.SZ",
@@ -9883,7 +10291,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 127,
+      "t12": 127,
+      "t34": 134
     },
     {
       "ticker": "300199.SZ",
@@ -9897,7 +10309,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": 135
     },
     {
       "ticker": "601288.SH",
@@ -9911,7 +10327,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": null
     },
     {
       "ticker": "001317.SZ",
@@ -9925,7 +10345,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 10,
+      "t12": 165,
+      "t34": null
     },
     {
       "ticker": "002849.SZ",
@@ -9939,7 +10363,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 15,
+      "t12": 69,
+      "t34": 309
     },
     {
       "ticker": "688356.SH",
@@ -9953,7 +10381,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 29,
+      "t34": null
     },
     {
       "ticker": "600256.SH",
@@ -9967,7 +10399,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 36,
+      "t12": 36,
+      "t34": 421
     },
     {
       "ticker": "300404.SZ",
@@ -9981,7 +10417,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 41,
+      "t12": 105,
+      "t34": 132
     },
     {
       "ticker": "002768.SZ",
@@ -9995,7 +10435,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 105,
+      "t12": 138,
+      "t34": null
     },
     {
       "ticker": "688112.SH",
@@ -10009,7 +10453,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 35,
+      "t12": 35,
+      "t34": null
     },
     {
       "ticker": "600887.SH",
@@ -10023,7 +10471,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": null
     },
     {
       "ticker": "688678.SH",
@@ -10037,7 +10489,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 20,
+      "t12": 20,
+      "t34": null
     },
     {
       "ticker": "300613.SZ",
@@ -10051,7 +10507,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 55,
+      "t12": 55,
+      "t34": null
     },
     {
       "ticker": "600941.SH",
@@ -10065,7 +10525,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": null
     },
     {
       "ticker": "002437.SZ",
@@ -10079,7 +10543,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "3",
+      "stage_days": 4,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "003040.SZ",
@@ -10093,7 +10561,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 12,
+      "t34": 159
     },
     {
       "ticker": "603626.SH",
@@ -10107,7 +10579,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 12,
+      "t12": 283,
+      "t34": 22
     },
     {
       "ticker": "600601.SH",
@@ -10121,7 +10597,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 116,
+      "t34": 44
     },
     {
       "ticker": "601318.SH",
@@ -10135,7 +10615,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 4,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "4",
+      "stage_days": 8,
+      "t12": 139,
+      "t34": null
     },
     {
       "ticker": "601168.SH",
@@ -10149,7 +10633,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 61,
+      "t12": 61,
+      "t34": 449
     },
     {
       "ticker": "000513.SZ",
@@ -10163,7 +10651,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 219,
+      "t34": null
     },
     {
       "ticker": "300189.SZ",
@@ -10177,7 +10669,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 10,
+      "t34": 64
     },
     {
       "ticker": "603087.SH",
@@ -10191,7 +10687,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 60,
+      "t34": 112
     },
     {
       "ticker": "301536.SZ",
@@ -10205,7 +10705,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 181,
+      "t12": 181,
+      "t34": 277
     },
     {
       "ticker": "688114.SH",
@@ -10219,7 +10723,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 7,
+      "t12": 7,
+      "t34": 238
     },
     {
       "ticker": "600519.SH",
@@ -10233,7 +10741,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 20,
+      "t12": 163,
+      "t34": null
     },
     {
       "ticker": "002648.SZ",
@@ -10247,7 +10759,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 55,
+      "t12": 55,
+      "t34": 318
     },
     {
       "ticker": "601225.SH",
@@ -10261,7 +10777,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 49,
+      "t12": 94,
+      "t34": null
     },
     {
       "ticker": "002246.SZ",
@@ -10275,7 +10795,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 19,
+      "t12": 39,
+      "t34": 532
     },
     {
       "ticker": "002708.SZ",
@@ -10289,7 +10813,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 19,
+      "t12": 19,
+      "t34": 52
     },
     {
       "ticker": "002882.SZ",
@@ -10303,7 +10831,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 183,
+      "t34": 148
     },
     {
       "ticker": "300917.SZ",
@@ -10317,7 +10849,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 270,
+      "t34": 330
     },
     {
       "ticker": "300347.SZ",
@@ -10331,7 +10867,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 19,
+      "t12": 166,
+      "t34": 135
     },
     {
       "ticker": "601166.SH",
@@ -10345,7 +10885,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 39,
+      "t34": null
     },
     {
       "ticker": "601899.SH",
@@ -10359,7 +10903,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 14,
+      "t12": 32,
+      "t34": 445
     },
     {
       "ticker": "603068.SH",
@@ -10373,7 +10921,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 10,
+      "t12": 10,
+      "t34": 125
     },
     {
       "ticker": "300207.SZ",
@@ -10387,7 +10939,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 3,
+      "t12": 122,
+      "t34": 96
     },
     {
       "ticker": "002487.SZ",
@@ -10401,7 +10957,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 50,
+      "t12": 378,
+      "t34": 50
     },
     {
       "ticker": "300903.SZ",
@@ -10415,7 +10975,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "600206.SH",
@@ -10429,7 +10993,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 114,
+      "t12": 160,
+      "t34": null
     },
     {
       "ticker": "600048.SH",
@@ -10443,7 +11011,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 359,
+      "t34": 421
     },
     {
       "ticker": "688072.SH",
@@ -10457,7 +11029,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 284,
+      "t12": 284,
+      "t34": 314
     },
     {
       "ticker": "002493.SZ",
@@ -10471,7 +11047,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "300300.SZ",
@@ -10485,7 +11065,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 365,
+      "t34": 68
     },
     {
       "ticker": "688361.SH",
@@ -10499,7 +11083,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 258,
+      "t12": 276,
+      "t34": 306
     },
     {
       "ticker": "002436.SZ",
@@ -10513,7 +11101,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "688143.SH",
@@ -10527,7 +11119,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "601009.SH",
@@ -10541,7 +11137,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 47,
+      "t12": 47,
+      "t34": null
     },
     {
       "ticker": "600016.SH",
@@ -10555,7 +11155,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 5,
+      "t12": 16,
+      "t34": null
     },
     {
       "ticker": "300676.SZ",
@@ -10569,7 +11173,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 11,
+      "t12": 173,
+      "t34": 242
     },
     {
       "ticker": "000592.SZ",
@@ -10583,7 +11191,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 5,
+      "t12": 466,
+      "t34": 65
     },
     {
       "ticker": "301486.SZ",
@@ -10597,7 +11209,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 3,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "600183.SH",
@@ -10611,7 +11227,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 12,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 122,
+      "t12": 122,
+      "t34": null
     },
     {
       "ticker": "603067.SH",
@@ -10625,7 +11245,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "3",
+      "stage_days": 28,
+      "t12": 34,
+      "t34": null
     },
     {
       "ticker": "002212.SZ",
@@ -10639,7 +11263,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 189,
+      "t34": 121
     },
     {
       "ticker": "600108.SH",
@@ -10653,7 +11281,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 4,
+      "t12": 4,
+      "t34": null
     },
     {
       "ticker": "600547.SH",
@@ -10667,7 +11299,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 19,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 12,
+      "t12": 124,
+      "t34": 96
     },
     {
       "ticker": "002640.SZ",
@@ -10681,7 +11317,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 5,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 222,
+      "t34": 165
     },
     {
       "ticker": "002531.SZ",
@@ -10695,7 +11335,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "4",
+      "stage_days": 21,
+      "t12": 81,
+      "t34": null
     },
     {
       "ticker": "000710.SZ",
@@ -10709,7 +11353,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "1",
+      "stage_days": 9,
+      "t12": 485,
+      "t34": 234
     },
     {
       "ticker": "301205.SZ",
@@ -10723,7 +11371,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": null
     },
     {
       "ticker": "600186.SH",
@@ -10737,7 +11389,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": 244
     },
     {
       "ticker": "600030.SH",
@@ -10751,7 +11407,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 47,
+      "t12": 69,
+      "t34": 134
     },
     {
       "ticker": "603533.SH",
@@ -10765,7 +11425,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 24,
+      "t34": 58
     },
     {
       "ticker": "600172.SH",
@@ -10779,7 +11443,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "600795.SH",
@@ -10793,7 +11461,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 28,
+      "t12": 28,
+      "t34": null
     },
     {
       "ticker": "301282.SZ",
@@ -10807,7 +11479,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 38,
+      "t12": 38,
+      "t34": 321
     },
     {
       "ticker": "002636.SZ",
@@ -10821,7 +11497,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 311,
+      "t12": 329,
+      "t34": null
     },
     {
       "ticker": "600309.SH",
@@ -10835,7 +11515,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 12,
+      "t12": 95,
+      "t34": null
     },
     {
       "ticker": "603083.SH",
@@ -10849,7 +11533,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 39,
+      "t12": 39,
+      "t34": null
     },
     {
       "ticker": "300760.SZ",
@@ -10863,7 +11551,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 272,
+      "t34": 522
     },
     {
       "ticker": "002463.SZ",
@@ -10877,7 +11569,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 46,
+      "t34": null
     },
     {
       "ticker": "000938.SZ",
@@ -10891,7 +11587,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 170,
+      "t34": 313
     },
     {
       "ticker": "601816.SH",
@@ -10905,7 +11605,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 48,
+      "t34": null
     },
     {
       "ticker": "002156.SZ",
@@ -10919,7 +11623,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 13,
+      "t34": 315
     },
     {
       "ticker": "600176.SH",
@@ -10933,7 +11641,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "002714.SZ",
@@ -10947,7 +11659,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 326,
+      "t34": 116
     },
     {
       "ticker": "301183.SZ",
@@ -10961,7 +11677,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 31,
+      "t12": 39,
+      "t34": 324
     },
     {
       "ticker": "002916.SZ",
@@ -10975,7 +11695,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "002074.SZ",
@@ -10989,7 +11713,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "4",
+      "stage_days": 101,
+      "t12": 115,
+      "t34": 101
     },
     {
       "ticker": "601985.SH",
@@ -11003,7 +11731,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 3,
+      "t12": 141,
+      "t34": null
     },
     {
       "ticker": "601766.SH",
@@ -11017,7 +11749,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": null
     },
     {
       "ticker": "300133.SZ",
@@ -11031,7 +11767,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 195,
+      "t34": 122
     },
     {
       "ticker": "600989.SH",
@@ -11045,7 +11785,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "3",
+      "stage_days": 5,
+      "t12": 18,
+      "t34": null
     },
     {
       "ticker": "002980.SZ",
@@ -11059,7 +11803,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "300750.SZ",
@@ -11073,7 +11821,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 4,
+      "t12": 80,
+      "t34": null
     },
     {
       "ticker": "603328.SH",
@@ -11087,7 +11839,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 13,
+      "t12": 13,
+      "t34": 46
     },
     {
       "ticker": "300757.SZ",
@@ -11101,7 +11857,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 43,
+      "t34": 325
     },
     {
       "ticker": "002579.SZ",
@@ -11115,7 +11875,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 6,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 21,
+      "t12": 21,
+      "t34": null
     },
     {
       "ticker": "002631.SZ",
@@ -11129,7 +11893,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "300408.SZ",
@@ -11143,7 +11911,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 277,
+      "t34": 322
     },
     {
       "ticker": "688099.SH",
@@ -11157,7 +11929,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "3",
+      "stage_days": 28,
+      "t12": 53,
+      "t34": null
     },
     {
       "ticker": "002536.SZ",
@@ -11171,7 +11947,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 17,
       "sata_d": 3,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "601869.SH",
@@ -11185,7 +11965,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "603002.SH",
@@ -11199,7 +11983,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 43,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "688498.SH",
@@ -11213,7 +12001,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 318,
+      "t34": null
     },
     {
       "ticker": "000636.SZ",
@@ -11227,7 +12019,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 280,
+      "t34": null
     },
     {
       "ticker": "601728.SH",
@@ -11241,7 +12037,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 10,
-      "sata_w": 9
+      "sata_w": 9,
+      "stage": "2",
+      "stage_days": 36,
+      "t12": 36,
+      "t34": 242
     },
     {
       "ticker": "300394.SZ",
@@ -11255,7 +12055,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "601668.SH",
@@ -11269,7 +12073,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 43,
+      "t12": 307,
+      "t34": null
     },
     {
       "ticker": "601975.SH",
@@ -11283,7 +12091,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 22,
+      "t12": 22,
+      "t34": null
     },
     {
       "ticker": "600276.SH",
@@ -11297,7 +12109,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 38,
+      "t12": 184,
+      "t34": 132
     },
     {
       "ticker": "300570.SZ",
@@ -11311,7 +12127,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 38,
+      "t12": 38,
+      "t34": null
     },
     {
       "ticker": "001330.SZ",
@@ -11325,7 +12145,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 111,
+      "t34": 62
     },
     {
       "ticker": "000977.SZ",
@@ -11339,7 +12163,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": 79
     },
     {
       "ticker": "603823.SH",
@@ -11353,7 +12181,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 108,
+      "t34": 428
     },
     {
       "ticker": "002244.SZ",
@@ -11367,7 +12199,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 143,
+      "t34": 316
     },
     {
       "ticker": "688012.SH",
@@ -11381,7 +12217,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 272,
+      "t12": 272,
+      "t34": 314
     },
     {
       "ticker": "601208.SH",
@@ -11395,7 +12235,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "002594.SZ",
@@ -11409,7 +12253,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 45,
+      "t12": 131,
+      "t34": 239
     },
     {
       "ticker": "688662.SH",
@@ -11423,7 +12271,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": 313
     },
     {
       "ticker": "688200.SH",
@@ -11437,7 +12289,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 319,
+      "t12": 319,
+      "t34": null
     },
     {
       "ticker": "300364.SZ",
@@ -11451,7 +12307,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 23,
+      "t12": 181,
+      "t34": 327
     },
     {
       "ticker": "600488.SH",
@@ -11465,7 +12325,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 19,
+      "t12": 19,
+      "t34": null
     },
     {
       "ticker": "001389.SZ",
@@ -11479,7 +12343,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 46,
+      "t34": null
     },
     {
       "ticker": "300857.SZ",
@@ -11493,7 +12361,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "300450.SZ",
@@ -11507,7 +12379,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 94,
+      "t12": 118,
+      "t34": 94
     },
     {
       "ticker": "300852.SZ",
@@ -11521,7 +12397,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 20,
+      "t12": 20,
+      "t34": null
     },
     {
       "ticker": "000678.SZ",
@@ -11535,7 +12415,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 171,
+      "t34": null
     },
     {
       "ticker": "301230.SZ",
@@ -11549,7 +12433,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": 15
     },
     {
       "ticker": "300765.SZ",
@@ -11563,7 +12451,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 59,
+      "t12": 59,
+      "t34": 214
     },
     {
       "ticker": "688256.SH",
@@ -11577,7 +12469,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "002428.SZ",
@@ -11591,7 +12487,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 46,
+      "t34": null
     },
     {
       "ticker": "688205.SH",
@@ -11605,7 +12505,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 5,
+      "t34": 39
     },
     {
       "ticker": "603200.SH",
@@ -11619,7 +12523,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 468,
+      "t34": 123
     },
     {
       "ticker": "600489.SH",
@@ -11633,7 +12541,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 12,
+      "t12": 19,
+      "t34": 56
     },
     {
       "ticker": "001979.SZ",
@@ -11647,7 +12559,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "4",
+      "stage_days": 92,
+      "t12": 143,
+      "t34": 112
     },
     {
       "ticker": "688025.SH",
@@ -11661,7 +12577,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "002185.SZ",
@@ -11675,7 +12595,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 14,
+      "t34": 324
     },
     {
       "ticker": "000725.SZ",
@@ -11689,7 +12613,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "688008.SH",
@@ -11703,7 +12631,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 10,
+      "t34": null
     },
     {
       "ticker": "002371.SZ",
@@ -11717,7 +12649,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 124,
+      "t34": null
     },
     {
       "ticker": "688702.SH",
@@ -11731,7 +12667,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 273,
+      "t34": 306
     },
     {
       "ticker": "688808.SH",
@@ -11745,7 +12685,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "688120.SH",
@@ -11759,7 +12703,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 276,
+      "t12": 353,
+      "t34": 322
     },
     {
       "ticker": "688313.SH",
@@ -11773,7 +12721,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 41,
+      "t34": null
     },
     {
       "ticker": "601138.SH",
@@ -11787,7 +12739,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 117,
+      "t34": 427
     },
     {
       "ticker": "002119.SZ",
@@ -11801,7 +12757,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "3",
+      "stage_days": 15,
+      "t12": 35,
+      "t34": 254
     },
     {
       "ticker": "301165.SZ",
@@ -11815,7 +12775,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 79,
+      "t12": 125,
+      "t34": null
     },
     {
       "ticker": "688235.SH",
@@ -11829,7 +12793,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 3,
+      "t12": 50,
+      "t34": null
     },
     {
       "ticker": "301550.SZ",
@@ -11843,7 +12811,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 66,
+      "t34": 30
     },
     {
       "ticker": "301297.SZ",
@@ -11857,7 +12829,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 105,
+      "t34": 40
     },
     {
       "ticker": "000338.SZ",
@@ -11871,7 +12847,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 4,
+      "t12": 46,
+      "t34": 231
     },
     {
       "ticker": "688469.SH",
@@ -11885,7 +12865,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 48,
+      "t12": 48,
+      "t34": 308
     },
     {
       "ticker": "300740.SZ",
@@ -11899,7 +12883,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 144,
+      "t34": 44
     },
     {
       "ticker": "300604.SZ",
@@ -11913,7 +12901,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 287,
+      "t34": null
     },
     {
       "ticker": "300285.SZ",
@@ -11927,7 +12919,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 295,
+      "t34": 326
     },
     {
       "ticker": "300502.SZ",
@@ -11941,7 +12937,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "300548.SZ",
@@ -11955,7 +12955,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "688519.SH",
@@ -11969,7 +12973,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 398,
+      "t12": 398,
+      "t34": null
     },
     {
       "ticker": "002938.SZ",
@@ -11983,7 +12991,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 138,
+      "t34": 356
     },
     {
       "ticker": "002080.SZ",
@@ -11997,7 +13009,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 12,
+      "t34": null
     },
     {
       "ticker": "688536.SH",
@@ -12011,7 +13027,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": 195
     },
     {
       "ticker": "600869.SH",
@@ -12025,7 +13045,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 4,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 23,
+      "t34": null
     },
     {
       "ticker": "300308.SZ",
@@ -12039,7 +13063,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 11,
+      "t34": 406
     },
     {
       "ticker": "603757.SH",
@@ -12053,7 +13081,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 9,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "688981.SH",
@@ -12067,7 +13099,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 31,
+      "t12": 43,
+      "t34": 314
     },
     {
       "ticker": "000975.SZ",
@@ -12081,7 +13117,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 12,
+      "t12": 35,
+      "t34": 449
     },
     {
       "ticker": "000100.SZ",
@@ -12095,7 +13135,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "3",
+      "stage_days": 20,
+      "t12": 86,
+      "t34": 313
     },
     {
       "ticker": "002422.SZ",
@@ -12109,7 +13153,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 89,
+      "t12": 89,
+      "t34": 186
     },
     {
       "ticker": "600330.SH",
@@ -12123,7 +13171,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 42,
+      "t34": 316
     },
     {
       "ticker": "300059.SZ",
@@ -12137,7 +13189,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 67,
+      "t12": 179,
+      "t34": 136
     },
     {
       "ticker": "002384.SZ",
@@ -12151,7 +13207,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 329,
+      "t34": null
     },
     {
       "ticker": "600000.SH",
@@ -12165,7 +13225,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 242,
+      "t34": 166
     },
     {
       "ticker": "688512.SH",
@@ -12179,7 +13243,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 8,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 13,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "000807.SZ",
@@ -12193,7 +13261,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 17,
+      "t12": 88,
+      "t34": 33
     },
     {
       "ticker": "600938.SH",
@@ -12207,7 +13279,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "3",
+      "stage_days": 11,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "002851.SZ",
@@ -12221,7 +13297,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 9,
+      "t12": 17,
+      "t34": null
     },
     {
       "ticker": "600418.SH",
@@ -12235,7 +13315,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 103,
+      "t12": 144,
+      "t34": 113
     },
     {
       "ticker": "688041.SH",
@@ -12249,7 +13333,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 4,
+      "t12": 44,
+      "t34": 4
     },
     {
       "ticker": "000756.SZ",
@@ -12263,7 +13351,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 211,
+      "t34": 138
     },
     {
       "ticker": "600699.SH",
@@ -12277,7 +13369,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 5,
+      "t12": 102,
+      "t34": null
     },
     {
       "ticker": "002281.SZ",
@@ -12291,7 +13387,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 292,
+      "t34": null
     },
     {
       "ticker": "688183.SH",
@@ -12305,7 +13405,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 13,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "603118.SH",
@@ -12319,7 +13423,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 79,
+      "t34": null
     },
     {
       "ticker": "002491.SZ",
@@ -12333,7 +13441,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "002475.SZ",
@@ -12347,7 +13459,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 52,
+      "t34": 355
     },
     {
       "ticker": "600584.SH",
@@ -12361,7 +13477,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 124,
+      "t34": 325
     },
     {
       "ticker": "300418.SZ",
@@ -12375,7 +13495,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 26,
+      "t12": 125,
+      "t34": 325
     },
     {
       "ticker": "300033.SZ",
@@ -12389,7 +13513,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 26,
+      "t12": 64,
+      "t34": 119
     },
     {
       "ticker": "601233.SH",
@@ -12403,7 +13531,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "3",
+      "stage_days": 1,
+      "t12": 59,
+      "t34": 518
     },
     {
       "ticker": "300620.SZ",
@@ -12417,7 +13549,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 4,
+      "t34": 322
     },
     {
       "ticker": "600031.SH",
@@ -12431,7 +13567,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 14,
+      "t12": 144,
+      "t34": null
     },
     {
       "ticker": "603773.SH",
@@ -12445,7 +13585,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 44,
+      "t34": 314
     },
     {
       "ticker": "002580.SZ",
@@ -12459,7 +13603,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 3,
+      "t34": null
     },
     {
       "ticker": "600521.SH",
@@ -12473,7 +13621,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 322,
+      "t34": 165
     },
     {
       "ticker": "601628.SH",
@@ -12487,7 +13639,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 7,
+      "t12": 149,
+      "t34": 118
     },
     {
       "ticker": "301511.SZ",
@@ -12501,7 +13657,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "600487.SH",
@@ -12515,7 +13675,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 12,
+      "t34": 325
     },
     {
       "ticker": "688167.SH",
@@ -12529,7 +13693,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 37,
+      "t34": null
     },
     {
       "ticker": "600707.SH",
@@ -12543,7 +13711,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 13,
+      "t34": 325
     },
     {
       "ticker": "300017.SZ",
@@ -12557,7 +13729,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 3,
+      "t12": 25,
+      "t34": 3
     },
     {
       "ticker": "002317.SZ",
@@ -12571,7 +13747,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 4,
+      "t12": 4,
+      "t34": 126
     },
     {
       "ticker": "601006.SH",
@@ -12585,7 +13765,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 337,
+      "t34": null
     },
     {
       "ticker": "603296.SH",
@@ -12599,7 +13783,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 2,
+      "t34": null
     },
     {
       "ticker": "688082.SH",
@@ -12613,7 +13801,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 98,
+      "t12": 343,
+      "t34": null
     },
     {
       "ticker": "601601.SH",
@@ -12627,7 +13819,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 84,
+      "t12": 140,
+      "t34": null
     },
     {
       "ticker": "002617.SZ",
@@ -12641,7 +13837,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "4",
+      "stage_days": 55,
+      "t12": 83,
+      "t34": 109
     },
     {
       "ticker": "002709.SZ",
@@ -12655,7 +13855,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 32,
+      "t12": 275,
+      "t34": 32
     },
     {
       "ticker": "688123.SH",
@@ -12669,7 +13873,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 3,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 13,
+      "t12": 68,
+      "t34": 18
     },
     {
       "ticker": "300476.SZ",
@@ -12683,7 +13891,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 47,
+      "t12": 122,
+      "t34": 47
     },
     {
       "ticker": "688037.SH",
@@ -12697,7 +13909,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 330,
+      "t12": 330,
+      "t34": null
     },
     {
       "ticker": "000980.SZ",
@@ -12711,7 +13927,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 3,
+      "t12": 153,
+      "t34": 114
     },
     {
       "ticker": "605366.SH",
@@ -12725,7 +13945,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 4,
+      "t34": null
     },
     {
       "ticker": "603993.SH",
@@ -12739,7 +13963,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 23,
+      "t12": 43,
+      "t34": 23
     },
     {
       "ticker": "002008.SZ",
@@ -12753,7 +13981,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 11,
+      "t34": 311
     },
     {
       "ticker": "300850.SZ",
@@ -12767,7 +13999,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "4",
+      "stage_days": 88,
+      "t12": 456,
+      "t34": 88
     },
     {
       "ticker": "002584.SZ",
@@ -12781,7 +14017,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 14,
+      "t12": 74,
+      "t34": 552
     },
     {
       "ticker": "600667.SH",
@@ -12795,7 +14035,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 125,
+      "t34": 319
     },
     {
       "ticker": "688578.SH",
@@ -12809,7 +14053,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 3,
+      "t12": 10,
+      "t34": null
     },
     {
       "ticker": "000933.SZ",
@@ -12823,7 +14071,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 17,
+      "t12": 338,
+      "t34": 497
     },
     {
       "ticker": "002241.SZ",
@@ -12837,7 +14089,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 6,
+      "t12": 273,
+      "t34": 120
     },
     {
       "ticker": "300821.SZ",
@@ -12851,7 +14107,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 2,
+      "t12": 2,
+      "t34": 322
     },
     {
       "ticker": "002585.SZ",
@@ -12865,7 +14125,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 17,
+      "t12": 17,
+      "t34": 320
     },
     {
       "ticker": "002353.SZ",
@@ -12879,7 +14143,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 24,
+      "t12": 324,
+      "t34": null
     },
     {
       "ticker": "688628.SH",
@@ -12893,7 +14161,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 43,
+      "t34": 321
     },
     {
       "ticker": "603538.SH",
@@ -12907,7 +14179,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 3,
+      "t34": 145
     },
     {
       "ticker": "301526.SZ",
@@ -12921,7 +14197,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 304,
+      "t34": 317
     },
     {
       "ticker": "300182.SZ",
@@ -12935,7 +14215,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 159,
+      "t34": 117
     },
     {
       "ticker": "688333.SH",
@@ -12949,7 +14233,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 4,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "600105.SH",
@@ -12963,7 +14251,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 16,
+      "t34": null
     },
     {
       "ticker": "002866.SZ",
@@ -12977,7 +14269,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 89,
+      "t34": 65
     },
     {
       "ticker": "600522.SH",
@@ -12991,7 +14287,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 8,
+      "t12": 10,
+      "t34": 409
     },
     {
       "ticker": "300661.SZ",
@@ -13005,7 +14305,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 46,
+      "t34": 208
     },
     {
       "ticker": "688630.SH",
@@ -13019,7 +14323,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 365,
+      "t12": 365,
+      "t34": null
     },
     {
       "ticker": "601211.SH",
@@ -13033,7 +14341,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 7,
+      "t12": 64,
+      "t34": 134
     },
     {
       "ticker": "002354.SZ",
@@ -13047,7 +14359,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "3",
+      "stage_days": 17,
+      "t12": 29,
+      "t34": 133
     },
     {
       "ticker": "300179.SZ",
@@ -13061,7 +14377,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "688028.SH",
@@ -13075,7 +14395,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 19,
+      "t34": null
     },
     {
       "ticker": "000811.SZ",
@@ -13089,7 +14413,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "2",
+      "stage_days": 312,
+      "t12": 312,
+      "t34": null
     },
     {
       "ticker": "603618.SH",
@@ -13103,7 +14431,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 29,
+      "t34": null
     },
     {
       "ticker": "603588.SH",
@@ -13117,7 +14449,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 1,
       "sata_d": 8,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 28,
+      "t12": 28,
+      "t34": null
     },
     {
       "ticker": "300243.SZ",
@@ -13131,7 +14467,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "2",
+      "stage_days": 15,
+      "t12": 15,
+      "t34": 541
     },
     {
       "ticker": "600863.SH",
@@ -13145,7 +14485,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 35,
+      "t34": null
     },
     {
       "ticker": "301171.SZ",
@@ -13159,7 +14503,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 8,
+      "t12": 35,
+      "t34": 23
     },
     {
       "ticker": "002407.SZ",
@@ -13173,7 +14521,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 3,
+      "t12": 22,
+      "t34": null
     },
     {
       "ticker": "688141.SH",
@@ -13187,7 +14539,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "300058.SZ",
@@ -13201,7 +14557,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 20,
+      "t12": 40,
+      "t34": 20
     },
     {
       "ticker": "603256.SH",
@@ -13215,7 +14575,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "688347.SH",
@@ -13229,7 +14593,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 124,
+      "t34": null
     },
     {
       "ticker": "300014.SZ",
@@ -13243,7 +14611,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 74,
+      "t12": 109,
+      "t34": 94
     },
     {
       "ticker": "002245.SZ",
@@ -13257,7 +14629,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 125,
+      "t34": null
     },
     {
       "ticker": "688146.SH",
@@ -13271,7 +14647,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 126,
+      "t34": null
     },
     {
       "ticker": "000831.SZ",
@@ -13285,7 +14665,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "3",
+      "stage_days": 15,
+      "t12": 79,
+      "t34": null
     },
     {
       "ticker": "688048.SH",
@@ -13299,7 +14683,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "301150.SZ",
@@ -13313,7 +14701,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "603920.SH",
@@ -13327,7 +14719,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 44,
+      "t12": 79,
+      "t34": 44
     },
     {
       "ticker": "600403.SH",
@@ -13341,7 +14737,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 7
+      "sata_w": 7,
+      "stage": "2",
+      "stage_days": 17,
+      "t12": 17,
+      "t34": 76
     },
     {
       "ticker": "002027.SZ",
@@ -13355,7 +14755,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "4",
+      "stage_days": 131,
+      "t12": 207,
+      "t34": null
     },
     {
       "ticker": "603906.SH",
@@ -13369,7 +14773,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 135,
+      "t34": null
     },
     {
       "ticker": "600011.SH",
@@ -13383,7 +14791,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 91,
+      "t34": 509
     },
     {
       "ticker": "301217.SZ",
@@ -13397,7 +14809,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 159,
+      "t34": null
     },
     {
       "ticker": "300054.SZ",
@@ -13411,7 +14827,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 330,
+      "t34": null
     },
     {
       "ticker": "603986.SH",
@@ -13425,7 +14845,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 24,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "300568.SZ",
@@ -13439,7 +14863,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 2,
+      "t34": 44
     },
     {
       "ticker": "300458.SZ",
@@ -13453,7 +14881,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 26,
+      "t12": 35,
+      "t34": 128
     },
     {
       "ticker": "000988.SZ",
@@ -13467,7 +14899,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 55,
+      "t12": 357,
+      "t34": null
     },
     {
       "ticker": "600460.SH",
@@ -13481,7 +14917,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 16,
+      "t12": 36,
+      "t34": 117
     },
     {
       "ticker": "300244.SZ",
@@ -13495,7 +14935,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
-      "sata_w": 8
+      "sata_w": 8,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 32,
+      "t34": 20
     },
     {
       "ticker": "600406.SH",
@@ -13509,7 +14953,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 11,
+      "t12": 243,
+      "t34": null
     },
     {
       "ticker": "300395.SZ",
@@ -13523,7 +14971,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 2,
+      "t12": 399,
+      "t34": 38
     },
     {
       "ticker": "688521.SH",
@@ -13537,7 +14989,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 6,
+      "t12": 54,
+      "t34": 6
     },
     {
       "ticker": "688300.SH",
@@ -13551,7 +15007,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "300776.SZ",
@@ -13565,7 +15025,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 12,
+      "t34": 324
     },
     {
       "ticker": "603936.SH",
@@ -13579,7 +15043,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 20,
+      "t34": null
     },
     {
       "ticker": "300319.SZ",
@@ -13593,7 +15061,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 43,
+      "t34": 324
     },
     {
       "ticker": "688627.SH",
@@ -13607,7 +15079,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 317,
+      "t34": null
     },
     {
       "ticker": "000737.SZ",
@@ -13621,7 +15097,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 7,
+      "t12": 103,
+      "t34": 84
     },
     {
       "ticker": "300124.SZ",
@@ -13635,7 +15115,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 65,
+      "t12": 85,
+      "t34": 109
     },
     {
       "ticker": "002129.SZ",
@@ -13649,7 +15133,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 131,
+      "t34": null
     },
     {
       "ticker": "300666.SZ",
@@ -13663,7 +15151,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 276,
+      "t34": null
     },
     {
       "ticker": "300433.SZ",
@@ -13677,7 +15169,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 2,
+      "t12": 32,
+      "t34": 2
     },
     {
       "ticker": "000506.SZ",
@@ -13691,7 +15187,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 12,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 426,
+      "t34": 6
     },
     {
       "ticker": "002164.SZ",
@@ -13705,7 +15205,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 471,
+      "t34": null
     },
     {
       "ticker": "603629.SH",
@@ -13719,7 +15223,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 214,
+      "t34": 235
     },
     {
       "ticker": "688111.SH",
@@ -13733,7 +15241,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 40,
+      "t12": 158,
+      "t34": 132
     },
     {
       "ticker": "300497.SZ",
@@ -13747,7 +15259,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 3,
+      "t34": 430
     },
     {
       "ticker": "688195.SH",
@@ -13761,7 +15277,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 11,
+      "t34": null
     },
     {
       "ticker": "300475.SZ",
@@ -13775,7 +15295,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 54,
+      "t34": 544
     },
     {
       "ticker": "688766.SH",
@@ -13789,7 +15313,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "688802.SH",
@@ -13803,7 +15331,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "002975.SZ",
@@ -13817,7 +15349,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "300223.SZ",
@@ -13831,7 +15367,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 15,
+      "t12": 36,
+      "t34": 320
     },
     {
       "ticker": "603019.SH",
@@ -13845,7 +15385,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 34,
+      "t12": 59,
+      "t34": 303
     },
     {
       "ticker": "000776.SZ",
@@ -13859,7 +15403,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 31,
+      "t12": 67,
+      "t34": 121
     },
     {
       "ticker": "605358.SH",
@@ -13873,7 +15421,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 20,
+      "t12": 35,
+      "t34": 321
     },
     {
       "ticker": "301626.SZ",
@@ -13887,7 +15439,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 20,
+      "t34": null
     },
     {
       "ticker": "000858.SZ",
@@ -13901,7 +15457,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 253,
+      "t12": 270,
+      "t34": 325
     },
     {
       "ticker": "603396.SH",
@@ -13915,7 +15475,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 2,
+      "t12": 107,
+      "t34": 67
     },
     {
       "ticker": "300073.SZ",
@@ -13929,7 +15493,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 85,
+      "t12": 95,
+      "t34": 85
     },
     {
       "ticker": "002138.SZ",
@@ -13943,7 +15511,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 20,
+      "t34": 314
     },
     {
       "ticker": "000063.SZ",
@@ -13957,7 +15529,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 52,
+      "t12": 168,
+      "t34": 120
     },
     {
       "ticker": "002050.SZ",
@@ -13971,7 +15547,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 46,
+      "t12": 107,
+      "t34": null
     },
     {
       "ticker": "600362.SH",
@@ -13985,7 +15565,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 16,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 16,
+      "t12": 77,
+      "t34": 449
     },
     {
       "ticker": "300438.SZ",
@@ -13999,7 +15583,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 3,
+      "t12": 39,
+      "t34": 334
     },
     {
       "ticker": "601600.SH",
@@ -14013,7 +15601,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 66,
+      "t12": 87,
+      "t34": 66
     },
     {
       "ticker": "002028.SZ",
@@ -14027,7 +15619,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 17,
+      "t12": 77,
+      "t34": 17
     },
     {
       "ticker": "600110.SH",
@@ -14041,7 +15637,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 31,
+      "t34": null
     },
     {
       "ticker": "301269.SZ",
@@ -14055,7 +15655,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 6,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 244,
+      "t34": 206
     },
     {
       "ticker": "601360.SH",
@@ -14069,7 +15673,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 77,
+      "t12": 138,
+      "t34": 304
     },
     {
       "ticker": "300274.SZ",
@@ -14083,7 +15691,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 68,
+      "t12": 288,
+      "t34": 72
     },
     {
       "ticker": "600066.SH",
@@ -14097,7 +15709,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 18,
+      "t12": 143,
+      "t34": null
     },
     {
       "ticker": "300442.SZ",
@@ -14111,7 +15727,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 17,
+      "t12": 69,
+      "t34": 17
     },
     {
       "ticker": "002484.SZ",
@@ -14125,7 +15745,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 124,
+      "t34": null
     },
     {
       "ticker": "600188.SH",
@@ -14139,7 +15763,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 2,
+      "t34": 501
     },
     {
       "ticker": "301373.SZ",
@@ -14153,7 +15781,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "002669.SZ",
@@ -14167,7 +15799,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 4,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 92,
+      "t34": 46
     },
     {
       "ticker": "000657.SZ",
@@ -14181,7 +15817,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 24,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "300139.SZ",
@@ -14195,7 +15835,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 25,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 8,
+      "t12": 22,
+      "t34": 8
     },
     {
       "ticker": "002990.SZ",
@@ -14209,7 +15853,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "2",
+      "stage_days": 44,
+      "t12": 44,
+      "t34": 230
     },
     {
       "ticker": "002460.SZ",
@@ -14223,7 +15871,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 57,
+      "t12": 80,
+      "t34": 57
     },
     {
       "ticker": "688018.SH",
@@ -14237,7 +15889,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 5,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 60,
+      "t34": 125
     },
     {
       "ticker": "300037.SZ",
@@ -14251,7 +15907,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 20,
+      "t34": null
     },
     {
       "ticker": "000021.SZ",
@@ -14265,7 +15925,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 8,
+      "t12": 11,
+      "t34": 315
     },
     {
       "ticker": "002297.SZ",
@@ -14279,7 +15943,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 23,
+      "t34": null
     },
     {
       "ticker": "300843.SZ",
@@ -14293,7 +15961,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 133,
+      "t12": 133,
+      "t34": 322
     },
     {
       "ticker": "002602.SZ",
@@ -14307,7 +15979,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 15,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 15,
+      "t12": 147,
+      "t34": 100
     },
     {
       "ticker": "600353.SH",
@@ -14321,7 +15997,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 44,
+      "t34": 116
     },
     {
       "ticker": "605117.SH",
@@ -14335,7 +16015,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 25,
+      "t12": 39,
+      "t34": null
     },
     {
       "ticker": "002409.SZ",
@@ -14349,7 +16033,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 126,
+      "t34": null
     },
     {
       "ticker": "002273.SZ",
@@ -14363,7 +16051,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 30,
+      "t12": 125,
+      "t34": 311
     },
     {
       "ticker": "000792.SZ",
@@ -14377,7 +16069,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 24,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 23,
+      "t12": 296,
+      "t34": 23
     },
     {
       "ticker": "600498.SH",
@@ -14391,7 +16087,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 21,
+      "t12": 311,
+      "t34": null
     },
     {
       "ticker": "688596.SH",
@@ -14405,7 +16105,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 76,
+      "t12": 76,
+      "t34": 314
     },
     {
       "ticker": "688795.SH",
@@ -14419,7 +16123,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "688019.SH",
@@ -14433,7 +16141,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 13,
+      "t12": 19,
+      "t34": null
     },
     {
       "ticker": "002837.SZ",
@@ -14447,7 +16159,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 40,
+      "t12": 62,
+      "t34": 40
     },
     {
       "ticker": "001309.SZ",
@@ -14461,7 +16177,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 52,
+      "t12": 262,
+      "t34": 458
     },
     {
       "ticker": "601519.SH",
@@ -14475,7 +16195,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 6
+      "sata_w": 6,
+      "stage": "4",
+      "stage_days": 141,
+      "t12": 184,
+      "t34": 141
     },
     {
       "ticker": "603061.SH",
@@ -14489,7 +16213,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "002081.SZ",
@@ -14503,7 +16231,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 38,
+      "t34": null
     },
     {
       "ticker": "301308.SZ",
@@ -14517,7 +16249,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 12,
+      "t12": 35,
+      "t34": 327
     },
     {
       "ticker": "688001.SH",
@@ -14531,7 +16267,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 20,
+      "t34": 328
     },
     {
       "ticker": "601688.SH",
@@ -14545,7 +16285,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 16,
+      "t12": 65,
+      "t34": 122
     },
     {
       "ticker": "603650.SH",
@@ -14559,7 +16303,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 18,
+      "t34": 312
     },
     {
       "ticker": "000066.SZ",
@@ -14573,7 +16321,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 20,
+      "t12": 78,
+      "t34": 20
     },
     {
       "ticker": "688110.SH",
@@ -14587,7 +16339,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 17,
+      "t12": 83,
+      "t34": 17
     },
     {
       "ticker": "002812.SZ",
@@ -14601,7 +16357,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 6,
+      "t12": 70,
+      "t34": 327
     },
     {
       "ticker": "002655.SZ",
@@ -14615,7 +16375,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 6,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "2",
+      "stage_days": 1,
+      "t12": 1,
+      "t34": 222
     },
     {
       "ticker": "300672.SZ",
@@ -14629,7 +16393,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 10,
+      "t34": null
     },
     {
       "ticker": "688331.SH",
@@ -14643,7 +16411,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 10,
+      "t34": null
     },
     {
       "ticker": "688525.SH",
@@ -14657,7 +16429,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 51,
+      "t12": 262,
+      "t34": 321
     },
     {
       "ticker": "688147.SH",
@@ -14671,7 +16447,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "688017.SH",
@@ -14685,7 +16465,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 10,
+      "t12": 12,
+      "t34": null
     },
     {
       "ticker": "003031.SZ",
@@ -14699,7 +16483,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 15,
+      "t34": 314
     },
     {
       "ticker": "600246.SH",
@@ -14713,7 +16501,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 39,
+      "t12": 94,
+      "t34": 115
     },
     {
       "ticker": "600360.SH",
@@ -14727,7 +16519,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 11,
+      "t34": null
     },
     {
       "ticker": "002155.SZ",
@@ -14741,7 +16537,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 12,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 7,
+      "t12": 18,
+      "t34": 7
     },
     {
       "ticker": "601100.SH",
@@ -14755,7 +16555,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 22,
+      "t12": 58,
+      "t34": 22
     },
     {
       "ticker": "002046.SZ",
@@ -14769,7 +16573,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 5,
-      "sata_w": 5
+      "sata_w": 5,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 19,
+      "t34": null
     },
     {
       "ticker": "600378.SH",
@@ -14783,7 +16591,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "300811.SZ",
@@ -14797,7 +16609,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 5,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 43,
+      "t34": 325
     },
     {
       "ticker": "688777.SH",
@@ -14811,7 +16627,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 6,
+      "t12": 11,
+      "t34": 322
     },
     {
       "ticker": "300567.SZ",
@@ -14825,7 +16645,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 212,
+      "t34": 315
     },
     {
       "ticker": "002716.SZ",
@@ -14839,7 +16663,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 20,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 16,
+      "t12": 22,
+      "t34": 16
     },
     {
       "ticker": "600160.SH",
@@ -14853,7 +16681,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 23,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 4,
+      "t12": 27,
+      "t34": 4
     },
     {
       "ticker": "301396.SZ",
@@ -14867,7 +16699,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 11,
+      "t34": null
     },
     {
       "ticker": "300136.SZ",
@@ -14881,7 +16717,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 20,
+      "t12": 244,
+      "t34": 20
     },
     {
       "ticker": "605376.SH",
@@ -14895,7 +16735,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 24,
+      "t12": 327,
+      "t34": null
     },
     {
       "ticker": "301018.SZ",
@@ -14909,7 +16753,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "002466.SZ",
@@ -14923,7 +16771,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 23,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 50,
+      "t12": 64,
+      "t34": 50
     },
     {
       "ticker": "601689.SH",
@@ -14937,7 +16789,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 78,
+      "t12": 83,
+      "t34": 103
     },
     {
       "ticker": "600111.SH",
@@ -14951,7 +16807,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 49,
+      "t12": 116,
+      "t34": null
     },
     {
       "ticker": "301071.SZ",
@@ -14965,7 +16825,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 29,
+      "t34": null
     },
     {
       "ticker": "002077.SZ",
@@ -14979,7 +16843,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 44,
+      "t12": 138,
+      "t34": 313
     },
     {
       "ticker": "002565.SZ",
@@ -14993,7 +16861,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 46,
+      "t12": 85,
+      "t34": 46
     },
     {
       "ticker": "603606.SH",
@@ -15007,7 +16879,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 89,
+      "t12": 116,
+      "t34": 89
     },
     {
       "ticker": "000070.SZ",
@@ -15021,7 +16897,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 12,
+      "t34": null
     },
     {
       "ticker": "002741.SZ",
@@ -15035,7 +16915,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 14,
+      "t34": 123
     },
     {
       "ticker": "688409.SH",
@@ -15049,7 +16933,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 282,
+      "t34": 315
     },
     {
       "ticker": "301583.SZ",
@@ -15063,7 +16951,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "301377.SZ",
@@ -15077,7 +16969,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 365,
+      "t34": null
     },
     {
       "ticker": "688234.SH",
@@ -15091,7 +16987,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 18,
+      "t12": 38,
+      "t34": 312
     },
     {
       "ticker": "300390.SZ",
@@ -15105,7 +17005,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 3,
+      "t12": 486,
+      "t34": 331
     },
     {
       "ticker": "600733.SH",
@@ -15119,7 +17023,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 131,
+      "t12": 155,
+      "t34": 131
     },
     {
       "ticker": "601127.SH",
@@ -15133,7 +17041,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 179,
+      "t12": 366,
+      "t34": 179
     },
     {
       "ticker": "000700.SZ",
@@ -15147,7 +17059,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 27,
+      "t12": 108,
+      "t34": 27
     },
     {
       "ticker": "600893.SH",
@@ -15161,7 +17077,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 33,
+      "t12": 193,
+      "t34": null
     },
     {
       "ticker": "300806.SZ",
@@ -15175,7 +17095,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 18,
+      "t34": null
     },
     {
       "ticker": "002552.SZ",
@@ -15189,7 +17113,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 46,
+      "t34": null
     },
     {
       "ticker": "300769.SZ",
@@ -15203,7 +17131,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 8,
+      "t12": 122,
+      "t34": 332
     },
     {
       "ticker": "002472.SZ",
@@ -15217,7 +17149,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 50,
+      "t12": 79,
+      "t34": null
     },
     {
       "ticker": "002413.SZ",
@@ -15231,7 +17167,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 39,
+      "t12": 347,
+      "t34": 39
     },
     {
       "ticker": "600552.SH",
@@ -15245,7 +17185,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 13,
+      "t34": 352
     },
     {
       "ticker": "000425.SZ",
@@ -15259,7 +17203,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 88,
+      "t12": 124,
+      "t34": 88
     },
     {
       "ticker": "300162.SZ",
@@ -15273,7 +17221,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 2,
+      "t12": 59,
+      "t34": 20
     },
     {
       "ticker": "600549.SH",
@@ -15287,7 +17239,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 11,
+      "t12": 40,
+      "t34": 11
     },
     {
       "ticker": "603663.SH",
@@ -15301,7 +17257,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 18,
+      "t34": null
     },
     {
       "ticker": "002031.SZ",
@@ -15315,7 +17275,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 94,
+      "t12": 173,
+      "t34": 239
     },
     {
       "ticker": "688126.SH",
@@ -15329,7 +17293,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 18,
+      "t12": 25,
+      "t34": 119
     },
     {
       "ticker": "002558.SZ",
@@ -15343,7 +17311,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 18,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 105,
+      "t12": 365,
+      "t34": 105
     },
     {
       "ticker": "605589.SH",
@@ -15357,7 +17329,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 33,
+      "t12": 41,
+      "t34": null
     },
     {
       "ticker": "603799.SH",
@@ -15371,7 +17347,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 83,
+      "t12": 109,
+      "t34": 83
     },
     {
       "ticker": "688629.SH",
@@ -15385,7 +17365,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 24,
+      "t12": 25,
+      "t34": null
     },
     {
       "ticker": "600703.SH",
@@ -15399,7 +17383,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 21,
+      "t12": 79,
+      "t34": 21
     },
     {
       "ticker": "300346.SZ",
@@ -15413,7 +17401,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 21,
+      "t12": 41,
+      "t34": 319
     },
     {
       "ticker": "603124.SH",
@@ -15427,7 +17419,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 9,
+      "t34": null
     },
     {
       "ticker": "000962.SZ",
@@ -15441,7 +17437,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 3,
+      "t34": null
     },
     {
       "ticker": "002181.SZ",
@@ -15455,7 +17455,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 4
+      "sata_w": 4,
+      "stage": "4",
+      "stage_days": 21,
+      "t12": 335,
+      "t34": null
     },
     {
       "ticker": "603501.SH",
@@ -15469,7 +17473,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 56,
+      "t12": 262,
+      "t34": null
     },
     {
       "ticker": "600396.SH",
@@ -15483,7 +17491,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 140,
+      "t34": 186
     },
     {
       "ticker": "603122.SH",
@@ -15497,7 +17509,11 @@
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 130,
+      "t34": 66
     },
     {
       "ticker": "002639.SZ",
@@ -15511,7 +17527,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 55,
+      "t12": 443,
+      "t34": 55
     },
     {
       "ticker": "600089.SH",
@@ -15525,7 +17545,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 29,
+      "t12": 89,
+      "t34": 55
     },
     {
       "ticker": "000426.SZ",
@@ -15539,7 +17563,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 24,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 22,
+      "t12": 75,
+      "t34": 426
     },
     {
       "ticker": "301358.SZ",
@@ -15553,7 +17581,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 18,
+      "t12": 78,
+      "t34": 54
     },
     {
       "ticker": "300373.SZ",
@@ -15567,7 +17599,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 3,
+      "t12": 11,
+      "t34": null
     },
     {
       "ticker": "002202.SZ",
@@ -15581,7 +17617,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 11,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 27,
+      "t12": 66,
+      "t34": 27
     },
     {
       "ticker": "002342.SZ",
@@ -15595,7 +17635,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 27,
+      "t12": 190,
+      "t34": 27
     },
     {
       "ticker": "002222.SZ",
@@ -15609,7 +17653,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 2,
+      "t12": 62,
+      "t34": null
     },
     {
       "ticker": "000603.SZ",
@@ -15623,7 +17671,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 10,
+      "t12": 22,
+      "t34": 52
     },
     {
       "ticker": "688403.SH",
@@ -15637,7 +17689,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "601179.SH",
@@ -15651,7 +17707,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 13,
+      "t12": 79,
+      "t34": 13
     },
     {
       "ticker": "600219.SH",
@@ -15665,7 +17725,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 25,
+      "t12": 93,
+      "t34": 55
     },
     {
       "ticker": "301099.SZ",
@@ -15679,7 +17743,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "300398.SZ",
@@ -15693,7 +17761,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "300671.SZ",
@@ -15707,7 +17779,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 13,
+      "t34": 330
     },
     {
       "ticker": "300456.SZ",
@@ -15721,7 +17797,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 50,
+      "t12": 90,
+      "t34": 50
     },
     {
       "ticker": "002432.SZ",
@@ -15735,7 +17815,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 18,
+      "t12": 59,
+      "t34": null
     },
     {
       "ticker": "600118.SH",
@@ -15749,7 +17833,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 32,
+      "t12": 61,
+      "t34": 32
     },
     {
       "ticker": "300657.SZ",
@@ -15763,7 +17851,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 7,
+      "t12": 15,
+      "t34": 237
     },
     {
       "ticker": "300085.SZ",
@@ -15777,7 +17869,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 87,
+      "t12": 179,
+      "t34": 150
     },
     {
       "ticker": "002600.SZ",
@@ -15791,7 +17887,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 46,
+      "t12": 144,
+      "t34": null
     },
     {
       "ticker": "002738.SZ",
@@ -15805,7 +17905,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 56,
+      "t12": 133,
+      "t34": 56
     },
     {
       "ticker": "000630.SZ",
@@ -15819,7 +17923,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 17,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 10,
+      "t12": 28,
+      "t34": 10
     },
     {
       "ticker": "000981.SZ",
@@ -15833,7 +17941,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 82,
+      "t12": 103,
+      "t34": 82
     },
     {
       "ticker": "300803.SZ",
@@ -15847,7 +17959,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 119,
+      "t12": 309,
+      "t34": 119
     },
     {
       "ticker": "000960.SZ",
@@ -15861,7 +17977,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 16,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 14,
+      "t12": 43,
+      "t34": 14
     },
     {
       "ticker": "688388.SH",
@@ -15875,7 +17995,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 3,
+      "t12": 59,
+      "t34": null
     },
     {
       "ticker": "601991.SH",
@@ -15889,7 +18013,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 15,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 14,
+      "t12": 19,
+      "t34": null
     },
     {
       "ticker": "688337.SH",
@@ -15903,7 +18031,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 59,
+      "t34": 314
     },
     {
       "ticker": "002971.SZ",
@@ -15917,7 +18049,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": 426
     },
     {
       "ticker": "000568.SZ",
@@ -15931,7 +18067,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 135,
+      "t12": 281,
+      "t34": 326
     },
     {
       "ticker": "300131.SZ",
@@ -15945,7 +18085,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 19,
+      "t12": 22,
+      "t34": 312
     },
     {
       "ticker": "300260.SZ",
@@ -15959,7 +18103,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 39,
+      "t12": 54,
+      "t34": null
     },
     {
       "ticker": "603601.SH",
@@ -15973,7 +18121,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 33,
+      "t12": 211,
+      "t34": 33
     },
     {
       "ticker": "688668.SH",
@@ -15987,7 +18139,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 8,
+      "t12": 44,
+      "t34": null
     },
     {
       "ticker": "002361.SZ",
@@ -16001,7 +18157,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 27,
+      "t12": 70,
+      "t34": 27
     },
     {
       "ticker": "688503.SH",
@@ -16015,7 +18175,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 6,
+      "t12": 35,
+      "t34": 6
     },
     {
       "ticker": "688559.SH",
@@ -16029,7 +18193,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 266,
+      "t34": 12
     },
     {
       "ticker": "601212.SH",
@@ -16043,7 +18211,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 18,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 19,
+      "t12": 26,
+      "t34": 425
     },
     {
       "ticker": "002149.SZ",
@@ -16057,7 +18229,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 28,
+      "t12": 201,
+      "t34": 28
     },
     {
       "ticker": "600577.SH",
@@ -16071,7 +18247,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 2,
       "sata_d": 3,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "4",
+      "stage_days": 58,
+      "t12": 350,
+      "t34": 58
     },
     {
       "ticker": "300814.SZ",
@@ -16085,7 +18265,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 43,
+      "t34": 323
     },
     {
       "ticker": "600367.SH",
@@ -16099,7 +18283,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 43,
+      "t34": null
     },
     {
       "ticker": "600397.SH",
@@ -16113,7 +18301,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 4,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 15,
+      "t34": null
     },
     {
       "ticker": "688396.SH",
@@ -16127,7 +18319,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 7,
+      "t12": 38,
+      "t34": 7
     },
     {
       "ticker": "002335.SZ",
@@ -16141,7 +18337,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 53,
+      "t12": 120,
+      "t34": null
     },
     {
       "ticker": "001267.SZ",
@@ -16155,7 +18355,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 34,
+      "t12": 35,
+      "t34": null
     },
     {
       "ticker": "603308.SH",
@@ -16169,7 +18373,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 10,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 14,
+      "t12": 423,
+      "t34": 14
     },
     {
       "ticker": "688036.SH",
@@ -16183,7 +18391,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 8,
+      "t12": 54,
+      "t34": 336
     },
     {
       "ticker": "688122.SH",
@@ -16197,7 +18409,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "4",
+      "stage_days": 81,
+      "t12": 116,
+      "t34": 81
     },
     {
       "ticker": "688820.SH",
@@ -16211,7 +18427,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "002747.SZ",
@@ -16225,7 +18445,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": 125
     },
     {
       "ticker": "688549.SH",
@@ -16239,7 +18463,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 1,
+      "t12": 138,
+      "t34": 321
     },
     {
       "ticker": "688548.SH",
@@ -16253,7 +18481,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 3
+      "sata_w": 3,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 5,
+      "t34": null
     },
     {
       "ticker": "601012.SH",
@@ -16267,7 +18499,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 93,
+      "t12": 131,
+      "t34": 93
     },
     {
       "ticker": "300751.SZ",
@@ -16281,7 +18517,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 20,
+      "t12": 73,
+      "t34": 20
     },
     {
       "ticker": "603306.SH",
@@ -16295,7 +18535,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "3",
+      "stage_days": 14,
+      "t12": 59,
+      "t34": null
     },
     {
       "ticker": "300870.SZ",
@@ -16309,7 +18553,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 33,
+      "t12": 35,
+      "t34": null
     },
     {
       "ticker": "002859.SZ",
@@ -16323,7 +18571,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 3,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 297,
+      "t34": 316
     },
     {
       "ticker": "688372.SH",
@@ -16337,7 +18589,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 12,
+      "t12": 316,
+      "t34": 12
     },
     {
       "ticker": "688362.SH",
@@ -16351,7 +18607,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 14,
+      "t34": null
     },
     {
       "ticker": "688608.SH",
@@ -16365,7 +18625,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 169,
+      "t12": 315,
+      "t34": null
     },
     {
       "ticker": "603678.SH",
@@ -16379,7 +18643,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 19,
+      "t34": 122
     },
     {
       "ticker": "002957.SZ",
@@ -16393,7 +18661,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 13,
+      "t34": null
     },
     {
       "ticker": "002192.SZ",
@@ -16407,7 +18679,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 1,
+      "t12": 27,
+      "t34": null
     },
     {
       "ticker": "603738.SH",
@@ -16421,7 +18697,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "1",
+      "stage_days": 6,
+      "t12": 11,
+      "t34": 316
     },
     {
       "ticker": "603005.SH",
@@ -16435,7 +18715,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 1,
+      "t12": 35,
+      "t34": 1
     },
     {
       "ticker": "603179.SH",
@@ -16449,7 +18733,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 50,
+      "t12": 138,
+      "t34": null
     },
     {
       "ticker": "600410.SH",
@@ -16463,7 +18751,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 65,
+      "t12": 364,
+      "t34": 65
     },
     {
       "ticker": "601888.SH",
@@ -16477,7 +18769,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 99,
+      "t12": 270,
+      "t34": 99
     },
     {
       "ticker": "605111.SH",
@@ -16491,7 +18787,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 2
+      "sata_w": 2,
+      "stage": "1",
+      "stage_days": 4,
+      "t12": 13,
+      "t34": 325
     },
     {
       "ticker": "688257.SH",
@@ -16505,7 +18805,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 33,
+      "t12": 42,
+      "t34": null
     },
     {
       "ticker": "603667.SH",
@@ -16519,7 +18823,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 30,
+      "t12": 67,
+      "t34": 30
     },
     {
       "ticker": "002131.SZ",
@@ -16533,7 +18841,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 2,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 33,
+      "t12": 99,
+      "t34": 56
     },
     {
       "ticker": "002625.SZ",
@@ -16547,7 +18859,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 122,
+      "t12": 154,
+      "t34": 122
     },
     {
       "ticker": "300782.SZ",
@@ -16561,7 +18877,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "1",
+      "stage_days": 5,
+      "t12": 62,
+      "t34": 331
     },
     {
       "ticker": "600879.SH",
@@ -16575,7 +18895,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 33,
+      "t12": 61,
+      "t34": 33
     },
     {
       "ticker": "688783.SH",
@@ -16589,7 +18913,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 0,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "3",
+      "stage_days": 7,
+      "t12": null,
+      "t34": null
     },
     {
       "ticker": "000547.SZ",
@@ -16603,7 +18931,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 1,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 46,
+      "t12": 284,
+      "t34": 46
     },
     {
       "ticker": "002240.SZ",
@@ -16617,7 +18949,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 24,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "4",
+      "stage_days": 21,
+      "t12": 285,
+      "t34": 21
     },
     {
       "ticker": "600343.SH",
@@ -16631,7 +18967,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 2,
-      "sata_w": 1
+      "sata_w": 1,
+      "stage": "4",
+      "stage_days": 48,
+      "t12": 316,
+      "t34": 48
     },
     {
       "ticker": "301666.SZ",
@@ -16645,7 +18985,11 @@
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 0,
-      "sata_w": 0
+      "sata_w": 0,
+      "stage": "NA",
+      "stage_days": null,
+      "t12": null,
+      "t34": null
     }
   ]
 }
