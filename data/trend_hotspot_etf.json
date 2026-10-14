@@ -629,7 +629,7 @@
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "ma_stack": 1,
-      "hotness": 0.952
+      "hotness": 0.953
     },
     {
       "ticker": "RSPH.US",
@@ -656,12 +656,12 @@
       "pct_high_126": 0.974,
       "nh_ratio_126": 0.183,
       "amt_surge": 1.192,
-      "amt_rank": 0.74,
+      "amt_rank": 0.746,
       "ret_60": 0.118,
       "ma_aligned": 1,
       "days_below_ma10": 2,
       "ma_stack": 1,
-      "hotness": 0.615
+      "hotness": 0.62
     },
     {
       "ticker": "MAGS.US",
@@ -943,7 +943,7 @@
       "pct_high_250": 0.993,
       "pct_high_126": 0.993,
       "nh_ratio_126": 0.159,
-      "amt_surge": 0.772,
+      "amt_surge": 0.771,
       "amt_rank": 0.045,
       "ret_60": 0.132,
       "ma_aligned": 1,
@@ -1085,6 +1085,18 @@
       "sig": "b",
       "tr": 3.6,
       "mom": 61.0,
+      "panic": "",
+      "weekly": "无背离",
+      "days": 0
+    },
+    {
+      "ticker": "RSPS.US",
+      "name": "Invesco S&P 500 Equal Weight Co",
+      "sub_industry": "S&P 500 EW Consumer Staples",
+      "close": 29.76,
+      "sig": "B",
+      "tr": 7.8,
+      "mom": 76.0,
       "panic": "",
       "weekly": "无背离",
       "days": 0
@@ -1429,7 +1441,7 @@
       "ticker": "RSPF.US",
       "name": "Invesco S&P 500 Equal Weight Fi",
       "sub_industry": "S&P 500 EW Financials",
-      "close": 79.007,
+      "close": 79.01,
       "sig": "",
       "tr": 10.6,
       "mom": 65.0,
@@ -1480,7 +1492,7 @@
       "close": 17.18,
       "sig": "",
       "tr": 5.0,
-      "mom": 49.0,
+      "mom": 50.0,
       "panic": "",
       "weekly": "背离",
       "days": 4
@@ -1508,18 +1520,6 @@
       "panic": "",
       "weekly": "背离",
       "days": 4
-    },
-    {
-      "ticker": "RSPS.US",
-      "name": "Invesco S&P 500 Equal Weight Co",
-      "sub_industry": "S&P 500 EW Consumer Staples",
-      "close": 29.76,
-      "sig": "",
-      "tr": 7.8,
-      "mom": 75.0,
-      "panic": "",
-      "weekly": "无背离",
-      "days": 5
     },
     {
       "ticker": "VBK.US",
@@ -1599,7 +1599,7 @@
       "sub_industry": "Russell 2000 Growth",
       "close": 351.1,
       "sig": "",
-      "tr": -9.2,
+      "tr": -9.1,
       "mom": 23.0,
       "panic": "",
       "weekly": "无背离",
@@ -2175,7 +2175,7 @@
       "ret_60": 0.171,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.952
+      "hotness": 0.953
     },
     {
       "ticker": "VTV.US",
@@ -2241,7 +2241,7 @@
       "ret_60": 0.118,
       "ma_aligned": 1,
       "days_below_ma10": 2,
-      "hotness": 0.615
+      "hotness": 0.62
     },
     {
       "ticker": "MAGS.US",
@@ -2340,7 +2340,7 @@
       "ret_60": -0.002,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.487
+      "hotness": 0.482
     },
     {
       "ticker": "EWT.US",
@@ -3113,17 +3113,6 @@
       "hotness": 0.055
     },
     {
-      "ticker": "XLRE.US",
-      "name": "The Real Estate Select Sector SPDR F",
-      "sub_industry": "S&P Real Estate",
-      "close": 41.83,
-      "pct_high_250": 0.917,
-      "ret_60": -0.067,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.054
-    },
-    {
       "ticker": "CGGR.US",
       "name": "Capital Group Growth ETF",
       "sub_industry": "Large Growth",
@@ -3131,6 +3120,17 @@
       "pct_high_250": 0.993,
       "ret_60": 0.063,
       "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "hotness": 0.054
+    },
+    {
+      "ticker": "XLRE.US",
+      "name": "The Real Estate Select Sector SPDR F",
+      "sub_industry": "S&P Real Estate",
+      "close": 41.83,
+      "pct_high_250": 0.917,
+      "ret_60": -0.067,
+      "ma_aligned": 0,
       "days_below_ma10": 0,
       "hotness": 0.054
     },
@@ -3198,7 +3198,7 @@
       "ret_60": 0.06,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.015
+      "hotness": 0.014
     },
     {
       "ticker": "IWY.US",
@@ -3292,7 +3292,7 @@
       "ticker": "RSPF.US",
       "name": "Invesco S&P 500 Equal Weight Fi",
       "sub_industry": "S&P 500 EW Financials",
-      "close": 79.007,
+      "close": 79.01,
       "pct_high_250": 0.922,
       "ret_60": -0.038,
       "ma_aligned": 0,
@@ -3495,7 +3495,7 @@
       "ret_60": -0.011,
       "ma_aligned": 0,
       "days_below_ma10": 2,
-      "hotness": -0.306
+      "hotness": -0.307
     },
     {
       "ticker": "INDA.US",
@@ -3814,7 +3814,7 @@
       "ret_60": 0.049,
       "ma_aligned": 0,
       "days_below_ma10": 4,
-      "hotness": -0.711
+      "hotness": -0.71
     },
     {
       "ticker": "ICLN.US",
@@ -3941,7 +3941,7 @@
       "ticker": "RSPC.US",
       "name": "Invesco S&P 500 Equal Weight Co",
       "sub_industry": "S&P 500 EW Communication",
-      "close": 34.961,
+      "close": 34.96,
       "pct_high_250": 0.879,
       "ret_60": -0.023,
       "ma_aligned": 0,
@@ -3990,7 +3990,7 @@
       "ret_60": -0.04,
       "ma_aligned": 0,
       "days_below_ma10": 12,
-      "hotness": -1.309
+      "hotness": -1.31
     },
     {
       "ticker": "TAN.US",

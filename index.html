@@ -1040,6 +1040,17 @@
                        - (b.stage === '4' ? 0 : /^4/.test(b.sub || '') ? 1 : b.sub === '3B' ? 2 : 3))
                       || ((a.t34 != null ? a.t34 : 99) - (b.t34 != null ? b.t34 : 99)));
       let h = '';
+      // 11子档分布条 (文字版钟形曲线; 1灰 2绿 3橙 4红)
+      const SUB_ORDER = ['1A','1','1B','1C','2A','2B','2C','3A','3B','4A','4B','NA'];
+      const SUB_COLOR = { '1A':'#9e9e9e','1':'#9e9e9e','1B':'#9e9e9e','1C':'#9e9e9e',
+        '2A':'#16a34a','2B':'#16a34a','2C':'#16a34a','3A':'#f9a825','3B':'#f9a825',
+        '4A':'#e53935','4B':'#e53935','NA':'#64748b' };
+      const subCnt = {};
+      all.forEach(x => { const k = x.sub || 'NA'; subCnt[k] = (subCnt[k] || 0) + 1; });
+      h += '<div style="padding:6px 0 2px;font-size:12px;letter-spacing:.2px">'
+        + SUB_ORDER.filter(k => subCnt[k]).map(k =>
+            `<b style="color:${SUB_COLOR[k]}">${k}</b>×${subCnt[k]}`).join(' <span style="color:#cbd5e1">|</span> ')
+        + '</div>';
       h += grp('① 筑底 (Stage 1 其余, 按SATA周降序 — SATA回升=底部质量改善)', g1, 15);
       h += grp('② 要起来 (1B筑底后期 / 1C突破前夜·距60日高点≤5%, 1C优先)', g2);
       h += grp('③ 刚起来 (1→2确认·≤10日 或 2A; ⚠=今日上穿待3日确认)', g3);
@@ -1205,11 +1216,13 @@
       const rows = stocks.map(s => [
         `<a class="tk-link" href="#" onclick="openStockFromDetail('${s.ticker}'); return false;">${s.ticker}</a>`,
         s.name, num2(s.close), signedR(s.ret_60), pctR(s.pct_high_250),
-        yn(s.ma_aligned), stageCell(s.stage), transCell(s.t12, 'var(--positive)'),
+        yn(s.ma_aligned), stageCell(s.stage),
+        (s.sub ? `<b style="font-size:11px">${s.sub}</b>` : '-'),
+        transCell(s.t12, 'var(--positive)'),
         transCell(s.t34, 'var(--negative)'), sataCell(s.sata_d), sataCell(s.sata_w),
         `<b>${num2(s.hotness)}</b>`]);
       document.getElementById('sector-content').innerHTML = (stocks.length
-        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','Stage','1→2','3→4','SATA日','SATA周','热度分'], rows)
+        ? trendTable(['代码','名称','收盘','60日涨幅','距250高','多头','Stage','子档','1→2','3→4','SATA日','SATA周','热度分'], rows)
         : '<p class="empty-state">该子行业无成分股</p>');
       document.getElementById('sector-modal').classList.add('open');
       document.body.style.overflow = 'hidden';
@@ -1740,6 +1753,10 @@
     const _sat = stockSATA(ticker);
     const _mb = [];
     if (_sat && _sat.stage) _mb.push(`<b style="color:${_sat.stage === '2' ? 'var(--positive)' : _sat.stage === '4' ? 'var(--negative)' : 'var(--text)'}">Stage ${_sat.stage}</b>${_sat.stage_days != null ? ` <span class="muted-val">(${_sat.stage_days}d)</span>` : ''}`);
+    if (_sat && _sat.sub) {
+      const _sh = (_sat.sub_hist || []).filter(h => h[0] <= 20).map(h => `${h[1]}·${h[0]}d前`);
+      _mb.push(`子档 <b>${_sat.sub}</b>${_sat.sub_days != null ? `·${_sat.sub_days}d` : ''}${_sh.length ? ` <span class="muted-val">(${_sh.join(' ← ')})</span>` : ''}`);
+    }
     if (_sat && _sat.t12 != null && _sat.t12 <= 10) _mb.push(`<b style="color:var(--positive)">1→2 ${_sat.t12}天前</b>`);
     if (_sat && _sat.t34 != null && _sat.t34 <= 10) _mb.push(`<b style="color:var(--negative)">3→4 ${_sat.t34}天前</b>`);
     if (_sat && (_sat.sata_d != null || _sat.sata_w != null)) _mb.push(`SATA <b>${_sat.sata_d != null ? _sat.sata_d : '-'}</b>/<b>${_sat.sata_w != null ? _sat.sata_w : '-'}</b>`);

@@ -11,31 +11,31 @@
         "breadth_250": 100.0,
         "breadth_60": 100.0,
         "amt_surge": 1.935,
-        "amt_rank": 0.176,
+        "amt_rank": 0.173,
         "amt_1d_yi": 5.16,
         "amt_5d_yi": 5.69,
         "share_1d": 0.17,
         "share_5d": 0.19,
         "share5_pctile200": 100.0,
         "ret_60": 0.481,
-        "composite": 2.233,
+        "composite": 2.231,
         "sector": "Energy"
       },
       {
         "sub_industry": "Oil & Gas Refg & Mktg",
         "n": 4,
-        "pct_high_250": 0.983,
+        "pct_high_250": 0.982,
         "breadth_250": 75.0,
         "breadth_60": 75.0,
-        "amt_surge": 1.69,
+        "amt_surge": 1.691,
         "amt_rank": 0.462,
-        "amt_1d_yi": 26.78,
-        "amt_5d_yi": 26.63,
-        "share_1d": 0.89,
+        "amt_1d_yi": 26.87,
+        "amt_5d_yi": 26.65,
+        "share_1d": 0.88,
         "share_5d": 0.87,
         "share5_pctile200": 91.5,
-        "ret_60": 0.378,
-        "composite": 1.598,
+        "ret_60": 0.377,
+        "composite": 1.595,
         "sector": "Energy"
       },
       {
@@ -45,14 +45,14 @@
         "breadth_250": 33.333,
         "breadth_60": 33.333,
         "amt_surge": 2.208,
-        "amt_rank": 0.606,
+        "amt_rank": 0.601,
         "amt_1d_yi": 30.94,
         "amt_5d_yi": 28.09,
-        "share_1d": 1.03,
-        "share_5d": 0.92,
+        "share_1d": 1.02,
+        "share_5d": 0.91,
         "share5_pctile200": 89.0,
         "ret_60": 0.367,
-        "composite": 1.212,
+        "composite": 1.21,
         "sector": "Health Care"
       },
       {
@@ -61,15 +61,15 @@
         "pct_high_250": 0.978,
         "breadth_250": 75.0,
         "breadth_60": 75.0,
-        "amt_surge": 1.126,
-        "amt_rank": 0.088,
-        "amt_1d_yi": 1.68,
-        "amt_5d_yi": 3.39,
-        "share_1d": 0.06,
+        "amt_surge": 1.131,
+        "amt_rank": 0.093,
+        "amt_1d_yi": 2.11,
+        "amt_5d_yi": 3.48,
+        "share_1d": 0.07,
         "share_5d": 0.11,
-        "share5_pctile200": 66.5,
-        "ret_60": 0.328,
-        "composite": 1.042,
+        "share5_pctile200": 67.0,
+        "ret_60": 0.327,
+        "composite": 1.044,
         "sector": "Industrials"
       },
       {
@@ -79,14 +79,14 @@
         "breadth_250": 14.286,
         "breadth_60": 0.0,
         "amt_surge": 1.282,
-        "amt_rank": 0.376,
+        "amt_rank": 0.372,
         "amt_1d_yi": 44.58,
         "amt_5d_yi": 60.88,
-        "share_1d": 1.48,
+        "share_1d": 1.47,
         "share_5d": 1.98,
         "share5_pctile200": 95.0,
         "ret_60": 0.421,
-        "composite": 0.567,
+        "composite": 0.564,
         "sector": "Health Care"
       },
       {
@@ -99,11 +99,11 @@
         "amt_rank": 0.75,
         "amt_1d_yi": 57.51,
         "amt_5d_yi": 53.43,
-        "share_1d": 1.91,
+        "share_1d": 1.89,
         "share_5d": 1.74,
         "share5_pctile200": 77.0,
         "ret_60": 0.45,
-        "composite": 0.563,
+        "composite": 0.559,
         "sector": "Info Tech"
       },
       {
@@ -116,11 +116,11 @@
         "amt_rank": 0.763,
         "amt_1d_yi": 61.72,
         "amt_5d_yi": 49.33,
-        "share_1d": 2.05,
-        "share_5d": 1.61,
+        "share_1d": 2.03,
+        "share_5d": 1.6,
         "share5_pctile200": 58.5,
         "ret_60": 0.03,
-        "composite": 0.533,
+        "composite": 0.527,
         "sector": "Financials"
       },
       {
@@ -133,11 +133,11 @@
         "amt_rank": 0.953,
         "amt_1d_yi": 291.37,
         "amt_5d_yi": 240.6,
-        "share_1d": 9.68,
-        "share_5d": 7.84,
+        "share_1d": 9.59,
+        "share_5d": 7.82,
         "share5_pctile200": 80.5,
         "ret_60": 0.107,
-        "composite": 0.448,
+        "composite": 0.444,
         "sector": "Comm Svc"
       },
       {
@@ -150,11 +150,11 @@
         "amt_rank": 0.8,
         "amt_1d_yi": 66.57,
         "amt_5d_yi": 77.53,
-        "share_1d": 2.21,
-        "share_5d": 2.53,
+        "share_1d": 2.19,
+        "share_5d": 2.52,
         "share5_pctile200": 92.0,
         "ret_60": 0.219,
-        "composite": 0.197,
+        "composite": 0.194,
         "sector": "Info Tech"
       },
       {
@@ -167,11 +167,11 @@
         "amt_rank": 0.579,
         "amt_1d_yi": 21.92,
         "amt_5d_yi": 35.95,
-        "share_1d": 0.73,
+        "share_1d": 0.72,
         "share_5d": 1.17,
         "share5_pctile200": 91.0,
         "ret_60": 0.006,
-        "composite": 0.19,
+        "composite": 0.187,
         "sector": "Utilities"
       }
     ],
@@ -183,30 +183,30 @@
         "breadth_250": 77.778,
         "breadth_60": 77.778,
         "amt_surge": 1.695,
-        "amt_rank": 0.318,
-        "amt_1d_yi": 33.99,
-        "amt_5d_yi": 34.67,
-        "share_1d": 1.13,
+        "amt_rank": 0.316,
+        "amt_1d_yi": 34.07,
+        "amt_5d_yi": 34.69,
+        "share_1d": 1.12,
         "share_5d": 1.13,
-        "share5_pctile200": 91.0,
-        "ret_60": 0.384,
-        "composite": 1.952
+        "share5_pctile200": 90.5,
+        "ret_60": 0.383,
+        "composite": 1.95
       },
       {
         "sector": "Health Care",
         "n": 31,
-        "pct_high_250": 0.817,
+        "pct_high_250": 0.818,
         "breadth_250": 19.355,
         "breadth_60": 9.677,
-        "amt_surge": 1.258,
-        "amt_rank": 0.417,
-        "amt_1d_yi": 227.41,
-        "amt_5d_yi": 223.58,
-        "share_1d": 7.56,
+        "amt_surge": 1.259,
+        "amt_rank": 0.416,
+        "amt_1d_yi": 228.32,
+        "amt_5d_yi": 223.77,
+        "share_1d": 7.51,
         "share_5d": 7.28,
-        "share5_pctile200": 88.0,
+        "share5_pctile200": 87.5,
         "ret_60": 0.166,
-        "composite": 0.46
+        "composite": 0.459
       },
       {
         "sector": "Consumer Staples",
@@ -215,30 +215,30 @@
         "breadth_250": 40.0,
         "breadth_60": 40.0,
         "amt_surge": 1.031,
-        "amt_rank": 0.482,
+        "amt_rank": 0.479,
         "amt_1d_yi": 30.68,
         "amt_5d_yi": 33.97,
-        "share_1d": 1.02,
-        "share_5d": 1.11,
+        "share_1d": 1.01,
+        "share_5d": 1.1,
         "share5_pctile200": 32.0,
         "ret_60": -0.017,
-        "composite": 0.033
+        "composite": 0.032
       },
       {
         "sector": "Info Tech",
         "n": 54,
-        "pct_high_250": 0.769,
+        "pct_high_250": 0.77,
         "breadth_250": 14.815,
         "breadth_60": 5.556,
-        "amt_surge": 1.076,
-        "amt_rank": 0.715,
-        "amt_1d_yi": 1635.42,
-        "amt_5d_yi": 1698.96,
-        "share_1d": 54.34,
-        "share_5d": 55.35,
-        "share5_pctile200": 48.5,
+        "amt_surge": 1.078,
+        "amt_rank": 0.716,
+        "amt_1d_yi": 1657.73,
+        "amt_5d_yi": 1703.56,
+        "share_1d": 54.56,
+        "share_5d": 55.39,
+        "share5_pctile200": 49.0,
         "ret_60": 0.131,
-        "composite": -0.094
+        "composite": -0.088
       },
       {
         "sector": "Financials",
@@ -247,11 +247,11 @@
         "breadth_250": 15.789,
         "breadth_60": 15.789,
         "amt_surge": 0.919,
-        "amt_rank": 0.647,
+        "amt_rank": 0.645,
         "amt_1d_yi": 303.46,
         "amt_5d_yi": 232.91,
-        "share_1d": 10.08,
-        "share_5d": 7.59,
+        "share_1d": 9.99,
+        "share_5d": 7.57,
         "share5_pctile200": 51.5,
         "ret_60": 0.037,
         "composite": -0.185
@@ -262,14 +262,14 @@
         "pct_high_250": 0.745,
         "breadth_250": 10.0,
         "breadth_60": 7.5,
-        "amt_surge": 0.925,
-        "amt_rank": 0.335,
-        "amt_1d_yi": 183.02,
-        "amt_5d_yi": 198.75,
-        "share_1d": 6.08,
-        "share_5d": 6.47,
+        "amt_surge": 0.927,
+        "amt_rank": 0.336,
+        "amt_1d_yi": 186.86,
+        "amt_5d_yi": 199.55,
+        "share_1d": 6.15,
+        "share_5d": 6.49,
         "share5_pctile200": 15.0,
-        "ret_60": 0.011,
+        "ret_60": 0.012,
         "composite": -0.637
       },
       {
@@ -278,30 +278,30 @@
         "pct_high_250": 0.839,
         "breadth_250": 4.545,
         "breadth_60": 9.091,
-        "amt_surge": 0.879,
+        "amt_surge": 0.881,
         "amt_rank": 0.254,
-        "amt_1d_yi": 42.61,
-        "amt_5d_yi": 53.12,
-        "share_1d": 1.42,
+        "amt_1d_yi": 43.47,
+        "amt_5d_yi": 53.3,
+        "share_1d": 1.43,
         "share_5d": 1.73,
         "share5_pctile200": 3.5,
-        "ret_60": 0.103,
+        "ret_60": 0.104,
         "composite": -0.708
       },
       {
         "sector": "Consumer Discretionary",
         "n": 8,
-        "pct_high_250": 0.785,
+        "pct_high_250": 0.786,
         "breadth_250": 0.0,
         "breadth_60": 12.5,
-        "amt_surge": 0.979,
-        "amt_rank": 0.602,
-        "amt_1d_yi": 162.69,
-        "amt_5d_yi": 222.66,
-        "share_1d": 5.41,
+        "amt_surge": 0.98,
+        "amt_rank": 0.603,
+        "amt_1d_yi": 163.76,
+        "amt_5d_yi": 222.88,
+        "share_1d": 5.39,
         "share_5d": 7.25,
         "share5_pctile200": 6.5,
-        "ret_60": -0.055,
+        "ret_60": -0.053,
         "composite": -0.822
       }
     ]
@@ -312,7 +312,7 @@
       "n": 4,
       "rs": 53.8,
       "rs_1w": 9.4,
-      "ret_60": 38.2
+      "ret_60": 37.7
     },
     {
       "sub_industry": "Oil & Gas Midstream",
@@ -340,7 +340,7 @@
       "n": 6,
       "rs": 31.9,
       "rs_1w": -18.1,
-      "ret_60": -1.0
+      "ret_60": -0.3
     },
     {
       "sub_industry": "Marine Shipping",
@@ -361,7 +361,7 @@
       "n": 11,
       "rs": 25.6,
       "rs_1w": -11.7,
-      "ret_60": 2.9
+      "ret_60": 3.0
     },
     {
       "sub_industry": "Internet Content & Info",
@@ -403,7 +403,7 @@
       "n": 9,
       "rs": 8.6,
       "rs_1w": -9.7,
-      "ret_60": -2.7
+      "ret_60": -2.6
     },
     {
       "sub_industry": "Copper",
@@ -426,7 +426,7 @@
       "n": 4,
       "rs": 53.8,
       "rs_1w": 9.4,
-      "ret_60": 38.2
+      "ret_60": 37.7
     },
     {
       "sub_industry": "Credit Svc",
@@ -447,7 +447,7 @@
       "n": 4,
       "rs": -2.8,
       "rs_1w": 2.2,
-      "ret_60": 1.1
+      "ret_60": 1.3
     },
     {
       "sub_industry": "Marine Shipping",
@@ -471,18 +471,18 @@
       "ret_60": 7.4
     },
     {
-      "sub_industry": "Drug Mfr - General",
-      "n": 17,
-      "rs": -5.8,
-      "rs_1w": -0.3,
-      "ret_60": -1.8
-    },
-    {
       "sub_industry": "Gold",
       "n": 5,
       "rs": -4.8,
       "rs_1w": -0.3,
       "ret_60": 20.9
+    },
+    {
+      "sub_industry": "Drug Mfr - General",
+      "n": 17,
+      "rs": -5.8,
+      "rs_1w": -0.3,
+      "ret_60": -1.7
     },
     {
       "sub_industry": "Banks - Div",
@@ -513,11 +513,11 @@
       "ret_60": 0.2
     },
     {
-      "sub_industry": "Capital Markets",
-      "n": 6,
-      "rs": -2.5,
+      "sub_industry": "Conglomerates",
+      "n": 8,
+      "rs": -5.5,
       "rs_1w": -2.3,
-      "ret_60": 6.7
+      "ret_60": 2.1
     }
   ],
   "part1c1": [
@@ -533,7 +533,7 @@
       "ret_60": 0.182,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.885,
+      "hotness": 0.883,
       "sales_growth": 0.28,
       "earn_growth": -0.136,
       "roe": 0.063,
@@ -569,14 +569,14 @@
       "name": "Mitsui O.S.K. Lines",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 48.163,
+      "close": 48.21,
       "pct_high_250": 1.0,
-      "amt_surge": 0.918,
-      "amt_rank": 0.142,
+      "amt_surge": 0.925,
+      "amt_rank": 0.162,
       "ret_60": 0.407,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.315,
+      "hotness": 0.335,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -588,18 +588,18 @@
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & Gen…",
       "sector": "Health Care",
-      "close": 37.359,
-      "pct_high_250": 0.993,
-      "amt_surge": 1.069,
-      "amt_rank": 0.147,
-      "ret_60": 0.131,
+      "close": 37.258,
+      "pct_high_250": 0.989,
+      "amt_surge": 1.074,
+      "amt_rank": 0.157,
+      "ret_60": 0.126,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.253,
+      "hotness": 0.257,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
-      "pct_high_126": 0.993,
+      "pct_high_126": 0.989,
       "nh_ratio_126": 0.04
     },
     {
@@ -614,7 +614,7 @@
       "ret_60": 0.061,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.072,
+      "hotness": 0.071,
       "sales_growth": 0.186,
       "earn_growth": -2.278,
       "roe": -0.068,
@@ -650,14 +650,14 @@
       "name": "Nitto Denko",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 23.028,
-      "pct_high_250": 0.914,
-      "amt_surge": 0.983,
-      "amt_rank": 0.051,
-      "ret_60": 0.108,
+      "close": 23.119,
+      "pct_high_250": 0.916,
+      "amt_surge": 0.987,
+      "amt_rank": 0.056,
+      "ret_60": 0.111,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.05,
+      "hotness": 0.058,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -669,18 +669,18 @@
       "name": "Nagase &",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 7.847,
-      "pct_high_250": 0.988,
-      "amt_surge": 0.991,
+      "close": 7.878,
+      "pct_high_250": 0.991,
+      "amt_surge": 1.002,
       "amt_rank": 0.005,
-      "ret_60": 0.089,
+      "ret_60": 0.092,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.335,
+      "hotness": -0.327,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
-      "pct_high_126": 0.988,
+      "pct_high_126": 0.991,
       "nh_ratio_126": 0.016
     }
   ],
@@ -697,7 +697,7 @@
       "ret_60": 0.463,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.767,
+      "hotness": 1.766,
       "sales_growth": 0.488,
       "earn_growth": 4.21,
       "roe": 0.152,
@@ -740,7 +740,7 @@
       "ret_60": 0.517,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.733,
+      "hotness": 1.731,
       "sales_growth": 0.535,
       "earn_growth": 3.225,
       "roe": 0.287,
@@ -779,11 +779,11 @@
       "close": 125.04,
       "pct_high_250": 1.0,
       "amt_surge": 2.132,
-      "amt_rank": 0.091,
+      "amt_rank": 0.086,
       "ret_60": 0.486,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.729,
+      "hotness": 1.723,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -822,11 +822,11 @@
       "close": 59.04,
       "pct_high_250": 0.997,
       "amt_surge": 2.153,
-      "amt_rank": 0.32,
+      "amt_rank": 0.315,
       "ret_60": 0.706,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.426,
+      "hotness": 1.42,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -869,7 +869,7 @@
       "ret_60": 0.409,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.306,
+      "hotness": 1.305,
       "sales_growth": 0.552,
       "earn_growth": 3.386,
       "roe": 0.128,
@@ -912,7 +912,7 @@
       "ret_60": 0.585,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.152,
+      "hotness": 1.15,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -955,7 +955,7 @@
       "ret_60": 0.353,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 1.079,
+      "hotness": 1.077,
       "sales_growth": 0.177,
       "earn_growth": 0.313,
       "roe": 0.084,
@@ -998,7 +998,7 @@
       "ret_60": 0.547,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.854,
+      "hotness": 0.852,
       "sales_growth": 0.928,
       "earn_growth": 2.25,
       "roe": 0.117,
@@ -1041,7 +1041,7 @@
       "ret_60": 0.418,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.837,
+      "hotness": 0.836,
       "sales_growth": 0.337,
       "earn_growth": 0.658,
       "roe": 0.119,
@@ -1084,7 +1084,7 @@
       "ret_60": 0.1,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.822,
+      "hotness": 0.821,
       "sales_growth": 0.144,
       "earn_growth": 0.068,
       "roe": 0.159,
@@ -1127,7 +1127,7 @@
       "ret_60": 0.106,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.625,
+      "hotness": 0.623,
       "sales_growth": 0.141,
       "earn_growth": 0.186,
       "roe": 0.712,
@@ -1166,11 +1166,11 @@
       "close": 222.84,
       "pct_high_250": 0.926,
       "amt_surge": 1.188,
-      "amt_rank": 0.624,
+      "amt_rank": 0.619,
       "ret_60": 0.11,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.585,
+      "hotness": 0.579,
       "sales_growth": 0.055,
       "earn_growth": 0.568,
       "roe": 0.017,
@@ -1209,11 +1209,11 @@
       "close": 88.75,
       "pct_high_250": 1.0,
       "amt_surge": 1.491,
-      "amt_rank": 0.122,
+      "amt_rank": 0.117,
       "ret_60": 0.145,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.43,
+      "hotness": 0.425,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -1249,18 +1249,18 @@
       "name": "Nippon Yusen Kaisha",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 47.627,
-      "pct_high_250": 0.999,
-      "amt_surge": 0.972,
+      "close": 47.673,
+      "pct_high_250": 0.998,
+      "amt_surge": 0.978,
       "amt_rank": 0.127,
-      "ret_60": 0.394,
+      "ret_60": 0.393,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.422,
+      "hotness": 0.423,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
-      "pct_high_126": 0.999,
+      "pct_high_126": 0.998,
       "nh_ratio_126": 0.079
     },
     {
@@ -1268,18 +1268,18 @@
       "name": "Kawasaki Kisen",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 21.961,
-      "pct_high_250": 0.997,
-      "amt_surge": 0.926,
+      "close": 21.975,
+      "pct_high_250": 0.996,
+      "amt_surge": 0.93,
       "amt_rank": 0.061,
-      "ret_60": 0.333,
+      "ret_60": 0.332,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.384,
+      "hotness": 0.383,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
-      "pct_high_126": 0.997,
+      "pct_high_126": 0.996,
       "nh_ratio_126": 0.111
     },
     {
@@ -1294,7 +1294,7 @@
       "ret_60": 0.043,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.377,
+      "hotness": 0.376,
       "sales_growth": 0.104,
       "earn_growth": -0.073,
       "roe": -0.315,
@@ -1336,7 +1336,7 @@
       "ret_3d": 6.7,
       "vol_ratio": 1.44,
       "trigger": "SOS 3日",
-      "hotness": 1.152,
+      "hotness": 1.15,
       "fund_periods": [
         "202606",
         "202603",
@@ -1371,7 +1371,7 @@
       "ret_3d": 9.8,
       "vol_ratio": 0.82,
       "trigger": "SOS 3日",
-      "hotness": 1.938,
+      "hotness": 1.936,
       "fund_periods": [
         "202606",
         "202603",
@@ -1406,7 +1406,7 @@
       "ret_3d": 4.2,
       "vol_ratio": 0.79,
       "trigger": "SOS 3日",
-      "hotness": 0.796,
+      "hotness": 0.795,
       "fund_periods": [
         "202607",
         "202604",
@@ -1441,7 +1441,7 @@
       "ret_3d": 5.0,
       "vol_ratio": 0.75,
       "trigger": "SOS 3日",
-      "hotness": 0.854,
+      "hotness": 0.852,
       "fund_periods": [
         "202606",
         "202603",
@@ -1471,15 +1471,28 @@
       "ticker": "9104.JP",
       "name": "Mitsui O.S.K. Lines",
       "sub_industry": "Marine Shipping",
-      "close": 48.16,
-      "ret_1d": 1.0,
+      "close": 48.21,
+      "ret_1d": 0.9,
       "ret_3d": 7.2,
-      "vol_ratio": 0.51,
+      "vol_ratio": 0.66,
       "trigger": "SOS 3日",
-      "hotness": 0.315
+      "hotness": 0.335
     }
   ],
   "bottom": [
+    {
+      "ticker": "8002.JP",
+      "name": "Marubeni",
+      "sub_industry": "Conglomerates",
+      "close": 30.495,
+      "wj_min": 4.4,
+      "pos250": 0.49,
+      "div": 0,
+      "stall": 0,
+      "buy": 1,
+      "buy_types": "KDJ金叉+上穿MA20",
+      "score": 1
+    },
     {
       "ticker": "WFC.US",
       "name": "Wells Fargo",
@@ -1573,33 +1586,21 @@
       "ticker": "4063.JP",
       "name": "Shin-Etsu Chemical",
       "sub_industry": "Chemicals",
-      "close": 38.653,
+      "close": 39.008,
       "sig": "B",
-      "tr": 13.3,
+      "tr": 13.6,
       "mom": "",
       "panic": "",
       "weekly": "背离",
       "days": 0
     },
     {
-      "ticker": "6506.JP",
-      "name": "Yaskawa",
-      "sub_industry": "Electrical Equipment & Parts",
-      "close": 30.241,
-      "sig": "B",
-      "tr": 6.3,
-      "mom": "",
-      "panic": "",
-      "weekly": "无背离",
-      "days": 0
-    },
-    {
       "ticker": "6976.JP",
       "name": "Taiyo Yuden Co., Ltd.",
       "sub_industry": "Electronic Components",
-      "close": 71.027,
+      "close": 72.113,
       "sig": "B",
-      "tr": 3.0,
+      "tr": 3.1,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -2449,9 +2450,9 @@
       "ticker": "4901.JP",
       "name": "Fujifilm",
       "sub_industry": "Conglomerates",
-      "close": 21.538,
+      "close": 21.716,
       "sig": "",
-      "tr": 28.1,
+      "tr": 28.5,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -2749,9 +2750,9 @@
       "ticker": "6503.JP",
       "name": "Mitsubishi Electric Corp.",
       "sub_industry": "Electrical Equipment & Parts",
-      "close": 32.954,
+      "close": 33.048,
       "sig": "",
-      "tr": 13.0,
+      "tr": 13.1,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -2761,9 +2762,9 @@
       "ticker": "6981.JP",
       "name": "Murata",
       "sub_industry": "Electronic Components",
-      "close": 47.93,
+      "close": 48.312,
       "sig": "",
-      "tr": 25.4,
+      "tr": 25.5,
       "mom": "",
       "panic": "✓",
       "weekly": "无背离",
@@ -2773,9 +2774,9 @@
       "ticker": "7741.JP",
       "name": "HOYA",
       "sub_industry": "Medical Instruments & Supplies",
-      "close": 159.724,
+      "close": 162.366,
       "sig": "",
-      "tr": 40.8,
+      "tr": 42.0,
       "mom": "",
       "panic": "",
       "weekly": "背离",
@@ -3001,9 +3002,9 @@
       "ticker": "3436.JP",
       "name": "SUMCO",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 19.645,
+      "close": 19.801,
       "sig": "",
-      "tr": 6.2,
+      "tr": 6.3,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -3013,9 +3014,9 @@
       "ticker": "4186.JP",
       "name": "Tokyo Ohka Kogyo",
       "sub_industry": "Electronic Components",
-      "close": 57.585,
+      "close": 57.811,
       "sig": "",
-      "tr": 26.1,
+      "tr": 26.2,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -3025,7 +3026,7 @@
       "ticker": "5802.JP",
       "name": "Sumitomo Electric",
       "sub_industry": "Auto Parts",
-      "close": 14.669,
+      "close": 14.72,
       "sig": "",
       "tr": 21.9,
       "mom": "",
@@ -3037,9 +3038,9 @@
       "ticker": "6762.JP",
       "name": "TDK",
       "sub_industry": "Electronic Components",
-      "close": 19.67,
+      "close": 19.997,
       "sig": "",
-      "tr": 31.7,
+      "tr": 32.2,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -3049,9 +3050,9 @@
       "ticker": "9983.JP",
       "name": "Fast Retailing",
       "sub_industry": "Apparel Retail",
-      "close": 465.099,
+      "close": 472.308,
       "sig": "",
-      "tr": 20.8,
+      "tr": 21.4,
       "mom": "",
       "panic": "",
       "weekly": "无背离",
@@ -3391,7 +3392,7 @@
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
       "close": 151.33,
-      "hotness": 2.071,
+      "hotness": 2.064,
       "ret_60": 0.73,
       "pct_high_250": 0.738,
       "ma_aligned": 1,
@@ -3400,6 +3401,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 100,
+      "sub_hist": [
+        [
+          100,
+          "2B→2C"
+        ],
+        [
+          105,
+          "2C→2B"
+        ],
+        [
+          128,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 201,
       "t12": 201,
       "t34": null,
@@ -3434,7 +3450,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 216.25,
-      "hotness": 1.938,
+      "hotness": 1.936,
       "ret_60": 2.635,
       "pct_high_250": 0.961,
       "ma_aligned": 1,
@@ -3443,6 +3459,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 39,
+      "sub_hist": [
+        [
+          39,
+          "2B→2C"
+        ],
+        [
+          63,
+          "2C→2B"
+        ],
+        [
+          82,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 211,
       "t12": 211,
       "t34": null,
@@ -3477,7 +3508,7 @@
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
       "close": 456.46,
-      "hotness": 1.767,
+      "hotness": 1.766,
       "ret_60": 0.463,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3486,6 +3517,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 46,
+      "sub_hist": [
+        [
+          46,
+          "2B→2C"
+        ],
+        [
+          49,
+          "2C→2B"
+        ],
+        [
+          54,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 334,
       "t12": 334,
       "t34": null,
@@ -3520,7 +3566,7 @@
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
       "close": 476.98,
-      "hotness": 1.733,
+      "hotness": 1.731,
       "ret_60": 0.517,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3529,6 +3575,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 46,
+      "sub_hist": [
+        [
+          46,
+          "2B→2C"
+        ],
+        [
+          49,
+          "2C→2B"
+        ],
+        [
+          66,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 174,
       "t12": 349,
       "t34": null,
@@ -3563,7 +3624,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 125.04,
-      "hotness": 1.729,
+      "hotness": 1.723,
       "ret_60": 0.486,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3572,6 +3633,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "2B→2C"
+        ],
+        [
+          15,
+          "2C→2B"
+        ],
+        [
+          29,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 307,
       "t12": 307,
       "t34": null,
@@ -3606,7 +3682,7 @@
       "sub_industry": "Health Info Svc",
       "sector": "Health Care",
       "close": 25.89,
-      "hotness": 1.65,
+      "hotness": 1.643,
       "ret_60": 0.726,
       "pct_high_250": 0.794,
       "ma_aligned": 0,
@@ -3615,6 +3691,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 30,
+      "sub_hist": [
+        [
+          30,
+          "2A→2C"
+        ],
+        [
+          37,
+          "1→2A"
+        ],
+        [
+          84,
+          "4B→1"
+        ]
+      ],
       "stage_days": 37,
       "t12": 37,
       "t34": null,
@@ -3649,7 +3740,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 59.04,
-      "hotness": 1.426,
+      "hotness": 1.42,
       "ret_60": 0.706,
       "pct_high_250": 0.997,
       "ma_aligned": 1,
@@ -3658,6 +3749,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 25,
+      "sub_hist": [
+        [
+          25,
+          "2B→2C"
+        ],
+        [
+          77,
+          "2C→2B"
+        ],
+        [
+          85,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 309,
       "t12": 309,
       "t34": null,
@@ -3692,7 +3798,7 @@
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
       "close": 663.04,
-      "hotness": 1.367,
+      "hotness": 1.362,
       "ret_60": 0.261,
       "pct_high_250": 0.976,
       "ma_aligned": 0,
@@ -3701,6 +3807,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "2A→2B"
+        ],
+        [
+          54,
+          "1→2A"
+        ],
+        [
+          68,
+          "4B→1"
+        ]
+      ],
       "stage_days": 54,
       "t12": 54,
       "t34": null,
@@ -3735,7 +3856,7 @@
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
       "close": 292.73,
-      "hotness": 1.306,
+      "hotness": 1.305,
       "ret_60": 0.409,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3744,6 +3865,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 10,
+      "sub_hist": [
+        [
+          10,
+          "2B→2C"
+        ],
+        [
+          11,
+          "2C→2B"
+        ],
+        [
+          45,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 238,
       "t12": 293,
       "t34": null,
@@ -3778,7 +3914,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 261.21,
-      "hotness": 1.293,
+      "hotness": 1.292,
       "ret_60": 0.316,
       "pct_high_250": 0.937,
       "ma_aligned": 1,
@@ -3787,6 +3923,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 34,
+      "sub_hist": [
+        [
+          34,
+          "2B→2C"
+        ],
+        [
+          35,
+          "2C→2B"
+        ],
+        [
+          99,
+          "2A→2C"
+        ]
+      ],
       "stage_days": 113,
       "t12": 274,
       "t34": null,
@@ -3821,7 +3972,7 @@
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
       "close": 572.47,
-      "hotness": 1.223,
+      "hotness": 1.221,
       "ret_60": 0.502,
       "pct_high_250": 0.973,
       "ma_aligned": 1,
@@ -3830,6 +3981,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 125,
+      "sub_hist": [
+        [
+          125,
+          "2B→2C"
+        ],
+        [
+          126,
+          "2C→2B"
+        ],
+        [
+          128,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 158,
       "t12": 220,
       "t34": null,
@@ -3864,7 +4030,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 26.59,
-      "hotness": 1.152,
+      "hotness": 1.15,
       "ret_60": 0.585,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3873,6 +4039,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "2B→2C"
+        ],
+        [
+          16,
+          "2C→2B"
+        ],
+        [
+          23,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 357,
       "t12": 357,
       "t34": null,
@@ -3907,7 +4088,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 543.45,
-      "hotness": 1.079,
+      "hotness": 1.077,
       "ret_60": 0.353,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -3916,6 +4097,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 27,
+      "sub_hist": [
+        [
+          27,
+          "2A→2B"
+        ],
+        [
+          42,
+          "1→2A"
+        ],
+        [
+          53,
+          "4B→1"
+        ]
+      ],
       "stage_days": 42,
       "t12": 42,
       "t34": null,
@@ -3945,12 +4141,46 @@
       ]
     },
     {
+      "ticker": "6857.JP",
+      "name": "Advantest",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "sector": "Info Tech",
+      "close": 258.37,
+      "hotness": 1.011,
+      "ret_60": 0.373,
+      "pct_high_250": 0.977,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "2B→2C"
+        ],
+        [
+          34,
+          "2C→2B"
+        ],
+        [
+          35,
+          "2B→2C"
+        ]
+      ],
+      "stage_days": 324,
+      "t12": null,
+      "t34": null
+    },
+    {
       "ticker": "HPE.US",
       "name": "Hewlett Packard Ente…",
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
       "close": 68.81,
-      "hotness": 1.003,
+      "hotness": 1.001,
       "ret_60": 0.548,
       "pct_high_250": 0.937,
       "ma_aligned": 1,
@@ -3959,6 +4189,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 106,
+      "sub_hist": [
+        [
+          106,
+          "2B→2C"
+        ],
+        [
+          107,
+          "2C→2B"
+        ],
+        [
+          109,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 140,
       "t12": 174,
       "t34": null,
@@ -3988,31 +4233,12 @@
       ]
     },
     {
-      "ticker": "6857.JP",
-      "name": "Advantest",
-      "sub_industry": "Semiconductor Equip & Mat",
-      "sector": "Info Tech",
-      "close": 258.171,
-      "hotness": 0.996,
-      "ret_60": 0.374,
-      "pct_high_250": 0.978,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "sata_d": 8,
-      "sata_w": 8,
-      "stage": "2",
-      "sub": "2C",
-      "stage_days": 324,
-      "t12": null,
-      "t34": null
-    },
-    {
       "ticker": "META.US",
       "name": "Meta Platforms",
       "sub_industry": "Internet Content & Info",
       "sector": "Comm Svc",
       "close": 762.5,
-      "hotness": 0.885,
+      "hotness": 0.883,
       "ret_60": 0.182,
       "pct_high_250": 0.981,
       "ma_aligned": 1,
@@ -4021,6 +4247,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "2A→2B"
+        ],
+        [
+          17,
+          "1→2A"
+        ],
+        [
+          27,
+          "4B→1"
+        ]
+      ],
       "stage_days": 17,
       "t12": 17,
       "t34": null,
@@ -4055,7 +4296,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 208.67,
-      "hotness": 0.854,
+      "hotness": 0.852,
       "ret_60": 0.547,
       "pct_high_250": 0.998,
       "ma_aligned": 1,
@@ -4064,6 +4305,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "2B→2C"
+        ],
+        [
+          13,
+          "2C→2B"
+        ],
+        [
+          15,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 33,
       "t12": 33,
       "t34": null,
@@ -4098,7 +4354,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 176.52,
-      "hotness": 0.837,
+      "hotness": 0.836,
       "ret_60": 0.418,
       "pct_high_250": 0.985,
       "ma_aligned": 0,
@@ -4107,6 +4363,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "2B→2C"
+        ],
+        [
+          17,
+          "1B→2B"
+        ],
+        [
+          22,
+          "2A→1B"
+        ]
+      ],
       "stage_days": 17,
       "t12": 17,
       "t34": null,
@@ -4141,7 +4412,7 @@
       "sub_industry": "Credit Svc",
       "sector": "Financials",
       "close": 396.06,
-      "hotness": 0.822,
+      "hotness": 0.821,
       "ret_60": 0.1,
       "pct_high_250": 1.0,
       "ma_aligned": 0,
@@ -4150,6 +4421,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 34,
+      "sub_hist": [
+        [
+          34,
+          "2A→2B"
+        ],
+        [
+          76,
+          "1C→2A"
+        ],
+        [
+          84,
+          "4B→1C"
+        ]
+      ],
       "stage_days": 76,
       "t12": 76,
       "t34": null,
@@ -4184,7 +4470,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 357.76,
-      "hotness": 0.796,
+      "hotness": 0.795,
       "ret_60": 0.304,
       "pct_high_250": 0.97,
       "ma_aligned": 1,
@@ -4193,6 +4479,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 60,
+      "sub_hist": [
+        [
+          60,
+          "1C→2C"
+        ],
+        [
+          66,
+          "1B→1C"
+        ],
+        [
+          67,
+          "1C→1B"
+        ]
+      ],
       "stage_days": 60,
       "t12": 60,
       "t34": null,
@@ -4227,7 +4528,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 412.84,
-      "hotness": 0.758,
+      "hotness": 0.756,
       "ret_60": 0.14,
       "pct_high_250": 0.93,
       "ma_aligned": 0,
@@ -4236,6 +4537,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 80,
+      "sub_hist": [
+        [
+          80,
+          "1→2B"
+        ],
+        [
+          82,
+          "2B→1"
+        ],
+        [
+          86,
+          "1→2B"
+        ]
+      ],
       "stage_days": 91,
       "t12": 91,
       "t34": null,
@@ -4270,7 +4586,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 605.53,
-      "hotness": 0.736,
+      "hotness": 0.735,
       "ret_60": 0.202,
       "pct_high_250": 0.932,
       "ma_aligned": 1,
@@ -4279,6 +4595,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 19,
+      "sub_hist": [
+        [
+          19,
+          "2B→2C"
+        ],
+        [
+          22,
+          "2C→2B"
+        ],
+        [
+          26,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 135,
       "t12": 135,
       "t34": null,
@@ -4313,7 +4644,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 397.03,
-      "hotness": 0.727,
+      "hotness": 0.726,
       "ret_60": 0.139,
       "pct_high_250": 0.946,
       "ma_aligned": 1,
@@ -4322,6 +4653,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 96,
+      "sub_hist": [
+        [
+          96,
+          "2A→2C"
+        ],
+        [
+          104,
+          "1→2A"
+        ],
+        [
+          113,
+          "4B→1"
+        ]
+      ],
       "stage_days": 104,
       "t12": 104,
       "t34": null,
@@ -4356,7 +4702,7 @@
       "sub_industry": "Banks - Div",
       "sector": "Financials",
       "close": 331.43,
-      "hotness": 0.726,
+      "hotness": 0.725,
       "ret_60": -0.017,
       "pct_high_250": 0.912,
       "ma_aligned": 0,
@@ -4365,6 +4711,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 69,
+      "sub_hist": [
+        [
+          69,
+          "2A→2B"
+        ],
+        [
+          85,
+          "1C→2A"
+        ],
+        [
+          91,
+          "1→1C"
+        ]
+      ],
       "stage_days": 85,
       "t12": 85,
       "t34": null
@@ -4375,7 +4736,7 @@
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
       "close": 987.99,
-      "hotness": 0.722,
+      "hotness": 0.721,
       "ret_60": 0.291,
       "pct_high_250": 0.872,
       "ma_aligned": 1,
@@ -4384,6 +4745,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "2C→2B"
+        ],
+        [
+          6,
+          "2B→2C"
+        ],
+        [
+          51,
+          "1→2B"
+        ]
+      ],
       "stage_days": 51,
       "t12": 51,
       "t34": null,
@@ -4418,7 +4794,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 228.52,
-      "hotness": 0.67,
+      "hotness": 0.669,
       "ret_60": 0.125,
       "pct_high_250": 0.955,
       "ma_aligned": 1,
@@ -4427,6 +4803,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 52,
+      "sub_hist": [
+        [
+          52,
+          "1→2B"
+        ],
+        [
+          54,
+          "2B→1"
+        ],
+        [
+          67,
+          "3A→2B"
+        ]
+      ],
       "stage_days": 67,
       "t12": 172,
       "t34": null,
@@ -4461,7 +4852,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 274.36,
-      "hotness": 0.652,
+      "hotness": 0.651,
       "ret_60": 0.083,
       "pct_high_250": 0.976,
       "ma_aligned": 1,
@@ -4470,6 +4861,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 67,
+      "sub_hist": [
+        [
+          67,
+          "2A→2B"
+        ],
+        [
+          80,
+          "1→2A"
+        ],
+        [
+          81,
+          "2A→1"
+        ]
+      ],
       "stage_days": 90,
       "t12": 90,
       "t34": null,
@@ -4504,7 +4910,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 56.67,
-      "hotness": 0.647,
+      "hotness": 0.646,
       "ret_60": -0.048,
       "pct_high_250": 0.841,
       "ma_aligned": 0,
@@ -4513,6 +4919,21 @@
       "sata_w": 2,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "3A→3B"
+        ],
+        [
+          6,
+          "3B→3A"
+        ],
+        [
+          7,
+          "2B→3B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null,
@@ -4547,7 +4968,7 @@
       "sub_industry": "Credit Svc",
       "sector": "Financials",
       "close": 604.8,
-      "hotness": 0.625,
+      "hotness": 0.623,
       "ret_60": 0.106,
       "pct_high_250": 1.0,
       "ma_aligned": 0,
@@ -4556,6 +4977,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "3A→2B"
+        ],
+        [
+          9,
+          "2B→3A"
+        ],
+        [
+          23,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 5,
       "t12": 67,
       "t34": null,
@@ -4590,7 +5026,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 141.98,
-      "hotness": 0.607,
+      "hotness": 0.605,
       "ret_60": 0.148,
       "pct_high_250": 0.913,
       "ma_aligned": 0,
@@ -4599,6 +5035,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 34,
+      "sub_hist": [
+        [
+          34,
+          "2C→2B"
+        ],
+        [
+          35,
+          "2B→2C"
+        ],
+        [
+          157,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 231,
       "t12": 231,
       "t34": null,
@@ -4633,7 +5084,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 263.45,
-      "hotness": 0.588,
+      "hotness": 0.582,
       "ret_60": 0.337,
       "pct_high_250": 0.762,
       "ma_aligned": 0,
@@ -4642,6 +5093,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 29,
+      "sub_hist": [
+        [
+          29,
+          "1→2B"
+        ],
+        [
+          32,
+          "2B→1"
+        ],
+        [
+          35,
+          "1→2B"
+        ]
+      ],
       "stage_days": 29,
       "t12": 29,
       "t34": null,
@@ -4676,7 +5142,7 @@
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
       "close": 222.84,
-      "hotness": 0.585,
+      "hotness": 0.579,
       "ret_60": 0.11,
       "pct_high_250": 0.926,
       "ma_aligned": 0,
@@ -4685,6 +5151,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 16,
+      "sub_hist": [
+        [
+          16,
+          "1C→2A"
+        ],
+        [
+          17,
+          "1→1C"
+        ],
+        [
+          49,
+          "4B→1"
+        ]
+      ],
       "stage_days": 16,
       "t12": 16,
       "t34": null,
@@ -4719,7 +5200,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 147.92,
-      "hotness": 0.576,
+      "hotness": 0.575,
       "ret_60": 0.117,
       "pct_high_250": 0.967,
       "ma_aligned": 0,
@@ -4728,6 +5209,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 18,
+      "sub_hist": [
+        [
+          18,
+          "2B→2A"
+        ],
+        [
+          45,
+          "1→2B"
+        ],
+        [
+          49,
+          "2B→1"
+        ]
+      ],
       "stage_days": 45,
       "t12": 45,
       "t34": null,
@@ -4761,16 +5257,31 @@
       "name": "Itochu",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 13.934,
-      "hotness": 0.552,
-      "ret_60": 0.171,
-      "pct_high_250": 0.941,
+      "close": 13.987,
+      "hotness": 0.56,
+      "ret_60": 0.174,
+      "pct_high_250": 0.943,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 8,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "2B→2A"
+        ],
+        [
+          19,
+          "2A→2B"
+        ],
+        [
+          36,
+          "3B→2A"
+        ]
+      ],
       "stage_days": 44,
       "t12": 298,
       "t34": null
@@ -4781,7 +5292,7 @@
       "sub_industry": "Banks - Div",
       "sector": "Financials",
       "close": 53.96,
-      "hotness": 0.547,
+      "hotness": 0.546,
       "ret_60": -0.102,
       "pct_high_250": 0.837,
       "ma_aligned": 0,
@@ -4790,6 +5301,21 @@
       "sata_w": 2,
       "stage": "1",
       "sub": "1",
+      "sub_days": 11,
+      "sub_hist": [
+        [
+          11,
+          "2B→1"
+        ],
+        [
+          73,
+          "2A→2B"
+        ],
+        [
+          88,
+          "3A→2A"
+        ]
+      ],
       "stage_days": 11,
       "t12": null,
       "t34": null
@@ -4800,7 +5326,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 268.725,
-      "hotness": 0.519,
+      "hotness": 0.517,
       "ret_60": 0.379,
       "pct_high_250": 0.85,
       "ma_aligned": 1,
@@ -4809,6 +5335,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 19,
+      "sub_hist": [
+        [
+          19,
+          "2B→2C"
+        ],
+        [
+          22,
+          "2C→2B"
+        ],
+        [
+          23,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 153,
       "t12": 171,
       "t34": null,
@@ -4843,7 +5384,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 190.76,
-      "hotness": 0.513,
+      "hotness": 0.508,
       "ret_60": 0.19,
       "pct_high_250": 0.98,
       "ma_aligned": 1,
@@ -4852,6 +5393,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 22,
+      "sub_hist": [
+        [
+          22,
+          "2B→2C"
+        ],
+        [
+          23,
+          "2C→2B"
+        ],
+        [
+          24,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 113,
       "t12": 113,
       "t34": null,
@@ -4886,7 +5442,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 445.12,
-      "hotness": 0.499,
+      "hotness": 0.497,
       "ret_60": 0.109,
       "pct_high_250": 0.916,
       "ma_aligned": 1,
@@ -4895,6 +5451,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 53,
+      "sub_hist": [
+        [
+          53,
+          "1→2B"
+        ],
+        [
+          54,
+          "2B→1"
+        ],
+        [
+          73,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 350,
       "t12": 350,
       "t34": null,
@@ -4929,7 +5500,7 @@
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
       "close": 29.79,
-      "hotness": 0.466,
+      "hotness": 0.464,
       "ret_60": 0.177,
       "pct_high_250": 0.917,
       "ma_aligned": 0,
@@ -4938,6 +5509,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 155,
+      "sub_hist": [
+        [
+          155,
+          "2C→2B"
+        ],
+        [
+          158,
+          "2B→2C"
+        ],
+        [
+          204,
+          "1→2B"
+        ]
+      ],
       "stage_days": 317,
       "t12": 317,
       "t34": null,
@@ -4972,7 +5558,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 248.61,
-      "hotness": 0.447,
+      "hotness": 0.445,
       "ret_60": 0.004,
       "pct_high_250": 0.893,
       "ma_aligned": 0,
@@ -4981,6 +5567,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 306,
+      "sub_hist": [
+        [
+          306,
+          "2A→2B"
+        ],
+        [
+          318,
+          "1C→2A"
+        ],
+        [
+          326,
+          "4B→1C"
+        ]
+      ],
       "stage_days": 318,
       "t12": 318,
       "t34": null,
@@ -5015,7 +5616,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 88.75,
-      "hotness": 0.43,
+      "hotness": 0.425,
       "ret_60": 0.145,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -5024,6 +5625,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 107,
+      "sub_hist": [
+        [
+          107,
+          "2C→2B"
+        ],
+        [
+          110,
+          "2B→2C"
+        ],
+        [
+          111,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 194,
       "t12": 194,
       "t34": null,
@@ -5057,16 +5673,31 @@
       "name": "Nippon Yusen Kaisha",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 47.627,
-      "hotness": 0.422,
-      "ret_60": 0.394,
-      "pct_high_250": 0.999,
+      "close": 47.673,
+      "hotness": 0.423,
+      "ret_60": 0.393,
+      "pct_high_250": 0.998,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 61,
+      "sub_hist": [
+        [
+          61,
+          "3B→2B"
+        ],
+        [
+          63,
+          "3A→3B"
+        ],
+        [
+          65,
+          "3B→3A"
+        ]
+      ],
       "stage_days": 61,
       "t12": null,
       "t34": null
@@ -5077,7 +5708,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 238.01,
-      "hotness": 0.398,
+      "hotness": 0.397,
       "ret_60": 0.372,
       "pct_high_250": 0.9,
       "ma_aligned": 0,
@@ -5086,6 +5717,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 19,
+      "sub_hist": [
+        [
+          19,
+          "2C→2B"
+        ],
+        [
+          21,
+          "2A→2C"
+        ],
+        [
+          26,
+          "1→2A"
+        ]
+      ],
       "stage_days": 26,
       "t12": 26,
       "t34": null,
@@ -5119,16 +5765,31 @@
       "name": "Kawasaki Kisen",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 21.961,
-      "hotness": 0.384,
-      "ret_60": 0.333,
-      "pct_high_250": 0.997,
+      "close": 21.975,
+      "hotness": 0.383,
+      "ret_60": 0.332,
+      "pct_high_250": 0.996,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 15,
+      "sub_hist": [
+        [
+          15,
+          "2C→2B"
+        ],
+        [
+          16,
+          "2B→2C"
+        ],
+        [
+          29,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 188,
       "t12": 205,
       "t34": null
@@ -5139,7 +5800,7 @@
       "sub_industry": "Tobacco",
       "sector": "Consumer Staples",
       "close": 199.29,
-      "hotness": 0.377,
+      "hotness": 0.376,
       "ret_60": 0.043,
       "pct_high_250": 0.987,
       "ma_aligned": 1,
@@ -5148,6 +5809,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2A→2B"
+        ],
+        [
+          4,
+          "3A→2A"
+        ],
+        [
+          15,
+          "2B→3A"
+        ]
+      ],
       "stage_days": 4,
       "t12": 276,
       "t34": null,
@@ -5182,7 +5858,7 @@
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
       "close": 204.52,
-      "hotness": 0.36,
+      "hotness": 0.358,
       "ret_60": 0.208,
       "pct_high_250": 0.944,
       "ma_aligned": 1,
@@ -5191,6 +5867,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 40,
+      "sub_hist": [
+        [
+          40,
+          "2C→2B"
+        ],
+        [
+          41,
+          "2B→2C"
+        ],
+        [
+          42,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 82,
       "t12": 152,
       "t34": null,
@@ -5225,7 +5916,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 28.37,
-      "hotness": 0.359,
+      "hotness": 0.358,
       "ret_60": 0.166,
       "pct_high_250": 0.978,
       "ma_aligned": 0,
@@ -5234,6 +5925,21 @@
       "sata_w": 8,
       "stage": "3",
       "sub": "3A",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "2B→3A"
+        ],
+        [
+          39,
+          "2A→2B"
+        ],
+        [
+          49,
+          "3A→2A"
+        ]
+      ],
       "stage_days": 8,
       "t12": null,
       "t34": null,
@@ -5268,7 +5974,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 102.81,
-      "hotness": 0.353,
+      "hotness": 0.352,
       "ret_60": 0.059,
       "pct_high_250": 0.729,
       "ma_aligned": 0,
@@ -5277,6 +5983,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 12,
+      "sub_hist": [
+        [
+          12,
+          "2C→2B"
+        ],
+        [
+          17,
+          "2B→2C"
+        ],
+        [
+          42,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 293,
       "t12": 313,
       "t34": null,
@@ -5310,8 +6031,8 @@
       "name": "Mitsui O.S.K. Lines",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 48.163,
-      "hotness": 0.315,
+      "close": 48.21,
+      "hotness": 0.335,
       "ret_60": 0.407,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -5320,6 +6041,21 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 61,
+      "sub_hist": [
+        [
+          61,
+          "1→2B"
+        ],
+        [
+          63,
+          "2B→1"
+        ],
+        [
+          64,
+          "1→2B"
+        ]
+      ],
       "stage_days": 61,
       "t12": 61,
       "t34": null
@@ -5330,7 +6066,7 @@
       "sub_industry": "Banks - Div",
       "sector": "Financials",
       "close": 80.74,
-      "hotness": 0.315,
+      "hotness": 0.313,
       "ret_60": -0.059,
       "pct_high_250": 0.851,
       "ma_aligned": 0,
@@ -5339,6 +6075,21 @@
       "sata_w": 2,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "1B→4B"
+        ],
+        [
+          2,
+          "2A→1B"
+        ],
+        [
+          3,
+          "4B→2A"
+        ]
+      ],
       "stage_days": 12,
       "t12": null,
       "t34": null
@@ -5349,7 +6100,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 953.19,
-      "hotness": 0.285,
+      "hotness": 0.283,
       "ret_60": 0.101,
       "pct_high_250": 0.786,
       "ma_aligned": 1,
@@ -5358,6 +6109,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "2C→2B"
+        ],
+        [
+          19,
+          "2B→2C"
+        ],
+        [
+          22,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 338,
       "t12": 338,
       "t34": null,
@@ -5392,7 +6158,7 @@
       "sub_industry": "Internet Retail",
       "sector": "Consumer Discretionary",
       "close": 258.58,
-      "hotness": 0.283,
+      "hotness": 0.282,
       "ret_60": 0.034,
       "pct_high_250": 0.91,
       "ma_aligned": 0,
@@ -5401,6 +6167,21 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 50,
+      "sub_hist": [
+        [
+          50,
+          "2A→2B"
+        ],
+        [
+          51,
+          "3A→2A"
+        ],
+        [
+          52,
+          "3B→3A"
+        ]
+      ],
       "stage_days": 51,
       "t12": 127,
       "t34": null,
@@ -5435,7 +6216,7 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 428.31,
-      "hotness": 0.277,
+      "hotness": 0.275,
       "ret_60": 0.07,
       "pct_high_250": 0.931,
       "ma_aligned": 0,
@@ -5444,6 +6225,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 20,
+      "sub_hist": [
+        [
+          20,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ],
+        [
+          28,
+          "1→2B"
+        ]
+      ],
       "stage_days": 81,
       "t12": 130,
       "t34": null,
@@ -5478,7 +6274,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 228.66,
-      "hotness": 0.265,
+      "hotness": 0.259,
       "ret_60": 0.526,
       "pct_high_250": 0.68,
       "ma_aligned": 1,
@@ -5487,6 +6283,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "2B→2C"
+        ],
+        [
+          10,
+          "2A→2B"
+        ],
+        [
+          16,
+          "1→2A"
+        ]
+      ],
       "stage_days": 16,
       "t12": 16,
       "t34": null,
@@ -5520,16 +6331,31 @@
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & Gen…",
       "sector": "Health Care",
-      "close": 37.359,
-      "hotness": 0.253,
-      "ret_60": 0.131,
-      "pct_high_250": 0.993,
+      "close": 37.258,
+      "hotness": 0.257,
+      "ret_60": 0.126,
+      "pct_high_250": 0.989,
       "ma_aligned": 1,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 9,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "2B→2A"
+        ],
+        [
+          45,
+          "1→2B"
+        ],
+        [
+          47,
+          "2B→1"
+        ]
+      ],
       "stage_days": 69,
       "t12": 69,
       "t34": null
@@ -5539,16 +6365,31 @@
       "name": "Ibiden",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 68.534,
-      "hotness": 0.239,
-      "ret_60": 0.21,
-      "pct_high_250": 0.823,
+      "close": 68.258,
+      "hotness": 0.247,
+      "ret_60": 0.203,
+      "pct_high_250": 0.819,
       "ma_aligned": 1,
       "days_below_ma10": 3,
       "sata_d": 7,
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2C→2B"
+        ],
+        [
+          14,
+          "2B→2C"
+        ],
+        [
+          20,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 342,
       "t12": null,
       "t34": null
@@ -5559,7 +6400,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 753.12,
-      "hotness": 0.227,
+      "hotness": 0.226,
       "ret_60": 0.122,
       "pct_high_250": 0.884,
       "ma_aligned": 0,
@@ -5568,6 +6409,21 @@
       "sata_w": 3,
       "stage": "1",
       "sub": "1B",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "2A→1B"
+        ],
+        [
+          18,
+          "2B→2A"
+        ],
+        [
+          28,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 8,
       "t12": null,
       "t34": null,
@@ -5602,7 +6458,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Comm Svc",
       "close": 156.54,
-      "hotness": 0.213,
+      "hotness": 0.211,
       "ret_60": 0.306,
       "pct_high_250": 0.741,
       "ma_aligned": 1,
@@ -5611,6 +6467,8 @@
       "sata_w": 2,
       "stage": "NA",
       "sub": "NA",
+      "sub_days": null,
+      "sub_hist": [],
       "stage_days": null,
       "t12": null,
       "t34": null,
@@ -5645,7 +6503,7 @@
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
       "close": 39.07,
-      "hotness": 0.193,
+      "hotness": 0.192,
       "ret_60": 0.64,
       "pct_high_250": 0.71,
       "ma_aligned": 1,
@@ -5654,6 +6512,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "2C→2B"
+        ],
+        [
+          8,
+          "2B→2C"
+        ],
+        [
+          11,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 38,
       "t12": 38,
       "t34": null,
@@ -5688,7 +6561,7 @@
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 1717.76,
-      "hotness": 0.192,
+      "hotness": 0.191,
       "ret_60": -0.011,
       "pct_high_250": 0.865,
       "ma_aligned": 0,
@@ -5697,6 +6570,21 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 20,
+      "sub_hist": [
+        [
+          20,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ],
+        [
+          72,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 272,
       "t12": 344,
       "t34": null,
@@ -5731,7 +6619,7 @@
       "sub_industry": "Internet Content & Info",
       "sector": "Comm Svc",
       "close": 353.78,
-      "hotness": 0.192,
+      "hotness": 0.191,
       "ret_60": 0.006,
       "pct_high_250": 0.88,
       "ma_aligned": 0,
@@ -5740,6 +6628,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 7,
+      "sub_hist": [
+        [
+          7,
+          "3B→2B"
+        ],
+        [
+          12,
+          "3A→3B"
+        ],
+        [
+          13,
+          "3B→3A"
+        ]
+      ],
       "stage_days": 7,
       "t12": 52,
       "t34": null,
@@ -5774,7 +6677,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 1166.51,
-      "hotness": 0.191,
+      "hotness": 0.189,
       "ret_60": 0.019,
       "pct_high_250": 0.911,
       "ma_aligned": 0,
@@ -5783,6 +6686,21 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 107,
+      "sub_hist": [
+        [
+          107,
+          "1→2B"
+        ],
+        [
+          109,
+          "2B→1"
+        ],
+        [
+          112,
+          "1→2B"
+        ]
+      ],
       "stage_days": 112,
       "t12": 112,
       "t34": null,
@@ -5817,7 +6735,7 @@
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 295.79,
-      "hotness": 0.185,
+      "hotness": 0.183,
       "ret_60": 0.169,
       "pct_high_250": 0.736,
       "ma_aligned": 0,
@@ -5826,6 +6744,21 @@
       "sata_w": 6,
       "stage": "1",
       "sub": "1",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "4B→1"
+        ],
+        [
+          22,
+          "2A→4B"
+        ],
+        [
+          24,
+          "1→2A"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null,
@@ -5855,12 +6788,46 @@
       ]
     },
     {
+      "ticker": "6976.JP",
+      "name": "Taiyo Yuden",
+      "sub_industry": "Electronic Comp",
+      "sector": "Info Tech",
+      "close": 72.113,
+      "hotness": 0.182,
+      "ret_60": -0.033,
+      "pct_high_250": 0.506,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 6,
+      "sata_w": 5,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "1→2B"
+        ],
+        [
+          20,
+          "2B→1"
+        ],
+        [
+          21,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 9,
+      "t12": 9,
+      "t34": null
+    },
+    {
       "ticker": "TJX.US",
       "name": "TJX Companies",
       "sub_industry": "Apparel Retail",
       "sector": "Consumer Discretionary",
       "close": 141.49,
-      "hotness": 0.18,
+      "hotness": 0.179,
       "ret_60": -0.088,
       "pct_high_250": 0.843,
       "ma_aligned": 0,
@@ -5869,6 +6836,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 19,
+      "sub_hist": [
+        [
+          19,
+          "4A→4B"
+        ],
+        [
+          25,
+          "1A→4A"
+        ],
+        [
+          29,
+          "3B→1A"
+        ]
+      ],
       "stage_days": 25,
       "t12": null,
       "t34": null,
@@ -5903,7 +6885,7 @@
       "sub_industry": "Internet Content & Info",
       "sector": "Info Tech",
       "close": 206.86,
-      "hotness": 0.175,
+      "hotness": 0.173,
       "ret_60": 0.133,
       "pct_high_250": 0.722,
       "ma_aligned": 0,
@@ -5912,6 +6894,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 13,
+      "sub_hist": [
+        [
+          13,
+          "2C→2B"
+        ],
+        [
+          14,
+          "2B→2C"
+        ],
+        [
+          24,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 152,
       "t12": 152,
       "t34": null,
@@ -5946,7 +6943,7 @@
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 162.36,
-      "hotness": 0.161,
+      "hotness": 0.16,
       "ret_60": 0.029,
       "pct_high_250": 0.774,
       "ma_aligned": 0,
@@ -5955,6 +6952,21 @@
       "sata_w": 6,
       "stage": "1",
       "sub": "1",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "4B→1"
+        ],
+        [
+          56,
+          "1→4B"
+        ],
+        [
+          60,
+          "4B→1"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null,
@@ -5984,31 +6996,12 @@
       ]
     },
     {
-      "ticker": "6976.JP",
-      "name": "Taiyo Yuden",
-      "sub_industry": "Electronic Comp",
-      "sector": "Info Tech",
-      "close": 70.932,
-      "hotness": 0.153,
-      "ret_60": -0.047,
-      "pct_high_250": 0.499,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 6,
-      "sata_w": 5,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 9,
-      "t12": 9,
-      "t34": null
-    },
-    {
       "ticker": "COST.US",
       "name": "Cost",
       "sub_industry": "Discount Stores",
       "sector": "Consumer Staples",
       "close": 954.63,
-      "hotness": 0.113,
+      "hotness": 0.111,
       "ret_60": 0.022,
       "pct_high_250": 0.874,
       "ma_aligned": 0,
@@ -6017,6 +7010,21 @@
       "sata_w": 3,
       "stage": "4",
       "sub": "1",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "4A→1"
+        ],
+        [
+          9,
+          "1A→4A"
+        ],
+        [
+          17,
+          "3B→1A"
+        ]
+      ],
       "stage_days": 9,
       "t12": null,
       "t34": null,
@@ -6051,7 +7059,7 @@
       "sub_industry": "Capital Markets",
       "sector": "Financials",
       "close": 891.91,
-      "hotness": 0.098,
+      "hotness": 0.096,
       "ret_60": -0.15,
       "pct_high_250": 0.778,
       "ma_aligned": 0,
@@ -6060,52 +7068,24 @@
       "sata_w": 1,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 12,
+      "sub_hist": [
+        [
+          12,
+          "1→3B"
+        ],
+        [
+          20,
+          "2B→1"
+        ],
+        [
+          136,
+          "1→2B"
+        ]
+      ],
       "stage_days": 12,
       "t12": null,
       "t34": null
-    },
-    {
-      "ticker": "RTX.US",
-      "name": "RTX",
-      "sub_industry": "Aero & Def",
-      "sector": "Industrials",
-      "close": 183.02,
-      "hotness": 0.089,
-      "ret_60": -0.056,
-      "pct_high_250": 0.812,
-      "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 1,
-      "sata_w": 1,
-      "stage": "3",
-      "sub": "3B",
-      "stage_days": 19,
-      "t12": null,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        14.5,
-        8.7,
-        12.1,
-        11.9
-      ],
-      "profit_yoy4": [
-        29.1,
-        34.1,
-        9.4,
-        30.3
-      ],
-      "roe4": [
-        3.2,
-        3.1,
-        2.5,
-        3.0
-      ]
     },
     {
       "ticker": "MO.US",
@@ -6113,7 +7093,7 @@
       "sub_industry": "Tobacco",
       "sector": "Consumer Staples",
       "close": 71.56,
-      "hotness": 0.085,
+      "hotness": 0.084,
       "ret_60": -0.026,
       "pct_high_250": 0.97,
       "ma_aligned": 0,
@@ -6122,6 +7102,21 @@
       "sata_w": 5,
       "stage": "3",
       "sub": "3A",
+      "sub_days": 7,
+      "sub_hist": [
+        [
+          7,
+          "1→3A"
+        ],
+        [
+          10,
+          "2B→1"
+        ],
+        [
+          24,
+          "1→2B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null,
@@ -6151,12 +7146,70 @@
       ]
     },
     {
+      "ticker": "RTX.US",
+      "name": "RTX",
+      "sub_industry": "Aero & Def",
+      "sector": "Industrials",
+      "close": 183.02,
+      "hotness": 0.083,
+      "ret_60": -0.056,
+      "pct_high_250": 0.812,
+      "ma_aligned": 0,
+      "days_below_ma10": 1,
+      "sata_d": 1,
+      "sata_w": 1,
+      "stage": "3",
+      "sub": "3B",
+      "sub_days": 19,
+      "sub_hist": [
+        [
+          19,
+          "2A→3B"
+        ],
+        [
+          23,
+          "2B→2A"
+        ],
+        [
+          70,
+          "3A→2B"
+        ]
+      ],
+      "stage_days": 19,
+      "t12": null,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        14.5,
+        8.7,
+        12.1,
+        11.9
+      ],
+      "profit_yoy4": [
+        29.1,
+        34.1,
+        9.4,
+        30.3
+      ],
+      "roe4": [
+        3.2,
+        3.1,
+        2.5,
+        3.0
+      ]
+    },
+    {
       "ticker": "GD.US",
       "name": "General Dynamics",
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 332.42,
-      "hotness": 0.079,
+      "hotness": 0.077,
       "ret_60": -0.099,
       "pct_high_250": 0.844,
       "ma_aligned": 0,
@@ -6165,6 +7218,21 @@
       "sata_w": 1,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 18,
+      "sub_hist": [
+        [
+          18,
+          "3A→3B"
+        ],
+        [
+          23,
+          "3B→3A"
+        ],
+        [
+          25,
+          "2A→3B"
+        ]
+      ],
       "stage_days": 25,
       "t12": null,
       "t34": null,
@@ -6194,55 +7262,12 @@
       ]
     },
     {
-      "ticker": "ADM.US",
-      "name": "Archer-Daniels-Midla…",
-      "sub_industry": "Farm Products",
-      "sector": "Consumer Staples",
-      "close": 83.2,
-      "hotness": 0.077,
-      "ret_60": -0.023,
-      "pct_high_250": 0.944,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 8,
-      "sata_w": 8,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 329,
-      "t12": 329,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        7.2,
-        1.6,
-        -13.7,
-        2.2
-      ],
-      "profit_yoy4": [
-        314.6,
-        1.0,
-        -19.6,
-        500.0
-      ],
-      "roe4": [
-        3.9,
-        1.3,
-        2.0,
-        0.5
-      ]
-    },
-    {
       "ticker": "MCD.US",
       "name": "McDonald’s",
       "sub_industry": "Restaurants",
       "sector": "Consumer Discretionary",
       "close": 235.81,
-      "hotness": 0.073,
+      "hotness": 0.072,
       "ret_60": -0.113,
       "pct_high_250": 0.705,
       "ma_aligned": 0,
@@ -6251,6 +7276,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 85,
+      "sub_hist": [
+        [
+          85,
+          "1A→4B"
+        ],
+        [
+          102,
+          "3B→1A"
+        ],
+        [
+          123,
+          "3A→3B"
+        ]
+      ],
       "stage_days": 85,
       "t12": null,
       "t34": null,
@@ -6280,12 +7320,70 @@
       ]
     },
     {
+      "ticker": "ADM.US",
+      "name": "Archer-Daniels-Midla…",
+      "sub_industry": "Farm Products",
+      "sector": "Consumer Staples",
+      "close": 83.2,
+      "hotness": 0.071,
+      "ret_60": -0.023,
+      "pct_high_250": 0.944,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 8,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 300,
+      "sub_hist": [
+        [
+          300,
+          "2A→2B"
+        ],
+        [
+          329,
+          "1→2A"
+        ],
+        [
+          338,
+          "4B→1"
+        ]
+      ],
+      "stage_days": 329,
+      "t12": 329,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        7.2,
+        1.6,
+        -13.7,
+        2.2
+      ],
+      "profit_yoy4": [
+        314.6,
+        1.0,
+        -19.6,
+        500.0
+      ],
+      "roe4": [
+        3.9,
+        1.3,
+        2.0,
+        0.5
+      ]
+    },
+    {
       "ticker": "TLN.US",
       "name": "Talen Energy",
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 382.14,
-      "hotness": 0.072,
+      "hotness": 0.071,
       "ret_60": 0.061,
       "pct_high_250": 0.872,
       "ma_aligned": 0,
@@ -6294,6 +7392,21 @@
       "sata_w": 6,
       "stage": "1",
       "sub": "1",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "4B→1"
+        ],
+        [
+          41,
+          "1B→4B"
+        ],
+        [
+          42,
+          "4B→1B"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null,
@@ -6323,12 +7436,46 @@
       ]
     },
     {
+      "ticker": "6988.JP",
+      "name": "Nitto Denko",
+      "sub_industry": "Specialty Chemicals",
+      "sector": "Mat",
+      "close": 23.119,
+      "hotness": 0.058,
+      "ret_60": 0.111,
+      "pct_high_250": 0.916,
+      "ma_aligned": 1,
+      "days_below_ma10": 0,
+      "sata_d": 9,
+      "sata_w": 8,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "4B→2A"
+        ],
+        [
+          23,
+          "2A→4B"
+        ],
+        [
+          35,
+          "1→2A"
+        ]
+      ],
+      "stage_days": 17,
+      "t12": 35,
+      "t34": null
+    },
+    {
       "ticker": "COHR.US",
       "name": "Coherent",
       "sub_industry": "Sci & Tech Instr",
       "sector": "Info Tech",
       "close": 289.98,
-      "hotness": 0.056,
+      "hotness": 0.055,
       "ret_60": 0.016,
       "pct_high_250": 0.679,
       "ma_aligned": 0,
@@ -6337,6 +7484,21 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "2B→1"
+        ],
+        [
+          9,
+          "1→2B"
+        ],
+        [
+          16,
+          "2B→1"
+        ]
+      ],
       "stage_days": 4,
       "t12": null,
       "t34": null,
@@ -6366,31 +7528,12 @@
       ]
     },
     {
-      "ticker": "6988.JP",
-      "name": "Nitto Denko",
-      "sub_industry": "Specialty Chemicals",
-      "sector": "Mat",
-      "close": 23.028,
-      "hotness": 0.05,
-      "ret_60": 0.108,
-      "pct_high_250": 0.914,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "sata_d": 9,
-      "sata_w": 8,
-      "stage": "2",
-      "sub": "2A",
-      "stage_days": 17,
-      "t12": 35,
-      "t34": null
-    },
-    {
       "ticker": "NEM.US",
       "name": "Newmont",
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 115.59,
-      "hotness": 0.046,
+      "hotness": 0.045,
       "ret_60": 0.299,
       "pct_high_250": 0.857,
       "ma_aligned": 0,
@@ -6399,6 +7542,21 @@
       "sata_w": 4,
       "stage": "1",
       "sub": "1B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "3A→1B"
+        ],
+        [
+          17,
+          "2B→3A"
+        ],
+        [
+          33,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 5,
       "t12": null,
       "t34": null,
@@ -6433,7 +7591,7 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 1004.04,
-      "hotness": 0.039,
+      "hotness": 0.038,
       "ret_60": -0.07,
       "pct_high_250": 0.855,
       "ma_aligned": 0,
@@ -6442,6 +7600,21 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "1→2B"
+        ],
+        [
+          25,
+          "2B→1"
+        ],
+        [
+          26,
+          "1→2B"
+        ]
+      ],
       "stage_days": 9,
       "t12": 9,
       "t34": null,
@@ -6475,16 +7648,31 @@
       "name": "Lasertec",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 299.695,
+      "close": 296.67,
       "hotness": 0.034,
-      "ret_60": 0.053,
-      "pct_high_250": 0.829,
+      "ret_60": 0.041,
+      "pct_high_250": 0.82,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "3A→2B"
+        ],
+        [
+          14,
+          "3B→3A"
+        ],
+        [
+          25,
+          "1→3B"
+        ]
+      ],
       "stage_days": 9,
       "t12": 48,
       "t34": null
@@ -6495,7 +7683,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 485.22,
-      "hotness": 0.032,
+      "hotness": 0.026,
       "ret_60": 0.01,
       "pct_high_250": 0.87,
       "ma_aligned": 0,
@@ -6504,6 +7692,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 40,
+      "sub_hist": [
+        [
+          40,
+          "2A→2B"
+        ],
+        [
+          43,
+          "2B→2A"
+        ],
+        [
+          44,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 45,
       "t12": 107,
       "t34": null,
@@ -6538,7 +7741,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 198.31,
-      "hotness": 0.021,
+      "hotness": 0.015,
       "ret_60": -0.065,
       "pct_high_250": 0.656,
       "ma_aligned": 0,
@@ -6547,6 +7750,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "1→2B"
+        ],
+        [
+          29,
+          "2B→1"
+        ],
+        [
+          32,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 17,
       "t12": 17,
       "t34": null,
@@ -6581,7 +7799,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 157.06,
-      "hotness": 0.01,
+      "hotness": 0.009,
       "ret_60": 0.039,
       "pct_high_250": 0.791,
       "ma_aligned": 0,
@@ -6590,6 +7808,8 @@
       "sata_w": 1,
       "stage": "NA",
       "sub": "NA",
+      "sub_days": null,
+      "sub_hist": [],
       "stage_days": null,
       "t12": null,
       "t34": null,
@@ -6623,62 +7843,34 @@
       "name": "ENEOS",
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
-      "close": 8.87,
-      "hotness": -0.001,
-      "ret_60": 0.125,
-      "pct_high_250": 0.932,
+      "close": 8.848,
+      "hotness": -0.005,
+      "ret_60": 0.12,
+      "pct_high_250": 0.929,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 7,
       "sata_w": 6,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 10,
+      "sub_hist": [
+        [
+          10,
+          "2B→2A"
+        ],
+        [
+          31,
+          "1→2B"
+        ],
+        [
+          32,
+          "2B→1"
+        ]
+      ],
       "stage_days": 35,
       "t12": 35,
       "t34": null
-    },
-    {
-      "ticker": "FCX.US",
-      "name": "Freeport-McMoRan",
-      "sub_industry": "Copper",
-      "sector": "Mat",
-      "close": 72.42,
-      "hotness": -0.004,
-      "ret_60": 0.232,
-      "pct_high_250": 0.906,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 8,
-      "sata_w": 6,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 60,
-      "t12": 60,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        -7.3,
-        8.8,
-        -1.5,
-        2.7
-      ],
-      "profit_yoy4": [
-        27.5,
-        150.3,
-        48.2,
-        28.1
-      ],
-      "roe4": [
-        5.0,
-        4.6,
-        2.2,
-        3.7
-      ]
     },
     {
       "ticker": "AVGO.US",
@@ -6686,7 +7878,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 357.31,
-      "hotness": -0.005,
+      "hotness": -0.006,
       "ret_60": -0.053,
       "pct_high_250": 0.745,
       "ma_aligned": 0,
@@ -6695,6 +7887,21 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "3B→1"
+        ],
+        [
+          3,
+          "1→3B"
+        ],
+        [
+          6,
+          "3B→1"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null,
@@ -6724,12 +7931,70 @@
       ]
     },
     {
+      "ticker": "FCX.US",
+      "name": "Freeport-McMoRan",
+      "sub_industry": "Copper",
+      "sector": "Mat",
+      "close": 72.42,
+      "hotness": -0.01,
+      "ret_60": 0.232,
+      "pct_high_250": 0.906,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 6,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 53,
+      "sub_hist": [
+        [
+          53,
+          "1→2B"
+        ],
+        [
+          54,
+          "2B→1"
+        ],
+        [
+          60,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 60,
+      "t12": 60,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        -7.3,
+        8.8,
+        -1.5,
+        2.7
+      ],
+      "profit_yoy4": [
+        27.5,
+        150.3,
+        48.2,
+        28.1
+      ],
+      "roe4": [
+        5.0,
+        4.6,
+        2.2,
+        3.7
+      ]
+    },
+    {
       "ticker": "C.US",
       "name": "Citi",
       "sub_industry": "Banks - Div",
       "sector": "Financials",
       "close": 124.53,
-      "hotness": -0.019,
+      "hotness": -0.02,
       "ret_60": -0.028,
       "pct_high_250": 0.859,
       "ma_aligned": 0,
@@ -6738,6 +8003,21 @@
       "sata_w": 2,
       "stage": "1",
       "sub": "1",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "2B→1"
+        ],
+        [
+          3,
+          "1→2B"
+        ],
+        [
+          6,
+          "2B→1"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null
@@ -6748,7 +8028,7 @@
       "sub_industry": "Ins - Property & Casualty",
       "sector": "Financials",
       "close": 222.88,
-      "hotness": -0.028,
+      "hotness": -0.03,
       "ret_60": 0.051,
       "pct_high_250": 0.951,
       "ma_aligned": 0,
@@ -6757,6 +8037,21 @@
       "sata_w": 7,
       "stage": "1",
       "sub": "1C",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "3A→1C"
+        ],
+        [
+          9,
+          "3B→3A"
+        ],
+        [
+          10,
+          "3A→3B"
+        ]
+      ],
       "stage_days": 5,
       "t12": null,
       "t34": null
@@ -6767,7 +8062,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 1319.55,
-      "hotness": -0.036,
+      "hotness": -0.038,
       "ret_60": -0.005,
       "pct_high_250": 0.783,
       "ma_aligned": 0,
@@ -6776,6 +8071,21 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "1",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→1"
+        ],
+        [
+          7,
+          "2A→2B"
+        ],
+        [
+          8,
+          "3A→2A"
+        ]
+      ],
       "stage_days": 8,
       "t12": 324,
       "t34": null,
@@ -6810,7 +8120,7 @@
       "sub_industry": "Fin Data & Stock Exchanges",
       "sector": "Financials",
       "close": 278.03,
-      "hotness": -0.038,
+      "hotness": -0.044,
       "ret_60": 0.14,
       "pct_high_250": 0.881,
       "ma_aligned": 0,
@@ -6819,6 +8129,21 @@
       "sata_w": 5,
       "stage": "1",
       "sub": "1",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "4B→1"
+        ],
+        [
+          17,
+          "2A→4B"
+        ],
+        [
+          18,
+          "4B→2A"
+        ]
+      ],
       "stage_days": 4,
       "t12": null,
       "t34": null,
@@ -6853,7 +8178,7 @@
       "sub_industry": "Capital Markets",
       "sector": "Financials",
       "close": 110.52,
-      "hotness": -0.044,
+      "hotness": -0.049,
       "ret_60": 0.113,
       "pct_high_250": 0.751,
       "ma_aligned": 0,
@@ -6862,6 +8187,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 12,
+      "sub_hist": [
+        [
+          12,
+          "2C→2B"
+        ],
+        [
+          18,
+          "2B→2C"
+        ],
+        [
+          21,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 26,
       "t12": 26,
       "t34": null,
@@ -6896,7 +8236,7 @@
       "sub_industry": "Credit Svc",
       "sector": "Financials",
       "close": 309.84,
-      "hotness": -0.056,
+      "hotness": -0.057,
       "ret_60": -0.117,
       "pct_high_250": 0.814,
       "ma_aligned": 0,
@@ -6905,6 +8245,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 21,
+      "sub_hist": [
+        [
+          21,
+          "1→4B"
+        ],
+        [
+          22,
+          "4B→1"
+        ],
+        [
+          25,
+          "1→4B"
+        ]
+      ],
       "stage_days": 25,
       "t12": null,
       "t34": null
@@ -6915,7 +8270,7 @@
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
       "close": 492.11,
-      "hotness": -0.056,
+      "hotness": -0.058,
       "ret_60": -0.036,
       "pct_high_250": 0.903,
       "ma_aligned": 0,
@@ -6924,6 +8279,21 @@
       "sata_w": 4,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 24,
+      "sub_hist": [
+        [
+          24,
+          "1→3B"
+        ],
+        [
+          45,
+          "2B→1"
+        ],
+        [
+          46,
+          "1→2B"
+        ]
+      ],
       "stage_days": 24,
       "t12": null,
       "t34": null,
@@ -6957,8 +8327,8 @@
       "name": "Toyota Tsusho",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 46.156,
-      "hotness": -0.06,
+      "close": 46.207,
+      "hotness": -0.059,
       "ret_60": 0.216,
       "pct_high_250": 0.957,
       "ma_aligned": 0,
@@ -6967,6 +8337,21 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 57,
+      "sub_hist": [
+        [
+          57,
+          "1→2B"
+        ],
+        [
+          58,
+          "2B→1"
+        ],
+        [
+          60,
+          "1→2B"
+        ]
+      ],
       "stage_days": 57,
       "t12": 57,
       "t34": null
@@ -6977,7 +8362,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 307.63,
-      "hotness": -0.069,
+      "hotness": -0.07,
       "ret_60": -0.097,
       "pct_high_250": 0.808,
       "ma_aligned": 0,
@@ -6986,6 +8371,21 @@
       "sata_w": 2,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 12,
+      "sub_hist": [
+        [
+          12,
+          "3A→3B"
+        ],
+        [
+          13,
+          "3B→3A"
+        ],
+        [
+          18,
+          "1→3B"
+        ]
+      ],
       "stage_days": 18,
       "t12": null,
       "t34": null,
@@ -7015,47 +8415,38 @@
       ]
     },
     {
-      "ticker": "BA.US",
-      "name": "Boeing",
-      "sub_industry": "Aero & Def",
-      "sector": "Industrials",
-      "close": 186.49,
-      "hotness": -0.077,
-      "ret_60": -0.11,
-      "pct_high_250": 0.74,
+      "ticker": "4004.JP",
+      "name": "Resonac",
+      "sub_industry": "Chemicals",
+      "sector": "Mat",
+      "close": 106.179,
+      "hotness": -0.075,
+      "ret_60": 0.09,
+      "pct_high_250": 0.864,
       "ma_aligned": 0,
       "days_below_ma10": 2,
-      "sata_d": 0,
-      "sata_w": 0,
-      "stage": "4",
-      "sub": "4B",
-      "stage_days": 29,
-      "t12": null,
-      "t34": 29,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
+      "sata_d": 7,
+      "sata_w": 6,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 10,
+      "sub_hist": [
+        [
+          10,
+          "1→2B"
+        ],
+        [
+          20,
+          "2B→1"
+        ],
+        [
+          41,
+          "2C→2B"
+        ]
       ],
-      "sales_yoy4": [
-        8.0,
-        14.0,
-        57.1,
-        30.4
-      ],
-      "profit_yoy4": [
-        27.3,
-        89.2,
-        312.7,
-        13.5
-      ],
-      "roe4": [
-        -7.3,
-        -0.1,
-        -588.0,
-        92.5
-      ]
+      "stage_days": 10,
+      "t12": 10,
+      "t34": null
     },
     {
       "ticker": "ICE.US",
@@ -7063,7 +8454,7 @@
       "sub_industry": "Fin Data & Stock Exchanges",
       "sector": "Financials",
       "close": 156.42,
-      "hotness": -0.077,
+      "hotness": -0.078,
       "ret_60": 0.109,
       "pct_high_250": 0.903,
       "ma_aligned": 0,
@@ -7072,6 +8463,21 @@
       "sata_w": 4,
       "stage": "1",
       "sub": "1C",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "1B→1C"
+        ],
+        [
+          7,
+          "4B→1B"
+        ],
+        [
+          8,
+          "2A→4B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null,
@@ -7101,12 +8507,70 @@
       ]
     },
     {
+      "ticker": "BA.US",
+      "name": "Boeing",
+      "sub_industry": "Aero & Def",
+      "sector": "Industrials",
+      "close": 186.49,
+      "hotness": -0.078,
+      "ret_60": -0.11,
+      "pct_high_250": 0.74,
+      "ma_aligned": 0,
+      "days_below_ma10": 2,
+      "sata_d": 0,
+      "sata_w": 0,
+      "stage": "4",
+      "sub": "4B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "4A→4B"
+        ],
+        [
+          29,
+          "3B→4A"
+        ],
+        [
+          40,
+          "3A→3B"
+        ]
+      ],
+      "stage_days": 29,
+      "t12": null,
+      "t34": 29,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        8.0,
+        14.0,
+        57.1,
+        30.4
+      ],
+      "profit_yoy4": [
+        27.3,
+        89.2,
+        312.7,
+        13.5
+      ],
+      "roe4": [
+        -7.3,
+        -0.1,
+        -588.0,
+        92.5
+      ]
+    },
+    {
       "ticker": "CAT.US",
       "name": "Caterpillar",
       "sub_industry": "Farm & Heavy Constr Mach",
       "sector": "Industrials",
       "close": 772.78,
-      "hotness": -0.082,
+      "hotness": -0.083,
       "ret_60": -0.106,
       "pct_high_250": 0.727,
       "ma_aligned": 0,
@@ -7115,6 +8579,21 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "2B→1"
+        ],
+        [
+          8,
+          "1→2B"
+        ],
+        [
+          33,
+          "2B→1"
+        ]
+      ],
       "stage_days": 5,
       "t12": null,
       "t34": null,
@@ -7149,7 +8628,7 @@
       "sub_industry": "Auto Mfr",
       "sector": "Consumer Discretionary",
       "close": 375.23,
-      "hotness": -0.084,
+      "hotness": -0.085,
       "ret_60": 0.015,
       "pct_high_250": 0.766,
       "ma_aligned": 0,
@@ -7158,6 +8637,21 @@
       "sata_w": 4,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "1→4B"
+        ],
+        [
+          3,
+          "4B→1"
+        ],
+        [
+          5,
+          "1→4B"
+        ]
+      ],
       "stage_days": 82,
       "t12": null,
       "t34": null,
@@ -7187,22 +8681,37 @@
       ]
     },
     {
-      "ticker": "4004.JP",
-      "name": "Resonac",
-      "sub_industry": "Chemicals",
-      "sector": "Mat",
-      "close": 105.073,
-      "hotness": -0.091,
-      "ret_60": 0.08,
-      "pct_high_250": 0.856,
+      "ticker": "MS.US",
+      "name": "Morgan Stanley",
+      "sub_industry": "Capital Markets",
+      "sector": "Financials",
+      "close": 186.64,
+      "hotness": -0.094,
+      "ret_60": -0.11,
+      "pct_high_250": 0.821,
       "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 7,
-      "sata_w": 6,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 10,
-      "t12": 10,
+      "days_below_ma10": 1,
+      "sata_d": 2,
+      "sata_w": 2,
+      "stage": "1",
+      "sub": "1",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "2B→1"
+        ],
+        [
+          132,
+          "1→2B"
+        ],
+        [
+          140,
+          "2B→1"
+        ]
+      ],
+      "stage_days": 14,
+      "t12": null,
       "t34": null
     },
     {
@@ -7211,7 +8720,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 152.18,
-      "hotness": -0.093,
+      "hotness": -0.094,
       "ret_60": 0.556,
       "pct_high_250": 0.504,
       "ma_aligned": 1,
@@ -7220,6 +8729,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 11,
+      "sub_hist": [
+        [
+          11,
+          "2A→2B"
+        ],
+        [
+          16,
+          "1→2A"
+        ],
+        [
+          19,
+          "4B→1"
+        ]
+      ],
       "stage_days": 16,
       "t12": 16,
       "t34": null,
@@ -7249,31 +8773,12 @@
       ]
     },
     {
-      "ticker": "MS.US",
-      "name": "Morgan Stanley",
-      "sub_industry": "Capital Markets",
-      "sector": "Financials",
-      "close": 186.64,
-      "hotness": -0.093,
-      "ret_60": -0.11,
-      "pct_high_250": 0.821,
-      "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 2,
-      "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "stage_days": 14,
-      "t12": null,
-      "t34": null
-    },
-    {
       "ticker": "LRCX.US",
       "name": "Lam Research",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 301.11,
-      "hotness": -0.098,
+      "hotness": -0.099,
       "ret_60": -0.017,
       "pct_high_250": 0.696,
       "ma_aligned": 0,
@@ -7282,6 +8787,21 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ],
+        [
+          53,
+          "1→2B"
+        ]
+      ],
       "stage_days": 17,
       "t12": 17,
       "t34": null,
@@ -7316,7 +8836,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 504.02,
-      "hotness": -0.104,
+      "hotness": -0.105,
       "ret_60": -0.005,
       "pct_high_250": 0.754,
       "ma_aligned": 0,
@@ -7325,6 +8845,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "4A→4B"
+        ],
+        [
+          20,
+          "3B→4A"
+        ],
+        [
+          30,
+          "1→3B"
+        ]
+      ],
       "stage_days": 20,
       "t12": null,
       "t34": 20,
@@ -7354,12 +8889,46 @@
       ]
     },
     {
+      "ticker": "9983.JP",
+      "name": "Fast Retailing",
+      "sub_industry": "Apparel Retail",
+      "sector": "Consumer Discretionary",
+      "close": 472.308,
+      "hotness": -0.128,
+      "ret_60": -0.056,
+      "pct_high_250": 0.857,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "3",
+      "sub": "3A",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "3B→3A"
+        ],
+        [
+          3,
+          "2B→3B"
+        ],
+        [
+          7,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 3,
+      "t12": null,
+      "t34": null
+    },
+    {
       "ticker": "CF.US",
       "name": "CF Industries",
       "sub_industry": "Agricultural Inputs",
       "sector": "Mat",
       "close": 117.25,
-      "hotness": -0.128,
+      "hotness": -0.129,
       "ret_60": -0.046,
       "pct_high_250": 0.842,
       "ma_aligned": 0,
@@ -7368,6 +8937,21 @@
       "sata_w": 3,
       "stage": "1",
       "sub": "1",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "2B→1"
+        ],
+        [
+          78,
+          "1→2B"
+        ],
+        [
+          79,
+          "2B→1"
+        ]
+      ],
       "stage_days": 14,
       "t12": null,
       "t34": null,
@@ -7402,7 +8986,7 @@
       "sub_industry": "Other Indl Metals & Mining",
       "sector": "Mat",
       "close": 84.95,
-      "hotness": -0.13,
+      "hotness": -0.136,
       "ret_60": 0.078,
       "pct_high_250": 0.88,
       "ma_aligned": 0,
@@ -7411,6 +8995,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 82,
+      "sub_hist": [
+        [
+          82,
+          "2C→2B"
+        ],
+        [
+          83,
+          "2B→2C"
+        ],
+        [
+          91,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 318,
       "t12": 318,
       "t34": null
@@ -7421,7 +9020,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 22.39,
-      "hotness": -0.135,
+      "hotness": -0.136,
       "ret_60": 0.103,
       "pct_high_250": 0.813,
       "ma_aligned": 0,
@@ -7430,6 +9029,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "2C→2B"
+        ],
+        [
+          26,
+          "2B→2C"
+        ],
+        [
+          47,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 223,
       "t12": 223,
       "t34": null,
@@ -7464,7 +9078,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 142.41,
-      "hotness": -0.14,
+      "hotness": -0.146,
       "ret_60": -0.048,
       "pct_high_250": 0.87,
       "ma_aligned": 0,
@@ -7473,6 +9087,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4A",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "3B→4A"
+        ],
+        [
+          23,
+          "1→3B"
+        ],
+        [
+          26,
+          "2B→1"
+        ]
+      ],
       "stage_days": 8,
       "t12": null,
       "t34": 8,
@@ -7507,7 +9136,7 @@
       "sub_industry": "Eng & Constr",
       "sector": "Industrials",
       "close": 688.88,
-      "hotness": -0.148,
+      "hotness": -0.15,
       "ret_60": 0.089,
       "pct_high_250": 0.878,
       "ma_aligned": 0,
@@ -7516,6 +9145,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "1→2B"
+        ],
+        [
+          10,
+          "2B→1"
+        ],
+        [
+          11,
+          "1→2B"
+        ]
+      ],
       "stage_days": 9,
       "t12": 9,
       "t34": null,
@@ -7545,31 +9189,12 @@
       ]
     },
     {
-      "ticker": "9983.JP",
-      "name": "Fast Retailing",
-      "sub_industry": "Apparel Retail",
-      "sector": "Consumer Discretionary",
-      "close": 465.414,
-      "hotness": -0.152,
-      "ret_60": -0.069,
-      "pct_high_250": 0.845,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 3,
-      "sata_w": 2,
-      "stage": "3",
-      "sub": "3A",
-      "stage_days": 3,
-      "t12": null,
-      "t34": null
-    },
-    {
       "ticker": "AMAT.US",
       "name": "Applied Mat",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 464.24,
-      "hotness": -0.155,
+      "hotness": -0.157,
       "ret_60": -0.116,
       "pct_high_250": 0.643,
       "ma_aligned": 0,
@@ -7578,6 +9203,21 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "1",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "2B→1"
+        ],
+        [
+          17,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ]
+      ],
       "stage_days": 17,
       "t12": 17,
       "t34": null,
@@ -7607,12 +9247,46 @@
       ]
     },
     {
+      "ticker": "6981.JP",
+      "name": "Murata",
+      "sub_industry": "Electronic Comp",
+      "sector": "Info Tech",
+      "close": 48.312,
+      "hotness": -0.161,
+      "ret_60": -0.156,
+      "pct_high_250": 0.627,
+      "ma_aligned": 0,
+      "days_below_ma10": 4,
+      "sata_d": 7,
+      "sata_w": 5,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 38,
+      "sub_hist": [
+        [
+          38,
+          "2C→2B"
+        ],
+        [
+          41,
+          "2B→2C"
+        ],
+        [
+          45,
+          "2C→2B"
+        ]
+      ],
+      "stage_days": 280,
+      "t12": 280,
+      "t34": null
+    },
+    {
       "ticker": "ORLY.US",
       "name": "O’Reilly Auto",
       "sub_industry": "Auto Parts",
       "sector": "Consumer Discretionary",
       "close": 86.03,
-      "hotness": -0.16,
+      "hotness": -0.161,
       "ret_60": 0.018,
       "pct_high_250": 0.842,
       "ma_aligned": 0,
@@ -7621,6 +9295,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 42,
+      "sub_hist": [
+        [
+          42,
+          "2A→4B"
+        ],
+        [
+          48,
+          "1→2A"
+        ],
+        [
+          50,
+          "4B→1"
+        ]
+      ],
       "stage_days": 42,
       "t12": null,
       "t34": null,
@@ -7655,7 +9344,7 @@
       "sub_industry": "REIT - Specialty",
       "sector": "Real Estate",
       "close": 1019.4,
-      "hotness": -0.171,
+      "hotness": -0.173,
       "ret_60": 0.007,
       "pct_high_250": 0.918,
       "ma_aligned": 0,
@@ -7664,6 +9353,21 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "2B→1"
+        ],
+        [
+          6,
+          "1→2B"
+        ],
+        [
+          13,
+          "2B→1"
+        ]
+      ],
       "stage_days": 13,
       "t12": null,
       "t34": null,
@@ -7693,31 +9397,12 @@
       ]
     },
     {
-      "ticker": "6981.JP",
-      "name": "Murata",
-      "sub_industry": "Electronic Comp",
-      "sector": "Info Tech",
-      "close": 47.86,
-      "hotness": -0.177,
-      "ret_60": -0.163,
-      "pct_high_250": 0.622,
-      "ma_aligned": 0,
-      "days_below_ma10": 4,
-      "sata_d": 6,
-      "sata_w": 5,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 280,
-      "t12": 280,
-      "t34": null
-    },
-    {
       "ticker": "ADBE.US",
       "name": "Adobe",
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 236.28,
-      "hotness": -0.177,
+      "hotness": -0.179,
       "ret_60": 0.007,
       "pct_high_250": 0.656,
       "ma_aligned": 0,
@@ -7726,6 +9411,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 16,
+      "sub_hist": [
+        [
+          16,
+          "2A→4B"
+        ],
+        [
+          19,
+          "1→2A"
+        ],
+        [
+          50,
+          "4B→1"
+        ]
+      ],
       "stage_days": 16,
       "t12": null,
       "t34": null,
@@ -7760,7 +9460,7 @@
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 161.16,
-      "hotness": -0.18,
+      "hotness": -0.182,
       "ret_60": 0.206,
       "pct_high_250": 0.877,
       "ma_aligned": 1,
@@ -7769,6 +9469,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 18,
+      "sub_hist": [
+        [
+          18,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ],
+        [
+          27,
+          "1→2B"
+        ]
+      ],
       "stage_days": 18,
       "t12": 18,
       "t34": null,
@@ -7803,7 +9518,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 138.61,
-      "hotness": -0.185,
+      "hotness": -0.187,
       "ret_60": 0.324,
       "pct_high_250": 0.732,
       "ma_aligned": 0,
@@ -7812,6 +9527,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 20,
+      "sub_hist": [
+        [
+          20,
+          "2C→2B"
+        ],
+        [
+          22,
+          "2A→2C"
+        ],
+        [
+          28,
+          "1→2A"
+        ]
+      ],
       "stage_days": 28,
       "t12": 28,
       "t34": null,
@@ -7845,9 +9575,9 @@
       "name": "Keyence",
       "sub_industry": "Sci & Tech Instr",
       "sector": "Info Tech",
-      "close": 506.308,
-      "hotness": -0.191,
-      "ret_60": 0.068,
+      "close": 507.322,
+      "hotness": -0.19,
+      "ret_60": 0.069,
       "pct_high_250": 0.919,
       "ma_aligned": 0,
       "days_below_ma10": 2,
@@ -7855,6 +9585,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 88,
+      "sub_hist": [
+        [
+          88,
+          "2C→2B"
+        ],
+        [
+          90,
+          "2B→2C"
+        ],
+        [
+          91,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 115,
       "t12": 156,
       "t34": null
@@ -7865,7 +9610,7 @@
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 136.03,
-      "hotness": -0.198,
+      "hotness": -0.2,
       "ret_60": 0.317,
       "pct_high_250": 0.824,
       "ma_aligned": 0,
@@ -7874,6 +9619,21 @@
       "sata_w": 4,
       "stage": "1",
       "sub": "1B",
+      "sub_days": 7,
+      "sub_hist": [
+        [
+          7,
+          "3A→1B"
+        ],
+        [
+          14,
+          "2B→3A"
+        ],
+        [
+          33,
+          "2A→2B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null,
@@ -7903,12 +9663,46 @@
       ]
     },
     {
+      "ticker": "4578.JP",
+      "name": "Otsuka",
+      "sub_industry": "Drug Mfr - General",
+      "sector": "Health Care",
+      "close": 72.651,
+      "hotness": -0.207,
+      "ret_60": 0.045,
+      "pct_high_250": 0.905,
+      "ma_aligned": 0,
+      "days_below_ma10": 1,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 11,
+      "sub_hist": [
+        [
+          11,
+          "1→2B"
+        ],
+        [
+          12,
+          "2B→1"
+        ],
+        [
+          13,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 274,
+      "t12": 274,
+      "t34": null
+    },
+    {
       "ticker": "NTR.US",
       "name": "Nutrien",
       "sub_industry": "Agricultural Inputs",
       "sector": "Mat",
       "close": 69.68,
-      "hotness": -0.209,
+      "hotness": -0.21,
       "ret_60": 0.053,
       "pct_high_250": 0.85,
       "ma_aligned": 0,
@@ -7917,6 +9711,21 @@
       "sata_w": 4,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "3A→3B"
+        ],
+        [
+          6,
+          "3B→3A"
+        ],
+        [
+          7,
+          "1→3B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null,
@@ -7946,22 +9755,37 @@
       ]
     },
     {
-      "ticker": "4578.JP",
-      "name": "Otsuka",
-      "sub_industry": "Drug Mfr - General",
-      "sector": "Health Care",
-      "close": 71.974,
-      "hotness": -0.217,
-      "ret_60": 0.037,
-      "pct_high_250": 0.898,
+      "ticker": "6594.JP",
+      "name": "Nidec",
+      "sub_industry": "Specialty Indl Mach",
+      "sector": "Industrials",
+      "close": 11.819,
+      "hotness": -0.221,
+      "ret_60": -0.283,
+      "pct_high_250": 0.645,
       "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 3,
-      "sata_w": 3,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 274,
-      "t12": 274,
+      "days_below_ma10": 12,
+      "sata_d": 1,
+      "sata_w": 0,
+      "stage": "3",
+      "sub": "3B",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "1→3B"
+        ],
+        [
+          12,
+          "2B→1"
+        ],
+        [
+          25,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 4,
+      "t12": null,
       "t34": null
     },
     {
@@ -7970,7 +9794,7 @@
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 243.85,
-      "hotness": -0.22,
+      "hotness": -0.222,
       "ret_60": 0.22,
       "pct_high_250": 0.873,
       "ma_aligned": 0,
@@ -7979,6 +9803,21 @@
       "sata_w": 4,
       "stage": "3",
       "sub": "1B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "3A→1B"
+        ],
+        [
+          8,
+          "3B→3A"
+        ],
+        [
+          9,
+          "3A→3B"
+        ]
+      ],
       "stage_days": 17,
       "t12": null,
       "t34": null,
@@ -8013,7 +9852,7 @@
       "sub_industry": "Capital Markets",
       "sector": "Financials",
       "close": 87.49,
-      "hotness": -0.226,
+      "hotness": -0.227,
       "ret_60": -0.045,
       "pct_high_250": 0.892,
       "ma_aligned": 0,
@@ -8022,8 +9861,57 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 79,
+      "sub_hist": [
+        [
+          79,
+          "2C→2B"
+        ],
+        [
+          81,
+          "2B→2C"
+        ],
+        [
+          127,
+          "3A→2B"
+        ]
+      ],
       "stage_days": 127,
       "t12": 360,
+      "t34": null
+    },
+    {
+      "ticker": "6762.JP",
+      "name": "TDK",
+      "sub_industry": "Electronic Comp",
+      "sector": "Info Tech",
+      "close": 19.997,
+      "hotness": -0.23,
+      "ret_60": -0.015,
+      "pct_high_250": 0.775,
+      "ma_aligned": 0,
+      "days_below_ma10": 2,
+      "sata_d": 7,
+      "sata_w": 5,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "1→2B"
+        ],
+        [
+          23,
+          "2B→1"
+        ],
+        [
+          25,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 14,
+      "t12": 14,
       "t34": null
     },
     {
@@ -8032,7 +9920,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 161.47,
-      "hotness": -0.232,
+      "hotness": -0.237,
       "ret_60": 0.045,
       "pct_high_250": 0.877,
       "ma_aligned": 0,
@@ -8041,6 +9929,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 53,
+      "sub_hist": [
+        [
+          53,
+          "1→2B"
+        ],
+        [
+          54,
+          "2B→1"
+        ],
+        [
+          73,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 327,
       "t12": 327,
       "t34": null,
@@ -8070,22 +9973,37 @@
       ]
     },
     {
-      "ticker": "6594.JP",
-      "name": "Nidec",
-      "sub_industry": "Specialty Indl Mach",
-      "sector": "Industrials",
-      "close": 11.776,
-      "hotness": -0.242,
-      "ret_60": -0.285,
-      "pct_high_250": 0.644,
+      "ticker": "8035.JP",
+      "name": "Tokyo Electron",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "sector": "Info Tech",
+      "close": 73.599,
+      "hotness": -0.243,
+      "ret_60": -0.153,
+      "pct_high_250": 0.765,
       "ma_aligned": 0,
-      "days_below_ma10": 12,
-      "sata_d": 1,
-      "sata_w": 0,
-      "stage": "3",
-      "sub": "3B",
-      "stage_days": 4,
-      "t12": null,
+      "days_below_ma10": 2,
+      "sata_d": 7,
+      "sata_w": 6,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "1→2B"
+        ],
+        [
+          20,
+          "2B→1"
+        ],
+        [
+          54,
+          "2C→2B"
+        ]
+      ],
+      "stage_days": 14,
+      "t12": 14,
       "t34": null
     },
     {
@@ -8094,7 +10012,7 @@
       "sub_industry": "Fin Data & Stock Exchanges",
       "sector": "Financials",
       "close": 181.79,
-      "hotness": -0.247,
+      "hotness": -0.248,
       "ret_60": 0.133,
       "pct_high_250": 0.503,
       "ma_aligned": 0,
@@ -8103,6 +10021,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2A",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→2A"
+        ],
+        [
+          3,
+          "4B→2B"
+        ],
+        [
+          4,
+          "2B→4B"
+        ]
+      ],
       "stage_days": 18,
       "t12": 357,
       "t34": null,
@@ -8132,12 +10065,46 @@
       ]
     },
     {
+      "ticker": "DLR.US",
+      "name": "Digital Realty",
+      "sub_industry": "REIT - Specialty",
+      "sector": "Real Estate",
+      "close": 178.14,
+      "hotness": -0.254,
+      "ret_60": 0.018,
+      "pct_high_250": 0.885,
+      "ma_aligned": 0,
+      "days_below_ma10": 1,
+      "sata_d": 2,
+      "sata_w": 1,
+      "stage": "3",
+      "sub": "3B",
+      "sub_days": 10,
+      "sub_hist": [
+        [
+          10,
+          "1→3B"
+        ],
+        [
+          15,
+          "2B→1"
+        ],
+        [
+          17,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 10,
+      "t12": null,
+      "t34": null
+    },
+    {
       "ticker": "VALE.US",
       "name": "Vale S.A. Sponsored",
       "sub_industry": "Other Indl Metals & Mining",
       "sector": "Mat",
       "close": 13.37,
-      "hotness": -0.252,
+      "hotness": -0.254,
       "ret_60": -0.025,
       "pct_high_250": 0.772,
       "ma_aligned": 0,
@@ -8146,6 +10113,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4A",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "3B→4A"
+        ],
+        [
+          23,
+          "2A→3B"
+        ],
+        [
+          26,
+          "3B→2A"
+        ]
+      ],
       "stage_days": 14,
       "t12": null,
       "t34": 14,
@@ -8175,50 +10157,12 @@
       ]
     },
     {
-      "ticker": "DLR.US",
-      "name": "Digital Realty",
-      "sub_industry": "REIT - Specialty",
-      "sector": "Real Estate",
-      "close": 178.14,
-      "hotness": -0.253,
-      "ret_60": 0.018,
-      "pct_high_250": 0.885,
-      "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 2,
-      "sata_w": 1,
-      "stage": "3",
-      "sub": "3B",
-      "stage_days": 10,
-      "t12": null,
-      "t34": null
-    },
-    {
-      "ticker": "6762.JP",
-      "name": "TDK",
-      "sub_industry": "Electronic Comp",
-      "sector": "Info Tech",
-      "close": 19.658,
-      "hotness": -0.254,
-      "ret_60": -0.03,
-      "pct_high_250": 0.763,
-      "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 7,
-      "sata_w": 5,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 14,
-      "t12": 14,
-      "t34": null
-    },
-    {
       "ticker": "WDAY.US",
       "name": "Workday, Inc. Class …",
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 186.02,
-      "hotness": -0.257,
+      "hotness": -0.258,
       "ret_60": 0.264,
       "pct_high_250": 0.757,
       "ma_aligned": 0,
@@ -8227,6 +10171,21 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "2C→2B"
+        ],
+        [
+          15,
+          "2B→2C"
+        ],
+        [
+          16,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 30,
       "t12": 30,
       "t34": null,
@@ -8256,31 +10215,12 @@
       ]
     },
     {
-      "ticker": "8035.JP",
-      "name": "Tokyo Electron",
-      "sub_industry": "Semiconductor Equip & Mat",
-      "sector": "Info Tech",
-      "close": 73.078,
-      "hotness": -0.26,
-      "ret_60": -0.157,
-      "pct_high_250": 0.761,
-      "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 7,
-      "sata_w": 6,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 14,
-      "t12": 14,
-      "t34": null
-    },
-    {
       "ticker": "ISRG.US",
       "name": "Intuitive Surgical",
       "sub_industry": "Medical Instr & Supplies",
       "sector": "Health Care",
       "close": 422.06,
-      "hotness": -0.262,
+      "hotness": -0.264,
       "ret_60": 0.195,
       "pct_high_250": 0.712,
       "ma_aligned": 0,
@@ -8289,6 +10229,21 @@
       "sata_w": 4,
       "stage": "1",
       "sub": "1",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "4B→1"
+        ],
+        [
+          89,
+          "4A→4B"
+        ],
+        [
+          91,
+          "1A→4A"
+        ]
+      ],
       "stage_days": 3,
       "t12": null,
       "t34": null,
@@ -8323,7 +10278,7 @@
       "sub_industry": "Other Indl Metals & Mining",
       "sector": "Mat",
       "close": 15.51,
-      "hotness": -0.267,
+      "hotness": -0.268,
       "ret_60": 0.158,
       "pct_high_250": 0.912,
       "ma_aligned": 0,
@@ -8332,6 +10287,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "1→2B"
+        ],
+        [
+          9,
+          "2B→1"
+        ],
+        [
+          13,
+          "1→2B"
+        ]
+      ],
       "stage_days": 53,
       "t12": 53,
       "t34": null
@@ -8342,7 +10312,7 @@
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
       "close": 288.96,
-      "hotness": -0.268,
+      "hotness": -0.269,
       "ret_60": -0.019,
       "pct_high_250": 0.926,
       "ma_aligned": 0,
@@ -8351,6 +10321,21 @@
       "sata_w": 2,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 13,
+      "sub_hist": [
+        [
+          13,
+          "1→3B"
+        ],
+        [
+          22,
+          "2B→1"
+        ],
+        [
+          74,
+          "1→2B"
+        ]
+      ],
       "stage_days": 13,
       "t12": null,
       "t34": null,
@@ -8385,7 +10370,7 @@
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 185.61,
-      "hotness": -0.278,
+      "hotness": -0.279,
       "ret_60": 0.364,
       "pct_high_250": 0.739,
       "ma_aligned": 0,
@@ -8394,6 +10379,21 @@
       "sata_w": 5,
       "stage": "1",
       "sub": "1",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "4B→1"
+        ],
+        [
+          5,
+          "1→4B"
+        ],
+        [
+          6,
+          "4B→1"
+        ]
+      ],
       "stage_days": 4,
       "t12": null,
       "t34": null,
@@ -8428,7 +10428,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 46.27,
-      "hotness": -0.28,
+      "hotness": -0.281,
       "ret_60": -0.067,
       "pct_high_250": 0.776,
       "ma_aligned": 0,
@@ -8437,6 +10437,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "4A→4B"
+        ],
+        [
+          14,
+          "3B→4A"
+        ],
+        [
+          38,
+          "2A→3B"
+        ]
+      ],
       "stage_days": 14,
       "t12": null,
       "t34": 14,
@@ -8471,7 +10486,7 @@
       "sub_industry": "Farm Products",
       "sector": "Consumer Staples",
       "close": 107.56,
-      "hotness": -0.304,
+      "hotness": -0.314,
       "ret_60": -0.102,
       "pct_high_250": 0.824,
       "ma_aligned": 0,
@@ -8480,6 +10495,21 @@
       "sata_w": 1,
       "stage": "3",
       "sub": "4A",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "3B→4A"
+        ],
+        [
+          18,
+          "2A→3B"
+        ],
+        [
+          19,
+          "3B→2A"
+        ]
+      ],
       "stage_days": 18,
       "t12": null,
       "t34": null,
@@ -8514,7 +10544,7 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 255.39,
-      "hotness": -0.315,
+      "hotness": -0.321,
       "ret_60": -0.053,
       "pct_high_250": 0.581,
       "ma_aligned": 0,
@@ -8523,6 +10553,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "1",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→1"
+        ],
+        [
+          14,
+          "2C→2B"
+        ],
+        [
+          17,
+          "2B→2C"
+        ]
+      ],
       "stage_days": 135,
       "t12": 135,
       "t34": null,
@@ -8552,55 +10597,12 @@
       ]
     },
     {
-      "ticker": "TECK.US",
-      "name": "Teck Resources Limit…",
-      "sub_industry": "Copper",
-      "sector": "Mat",
-      "close": 67.17,
-      "hotness": -0.321,
-      "ret_60": 0.234,
-      "pct_high_250": 0.935,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 8,
-      "sata_w": 6,
-      "stage": "2",
-      "sub": "2B",
-      "stage_days": 60,
-      "t12": 60,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        78.2,
-        72.2,
-        9.8,
-        18.4
-      ],
-      "profit_yoy4": [
-        314.6,
-        121.4,
-        36.3,
-        140.2
-      ],
-      "roe4": [
-        3.2,
-        3.2,
-        null,
-        1.1
-      ]
-    },
-    {
       "ticker": "CRWV.US",
       "name": "CoreWeave",
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 77.81,
-      "hotness": -0.325,
+      "hotness": -0.326,
       "ret_60": 0.065,
       "pct_high_250": 0.549,
       "ma_aligned": 0,
@@ -8609,6 +10611,21 @@
       "sata_w": 0,
       "stage": "1",
       "sub": "1A",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "1→1A"
+        ],
+        [
+          6,
+          "1A→1"
+        ],
+        [
+          7,
+          "1→1A"
+        ]
+      ],
       "stage_days": 10,
       "t12": null,
       "t34": null,
@@ -8642,19 +10659,92 @@
       "name": "Nagase &",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 7.847,
-      "hotness": -0.335,
-      "ret_60": 0.089,
-      "pct_high_250": 0.988,
+      "close": 7.878,
+      "hotness": -0.327,
+      "ret_60": 0.092,
+      "pct_high_250": 0.991,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 8,
       "stage": "3",
       "sub": "3A",
+      "sub_days": 7,
+      "sub_hist": [
+        [
+          7,
+          "1→3A"
+        ],
+        [
+          8,
+          "2B→1"
+        ],
+        [
+          10,
+          "1→2B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": null
+    },
+    {
+      "ticker": "TECK.US",
+      "name": "Teck Resources Limit…",
+      "sub_industry": "Copper",
+      "sector": "Mat",
+      "close": 67.17,
+      "hotness": -0.331,
+      "ret_60": 0.234,
+      "pct_high_250": 0.935,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 6,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 60,
+      "sub_hist": [
+        [
+          60,
+          "1→2B"
+        ],
+        [
+          63,
+          "2B→1"
+        ],
+        [
+          92,
+          "2C→2B"
+        ]
+      ],
+      "stage_days": 60,
+      "t12": 60,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        78.2,
+        72.2,
+        9.8,
+        18.4
+      ],
+      "profit_yoy4": [
+        314.6,
+        121.4,
+        36.3,
+        140.2
+      ],
+      "roe4": [
+        3.2,
+        3.2,
+        null,
+        1.1
+      ]
     },
     {
       "ticker": "KLAC.US",
@@ -8662,7 +10752,7 @@
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 184.0,
-      "hotness": -0.337,
+      "hotness": -0.338,
       "ret_60": -0.113,
       "pct_high_250": 0.611,
       "ma_aligned": 0,
@@ -8671,6 +10761,21 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "1",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→1"
+        ],
+        [
+          12,
+          "1→2B"
+        ],
+        [
+          14,
+          "2B→1"
+        ]
+      ],
       "stage_days": 12,
       "t12": 12,
       "t34": null,
@@ -8705,7 +10810,7 @@
       "sub_industry": "Copper",
       "sector": "Mat",
       "close": 207.42,
-      "hotness": -0.341,
+      "hotness": -0.343,
       "ret_60": 0.206,
       "pct_high_250": 0.944,
       "ma_aligned": 1,
@@ -8714,6 +10819,21 @@
       "sata_w": 7,
       "stage": "3",
       "sub": "3A",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "2A→3A"
+        ],
+        [
+          17,
+          "2B→2A"
+        ],
+        [
+          53,
+          "1→2B"
+        ]
+      ],
       "stage_days": 14,
       "t12": null,
       "t34": null,
@@ -8748,7 +10868,7 @@
       "sub_industry": "Capital Markets",
       "sector": "Financials",
       "close": 23.49,
-      "hotness": -0.358,
+      "hotness": -0.359,
       "ret_60": 0.413,
       "pct_high_250": 0.437,
       "ma_aligned": 0,
@@ -8757,6 +10877,21 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "2C→2B"
+        ],
+        [
+          15,
+          "2A→2C"
+        ],
+        [
+          19,
+          "1→2A"
+        ]
+      ],
       "stage_days": 19,
       "t12": 19,
       "t34": null,
@@ -8786,12 +10921,46 @@
       ]
     },
     {
+      "ticker": "7741.JP",
+      "name": "HOYA",
+      "sub_industry": "Medical Instr & Supplies",
+      "sector": "Health Care",
+      "close": 162.366,
+      "hotness": -0.36,
+      "ret_60": 0.005,
+      "pct_high_250": 0.855,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "4",
+      "sub": "4B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "4A→4B"
+        ],
+        [
+          14,
+          "1A→4A"
+        ],
+        [
+          15,
+          "3B→1A"
+        ]
+      ],
+      "stage_days": 14,
+      "t12": null,
+      "t34": 14
+    },
+    {
       "ticker": "8053.JP",
       "name": "Sumitomo",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 10.94,
-      "hotness": -0.38,
+      "close": 10.959,
+      "hotness": -0.374,
       "ret_60": 0.122,
       "pct_high_250": 0.911,
       "ma_aligned": 0,
@@ -8800,6 +10969,21 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 57,
+      "sub_hist": [
+        [
+          57,
+          "1→2B"
+        ],
+        [
+          58,
+          "2B→1"
+        ],
+        [
+          101,
+          "2C→2B"
+        ]
+      ],
       "stage_days": 342,
       "t12": null,
       "t34": null
@@ -8810,7 +10994,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 481.38,
-      "hotness": -0.383,
+      "hotness": -0.385,
       "ret_60": -0.077,
       "pct_high_250": 0.632,
       "ma_aligned": 0,
@@ -8819,6 +11003,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 68,
+      "sub_hist": [
+        [
+          68,
+          "1A→4B"
+        ],
+        [
+          81,
+          "3B→1A"
+        ],
+        [
+          85,
+          "4A→3B"
+        ]
+      ],
       "stage_days": 68,
       "t12": null,
       "t34": 96,
@@ -8853,7 +11052,7 @@
       "sub_industry": "Asset Management",
       "sector": "Financials",
       "close": 116.28,
-      "hotness": -0.387,
+      "hotness": -0.389,
       "ret_60": -0.012,
       "pct_high_250": 0.771,
       "ma_aligned": 0,
@@ -8862,28 +11061,24 @@
       "sata_w": 2,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "1B→4B"
+        ],
+        [
+          22,
+          "2A→1B"
+        ],
+        [
+          31,
+          "1→2A"
+        ]
+      ],
       "stage_days": 14,
       "t12": null,
       "t34": 164
-    },
-    {
-      "ticker": "7741.JP",
-      "name": "HOYA",
-      "sub_industry": "Medical Instr & Supplies",
-      "sector": "Health Care",
-      "close": 159.566,
-      "hotness": -0.389,
-      "ret_60": -0.011,
-      "pct_high_250": 0.842,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 3,
-      "sata_w": 2,
-      "stage": "4",
-      "sub": "4B",
-      "stage_days": 14,
-      "t12": null,
-      "t34": 14
     },
     {
       "ticker": "AZN.US",
@@ -8891,7 +11086,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 155.82,
-      "hotness": -0.392,
+      "hotness": -0.393,
       "ret_60": -0.047,
       "pct_high_250": 0.752,
       "ma_aligned": 0,
@@ -8900,6 +11095,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 32,
+      "sub_hist": [
+        [
+          32,
+          "4A→4B"
+        ],
+        [
+          45,
+          "1A→4A"
+        ],
+        [
+          46,
+          "3B→1A"
+        ]
+      ],
       "stage_days": 45,
       "t12": null,
       "t34": 45,
@@ -8934,7 +11144,7 @@
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 233.52,
-      "hotness": -0.401,
+      "hotness": -0.402,
       "ret_60": 0.249,
       "pct_high_250": 0.772,
       "ma_aligned": 0,
@@ -8943,6 +11153,21 @@
       "sata_w": 4,
       "stage": "1",
       "sub": "1",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "4B→1"
+        ],
+        [
+          5,
+          "1→4B"
+        ],
+        [
+          8,
+          "4B→1"
+        ]
+      ],
       "stage_days": 17,
       "t12": null,
       "t34": null,
@@ -8976,16 +11201,31 @@
       "name": "Fujifilm",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 21.545,
-      "hotness": -0.416,
-      "ret_60": -0.054,
-      "pct_high_250": 0.89,
+      "close": 21.716,
+      "hotness": -0.406,
+      "ret_60": -0.047,
+      "pct_high_250": 0.896,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "sata_d": 4,
-      "sata_w": 6,
+      "sata_d": 5,
+      "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "3A→2B"
+        ],
+        [
+          17,
+          "3B→3A"
+        ],
+        [
+          18,
+          "3A→3B"
+        ]
+      ],
       "stage_days": 8,
       "t12": 84,
       "t34": null
@@ -8996,7 +11236,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 477.93,
-      "hotness": -0.419,
+      "hotness": -0.42,
       "ret_60": -0.011,
       "pct_high_250": 0.862,
       "ma_aligned": 0,
@@ -9005,6 +11245,21 @@
       "sata_w": 2,
       "stage": "4",
       "sub": "4A",
+      "sub_days": 16,
+      "sub_hist": [
+        [
+          16,
+          "3B→4A"
+        ],
+        [
+          37,
+          "1→3B"
+        ],
+        [
+          40,
+          "2B→1"
+        ]
+      ],
       "stage_days": 16,
       "t12": null,
       "t34": 16,
@@ -9038,16 +11293,31 @@
       "name": "Astellas Pharma",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 14.272,
-      "hotness": -0.421,
-      "ret_60": 0.072,
-      "pct_high_250": 0.866,
+      "close": 14.274,
+      "hotness": -0.423,
+      "ret_60": 0.071,
+      "pct_high_250": 0.865,
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 3,
       "sata_w": 1,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "3A→3B"
+        ],
+        [
+          2,
+          "3B→3A"
+        ],
+        [
+          8,
+          "3A→3B"
+        ]
+      ],
       "stage_days": 11,
       "t12": null,
       "t34": null
@@ -9058,7 +11328,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 39.12,
-      "hotness": -0.424,
+      "hotness": -0.425,
       "ret_60": -0.111,
       "pct_high_250": 0.789,
       "ma_aligned": 0,
@@ -9067,6 +11337,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 26,
+      "sub_hist": [
+        [
+          26,
+          "2A→4B"
+        ],
+        [
+          41,
+          "4B→2A"
+        ],
+        [
+          53,
+          "2A→4B"
+        ]
+      ],
       "stage_days": 26,
       "t12": null,
       "t34": null,
@@ -9101,7 +11386,7 @@
       "sub_industry": "Asset Management",
       "sector": "Financials",
       "close": 87.16,
-      "hotness": -0.448,
+      "hotness": -0.459,
       "ret_60": -0.099,
       "pct_high_250": 0.614,
       "ma_aligned": 0,
@@ -9110,52 +11395,24 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 15,
+      "sub_hist": [
+        [
+          15,
+          "1B→4B"
+        ],
+        [
+          17,
+          "1→1B"
+        ],
+        [
+          19,
+          "4B→1"
+        ]
+      ],
       "stage_days": 15,
       "t12": null,
       "t34": 170
-    },
-    {
-      "ticker": "CRCL.US",
-      "name": "Circle",
-      "sub_industry": "Capital Markets",
-      "sector": "Financials",
-      "close": 84.27,
-      "hotness": -0.458,
-      "ret_60": 0.288,
-      "pct_high_250": 0.588,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 3,
-      "sata_w": 3,
-      "stage": "1",
-      "sub": "3B",
-      "stage_days": 13,
-      "t12": null,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        6.6,
-        20.0,
-        76.9,
-        66.0
-      ],
-      "profit_yoy4": [
-        110.0,
-        -14.7,
-        4191.3,
-        202.0
-      ],
-      "roe4": [
-        1.4,
-        1.6,
-        null,
-        7.9
-      ]
     },
     {
       "ticker": "ORCL.US",
@@ -9163,7 +11420,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 143.2,
-      "hotness": -0.458,
+      "hotness": -0.46,
       "ret_60": 0.184,
       "pct_high_250": 0.464,
       "ma_aligned": 0,
@@ -9172,6 +11429,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 24,
+      "sub_hist": [
+        [
+          24,
+          "1→4B"
+        ],
+        [
+          26,
+          "4B→1"
+        ],
+        [
+          80,
+          "1→4B"
+        ]
+      ],
       "stage_days": 80,
       "t12": null,
       "t34": 173,
@@ -9201,12 +11473,70 @@
       ]
     },
     {
+      "ticker": "CRCL.US",
+      "name": "Circle",
+      "sub_industry": "Capital Markets",
+      "sector": "Financials",
+      "close": 84.27,
+      "hotness": -0.464,
+      "ret_60": 0.288,
+      "pct_high_250": 0.588,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "1",
+      "sub": "3B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "1→3B"
+        ],
+        [
+          13,
+          "2B→1"
+        ],
+        [
+          18,
+          "1→2B"
+        ]
+      ],
+      "stage_days": 13,
+      "t12": null,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        6.6,
+        20.0,
+        76.9,
+        66.0
+      ],
+      "profit_yoy4": [
+        110.0,
+        -14.7,
+        4191.3,
+        202.0
+      ],
+      "roe4": [
+        1.4,
+        1.6,
+        null,
+        7.9
+      ]
+    },
+    {
       "ticker": "MOS.US",
       "name": "Mosaic",
       "sub_industry": "Agricultural Inputs",
       "sector": "Mat",
       "close": 19.18,
-      "hotness": -0.473,
+      "hotness": -0.474,
       "ret_60": -0.137,
       "pct_high_250": 0.623,
       "ma_aligned": 0,
@@ -9215,6 +11545,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 13,
+      "sub_hist": [
+        [
+          13,
+          "1→4B"
+        ],
+        [
+          30,
+          "4B→1"
+        ],
+        [
+          34,
+          "1→4B"
+        ]
+      ],
       "stage_days": 13,
       "t12": null,
       "t34": 213,
@@ -9248,16 +11593,31 @@
       "name": "Mitsubishi",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 29.635,
-      "hotness": -0.481,
-      "ret_60": 0.058,
-      "pct_high_250": 0.809,
+      "close": 29.737,
+      "hotness": -0.478,
+      "ret_60": 0.06,
+      "pct_high_250": 0.81,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 1,
       "sata_w": 1,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "1→3B"
+        ],
+        [
+          15,
+          "2B→1"
+        ],
+        [
+          16,
+          "1→2B"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null
@@ -9267,8 +11627,8 @@
       "name": "SCREEN",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 98.478,
-      "hotness": -0.489,
+      "close": 98.595,
+      "hotness": -0.481,
       "ret_60": -0.137,
       "pct_high_250": 0.804,
       "ma_aligned": 0,
@@ -9277,6 +11637,21 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 15,
+      "sub_hist": [
+        [
+          15,
+          "1→2B"
+        ],
+        [
+          16,
+          "2B→1"
+        ],
+        [
+          17,
+          "1→2B"
+        ]
+      ],
       "stage_days": 15,
       "t12": 15,
       "t34": null
@@ -9286,16 +11661,31 @@
       "name": "Mitsui &",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 30.897,
-      "hotness": -0.526,
-      "ret_60": 0.057,
-      "pct_high_250": 0.753,
+      "close": 30.899,
+      "hotness": -0.527,
+      "ret_60": 0.055,
+      "pct_high_250": 0.751,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
       "sata_w": 2,
       "stage": "1",
       "sub": "4A",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "1→4A"
+        ],
+        [
+          4,
+          "3B→1"
+        ],
+        [
+          38,
+          "1→3B"
+        ]
+      ],
       "stage_days": 4,
       "t12": null,
       "t34": null
@@ -9306,7 +11696,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 237.29,
-      "hotness": -0.527,
+      "hotness": -0.528,
       "ret_60": -0.186,
       "pct_high_250": 0.631,
       "ma_aligned": 0,
@@ -9315,6 +11705,21 @@
       "sata_w": 0,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 6,
+      "sub_hist": [
+        [
+          6,
+          "1→3B"
+        ],
+        [
+          25,
+          "2B→1"
+        ],
+        [
+          26,
+          "1→2B"
+        ]
+      ],
       "stage_days": 6,
       "t12": null,
       "t34": null,
@@ -9348,16 +11753,31 @@
       "name": "Mitsubishi Electric",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 32.948,
-      "hotness": -0.532,
-      "ret_60": -0.061,
-      "pct_high_250": 0.8,
+      "close": 33.048,
+      "hotness": -0.534,
+      "ret_60": -0.06,
+      "pct_high_250": 0.802,
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
       "sata_w": 0,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "1→3B"
+        ],
+        [
+          37,
+          "2B→1"
+        ],
+        [
+          47,
+          "1→2B"
+        ]
+      ],
       "stage_days": 17,
       "t12": null,
       "t34": null
@@ -9368,7 +11788,7 @@
       "sub_industry": "Info Tech Svc",
       "sector": "Industrials",
       "close": 119.7,
-      "hotness": -0.534,
+      "hotness": -0.535,
       "ret_60": 0.122,
       "pct_high_250": 0.607,
       "ma_aligned": 0,
@@ -9377,6 +11797,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 38,
+      "sub_hist": [
+        [
+          38,
+          "1→4B"
+        ],
+        [
+          39,
+          "4B→1"
+        ],
+        [
+          115,
+          "4A→4B"
+        ]
+      ],
       "stage_days": 131,
       "t12": null,
       "t34": 131,
@@ -9411,7 +11846,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 3.835,
-      "hotness": -0.543,
+      "hotness": -0.554,
       "ret_60": 0.327,
       "pct_high_250": 0.565,
       "ma_aligned": 1,
@@ -9420,6 +11855,21 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "2A→2B"
+        ],
+        [
+          10,
+          "1→2A"
+        ],
+        [
+          19,
+          "4B→1"
+        ]
+      ],
       "stage_days": 10,
       "t12": 10,
       "t34": null,
@@ -9453,18 +11903,101 @@
       "name": "Fuji Electric",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 93.588,
-      "hotness": -0.567,
-      "ret_60": 0.171,
-      "pct_high_250": 0.865,
+      "close": 94.234,
+      "hotness": -0.559,
+      "ret_60": 0.178,
+      "pct_high_250": 0.87,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 6,
       "stage": "2",
       "sub": "2B",
+      "sub_days": 14,
+      "sub_hist": [
+        [
+          14,
+          "1→2B"
+        ],
+        [
+          21,
+          "2B→1"
+        ],
+        [
+          22,
+          "1→2B"
+        ]
+      ],
       "stage_days": 14,
       "t12": 14,
+      "t34": null
+    },
+    {
+      "ticker": "6146.JP",
+      "name": "DIS",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "sector": "Info Tech",
+      "close": 376.81,
+      "hotness": -0.564,
+      "ret_60": -0.165,
+      "pct_high_250": 0.676,
+      "ma_aligned": 0,
+      "days_below_ma10": 2,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "4",
+      "sub": "4A",
+      "sub_days": 18,
+      "sub_hist": [
+        [
+          18,
+          "3B→4A"
+        ],
+        [
+          25,
+          "1→3B"
+        ],
+        [
+          54,
+          "2B→1"
+        ]
+      ],
+      "stage_days": 18,
+      "t12": null,
+      "t34": 18
+    },
+    {
+      "ticker": "5801.JP",
+      "name": "Furukawa Electric",
+      "sub_industry": "Electrical Equip & Parts",
+      "sector": "Industrials",
+      "close": 24.807,
+      "hotness": -0.564,
+      "ret_60": 0.118,
+      "pct_high_250": 0.655,
+      "ma_aligned": 0,
+      "days_below_ma10": 3,
+      "sata_d": 5,
+      "sata_w": 3,
+      "stage": "2",
+      "sub": "1",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→1"
+        ],
+        [
+          9,
+          "1→2B"
+        ],
+        [
+          14,
+          "2B→1"
+        ]
+      ],
+      "stage_days": 9,
+      "t12": 9,
       "t34": null
     },
     {
@@ -9472,38 +12005,34 @@
       "name": "Mitsubishi Heavy Ind…",
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
-      "close": 23.362,
-      "hotness": -0.573,
-      "ret_60": -0.008,
-      "pct_high_250": 0.717,
+      "close": 23.486,
+      "hotness": -0.565,
+      "ret_60": -0.004,
+      "pct_high_250": 0.72,
       "ma_aligned": 0,
       "days_below_ma10": 6,
       "sata_d": 1,
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 37,
+      "sub_hist": [
+        [
+          37,
+          "2A→4B"
+        ],
+        [
+          39,
+          "4B→2A"
+        ],
+        [
+          54,
+          "1→4B"
+        ]
+      ],
       "stage_days": 54,
       "t12": null,
       "t34": 83
-    },
-    {
-      "ticker": "5801.JP",
-      "name": "Furukawa Electric",
-      "sub_industry": "Electrical Equip & Parts",
-      "sector": "Industrials",
-      "close": 24.713,
-      "hotness": -0.577,
-      "ret_60": 0.116,
-      "pct_high_250": 0.653,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "sata_d": 5,
-      "sata_w": 3,
-      "stage": "2",
-      "sub": "1",
-      "stage_days": 9,
-      "t12": 9,
-      "t34": null
     },
     {
       "ticker": "GLW.US",
@@ -9511,7 +12040,7 @@
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
       "close": 148.54,
-      "hotness": -0.58,
+      "hotness": -0.582,
       "ret_60": -0.028,
       "pct_high_250": 0.582,
       "ma_aligned": 0,
@@ -9520,6 +12049,21 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "2B→1"
+        ],
+        [
+          6,
+          "1→2B"
+        ],
+        [
+          22,
+          "2B→1"
+        ]
+      ],
       "stage_days": 22,
       "t12": null,
       "t34": null,
@@ -9549,23 +12093,38 @@
       ]
     },
     {
-      "ticker": "6146.JP",
-      "name": "DIS",
-      "sub_industry": "Semiconductor Equip & Mat",
-      "sector": "Info Tech",
-      "close": 372.079,
-      "hotness": -0.586,
-      "ret_60": -0.175,
-      "pct_high_250": 0.668,
+      "ticker": "4063.JP",
+      "name": "Shin-Etsu Chemical",
+      "sub_industry": "Chemicals",
+      "sector": "Mat",
+      "close": 39.008,
+      "hotness": -0.587,
+      "ret_60": -0.171,
+      "pct_high_250": 0.793,
       "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 3,
+      "days_below_ma10": 0,
+      "sata_d": 4,
       "sata_w": 3,
-      "stage": "4",
-      "sub": "4A",
-      "stage_days": 18,
+      "stage": "3",
+      "sub": "3B",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "1→3B"
+        ],
+        [
+          53,
+          "2B→1"
+        ],
+        [
+          88,
+          "2C→2B"
+        ]
+      ],
+      "stage_days": 3,
       "t12": null,
-      "t34": 18
+      "t34": null
     },
     {
       "ticker": "NVO.US",
@@ -9573,7 +12132,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 38.06,
-      "hotness": -0.587,
+      "hotness": -0.589,
       "ret_60": -0.223,
       "pct_high_250": 0.625,
       "ma_aligned": 0,
@@ -9582,6 +12141,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 17,
+      "sub_hist": [
+        [
+          17,
+          "1→4B"
+        ],
+        [
+          19,
+          "4B→1"
+        ],
+        [
+          21,
+          "1→4B"
+        ]
+      ],
       "stage_days": 17,
       "t12": null,
       "t34": 492,
@@ -9611,55 +12185,12 @@
       ]
     },
     {
-      "ticker": "BNTX.US",
-      "name": "BioNTech",
-      "sub_industry": "Biotech",
-      "sector": "Health Care",
-      "close": 89.01,
-      "hotness": -0.589,
-      "ret_60": -0.034,
-      "pct_high_250": 0.746,
-      "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 2,
-      "sata_w": 1,
-      "stage": "1",
-      "sub": "4B",
-      "stage_days": 19,
-      "t12": null,
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        -59.5,
-        -35.4,
-        -23.7,
-        22.0
-      ],
-      "profit_yoy4": [
-        -112.3,
-        -27.9,
-        -217.5,
-        -114.5
-      ],
-      "roe4": [
-        -4.5,
-        -2.8,
-        -1.6,
-        -0.2
-      ]
-    },
-    {
       "ticker": "DECK.US",
       "name": "Deckers Outdoor",
       "sub_industry": "Footwear & Accessories",
       "sector": "Consumer Discretionary",
       "close": 84.02,
-      "hotness": -0.59,
+      "hotness": -0.592,
       "ret_60": -0.192,
       "pct_high_250": 0.695,
       "ma_aligned": 0,
@@ -9668,6 +12199,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 20,
+      "sub_hist": [
+        [
+          20,
+          "4A→4B"
+        ],
+        [
+          35,
+          "3B→4A"
+        ],
+        [
+          54,
+          "1→3B"
+        ]
+      ],
       "stage_days": 35,
       "t12": null,
       "t34": 35,
@@ -9702,7 +12248,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 301.45,
-      "hotness": -0.594,
+      "hotness": -0.596,
       "ret_60": 0.031,
       "pct_high_250": 0.447,
       "ma_aligned": 0,
@@ -9711,6 +12257,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 180,
+      "sub_hist": [
+        [
+          180,
+          "4A→4B"
+        ],
+        [
+          189,
+          "3B→4A"
+        ],
+        [
+          212,
+          "1→3B"
+        ]
+      ],
       "stage_days": 189,
       "t12": null,
       "t34": 189,
@@ -9740,42 +12301,96 @@
       ]
     },
     {
+      "ticker": "BNTX.US",
+      "name": "BioNTech",
+      "sub_industry": "Biotech",
+      "sector": "Health Care",
+      "close": 89.01,
+      "hotness": -0.599,
+      "ret_60": -0.034,
+      "pct_high_250": 0.746,
+      "ma_aligned": 0,
+      "days_below_ma10": 2,
+      "sata_d": 2,
+      "sata_w": 1,
+      "stage": "1",
+      "sub": "4B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "1→4B"
+        ],
+        [
+          3,
+          "4B→1"
+        ],
+        [
+          4,
+          "1→4B"
+        ]
+      ],
+      "stage_days": 19,
+      "t12": null,
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        -59.5,
+        -35.4,
+        -23.7,
+        22.0
+      ],
+      "profit_yoy4": [
+        -112.3,
+        -27.9,
+        -217.5,
+        -114.5
+      ],
+      "roe4": [
+        -4.5,
+        -2.8,
+        -1.6,
+        -0.2
+      ]
+    },
+    {
       "ticker": "8002.JP",
       "name": "Marubeni",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 30.556,
-      "hotness": -0.601,
-      "ret_60": -0.004,
-      "pct_high_250": 0.786,
+      "close": 30.495,
+      "hotness": -0.605,
+      "ret_60": -0.008,
+      "pct_high_250": 0.783,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 0,
       "sata_w": 1,
       "stage": "4",
       "sub": "4A",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "3B→4A"
+        ],
+        [
+          29,
+          "1→3B"
+        ],
+        [
+          51,
+          "2B→1"
+        ]
+      ],
       "stage_days": 9,
       "t12": null,
       "t34": 9
-    },
-    {
-      "ticker": "4063.JP",
-      "name": "Shin-Etsu Chemical",
-      "sub_industry": "Chemicals",
-      "sector": "Mat",
-      "close": 38.64,
-      "hotness": -0.602,
-      "ret_60": -0.178,
-      "pct_high_250": 0.787,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 4,
-      "sata_w": 3,
-      "stage": "3",
-      "sub": "3B",
-      "stage_days": 3,
-      "t12": null,
-      "t34": null
     },
     {
       "ticker": "RIO.US",
@@ -9783,7 +12398,7 @@
       "sub_industry": "Other Indl Metals & Mining",
       "sector": "Mat",
       "close": 93.06,
-      "hotness": -0.613,
+      "hotness": -0.615,
       "ret_60": 0.068,
       "pct_high_250": 0.849,
       "ma_aligned": 0,
@@ -9792,6 +12407,21 @@
       "sata_w": 2,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 10,
+      "sub_hist": [
+        [
+          10,
+          "1→3B"
+        ],
+        [
+          15,
+          "2B→1"
+        ],
+        [
+          19,
+          "1→2B"
+        ]
+      ],
       "stage_days": 10,
       "t12": null,
       "t34": null
@@ -9801,16 +12431,31 @@
       "name": "Daiichi Sankyo Compa…",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 16.237,
-      "hotness": -0.662,
-      "ret_60": -0.022,
-      "pct_high_250": 0.636,
+      "close": 16.23,
+      "hotness": -0.653,
+      "ret_60": -0.024,
+      "pct_high_250": 0.635,
       "ma_aligned": 0,
       "days_below_ma10": 12,
       "sata_d": 1,
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 4,
+      "sub_hist": [
+        [
+          4,
+          "2A→4B"
+        ],
+        [
+          14,
+          "1→2A"
+        ],
+        [
+          20,
+          "4B→1"
+        ]
+      ],
       "stage_days": 4,
       "t12": null,
       "t34": 177
@@ -9820,16 +12465,31 @@
       "name": "TOPPAN",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 14.742,
-      "hotness": -0.665,
-      "ret_60": -0.037,
-      "pct_high_250": 0.817,
+      "close": 14.805,
+      "hotness": -0.661,
+      "ret_60": -0.034,
+      "pct_high_250": 0.82,
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 3,
-      "sata_w": 3,
+      "sata_w": 4,
       "stage": "3",
       "sub": "1",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "3B→1"
+        ],
+        [
+          4,
+          "3A→3B"
+        ],
+        [
+          9,
+          "3B→3A"
+        ]
+      ],
       "stage_days": 18,
       "t12": null,
       "t34": null
@@ -9840,7 +12500,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 413.35,
-      "hotness": -0.703,
+      "hotness": -0.705,
       "ret_60": -0.216,
       "pct_high_250": 0.544,
       "ma_aligned": 0,
@@ -9849,6 +12509,21 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 7,
+      "sub_hist": [
+        [
+          7,
+          "1A→4B"
+        ],
+        [
+          19,
+          "4B→1A"
+        ],
+        [
+          21,
+          "2A→4B"
+        ]
+      ],
       "stage_days": 7,
       "t12": null,
       "t34": 209,
@@ -9878,12 +12553,80 @@
       ]
     },
     {
+      "ticker": "4186.JP",
+      "name": "Tokyo Ohka Kogyo",
+      "sub_industry": "Electronic Comp",
+      "sector": "Info Tech",
+      "close": 57.811,
+      "hotness": -0.73,
+      "ret_60": -0.143,
+      "pct_high_250": 0.79,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 4,
+      "sata_w": 4,
+      "stage": "3",
+      "sub": "3B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "3A→3B"
+        ],
+        [
+          6,
+          "3B→3A"
+        ],
+        [
+          8,
+          "1→3B"
+        ]
+      ],
+      "stage_days": 8,
+      "t12": null,
+      "t34": null
+    },
+    {
+      "ticker": "3436.JP",
+      "name": "SUM",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "sector": "Info Tech",
+      "close": 19.801,
+      "hotness": -0.734,
+      "ret_60": -0.41,
+      "pct_high_250": 0.59,
+      "ma_aligned": 0,
+      "days_below_ma10": 3,
+      "sata_d": 4,
+      "sata_w": 2,
+      "stage": "2",
+      "sub": "1",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "2B→1"
+        ],
+        [
+          10,
+          "1→2B"
+        ],
+        [
+          12,
+          "2B→1"
+        ]
+      ],
+      "stage_days": 15,
+      "t12": 15,
+      "t34": null
+    },
+    {
       "ticker": "RKLB.US",
       "name": "Rocket Lab",
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 64.22,
-      "hotness": -0.733,
+      "hotness": -0.735,
       "ret_60": -0.023,
       "pct_high_250": 0.427,
       "ma_aligned": 0,
@@ -9892,6 +12635,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "1A→4B"
+        ],
+        [
+          9,
+          "4A→1A"
+        ],
+        [
+          35,
+          "3B→4A"
+        ]
+      ],
       "stage_days": 5,
       "t12": null,
       "t34": 35,
@@ -9921,50 +12679,12 @@
       ]
     },
     {
-      "ticker": "4186.JP",
-      "name": "Tokyo Ohka Kogyo",
-      "sub_industry": "Electronic Comp",
-      "sector": "Info Tech",
-      "close": 57.541,
-      "hotness": -0.735,
-      "ret_60": -0.145,
-      "pct_high_250": 0.787,
-      "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 4,
-      "sata_w": 4,
-      "stage": "3",
-      "sub": "3B",
-      "stage_days": 8,
-      "t12": null,
-      "t34": null
-    },
-    {
-      "ticker": "3436.JP",
-      "name": "SUM",
-      "sub_industry": "Semiconductor Equip & Mat",
-      "sector": "Info Tech",
-      "close": 19.67,
-      "hotness": -0.741,
-      "ret_60": -0.413,
-      "pct_high_250": 0.587,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "sata_d": 4,
-      "sata_w": 2,
-      "stage": "2",
-      "sub": "1",
-      "stage_days": 15,
-      "t12": 15,
-      "t34": null
-    },
-    {
       "ticker": "CRSP.US",
       "name": "CRISPR Therapeutics",
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 50.1,
-      "hotness": -0.76,
+      "hotness": -0.762,
       "ret_60": 0.066,
       "pct_high_250": 0.677,
       "ma_aligned": 0,
@@ -9973,6 +12693,21 @@
       "sata_w": 2,
       "stage": "1",
       "sub": "4B",
+      "sub_days": 2,
+      "sub_hist": [
+        [
+          2,
+          "1B→4B"
+        ],
+        [
+          3,
+          "4B→1B"
+        ],
+        [
+          4,
+          "1A→4B"
+        ]
+      ],
       "stage_days": 47,
       "t12": null,
       "t34": null,
@@ -10007,7 +12742,7 @@
       "sub_industry": "Uranium",
       "sector": "Energy",
       "close": 86.15,
-      "hotness": -0.778,
+      "hotness": -0.78,
       "ret_60": 0.015,
       "pct_high_250": 0.642,
       "ma_aligned": 0,
@@ -10016,6 +12751,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 22,
+      "sub_hist": [
+        [
+          22,
+          "4A→4B"
+        ],
+        [
+          31,
+          "3B→4A"
+        ],
+        [
+          59,
+          "1→3B"
+        ]
+      ],
       "stage_days": 31,
       "t12": null,
       "t34": 31,
@@ -10049,16 +12799,31 @@
       "name": "Sumitomo Electric",
       "sub_industry": "Auto Parts",
       "sector": "Consumer Discretionary",
-      "close": 14.66,
-      "hotness": -0.809,
-      "ret_60": -0.047,
-      "pct_high_250": 0.671,
+      "close": 14.72,
+      "hotness": -0.806,
+      "ret_60": -0.044,
+      "pct_high_250": 0.673,
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 3,
       "sata_w": 3,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 5,
+      "sub_hist": [
+        [
+          5,
+          "2B→3B"
+        ],
+        [
+          6,
+          "1→2B"
+        ],
+        [
+          38,
+          "2B→1"
+        ]
+      ],
       "stage_days": 5,
       "t12": null,
       "t34": null
@@ -10069,7 +12834,7 @@
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
       "close": 47.065,
-      "hotness": -0.905,
+      "hotness": -0.907,
       "ret_60": -0.18,
       "pct_high_250": 0.354,
       "ma_aligned": 0,
@@ -10078,6 +12843,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 32,
+      "sub_hist": [
+        [
+          32,
+          "4A→4B"
+        ],
+        [
+          51,
+          "3B→4A"
+        ],
+        [
+          57,
+          "1→3B"
+        ]
+      ],
       "stage_days": 51,
       "t12": null,
       "t34": 51,
@@ -10107,32 +12887,13 @@
       ]
     },
     {
-      "ticker": "6506.JP",
-      "name": "Yaskawa",
-      "sub_industry": "Electrical Equip & Parts",
-      "sector": "Industrials",
-      "close": 30.197,
-      "hotness": -0.924,
-      "ret_60": -0.113,
-      "pct_high_250": 0.63,
-      "ma_aligned": 0,
-      "days_below_ma10": 1,
-      "sata_d": 2,
-      "sata_w": 2,
-      "stage": "4",
-      "sub": "4A",
-      "stage_days": 16,
-      "t12": null,
-      "t34": 16
-    },
-    {
       "ticker": "4519.JP",
       "name": "Chugai Pharmaceutica…",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 38.192,
-      "hotness": -0.927,
-      "ret_60": -0.164,
+      "close": 38.225,
+      "hotness": -0.928,
+      "ret_60": -0.165,
       "pct_high_250": 0.584,
       "ma_aligned": 0,
       "days_below_ma10": 1,
@@ -10140,25 +12901,89 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 39,
+      "sub_hist": [
+        [
+          39,
+          "4A→4B"
+        ],
+        [
+          54,
+          "3B→4A"
+        ],
+        [
+          75,
+          "1→3B"
+        ]
+      ],
       "stage_days": 54,
       "t12": null,
       "t34": 54
+    },
+    {
+      "ticker": "6506.JP",
+      "name": "Yaskawa",
+      "sub_industry": "Electrical Equip & Parts",
+      "sector": "Industrials",
+      "close": 30.071,
+      "hotness": -0.928,
+      "ret_60": -0.118,
+      "pct_high_250": 0.626,
+      "ma_aligned": 0,
+      "days_below_ma10": 1,
+      "sata_d": 2,
+      "sata_w": 3,
+      "stage": "4",
+      "sub": "4A",
+      "sub_days": 16,
+      "sub_hist": [
+        [
+          16,
+          "3B→4A"
+        ],
+        [
+          37,
+          "1→3B"
+        ],
+        [
+          61,
+          "2B→1"
+        ]
+      ],
+      "stage_days": 16,
+      "t12": null,
+      "t34": 16
     },
     {
       "ticker": "6361.JP",
       "name": "Ebara",
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
-      "close": 29.294,
-      "hotness": -0.941,
-      "ret_60": -0.211,
-      "pct_high_250": 0.689,
+      "close": 29.414,
+      "hotness": -0.938,
+      "ret_60": -0.209,
+      "pct_high_250": 0.691,
       "ma_aligned": 0,
       "days_below_ma10": 2,
-      "sata_d": 0,
+      "sata_d": 1,
       "sata_w": 0,
       "stage": "4",
       "sub": "4A",
+      "sub_days": 13,
+      "sub_hist": [
+        [
+          13,
+          "3B→4A"
+        ],
+        [
+          22,
+          "1→3B"
+        ],
+        [
+          38,
+          "2B→1"
+        ]
+      ],
       "stage_days": 13,
       "t12": null,
       "t34": 13
@@ -10169,7 +12994,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 223.82,
-      "hotness": -1.069,
+      "hotness": -1.07,
       "ret_60": -0.179,
       "pct_high_250": 0.456,
       "ma_aligned": 0,
@@ -10178,6 +13003,21 @@
       "sata_w": 2,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 135,
+      "sub_hist": [
+        [
+          135,
+          "4A→4B"
+        ],
+        [
+          147,
+          "3B→4A"
+        ],
+        [
+          168,
+          "1→3B"
+        ]
+      ],
       "stage_days": 147,
       "t12": null,
       "t34": 147,
@@ -10212,7 +13052,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 182.79,
-      "hotness": -1.071,
+      "hotness": -1.076,
       "ret_60": -0.199,
       "pct_high_250": 0.568,
       "ma_aligned": 0,
@@ -10221,6 +13061,21 @@
       "sata_w": 1,
       "stage": "3",
       "sub": "3B",
+      "sub_days": 16,
+      "sub_hist": [
+        [
+          16,
+          "1→3B"
+        ],
+        [
+          50,
+          "2B→1"
+        ],
+        [
+          51,
+          "1→2B"
+        ]
+      ],
       "stage_days": 16,
       "t12": null,
       "t34": null,
@@ -10255,7 +13110,7 @@
       "sub_industry": "Aluminum",
       "sector": "Mat",
       "close": 41.49,
-      "hotness": -1.165,
+      "hotness": -1.166,
       "ret_60": -0.044,
       "pct_high_250": 0.496,
       "ma_aligned": 0,
@@ -10264,6 +13119,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 20,
+      "sub_hist": [
+        [
+          20,
+          "4A→4B"
+        ],
+        [
+          43,
+          "3B→4A"
+        ],
+        [
+          55,
+          "1→3B"
+        ]
+      ],
       "stage_days": 43,
       "t12": null,
       "t34": 43,
@@ -10298,7 +13168,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 127.13,
-      "hotness": -1.319,
+      "hotness": -1.32,
       "ret_60": -0.108,
       "pct_high_250": 0.324,
       "ma_aligned": 0,
@@ -10307,6 +13177,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 124,
+      "sub_hist": [
+        [
+          124,
+          "4A→4B"
+        ],
+        [
+          150,
+          "3B→4A"
+        ],
+        [
+          161,
+          "1→3B"
+        ]
+      ],
       "stage_days": 150,
       "t12": null,
       "t34": 150,
@@ -10341,7 +13226,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 40.35,
-      "hotness": -1.331,
+      "hotness": -1.333,
       "ret_60": -0.122,
       "pct_high_250": 0.309,
       "ma_aligned": 0,
@@ -10350,6 +13235,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 97,
+      "sub_hist": [
+        [
+          97,
+          "4A→4B"
+        ],
+        [
+          112,
+          "3B→4A"
+        ],
+        [
+          122,
+          "1→3B"
+        ]
+      ],
       "stage_days": 112,
       "t12": null,
       "t34": 112,
@@ -10384,7 +13284,7 @@
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 31.78,
-      "hotness": -1.574,
+      "hotness": -1.575,
       "ret_60": -0.234,
       "pct_high_250": 0.185,
       "ma_aligned": 0,
@@ -10393,6 +13293,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 124,
+      "sub_hist": [
+        [
+          124,
+          "4A→4B"
+        ],
+        [
+          147,
+          "3B→4A"
+        ],
+        [
+          156,
+          "1→3B"
+        ]
+      ],
       "stage_days": 147,
       "t12": null,
       "t34": 147,
@@ -10427,7 +13342,7 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 6.49,
-      "hotness": -1.587,
+      "hotness": -1.589,
       "ret_60": -0.185,
       "pct_high_250": 0.121,
       "ma_aligned": 0,
@@ -10436,6 +13351,21 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4B",
+      "sub_days": 25,
+      "sub_hist": [
+        [
+          25,
+          "1→4B"
+        ],
+        [
+          26,
+          "4B→1"
+        ],
+        [
+          179,
+          "4A→4B"
+        ]
+      ],
       "stage_days": 198,
       "t12": null,
       "t34": 198,
