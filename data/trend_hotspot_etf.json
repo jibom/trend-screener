@@ -2070,7 +2070,7 @@
       "close": 200.02,
       "sig": "",
       "tr": 67.6,
-      "mom": 39.0,
+      "mom": 38.0,
       "panic": "",
       "weekly": "柱≥0",
       "days": 8
@@ -2464,17 +2464,6 @@
       "hotness": 0.381
     },
     {
-      "ticker": "VO.US",
-      "name": "Vanguard Mid-Cap Index Fund ETF Shar",
-      "sub_industry": "Mid-Cap Blend",
-      "close": 81.02,
-      "pct_high_250": 0.963,
-      "ret_60": 0.017,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "hotness": 0.38
-    },
-    {
       "ticker": "IBB.US",
       "name": "iShares Biotechnology ETF",
       "sub_industry": "Health",
@@ -2483,6 +2472,17 @@
       "ret_60": 0.072,
       "ma_aligned": 0,
       "days_below_ma10": 2,
+      "hotness": 0.38
+    },
+    {
+      "ticker": "VO.US",
+      "name": "Vanguard Mid-Cap Index Fund ETF Shar",
+      "sub_industry": "Mid-Cap Blend",
+      "close": 81.02,
+      "pct_high_250": 0.963,
+      "ret_60": 0.017,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
       "hotness": 0.38
     },
     {
@@ -3113,17 +3113,6 @@
       "hotness": 0.055
     },
     {
-      "ticker": "CGGR.US",
-      "name": "Capital Group Growth ETF",
-      "sub_industry": "Large Growth",
-      "close": 48.15,
-      "pct_high_250": 0.993,
-      "ret_60": 0.063,
-      "ma_aligned": 1,
-      "days_below_ma10": 0,
-      "hotness": 0.054
-    },
-    {
       "ticker": "XLRE.US",
       "name": "The Real Estate Select Sector SPDR F",
       "sub_industry": "S&P Real Estate",
@@ -3131,6 +3120,17 @@
       "pct_high_250": 0.917,
       "ret_60": -0.067,
       "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "hotness": 0.054
+    },
+    {
+      "ticker": "CGGR.US",
+      "name": "Capital Group Growth ETF",
+      "sub_industry": "Large Growth",
+      "close": 48.15,
+      "pct_high_250": 0.993,
+      "ret_60": 0.063,
+      "ma_aligned": 1,
       "days_below_ma10": 0,
       "hotness": 0.054
     },
@@ -3737,7 +3737,7 @@
       "ret_60": -0.004,
       "ma_aligned": 0,
       "days_below_ma10": 6,
-      "hotness": -0.548
+      "hotness": -0.549
     },
     {
       "ticker": "SRTY.US",
@@ -3759,7 +3759,7 @@
       "ret_60": -0.067,
       "ma_aligned": 0,
       "days_below_ma10": 4,
-      "hotness": -0.616
+      "hotness": -0.617
     },
     {
       "ticker": "OIH.US",
