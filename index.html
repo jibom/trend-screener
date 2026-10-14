@@ -684,10 +684,7 @@
     function trendSection(title, count, body, id) {
       return `<div class="section-divider"${id ? ` id="${id}"` : ''}>${title}<span class="section-count">${count}</span></div>${body}`;
     }
-    function gotoSection(id) {   // 汇总chip点击 → 平滑滚动到对应section
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    // (gotoSection 定义在 IIFE 外全局区 — chip 的 onclick 属性是全局作用域解析)
     const chip = (label, cls, val, target) => target
       ? `<a href="#${target}" onclick="gotoSection('${target}');return false;" class="summary-item" style="text-decoration:none;cursor:pointer"><span class="state-badge ${cls}">${label}</span><span class="summary-val">${val}</span></a>`
       : `<div class="summary-item"><span class="state-badge ${cls}">${label}</span><span class="summary-val">${val}</span></div>`;
@@ -1052,10 +1049,7 @@
       return trendSection(`生命周期 · Stage×SATA (SATA≥6绿; 各组: ①筑底→②要起来→③刚起来→④趋势上→⑤见顶/初下行)`, n, h, 'sec-lc');
     }
     // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
-    const fundLv = a => (Array.isArray(a) && a.length && a[0] != null && a[0] !== '') ? Number(a[0]) : null;
-    const yoyLvCell = v => v == null ? '<span class="muted-val">-</span>'
-      : `<b style="color:${v >= 0 ? 'var(--positive)' : 'var(--negative)'}">${v >= 0 ? '+' : ''}${v.toFixed(1)}%</b>`;
-    const roeLvCell = v => v == null ? '<span class="muted-val">-</span>' : `<b>${v.toFixed(1)}%</b>`;
+    // (fundLv/yoyLvCell/roeLvCell 定义在 IIFE 外全局区 — showChart 也要用, 见下)
     function transPart(d, key, title, col) {
       const arr = (d.all_stocks || []).filter(s => s[key] != null && s[key] <= 10)
         .sort((a, b) => a[key] - b[key]);
@@ -1709,6 +1703,16 @@
     }
     return null;
   }
+  // ── 全局区 helper (IIFE外): showChart 与 onclick 属性都在全局作用域解析 —
+  //    定义放 IIFE 内会 ReferenceError (2026-10-14 修复: 图表空白/chip无反应的根因) ──
+  function gotoSection(id) {   // 汇总chip点击 → 平滑滚动到对应section
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  const fundLv = a => (Array.isArray(a) && a.length && a[0] != null && a[0] !== '') ? Number(a[0]) : null;
+  const yoyLvCell = v => v == null ? '<span class="muted-val">-</span>'
+    : `<b style="color:${v >= 0 ? 'var(--positive)' : 'var(--negative)'}">${v >= 0 ? '+' : ''}${v.toFixed(1)}%</b>`;
+  const roeLvCell = v => v == null ? '<span class="muted-val">-</span>' : `<b>${v.toFixed(1)}%</b>`;
 
   async function showChart(ticker, screen, list) {
     _chartTicker = ticker;
