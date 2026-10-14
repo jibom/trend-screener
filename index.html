@@ -1057,6 +1057,12 @@
       h += grp('④ 趋势上 (Stage 2 成熟段, 按SATA周降序; 2C=延伸忌追高)', g4, 20);
       h += grp('⑤ 见顶/初下行 (3→4确认·≤10日 → 3B → 3A; ⚠=今日下穿待确认)', g5);
       const n = g1.length + g2.length + g3.length + g4.length + g5.length;
+      // 各组翻页列表 (showChart ←→ 在所在生命周期组内切换)
+      window.__lcNav = {};
+      [g1, g2, g3, g4, g5].forEach(g => {
+        const L = g.map(x => x.ticker);
+        g.forEach(x => { window.__lcNav[x.ticker] = L; });
+      });
       return trendSection(`生命周期 · Stage×SATA (SATA≥6绿; 各组: ①筑底→②要起来→③刚起来→④趋势上→⑤见顶/初下行)`, n, h, 'sec-lc');
     }
     // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
@@ -1071,6 +1077,8 @@
         sataCell(s.sata_d), sataCell(s.sata_w), signedR(s.ret_60),
         yoyLvCell(fundLv(s.sales_yoy4)), yoyLvCell(fundLv(s.profit_yoy4)), roeLvCell(fundLv(s.roe4)),
         `<b>${num2(s.hotness)}</b>`]);
+      window.__transNav = window.__transNav || {};
+      window.__transNav[key] = arr.map(s => s.ticker);   // 供 showChart ←→ 翻页
       return trendSection(title, rows.length,
         trendTable(['代码','名称','行业','收盘','Stage','转换','持续','SATA日','SATA周','60日涨幅','营收YoY','净利YoY','ROE','热度分'], rows),
         key === 't12' ? 'sec-t12' : 'sec-t34');
@@ -1744,6 +1752,12 @@
              : (mkt === 'us' ? window.usData : mkt === 'a' ? window.aData : window.trendData);
     if (Array.isArray(list)) {                       // 显式列表 (子行业成分股钻取)
       _chartList = list; _chartIdx = list.indexOf(ticker);
+    } else if (_chartScreen === 'lifecycle') {       // 生命周期: 在所在组内翻页 (渲染时存)
+      _chartList = (window.__lcNav || {})[ticker] || [];
+      _chartIdx = _chartList.indexOf(ticker);
+    } else if (_chartScreen === 't12' || _chartScreen === 't34') {   // 阶段转换组
+      _chartList = (window.__transNav || {})[_chartScreen] || [];
+      _chartIdx = _chartList.indexOf(ticker);
     } else if (_chartScreen && td && Array.isArray(td[_chartScreen])) {
       _chartList = td[_chartScreen].map(p => p.ticker);
       _chartIdx = _chartList.indexOf(ticker);
