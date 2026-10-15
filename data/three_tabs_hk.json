@@ -1224,6 +1224,16 @@
       "last_close": 79.8
     },
     {
+      "ticker": "0501.HK",
+      "name_cn": "豪威集团",
+      "gics_sector": "Information Technology",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 63.4
+    },
+    {
       "ticker": "1810.HK",
       "name_cn": "小米集团-W",
       "gics_sector": "Information Technology",
@@ -1242,16 +1252,6 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 136.0
-    },
-    {
-      "ticker": "0501.HK",
-      "name_cn": "豪威集团",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 63.4
     },
     {
       "ticker": "1801.HK",
@@ -1304,16 +1304,6 @@
       "last_close": 2.81
     },
     {
-      "ticker": "6880.HK",
-      "name_cn": "MOMENTA-W",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 163.8
-    },
-    {
       "ticker": "7687.HK",
       "name_cn": "易控智驾",
       "gics_sector": "Information Technology",
@@ -1322,6 +1312,16 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 64.7
+    },
+    {
+      "ticker": "6880.HK",
+      "name_cn": "MOMENTA-W",
+      "gics_sector": "Information Technology",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 1,
+      "last_close": 163.8
     },
     {
       "ticker": "1033.HK",
@@ -1334,16 +1334,6 @@
       "last_close": 0.615
     },
     {
-      "ticker": "1610.HK",
-      "name_cn": "中粮家佳康",
-      "gics_sector": "Consumer Staples",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 1.06
-    },
-    {
       "ticker": "0151.HK",
       "name_cn": "中国旺旺",
       "gics_sector": "Consumer Staples",
@@ -1352,6 +1342,16 @@
       "emoji": "🔴",
       "days_in_state": 1,
       "last_close": 2.925
+    },
+    {
+      "ticker": "1610.HK",
+      "name_cn": "中粮家佳康",
+      "gics_sector": "Consumer Staples",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 1.06
     },
     {
       "ticker": "2607.HK",
@@ -1364,16 +1364,6 @@
       "last_close": 11.25
     },
     {
-      "ticker": "1099.HK",
-      "name_cn": "国药控股",
-      "gics_sector": "Health Care",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 1,
-      "last_close": 15.65
-    },
-    {
       "ticker": "2506.HK",
       "name_cn": "讯飞医疗科技",
       "gics_sector": "Health Care",
@@ -1382,6 +1372,16 @@
       "emoji": "🔴",
       "days_in_state": 1,
       "last_close": 64.75
+    },
+    {
+      "ticker": "1099.HK",
+      "name_cn": "国药控股",
+      "gics_sector": "Health Care",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 1,
+      "last_close": 15.65
     },
     {
       "ticker": "2518.HK",
