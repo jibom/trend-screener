@@ -1029,8 +1029,8 @@
       const g3set = new Set(all.filter(s =>
         (s.stage === '2' && ((s.t12 != null && s.t12 <= 10) || s.sub === '2A'))
         || (s.stage === '1' && /^2/.test(s.sub || ''))).map(s => s.ticker));
-      const g1 = all.filter(s => ((s.stage === '1' && !g3set.has(s.ticker) && s.sub !== '1B') || s.sub === '4+')).sort(sataSort);
-      const g2 = all.filter(s => s.sub === '1B')
+      const g1 = all.filter(s => ((s.stage === '1' && !g3set.has(s.ticker) && s.sub !== '1+') || s.sub === '4+')).sort(sataSort);
+      const g2 = all.filter(s => s.sub === '1+')
         .sort((a, b) => ((b.marks || []).length - (a.marks || []).length) || sataSort(a, b));   // 有标记(纠缠/背离)优先
       const g3 = all.filter(s => g3set.has(s.ticker))
         .sort((a, b) => (a.stage === '1' ? -1 : (a.t12 != null ? a.t12 : 99)) - (b.stage === '1' ? -1 : (b.t12 != null ? b.t12 : 99)));
@@ -1041,8 +1041,8 @@
                       || ((a.t34 != null ? a.t34 : 99) - (b.t34 != null ? b.t34 : 99)));
       let h = '';
       // 11子档分布条 (文字版钟形曲线; 1灰 2绿 3橙 4红)
-      const SUB_ORDER = ['4+','1','1A','1B','2A','2B','2C','3','4','NA'];
-      const SUB_COLOR = { '4+':'#ff7043','1':'#9e9e9e','1A':'#78909c','1B':'#546e7a',
+      const SUB_ORDER = ['4+','1','1+','2A','2B','2C','3','4','NA'];
+      const SUB_COLOR = { '4+':'#ff7043','1':'#9e9e9e','1+':'#546e7a',
         '2A':'#16a34a','2B':'#16a34a','2C':'#16a34a','3':'#f9a825',
         '4':'#e53935','NA':'#64748b' };
       const subCnt = {};
@@ -1052,7 +1052,7 @@
             `<b style="color:${SUB_COLOR[k]}">${k}</b>×${subCnt[k]}`).join(' <span style="color:#cbd5e1">|</span> ')
         + '</div>';
       h += grp('① 筑底/止跌 (4+止跌信号 + Stage 1过渡/1A, 按SATA周降序)', g1, 20);
-      h += grp('② 要起来 (1B强筑底: 站稳MA5/10/20全上行+周MACD转正; 标记: 预金叉·纠缠·底背离)', g2);
+      h += grp('② 要起来 (1+强筑底: 站稳MA5/10/20全上行+周MACD转正; 标记: 预金叉·纠缠·底背离)', g2);
       h += grp('③ 刚起来/趋势修复 (1→2确认·≤10日 ∪ 2A含修复态·趋势中回调; ⚠=待3日确认)', g3);
       h += grp('④ 趋势上 (Stage 2 成熟段, 按SATA周降序; 2C=延伸忌追高)', g4, 20);
       h += grp('⑤ 见顶/初下行 (3→4确认·≤10日 → 3B → 3A; ⚠=今日下穿待确认)', g5);

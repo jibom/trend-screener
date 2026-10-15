@@ -86,7 +86,7 @@
         "share_5d": 0.13,
         "share5_pctile200": 74.5,
         "ret_60": 0.259,
-        "composite": 0.864,
+        "composite": 0.863,
         "sector": "Industrials"
       },
       {
@@ -148,8 +148,8 @@
         "breadth_60": 23.529,
         "amt_surge": 0.998,
         "amt_rank": 0.448,
-        "amt_1d_yi": 157.78,
-        "amt_5d_yi": 131.75,
+        "amt_1d_yi": 157.79,
+        "amt_5d_yi": 131.76,
         "share_1d": 4.3,
         "share_5d": 4.09,
         "share5_pctile200": 64.5,
@@ -171,7 +171,7 @@
         "share_5d": 2.5,
         "share5_pctile200": 92.0,
         "ret_60": 0.03,
-        "composite": 0.114,
+        "composite": 0.113,
         "sector": "Info Tech"
       }
     ],
@@ -248,10 +248,10 @@
         "breadth_60": 1.852,
         "amt_surge": 1.098,
         "amt_rank": 0.72,
-        "amt_1d_yi": 2067.43,
-        "amt_5d_yi": 1792.67,
+        "amt_1d_yi": 2067.74,
+        "amt_5d_yi": 1792.82,
         "share_1d": 56.36,
-        "share_5d": 55.59,
+        "share_5d": 55.6,
         "share5_pctile200": 47.5,
         "ret_60": 0.022,
         "composite": -0.299
@@ -264,7 +264,7 @@
         "breadth_60": 4.545,
         "amt_surge": 0.891,
         "amt_rank": 0.246,
-        "amt_1d_yi": 72.02,
+        "amt_1d_yi": 72.03,
         "amt_5d_yi": 55.95,
         "share_1d": 1.96,
         "share_5d": 1.74,
@@ -280,8 +280,8 @@
         "breadth_60": 0.0,
         "amt_surge": 0.938,
         "amt_rank": 0.335,
-        "amt_1d_yi": 245.2,
-        "amt_5d_yi": 208.21,
+        "amt_1d_yi": 245.22,
+        "amt_5d_yi": 208.23,
         "share_1d": 6.68,
         "share_5d": 6.46,
         "share5_pctile200": 15.0,
@@ -296,7 +296,7 @@
         "breadth_60": 0.0,
         "amt_surge": 0.983,
         "amt_rank": 0.598,
-        "amt_1d_yi": 240.73,
+        "amt_1d_yi": 240.74,
         "amt_5d_yi": 225.74,
         "share_1d": 6.56,
         "share_5d": 7.0,
@@ -310,214 +310,214 @@
     {
       "sub_industry": "Oil & Gas Refg & Mktg",
       "n": 4,
-      "rs": 56.9,
-      "rs_1w": 11.4,
+      "rs": 53.2,
+      "rs_1w": 3.1,
       "ret_60": 36.9
     },
     {
       "sub_industry": "Oil & Gas Midstream",
       "n": 4,
       "rs": 43.0,
-      "rs_1w": 4.4,
+      "rs_1w": -2.6,
       "ret_60": 35.4
     },
     {
       "sub_industry": "Diagnostics & Research",
       "n": 3,
-      "rs": 39.6,
-      "rs_1w": -0.2,
+      "rs": 39.7,
+      "rs_1w": 1.6,
       "ret_60": 33.1
-    },
-    {
-      "sub_industry": "Electronic Comp",
-      "n": 6,
-      "rs": 31.8,
-      "rs_1w": -16.2,
-      "ret_60": -13.3
-    },
-    {
-      "sub_industry": "Marine Shipping",
-      "n": 4,
-      "rs": 27.0,
-      "rs_1w": 3.3,
-      "ret_60": 14.4
     },
     {
       "sub_industry": "Computer Hardware",
       "n": 3,
-      "rs": 26.8,
-      "rs_1w": -20.2,
+      "rs": 27.1,
+      "rs_1w": -16.5,
       "ret_60": 13.6
     },
     {
-      "sub_industry": "Semiconductor Equip & Mat",
-      "n": 11,
-      "rs": 23.3,
-      "rs_1w": -11.6,
-      "ret_60": -13.2
+      "sub_industry": "Marine Shipping",
+      "n": 4,
+      "rs": 22.4,
+      "rs_1w": -3.8,
+      "ret_60": 14.4
     },
     {
       "sub_industry": "Biotech",
       "n": 7,
-      "rs": 21.6,
-      "rs_1w": -0.1,
+      "rs": 21.8,
+      "rs_1w": 2.3,
       "ret_60": 44.0
     },
     {
       "sub_industry": "Software - Infra",
       "n": 8,
-      "rs": 19.7,
-      "rs_1w": -6.1,
+      "rs": 20.1,
+      "rs_1w": -4.1,
       "ret_60": 27.9
+    },
+    {
+      "sub_industry": "Electronic Comp",
+      "n": 6,
+      "rs": 18.9,
+      "rs_1w": -23.4,
+      "ret_60": -13.3
     },
     {
       "sub_industry": "Internet Content & Info",
       "n": 3,
-      "rs": 15.3,
-      "rs_1w": -8.4,
+      "rs": 15.5,
+      "rs_1w": -5.2,
       "ret_60": 6.1
     },
     {
       "sub_industry": "Semiconductors",
       "n": 12,
-      "rs": 14.0,
-      "rs_1w": -16.7,
+      "rs": 14.1,
+      "rs_1w": -11.6,
       "ret_60": -5.1
     },
     {
       "sub_industry": "Software - Appl",
       "n": 8,
-      "rs": 10.7,
-      "rs_1w": 3.8,
+      "rs": 11.1,
+      "rs_1w": 2.0,
       "ret_60": 46.5
     },
     {
-      "sub_industry": "Electrical Equip & Parts",
-      "n": 9,
-      "rs": 6.1,
-      "rs_1w": -10.1,
-      "ret_60": -15.3
+      "sub_industry": "Semiconductor Equip & Mat",
+      "n": 11,
+      "rs": 9.2,
+      "rs_1w": -23.6,
+      "ret_60": -13.2
     },
     {
       "sub_industry": "Comm Equip",
       "n": 3,
-      "rs": 5.7,
-      "rs_1w": -27.9,
+      "rs": 5.8,
+      "rs_1w": -22.1,
       "ret_60": -4.5
     },
     {
       "sub_industry": "Copper",
       "n": 3,
-      "rs": 1.5,
-      "rs_1w": -0.7,
+      "rs": 1.7,
+      "rs_1w": 0.1,
       "ret_60": 4.8
-    }
-  ],
-  "rs_momentum": [
-    {
-      "sub_industry": "Oil & Gas Refg & Mktg",
-      "n": 4,
-      "rs": 56.9,
-      "rs_1w": 11.4,
-      "ret_60": 36.9
-    },
-    {
-      "sub_industry": "Credit Svc",
-      "n": 3,
-      "rs": 0.2,
-      "rs_1w": 5.2,
-      "ret_60": 6.0
-    },
-    {
-      "sub_industry": "Specialty Chemicals",
-      "n": 4,
-      "rs": -1.2,
-      "rs_1w": 4.8,
-      "ret_60": -1.5
-    },
-    {
-      "sub_industry": "Oil & Gas Midstream",
-      "n": 4,
-      "rs": 43.0,
-      "rs_1w": 4.4,
-      "ret_60": 35.4
-    },
-    {
-      "sub_industry": "Software - Appl",
-      "n": 8,
-      "rs": 10.7,
-      "rs_1w": 3.8,
-      "ret_60": 46.5
-    },
-    {
-      "sub_industry": "Marine Shipping",
-      "n": 4,
-      "rs": 27.0,
-      "rs_1w": 3.3,
-      "ret_60": 14.4
-    },
-    {
-      "sub_industry": "Fin Data & Stock Exchanges",
-      "n": 3,
-      "rs": -5.2,
-      "rs_1w": 2.9,
-      "ret_60": 13.5
     },
     {
       "sub_industry": "Drug Mfr - General",
       "n": 17,
-      "rs": -2.9,
-      "rs_1w": 1.4,
+      "rs": 0.9,
+      "rs_1w": 5.1,
+      "ret_60": 5.5
+    }
+  ],
+  "rs_momentum": [
+    {
+      "sub_industry": "Drug Mfr - General",
+      "n": 17,
+      "rs": 0.9,
+      "rs_1w": 5.1,
       "ret_60": 5.5
     },
     {
-      "sub_industry": "Agricultural Inputs",
+      "sub_industry": "Credit Svc",
       "n": 3,
-      "rs": -9.0,
-      "rs_1w": 1.0,
-      "ret_60": -6.9
+      "rs": 0.6,
+      "rs_1w": 4.1,
+      "ret_60": 6.0
     },
     {
-      "sub_industry": "Conglomerates",
-      "n": 8,
-      "rs": -3.6,
-      "rs_1w": 0.1,
-      "ret_60": -0.1
+      "sub_industry": "Oil & Gas Refg & Mktg",
+      "n": 4,
+      "rs": 53.2,
+      "rs_1w": 3.1,
+      "ret_60": 36.9
+    },
+    {
+      "sub_industry": "Specialty Chemicals",
+      "n": 4,
+      "rs": -2.9,
+      "rs_1w": 2.8,
+      "ret_60": -1.5
+    },
+    {
+      "sub_industry": "Fin Data & Stock Exchanges",
+      "n": 3,
+      "rs": -4.8,
+      "rs_1w": 2.6,
+      "ret_60": 13.5
     },
     {
       "sub_industry": "Biotech",
       "n": 7,
-      "rs": 21.6,
-      "rs_1w": -0.1,
+      "rs": 21.8,
+      "rs_1w": 2.3,
       "ret_60": 44.0
     },
     {
-      "sub_industry": "Banks - Div",
-      "n": 4,
-      "rs": -9.7,
-      "rs_1w": -0.2,
-      "ret_60": -6.8
+      "sub_industry": "Software - Appl",
+      "n": 8,
+      "rs": 11.1,
+      "rs_1w": 2.0,
+      "ret_60": 46.5
     },
     {
       "sub_industry": "Diagnostics & Research",
       "n": 3,
-      "rs": 39.6,
-      "rs_1w": -0.2,
+      "rs": 39.7,
+      "rs_1w": 1.6,
       "ret_60": 33.1
     },
     {
-      "sub_industry": "Gold",
-      "n": 5,
-      "rs": -7.6,
-      "rs_1w": -0.7,
-      "ret_60": 17.1
+      "sub_industry": "Agricultural Inputs",
+      "n": 3,
+      "rs": -8.7,
+      "rs_1w": 1.5,
+      "ret_60": -6.9
     },
     {
       "sub_industry": "Copper",
       "n": 3,
-      "rs": 1.5,
-      "rs_1w": -0.7,
+      "rs": 1.7,
+      "rs_1w": 0.1,
       "ret_60": 4.8
+    },
+    {
+      "sub_industry": "Conglomerates",
+      "n": 8,
+      "rs": -5.0,
+      "rs_1w": 0.0,
+      "ret_60": -0.1
+    },
+    {
+      "sub_industry": "Other Indl Metals & Mining",
+      "n": 4,
+      "rs": -3.7,
+      "rs_1w": -0.8,
+      "ret_60": -1.2
+    },
+    {
+      "sub_industry": "Banks - Div",
+      "n": 4,
+      "rs": -9.4,
+      "rs_1w": -1.1,
+      "ret_60": -6.8
+    },
+    {
+      "sub_industry": "Aero & Def",
+      "n": 11,
+      "rs": -15.9,
+      "rs_1w": -1.4,
+      "ret_60": -9.8
+    },
+    {
+      "sub_industry": "Capital Markets",
+      "n": 6,
+      "rs": -5.4,
+      "rs_1w": -2.0,
+      "ret_60": 5.5
     }
   ],
   "part1c1": [
@@ -612,7 +612,7 @@
       "name": "Nitto Denko",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 22.839,
+      "close": 22.857,
       "pct_high_250": 0.903,
       "amt_surge": 1.029,
       "amt_rank": 0.041,
@@ -1149,7 +1149,7 @@
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & Gen…",
       "sector": "Health Care",
-      "close": 39.172,
+      "close": 39.202,
       "pct_high_250": 1.0,
       "amt_surge": 1.172,
       "amt_rank": 0.218,
@@ -1212,7 +1212,7 @@
       "ticker": "4502.JP",
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & Gen…",
-      "close": 39.17,
+      "close": 39.2,
       "ret_1d": 5.0,
       "ret_3d": 5.8,
       "vol_ratio": 2.19,
@@ -1223,7 +1223,7 @@
       "ticker": "4519.JP",
       "name": "Chugai Pharmaceutica…",
       "sub_industry": "Drug Mfr - General",
-      "close": 39.7,
+      "close": 39.73,
       "ret_1d": 3.8,
       "ret_3d": 4.1,
       "vol_ratio": 1.65,
@@ -1234,7 +1234,7 @@
       "ticker": "4503.JP",
       "name": "Astellas Pharma",
       "sub_industry": "Drug Mfr - General",
-      "close": 14.93,
+      "close": 14.94,
       "ret_1d": 4.2,
       "ret_3d": 4.8,
       "vol_ratio": 1.51,
@@ -1282,7 +1282,7 @@
       "ticker": "8002.JP",
       "name": "Marubeni",
       "sub_industry": "Conglomerates",
-      "close": 30.505,
+      "close": 30.528,
       "wj_min": 4.4,
       "pos250": 0.49,
       "div": 0,
@@ -1622,7 +1622,7 @@
       "ticker": "4063.JP",
       "name": "Shin-Etsu Chemical",
       "sub_industry": "Chemicals",
-      "close": 37.778,
+      "close": 37.807,
       "sig": "",
       "tr": 13.7,
       "mom": "",
@@ -1634,7 +1634,7 @@
       "ticker": "6976.JP",
       "name": "Taiyo Yuden Co., Ltd.",
       "sub_industry": "Electronic Components",
-      "close": 62.492,
+      "close": 62.54,
       "sig": "",
       "tr": 2.7,
       "mom": "",
@@ -1646,7 +1646,7 @@
       "ticker": "9983.JP",
       "name": "Fast Retailing",
       "sub_industry": "Apparel Retail",
-      "close": 484.022,
+      "close": 484.394,
       "sig": "",
       "tr": 25.5,
       "mom": "",
@@ -2282,7 +2282,7 @@
       "ticker": "4901.JP",
       "name": "Fujifilm",
       "sub_industry": "Conglomerates",
-      "close": 21.54,
+      "close": 21.557,
       "sig": "",
       "tr": 29.5,
       "mom": "",
@@ -2582,7 +2582,7 @@
       "ticker": "6503.JP",
       "name": "Mitsubishi Electric Corp.",
       "sub_industry": "Electrical Equipment & Parts",
-      "close": 31.138,
+      "close": 31.162,
       "sig": "",
       "tr": 10.1,
       "mom": "",
@@ -2594,7 +2594,7 @@
       "ticker": "6981.JP",
       "name": "Murata",
       "sub_industry": "Electronic Components",
-      "close": 42.757,
+      "close": 42.79,
       "sig": "",
       "tr": 23.1,
       "mom": "",
@@ -2606,7 +2606,7 @@
       "ticker": "7741.JP",
       "name": "HOYA",
       "sub_industry": "Medical Instruments & Supplies",
-      "close": 158.099,
+      "close": 158.22,
       "sig": "",
       "tr": 44.5,
       "mom": "",
@@ -2834,7 +2834,7 @@
       "ticker": "3436.JP",
       "name": "SUMCO",
       "sub_industry": "Semiconductor Equipment & Materials",
-      "close": 16.805,
+      "close": 16.817,
       "sig": "",
       "tr": 3.9,
       "mom": "",
@@ -2846,7 +2846,7 @@
       "ticker": "4186.JP",
       "name": "Tokyo Ohka Kogyo",
       "sub_industry": "Electronic Components",
-      "close": 51.488,
+      "close": 51.527,
       "sig": "",
       "tr": 23.4,
       "mom": "",
@@ -2858,7 +2858,7 @@
       "ticker": "5802.JP",
       "name": "Sumitomo Electric",
       "sub_industry": "Auto Parts",
-      "close": 13.352,
+      "close": 13.362,
       "sig": "",
       "tr": 20.8,
       "mom": "",
@@ -2870,7 +2870,7 @@
       "ticker": "6762.JP",
       "name": "TDK",
       "sub_industry": "Electronic Components",
-      "close": 18.395,
+      "close": 18.409,
       "sig": "",
       "tr": 30.5,
       "mom": "",
@@ -3297,7 +3297,7 @@
         ],
         [
           188,
-          "1B→3"
+          "1+→3"
         ]
       ],
       "stage_days": 181,
@@ -4099,7 +4099,7 @@
       "name": "Advantest",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 217.557,
+      "close": 217.723,
       "hotness": 0.877,
       "ret_60": 0.09,
       "pct_high_250": 0.821,
@@ -5108,7 +5108,7 @@
       "name": "Itochu",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 14.071,
+      "close": 14.082,
       "hotness": 0.604,
       "ret_60": 0.159,
       "pct_high_250": 0.946,
@@ -5576,7 +5576,7 @@
         ],
         [
           111,
-          "1B→3"
+          "1+→3"
         ]
       ],
       "stage_days": 107,
@@ -5617,7 +5617,7 @@
       "name": "Takeda Pharmaceutica…",
       "sub_industry": "Drug Mfr - Specialty & Gen…",
       "sector": "Health Care",
-      "close": 39.172,
+      "close": 39.202,
       "hotness": 0.443,
       "ret_60": 0.19,
       "pct_high_250": 1.0,
@@ -5780,7 +5780,7 @@
       "name": "Kawasaki Kisen",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 21.369,
+      "close": 21.386,
       "hotness": 0.404,
       "ret_60": 0.283,
       "pct_high_250": 0.965,
@@ -5819,7 +5819,7 @@
       "name": "Nippon Yusen Kaisha",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 46.198,
+      "close": 46.233,
       "hotness": 0.404,
       "ret_60": 0.321,
       "pct_high_250": 0.965,
@@ -6019,7 +6019,7 @@
       "name": "Mitsui O.S.K. Lines",
       "sub_industry": "Marine Shipping",
       "sector": "Industrials",
-      "close": 46.229,
+      "close": 46.265,
       "hotness": 0.325,
       "ret_60": 0.32,
       "pct_high_250": 0.953,
@@ -6572,7 +6572,7 @@
         ],
         [
           25,
-          "1A→2A"
+          "1→2A"
         ]
       ],
       "stage_days": 25,
@@ -6842,7 +6842,7 @@
       "name": "Ibiden",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 58.368,
+      "close": 58.413,
       "hotness": 0.142,
       "ret_60": -0.046,
       "pct_high_250": 0.698,
@@ -7186,7 +7186,7 @@
       "name": "Taiyo Yuden",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 62.492,
+      "close": 62.54,
       "hotness": 0.107,
       "ret_60": -0.214,
       "pct_high_250": 0.438,
@@ -7200,15 +7200,15 @@
       "sub_hist": [
         [
           3,
-          "1A→2A"
-        ],
-        [
-          10,
-          "1→1A"
+          "1→2A"
         ],
         [
           29,
           "2A→1"
+        ],
+        [
+          52,
+          "2C→2A"
         ]
       ],
       "stage_days": 3,
@@ -7522,15 +7522,15 @@
       "sub_hist": [
         [
           38,
-          "1B→3"
+          "1+→3"
         ],
         [
           39,
-          "1A→1B"
+          "1→1+"
         ],
         [
           40,
-          "4→1A"
+          "4→1"
         ]
       ],
       "stage_days": 38,
@@ -7647,15 +7647,15 @@
       "sub_hist": [
         [
           5,
-          "1A→3"
-        ],
-        [
-          6,
-          "1→1A"
+          "1→3"
         ],
         [
           11,
           "2A→1"
+        ],
+        [
+          13,
+          "2C→2A"
         ]
       ],
       "stage_days": 5,
@@ -7794,7 +7794,7 @@
       "name": "Nitto Denko",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 22.839,
+      "close": 22.857,
       "hotness": 0.021,
       "ret_60": 0.095,
       "pct_high_250": 0.903,
@@ -7816,7 +7816,7 @@
         ],
         [
           14,
-          "1B→3"
+          "1+→3"
         ]
       ],
       "stage_days": 12,
@@ -7831,7 +7831,7 @@
       "name": "Toyota Tsusho",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 46.426,
+      "close": 46.461,
       "hotness": 0.009,
       "ret_60": 0.188,
       "pct_high_250": 0.959,
@@ -7870,7 +7870,7 @@
       "name": "ENEOS",
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
-      "close": 8.717,
+      "close": 8.724,
       "hotness": 0.006,
       "ret_60": 0.085,
       "pct_high_250": 0.913,
@@ -8018,19 +8018,19 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
-      "sub_days": 5,
+      "sub_days": 29,
       "sub_hist": [
-        [
-          5,
-          "1A→1"
-        ],
-        [
-          7,
-          "1→1A"
-        ],
         [
           29,
           "2A→1"
+        ],
+        [
+          34,
+          "2B→2A"
+        ],
+        [
+          50,
+          "2A→2B"
         ]
       ],
       "stage_days": 29,
@@ -8069,7 +8069,7 @@
       "name": "Fast Retailing",
       "sub_industry": "Apparel Retail",
       "sector": "Consumer Discretionary",
-      "close": 484.022,
+      "close": 484.394,
       "hotness": -0.016,
       "ret_60": -0.024,
       "pct_high_250": 0.876,
@@ -8128,7 +8128,7 @@
         ],
         [
           72,
-          "1A→4"
+          "1→4"
         ]
       ],
       "stage_days": 30,
@@ -8167,7 +8167,7 @@
       "name": "Lasertec",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 248.473,
+      "close": 248.664,
       "hotness": -0.024,
       "ret_60": -0.211,
       "pct_high_250": 0.685,
@@ -8499,11 +8499,11 @@
       "sub_hist": [
         [
           44,
-          "1A→3"
+          "1→3"
         ],
         [
           45,
-          "4→1A"
+          "4→1"
         ],
         [
           68,
@@ -8764,12 +8764,12 @@
       "sata_d": 3,
       "sata_w": 3,
       "stage": "4",
-      "sub": "1A",
+      "sub": "1",
       "sub_days": 2,
       "sub_hist": [
         [
           2,
-          "4→1A"
+          "4→1"
         ],
         [
           43,
@@ -9002,7 +9002,7 @@
       "name": "Otsuka",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 76.119,
+      "close": 76.178,
       "hotness": -0.106,
       "ret_60": 0.096,
       "pct_high_250": 0.946,
@@ -9170,16 +9170,16 @@
       "sata_d": 6,
       "sata_w": 7,
       "stage": "1",
-      "sub": "1A",
+      "sub": "1",
       "sub_days": 15,
       "sub_hist": [
         [
           15,
-          "1B→1A"
+          "1+→1"
         ],
         [
           17,
-          "4→1B"
+          "4→1+"
         ],
         [
           48,
@@ -9222,7 +9222,7 @@
       "name": "Keyence",
       "sub_industry": "Sci & Tech Instr",
       "sector": "Info Tech",
-      "close": 500.304,
+      "close": 500.688,
       "hotness": -0.119,
       "ret_60": 0.034,
       "pct_high_250": 0.904,
@@ -9343,11 +9343,11 @@
         ],
         [
           35,
-          "1B→2A"
+          "1+→2A"
         ],
         [
           38,
-          "1→1B"
+          "1→1+"
         ]
       ],
       "stage_days": 35,
@@ -9407,11 +9407,11 @@
         ],
         [
           12,
-          "1A→3"
+          "1→3"
         ],
         [
-          14,
-          "1→1A"
+          21,
+          "2A→1"
         ]
       ],
       "stage_days": 10,
@@ -9450,7 +9450,7 @@
       "name": "Resonac",
       "sub_industry": "Chemicals",
       "sector": "Mat",
-      "close": 95.189,
+      "close": 95.262,
       "hotness": -0.155,
       "ret_60": -0.058,
       "pct_high_250": 0.772,
@@ -9672,8 +9672,8 @@
           "1→4"
         ],
         [
-          21,
-          "1A→1"
+          28,
+          "3→1"
         ]
       ],
       "stage_days": 12,
@@ -10085,7 +10085,7 @@
       "name": "Murata",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 42.757,
+      "close": 42.79,
       "hotness": -0.212,
       "ret_60": -0.255,
       "pct_high_250": 0.553,
@@ -10124,7 +10124,7 @@
       "name": "Nidec",
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
-      "close": 11.524,
+      "close": 11.533,
       "hotness": -0.218,
       "ret_60": -0.307,
       "pct_high_250": 0.627,
@@ -10458,15 +10458,15 @@
       "sub_hist": [
         [
           3,
-          "1A→2A"
-        ],
-        [
-          4,
-          "1→1A"
+          "1→2A"
         ],
         [
           13,
           "3→1"
+        ],
+        [
+          39,
+          "4→3"
         ]
       ],
       "stage_days": 3,
@@ -10576,19 +10576,19 @@
       "sata_w": 3,
       "stage": "1",
       "sub": "1",
-      "sub_days": 1,
+      "sub_days": 14,
       "sub_hist": [
         [
-          1,
-          "1A→1"
+          14,
+          "1+→1"
         ],
         [
-          4,
-          "1→1A"
+          17,
+          "4→1+"
         ],
         [
-          6,
-          "1A→1"
+          20,
+          "4+→4"
         ]
       ],
       "stage_days": 17,
@@ -10627,7 +10627,7 @@
       "name": "Tokyo Electron",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 65.666,
+      "close": 65.716,
       "hotness": -0.281,
       "ret_60": -0.277,
       "pct_high_250": 0.681,
@@ -10803,15 +10803,15 @@
       "sub_hist": [
         [
           4,
-          "1A→2A"
-        ],
-        [
-          13,
-          "1→1A"
+          "1→2A"
         ],
         [
           26,
           "3→1"
+        ],
+        [
+          28,
+          "2A→3"
         ]
       ],
       "stage_days": 4,
@@ -10850,7 +10850,7 @@
       "name": "TDK",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 18.395,
+      "close": 18.409,
       "hotness": -0.305,
       "ret_60": -0.099,
       "pct_high_250": 0.711,
@@ -11086,7 +11086,7 @@
       "name": "Astellas Pharma",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 14.929,
+      "close": 14.941,
       "hotness": -0.314,
       "ret_60": 0.119,
       "pct_high_250": 0.902,
@@ -11186,7 +11186,7 @@
       "name": "HOYA",
       "sub_industry": "Medical Instr & Supplies",
       "sector": "Health Care",
-      "close": 158.099,
+      "close": 158.22,
       "hotness": -0.315,
       "ret_60": -0.015,
       "pct_high_250": 0.831,
@@ -11284,7 +11284,7 @@
       "name": "Nagase &",
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
-      "close": 7.571,
+      "close": 7.577,
       "hotness": -0.322,
       "ret_60": 0.023,
       "pct_high_250": 0.95,
@@ -11342,8 +11342,8 @@
           "1→4"
         ],
         [
-          27,
-          "1A→1"
+          34,
+          "3→1"
         ]
       ],
       "stage_days": 9,
@@ -11385,14 +11385,14 @@
       "name": "Sumitomo",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 10.849,
+      "close": 10.858,
       "hotness": -0.351,
       "ret_60": 0.089,
       "pct_high_250": 0.9,
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 6,
-      "sata_w": 3,
+      "sata_w": 4,
       "stage": "2",
       "sub": "2C",
       "sub_days": 13,
@@ -11541,12 +11541,12 @@
           "1→2A"
         ],
         [
-          2,
-          "1A→1"
+          14,
+          "1+→1"
         ],
         [
-          14,
-          "1B→1A"
+          18,
+          "1→1+"
         ]
       ],
       "stage_days": 32,
@@ -11607,7 +11607,7 @@
         ],
         [
           36,
-          "1A→2A"
+          "1→2A"
         ]
       ],
       "stage_days": 16,
@@ -11622,29 +11622,29 @@
       "name": "Fujifilm",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 21.54,
+      "close": 21.557,
       "hotness": -0.384,
       "ret_60": -0.05,
       "pct_high_250": 0.887,
       "ma_aligned": 0,
       "days_below_ma10": 1,
       "sata_d": 5,
-      "sata_w": 6,
+      "sata_w": 7,
       "stage": "3",
       "sub": "3",
       "sub_days": 14,
       "sub_hist": [
         [
           14,
-          "1A→3"
-        ],
-        [
-          15,
-          "1→1A"
+          "1→3"
         ],
         [
           26,
           "3→1"
+        ],
+        [
+          29,
+          "1→3"
         ]
       ],
       "stage_days": 14,
@@ -11783,7 +11783,7 @@
       "name": "Mitsubishi",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 29.612,
+      "close": 29.634,
       "hotness": -0.409,
       "ret_60": 0.033,
       "pct_high_250": 0.805,
@@ -11959,12 +11959,12 @@
           "1→4"
         ],
         [
-          15,
-          "1A→1"
+          25,
+          "1+→1"
         ],
         [
-          25,
-          "1B→1A"
+          28,
+          "4→1+"
         ]
       ],
       "stage_days": 6,
@@ -12003,7 +12003,7 @@
       "name": "Mitsui &",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 31.088,
+      "close": 31.112,
       "hotness": -0.489,
       "ret_60": 0.032,
       "pct_high_250": 0.754,
@@ -12013,19 +12013,19 @@
       "sata_w": 2,
       "stage": "1",
       "sub": "1",
-      "sub_days": 1,
+      "sub_days": 12,
       "sub_hist": [
         [
-          1,
-          "1A→1"
+          12,
+          "3→1"
         ],
         [
-          2,
-          "1→1A"
+          29,
+          "4→3"
         ],
         [
-          6,
-          "1A→1"
+          43,
+          "3→4"
         ]
       ],
       "stage_days": 12,
@@ -12050,19 +12050,19 @@
       "sata_w": 3,
       "stage": "1",
       "sub": "1",
-      "sub_days": 1,
+      "sub_days": 22,
       "sub_hist": [
         [
-          1,
-          "1A→1"
+          22,
+          "3→1"
         ],
         [
-          2,
-          "1→1A"
+          28,
+          "4→3"
         ],
         [
-          3,
-          "1A→1"
+          43,
+          "NA→4"
         ]
       ],
       "stage_days": 22,
@@ -12162,7 +12162,7 @@
       "name": "SCREEN",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 85.939,
+      "close": 86.005,
       "hotness": -0.537,
       "ret_60": -0.28,
       "pct_high_250": 0.699,
@@ -12213,15 +12213,15 @@
       "sub_hist": [
         [
           8,
-          "1B→2A"
+          "1+→2A"
         ],
         [
           11,
-          "1A→1B"
+          "1→1+"
         ],
         [
           14,
-          "1B→1A"
+          "1+→1"
         ]
       ],
       "stage_days": 8,
@@ -12260,7 +12260,7 @@
       "name": "Daiichi Sankyo Compa…",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 16.795,
+      "close": 16.808,
       "hotness": -0.546,
       "ret_60": 0.008,
       "pct_high_250": 0.655,
@@ -12270,19 +12270,19 @@
       "sata_w": 2,
       "stage": "1",
       "sub": "1",
-      "sub_days": 6,
+      "sub_days": 13,
       "sub_hist": [
         [
-          6,
-          "1A→1"
+          13,
+          "1+→1"
         ],
         [
-          7,
-          "1→1A"
+          14,
+          "1→1+"
         ],
         [
-          10,
-          "1A→1"
+          15,
+          "1+→1"
         ]
       ],
       "stage_days": 27,
@@ -12376,11 +12376,11 @@
         ],
         [
           22,
-          "1A→4"
+          "1→4"
         ],
         [
-          23,
-          "1→1A"
+          34,
+          "4→1"
         ]
       ],
       "stage_days": 22,
@@ -12422,7 +12422,7 @@
       "name": "Mitsubishi Heavy Ind…",
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
-      "close": 22.814,
+      "close": 22.831,
       "hotness": -0.558,
       "ret_60": -0.056,
       "pct_high_250": 0.698,
@@ -12473,19 +12473,19 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
-      "sub_days": 11,
+      "sub_days": 27,
       "sub_hist": [
         [
-          11,
-          "1A→1"
+          27,
+          "3→1"
         ],
         [
-          17,
-          "1→1A"
+          39,
+          "4→3"
         ],
         [
-          19,
-          "1A→1"
+          76,
+          "4+→4"
         ]
       ],
       "stage_days": 27,
@@ -12524,7 +12524,7 @@
       "name": "Mitsubishi Electric",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 31.138,
+      "close": 31.162,
       "hotness": -0.566,
       "ret_60": -0.142,
       "pct_high_250": 0.754,
@@ -12574,19 +12574,19 @@
       "sata_w": 1,
       "stage": "1",
       "sub": "1",
-      "sub_days": 5,
+      "sub_days": 38,
       "sub_hist": [
         [
-          5,
-          "1A→1"
+          38,
+          "3→1"
         ],
         [
-          10,
-          "1→1A"
+          50,
+          "2A→3"
         ],
         [
-          11,
-          "1A→1"
+          58,
+          "2C→2A"
         ]
       ],
       "stage_days": 38,
@@ -12625,7 +12625,7 @@
       "name": "Shin-Etsu Chemical",
       "sub_industry": "Chemicals",
       "sector": "Mat",
-      "close": 37.778,
+      "close": 37.807,
       "hotness": -0.568,
       "ret_60": -0.222,
       "pct_high_250": 0.767,
@@ -12643,11 +12643,11 @@
         ],
         [
           7,
-          "1A→3"
+          "1→3"
         ],
         [
-          8,
-          "1→1A"
+          28,
+          "3→1"
         ]
       ],
       "stage_days": 4,
@@ -12662,7 +12662,7 @@
       "name": "Marubeni",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 30.505,
+      "close": 30.528,
       "hotness": -0.578,
       "ret_60": -0.046,
       "pct_high_250": 0.781,
@@ -12723,8 +12723,8 @@
           "1→4"
         ],
         [
-          27,
-          "1A→1"
+          28,
+          "1+→1"
         ]
       ],
       "stage_days": 6,
@@ -12766,7 +12766,7 @@
       "name": "Fuji Electric",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 88.283,
+      "close": 88.351,
       "hotness": -0.585,
       "ret_60": 0.085,
       "pct_high_250": 0.813,
@@ -12903,7 +12903,7 @@
       "name": "DIS",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 336.915,
+      "close": 337.173,
       "hotness": -0.667,
       "ret_60": -0.275,
       "pct_high_250": 0.603,
@@ -12940,7 +12940,7 @@
       "name": "Furukawa Electric",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 21.388,
+      "close": 21.405,
       "hotness": -0.684,
       "ret_60": -0.101,
       "pct_high_250": 0.563,
@@ -12977,7 +12977,7 @@
       "name": "TOPPAN",
       "sub_industry": "Conglomerates",
       "sector": "Industrials",
-      "close": 14.153,
+      "close": 14.164,
       "hotness": -0.688,
       "ret_60": -0.075,
       "pct_high_250": 0.782,
@@ -13219,7 +13219,7 @@
         ],
         [
           17,
-          "1A→2B"
+          "1→2B"
         ]
       ],
       "stage_days": 5,
@@ -13258,7 +13258,7 @@
       "name": "SUM",
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
-      "close": 16.805,
+      "close": 16.817,
       "hotness": -0.779,
       "ret_60": -0.477,
       "pct_high_250": 0.5,
@@ -13295,7 +13295,7 @@
       "name": "Chugai Pharmaceutica…",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
-      "close": 39.704,
+      "close": 39.734,
       "hotness": -0.794,
       "ret_60": -0.121,
       "pct_high_250": 0.605,
@@ -13335,7 +13335,7 @@
       "name": "Tokyo Ohka Kogyo",
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
-      "close": 51.488,
+      "close": 51.527,
       "hotness": -0.804,
       "ret_60": -0.277,
       "pct_high_250": 0.702,
@@ -13372,7 +13372,7 @@
       "name": "Sumitomo Electric",
       "sub_industry": "Auto Parts",
       "sector": "Consumer Discretionary",
-      "close": 13.352,
+      "close": 13.362,
       "hotness": -0.829,
       "ret_60": -0.16,
       "pct_high_250": 0.609,
@@ -13382,19 +13382,19 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "1",
-      "sub_days": 1,
+      "sub_days": 2,
       "sub_hist": [
         [
-          1,
-          "1A→1"
-        ],
-        [
           2,
-          "4→1A"
+          "4→1"
         ],
         [
           10,
-          "1A→4"
+          "1→4"
+        ],
+        [
+          27,
+          "3→1"
         ]
       ],
       "stage_days": 10,
@@ -13470,7 +13470,7 @@
       "name": "Yaskawa",
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
-      "close": 27.077,
+      "close": 27.098,
       "hotness": -0.98,
       "ret_60": -0.216,
       "pct_high_250": 0.562,
@@ -13507,7 +13507,7 @@
       "name": "Ebara",
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
-      "close": 26.216,
+      "close": 26.236,
       "hotness": -0.982,
       "ret_60": -0.336,
       "pct_high_250": 0.614,

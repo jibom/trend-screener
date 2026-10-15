@@ -1224,16 +1224,6 @@
       "last_close": 79.8
     },
     {
-      "ticker": "0501.HK",
-      "name_cn": "豪威集团",
-      "gics_sector": "Information Technology",
-      "alert_type": "B_EXIT",
-      "label": "B·EXIT",
-      "emoji": "🔴",
-      "days_in_state": 4,
-      "last_close": 63.4
-    },
-    {
       "ticker": "1810.HK",
       "name_cn": "小米集团-W",
       "gics_sector": "Information Technology",
@@ -1252,6 +1242,16 @@
       "emoji": "🔴",
       "days_in_state": 2,
       "last_close": 136.0
+    },
+    {
+      "ticker": "0501.HK",
+      "name_cn": "豪威集团",
+      "gics_sector": "Information Technology",
+      "alert_type": "B_EXIT",
+      "label": "B·EXIT",
+      "emoji": "🔴",
+      "days_in_state": 4,
+      "last_close": 63.4
     },
     {
       "ticker": "1801.HK",
