@@ -93,7 +93,7 @@
       "pct_high_250": 0.981,
       "pct_high_126": 0.981,
       "nh_ratio_126": 0.317,
-      "amt_surge": 1.012,
+      "amt_surge": 1.013,
       "amt_rank": 0.621,
       "ret_60": 0.041,
       "ma_aligned": 1,
@@ -141,7 +141,7 @@
       "pct_high_250": 0.981,
       "pct_high_126": 0.981,
       "nh_ratio_126": 0.079,
-      "amt_surge": 1.213,
+      "amt_surge": 1.214,
       "amt_rank": 0.605,
       "ret_60": 0.088,
       "ma_aligned": 1,
@@ -693,7 +693,7 @@
       "ma_aligned": 1,
       "days_below_ma10": 6,
       "ma_stack": 0,
-      "hotness": 0.049
+      "hotness": 0.048
     },
     {
       "ticker": "BITO.US",
@@ -1188,7 +1188,7 @@
       "close": 79.52,
       "sig": "",
       "tr": -6.5,
-      "mom": 39.0,
+      "mom": 40.0,
       "panic": "",
       "weekly": "无背离",
       "days": 4
@@ -1221,9 +1221,9 @@
       "ticker": "RSPF.US",
       "name": "Invesco S&P 500 Equal Weight Fi",
       "sub_industry": "S&P 500 EW Financials",
-      "close": 78.368,
+      "close": 78.37,
       "sig": "",
-      "tr": 8.4,
+      "tr": 8.5,
       "mom": 36.0,
       "panic": "",
       "weekly": "无背离",
@@ -2112,7 +2112,7 @@
       "ret_60": 0.029,
       "ma_aligned": 1,
       "days_below_ma10": 3,
-      "hotness": 0.531
+      "hotness": 0.53
     },
     {
       "ticker": "XLV.US",
@@ -2610,17 +2610,6 @@
       "hotness": 0.24
     },
     {
-      "ticker": "SMH.US",
-      "name": "VanEck Semiconductor ETF",
-      "sub_industry": "Semiconductor",
-      "close": 564.74,
-      "pct_high_250": 0.844,
-      "ret_60": -0.033,
-      "ma_aligned": 0,
-      "days_below_ma10": 5,
-      "hotness": 0.234
-    },
-    {
       "ticker": "BBJP.US",
       "name": "JPMorgan BetaBuilders Japan ETF",
       "sub_industry": "Japan Stock",
@@ -2628,6 +2617,17 @@
       "pct_high_250": 0.967,
       "ret_60": 0.033,
       "ma_aligned": 1,
+      "days_below_ma10": 5,
+      "hotness": 0.239
+    },
+    {
+      "ticker": "SMH.US",
+      "name": "VanEck Semiconductor ETF",
+      "sub_industry": "Semiconductor",
+      "close": 564.74,
+      "pct_high_250": 0.844,
+      "ret_60": -0.033,
+      "ma_aligned": 0,
       "days_below_ma10": 5,
       "hotness": 0.234
     },
@@ -2651,7 +2651,7 @@
       "ret_60": 0.03,
       "ma_aligned": 1,
       "days_below_ma10": 3,
-      "hotness": 0.215
+      "hotness": 0.214
     },
     {
       "ticker": "FXL.US",
@@ -2849,7 +2849,7 @@
       "ret_60": 0.097,
       "ma_aligned": 1,
       "days_below_ma10": 1,
-      "hotness": 0.103
+      "hotness": 0.102
     },
     {
       "ticker": "VHT.US",
@@ -2959,7 +2959,7 @@
       "ret_60": 0.228,
       "ma_aligned": 1,
       "days_below_ma10": 6,
-      "hotness": 0.049
+      "hotness": 0.048
     },
     {
       "ticker": "XLRE.US",
@@ -3141,7 +3141,7 @@
       "ticker": "RSPF.US",
       "name": "Invesco S&P 500 Equal Weight Fi",
       "sub_industry": "S&P 500 EW Financials",
-      "close": 78.368,
+      "close": 78.37,
       "pct_high_250": 0.914,
       "ret_60": -0.042,
       "ma_aligned": 0,
@@ -3542,7 +3542,7 @@
       "ret_60": -0.06,
       "ma_aligned": 0,
       "days_below_ma10": 1,
-      "hotness": -0.498
+      "hotness": -0.497
     },
     {
       "ticker": "RSPR.US",
@@ -3553,7 +3553,7 @@
       "ret_60": -0.092,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -0.529
+      "hotness": -0.528
     },
     {
       "ticker": "DRAM.US",
@@ -3564,7 +3564,7 @@
       "ret_60": -0.148,
       "ma_aligned": 0,
       "days_below_ma10": 7,
-      "hotness": -0.57
+      "hotness": -0.572
     },
     {
       "ticker": "OIH.US",
@@ -3828,7 +3828,7 @@
       "ret_60": -0.195,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": -1.464
+      "hotness": -1.47
     },
     {
       "ticker": "CWEB.US",
