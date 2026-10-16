@@ -1018,7 +1018,7 @@
         + ((s.stage === '3' && /^4/.test(s.sub || '')) ? '<b style="color:#f59e0b">⚠下穿待确认</b>' : '');
       const row = s => [
         tk(s.ticker, 'lifecycle'), s.name, s.sub_industry || '-', num2(s.close),
-        (s.sub ? `<b>${s.sub}</b>` : '-'), sataCell(s.sata_d), sataCell(s.sata_w),
+        (s.sub ? `<b>${s.sub}</b>${provBadge(s)}` : '-'), sataCell(s.sata_d), sataCell(s.sata_w),
         s.stage_days != null ? s.stage_days : '-', note(s)];
       const grp = (title, arr, cap) => {
         const shown = cap ? arr.slice(0, cap) : arr;
@@ -1047,11 +1047,13 @@
         '4':'#e53935','NA':'#64748b' };
       const subCnt = {};
       all.forEach(x => { const k = x.sub || 'NA'; subCnt[k] = (subCnt[k] || 0) + 1; });
+      const provN = all.filter(x => x.prov).length;
       h += '<div style="padding:6px 0 2px;font-size:12px;letter-spacing:.2px">'
         + SUB_ORDER.filter(k => subCnt[k]).map(k =>
-            `<b style="color:${SUB_COLOR[k]}">${k}</b>×${subCnt[k]}`).join(' <span style="color:#cbd5e1">|</span> ')
+            `<b style="color:${SUB_COLOR[k]}">${k === 'NA' ? 'NA(新股)' : k}</b>×${subCnt[k]}`).join(' <span style="color:#cbd5e1">|</span> ')
+        + (provN ? ` <span style="color:#f59e0b;font-size:11px">· 其中${provN}只为新股弱规则档(标"新")</span>` : '')
         + '</div>';
-      h += grp('① 筑底/止跌 (4+止跌信号 + Stage 1过渡/1A, 按SATA周降序)', g1, 20);
+      h += grp('① 筑底/止跌 (4+止跌信号 + Stage 1过渡/1, 按SATA周降序)', g1, 20);
       h += grp('② 要起来 (1+强筑底: 站稳MA5/10/20全上行+周MACD转正; 标记: 预金叉·纠缠·底背离)', g2);
       h += grp('③ 刚起来/趋势修复 (1→2确认·≤10日 ∪ 2A含修复态·趋势中回调; ⚠=待3日确认)', g3);
       h += grp('④ 趋势上 (Stage 2 成熟段, 按SATA周降序; 2C=延伸忌追高)', g4, 20);
@@ -1225,7 +1227,7 @@
         `<a class="tk-link" href="#" onclick="openStockFromDetail('${s.ticker}'); return false;">${s.ticker}</a>`,
         s.name, num2(s.close), signedR(s.ret_60), pctR(s.pct_high_250),
         yn(s.ma_aligned), stageCell(s.stage),
-        (s.sub ? `<b style="font-size:11px">${s.sub}</b>` : '-'),
+        (s.sub ? `<b style="font-size:11px">${s.sub}</b>${provBadge(s)}` : '-'),
         transCell(s.t12, 'var(--positive)'),
         transCell(s.t34, 'var(--negative)'), sataCell(s.sata_d), sataCell(s.sata_w),
         `<b>${num2(s.hotness)}</b>`]);
@@ -1713,6 +1715,8 @@
     : `<b style="color:${s === '2' ? 'var(--positive)' : s === '4' ? 'var(--negative)' : 'var(--text)'}">${s}</b>`;
   const transCell = (d, col) => (d != null && d <= 10)
     ? `<b style="color:${col}">${d}d</b>` : '<span class="muted-val">·</span>';
+  // 降级层新股角标: 上市151-252根, MA排列+上市以来位置的弱规则档位 (引擎v2.2, 2026-10-16)
+  const provBadge = s => (s && s.prov) ? '<sup style="color:#f59e0b;font-size:9px;font-weight:700">新</sup>' : '';
   const t12Count = d => (d.all_stocks || []).filter(s => s.t12 != null && s.t12 <= 10).length;
   const t34Count = d => (d.all_stocks || []).filter(s => s.t34 != null && s.t34 <= 10).length;
   function stockSATA(ticker) {
@@ -1770,7 +1774,7 @@
     if (_sat && _sat.sub) {
       const _sh = (_sat.sub_hist || []).filter(h => h[0] <= 20).map(h => `${h[1]}·${h[0]}d前`);
       const _mk = (_sat.marks && _sat.marks.length) ? ` <b style="color:#f59e0b">${_sat.marks.join('·')}</b>` : '';
-      _mb.push(`子档 <b>${_sat.sub}</b>${_mk}${_sat.sub_days != null ? `·${_sat.sub_days}d` : ''}${_sh.length ? ` <span class="muted-val">(${_sh.join(' ← ')})</span>` : ''}`);
+      _mb.push(`子档 <b>${_sat.sub}</b>${_sat.prov ? ' <b style="color:#f59e0b;font-size:11px">新·弱规则(上市<253日)</b>' : ''}${_mk}${_sat.sub_days != null ? `·${_sat.sub_days}d` : ''}${_sh.length ? ` <span class="muted-val">(${_sh.join(' ← ')})</span>` : ''}`);
     }
     if (_sat && _sat.t12 != null && _sat.t12 <= 10) _mb.push(`<b style="color:var(--positive)">1→2 ${_sat.t12}天前</b>`);
     if (_sat && _sat.t34 != null && _sat.t34 <= 10) _mb.push(`<b style="color:var(--negative)">3→4 ${_sat.t34}天前</b>`);
