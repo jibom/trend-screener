@@ -12,13 +12,13 @@
         "breadth_60": 66.667,
         "amt_surge": 2.096,
         "amt_rank": 0.572,
-        "amt_1d_yi": 26.28,
-        "amt_5d_yi": 29.92,
+        "amt_1d_yi": 26.34,
+        "amt_5d_yi": 29.93,
         "share_1d": 0.71,
         "share_5d": 0.86,
         "share5_pctile200": 80.5,
         "ret_60": 0.278,
-        "composite": 1.825,
+        "composite": 1.823,
         "sector": "Health Care"
       },
       {
@@ -27,15 +27,15 @@
         "pct_high_250": 0.965,
         "breadth_250": 75.0,
         "breadth_60": 50.0,
-        "amt_surge": 1.494,
-        "amt_rank": 0.437,
-        "amt_1d_yi": 25.72,
-        "amt_5d_yi": 25.91,
-        "share_1d": 0.7,
-        "share_5d": 0.74,
-        "share5_pctile200": 67.5,
+        "amt_surge": 1.495,
+        "amt_rank": 0.439,
+        "amt_1d_yi": 26.55,
+        "amt_5d_yi": 26.08,
+        "share_1d": 0.72,
+        "share_5d": 0.75,
+        "share5_pctile200": 69.0,
         "ret_60": 0.381,
-        "composite": 1.435,
+        "composite": 1.451,
         "sector": "Energy"
       },
       {
@@ -44,15 +44,15 @@
         "pct_high_250": 0.941,
         "breadth_250": 66.667,
         "breadth_60": 66.667,
-        "amt_surge": 0.961,
+        "amt_surge": 0.962,
         "amt_rank": 0.739,
-        "amt_1d_yi": 57.93,
-        "amt_5d_yi": 58.03,
-        "share_1d": 1.57,
+        "amt_1d_yi": 59.09,
+        "amt_5d_yi": 58.27,
+        "share_1d": 1.59,
         "share_5d": 1.67,
-        "share5_pctile200": 71.0,
+        "share5_pctile200": 72.0,
         "ret_60": 0.079,
-        "composite": 0.991,
+        "composite": 1.001,
         "sector": "Financials"
       },
       {
@@ -61,15 +61,15 @@
         "pct_high_250": 0.893,
         "breadth_250": 0.0,
         "breadth_60": 0.0,
-        "amt_surge": 1.893,
+        "amt_surge": 1.894,
         "amt_rank": 0.169,
-        "amt_1d_yi": 4.8,
-        "amt_5d_yi": 6.5,
+        "amt_1d_yi": 4.84,
+        "amt_5d_yi": 6.51,
         "share_1d": 0.13,
         "share_5d": 0.19,
         "share5_pctile200": 99.0,
         "ret_60": 0.277,
-        "composite": 0.874,
+        "composite": 0.872,
         "sector": "Energy"
       },
       {
@@ -86,7 +86,7 @@
         "share_5d": 0.12,
         "share5_pctile200": 53.0,
         "ret_60": 0.261,
-        "composite": 0.644,
+        "composite": 0.641,
         "sector": "Industrials"
       },
       {
@@ -96,14 +96,14 @@
         "breadth_250": 0.0,
         "breadth_60": 0.0,
         "amt_surge": 1.309,
-        "amt_rank": 0.358,
-        "amt_1d_yi": 65.09,
-        "amt_5d_yi": 55.62,
-        "share_1d": 1.77,
+        "amt_rank": 0.357,
+        "amt_1d_yi": 65.19,
+        "amt_5d_yi": 55.64,
+        "share_1d": 1.76,
         "share_5d": 1.6,
         "share5_pctile200": 91.5,
         "ret_60": 0.442,
-        "composite": 0.643,
+        "composite": 0.64,
         "sector": "Health Care"
       },
       {
@@ -112,15 +112,15 @@
         "pct_high_250": 0.875,
         "breadth_250": 35.294,
         "breadth_60": 29.412,
-        "amt_surge": 0.983,
+        "amt_surge": 0.984,
         "amt_rank": 0.457,
-        "amt_1d_yi": 140.25,
-        "amt_5d_yi": 148.86,
-        "share_1d": 3.81,
+        "amt_1d_yi": 142.45,
+        "amt_5d_yi": 149.31,
+        "share_1d": 3.84,
         "share_5d": 4.28,
         "share5_pctile200": 67.5,
         "ret_60": 0.041,
-        "composite": 0.385,
+        "composite": 0.383,
         "sector": "Health Care"
       },
       {
@@ -131,13 +131,13 @@
         "breadth_60": 0.0,
         "amt_surge": 1.211,
         "amt_rank": 0.963,
-        "amt_1d_yi": 298.53,
-        "amt_5d_yi": 288.25,
-        "share_1d": 8.11,
+        "amt_1d_yi": 301.06,
+        "amt_5d_yi": 288.76,
+        "share_1d": 8.12,
         "share_5d": 8.28,
         "share5_pctile200": 88.5,
         "ret_60": -0.002,
-        "composite": 0.181,
+        "composite": 0.178,
         "sector": "Comm Svc"
       },
       {
@@ -148,13 +148,13 @@
         "breadth_60": 0.0,
         "amt_surge": 1.201,
         "amt_rank": 0.76,
-        "amt_1d_yi": 62.64,
-        "amt_5d_yi": 72.33,
-        "share_1d": 1.7,
+        "amt_1d_yi": 64.02,
+        "amt_5d_yi": 72.61,
+        "share_1d": 1.73,
         "share_5d": 2.08,
         "share5_pctile200": 86.0,
         "ret_60": 0.015,
-        "composite": 0.161,
+        "composite": 0.158,
         "sector": "Info Tech"
       },
       {
@@ -165,13 +165,13 @@
         "breadth_60": 0.0,
         "amt_surge": 1.192,
         "amt_rank": 0.763,
-        "amt_1d_yi": 58.57,
-        "amt_5d_yi": 78.19,
-        "share_1d": 1.59,
-        "share_5d": 2.25,
+        "amt_1d_yi": 58.67,
+        "amt_5d_yi": 78.21,
+        "share_1d": 1.58,
+        "share_5d": 2.24,
         "share5_pctile200": 77.5,
         "ret_60": -0.055,
-        "composite": -0.004,
+        "composite": -0.006,
         "sector": "Info Tech"
       }
     ],
@@ -182,15 +182,15 @@
         "pct_high_250": 0.893,
         "breadth_250": 33.333,
         "breadth_60": 22.222,
-        "amt_surge": 1.589,
-        "amt_rank": 0.307,
-        "amt_1d_yi": 32.87,
-        "amt_5d_yi": 35.45,
-        "share_1d": 0.89,
+        "amt_surge": 1.59,
+        "amt_rank": 0.308,
+        "amt_1d_yi": 33.78,
+        "amt_5d_yi": 35.64,
+        "share_1d": 0.91,
         "share_5d": 1.02,
-        "share5_pctile200": 78.0,
+        "share5_pctile200": 78.5,
         "ret_60": 0.282,
-        "composite": 1.217
+        "composite": 1.22
       },
       {
         "sector": "Health Care",
@@ -199,14 +199,14 @@
         "breadth_250": 29.032,
         "breadth_60": 29.032,
         "amt_surge": 1.24,
-        "amt_rank": 0.42,
-        "amt_1d_yi": 246.69,
-        "amt_5d_yi": 247.27,
-        "share_1d": 6.7,
+        "amt_rank": 0.419,
+        "amt_1d_yi": 249.19,
+        "amt_5d_yi": 247.78,
+        "share_1d": 6.72,
         "share_5d": 7.1,
-        "share5_pctile200": 82.5,
+        "share5_pctile200": 83.0,
         "ret_60": 0.181,
-        "composite": 0.885
+        "composite": 0.887
       },
       {
         "sector": "Consumer Staples",
@@ -216,13 +216,13 @@
         "breadth_60": 60.0,
         "amt_surge": 0.965,
         "amt_rank": 0.479,
-        "amt_1d_yi": 48.78,
-        "amt_5d_yi": 42.98,
-        "share_1d": 1.33,
+        "amt_1d_yi": 48.99,
+        "amt_5d_yi": 43.02,
+        "share_1d": 1.32,
         "share_5d": 1.23,
         "share5_pctile200": 70.5,
         "ret_60": 0.009,
-        "composite": 0.774
+        "composite": 0.771
       },
       {
         "sector": "Financials",
@@ -230,15 +230,15 @@
         "pct_high_250": 0.788,
         "breadth_250": 10.526,
         "breadth_60": 21.053,
-        "amt_surge": 0.909,
+        "amt_surge": 0.91,
         "amt_rank": 0.654,
-        "amt_1d_yi": 275.25,
-        "amt_5d_yi": 280.96,
-        "share_1d": 7.48,
+        "amt_1d_yi": 278.2,
+        "amt_5d_yi": 281.55,
+        "share_1d": 7.5,
         "share_5d": 8.07,
         "share5_pctile200": 60.0,
         "ret_60": 0.021,
-        "composite": -0.116
+        "composite": -0.117
       },
       {
         "sector": "Info Tech",
@@ -248,13 +248,13 @@
         "breadth_60": 0.0,
         "amt_surge": 1.08,
         "amt_rank": 0.72,
-        "amt_1d_yi": 2012.82,
-        "amt_5d_yi": 1957.4,
-        "share_1d": 54.69,
-        "share_5d": 56.22,
+        "amt_1d_yi": 2024.98,
+        "amt_5d_yi": 1959.83,
+        "share_1d": 54.59,
+        "share_5d": 56.19,
         "share5_pctile200": 55.5,
         "ret_60": 0.009,
-        "composite": -0.365
+        "composite": -0.366
       },
       {
         "sector": "Mat",
@@ -262,15 +262,15 @@
         "pct_high_250": 0.831,
         "breadth_250": 9.091,
         "breadth_60": 4.545,
-        "amt_surge": 0.884,
-        "amt_rank": 0.255,
-        "amt_1d_yi": 67.89,
-        "amt_5d_yi": 61.15,
-        "share_1d": 1.84,
+        "amt_surge": 0.887,
+        "amt_rank": 0.256,
+        "amt_1d_yi": 69.29,
+        "amt_5d_yi": 61.43,
+        "share_1d": 1.87,
         "share_5d": 1.76,
         "share5_pctile200": 14.0,
         "ret_60": 0.055,
-        "composite": -0.673
+        "composite": -0.67
       },
       {
         "sector": "Industrials",
@@ -280,13 +280,13 @@
         "breadth_60": 0.0,
         "amt_surge": 0.921,
         "amt_rank": 0.335,
-        "amt_1d_yi": 227.66,
-        "amt_5d_yi": 230.36,
-        "share_1d": 6.19,
-        "share_5d": 6.62,
-        "share5_pctile200": 20.0,
+        "amt_1d_yi": 229.13,
+        "amt_5d_yi": 230.66,
+        "share_1d": 6.18,
+        "share_5d": 6.61,
+        "share5_pctile200": 19.5,
         "ret_60": -0.046,
-        "composite": -0.704
+        "composite": -0.708
       },
       {
         "sector": "Consumer Discretionary",
@@ -296,13 +296,13 @@
         "breadth_60": 0.0,
         "amt_surge": 0.951,
         "amt_rank": 0.6,
-        "amt_1d_yi": 362.22,
-        "amt_5d_yi": 238.15,
-        "share_1d": 9.84,
-        "share_5d": 6.84,
+        "amt_1d_yi": 366.13,
+        "amt_5d_yi": 238.93,
+        "share_1d": 9.87,
+        "share_5d": 6.85,
         "share5_pctile200": 3.0,
         "ret_60": -0.018,
-        "composite": -1.018
+        "composite": -1.016
       }
     ]
   },
@@ -494,7 +494,7 @@
     {
       "sub_industry": "Other Indl Metals & Mining",
       "n": 4,
-      "rs": -3.3,
+      "rs": -3.2,
       "rs_1w": -1.7,
       "ret_60": -1.0
     },
@@ -533,35 +533,35 @@
       "ret_60": 0.07,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.329,
+      "hotness": 0.328,
       "sales_growth": 0.116,
       "earn_growth": 0.152,
       "roe": 0.067,
       "pct_high_126": 0.905,
       "nh_ratio_126": 0.04,
       "fund_periods": [
+        "202608",
         "202605",
         "202602",
-        "202511",
-        "202508"
+        "202511"
       ],
       "sales_yoy4": [
+        11.1,
         11.6,
         9.2,
-        8.3,
-        8.1
+        8.3
       ],
       "profit_yoy4": [
+        14.9,
         15.2,
         13.8,
-        11.3,
-        10.9
+        11.3
       ],
       "roe4": [
+        8.7,
         6.7,
         6.5,
-        6.7,
-        9.3
+        6.7
       ]
     },
     {
@@ -576,7 +576,7 @@
       "ret_60": 0.109,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.064,
+      "hotness": 0.063,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -591,11 +591,11 @@
       "close": 161.56,
       "pct_high_250": 0.932,
       "amt_surge": 0.727,
-      "amt_rank": 0.452,
+      "amt_rank": 0.457,
       "ret_60": 0.132,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.028,
+      "hotness": 0.033,
       "sales_growth": 0.107,
       "earn_growth": 0.126,
       "roe": 0.033,
@@ -678,7 +678,7 @@
       "sector": "Health Care",
       "close": 690.0,
       "pct_high_250": 0.991,
-      "amt_surge": 1.259,
+      "amt_surge": 1.26,
       "amt_rank": 0.736,
       "ret_60": 0.207,
       "ma_aligned": 1,
@@ -721,7 +721,7 @@
       "sector": "Energy",
       "close": 293.17,
       "pct_high_250": 0.986,
-      "amt_surge": 1.452,
+      "amt_surge": 1.453,
       "amt_rank": 0.513,
       "ret_60": 0.424,
       "ma_aligned": 1,
@@ -807,7 +807,7 @@
       "sector": "Health Care",
       "close": 285.42,
       "pct_high_250": 1.0,
-      "amt_surge": 0.925,
+      "amt_surge": 0.927,
       "amt_rank": 0.751,
       "ret_60": 0.118,
       "ma_aligned": 1,
@@ -850,12 +850,12 @@
       "sector": "Financials",
       "close": 617.42,
       "pct_high_250": 1.0,
-      "amt_surge": 0.972,
+      "amt_surge": 0.975,
       "amt_rank": 0.807,
       "ret_60": 0.166,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "hotness": 0.764,
+      "hotness": 0.766,
       "sales_growth": 0.141,
       "earn_growth": 0.186,
       "roe": 0.712,
@@ -980,11 +980,11 @@
       "close": 39.389,
       "pct_high_250": 1.0,
       "amt_surge": 1.199,
-      "amt_rank": 0.223,
+      "amt_rank": 0.218,
       "ret_60": 0.185,
       "ma_aligned": 1,
       "days_below_ma10": 0,
-      "hotness": 0.534,
+      "hotness": 0.529,
       "sales_growth": null,
       "earn_growth": null,
       "roe": null,
@@ -1041,7 +1041,7 @@
       "sector": "Consumer Staples",
       "close": 205.2,
       "pct_high_250": 0.998,
-      "amt_surge": 1.02,
+      "amt_surge": 1.022,
       "amt_rank": 0.64,
       "ret_60": 0.083,
       "ma_aligned": 1,
@@ -1174,7 +1174,7 @@
       "ret_3d": 6.0,
       "vol_ratio": 1.88,
       "trigger": "SOS",
-      "hotness": 0.167,
+      "hotness": 0.158,
       "fund_periods": [
         "202606",
         "202603",
@@ -1209,7 +1209,7 @@
       "ret_3d": 2.4,
       "vol_ratio": 1.33,
       "trigger": "SOS 3日",
-      "hotness": -0.016,
+      "hotness": -0.017,
       "fund_periods": [
         "202606",
         "202603",
@@ -1244,7 +1244,7 @@
       "ret_3d": 4.4,
       "vol_ratio": 1.1,
       "trigger": "SOS 3日",
-      "hotness": 0.534
+      "hotness": 0.529
     },
     {
       "ticker": "4503.JP",
@@ -2449,28 +2449,28 @@
       "weekly": "背离",
       "days": 9,
       "fund_periods": [
+        "202609",
         "202606",
         "202603",
-        "202512",
-        "202509"
+        "202512"
       ],
       "sales_yoy4": [
+        23.7,
         31.4,
         -5.2,
-        -1.1,
-        3.1
+        -1.1
       ],
       "profit_yoy4": [
+        108.2,
         148.2,
         -22.4,
-        5.4,
-        157.8
+        5.4
       ],
       "roe4": [
+        6.2,
         5.7,
         6.6,
-        3.4,
-        3.7
+        3.4
       ]
     },
     {
@@ -2767,7 +2767,7 @@
       "ticker": "META.US",
       "name": "Meta Platforms",
       "sub_industry": "Internet Content & Information",
-      "close": 709.325,
+      "close": 709.33,
       "sig": "",
       "tr": 94.2,
       "mom": 14.0,
@@ -3104,26 +3104,25 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 42,
+      "sub_days": 175,
       "sub_hist": [
         [
-          42,
+          175,
           "2A→2C"
         ],
         [
-          51,
-          "2C→2A"
+          192,
+          "3→2A"
         ],
         [
-          56,
-          "2B→2C"
+          197,
+          "2A→3"
         ]
       ],
-      "stage_days": 184,
+      "stage_days": 192,
       "prov": false,
       "t12": null,
       "marks": [
-        "延伸",
         "减速"
       ],
       "stage_v1": "2",
@@ -3160,7 +3159,7 @@
       "sub_industry": "Diagnostics & Research",
       "sector": "Health Care",
       "close": 132.75,
-      "hotness": 1.911,
+      "hotness": 1.91,
       "ret_60": 0.436,
       "pct_high_250": 0.648,
       "ma_aligned": 0,
@@ -3169,26 +3168,27 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 172,
+      "sub_days": 175,
       "sub_hist": [
         [
-          172,
-          "2A→2C"
+          175,
+          "2B→2C"
         ],
         [
-          183,
-          "3→2A"
+          181,
+          "2A→2B"
         ],
         [
-          190,
-          "1+→3"
+          197,
+          "4+→2A"
         ]
       ],
-      "stage_days": 183,
+      "stage_days": 197,
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD将死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2C",
@@ -3224,7 +3224,7 @@
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
       "close": 444.71,
-      "hotness": 1.602,
+      "hotness": 1.613,
       "ret_60": 0.462,
       "pct_high_250": 0.967,
       "ma_aligned": 1,
@@ -3233,28 +3233,25 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 49,
+      "sub_days": 298,
       "sub_hist": [
         [
-          49,
-          "2B→2C"
+          298,
+          "2A→2C"
         ],
         [
-          50,
-          "2C→2B"
+          338,
+          "4+→2A"
         ],
         [
-          87,
-          "2B→2C"
+          341,
+          "4→4+"
         ]
       ],
-      "stage_days": 312,
+      "stage_days": 338,
       "prov": false,
       "t12": null,
-      "marks": [
-        "延伸",
-        "减速"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
       "t34": null,
@@ -3298,28 +3295,25 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 49,
+      "sub_days": 138,
       "sub_hist": [
         [
-          49,
-          "2B→2C"
+          138,
+          "2A→2C"
         ],
         [
-          52,
-          "2C→2B"
+          180,
+          "2C→2A"
         ],
         [
-          86,
-          "2B→2C"
+          327,
+          "2A→2C"
         ]
       ],
-      "stage_days": 174,
+      "stage_days": 353,
       "prov": false,
       "t12": null,
-      "marks": [
-        "延伸",
-        "减速"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
       "t34": null,
@@ -3354,7 +3348,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 109.99,
-      "hotness": 1.452,
+      "hotness": 1.451,
       "ret_60": 0.265,
       "pct_high_250": 0.88,
       "ma_aligned": 1,
@@ -3363,26 +3357,25 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 148,
+      "sub_days": 305,
       "sub_hist": [
         [
-          148,
-          "2B→2C"
+          305,
+          "2A→2C"
         ],
         [
-          149,
-          "2C→2B"
+          309,
+          "3→2A"
         ],
         [
-          150,
-          "2B→2C"
+          323,
+          "2A→3"
         ]
       ],
-      "stage_days": 307,
+      "stage_days": 309,
       "prov": false,
-      "t12": 307,
+      "t12": null,
       "marks": [
-        "延伸",
         "顶背离"
       ],
       "stage_v1": "2",
@@ -3428,24 +3421,24 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 3,
+      "sub_days": 35,
       "sub_hist": [
         [
-          3,
-          "2B→2C"
+          35,
+          "2A→2C"
         ],
         [
-          7,
-          "2C→2B"
+          59,
+          "4+→2A"
         ],
         [
-          28,
-          "2B→2C"
+          61,
+          "4→4+"
         ]
       ],
-      "stage_days": 42,
+      "stage_days": 59,
       "prov": false,
-      "t12": null,
+      "t12": 255,
       "marks": [
         "减速"
       ],
@@ -3492,26 +3485,25 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 148,
+      "sub_days": 309,
       "sub_hist": [
         [
-          148,
-          "2B→2C"
+          309,
+          "3→2C"
         ],
         [
-          149,
-          "2C→2B"
+          315,
+          "2C→3"
         ],
         [
-          150,
-          "2B→2C"
+          328,
+          "2A→2C"
         ]
       ],
-      "stage_days": 342,
+      "stage_days": 309,
       "prov": false,
       "t12": 342,
       "marks": [
-        "延伸",
         "顶背离"
       ],
       "stage_v1": "2",
@@ -3548,7 +3540,7 @@
       "sub_industry": "Health Info Svc",
       "sector": "Health Care",
       "close": 22.6,
-      "hotness": 1.231,
+      "hotness": 1.23,
       "ret_60": 0.494,
       "pct_high_250": 0.693,
       "ma_aligned": 0,
@@ -3556,26 +3548,28 @@
       "sata_d": 6,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 1,
+      "sub": "2C",
+      "sub_days": 42,
       "sub_hist": [
         [
-          1,
-          "2C→2B"
-        ],
-        [
-          25,
+          42,
           "2B→2C"
         ],
         [
-          30,
-          "2C→2B"
+          47,
+          "1+→2B"
+        ],
+        [
+          52,
+          "4+→1+"
         ]
       ],
       "stage_days": 47,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 47,
+      "marks": [
+        "减速"
+      ],
       "stage_v1": "2",
       "sub_v1": "2C",
       "t34": null,
@@ -3619,28 +3613,25 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 48,
+      "sub_days": 202,
       "sub_hist": [
         [
-          48,
+          202,
           "2B→2C"
         ],
         [
-          61,
+          203,
           "2C→2B"
         ],
         [
-          85,
-          "2B→2C"
+          279,
+          "2A→2C"
         ]
       ],
-      "stage_days": 289,
+      "stage_days": 327,
       "prov": false,
       "t12": null,
-      "marks": [
-        "延伸",
-        "减速"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
       "t34": null,
@@ -3675,7 +3666,7 @@
       "sub_industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "close": 23.6,
-      "hotness": 1.12,
+      "hotness": 1.121,
       "ret_60": 0.367,
       "pct_high_250": 0.888,
       "ma_aligned": 1,
@@ -3684,27 +3675,25 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 17,
+      "sub_days": 357,
       "sub_hist": [
         [
-          17,
-          "2B→2C"
+          357,
+          "2A→2C"
         ],
         [
-          19,
-          "2C→2B"
+          361,
+          "2C→2A"
         ],
         [
-          30,
-          "2B→2C"
+          364,
+          "2A→2C"
         ]
       ],
-      "stage_days": 364,
+      "stage_days": 368,
       "prov": false,
       "t12": null,
-      "marks": [
-        "延伸"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
       "t34": null,
@@ -3739,7 +3728,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 227.39,
-      "hotness": 1.107,
+      "hotness": 1.106,
       "ret_60": 0.24,
       "pct_high_250": 0.815,
       "ma_aligned": 1,
@@ -3747,26 +3736,29 @@
       "sata_d": 6,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 1,
+      "sub": "2C",
+      "sub_days": 85,
       "sub_hist": [
         [
-          1,
-          "2C→2B"
+          85,
+          "2B→2C"
         ],
         [
           88,
-          "2A→2C"
+          "2A→2B"
         ],
         [
-          99,
-          "3→2A"
+          112,
+          "4+→2A"
         ]
       ],
-      "stage_days": 99,
+      "stage_days": 112,
       "prov": false,
-      "t12": 382,
-      "marks": [],
+      "t12": null,
+      "marks": [
+        "减速",
+        "周MACD将死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -3801,7 +3793,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 529.05,
-      "hotness": 1.069,
+      "hotness": 1.074,
       "ret_60": 0.389,
       "pct_high_250": 0.974,
       "ma_aligned": 1,
@@ -3810,24 +3802,24 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 17,
+      "sub_days": 21,
       "sub_hist": [
         [
-          17,
-          "2A→2C"
+          21,
+          "2B→2C"
         ],
         [
-          28,
-          "2B→2A"
-        ],
-        [
-          37,
+          24,
           "2A→2B"
+        ],
+        [
+          53,
+          "1+→2A"
         ]
       ],
-      "stage_days": 42,
+      "stage_days": 53,
       "prov": false,
-      "t12": null,
+      "t12": 53,
       "marks": [
         "减速"
       ],
@@ -3865,7 +3857,7 @@
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
       "close": 451.71,
-      "hotness": 0.952,
+      "hotness": 0.953,
       "ret_60": 0.028,
       "pct_high_250": 0.768,
       "ma_aligned": 0,
@@ -3874,26 +3866,27 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 130,
+      "sub_days": 118,
       "sub_hist": [
         [
-          130,
+          118,
           "2A→2C"
         ],
         [
-          141,
+          161,
           "3→2A"
         ],
         [
-          159,
-          "4+→3"
+          168,
+          "3-→3"
         ]
       ],
-      "stage_days": 141,
+      "stage_days": 161,
       "prov": false,
-      "t12": null,
+      "t12": 312,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -3937,26 +3930,20 @@
       "sata_d": 7,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 2,
+      "sub": "2C",
+      "sub_days": 300,
       "sub_hist": [
         [
-          2,
-          "2C→2B"
-        ],
-        [
-          21,
-          "2B→2C"
-        ],
-        [
-          31,
-          "2C→2B"
+          300,
+          "2A→2C"
         ]
       ],
       "stage_days": 302,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD将死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -3976,27 +3963,25 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 45,
+      "sub_days": 52,
       "sub_hist": [
         [
-          45,
-          "2B→2C"
+          52,
+          "2A→2C"
         ],
         [
-          49,
-          "2A→2B"
+          82,
+          "4→2A"
         ],
         [
-          60,
-          "3→2A"
+          84,
+          "4+→4"
         ]
       ],
-      "stage_days": 60,
+      "stage_days": 82,
       "prov": false,
-      "t12": null,
-      "marks": [
-        "减速"
-      ],
+      "t12": 205,
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -4031,7 +4016,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 169.52,
-      "hotness": 0.901,
+      "hotness": 0.902,
       "ret_60": 0.514,
       "pct_high_250": 0.946,
       "ma_aligned": 0,
@@ -4039,25 +4024,25 @@
       "sata_d": 9,
       "sata_w": 8,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 1,
+      "sub": "2C",
+      "sub_days": 7,
       "sub_hist": [
         [
-          1,
-          "2C→2B"
-        ],
-        [
-          21,
+          7,
           "2A→2C"
         ],
         [
-          32,
-          "2B→2A"
+          16,
+          "2C→2A"
+        ],
+        [
+          33,
+          "2A→2C"
         ]
       ],
-      "stage_days": 34,
+      "stage_days": 50,
       "prov": false,
-      "t12": null,
+      "t12": 518,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
@@ -4093,7 +4078,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 432.49,
-      "hotness": 0.887,
+      "hotness": 0.886,
       "ret_60": 0.171,
       "pct_high_250": 0.974,
       "ma_aligned": 0,
@@ -4102,24 +4087,24 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 8,
+      "sub_days": 45,
       "sub_hist": [
         [
-          8,
+          45,
           "2A→2C"
         ],
         [
-          10,
+          94,
           "2C→2A"
         ],
         [
-          25,
-          "2B→2C"
+          228,
+          "2A→2C"
         ]
       ],
-      "stage_days": 77,
+      "stage_days": 255,
       "prov": false,
-      "t12": null,
+      "t12": 255,
       "marks": [
         "减速"
       ],
@@ -4170,18 +4155,18 @@
       "sub_hist": [
         [
           53,
-          "2B→2C"
+          "2A→2C"
+        ],
+        [
+          57,
+          "2C→2A"
         ],
         [
           59,
-          "2A→2B"
-        ],
-        [
-          70,
-          "3→2A"
+          "2A→2C"
         ]
       ],
-      "stage_days": 70,
+      "stage_days": 101,
       "prov": false,
       "t12": null,
       "marks": [
@@ -4220,7 +4205,7 @@
       "name": "Meta Platforms",
       "sub_industry": "Internet Content & Info",
       "sector": "Comm Svc",
-      "close": 709.325,
+      "close": 709.33,
       "hotness": 0.826,
       "ret_60": 0.171,
       "pct_high_250": 0.912,
@@ -4229,25 +4214,25 @@
       "sata_d": 8,
       "sata_w": 8,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 6,
+      "sub": "2B",
+      "sub_days": 5,
       "sub_hist": [
         [
-          6,
-          "3→2A"
+          5,
+          "2A→2B"
         ],
         [
-          22,
-          "4+→3"
+          23,
+          "1+→2A"
         ],
         [
-          30,
-          "4→4+"
+          28,
+          "4+→1+"
         ]
       ],
-      "stage_days": 6,
+      "stage_days": 23,
       "prov": false,
-      "t12": null,
+      "t12": 23,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4291,26 +4276,28 @@
       "sata_d": 5,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 2,
+      "sub": "2C",
+      "sub_days": 102,
       "sub_hist": [
         [
-          2,
-          "2C→2B"
-        ],
-        [
-          115,
+          102,
           "2A→2C"
         ],
         [
-          126,
-          "3→2A"
+          143,
+          "4→2A"
+        ],
+        [
+          157,
+          "2A→4"
         ]
       ],
-      "stage_days": 126,
+      "stage_days": 143,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD将死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -4345,7 +4332,7 @@
       "sub_industry": "Credit Svc",
       "sector": "Financials",
       "close": 617.42,
-      "hotness": 0.764,
+      "hotness": 0.766,
       "ret_60": 0.166,
       "pct_high_250": 1.0,
       "ma_aligned": 0,
@@ -4354,27 +4341,25 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 25,
+      "sub_days": 4,
       "sub_hist": [
         [
-          25,
+          4,
           "2A→2C"
         ],
         [
-          36,
-          "2B→2A"
+          13,
+          "2C→2A"
         ],
         [
-          40,
-          "3→2B"
+          31,
+          "2A→2C"
         ]
       ],
-      "stage_days": 40,
+      "stage_days": 60,
       "prov": false,
       "t12": null,
-      "marks": [
-        "减速"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -4418,24 +4403,24 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 13,
+      "sub_days": 8,
       "sub_hist": [
         [
-          13,
-          "2B→2C"
+          8,
+          "2A→2C"
         ],
         [
-          20,
-          "2A→2B"
+          18,
+          "2C→2A"
         ],
         [
-          31,
-          "3→2A"
+          19,
+          "2A→2C"
         ]
       ],
-      "stage_days": 31,
+      "stage_days": 73,
       "prov": false,
-      "t12": null,
+      "t12": 557,
       "marks": [
         "减速"
       ],
@@ -4481,25 +4466,25 @@
       "sata_d": 9,
       "sata_w": 8,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 2,
+      "sub": "2C",
+      "sub_days": 23,
       "sub_hist": [
         [
-          2,
-          "2C→2B"
-        ],
-        [
-          12,
+          23,
           "2A→2C"
         ],
         [
-          23,
-          "2B→2A"
+          45,
+          "1+→2A"
+        ],
+        [
+          53,
+          "4→1+"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 45,
       "prov": false,
-      "t12": null,
+      "t12": 45,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4544,22 +4529,22 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 4,
+      "sub_days": 14,
       "sub_hist": [
         [
-          4,
-          "2B→2C"
+          14,
+          "2A→2C"
         ],
         [
-          15,
-          "2A→2B"
+          56,
+          "4→2A"
         ],
         [
-          26,
-          "3→2A"
+          67,
+          "2A→4"
         ]
       ],
-      "stage_days": 26,
+      "stage_days": 56,
       "prov": false,
       "t12": null,
       "marks": [
@@ -4582,27 +4567,31 @@
       "days_below_ma10": 0,
       "sata_d": 4,
       "sata_w": 4,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 3,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 60,
       "sub_hist": [
         [
-          3,
-          "2A→3"
+          60,
+          "2A→2C"
         ],
         [
-          13,
-          "2C→2A"
+          139,
+          "4→2A"
         ],
         [
-          45,
-          "2B→2C"
+          154,
+          "2C→4"
         ]
       ],
-      "stage_days": 3,
+      "stage_days": 139,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "顶背离",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -4622,26 +4611,27 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 59,
+      "sub_days": 58,
       "sub_hist": [
         [
-          59,
+          58,
           "2A→2C"
         ],
         [
-          70,
-          "3→2A"
+          76,
+          "1+→2A"
         ],
         [
-          96,
-          "4+→3"
+          79,
+          "4→1+"
         ]
       ],
-      "stage_days": 70,
+      "stage_days": 76,
       "prov": false,
-      "t12": null,
+      "t12": 76,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD将死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4685,25 +4675,25 @@
       "sata_d": 8,
       "sata_w": 9,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 6,
+      "sub": "2C",
+      "sub_days": 17,
       "sub_hist": [
         [
-          6,
-          "2C→2B"
-        ],
-        [
-          11,
-          "2A→2C"
+          17,
+          "4+→2C"
         ],
         [
           22,
-          "3→2A"
+          "4→4+"
+        ],
+        [
+          28,
+          "2A→4"
         ]
       ],
-      "stage_days": 22,
+      "stage_days": 17,
       "prov": false,
-      "t12": null,
+      "t12": 259,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4748,26 +4738,27 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 17,
+      "sub_days": 252,
       "sub_hist": [
         [
-          17,
-          "2B→2C"
+          252,
+          "1→2C"
         ],
         [
-          36,
-          "2C→2B"
+          253,
+          "1+→1"
         ],
         [
-          98,
-          "2A→2C"
+          264,
+          "4→1+"
         ]
       ],
       "stage_days": 252,
       "prov": false,
       "t12": 252,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD将死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4798,98 +4789,36 @@
       ]
     },
     {
-      "ticker": "NVDA.US",
-      "name": "NVIDIA",
-      "sub_industry": "Semiconductors",
-      "sector": "Info Tech",
-      "close": 214.13,
-      "hotness": 0.605,
-      "ret_60": 0.027,
-      "pct_high_250": 0.895,
-      "ma_aligned": 1,
-      "days_below_ma10": 7,
-      "sata_d": 4,
-      "sata_w": 4,
-      "stage": "2",
-      "sub": "2B",
-      "sub_days": 6,
-      "sub_hist": [
-        [
-          6,
-          "2C→2B"
-        ],
-        [
-          23,
-          "2B→2C"
-        ],
-        [
-          53,
-          "2A→2B"
-        ]
-      ],
-      "stage_days": 126,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "2B",
-      "t34": null,
-      "fund_periods": [
-        "202607",
-        "202604",
-        "202601",
-        "202510"
-      ],
-      "sales_yoy4": [
-        105.9,
-        85.2,
-        73.2,
-        62.5
-      ],
-      "profit_yoy4": [
-        125.9,
-        210.6,
-        94.5,
-        65.3
-      ],
-      "roe4": [
-        28.1,
-        33.1,
-        null,
-        29.1
-      ]
-    },
-    {
       "ticker": "BMY.US",
       "name": "Bristol-Myers Squibb",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 59.75,
-      "hotness": 0.604,
+      "hotness": 0.61,
       "ret_60": -0.019,
       "pct_high_250": 0.887,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 3,
       "sata_w": 3,
-      "stage": "2",
+      "stage": "3",
       "sub": "3",
-      "sub_days": 2,
+      "sub_days": 3,
       "sub_hist": [
         [
-          2,
-          "2A→3"
+          3,
+          "4→3"
         ],
         [
-          11,
+          6,
+          "2A→4"
+        ],
+        [
+          7,
           "2C→2A"
-        ],
-        [
-          30,
-          "2B→2C"
         ]
       ],
-      "stage_days": 70,
+      "stage_days": 3,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -4922,12 +4851,76 @@
       ]
     },
     {
+      "ticker": "NVDA.US",
+      "name": "NVIDIA",
+      "sub_industry": "Semiconductors",
+      "sector": "Info Tech",
+      "close": 214.13,
+      "hotness": 0.605,
+      "ret_60": 0.027,
+      "pct_high_250": 0.895,
+      "ma_aligned": 1,
+      "days_below_ma10": 7,
+      "sata_d": 4,
+      "sata_w": 4,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 99,
+      "sub_hist": [
+        [
+          99,
+          "2A→2C"
+        ],
+        [
+          105,
+          "2C→2A"
+        ],
+        [
+          110,
+          "2A→2C"
+        ]
+      ],
+      "stage_days": 127,
+      "prov": false,
+      "t12": null,
+      "marks": [
+        "周MACD死叉"
+      ],
+      "stage_v1": "2",
+      "sub_v1": "2B",
+      "t34": null,
+      "fund_periods": [
+        "202607",
+        "202604",
+        "202601",
+        "202510"
+      ],
+      "sales_yoy4": [
+        105.9,
+        85.2,
+        73.2,
+        62.5
+      ],
+      "profit_yoy4": [
+        125.9,
+        210.6,
+        94.5,
+        65.3
+      ],
+      "roe4": [
+        28.1,
+        33.1,
+        null,
+        29.1
+      ]
+    },
+    {
       "ticker": "AMD.US",
       "name": "AMD",
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 528.75,
-      "hotness": 0.603,
+      "hotness": 0.598,
       "ret_60": -0.02,
       "pct_high_250": 0.814,
       "ma_aligned": 0,
@@ -4936,26 +4929,27 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 22,
+      "sub_days": 102,
       "sub_hist": [
         [
-          22,
+          102,
           "2A→2C"
         ],
         [
-          42,
+          135,
           "2C→2A"
         ],
         [
-          123,
-          "2A→2C"
+          167,
+          "2B→2C"
         ]
       ],
-      "stage_days": 134,
+      "stage_days": 337,
       "prov": false,
       "t12": null,
       "marks": [
-        "顶背离"
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -4998,27 +4992,30 @@
       "days_below_ma10": 4,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 10,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 68,
       "sub_hist": [
         [
-          10,
-          "2A→1"
+          68,
+          "2A→2C"
         ],
         [
-          18,
+          69,
           "2C→2A"
         ],
         [
-          48,
-          "2B→2C"
+          75,
+          "2A→2C"
         ]
       ],
-      "stage_days": 10,
+      "stage_days": 106,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null
@@ -5029,7 +5026,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 342.0,
-      "hotness": 0.564,
+      "hotness": 0.563,
       "ret_60": 0.05,
       "pct_high_250": 0.814,
       "ma_aligned": 1,
@@ -5037,26 +5034,28 @@
       "sata_d": 4,
       "sata_w": 4,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 3,
+      "sub": "2C",
+      "sub_days": 84,
       "sub_hist": [
         [
-          3,
-          "2C→2B"
+          84,
+          "2B→2C"
         ],
         [
           86,
-          "2A→2C"
+          "2A→2B"
         ],
         [
-          97,
-          "3→2A"
+          110,
+          "1+→2A"
         ]
       ],
-      "stage_days": 97,
+      "stage_days": 110,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 110,
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -5091,7 +5090,7 @@
       "sub_industry": "Drug Mfr - Specialty & Gen…",
       "sector": "Health Care",
       "close": 39.389,
-      "hotness": 0.534,
+      "hotness": 0.529,
       "ret_60": 0.185,
       "pct_high_250": 1.0,
       "ma_aligned": 1,
@@ -5100,22 +5099,22 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 11,
+      "sub_days": 26,
       "sub_hist": [
         [
-          11,
-          "2B→2C"
+          26,
+          "2A→2C"
         ],
         [
-          13,
-          "2C→2B"
+          72,
+          "2C→2A"
         ],
         [
-          18,
-          "2B→2C"
+          188,
+          "2A→2C"
         ]
       ],
-      "stage_days": 63,
+      "stage_days": 221,
       "prov": false,
       "t12": null,
       "marks": [
@@ -5131,7 +5130,7 @@
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
       "close": 824.13,
-      "hotness": 0.515,
+      "hotness": 0.514,
       "ret_60": -0.011,
       "pct_high_250": 0.727,
       "ma_aligned": 1,
@@ -5139,26 +5138,28 @@
       "sata_d": 3,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 5,
+      "sub": "2C",
+      "sub_days": 315,
       "sub_hist": [
         [
-          5,
-          "2C→2B"
-        ],
-        [
-          44,
+          315,
           "2A→2C"
         ],
         [
-          75,
-          "2C→2A"
+          359,
+          "4→2A"
+        ],
+        [
+          376,
+          "3→4"
         ]
       ],
-      "stage_days": 326,
+      "stage_days": 359,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "1",
       "t34": null,
@@ -5201,52 +5202,55 @@
       "sata_d": 4,
       "sata_w": 3,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 2,
+      "sub": "2C",
+      "sub_days": 68,
       "sub_hist": [
         [
-          2,
+          68,
+          "2A→2C"
+        ],
+        [
+          70,
           "2C→2A"
         ],
         [
-          23,
-          "2B→2C"
-        ],
-        [
-          32,
-          "2C→2B"
+          294,
+          "2A→2C"
         ]
       ],
-      "stage_days": 308,
+      "stage_days": 327,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 327,
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
       "fund_periods": [
+        "202609",
         "202606",
         "202603",
-        "202512",
-        "202509"
+        "202512"
       ],
       "sales_yoy4": [
+        5.9,
         6.6,
         9.9,
-        9.1,
-        6.8
+        9.1
       ],
       "profit_yoy4": [
+        -95.9,
         -0.1,
         -52.4,
-        49.1,
-        91.2
+        49.1
       ],
       "roe4": [
+        0.5,
         6.7,
         6.4,
-        6.4,
-        6.5
+        6.4
       ]
     },
     {
@@ -5264,24 +5268,24 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 16,
+      "sub_days": 19,
       "sub_hist": [
         [
-          16,
+          19,
           "2A→2C"
         ],
         [
-          27,
+          51,
           "3→2A"
         ],
         [
-          51,
+          67,
           "4→3"
         ]
       ],
-      "stage_days": 27,
+      "stage_days": 51,
       "prov": false,
-      "t12": 564,
+      "t12": 297,
       "marks": [
         "减速"
       ],
@@ -5327,23 +5331,23 @@
       "sata_d": 9,
       "sata_w": 10,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 9,
+      "sub": "2C",
+      "sub_days": 97,
       "sub_hist": [
         [
-          9,
-          "2C→2B"
+          97,
+          "2A→2C"
         ],
         [
-          60,
-          "2B→2C"
+          105,
+          "2C→2A"
         ],
         [
-          64,
-          "2C→2B"
+          109,
+          "2A→2C"
         ]
       ],
-      "stage_days": 109,
+      "stage_days": 116,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -5389,26 +5393,28 @@
       "sata_d": 3,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 37,
+      "sub": "2C",
+      "sub_days": 318,
       "sub_hist": [
         [
-          37,
-          "2A→2B"
+          318,
+          "2A→2C"
         ],
         [
-          57,
-          "2C→2A"
+          359,
+          "4→2A"
         ],
         [
-          79,
-          "2B→2C"
+          387,
+          "2C→4"
         ]
       ],
-      "stage_days": 326,
+      "stage_days": 359,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -5450,30 +5456,30 @@
       "days_below_ma10": 0,
       "sata_d": 3,
       "sata_w": 3,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 12,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 13,
       "sub_hist": [
         [
-          12,
-          "2C→1"
+          13,
+          "2C→4"
         ],
         [
-          31,
+          32,
           "2A→2C"
         ],
         [
-          42,
-          "3→2A"
+          35,
+          "4→2A"
         ]
       ],
-      "stage_days": 12,
+      "stage_days": 13,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "1B",
-      "t34": null
+      "t34": 152
     },
     {
       "ticker": "9107.JP",
@@ -5490,22 +5496,22 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 12,
+      "sub_days": 159,
       "sub_hist": [
         [
-          12,
-          "2B→2C"
+          159,
+          "2A→2C"
         ],
         [
-          16,
-          "2C→2B"
+          167,
+          "2C→2A"
         ],
         [
-          19,
-          "2B→2C"
+          178,
+          "2A→2C"
         ]
       ],
-      "stage_days": 177,
+      "stage_days": 236,
       "prov": false,
       "t12": null,
       "marks": [
@@ -5530,22 +5536,22 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 11,
+      "sub_days": 37,
       "sub_hist": [
         [
-          11,
-          "2B→2C"
+          37,
+          "2A→2C"
         ],
         [
-          16,
-          "2C→2B"
+          38,
+          "2C→2A"
         ],
         [
-          18,
-          "2B→2C"
+          43,
+          "2A→2C"
         ]
       ],
-      "stage_days": 53,
+      "stage_days": 173,
       "prov": false,
       "t12": null,
       "marks": [
@@ -5561,7 +5567,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 240.7,
-      "hotness": 0.4,
+      "hotness": 0.399,
       "ret_60": 0.537,
       "pct_high_250": 0.91,
       "ma_aligned": 0,
@@ -5570,24 +5576,24 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 7,
+      "sub_days": 20,
       "sub_hist": [
         [
-          7,
+          20,
           "2A→2C"
         ],
         [
-          18,
-          "2B→2A"
+          42,
+          "4+→2A"
         ],
         [
-          22,
-          "2A→2B"
+          43,
+          "4→4+"
         ]
       ],
-      "stage_days": 25,
+      "stage_days": 42,
       "prov": false,
-      "t12": null,
+      "t12": 518,
       "marks": [
         "减速"
       ],
@@ -5633,26 +5639,28 @@
       "sata_d": 5,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 3,
+      "sub": "2C",
+      "sub_days": 122,
       "sub_hist": [
         [
-          3,
-          "2C→2B"
+          122,
+          "2A→2C"
         ],
         [
-          22,
+          152,
+          "2C→2A"
+        ],
+        [
+          156,
           "2B→2C"
-        ],
-        [
-          25,
-          "2C→2B"
         ]
       ],
-      "stage_days": 142,
+      "stage_days": 262,
       "prov": false,
       "t12": 262,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -5696,26 +5704,27 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 15,
+      "sub_days": 207,
       "sub_hist": [
         [
-          15,
+          207,
           "2B→2C"
         ],
         [
-          20,
+          208,
           "2C→2B"
         ],
         [
-          90,
+          209,
           "2B→2C"
         ]
       ],
-      "stage_days": 231,
+      "stage_days": 337,
       "prov": false,
-      "t12": 330,
+      "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -5760,26 +5769,27 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 5,
+      "sub_days": 71,
       "sub_hist": [
         [
-          5,
+          71,
           "2A→2C"
         ],
         [
-          22,
+          122,
           "2C→2A"
         ],
         [
-          69,
-          "2B→2C"
+          139,
+          "3-→2C"
         ]
       ],
-      "stage_days": 91,
+      "stage_days": 139,
       "prov": false,
-      "t12": null,
+      "t12": 252,
       "marks": [
-        "顶背离"
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -5815,7 +5825,7 @@
       "sub_industry": "Discount Stores",
       "sector": "Consumer Staples",
       "close": 989.11,
-      "hotness": 0.329,
+      "hotness": 0.328,
       "ret_60": 0.07,
       "pct_high_250": 0.905,
       "ma_aligned": 0,
@@ -5831,15 +5841,15 @@
           "4→4+"
         ],
         [
-          29,
-          "1→4"
+          35,
+          "2A→4"
         ],
         [
           43,
-          "4→1"
+          "4→2A"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 35,
       "prov": false,
       "t12": null,
       "marks": [
@@ -5848,30 +5858,30 @@
       ],
       "stage_v1": "2",
       "sub_v1": "2A",
-      "t34": 298,
+      "t34": 272,
       "fund_periods": [
+        "202608",
         "202605",
         "202602",
-        "202511",
-        "202508"
+        "202511"
       ],
       "sales_yoy4": [
+        11.1,
         11.6,
         9.2,
-        8.3,
-        8.1
+        8.3
       ],
       "profit_yoy4": [
+        14.9,
         15.2,
         13.8,
-        11.3,
-        10.9
+        11.3
       ],
       "roe4": [
+        8.7,
         6.7,
         6.5,
-        6.7,
-        9.3
+        6.7
       ]
     },
     {
@@ -5889,22 +5899,22 @@
       "sata_w": 10,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 15,
+      "sub_days": 23,
       "sub_hist": [
         [
-          15,
-          "2B→2C"
+          23,
+          "2A→2C"
         ],
         [
-          34,
-          "2C→2B"
+          55,
+          "2C→2A"
         ],
         [
-          37,
-          "2B→2C"
+          149,
+          "2A→2C"
         ]
       ],
-      "stage_days": 51,
+      "stage_days": 172,
       "prov": false,
       "t12": null,
       "marks": [
@@ -5920,7 +5930,7 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 790.74,
-      "hotness": 0.315,
+      "hotness": 0.311,
       "ret_60": 0.214,
       "pct_high_250": 0.928,
       "ma_aligned": 0,
@@ -5929,22 +5939,22 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 7,
+      "sub_days": 58,
       "sub_hist": [
         [
-          7,
+          58,
+          "4→2A"
+        ],
+        [
+          92,
+          "2A→4"
+        ],
+        [
+          103,
           "2C→2A"
-        ],
-        [
-          18,
-          "2A→2C"
-        ],
-        [
-          29,
-          "3→2A"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 58,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -5990,26 +6000,28 @@
       "sata_d": 6,
       "sata_w": 7,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 1,
+      "sub": "2C",
+      "sub_days": 94,
       "sub_hist": [
         [
-          1,
-          "2C→2B"
-        ],
-        [
-          96,
+          94,
           "2A→2C"
         ],
         [
-          109,
-          "3→2A"
+          113,
+          "1→2A"
+        ],
+        [
+          114,
+          "1+→1"
         ]
       ],
-      "stage_days": 109,
+      "stage_days": 113,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 113,
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -6052,26 +6064,28 @@
       "sata_d": 2,
       "sata_w": 3,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 7,
+      "sub": "2C",
+      "sub_days": 12,
       "sub_hist": [
         [
-          7,
-          "2C→2B"
+          12,
+          "2A→2C"
         ],
         [
-          11,
-          "2B→2C"
+          17,
+          "2C→2A"
         ],
         [
-          13,
-          "2C→2B"
+          290,
+          "2A→2C"
         ]
       ],
-      "stage_days": 39,
+      "stage_days": 358,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "1",
       "t34": null,
@@ -6115,22 +6129,22 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "2B",
-      "sub_days": 10,
+      "sub_days": 2,
       "sub_hist": [
         [
-          10,
+          2,
           "2C→2B"
         ],
         [
-          15,
-          "2A→2C"
+          56,
+          "2B→2C"
         ],
         [
-          26,
-          "2C→2A"
+          57,
+          "2C→2B"
         ]
       ],
-      "stage_days": 136,
+      "stage_days": 180,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -6168,7 +6182,7 @@
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
       "close": 61.803,
-      "hotness": 0.266,
+      "hotness": 0.265,
       "ret_60": 0.123,
       "pct_high_250": 0.74,
       "ma_aligned": 1,
@@ -6176,29 +6190,84 @@
       "sata_d": 6,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 4,
-      "sub_hist": [
-        [
-          4,
-          "2C→2B"
-        ],
-        [
-          16,
-          "2B→2C"
-        ],
-        [
-          22,
-          "2C→2B"
-        ]
-      ],
+      "sub": "2C",
+      "sub_days": 554,
+      "sub_hist": [],
       "stage_days": 302,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
+    },
+    {
+      "ticker": "AMZN.US",
+      "name": "Amazon",
+      "sub_industry": "Internet Retail",
+      "sector": "Consumer Discretionary",
+      "close": 250.0,
+      "hotness": 0.261,
+      "ret_60": 0.07,
+      "pct_high_250": 0.88,
+      "ma_aligned": 0,
+      "days_below_ma10": 3,
+      "sata_d": 3,
+      "sata_w": 2,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 65,
+      "sub_hist": [
+        [
+          65,
+          "2A→2C"
+        ],
+        [
+          80,
+          "2C→2A"
+        ],
+        [
+          104,
+          "2A→2C"
+        ]
+      ],
+      "stage_days": 131,
+      "prov": false,
+      "t12": 351,
+      "marks": [
+        "减速",
+        "顶背离",
+        "周MACD死叉"
+      ],
+      "stage_v1": "2",
+      "sub_v1": "2B",
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        19.6,
+        16.6,
+        13.6,
+        13.4
+      ],
+      "profit_yoy4": [
+        244.9,
+        76.7,
+        5.9,
+        38.2
+      ],
+      "roe4": [
+        12.6,
+        7.1,
+        5.4,
+        6.0
+      ]
     },
     {
       "ticker": "STNG.US",
@@ -6215,26 +6284,26 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 1,
+      "sub_days": 284,
       "sub_hist": [
         [
-          1,
+          284,
           "2B→2C"
         ],
         [
-          31,
-          "2C→2B"
+          286,
+          "4+→2B"
         ],
         [
-          37,
-          "2B→2C"
+          294,
+          "4→4+"
         ]
       ],
-      "stage_days": 187,
+      "stage_days": 286,
       "prov": false,
-      "t12": 286,
+      "t12": 301,
       "marks": [
-        "减速"
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -6265,68 +6334,6 @@
       ]
     },
     {
-      "ticker": "AMZN.US",
-      "name": "Amazon",
-      "sub_industry": "Internet Retail",
-      "sector": "Consumer Discretionary",
-      "close": 250.0,
-      "hotness": 0.26,
-      "ret_60": 0.07,
-      "pct_high_250": 0.88,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "sata_d": 3,
-      "sata_w": 2,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 1,
-      "sub_hist": [
-        [
-          1,
-          "2A→3"
-        ],
-        [
-          3,
-          "3→2A"
-        ],
-        [
-          13,
-          "2A→3"
-        ]
-      ],
-      "stage_days": 13,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "2B",
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        19.6,
-        16.6,
-        13.6,
-        13.4
-      ],
-      "profit_yoy4": [
-        244.9,
-        76.7,
-        5.9,
-        38.2
-      ],
-      "roe4": [
-        12.6,
-        7.1,
-        5.4,
-        6.0
-      ]
-    },
-    {
       "ticker": "MU.US",
       "name": "Micron Tech",
       "sub_industry": "Semiconductors",
@@ -6340,26 +6347,29 @@
       "sata_d": 4,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 6,
+      "sub": "2C",
+      "sub_days": 317,
       "sub_hist": [
         [
-          6,
-          "2C→2B"
+          317,
+          "2A→2C"
         ],
         [
-          22,
-          "2B→2C"
+          338,
+          "4+→2A"
         ],
         [
-          25,
-          "2C→2B"
+          347,
+          "4→4+"
         ]
       ],
-      "stage_days": 321,
+      "stage_days": 338,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -6394,7 +6404,7 @@
       "sub_industry": "Apparel Retail",
       "sector": "Consumer Discretionary",
       "close": 147.33,
-      "hotness": 0.243,
+      "hotness": 0.242,
       "ret_60": -0.037,
       "pct_high_250": 0.878,
       "ma_aligned": 0,
@@ -6410,15 +6420,15 @@
           "4→4+"
         ],
         [
-          35,
-          "1→4"
+          42,
+          "2A→4"
         ],
         [
-          42,
-          "3→1"
+          65,
+          "2C→2A"
         ]
       ],
-      "stage_days": 35,
+      "stage_days": 42,
       "prov": false,
       "t12": null,
       "marks": [
@@ -6466,26 +6476,29 @@
       "sata_d": 4,
       "sata_w": 4,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 7,
+      "sub": "2C",
+      "sub_days": 89,
       "sub_hist": [
         [
-          7,
-          "2C→2B"
+          89,
+          "2A→2C"
         ],
         [
-          27,
-          "2B→2C"
+          90,
+          "2C→2A"
         ],
         [
-          36,
-          "2C→2B"
+          92,
+          "2A→2C"
         ]
       ],
-      "stage_days": 130,
+      "stage_days": 131,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -6529,26 +6542,28 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 19,
+      "sub_days": 275,
       "sub_hist": [
         [
-          19,
+          275,
           "2A→2C"
         ],
         [
-          59,
-          "2C→2A"
+          296,
+          "4+→2A"
         ],
         [
-          167,
-          "2B→2C"
+          298,
+          "4→4+"
         ]
       ],
-      "stage_days": 275,
+      "stage_days": 296,
       "prov": false,
-      "t12": 314,
+      "t12": 412,
       "marks": [
-        "顶背离"
+        "减速",
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -6592,23 +6607,23 @@
       "sata_d": 10,
       "sata_w": 9,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 11,
+      "sub": "2A",
+      "sub_days": 9,
       "sub_hist": [
         [
-          11,
-          "2A→2B"
+          9,
+          "2C→2A"
         ],
         [
-          22,
-          "3→2A"
+          46,
+          "3-→2C"
         ],
         [
-          43,
-          "2A→3"
+          49,
+          "2C→3-"
         ]
       ],
-      "stage_days": 22,
+      "stage_days": 46,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -6655,24 +6670,24 @@
       "sata_w": 2,
       "stage": "2",
       "sub": "2B",
-      "sub_days": 7,
+      "sub_days": 1,
       "sub_hist": [
         [
-          7,
+          1,
           "2C→2B"
         ],
         [
-          11,
-          "2A→2C"
+          23,
+          "2B→2C"
         ],
         [
           25,
-          "2B→2A"
+          "2C→2B"
         ]
       ],
-      "stage_days": 280,
+      "stage_days": 288,
       "prov": false,
-      "t12": 335,
+      "t12": 288,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -6717,24 +6732,24 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 6,
+      "sub_days": 15,
       "sub_hist": [
         [
-          6,
-          "3→2A"
+          15,
+          "2C→2A"
+        ],
+        [
+          19,
+          "2A→2C"
         ],
         [
           30,
-          "2A→3"
-        ],
-        [
-          78,
           "2C→2A"
         ]
       ],
-      "stage_days": 6,
+      "stage_days": 55,
       "prov": false,
-      "t12": null,
+      "t12": 321,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -6765,12 +6780,42 @@
       ]
     },
     {
+      "ticker": "6976.JP",
+      "name": "Taiyo Yuden",
+      "sub_industry": "Electronic Comp",
+      "sector": "Info Tech",
+      "close": 63.739,
+      "hotness": 0.164,
+      "ret_60": -0.192,
+      "pct_high_250": 0.447,
+      "ma_aligned": 0,
+      "days_below_ma10": 2,
+      "sata_d": 4,
+      "sata_w": 4,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 8,
+      "sub_hist": [
+        [
+          8,
+          "2C→2A"
+        ]
+      ],
+      "stage_days": 302,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "2",
+      "sub_v1": "2B",
+      "t34": null
+    },
+    {
       "ticker": "VRTX.US",
       "name": "Vertex Pharma Incorp…",
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 499.74,
-      "hotness": 0.168,
+      "hotness": 0.163,
       "ret_60": 0.056,
       "pct_high_250": 0.896,
       "ma_aligned": 0,
@@ -6778,26 +6823,30 @@
       "sata_d": 5,
       "sata_w": 4,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 5,
+      "sub": "2C",
+      "sub_days": 57,
       "sub_hist": [
         [
-          5,
-          "2C→2A"
-        ],
-        [
-          45,
+          57,
           "2A→2C"
         ],
         [
-          56,
-          "3→2A"
+          110,
+          "2C→2A"
+        ],
+        [
+          181,
+          "2A→2C"
         ]
       ],
-      "stage_days": 56,
+      "stage_days": 187,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 187,
+      "marks": [
+        "减速",
+        "顶背离",
+        "周MACD死叉"
+      ],
       "stage_v1": "3",
       "sub_v1": "3A",
       "t34": null,
@@ -6832,28 +6881,28 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 193.92,
-      "hotness": 0.167,
+      "hotness": 0.158,
       "ret_60": -0.07,
       "pct_high_250": 0.86,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "3",
-      "sub_days": 1,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 13,
       "sub_hist": [
         [
-          1,
-          "1→3"
-        ],
-        [
           13,
-          "3→1"
+          "3-→4"
         ],
         [
-          17,
-          "2A→3"
+          20,
+          "2A→3-"
+        ],
+        [
+          23,
+          "2C→2A"
         ]
       ],
       "stage_days": 13,
@@ -6862,7 +6911,7 @@
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "1",
-      "t34": null,
+      "t34": 13,
       "fund_periods": [
         "202606",
         "202603",
@@ -6889,44 +6938,6 @@
       ]
     },
     {
-      "ticker": "6976.JP",
-      "name": "Taiyo Yuden",
-      "sub_industry": "Electronic Comp",
-      "sector": "Info Tech",
-      "close": 63.739,
-      "hotness": 0.164,
-      "ret_60": -0.192,
-      "pct_high_250": 0.447,
-      "ma_aligned": 0,
-      "days_below_ma10": 2,
-      "sata_d": 4,
-      "sata_w": 4,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 4,
-      "sub_hist": [
-        [
-          4,
-          "1→2A"
-        ],
-        [
-          30,
-          "2A→1"
-        ],
-        [
-          53,
-          "2C→2A"
-        ]
-      ],
-      "stage_days": 4,
-      "prov": false,
-      "t12": 4,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "2B",
-      "t34": null
-    },
-    {
       "ticker": "CME.US",
       "name": "CME",
       "sub_industry": "Fin Data & Stock Exchanges",
@@ -6939,30 +6950,32 @@
       "days_below_ma10": 0,
       "sata_d": 9,
       "sata_w": 9,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 40,
+      "stage": "4",
+      "sub": "4+",
+      "sub_days": 9,
       "sub_hist": [
         [
-          40,
-          "1+→3"
+          9,
+          "4→4+"
         ],
         [
-          41,
-          "1→1+"
+          16,
+          "3→4"
         ],
         [
-          42,
-          "4+→1"
+          19,
+          "2A→3"
         ]
       ],
-      "stage_days": 40,
+      "stage_days": 16,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "站稳短均"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
-      "t34": null,
+      "t34": 16,
       "fund_periods": [
         "202606",
         "202603",
@@ -6994,7 +7007,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 207.38,
-      "hotness": 0.147,
+      "hotness": 0.146,
       "ret_60": 0.484,
       "pct_high_250": 0.617,
       "ma_aligned": 1,
@@ -7002,25 +7015,25 @@
       "sata_d": 8,
       "sata_w": 8,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 9,
+      "sub": "2C",
+      "sub_days": 15,
       "sub_hist": [
         [
-          9,
-          "2C→2A"
-        ],
-        [
-          10,
+          15,
           "2A→2C"
         ],
         [
-          27,
-          "1→2A"
+          17,
+          "2C→2A"
+        ],
+        [
+          26,
+          "2A→2C"
         ]
       ],
-      "stage_days": 27,
+      "stage_days": 45,
       "prov": false,
-      "t12": 27,
+      "t12": 45,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2C",
@@ -7063,24 +7076,24 @@
       "days_below_ma10": 8,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "2",
-      "sub": "2B",
-      "sub_days": 5,
+      "stage": "3",
+      "sub": "3-",
+      "sub_days": 3,
       "sub_hist": [
         [
-          5,
-          "2C→2B"
+          3,
+          "2C→3-"
         ],
         [
-          11,
+          56,
           "2B→2C"
         ],
         [
-          12,
+          57,
           "2C→2B"
         ]
       ],
-      "stage_days": 247,
+      "stage_days": 3,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -7162,68 +7175,6 @@
       ]
     },
     {
-      "ticker": "VST.US",
-      "name": "Vistra",
-      "sub_industry": "Utilities - Independent Po…",
-      "sector": "Utilities",
-      "close": 152.02,
-      "hotness": 0.095,
-      "ret_60": -0.099,
-      "pct_high_250": 0.759,
-      "ma_aligned": 0,
-      "days_below_ma10": 3,
-      "sata_d": 4,
-      "sata_w": 5,
-      "stage": "4",
-      "sub": "4",
-      "sub_days": 3,
-      "sub_hist": [
-        [
-          3,
-          "4+→4"
-        ],
-        [
-          4,
-          "4→4+"
-        ],
-        [
-          5,
-          "4+→4"
-        ]
-      ],
-      "stage_days": 57,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "1",
-      "sub_v1": "1",
-      "t34": 199,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        -5.5,
-        43.4,
-        13.5,
-        -20.9
-      ],
-      "profit_yoy4": [
-        -6.7,
-        484.0,
-        -47.2,
-        -65.5
-      ],
-      "roe4": [
-        5.5,
-        19.2,
-        null,
-        13.0
-      ]
-    },
-    {
       "ticker": "MCD.US",
       "name": "McDonald’s",
       "sub_industry": "Restaurants",
@@ -7249,11 +7200,11 @@
           "4→4+"
         ],
         [
-          98,
-          "1→4"
+          132,
+          "2A→4"
         ]
       ],
-      "stage_days": 98,
+      "stage_days": 132,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -7286,6 +7237,70 @@
       ]
     },
     {
+      "ticker": "VST.US",
+      "name": "Vistra",
+      "sub_industry": "Utilities - Independent Po…",
+      "sector": "Utilities",
+      "close": 152.02,
+      "hotness": 0.095,
+      "ret_60": -0.099,
+      "pct_high_250": 0.759,
+      "ma_aligned": 0,
+      "days_below_ma10": 3,
+      "sata_d": 4,
+      "sata_w": 5,
+      "stage": "1",
+      "sub": "1+",
+      "sub_days": 9,
+      "sub_hist": [
+        [
+          9,
+          "4→1+"
+        ],
+        [
+          54,
+          "2A→4"
+        ],
+        [
+          61,
+          "4+→2A"
+        ]
+      ],
+      "stage_days": 9,
+      "prov": false,
+      "t12": null,
+      "marks": [
+        "SOS突破"
+      ],
+      "stage_v1": "1",
+      "sub_v1": "1",
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        -5.5,
+        43.4,
+        13.5,
+        -20.9
+      ],
+      "profit_yoy4": [
+        -6.7,
+        484.0,
+        -47.2,
+        -65.5
+      ],
+      "roe4": [
+        5.5,
+        19.2,
+        null,
+        13.0
+      ]
+    },
+    {
       "ticker": "NEM.US",
       "name": "Newmont",
       "sub_industry": "Gold",
@@ -7299,28 +7314,26 @@
       "sata_d": 6,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2C",
-      "sub_days": 18,
+      "sub": "2A",
+      "sub_days": 47,
       "sub_hist": [
         [
-          18,
-          "2B→2C"
+          47,
+          "4+→2A"
         ],
         [
-          19,
-          "2A→2B"
+          50,
+          "4→4+"
         ],
         [
-          30,
-          "3→2A"
+          69,
+          "2A→4"
         ]
       ],
-      "stage_days": 30,
+      "stage_days": 47,
       "prov": false,
-      "t12": null,
-      "marks": [
-        "减速"
-      ],
+      "t12": 424,
+      "marks": [],
       "stage_v1": "1",
       "sub_v1": "1B",
       "t34": null,
@@ -7362,24 +7375,24 @@
       "days_below_ma10": 25,
       "sata_d": 2,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 15,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 8,
       "sub_hist": [
         [
-          15,
-          "3→1"
+          8,
+          "2C→4"
         ],
         [
-          16,
-          "2A→3"
+          13,
+          "3-→2C"
         ],
         [
-          32,
-          "2C→2A"
+          23,
+          "2C→3-"
         ]
       ],
-      "stage_days": 15,
+      "stage_days": 8,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -7393,7 +7406,7 @@
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
       "close": 23.065,
-      "hotness": 0.064,
+      "hotness": 0.063,
       "ret_60": 0.109,
       "pct_high_250": 0.913,
       "ma_aligned": 1,
@@ -7402,24 +7415,24 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2B",
-      "sub_days": 2,
+      "sub_days": 4,
       "sub_hist": [
         [
-          2,
+          4,
           "2A→2B"
         ],
         [
-          13,
-          "3→2A"
+          9,
+          "4+→2A"
         ],
         [
-          15,
-          "1+→3"
+          11,
+          "4→4+"
         ]
       ],
-      "stage_days": 13,
+      "stage_days": 9,
       "prov": false,
-      "t12": 13,
+      "t12": null,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2A",
@@ -7440,24 +7453,24 @@
       "sata_w": 6,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 8,
+      "sub_days": 17,
       "sub_hist": [
         [
-          8,
-          "3→2A"
-        ],
-        [
           17,
-          "1→3"
+          "1→2A"
         ],
         [
-          31,
-          "3→1"
+          25,
+          "2C→1"
+        ],
+        [
+          260,
+          "1+→2C"
         ]
       ],
-      "stage_days": 8,
+      "stage_days": 17,
       "prov": false,
-      "t12": 259,
+      "t12": 17,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -7476,26 +7489,26 @@
       "days_below_ma10": 0,
       "sata_d": 6,
       "sata_w": 6,
-      "stage": "3",
-      "sub": "3",
+      "stage": "2",
+      "sub": "2A",
       "sub_days": 7,
       "sub_hist": [
         [
           7,
-          "1→3"
+          "1→2A"
         ],
         [
-          13,
+          12,
           "2A→1"
         ],
         [
-          15,
+          13,
           "2C→2A"
         ]
       ],
       "stage_days": 7,
       "prov": false,
-      "t12": null,
+      "t12": 7,
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3A",
@@ -7507,7 +7520,7 @@
       "sub_industry": "Oil & Gas Refg & Mktg",
       "sector": "Energy",
       "close": 8.779,
-      "hotness": 0.061,
+      "hotness": 0.06,
       "ret_60": 0.102,
       "pct_high_250": 0.92,
       "ma_aligned": 0,
@@ -7515,29 +7528,26 @@
       "sata_d": 7,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2C",
-      "sub_days": 22,
+      "sub": "2A",
+      "sub_days": 37,
       "sub_hist": [
         [
-          22,
-          "2B→2C"
+          37,
+          "3-→2A"
         ],
         [
-          44,
-          "2A→2B"
+          39,
+          "3→3-"
         ],
         [
-          55,
-          "3→2A"
+          40,
+          "3-→3"
         ]
       ],
-      "stage_days": 55,
+      "stage_days": 37,
       "prov": false,
       "t12": null,
-      "marks": [
-        "减速",
-        "顶背离"
-      ],
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2A",
       "t34": null
@@ -7555,21 +7565,21 @@
       "days_below_ma10": 0,
       "sata_d": 1,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
+      "stage": "4",
+      "sub": "4",
       "sub_days": 19,
       "sub_hist": [
         [
           19,
-          "3→1"
+          "3-→4"
         ],
         [
-          20,
+          21,
+          "3→3-"
+        ],
+        [
+          23,
           "2A→3"
-        ],
-        [
-          25,
-          "2C→2A"
         ]
       ],
       "stage_days": 19,
@@ -7578,7 +7588,7 @@
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3B",
-      "t34": null,
+      "t34": 19,
       "fund_periods": [
         "202607",
         "202604",
@@ -7619,18 +7629,14 @@
       "sata_w": 8,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 18,
+      "sub_days": 36,
       "sub_hist": [
         [
-          18,
-          "2B→2C"
+          36,
+          "2A→2C"
         ],
         [
-          51,
-          "2A→2B"
-        ],
-        [
-          83,
+          44,
           "2C→2A"
         ]
       ],
@@ -7638,7 +7644,8 @@
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -7650,7 +7657,7 @@
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 271.37,
-      "hotness": 0.03,
+      "hotness": 0.034,
       "ret_60": -0.014,
       "pct_high_250": 0.68,
       "ma_aligned": 0,
@@ -7674,13 +7681,13 @@
           "4+→4"
         ]
       ],
-      "stage_days": 20,
+      "stage_days": 19,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "4B",
-      "t34": 155,
+      "t34": 139,
       "fund_periods": [
         "202606",
         "202603",
@@ -7712,33 +7719,33 @@
       "sub_industry": "Fin Data & Stock Exchanges",
       "sector": "Financials",
       "close": 161.56,
-      "hotness": 0.028,
+      "hotness": 0.033,
       "ret_60": 0.132,
       "pct_high_250": 0.932,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 9,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 46,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 15,
       "sub_hist": [
         [
-          46,
-          "1→3"
+          15,
+          "4→2A"
         ],
         [
-          47,
-          "4→1"
-        ],
-        [
-          55,
+          30,
           "4+→4"
+        ],
+        [
+          31,
+          "4→4+"
         ]
       ],
-      "stage_days": 46,
+      "stage_days": 15,
       "prov": false,
-      "t12": null,
+      "t12": 185,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "1C",
@@ -7781,30 +7788,32 @@
       "days_below_ma10": 3,
       "sata_d": 5,
       "sata_w": 4,
-      "stage": "4",
-      "sub": "4",
-      "sub_days": 3,
+      "stage": "1",
+      "sub": "1+",
+      "sub_days": 9,
       "sub_hist": [
         [
-          3,
-          "4+→4"
+          9,
+          "4→1+"
         ],
         [
-          6,
-          "4→4+"
+          60,
+          "2A→4"
         ],
         [
-          25,
-          "1→4"
+          83,
+          "4+→2A"
         ]
       ],
-      "stage_days": 25,
+      "stage_days": 9,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "SOS突破"
+      ],
       "stage_v1": "1",
       "sub_v1": "2A",
-      "t34": 164,
+      "t34": null,
       "fund_periods": [
         "202606",
         "202603",
@@ -7843,24 +7852,24 @@
       "days_below_ma10": 0,
       "sata_d": 4,
       "sata_w": 3,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 32,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 31,
       "sub_hist": [
         [
-          32,
-          "3→1"
+          31,
+          "2A→4"
         ],
         [
-          58,
-          "4+→3"
+          74,
+          "3-→2A"
         ],
         [
-          60,
-          "4→4+"
+          84,
+          "2A→3-"
         ]
       ],
-      "stage_days": 32,
+      "stage_days": 31,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -7906,26 +7915,29 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "3",
-      "sub": "3",
+      "sub": "3-",
       "sub_days": 4,
       "sub_hist": [
         [
           4,
-          "2A→3"
+          "2C→3-"
         ],
         [
-          12,
+          317,
+          "2A→2C"
+        ],
+        [
+          369,
           "2C→2A"
-        ],
-        [
-          24,
-          "2B→2C"
         ]
       ],
       "stage_days": 4,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "预死叉",
+        "纠缠"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null
@@ -7943,24 +7955,24 @@
       "days_below_ma10": 0,
       "sata_d": 5,
       "sata_w": 5,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 26,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 10,
       "sub_hist": [
         [
-          26,
-          "2A→3"
-        ],
-        [
-          47,
+          10,
           "2C→2A"
         ],
         [
-          64,
-          "2B→2C"
+          18,
+          "3-→2C"
+        ],
+        [
+          28,
+          "2C→3-"
         ]
       ],
-      "stage_days": 26,
+      "stage_days": 18,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -7974,7 +7986,7 @@
       "sub_industry": "Specialty Chemicals",
       "sector": "Mat",
       "close": 498.43,
-      "hotness": -0.003,
+      "hotness": -0.007,
       "ret_60": -0.012,
       "pct_high_250": 0.915,
       "ma_aligned": 0,
@@ -7982,29 +7994,32 @@
       "sata_d": 5,
       "sata_w": 5,
       "stage": "4",
-      "sub": "3",
+      "sub": "4+",
       "sub_days": 1,
       "sub_hist": [
         [
           1,
-          "4→3"
+          "4→4+"
         ],
         [
           4,
-          "3→4"
+          "2A→4"
         ],
         [
-          49,
-          "2A→3"
+          11,
+          "3→2A"
         ]
       ],
       "stage_days": 4,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "站稳短均",
+        "日线纠缠"
+      ],
       "stage_v1": "3",
       "sub_v1": "3A",
-      "t34": 4,
+      "t34": 243,
       "fund_periods": [
         "202606",
         "202603",
@@ -8036,34 +8051,36 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 921.2,
-      "hotness": -0.011,
+      "hotness": -0.012,
       "ret_60": -0.107,
       "pct_high_250": 0.784,
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 5,
+      "stage": "3",
+      "sub": "3-",
+      "sub_days": 3,
       "sub_hist": [
         [
-          5,
-          "3→2A"
+          3,
+          "2A→3-"
         ],
         [
-          26,
-          "2A→3"
+          15,
+          "3-→2A"
         ],
         [
-          54,
-          "2C→2A"
+          25,
+          "2C→3-"
         ]
       ],
-      "stage_days": 5,
+      "stage_days": 3,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "纠缠"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null,
@@ -8098,34 +8115,37 @@
       "sub_industry": "Capital Markets",
       "sector": "Financials",
       "close": 180.57,
-      "hotness": -0.014,
+      "hotness": -0.015,
       "ret_60": -0.156,
       "pct_high_250": 0.794,
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 3,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 15,
       "sub_hist": [
         [
-          3,
-          "3→1"
+          15,
+          "2B→2C"
         ],
         [
-          11,
-          "2A→3"
+          17,
+          "2C→2B"
         ],
         [
-          22,
-          "2C→2A"
+          102,
+          "2A→2C"
         ]
       ],
-      "stage_days": 3,
+      "stage_days": 151,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null
@@ -8136,7 +8156,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 141.97,
-      "hotness": -0.016,
+      "hotness": -0.017,
       "ret_60": 0.544,
       "pct_high_250": 0.75,
       "ma_aligned": 1,
@@ -8145,24 +8165,24 @@
       "sata_w": 9,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 5,
+      "sub_days": 22,
       "sub_hist": [
         [
-          5,
-          "2A→2C"
-        ],
-        [
-          16,
-          "2B→2A"
-        ],
-        [
           22,
+          "2B→2C"
+        ],
+        [
+          24,
           "2A→2B"
+        ],
+        [
+          37,
+          "4→2A"
         ]
       ],
-      "stage_days": 31,
+      "stage_days": 37,
       "prov": false,
-      "t12": null,
+      "t12": 51,
       "marks": [
         "减速"
       ],
@@ -8200,7 +8220,7 @@
       "sub_industry": "Computer Hardware",
       "sector": "Info Tech",
       "close": 31.63,
-      "hotness": -0.018,
+      "hotness": -0.019,
       "ret_60": 0.014,
       "pct_high_250": 0.575,
       "ma_aligned": 0,
@@ -8209,26 +8229,27 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 3,
+      "sub_days": 5,
       "sub_hist": [
         [
-          3,
-          "2A→2C"
-        ],
-        [
-          14,
-          "2C→2A"
-        ],
-        [
-          16,
+          5,
           "2B→2C"
+        ],
+        [
+          21,
+          "3→2B"
+        ],
+        [
+          32,
+          "2A→3"
         ]
       ],
       "stage_days": 21,
       "prov": false,
-      "t12": 21,
+      "t12": 353,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD将死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -8264,7 +8285,7 @@
       "sub_industry": "Copper",
       "sector": "Mat",
       "close": 69.54,
-      "hotness": -0.031,
+      "hotness": -0.025,
       "ret_60": 0.097,
       "pct_high_250": 0.872,
       "ma_aligned": 0,
@@ -8273,26 +8294,27 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 18,
+      "sub_days": 189,
       "sub_hist": [
         [
-          18,
-          "2B→2C"
+          189,
+          "2A→2C"
         ],
         [
-          35,
-          "2C→2B"
+          227,
+          "2C→2A"
         ],
         [
-          40,
-          "2B→2C"
+          228,
+          "3-→2C"
         ]
       ],
-      "stage_days": 209,
+      "stage_days": 228,
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -8328,33 +8350,33 @@
       "sub_industry": "Semiconductors",
       "sector": "Info Tech",
       "close": 1210.86,
-      "hotness": -0.033,
+      "hotness": -0.034,
       "ret_60": -0.132,
       "pct_high_250": 0.719,
       "ma_aligned": 0,
       "days_below_ma10": 7,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "3",
-      "sub": "1",
-      "sub_days": 1,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 16,
       "sub_hist": [
         [
-          1,
-          "3→1"
+          16,
+          "3-→2A"
+        ],
+        [
+          17,
+          "3→3-"
         ],
         [
           19,
-          "1→3"
-        ],
-        [
-          32,
-          "2A→1"
+          "3-→3"
         ]
       ],
-      "stage_days": 19,
+      "stage_days": 16,
       "prov": false,
-      "t12": null,
+      "t12": 338,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "1",
@@ -8398,26 +8420,28 @@
       "sata_d": 8,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 14,
+      "sub": "2C",
+      "sub_days": 13,
       "sub_hist": [
         [
-          14,
-          "2C→2A"
-        ],
-        [
-          23,
+          13,
           "2B→2C"
         ],
         [
-          65,
+          14,
           "2C→2B"
+        ],
+        [
+          15,
+          "2B→2C"
         ]
       ],
-      "stage_days": 258,
+      "stage_days": 270,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 288,
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -8435,26 +8459,26 @@
       "days_below_ma10": 0,
       "sata_d": 2,
       "sata_w": 3,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 10,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 3,
       "sub_hist": [
         [
-          10,
-          "4→3"
+          3,
+          "4→2A"
         ],
         [
           13,
-          "3→4"
+          "1→4"
         ],
         [
-          17,
-          "1→3"
+          23,
+          "3-→1"
         ]
       ],
-      "stage_days": 10,
+      "stage_days": 3,
       "prov": false,
-      "t12": null,
+      "t12": 381,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "1",
@@ -8497,24 +8521,24 @@
       "days_below_ma10": 5,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 31,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 16,
       "sub_hist": [
         [
-          31,
-          "2A→1"
+          16,
+          "2C→2A"
         ],
         [
-          36,
-          "2B→2A"
+          32,
+          "3-→2C"
         ],
         [
-          52,
-          "2A→2B"
+          42,
+          "2C→3-"
         ]
       ],
-      "stage_days": 31,
+      "stage_days": 32,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -8561,26 +8585,27 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 4,
+      "sub_days": 122,
       "sub_hist": [
         [
-          4,
+          122,
           "2A→2C"
         ],
         [
-          19,
-          "2C→2A"
+          125,
+          "1+→2A"
         ],
         [
-          88,
-          "2B→2C"
+          128,
+          "1→1+"
         ]
       ],
-      "stage_days": 120,
+      "stage_days": 125,
       "prov": false,
-      "t12": null,
+      "t12": 125,
       "marks": [
-        "顶背离"
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -8599,30 +8624,30 @@
       "days_below_ma10": 0,
       "sata_d": 3,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 23,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 15,
       "sub_hist": [
         [
-          23,
-          "2A→1"
+          15,
+          "3→4"
         ],
         [
-          30,
-          "2C→2A"
+          16,
+          "3-→3"
         ],
         [
-          62,
-          "2B→2C"
+          24,
+          "2C→3-"
         ]
       ],
-      "stage_days": 23,
+      "stage_days": 15,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3B",
-      "t34": null,
+      "t34": 15,
       "fund_periods": [
         "202606",
         "202603",
@@ -8661,30 +8686,30 @@
       "days_below_ma10": 0,
       "sata_d": 2,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 34,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 45,
       "sub_hist": [
         [
-          34,
-          "2A→1"
+          45,
+          "4+→4"
         ],
         [
-          40,
-          "1→2A"
+          47,
+          "4→4+"
         ],
         [
-          41,
-          "3→1"
+          51,
+          "4+→4"
         ]
       ],
-      "stage_days": 34,
+      "stage_days": 60,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null
+      "t34": 152
     },
     {
       "ticker": "CRDO.US",
@@ -8700,26 +8725,28 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 4,
+      "sub": "2C",
+      "sub_days": 22,
       "sub_hist": [
         [
-          4,
-          "3→2A"
+          22,
+          "3-→2C"
         ],
         [
-          16,
-          "1→3"
+          32,
+          "2C→3-"
         ],
         [
-          24,
-          "2A→1"
+          88,
+          "2A→2C"
         ]
       ],
-      "stage_days": 4,
+      "stage_days": 22,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 126,
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null,
@@ -8754,31 +8781,31 @@
       "sub_industry": "Farm & Heavy Constr Mach",
       "sector": "Industrials",
       "close": 730.76,
-      "hotness": -0.106,
+      "hotness": -0.104,
       "ret_60": -0.183,
       "pct_high_250": 0.687,
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 3,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 18,
       "sub_hist": [
         [
-          3,
-          "3→1"
+          18,
+          "2C→2A"
         ],
         [
-          30,
-          "2A→3"
+          56,
+          "2B→2C"
         ],
         [
           57,
-          "2C→2A"
+          "2C→2B"
         ]
       ],
-      "stage_days": 3,
+      "stage_days": 327,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -8824,26 +8851,29 @@
       "sata_d": 4,
       "sata_w": 3,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 13,
+      "sub": "2C",
+      "sub_days": 304,
       "sub_hist": [
         [
-          13,
-          "2C→2A"
+          304,
+          "2A→2C"
         ],
         [
-          20,
-          "2B→2C"
+          314,
+          "1→2A"
         ],
         [
-          40,
-          "2C→2B"
+          316,
+          "1+→1"
         ]
       ],
-      "stage_days": 311,
+      "stage_days": 314,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 314,
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -8862,26 +8892,29 @@
       "sata_d": 8,
       "sata_w": 7,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 2,
+      "sub": "2C",
+      "sub_days": 181,
       "sub_hist": [
         [
-          2,
+          181,
+          "2A→2C"
+        ],
+        [
+          189,
           "2C→2A"
         ],
         [
-          44,
-          "2B→2C"
-        ],
-        [
-          60,
-          "2C→2B"
+          316,
+          "2A→2C"
         ]
       ],
-      "stage_days": 316,
+      "stage_days": 337,
       "prov": false,
-      "t12": 562,
-      "marks": [],
+      "t12": null,
+      "marks": [
+        "顶背离",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -8925,28 +8958,28 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 15,
+      "sub_days": 36,
       "sub_hist": [
         [
-          15,
-          "1→4"
+          36,
+          "2A→4"
         ],
         [
-          39,
-          "3→1"
+          68,
+          "2C→2A"
         ],
         [
-          58,
-          "1→3"
+          74,
+          "2A→2C"
         ]
       ],
-      "stage_days": 15,
+      "stage_days": 36,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": 209,
+      "t34": 148,
       "fund_periods": [
         "202606",
         "202603",
@@ -8985,27 +9018,30 @@
       "days_below_ma10": 0,
       "sata_d": 5,
       "sata_w": 5,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 4,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 11,
       "sub_hist": [
         [
-          4,
-          "2A→3"
+          11,
+          "3-→2C"
         ],
         [
-          9,
-          "2C→2A"
+          17,
+          "2C→3-"
         ],
         [
-          13,
+          138,
           "2B→2C"
         ]
       ],
-      "stage_days": 4,
+      "stage_days": 11,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 546,
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "2B",
       "t34": null,
@@ -9047,14 +9083,10 @@
       "days_below_ma10": 3,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 4,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 5,
       "sub_hist": [
-        [
-          4,
-          "4→1"
-        ],
         [
           5,
           "4+→4"
@@ -9062,15 +9094,19 @@
         [
           6,
           "4→4+"
+        ],
+        [
+          7,
+          "4+→4"
         ]
       ],
-      "stage_days": 4,
+      "stage_days": 77,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 293,
       "fund_periods": [
         "202606",
         "202603",
@@ -9118,12 +9154,12 @@
           "3→4"
         ],
         [
-          22,
-          "4→3"
+          25,
+          "3-→3"
         ],
         [
-          23,
-          "3→4"
+          26,
+          "4→3-"
         ]
       ],
       "stage_days": 21,
@@ -9164,31 +9200,31 @@
       "sub_industry": "Agricultural Inputs",
       "sector": "Mat",
       "close": 71.26,
-      "hotness": -0.134,
+      "hotness": -0.135,
       "ret_60": 0.048,
       "pct_high_250": 0.869,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 4,
       "sata_w": 4,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 4,
+      "stage": "3",
+      "sub": "3",
+      "sub_days": 1,
       "sub_hist": [
         [
+          1,
+          "3-→3"
+        ],
+        [
           4,
+          "2A→3-"
+        ],
+        [
+          7,
           "2C→2A"
-        ],
-        [
-          11,
-          "2B→2C"
-        ],
-        [
-          14,
-          "2A→2B"
         ]
       ],
-      "stage_days": 25,
+      "stage_days": 4,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -9235,24 +9271,24 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2B",
-      "sub_days": 1,
+      "sub_days": 2,
       "sub_hist": [
         [
-          1,
+          2,
           "2C→2B"
         ],
         [
-          2,
-          "2A→2C"
+          12,
+          "3-→2C"
         ],
         [
-          21,
-          "2B→2A"
+          22,
+          "2C→3-"
         ]
       ],
-      "stage_days": 280,
+      "stage_days": 12,
       "prov": false,
-      "t12": null,
+      "t12": 276,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -9280,15 +9316,15 @@
           "4→4+"
         ],
         [
-          14,
-          "1→4"
+          24,
+          "2A→4"
         ],
         [
-          30,
-          "3→1"
+          39,
+          "4+→2A"
         ]
       ],
-      "stage_days": 14,
+      "stage_days": 24,
       "prov": false,
       "t12": null,
       "marks": [
@@ -9331,31 +9367,31 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 136.83,
-      "hotness": -0.15,
+      "hotness": -0.151,
       "ret_60": 0.461,
       "pct_high_250": 0.453,
       "ma_aligned": 0,
       "days_below_ma10": 8,
       "sata_d": 5,
       "sata_w": 5,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 17,
+      "stage": "3",
+      "sub": "3",
+      "sub_days": 5,
       "sub_hist": [
         [
-          17,
-          "1+→1"
+          5,
+          "2A→3"
         ],
         [
-          19,
-          "4+→1+"
+          18,
+          "1+→2A"
         ],
         [
-          21,
-          "4→4+"
+          22,
+          "1→1+"
         ]
       ],
-      "stage_days": 19,
+      "stage_days": 5,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -9401,25 +9437,25 @@
       "sata_d": 0,
       "sata_w": 0,
       "stage": "2",
-      "sub": "1",
-      "sub_days": 2,
+      "sub": "2A",
+      "sub_days": 15,
       "sub_hist": [
         [
-          2,
-          "3→1"
+          15,
+          "3-→2A"
         ],
         [
-          4,
-          "2A→3"
+          19,
+          "3→3-"
         ],
         [
-          10,
-          "3→2A"
+          21,
+          "3-→3"
         ]
       ],
-      "stage_days": 10,
+      "stage_days": 15,
       "prov": false,
-      "t12": null,
+      "t12": 324,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "1",
@@ -9524,11 +9560,11 @@
           "4+→4"
         ],
         [
-          29,
-          "1→4+"
+          36,
+          "4→4+"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 41,
       "prov": false,
       "t12": null,
       "marks": [
@@ -9537,7 +9573,7 @@
       ],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 167,
       "fund_periods": [
         "202606",
         "202603",
@@ -9569,31 +9605,31 @@
       "sub_industry": "REIT - Specialty",
       "sector": "Real Estate",
       "close": 985.98,
-      "hotness": -0.161,
+      "hotness": -0.162,
       "ret_60": -0.041,
       "pct_high_250": 0.888,
       "ma_aligned": 0,
       "days_below_ma10": 4,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 13,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 2,
       "sub_hist": [
         [
-          13,
-          "2A→3"
+          2,
+          "2C→2A"
         ],
         [
-          24,
-          "2B→2A"
+          6,
+          "3-→2C"
         ],
         [
-          45,
-          "2A→2B"
+          8,
+          "3→3-"
         ]
       ],
-      "stage_days": 13,
+      "stage_days": 6,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -9631,7 +9667,7 @@
       "sub_industry": "Electronic Comp",
       "sector": "Info Tech",
       "close": 43.674,
-      "hotness": -0.161,
+      "hotness": -0.162,
       "ret_60": -0.175,
       "pct_high_250": 0.566,
       "ma_aligned": 0,
@@ -9640,26 +9676,27 @@
       "sata_w": 3,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 8,
+      "sub_days": 243,
       "sub_hist": [
         [
-          8,
-          "2A→2C"
-        ],
-        [
-          52,
-          "2C→2A"
-        ],
-        [
-          135,
+          243,
           "2B→2C"
+        ],
+        [
+          251,
+          "2A→2B"
+        ],
+        [
+          274,
+          "4+→2A"
         ]
       ],
-      "stage_days": 252,
+      "stage_days": 274,
       "prov": false,
       "t12": null,
       "marks": [
-        "顶背离"
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -9680,22 +9717,22 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 3,
+      "sub_days": 47,
       "sub_hist": [
         [
-          3,
-          "2C→2A"
+          47,
+          "4+→2A"
         ],
         [
-          14,
-          "2A→2C"
+          50,
+          "4→4+"
         ],
         [
-          25,
-          "3→2A"
+          66,
+          "2A→4"
         ]
       ],
-      "stage_days": 25,
+      "stage_days": 47,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -9733,104 +9770,37 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 11.393,
-      "hotness": -0.172,
+      "hotness": -0.173,
       "ret_60": -0.303,
       "pct_high_250": 0.621,
       "ma_aligned": 0,
       "days_below_ma10": 14,
       "sata_d": 1,
       "sata_w": 0,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 11,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 5,
       "sub_hist": [
         [
-          11,
-          "2A→1"
+          5,
+          "3-→4"
         ],
         [
-          13,
-          "2C→2A"
+          14,
+          "2C→3-"
         ],
         [
-          17,
+          97,
           "2A→2C"
         ]
       ],
-      "stage_days": 11,
+      "stage_days": 5,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3B",
-      "t34": null
-    },
-    {
-      "ticker": "NOC.US",
-      "name": "Northrop Grumman",
-      "sub_industry": "Aero & Def",
-      "sector": "Industrials",
-      "close": 519.86,
-      "hotness": -0.179,
-      "ret_60": -0.021,
-      "pct_high_250": 0.683,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 1,
-      "sata_w": 1,
-      "stage": "4",
-      "sub": "4+",
-      "sub_days": 1,
-      "sub_hist": [
-        [
-          1,
-          "4→4+"
-        ],
-        [
-          16,
-          "4+→4"
-        ],
-        [
-          21,
-          "4→4+"
-        ]
-      ],
-      "stage_days": 89,
-      "prov": false,
-      "t12": null,
-      "marks": [
-        "站稳短均",
-        "周J超卖",
-        "底背离",
-        "日线纠缠"
-      ],
-      "stage_v1": "4",
-      "sub_v1": "4B",
-      "t34": null,
-      "fund_periods": [
-        "202606",
-        "202603",
-        "202512",
-        "202509"
-      ],
-      "sales_yoy4": [
-        5.1,
-        4.4,
-        9.6,
-        4.3
-      ],
-      "profit_yoy4": [
-        -6.8,
-        81.9,
-        12.9,
-        7.2
-      ],
-      "roe4": [
-        6.3,
-        5.2,
-        null,
-        7.0
-      ]
+      "t34": 5
     },
     {
       "ticker": "AEM.US",
@@ -9845,30 +9815,34 @@
       "days_below_ma10": 0,
       "sata_d": 4,
       "sata_w": 5,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 5,
+      "stage": "4",
+      "sub": "4+",
+      "sub_days": 4,
       "sub_hist": [
         [
-          5,
-          "1→2A"
+          4,
+          "4→4+"
+        ],
+        [
+          14,
+          "4+→4"
         ],
         [
           15,
-          "3→1"
-        ],
-        [
-          41,
-          "4+→3"
+          "4→4+"
         ]
       ],
-      "stage_days": 5,
+      "stage_days": 17,
       "prov": false,
-      "t12": 5,
-      "marks": [],
+      "t12": null,
+      "marks": [
+        "站稳短均",
+        "底背离",
+        "日线纠缠"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
-      "t34": null,
+      "t34": 17,
       "fund_periods": [
         "202606",
         "202603",
@@ -9908,23 +9882,23 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 7,
+      "sub": "2A",
+      "sub_days": 2,
       "sub_hist": [
         [
-          7,
-          "2A→2B"
-        ],
-        [
-          57,
+          2,
           "2C→2A"
         ],
         [
-          68,
-          "2B→2C"
+          20,
+          "3-→2C"
+        ],
+        [
+          25,
+          "2C→3-"
         ]
       ],
-      "stage_days": 335,
+      "stage_days": 20,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -9957,123 +9931,47 @@
       ]
     },
     {
-      "ticker": "IBKR.US",
-      "name": "Interactive Brokers",
-      "sub_industry": "Capital Markets",
-      "sector": "Financials",
-      "close": 82.69,
-      "hotness": -0.186,
-      "ret_60": -0.098,
-      "pct_high_250": 0.843,
-      "ma_aligned": 0,
-      "days_below_ma10": 4,
-      "sata_d": 2,
-      "sata_w": 2,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 15,
-      "sub_hist": [
-        [
-          15,
-          "2C→2A"
-        ],
-        [
-          18,
-          "2B→2C"
-        ],
-        [
-          31,
-          "2C→2B"
-        ]
-      ],
-      "stage_days": 130,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "1",
-      "t34": null
-    },
-    {
-      "ticker": "4503.JP",
-      "name": "Astellas Pharma",
-      "sub_industry": "Drug Mfr - General",
-      "sector": "Health Care",
-      "close": 15.308,
-      "hotness": -0.194,
-      "ret_60": 0.145,
-      "pct_high_250": 0.926,
+      "ticker": "NOC.US",
+      "name": "Northrop Grumman",
+      "sub_industry": "Aero & Def",
+      "sector": "Industrials",
+      "close": 519.86,
+      "hotness": -0.183,
+      "ret_60": -0.021,
+      "pct_high_250": 0.683,
       "ma_aligned": 0,
       "days_below_ma10": 0,
-      "sata_d": 10,
-      "sata_w": 9,
-      "stage": "2",
-      "sub": "2C",
-      "sub_days": 9,
+      "sata_d": 1,
+      "sata_w": 1,
+      "stage": "4",
+      "sub": "4+",
+      "sub_days": 1,
       "sub_hist": [
         [
-          9,
-          "2A→2C"
+          1,
+          "4→4+"
         ],
         [
-          20,
-          "3→2A"
+          16,
+          "4+→4"
         ],
         [
-          88,
-          "2A→3"
+          21,
+          "4→4+"
         ]
       ],
-      "stage_days": 20,
+      "stage_days": 112,
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "站稳短均",
+        "周J超卖",
+        "底背离",
+        "日线纠缠"
       ],
-      "stage_v1": "3",
-      "sub_v1": "2A",
-      "t34": null
-    },
-    {
-      "ticker": "HOOD.US",
-      "name": "Robinhood",
-      "sub_industry": "Capital Markets",
-      "sector": "Financials",
-      "close": 98.87,
-      "hotness": -0.195,
-      "ret_60": -0.027,
-      "pct_high_250": 0.672,
-      "ma_aligned": 0,
-      "days_below_ma10": 15,
-      "sata_d": 5,
-      "sata_w": 5,
-      "stage": "2",
-      "sub": "2C",
-      "sub_days": 26,
-      "sub_hist": [
-        [
-          26,
-          "2A→2C"
-        ],
-        [
-          37,
-          "1+→2A"
-        ],
-        [
-          40,
-          "1→1+"
-        ]
-      ],
-      "stage_days": 37,
-      "prov": false,
-      "t12": 37,
-      "marks": [
-        "减速",
-        "顶背离"
-      ],
-      "stage_v1": "2",
-      "sub_v1": "2B",
-      "t34": null,
+      "stage_v1": "4",
+      "sub_v1": "4B",
+      "t34": 112,
       "fund_periods": [
         "202606",
         "202603",
@@ -10081,22 +9979,22 @@
         "202509"
       ],
       "sales_yoy4": [
-        32.3,
-        15.1,
-        26.5,
-        100.0
+        5.1,
+        4.4,
+        9.6,
+        4.3
       ],
       "profit_yoy4": [
-        45.3,
-        4.2,
-        -34.0,
-        270.7
+        -6.8,
+        81.9,
+        12.9,
+        7.2
       ],
       "roe4": [
-        6.0,
-        3.8,
-        6.8,
-        6.7
+        6.3,
+        5.2,
+        null,
+        7.0
       ]
     },
     {
@@ -10105,7 +10003,7 @@
       "sub_industry": "Gold",
       "sector": "Mat",
       "close": 243.72,
-      "hotness": -0.197,
+      "hotness": -0.188,
       "ret_60": 0.14,
       "pct_high_250": 0.873,
       "ma_aligned": 0,
@@ -10114,22 +10012,22 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 1,
+      "sub_days": 48,
       "sub_hist": [
         [
-          1,
-          "2C→2A"
+          48,
+          "4+→2A"
         ],
         [
-          13,
-          "2A→2C"
+          50,
+          "4→4+"
         ],
         [
-          24,
-          "3→2A"
+          65,
+          "2A→4"
         ]
       ],
-      "stage_days": 24,
+      "stage_days": 48,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -10162,6 +10060,147 @@
       ]
     },
     {
+      "ticker": "IBKR.US",
+      "name": "Interactive Brokers",
+      "sub_industry": "Capital Markets",
+      "sector": "Financials",
+      "close": 82.69,
+      "hotness": -0.191,
+      "ret_60": -0.098,
+      "pct_high_250": 0.843,
+      "ma_aligned": 0,
+      "days_below_ma10": 4,
+      "sata_d": 2,
+      "sata_w": 2,
+      "stage": "2",
+      "sub": "2B",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "2C→2B"
+        ],
+        [
+          116,
+          "2A→2C"
+        ],
+        [
+          125,
+          "2C→2A"
+        ]
+      ],
+      "stage_days": 574,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "2",
+      "sub_v1": "1",
+      "t34": null
+    },
+    {
+      "ticker": "4503.JP",
+      "name": "Astellas Pharma",
+      "sub_industry": "Drug Mfr - General",
+      "sector": "Health Care",
+      "close": 15.308,
+      "hotness": -0.194,
+      "ret_60": 0.145,
+      "pct_high_250": 0.926,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 10,
+      "sata_w": 9,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 72,
+      "sub_hist": [
+        [
+          72,
+          "2C→2A"
+        ],
+        [
+          258,
+          "2B→2C"
+        ],
+        [
+          272,
+          "2A→2B"
+        ]
+      ],
+      "stage_days": 298,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "3",
+      "sub_v1": "2A",
+      "t34": null
+    },
+    {
+      "ticker": "HOOD.US",
+      "name": "Robinhood",
+      "sub_industry": "Capital Markets",
+      "sector": "Financials",
+      "close": 98.87,
+      "hotness": -0.195,
+      "ret_60": -0.027,
+      "pct_high_250": 0.672,
+      "ma_aligned": 0,
+      "days_below_ma10": 15,
+      "sata_d": 5,
+      "sata_w": 5,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 30,
+      "sub_hist": [
+        [
+          30,
+          "1+→2C"
+        ],
+        [
+          40,
+          "4+→1+"
+        ],
+        [
+          46,
+          "4→4+"
+        ]
+      ],
+      "stage_days": 30,
+      "prov": false,
+      "t12": 30,
+      "marks": [
+        "顶背离",
+        "周MACD将死叉"
+      ],
+      "stage_v1": "2",
+      "sub_v1": "2B",
+      "t34": null,
+      "fund_periods": [
+        "202606",
+        "202603",
+        "202512",
+        "202509"
+      ],
+      "sales_yoy4": [
+        32.3,
+        15.1,
+        26.5,
+        100.0
+      ],
+      "profit_yoy4": [
+        45.3,
+        4.2,
+        -34.0,
+        270.7
+      ],
+      "roe4": [
+        6.0,
+        3.8,
+        6.8,
+        6.7
+      ]
+    },
+    {
       "ticker": "APD.US",
       "name": "Air Products",
       "sub_industry": "Specialty Chemicals",
@@ -10174,26 +10213,26 @@
       "days_below_ma10": 0,
       "sata_d": 8,
       "sata_w": 5,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 18,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 7,
       "sub_hist": [
         [
-          18,
-          "2A→3"
+          7,
+          "3→2A"
         ],
         [
-          20,
-          "2C→2A"
+          11,
+          "3-→3"
         ],
         [
-          27,
-          "2B→2C"
+          13,
+          "2C→3-"
         ]
       ],
-      "stage_days": 18,
+      "stage_days": 7,
       "prov": false,
-      "t12": null,
+      "t12": 177,
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3A",
@@ -10238,26 +10277,27 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 1,
+      "sub_days": 265,
       "sub_hist": [
         [
-          1,
+          265,
           "2A→2C"
         ],
         [
-          12,
+          274,
           "3→2A"
         ],
         [
-          14,
-          "1→3"
+          277,
+          "4→3"
         ]
       ],
-      "stage_days": 12,
+      "stage_days": 274,
       "prov": false,
-      "t12": 12,
+      "t12": null,
       "marks": [
-        "顶背离"
+        "顶背离",
+        "周MACD死叉"
       ],
       "stage_v1": "1",
       "sub_v1": "1",
@@ -10301,13 +10341,9 @@
       "sata_d": 5,
       "sata_w": 6,
       "stage": "4",
-      "sub": "1+",
-      "sub_days": 1,
+      "sub": "4+",
+      "sub_days": 2,
       "sub_hist": [
-        [
-          1,
-          "4+→1+"
-        ],
         [
           2,
           "4→4+"
@@ -10315,17 +10351,21 @@
         [
           3,
           "4+→4"
+        ],
+        [
+          10,
+          "4→4+"
         ]
       ],
-      "stage_days": 140,
+      "stage_days": 160,
       "prov": false,
       "t12": null,
       "marks": [
-        "预金叉"
+        "站稳短均"
       ],
       "stage_v1": "1",
       "sub_v1": "1",
-      "t34": null,
+      "t34": 160,
       "fund_periods": [
         "202606",
         "202603",
@@ -10357,7 +10397,7 @@
       "sub_industry": "Software - Appl",
       "sector": "Info Tech",
       "close": 190.81,
-      "hotness": -0.218,
+      "hotness": -0.219,
       "ret_60": 0.492,
       "pct_high_250": 0.777,
       "ma_aligned": 0,
@@ -10365,29 +10405,26 @@
       "sata_d": 6,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2C",
-      "sub_days": 16,
+      "sub": "2A",
+      "sub_days": 5,
       "sub_hist": [
         [
-          16,
-          "2A→2C"
-        ],
-        [
-          27,
+          5,
           "2C→2A"
         ],
         [
-          31,
+          25,
           "2A→2C"
+        ],
+        [
+          53,
+          "1+→2A"
         ]
       ],
-      "stage_days": 34,
+      "stage_days": 53,
       "prov": false,
-      "t12": 482,
-      "marks": [
-        "减速",
-        "顶背离"
-      ],
+      "t12": 53,
+      "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -10431,22 +10468,22 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 11,
+      "sub_days": 21,
       "sub_hist": [
         [
-          11,
-          "3→2A"
+          21,
+          "2C→2A"
         ],
         [
-          24,
-          "2A→3"
+          56,
+          "2B→2C"
         ],
         [
-          36,
-          "2B→2A"
+          57,
+          "2C→2B"
         ]
       ],
-      "stage_days": 11,
+      "stage_days": 368,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -10479,50 +10516,12 @@
       ]
     },
     {
-      "ticker": "8035.JP",
-      "name": "Tokyo Electron",
-      "sub_industry": "Semiconductor Equip & Mat",
-      "sector": "Info Tech",
-      "close": 67.284,
-      "hotness": -0.238,
-      "ret_60": -0.224,
-      "pct_high_250": 0.698,
-      "ma_aligned": 0,
-      "days_below_ma10": 4,
-      "sata_d": 3,
-      "sata_w": 3,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 11,
-      "sub_hist": [
-        [
-          11,
-          "3→2A"
-        ],
-        [
-          20,
-          "2A→3"
-        ],
-        [
-          48,
-          "2C→2A"
-        ]
-      ],
-      "stage_days": 11,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "1",
-      "t34": null
-    },
-    {
       "ticker": "SNY.US",
       "name": "Sanofi SA Sponsored",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 40.61,
-      "hotness": -0.239,
+      "hotness": -0.24,
       "ret_60": -0.063,
       "pct_high_250": 0.819,
       "ma_aligned": 0,
@@ -10531,22 +10530,22 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 11,
+      "sub_days": 28,
       "sub_hist": [
         [
-          11,
-          "1→4"
+          28,
+          "2A→4"
         ],
         [
-          36,
-          "3→1"
+          39,
+          "4+→2A"
         ],
         [
-          38,
-          "1+→3"
+          47,
+          "4→4+"
         ]
       ],
-      "stage_days": 11,
+      "stage_days": 28,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -10579,12 +10578,90 @@
       ]
     },
     {
+      "ticker": "8035.JP",
+      "name": "Tokyo Electron",
+      "sub_industry": "Semiconductor Equip & Mat",
+      "sector": "Info Tech",
+      "close": 67.284,
+      "hotness": -0.243,
+      "ret_60": -0.224,
+      "pct_high_250": 0.698,
+      "ma_aligned": 0,
+      "days_below_ma10": 4,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "2C→2A"
+        ],
+        [
+          235,
+          "2A→2C"
+        ],
+        [
+          262,
+          "4→2A"
+        ]
+      ],
+      "stage_days": 262,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "2",
+      "sub_v1": "1",
+      "t34": null
+    },
+    {
+      "ticker": "GLNCY.US",
+      "name": "Glencore",
+      "sub_industry": "Other Indl Metals & Mining",
+      "sector": "Mat",
+      "close": 15.44,
+      "hotness": -0.246,
+      "ret_60": 0.103,
+      "pct_high_250": 0.908,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 8,
+      "sata_w": 6,
+      "stage": "2",
+      "sub": "2C",
+      "sub_days": 24,
+      "sub_hist": [
+        [
+          24,
+          "2A→2C"
+        ],
+        [
+          26,
+          "2C→2A"
+        ],
+        [
+          34,
+          "2A→2C"
+        ]
+      ],
+      "stage_days": 270,
+      "prov": false,
+      "t12": null,
+      "marks": [
+        "周MACD死叉"
+      ],
+      "stage_v1": "2",
+      "sub_v1": "2B",
+      "t34": null
+    },
+    {
       "ticker": "AZN.US",
       "name": "AstraZeneca",
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 165.41,
-      "hotness": -0.257,
+      "hotness": -0.252,
       "ret_60": -0.01,
       "pct_high_250": 0.799,
       "ma_aligned": 0,
@@ -10600,15 +10677,15 @@
           "4→4+"
         ],
         [
-          63,
+          64,
           "1→4"
         ],
         [
-          68,
-          "3→1"
+          67,
+          "2A→1"
         ]
       ],
-      "stage_days": 63,
+      "stage_days": 64,
       "prov": false,
       "t12": null,
       "marks": [
@@ -10617,7 +10694,7 @@
       ],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 480,
       "fund_periods": [
         "202606",
         "202603",
@@ -10657,26 +10734,28 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 11,
+      "sub": "2C",
+      "sub_days": 8,
       "sub_hist": [
         [
-          11,
-          "2C→2B"
-        ],
-        [
-          13,
+          8,
           "2A→2C"
         ],
         [
-          26,
-          "2B→2A"
+          11,
+          "2C→2A"
+        ],
+        [
+          21,
+          "3-→2C"
         ]
       ],
-      "stage_days": 186,
+      "stage_days": 21,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "1",
       "t34": null,
@@ -10720,24 +10799,24 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 7,
+      "sub_days": 6,
       "sub_hist": [
         [
-          7,
-          "3→2A"
+          6,
+          "2C→2A"
         ],
         [
-          11,
-          "1→3"
+          90,
+          "2B→2C"
         ],
         [
-          21,
-          "2A→1"
+          92,
+          "2A→2B"
         ]
       ],
-      "stage_days": 7,
+      "stage_days": 122,
       "prov": false,
-      "t12": null,
+      "t12": 293,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "1",
@@ -10773,7 +10852,7 @@
           "4+→4"
         ]
       ],
-      "stage_days": 50,
+      "stage_days": 87,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -10819,26 +10898,28 @@
       "sata_d": 0,
       "sata_w": 1,
       "stage": "3",
-      "sub": "3",
-      "sub_days": 22,
+      "sub": "3-",
+      "sub_days": 3,
       "sub_hist": [
         [
-          22,
-          "2A→3"
+          3,
+          "3→3-"
         ],
         [
-          24,
-          "2C→2A"
+          6,
+          "3-→3"
         ],
         [
-          28,
-          "2B→2C"
+          7,
+          "2C→3-"
         ]
       ],
-      "stage_days": 22,
+      "stage_days": 7,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "纠缠"
+      ],
       "stage_v1": "3",
       "sub_v1": "3B",
       "t34": null
@@ -10857,26 +10938,28 @@
       "sata_d": 8,
       "sata_w": 7,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 9,
+      "sub": "2C",
+      "sub_days": 1,
       "sub_hist": [
         [
-          9,
-          "3→2A"
+          1,
+          "2A→2C"
         ],
         [
-          10,
-          "2A→3"
+          4,
+          "2C→2A"
         ],
         [
-          12,
-          "3→2A"
+          258,
+          "2B→2C"
         ]
       ],
-      "stage_days": 277,
+      "stage_days": 281,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "3",
       "sub_v1": "3A",
       "t34": null
@@ -10895,26 +10978,28 @@
       "sata_d": 5,
       "sata_w": 5,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 7,
+      "sub": "2C",
+      "sub_days": 210,
       "sub_hist": [
         [
-          7,
-          "2C→2B"
+          210,
+          "2A→2C"
         ],
         [
-          8,
-          "2B→2C"
+          214,
+          "2C→2A"
         ],
         [
-          9,
-          "2C→2B"
+          243,
+          "2A→2C"
         ]
       ],
-      "stage_days": 237,
+      "stage_days": 361,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null,
@@ -10944,84 +11029,6 @@
       ]
     },
     {
-      "ticker": "GLNCY.US",
-      "name": "Glencore",
-      "sub_industry": "Other Indl Metals & Mining",
-      "sector": "Mat",
-      "close": 15.42,
-      "hotness": -0.279,
-      "ret_60": 0.101,
-      "pct_high_250": 0.907,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 7,
-      "sata_w": 6,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 8,
-      "sub_hist": [
-        [
-          8,
-          "2C→2A"
-        ],
-        [
-          17,
-          "2B→2C"
-        ],
-        [
-          26,
-          "2C→2B"
-        ]
-      ],
-      "stage_days": 56,
-      "prov": false,
-      "t12": 270,
-      "marks": [],
-      "stage_v1": "2",
-      "sub_v1": "2B",
-      "t34": null
-    },
-    {
-      "ticker": "7741.JP",
-      "name": "HOYA",
-      "sub_industry": "Medical Instr & Supplies",
-      "sector": "Health Care",
-      "close": 162.355,
-      "hotness": -0.28,
-      "ret_60": 0.024,
-      "pct_high_250": 0.854,
-      "ma_aligned": 0,
-      "days_below_ma10": 0,
-      "sata_d": 3,
-      "sata_w": 3,
-      "stage": "4",
-      "sub": "4+",
-      "sub_days": 1,
-      "sub_hist": [
-        [
-          1,
-          "4→4+"
-        ],
-        [
-          25,
-          "3→4"
-        ],
-        [
-          32,
-          "4→3"
-        ]
-      ],
-      "stage_days": 25,
-      "prov": false,
-      "t12": null,
-      "marks": [
-        "站稳短均"
-      ],
-      "stage_v1": "4",
-      "sub_v1": "4B",
-      "t34": 25
-    },
-    {
       "ticker": "VALE.US",
       "name": "Vale S.A. Sponsored",
       "sub_industry": "Other Indl Metals & Mining",
@@ -11040,15 +11047,15 @@
       "sub_hist": [
         [
           12,
-          "3→4"
+          "3-→4"
+        ],
+        [
+          21,
+          "2A→3-"
         ],
         [
           35,
-          "4→3"
-        ],
-        [
-          51,
-          "3→4"
+          "4→2A"
         ]
       ],
       "stage_days": 12,
@@ -11084,6 +11091,46 @@
       ]
     },
     {
+      "ticker": "7741.JP",
+      "name": "HOYA",
+      "sub_industry": "Medical Instr & Supplies",
+      "sector": "Health Care",
+      "close": 162.355,
+      "hotness": -0.285,
+      "ret_60": 0.024,
+      "pct_high_250": 0.854,
+      "ma_aligned": 0,
+      "days_below_ma10": 0,
+      "sata_d": 3,
+      "sata_w": 3,
+      "stage": "4",
+      "sub": "4+",
+      "sub_days": 1,
+      "sub_hist": [
+        [
+          1,
+          "4→4+"
+        ],
+        [
+          39,
+          "2A→4"
+        ],
+        [
+          57,
+          "3-→2A"
+        ]
+      ],
+      "stage_days": 39,
+      "prov": false,
+      "t12": null,
+      "marks": [
+        "站稳短均"
+      ],
+      "stage_v1": "4",
+      "sub_v1": "4B",
+      "t34": null
+    },
+    {
       "ticker": "NVT.US",
       "name": "nVent Electric",
       "sub_industry": "Electrical Equip & Parts",
@@ -11097,26 +11144,28 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 12,
+      "sub": "2C",
+      "sub_days": 56,
       "sub_hist": [
         [
-          12,
+          56,
+          "2B→2C"
+        ],
+        [
+          57,
           "2C→2B"
         ],
         [
-          13,
+          302,
           "2A→2C"
-        ],
-        [
-          30,
-          "2B→2A"
         ]
       ],
-      "stage_days": 317,
+      "stage_days": 314,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null,
@@ -11146,6 +11195,44 @@
       ]
     },
     {
+      "ticker": "KKR.US",
+      "name": "KKR",
+      "sub_industry": "Asset Management",
+      "sector": "Financials",
+      "close": 86.21,
+      "hotness": -0.32,
+      "ret_60": -0.1,
+      "pct_high_250": 0.607,
+      "ma_aligned": 0,
+      "days_below_ma10": 4,
+      "sata_d": 2,
+      "sata_w": 1,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 18,
+      "sub_hist": [
+        [
+          18,
+          "2C→4"
+        ],
+        [
+          32,
+          "2A→2C"
+        ],
+        [
+          52,
+          "4+→2A"
+        ]
+      ],
+      "stage_days": 18,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "4",
+      "sub_v1": "4B",
+      "t34": null
+    },
+    {
       "ticker": "8053.JP",
       "name": "Sumitomo",
       "sub_industry": "Conglomerates",
@@ -11160,18 +11247,14 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 14,
+      "sub_days": 36,
       "sub_hist": [
         [
-          14,
-          "2B→2C"
+          36,
+          "2A→2C"
         ],
         [
-          47,
-          "2A→2B"
-        ],
-        [
-          76,
+          38,
           "2C→2A"
         ]
       ],
@@ -11179,7 +11262,8 @@
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -11191,7 +11275,7 @@
       "sub_industry": "Copper",
       "sector": "Mat",
       "close": 200.51,
-      "hotness": -0.321,
+      "hotness": -0.325,
       "ret_60": 0.106,
       "pct_high_250": 0.913,
       "ma_aligned": 0,
@@ -11200,26 +11284,27 @@
       "sata_w": 7,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 19,
+      "sub_days": 30,
       "sub_hist": [
         [
-          19,
-          "2B→2C"
+          30,
+          "2A→2C"
         ],
         [
           37,
-          "2C→2B"
+          "2C→2A"
         ],
         [
-          38,
-          "2B→2C"
+          40,
+          "2A→2C"
         ]
       ],
-      "stage_days": 284,
+      "stage_days": 290,
       "prov": false,
       "t12": null,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD将死叉"
       ],
       "stage_v1": "3",
       "sub_v1": "3A",
@@ -11250,44 +11335,6 @@
       ]
     },
     {
-      "ticker": "KKR.US",
-      "name": "KKR",
-      "sub_industry": "Asset Management",
-      "sector": "Financials",
-      "close": 86.21,
-      "hotness": -0.324,
-      "ret_60": -0.1,
-      "pct_high_250": 0.607,
-      "ma_aligned": 0,
-      "days_below_ma10": 4,
-      "sata_d": 2,
-      "sata_w": 1,
-      "stage": "4",
-      "sub": "4",
-      "sub_days": 3,
-      "sub_hist": [
-        [
-          3,
-          "1→4"
-        ],
-        [
-          18,
-          "2A→1"
-        ],
-        [
-          38,
-          "1→2A"
-        ]
-      ],
-      "stage_days": 3,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "4",
-      "sub_v1": "4B",
-      "t34": null
-    },
-    {
       "ticker": "COIN.US",
       "name": "Coinba",
       "sub_industry": "Fin Data & Stock Exchanges",
@@ -11300,30 +11347,30 @@
       "days_below_ma10": 1,
       "sata_d": 3,
       "sata_w": 3,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 16,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 6,
       "sub_hist": [
         [
-          16,
-          "1+→1"
+          6,
+          "4+→4"
         ],
         [
-          19,
-          "4+→1+"
-        ],
-        [
-          21,
+          7,
           "4→4+"
+        ],
+        [
+          9,
+          "2A→4"
         ]
       ],
-      "stage_days": 19,
+      "stage_days": 9,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 407,
       "fund_periods": [
         "202606",
         "202603",
@@ -11364,24 +11411,24 @@
       "sata_w": 1,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 6,
+      "sub_days": 15,
       "sub_hist": [
         [
-          6,
-          "1→2A"
+          15,
+          "2C→2A"
         ],
         [
-          28,
-          "3→1"
+          56,
+          "2B→2C"
         ],
         [
-          30,
-          "2A→3"
+          57,
+          "2C→2B"
         ]
       ],
-      "stage_days": 6,
+      "stage_days": 357,
       "prov": false,
-      "t12": 6,
+      "t12": 357,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "1",
@@ -11425,26 +11472,29 @@
       "sata_d": 2,
       "sata_w": 2,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 15,
+      "sub": "2C",
+      "sub_days": 104,
       "sub_hist": [
         [
-          15,
-          "2C→2B"
+          104,
+          "2B→2C"
         ],
         [
-          16,
-          "2A→2C"
+          106,
+          "2A→2B"
         ],
         [
-          60,
-          "2C→2A"
+          136,
+          "4+→2A"
         ]
       ],
-      "stage_days": 122,
+      "stage_days": 136,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "减速",
+        "周MACD死叉"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null,
@@ -11486,27 +11536,31 @@
       "days_below_ma10": 0,
       "sata_d": 6,
       "sata_w": 8,
-      "stage": "3",
-      "sub": "3",
+      "stage": "2",
+      "sub": "2C",
       "sub_days": 15,
       "sub_hist": [
         [
           15,
-          "1→3"
+          "3→2C"
+        ],
+        [
+          18,
+          "4→3"
         ],
         [
           27,
-          "3→1"
-        ],
-        [
-          30,
-          "1→3"
+          "3→4"
         ]
       ],
       "stage_days": 15,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 286,
+      "marks": [
+        "减速",
+        "顶背离",
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -11517,28 +11571,28 @@
       "sub_industry": "Asset Management",
       "sector": "Financials",
       "close": 110.78,
-      "hotness": -0.357,
+      "hotness": -0.358,
       "ret_60": -0.065,
       "pct_high_250": 0.735,
       "ma_aligned": 0,
       "days_below_ma10": 3,
       "sata_d": 2,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
+      "stage": "4",
+      "sub": "4",
       "sub_days": 15,
       "sub_hist": [
         [
           15,
-          "2A→1"
-        ],
-        [
-          16,
-          "2C→2A"
+          "2C→4"
         ],
         [
           23,
-          "3→2C"
+          "2A→2C"
+        ],
+        [
+          29,
+          "4→2A"
         ]
       ],
       "stage_days": 15,
@@ -11547,7 +11601,7 @@
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null
+      "t34": 52
     },
     {
       "ticker": "BMNR.US",
@@ -11562,26 +11616,26 @@
       "days_below_ma10": 13,
       "sata_d": 5,
       "sata_w": 5,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 3,
+      "stage": "3",
+      "sub": "3",
+      "sub_days": 17,
       "sub_hist": [
         [
-          3,
-          "1→2A"
+          17,
+          "2A→3"
         ],
         [
-          16,
-          "1+→1"
+          35,
+          "1+→2A"
         ],
         [
-          20,
-          "1→1+"
+          42,
+          "4→1+"
         ]
       ],
-      "stage_days": 3,
+      "stage_days": 17,
       "prov": false,
-      "t12": 3,
+      "t12": null,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -11617,7 +11671,7 @@
       "sub_industry": "Copper",
       "sector": "Mat",
       "close": 64.62,
-      "hotness": -0.372,
+      "hotness": -0.376,
       "ret_60": 0.081,
       "pct_high_250": 0.899,
       "ma_aligned": 0,
@@ -11626,26 +11680,27 @@
       "sata_w": 4,
       "stage": "2",
       "sub": "2C",
-      "sub_days": 19,
+      "sub_days": 145,
       "sub_hist": [
         [
-          19,
+          145,
           "2B→2C"
         ],
         [
-          49,
-          "2A→2B"
+          146,
+          "2C→2B"
         ],
         [
-          72,
-          "2C→2A"
+          223,
+          "2A→2C"
         ]
       ],
-      "stage_days": 253,
+      "stage_days": 262,
       "prov": false,
-      "t12": null,
+      "t12": 326,
       "marks": [
-        "减速"
+        "减速",
+        "周MACD死叉"
       ],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -11688,27 +11743,31 @@
       "days_below_ma10": 0,
       "sata_d": 4,
       "sata_w": 4,
-      "stage": "2",
-      "sub": "2A",
-      "sub_days": 9,
+      "stage": "4",
+      "sub": "4+",
+      "sub_days": 2,
       "sub_hist": [
         [
-          9,
-          "3→2A"
+          2,
+          "4→4+"
         ],
         [
-          42,
-          "4→3"
-        ],
-        [
-          43,
+          18,
           "4+→4"
+        ],
+        [
+          19,
+          "4→4+"
         ]
       ],
-      "stage_days": 9,
+      "stage_days": 20,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周J超卖",
+        "底背离",
+        "日线纠缠"
+      ],
       "stage_v1": "1",
       "sub_v1": "1",
       "t34": null,
@@ -11750,24 +11809,24 @@
       "days_below_ma10": 0,
       "sata_d": 2,
       "sata_w": 1,
-      "stage": "2",
+      "stage": "3",
       "sub": "3",
-      "sub_days": 1,
+      "sub_days": 3,
       "sub_hist": [
         [
-          1,
-          "2A→3"
+          3,
+          "4→3"
         ],
         [
-          11,
-          "3→2A"
+          6,
+          "2A→4"
         ],
         [
-          35,
-          "2A→3"
+          53,
+          "2C→2A"
         ]
       ],
-      "stage_days": 11,
+      "stage_days": 3,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -11781,7 +11840,7 @@
       "sub_industry": "Software - Infra",
       "sector": "Info Tech",
       "close": 128.23,
-      "hotness": -0.407,
+      "hotness": -0.406,
       "ret_60": 0.072,
       "pct_high_250": 0.459,
       "ma_aligned": 0,
@@ -11805,36 +11864,36 @@
           "4+→4"
         ]
       ],
-      "stage_days": 76,
+      "stage_days": 85,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 183,
       "fund_periods": [
+        "202608",
         "202605",
         "202602",
-        "202511",
-        "202508"
+        "202511"
       ],
       "sales_yoy4": [
+        29.6,
         20.6,
         21.7,
-        14.2,
-        12.2
+        14.2
       ],
       "profit_yoy4": [
+        62.6,
         25.6,
         26.7,
-        94.7,
-        -0.1
+        94.7
       ],
       "roe4": [
+        8.7,
         10.6,
         10.9,
-        22.7,
-        13.1
+        22.7
       ]
     },
     {
@@ -11852,24 +11911,24 @@
       "sata_w": 5,
       "stage": "2",
       "sub": "2A",
-      "sub_days": 10,
+      "sub_days": 16,
       "sub_hist": [
         [
-          10,
+          16,
           "1+→2A"
         ],
         [
-          13,
-          "1→1+"
+          22,
+          "2A→1+"
         ],
         [
-          16,
-          "1+→1"
+          30,
+          "4+→2A"
         ]
       ],
-      "stage_days": 10,
+      "stage_days": 16,
       "prov": false,
-      "t12": 10,
+      "t12": 16,
       "marks": [],
       "stage_v1": "2",
       "sub_v1": "2B",
@@ -11914,22 +11973,22 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4",
-      "sub_days": 33,
+      "sub_days": 34,
       "sub_hist": [
         [
-          33,
-          "1→4"
-        ],
-        [
-          41,
-          "3→1"
+          34,
+          "2A→4"
         ],
         [
           53,
-          "1→3"
+          "3-→2A"
+        ],
+        [
+          57,
+          "2A→3-"
         ]
       ],
-      "stage_days": 33,
+      "stage_days": 34,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -11967,7 +12026,7 @@
       "sub_industry": "Farm Products",
       "sector": "Consumer Staples",
       "close": 106.14,
-      "hotness": -0.448,
+      "hotness": -0.449,
       "ret_60": -0.127,
       "pct_high_250": 0.813,
       "ma_aligned": 0,
@@ -11983,12 +12042,12 @@
           "3→4"
         ],
         [
-          33,
-          "4→3"
+          10,
+          "3-→3"
         ],
         [
-          38,
-          "3→4"
+          11,
+          "4→3-"
         ]
       ],
       "stage_days": 8,
@@ -12029,7 +12088,7 @@
       "sub_industry": "Specialty Indl Mach",
       "sector": "Industrials",
       "close": 24.027,
-      "hotness": -0.475,
+      "hotness": -0.476,
       "ret_60": -0.003,
       "pct_high_250": 0.735,
       "ma_aligned": 0,
@@ -12053,7 +12112,7 @@
           "4→4+"
         ]
       ],
-      "stage_days": 25,
+      "stage_days": 35,
       "prov": false,
       "t12": null,
       "marks": [
@@ -12080,22 +12139,22 @@
       "sata_w": 3,
       "stage": "1",
       "sub": "1",
-      "sub_days": 13,
+      "sub_days": 23,
       "sub_hist": [
         [
-          13,
-          "3→1"
+          23,
+          "2A→1"
         ],
         [
           30,
-          "4→3"
+          "4→2A"
         ],
         [
-          44,
-          "3→4"
+          35,
+          "2A→4"
         ]
       ],
-      "stage_days": 13,
+      "stage_days": 23,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -12109,37 +12168,37 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 17.346,
-      "hotness": -0.487,
+      "hotness": -0.488,
       "ret_60": 0.016,
       "pct_high_250": 0.677,
       "ma_aligned": 0,
       "days_below_ma10": 0,
       "sata_d": 5,
       "sata_w": 4,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 14,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 4,
       "sub_hist": [
         [
+          4,
+          "4+→4"
+        ],
+        [
+          5,
+          "4→4+"
+        ],
+        [
           14,
-          "1+→1"
-        ],
-        [
-          15,
-          "1→1+"
-        ],
-        [
-          16,
-          "1+→1"
+          "4+→4"
         ]
       ],
-      "stage_days": 28,
+      "stage_days": 24,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "2A",
-      "t34": null
+      "t34": 221
     },
     {
       "ticker": "CRCL.US",
@@ -12154,24 +12213,24 @@
       "days_below_ma10": 1,
       "sata_d": 2,
       "sata_w": 3,
-      "stage": "1",
-      "sub": "1",
+      "stage": "4",
+      "sub": "4",
       "sub_days": 1,
       "sub_hist": [
         [
           1,
-          "1+→1"
+          "4+→4"
         ],
         [
           2,
-          "1→1+"
+          "4→4+"
         ],
         [
-          28,
-          "1+→1"
+          16,
+          "1+→4"
         ]
       ],
-      "stage_days": 30,
+      "stage_days": 16,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -12217,26 +12276,20 @@
       "sata_d": 6,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 4,
+      "sub": "2C",
+      "sub_days": 301,
       "sub_hist": [
         [
-          4,
-          "2C→2B"
-        ],
-        [
-          5,
+          301,
           "2B→2C"
-        ],
-        [
-          7,
-          "2A→2B"
         ]
       ],
       "stage_days": 302,
       "prov": false,
       "t12": null,
-      "marks": [],
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -12263,15 +12316,15 @@
           "4→4+"
         ],
         [
-          33,
-          "4+→4"
+          25,
+          "2A→4"
         ],
         [
-          35,
-          "4→4+"
+          33,
+          "4+→2A"
         ]
       ],
-      "stage_days": 192,
+      "stage_days": 25,
       "prov": false,
       "t12": null,
       "marks": [
@@ -12279,7 +12332,7 @@
       ],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 199,
       "fund_periods": [
         "202607",
         "202604",
@@ -12311,7 +12364,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 89.786,
-      "hotness": -0.519,
+      "hotness": -0.52,
       "ret_60": 0.126,
       "pct_high_250": 0.828,
       "ma_aligned": 0,
@@ -12319,26 +12372,28 @@
       "sata_d": 7,
       "sata_w": 6,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 9,
+      "sub": "2C",
+      "sub_days": 8,
       "sub_hist": [
         [
-          9,
-          "3→2A"
+          8,
+          "2A→2C"
         ],
         [
-          17,
-          "2A→3"
+          11,
+          "2C→2A"
         ],
         [
-          23,
-          "2B→2A"
+          148,
+          "2B→2C"
         ]
       ],
-      "stage_days": 9,
+      "stage_days": 294,
       "prov": false,
-      "t12": null,
-      "marks": [],
+      "t12": 294,
+      "marks": [
+        "周MACD死叉"
+      ],
       "stage_v1": "2",
       "sub_v1": "2B",
       "t34": null
@@ -12349,7 +12404,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 206.42,
-      "hotness": -0.527,
+      "hotness": -0.528,
       "ret_60": -0.321,
       "pct_high_250": 0.549,
       "ma_aligned": 0,
@@ -12362,15 +12417,15 @@
       "sub_hist": [
         [
           10,
-          "1→4"
+          "2A→4"
         ],
         [
-          25,
-          "3→1"
+          17,
+          "3-→2A"
         ],
         [
-          48,
-          "2A→3"
+          28,
+          "2A→3-"
         ]
       ],
       "stage_days": 10,
@@ -12379,7 +12434,7 @@
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3B",
-      "t34": null,
+      "t34": 385,
       "fund_periods": [
         "202606",
         "202603",
@@ -12420,28 +12475,28 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 8,
+      "sub_days": 22,
       "sub_hist": [
         [
-          8,
-          "1→4"
+          22,
+          "2A→4"
         ],
         [
           27,
-          "1+→1"
+          "4+→2A"
         ],
         [
           30,
-          "4+→1+"
+          "1+→4+"
         ]
       ],
-      "stage_days": 8,
+      "stage_days": 22,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 143,
       "fund_periods": [
         "202606",
         "202603",
@@ -12473,7 +12528,7 @@
       "sub_industry": "Electrical Equip & Parts",
       "sector": "Industrials",
       "close": 31.68,
-      "hotness": -0.545,
+      "hotness": -0.546,
       "ret_60": -0.112,
       "pct_high_250": 0.767,
       "ma_aligned": 0,
@@ -12482,28 +12537,24 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 5,
+      "sub_days": 16,
       "sub_hist": [
         [
-          5,
-          "3→4"
-        ],
-        [
           16,
-          "1→3"
+          "2A→4"
         ],
         [
-          25,
-          "2A→1"
+          28,
+          "2C→2A"
         ]
       ],
-      "stage_days": 5,
+      "stage_days": 16,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "4A",
-      "t34": 5
+      "t34": null
     },
     {
       "ticker": "NVO.US",
@@ -12511,7 +12562,7 @@
       "sub_industry": "Drug Mfr - General",
       "sector": "Health Care",
       "close": 38.83,
-      "hotness": -0.552,
+      "hotness": -0.546,
       "ret_60": -0.184,
       "pct_high_250": 0.637,
       "ma_aligned": 0,
@@ -12520,28 +12571,28 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4",
-      "sub_days": 8,
+      "sub_days": 29,
       "sub_hist": [
         [
-          8,
-          "1→4"
+          29,
+          "4+→4"
         ],
         [
-          30,
-          "1+→1"
+          32,
+          "4→4+"
         ],
         [
-          31,
-          "1→1+"
+          36,
+          "4+→4"
         ]
       ],
-      "stage_days": 8,
+      "stage_days": 47,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 47,
       "fund_periods": [
         "202606",
         "202603",
@@ -12568,12 +12619,50 @@
       ]
     },
     {
+      "ticker": "RIO.US",
+      "name": "Rio Tinto plc Sponso…",
+      "sub_industry": "Other Indl Metals & Mining",
+      "sector": "Mat",
+      "close": 90.32,
+      "hotness": -0.551,
+      "ret_60": 0.009,
+      "pct_high_250": 0.824,
+      "ma_aligned": 0,
+      "days_below_ma10": 4,
+      "sata_d": 2,
+      "sata_w": 2,
+      "stage": "1",
+      "sub": "1",
+      "sub_days": 3,
+      "sub_hist": [
+        [
+          3,
+          "2A→1"
+        ],
+        [
+          10,
+          "2C→2A"
+        ],
+        [
+          19,
+          "2A→2C"
+        ]
+      ],
+      "stage_days": 3,
+      "prov": false,
+      "t12": null,
+      "marks": [],
+      "stage_v1": "3",
+      "sub_v1": "3B",
+      "t34": null
+    },
+    {
       "ticker": "4063.JP",
       "name": "Shin-Etsu Chemical",
       "sub_industry": "Chemicals",
       "sector": "Mat",
       "close": 37.839,
-      "hotness": -0.552,
+      "hotness": -0.553,
       "ret_60": -0.185,
       "pct_high_250": 0.768,
       "ma_aligned": 0,
@@ -12586,15 +12675,15 @@
       "sub_hist": [
         [
           5,
-          "3→4"
+          "2A→4"
         ],
         [
-          8,
-          "1→3"
+          27,
+          "2C→2A"
         ],
         [
-          29,
-          "3→1"
+          44,
+          "3-→2C"
         ]
       ],
       "stage_days": 5,
@@ -12603,7 +12692,7 @@
       "marks": [],
       "stage_v1": "3",
       "sub_v1": "3B",
-      "t34": 5
+      "t34": null
     },
     {
       "ticker": "8002.JP",
@@ -12624,15 +12713,11 @@
       "sub_hist": [
         [
           33,
-          "3→4"
+          "2A→4"
         ],
         [
-          47,
-          "2A→3"
-        ],
-        [
-          52,
-          "3→2A"
+          67,
+          "2C→2A"
         ]
       ],
       "stage_days": 33,
@@ -12641,44 +12726,6 @@
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4A",
-      "t34": 33
-    },
-    {
-      "ticker": "RIO.US",
-      "name": "Rio Tinto plc Sponso…",
-      "sub_industry": "Other Indl Metals & Mining",
-      "sector": "Mat",
-      "close": 90.32,
-      "hotness": -0.565,
-      "ret_60": 0.009,
-      "pct_high_250": 0.824,
-      "ma_aligned": 0,
-      "days_below_ma10": 4,
-      "sata_d": 2,
-      "sata_w": 2,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 7,
-      "sub_hist": [
-        [
-          7,
-          "2A→3"
-        ],
-        [
-          13,
-          "2C→2A"
-        ],
-        [
-          19,
-          "2B→2C"
-        ]
-      ],
-      "stage_days": 7,
-      "prov": false,
-      "t12": null,
-      "marks": [],
-      "stage_v1": "3",
-      "sub_v1": "3B",
       "t34": null
     },
     {
@@ -12687,7 +12734,7 @@
       "sub_industry": "Info Tech Svc",
       "sector": "Industrials",
       "close": 124.85,
-      "hotness": -0.566,
+      "hotness": -0.571,
       "ret_60": 0.135,
       "pct_high_250": 0.633,
       "ma_aligned": 0,
@@ -12703,15 +12750,15 @@
           "4→4+"
         ],
         [
-          24,
-          "1→4"
+          34,
+          "4+→4"
         ],
         [
-          36,
-          "4→1"
+          35,
+          "4→4+"
         ]
       ],
-      "stage_days": 24,
+      "stage_days": 147,
       "prov": false,
       "t12": null,
       "marks": [
@@ -12721,7 +12768,7 @@
       ],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": 145,
+      "t34": null,
       "fund_periods": [
         "202607",
         "202604",
@@ -12753,37 +12800,37 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 87.71,
-      "hotness": -0.575,
+      "hotness": -0.576,
       "ret_60": -0.047,
       "pct_high_250": 0.735,
       "ma_aligned": 0,
       "days_below_ma10": 5,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 29,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 4,
       "sub_hist": [
         [
-          29,
-          "3→1"
+          4,
+          "4+→4"
         ],
         [
-          41,
-          "4+→3"
-        ],
-        [
-          43,
+          6,
           "4→4+"
+        ],
+        [
+          32,
+          "1+→4"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 32,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 243,
       "fund_periods": [
         "202606",
         "202603",
@@ -12815,7 +12862,7 @@
       "sub_industry": "Footwear & Accessories",
       "sector": "Consumer Discretionary",
       "close": 85.71,
-      "hotness": -0.579,
+      "hotness": -0.58,
       "ret_60": -0.109,
       "pct_high_250": 0.709,
       "ma_aligned": 0,
@@ -12824,28 +12871,28 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4",
-      "sub_days": 45,
+      "sub_days": 52,
       "sub_hist": [
         [
-          45,
-          "1→4"
+          52,
+          "3→4"
+        ],
+        [
+          54,
+          "3-→3"
         ],
         [
           61,
-          "3→1"
-        ],
-        [
-          64,
-          "4→3"
+          "2A→3-"
         ]
       ],
-      "stage_days": 45,
+      "stage_days": 52,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": 67,
+      "t34": 52,
       "fund_periods": [
         "202606",
         "202603",
@@ -12884,24 +12931,24 @@
       "days_below_ma10": 7,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 40,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 15,
       "sub_hist": [
         [
-          40,
-          "3→1"
+          15,
+          "3-→2A"
         ],
         [
-          52,
-          "2A→3"
+          25,
+          "2A→3-"
         ],
         [
-          60,
+          28,
           "2C→2A"
         ]
       ],
-      "stage_days": 40,
+      "stage_days": 15,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -12939,7 +12986,7 @@
       "sub_industry": "Semiconductor Equip & Mat",
       "sector": "Info Tech",
       "close": 340.851,
-      "hotness": -0.643,
+      "hotness": -0.644,
       "ret_60": -0.235,
       "pct_high_250": 0.611,
       "ma_aligned": 0,
@@ -12952,15 +12999,15 @@
       "sub_hist": [
         [
           28,
-          "1→4"
+          "2A→4"
         ],
         [
-          39,
-          "3→1"
+          34,
+          "2C→2A"
         ],
         [
-          43,
-          "1→3"
+          256,
+          "1+→2C"
         ]
       ],
       "stage_days": 28,
@@ -12984,24 +13031,24 @@
       "days_below_ma10": 6,
       "sata_d": 3,
       "sata_w": 1,
-      "stage": "3",
+      "stage": "1",
       "sub": "1",
-      "sub_days": 2,
+      "sub_days": 6,
       "sub_hist": [
         [
-          2,
-          "3→1"
+          6,
+          "2A→1"
         ],
         [
           10,
-          "2A→3"
+          "2C→2A"
         ],
         [
-          14,
-          "2C→2A"
+          29,
+          "2A→2C"
         ]
       ],
-      "stage_days": 10,
+      "stage_days": 6,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13023,23 +13070,15 @@
       "sata_d": 3,
       "sata_w": 1,
       "stage": "2",
-      "sub": "2B",
-      "sub_days": 8,
+      "sub": "2A",
+      "sub_days": 25,
       "sub_hist": [
         [
-          8,
-          "2C→2B"
-        ],
-        [
-          9,
-          "2A→2C"
-        ],
-        [
-          21,
-          "2B→2A"
+          25,
+          "2C→2A"
         ]
       ],
-      "stage_days": 43,
+      "stage_days": 302,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13062,28 +13101,28 @@
       "sata_w": 1,
       "stage": "4",
       "sub": "4",
-      "sub_days": 76,
+      "sub_days": 72,
       "sub_hist": [
         [
-          76,
-          "1→4"
+          72,
+          "2A→4"
         ],
         [
-          110,
-          "2A→1"
-        ],
-        [
-          133,
+          94,
           "2C→2A"
+        ],
+        [
+          105,
+          "3-→2C"
         ]
       ],
-      "stage_days": 76,
+      "stage_days": 72,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null
+      "t34": 245
     },
     {
       "ticker": "CCJ.US",
@@ -13100,28 +13139,28 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 23,
+      "sub_days": 28,
       "sub_hist": [
         [
-          23,
-          "1→4"
+          28,
+          "4+→4"
         ],
         [
-          31,
-          "4→1"
+          29,
+          "4→4+"
         ],
         [
           63,
-          "1→4"
+          "3-→4"
         ]
       ],
-      "stage_days": 23,
+      "stage_days": 63,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 63,
       "fund_periods": [
         "202606",
         "202603",
@@ -13160,30 +13199,30 @@
       "days_below_ma10": 1,
       "sata_d": 1,
       "sata_w": 1,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 22,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 24,
       "sub_hist": [
         [
-          22,
-          "2A→1"
+          24,
+          "2C→4"
         ],
         [
-          23,
-          "2C→2A"
+          25,
+          "2B→2C"
         ],
         [
-          30,
-          "2A→2C"
+          27,
+          "2C→2B"
         ]
       ],
-      "stage_days": 22,
+      "stage_days": 24,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 54,
       "fund_periods": [
         "202606",
         "202603",
@@ -13222,24 +13261,24 @@
       "days_below_ma10": 3,
       "sata_d": 0,
       "sata_w": 2,
-      "stage": "3",
-      "sub": "3",
-      "sub_days": 37,
+      "stage": "2",
+      "sub": "2A",
+      "sub_days": 22,
       "sub_hist": [
         [
-          37,
-          "2A→3"
-        ],
-        [
-          53,
+          22,
           "2C→2A"
         ],
         [
-          87,
+          37,
           "2B→2C"
+        ],
+        [
+          39,
+          "2C→2B"
         ]
       ],
-      "stage_days": 37,
+      "stage_days": 302,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13262,22 +13301,22 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 29,
+      "sub_days": 3,
       "sub_hist": [
         [
-          29,
+          3,
           "1→4"
         ],
         [
-          64,
-          "2A→1"
+          11,
+          "4→1"
         ],
         [
-          76,
-          "2C→2A"
+          47,
+          "2C→4"
         ]
       ],
-      "stage_days": 29,
+      "stage_days": 3,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13323,25 +13362,25 @@
       "sata_d": 2,
       "sata_w": 1,
       "stage": "2",
-      "sub": "2A",
-      "sub_days": 8,
+      "sub": "2B",
+      "sub_days": 2,
       "sub_hist": [
         [
-          8,
-          "3→2A"
+          2,
+          "2C→2B"
         ],
         [
-          11,
-          "1→3"
+          175,
+          "2A→2C"
         ],
         [
-          14,
-          "3→1"
+          176,
+          "2C→2A"
         ]
       ],
-      "stage_days": 8,
+      "stage_days": 216,
       "prov": false,
-      "t12": 267,
+      "t12": 298,
       "marks": [],
       "stage_v1": "1",
       "sub_v1": "1",
@@ -13360,24 +13399,20 @@
       "days_below_ma10": 5,
       "sata_d": 1,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
-      "sub_days": 3,
+      "stage": "4",
+      "sub": "4",
+      "sub_days": 4,
       "sub_hist": [
         [
-          3,
-          "4→1"
+          4,
+          "2A→4"
         ],
         [
-          11,
-          "1→4"
-        ],
-        [
-          28,
-          "3→1"
+          32,
+          "2C→2A"
         ]
       ],
-      "stage_days": 3,
+      "stage_days": 4,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13391,28 +13426,28 @@
       "sub_industry": "Biotech",
       "sector": "Health Care",
       "close": 49.25,
-      "hotness": -0.853,
+      "hotness": -0.854,
       "ret_60": 0.036,
       "pct_high_250": 0.666,
       "ma_aligned": 0,
       "days_below_ma10": 9,
       "sata_d": 2,
       "sata_w": 2,
-      "stage": "1",
-      "sub": "1",
+      "stage": "4",
+      "sub": "4",
       "sub_days": 7,
       "sub_hist": [
         [
           7,
-          "2C→1"
+          "2B→4"
         ],
         [
-          18,
-          "2B→2C"
+          8,
+          "2C→2B"
         ],
         [
           19,
-          "1→2B"
+          "1+→2C"
         ]
       ],
       "stage_days": 7,
@@ -13462,22 +13497,22 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 14,
+      "sub_days": 30,
       "sub_hist": [
         [
-          14,
-          "1→4"
+          30,
+          "2C→4"
         ],
         [
-          51,
-          "2A→1"
+          54,
+          "3-→2C"
         ],
         [
-          58,
-          "2C→2A"
+          63,
+          "2C→3-"
         ]
       ],
-      "stage_days": 14,
+      "stage_days": 30,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13498,24 +13533,20 @@
       "days_below_ma10": 4,
       "sata_d": 0,
       "sata_w": 0,
-      "stage": "1",
+      "stage": "4",
       "sub": "4",
-      "sub_days": 1,
+      "sub_days": 23,
       "sub_hist": [
         [
-          1,
-          "1→4"
+          23,
+          "2C→4"
         ],
         [
-          30,
-          "2A→1"
-        ],
-        [
-          52,
-          "2C→2A"
+          298,
+          "2A→2C"
         ]
       ],
-      "stage_days": 30,
+      "stage_days": 23,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13529,7 +13560,7 @@
       "sub_industry": "Comm Equip",
       "sector": "Info Tech",
       "close": 40.66,
-      "hotness": -0.982,
+      "hotness": -0.983,
       "ret_60": -0.313,
       "pct_high_250": 0.306,
       "ma_aligned": 0,
@@ -13538,19 +13569,19 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 61,
+      "sub_days": 74,
       "sub_hist": [
         [
-          61,
-          "1→4"
-        ],
-        [
-          63,
-          "4→1"
-        ],
-        [
           74,
-          "3→4"
+          "2A→4"
+        ],
+        [
+          78,
+          "3-→2A"
+        ],
+        [
+          86,
+          "2C→3-"
         ]
       ],
       "stage_days": 74,
@@ -13600,51 +13631,51 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 51,
+      "sub_days": 56,
       "sub_hist": [
         [
-          51,
-          "1→4"
+          56,
+          "3-→4"
         ],
         [
-          74,
-          "2A→1"
+          65,
+          "2C→3-"
         ],
         [
-          79,
-          "2C→2A"
+          268,
+          "4→2C"
         ]
       ],
-      "stage_days": 51,
+      "stage_days": 56,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 56,
       "fund_periods": [
+        "202609",
         "202606",
         "202603",
-        "202512",
-        "202509"
+        "202512"
       ],
       "sales_yoy4": [
+        23.7,
         31.4,
         -5.2,
-        -1.1,
-        3.1
+        -1.1
       ],
       "profit_yoy4": [
+        108.2,
         148.2,
         -22.4,
-        5.4,
-        157.8
+        5.4
       ],
       "roe4": [
+        6.2,
         5.7,
         6.6,
-        3.4,
-        3.7
+        3.4
       ]
     },
     {
@@ -13666,15 +13697,15 @@
       "sub_hist": [
         [
           16,
-          "1→4"
+          "2A→4"
         ],
         [
-          39,
-          "3→1"
+          33,
+          "2C→2A"
         ],
         [
-          44,
-          "1→3"
+          47,
+          "3-→2C"
         ]
       ],
       "stage_days": 16,
@@ -13745,7 +13776,7 @@
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": 376,
+      "t34": 169,
       "fund_periods": [
         "202606",
         "202603",
@@ -13797,17 +13828,17 @@
           "4→4+"
         ],
         [
-          38,
+          44,
           "4+→4"
         ]
       ],
-      "stage_days": 112,
+      "stage_days": 123,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 123,
       "fund_periods": [
         "202606",
         "202603",
@@ -13839,7 +13870,7 @@
       "sub_industry": "Aero & Def",
       "sector": "Industrials",
       "close": 121.79,
-      "hotness": -1.352,
+      "hotness": -1.353,
       "ret_60": -0.233,
       "pct_high_250": 0.31,
       "ma_aligned": 0,
@@ -13863,13 +13894,13 @@
           "4+→4"
         ]
       ],
-      "stage_days": 151,
+      "stage_days": 163,
       "prov": false,
       "t12": null,
       "marks": [],
       "stage_v1": "4",
       "sub_v1": "4B",
-      "t34": null,
+      "t34": 458,
       "fund_periods": [
         "202608",
         "202604",
@@ -13901,7 +13932,7 @@
       "sub_industry": "Utilities - Independent Po…",
       "sector": "Utilities",
       "close": 27.97,
-      "hotness": -1.568,
+      "hotness": -1.569,
       "ret_60": -0.364,
       "pct_high_250": 0.176,
       "ma_aligned": 0,
@@ -13910,22 +13941,22 @@
       "sata_w": 0,
       "stage": "4",
       "sub": "4",
-      "sub_days": 91,
+      "sub_days": 85,
       "sub_hist": [
         [
-          91,
-          "4+→4"
+          85,
+          "2A→4"
         ],
         [
-          96,
+          92,
+          "4+→2A"
+        ],
+        [
+          93,
           "4→4+"
-        ],
-        [
-          100,
-          "4+→4"
         ]
       ],
-      "stage_days": 167,
+      "stage_days": 85,
       "prov": false,
       "t12": null,
       "marks": [],
@@ -13987,7 +14018,7 @@
           "4+→4"
         ]
       ],
-      "stage_days": 212,
+      "stage_days": 77,
       "prov": false,
       "t12": null,
       "marks": [],

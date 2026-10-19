@@ -256,7 +256,7 @@
     .summary-item .summary-val { font-weight: 700; font-variant-numeric: tabular-nums; }
     .section-divider {
       margin: 16px 0 8px; padding: 6px 12px; background: var(--bg-muted);
-      border-radius: 6px; font-size: 13px; font-weight: 600; color: var(--text-muted);
+      border-radius: 6px; font-size: 14px; font-weight: 700; color: var(--text);
       display: flex; align-items: center; gap: 8px;
     }
     .section-divider .section-count {
@@ -325,6 +325,7 @@
       .close-btn { width: 44px; height: 44px; }
     }
   </style>
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -368,10 +369,12 @@
     let aData = null;       // A股-趋势 (Part1-4), 来自 data/trend_hotspot_a.json
     let etfData = null;     // 美国ETF-趋势, 来自 data/trend_hotspot_etf.json
     let cetfData = null;    // 中国ETF-趋势, 来自 data/trend_hotspot_cetf.json
+    let mktBreadthData = null;  // 市场宽度(三市场V1+10格统计), 来自 data/market_breadth.json
+    let indStageData = null;    // 行业Stage矩阵, 来自 data/industry_stage.json
     let search = '';
     let sortField = 'ma10_slope_pct';
     let sortDir = 'desc';
-    let tab = 'trend'; // 'trend' | 'ustrend' | 'atrend' | 'entry'  (默认港股-趋势)
+    let tab = 'market'; // 'market' | 'trend' | 'ustrend' | 'atrend' | 'entry'  (默认市场)
     let groupMode = true;
     let isDark = true;
     let copied = false;
@@ -390,6 +393,17 @@
         loadError = e.message || String(e);
         tabData = { date: '', tab1: { sos_section: [], pool_section: [] } };
       }
+      // 市场宽度 (三市场V1+10格统计): 失败不阻塞
+      try {
+        const rm = await fetch('data/market_breadth.json');
+        if (rm.ok) mktBreadthData = JSON.parse(await rm.text());
+      } catch(e) { mktBreadthData = null; }
+      // 行业Stage矩阵: 失败不阻塞
+      try {
+        const ri = await fetch('data/industry_stage.json');
+        if (ri.ok) indStageData = JSON.parse(await ri.text());
+      } catch(e) { indStageData = null; }
+      window.__indStageData = indStageData || window.__indStageData;   // 同步全局(图表弹窗用); 内嵌为fetch失败兜底
       // 港股-趋势 (Part1-4): 失败不阻塞原 tab
       try {
         const r2 = await fetch('data/trend_hotspot_hk.json');
@@ -491,7 +505,257 @@
       const cetfCount = (cetfData?.part2 || []).length;
 
       let mainContent = '';
-      if (tab === 'trend') {
+
+
+    // 行业数据内嵌 v3 (成交额加权+IC排名+汇总, 2026-10-19)
+    window.__indStageData = {"updated":"2026-10-19","subs":["4","4+","1","1+","2A","2B","2C","3","3-"],"sub_summary":{"4":{"n":2309,"win":44,"mean":0.8,"avgw":5.2,"avgl":-2.7,"r":1.9},"4+":{"n":2066,"win":46,"mean":1.7,"avgw":7.1,"avgl":-2.9,"r":2.5},"1":{"n":152,"win":31,"mean":8.0,"avgw":36.5,"avgl":-4.8,"r":7.6},"1+":{"n":37,"win":27,"mean":8.8,"avgw":49.6,"avgl":-6.3,"r":7.9},"2A":{"n":597,"win":38,"mean":14.0,"avgw":47.8,"avgl":-6.3,"r":7.5},"2B":{"n":80,"win":48,"mean":29.1,"avgw":72.3,"avgl":-9.9,"r":7.3},"2C":{"n":351,"win":41,"mean":19.7,"avgw":62.5,"avgl":-9.8,"r":6.4},"3":{"n":357,"win":28,"mean":3.8,"avgw":22.3,"avgl":-3.4,"r":6.5},"3-":{"n":127,"win":39,"mean":2.3,"avgw":8.2,"avgl":-1.6,"r":5.1}},"ic_rank":[{"name":"半导体","sector":"Information Technology","ic60":0.671,"t60":7.7},{"name":"能源金属/小金属","sector":"Materials","ic60":0.449,"t60":18.3},{"name":"消费电子","sector":"Information Technology","ic60":0.358,"t60":17.9},{"name":"化工","sector":"Materials","ic60":0.311,"t60":15.5},{"name":"轻工","sector":"Consumer Staples","ic60":0.219,"t60":10.9},{"name":"互联网","sector":"Communication Services","ic60":0.19,"t60":9.5},{"name":"智能驾驶","sector":"Consumer Discretionary","ic60":0.184,"t60":9.2},{"name":"建材","sector":"Materials","ic60":0.177,"t60":8.8},{"name":"CXO","sector":"Health Care","ic60":0.157,"t60":7.0},{"name":"互联网药店","sector":"Consumer Staples","ic60":0.137,"t60":6.8},{"name":"香港银行","sector":"Financials","ic60":0.127,"t60":6.3},{"name":"其他医疗保健","sector":"Health Care","ic60":0.112,"t60":5.6},{"name":"零售","sector":"Consumer Discretionary","ic60":0.103,"t60":5.1},{"name":"机器人产业链","sector":"Industrials","ic60":0.102,"t60":5.1},{"name":"AI算力","sector":"Information Technology","ic60":0.101,"t60":5.0},{"name":"创新药","sector":"Health Care","ic60":0.086,"t60":4.3},{"name":"美妆个护","sector":"Consumer Staples","ic60":0.061,"t60":3.0},{"name":"药品及生物科技","sector":"Health Care","ic60":0.058,"t60":2.9},{"name":"软件服务","sector":"Information Technology","ic60":0.043,"t60":2.1},{"name":"能源","sector":"Energy","ic60":0.031,"t60":1.5},{"name":"专业零售","sector":"Consumer Discretionary","ic60":0.028,"t60":1.4},{"name":"媒体及娱乐","sector":"Communication Services","ic60":0.021,"t60":1.0},{"name":"香港地产","sector":"Real Estate","ic60":0.002,"t60":0.1},{"name":"其他金融","sector":"Financials","ic60":-0.002,"t60":-0.1},{"name":"其他芯片","sector":"Information Technology","ic60":-0.012,"t60":-0.6},{"name":"建筑","sector":"Industrials","ic60":-0.013,"t60":-0.6},{"name":"综合企业","sector":"Industrials","ic60":-0.015,"t60":-0.7},{"name":"消费服务","sector":"Consumer Discretionary","ic60":-0.026,"t60":-1.3},{"name":"电讯","sector":"Communication Services","ic60":-0.03,"t60":-1.5},{"name":"保险","sector":"Financials","ic60":-0.042,"t60":-2.1},{"name":"汽车","sector":"Consumer Discretionary","ic60":-0.043,"t60":-2.1},{"name":"新能源产业链","sector":"Industrials","ic60":-0.058,"t60":-2.9},{"name":"资讯科技器材","sector":"Information Technology","ic60":-0.059,"t60":-2.9},{"name":"大模型及其应用","sector":"Information Technology","ic60":-0.074,"t60":-3.1},{"name":"食品饮料","sector":"Consumer Staples","ic60":-0.089,"t60":-4.4},{"name":"农林牧渔","sector":"Consumer Staples","ic60":-0.098,"t60":-4.5},{"name":"交运","sector":"Industrials","ic60":-0.11,"t60":-5.5},{"name":"其他工业","sector":"Industrials","ic60":-0.113,"t60":-5.6},{"name":"工业金属","sector":"Materials","ic60":-0.116,"t60":-5.8},{"name":"中国银行","sector":"Financials","ic60":-0.12,"t60":-6.0},{"name":"公用事业","sector":"Utilities","ic60":-0.125,"t60":-6.2},{"name":"工业工程","sector":"Industrials","ic60":-0.134,"t60":-6.7},{"name":"贵金属","sector":"Materials","ic60":-0.154,"t60":-7.7},{"name":"家庭电器及用品","sector":"Consumer Discretionary","ic60":-0.178,"t60":-8.9},{"name":"其他非银","sector":"Financials","ic60":-0.187,"t60":-9.3},{"name":"耐用品","sector":"Consumer Discretionary","ic60":-0.198,"t60":-9.9},{"name":"旅游及消闲设施","sector":"Consumer Discretionary","ic60":-0.207,"t60":-10.3},{"name":"中国地产&物管","sector":"Real Estate","ic60":-0.257,"t60":-12.8}],"sectors":[{"name":"Communication Services","size":839.0,"n_stocks":27,"current":"4/4+","ic60":0.033,"t60":1.6,"stats":{"4":{"n":34,"win":47,"mean":2.3,"avgw":7.4,"avgl":-2.4,"r":3.2},"4+":{"n":29,"win":55,"mean":0.2,"avgw":1.7,"avgl":-1.7,"r":1.0},"1":null,"1+":null,"2A":{"n":8,"win":50,"mean":15.5,"avgw":37.0,"avgl":-5.9,"r":6.3},"2B":null,"2C":{"n":6,"win":67,"mean":15.3,"avgw":29.0,"avgl":-12.1,"r":2.4},"3":null,"3-":null}},{"name":"Information Technology","size":716.0,"n_stocks":73,"current":"2/2A","ic60":0.159,"t60":7.9,"stats":{"4":{"n":31,"win":58,"mean":-0.0,"avgw":1.8,"avgl":-2.6,"r":0.7},"4+":{"n":28,"win":57,"mean":10.3,"avgw":19.9,"avgl":-2.6,"r":7.7},"1":{"n":4,"win":25,"mean":-2.2,"avgw":0.5,"avgl":-3.0,"r":0.2},"1+":null,"2A":{"n":10,"win":50,"mean":78.8,"avgw":164.3,"avgl":-6.7,"r":24.5},"2B":null,"2C":{"n":6,"win":50,"mean":101.4,"avgw":208.9,"avgl":-6.1,"r":34.5},"3":null,"3-":null}},{"name":"Energy","size":591.0,"n_stocks":11,"current":"3/3","ic60":0.029,"t60":1.4,"stats":{"4":{"n":49,"win":51,"mean":1.2,"avgw":4.7,"avgl":-2.4,"r":2.0},"4+":{"n":43,"win":49,"mean":0.6,"avgw":2.9,"avgl":-1.7,"r":1.7},"1":{"n":4,"win":50,"mean":8.0,"avgw":19.5,"avgl":-3.5,"r":5.6},"1+":null,"2A":{"n":11,"win":45,"mean":8.5,"avgw":23.7,"avgl":-4.1,"r":5.8},"2B":{"n":3,"win":100,"mean":25.2,"avgw":25.2,"avgl":null,"r":null},"2C":{"n":6,"win":100,"mean":14.8,"avgw":14.8,"avgl":null,"r":null},"3":{"n":7,"win":0,"mean":-1.6,"avgw":null,"avgl":-1.6,"r":NaN},"3-":null}},{"name":"Financials","size":484.0,"n_stocks":45,"current":"2/2C","ic60":-0.024,"t60":-1.2,"stats":{"4":{"n":51,"win":49,"mean":0.7,"avgw":2.9,"avgl":-1.3,"r":2.2},"4+":{"n":47,"win":55,"mean":3.1,"avgw":6.8,"avgl":-1.5,"r":4.6},"1":{"n":6,"win":17,"mean":-2.1,"avgw":1.6,"avgl":-2.9,"r":0.6},"1+":null,"2A":{"n":12,"win":33,"mean":7.2,"avgw":31.2,"avgl":-4.9,"r":6.4},"2B":{"n":3,"win":33,"mean":1.8,"avgw":24.1,"avgl":-9.4,"r":2.6},"2C":{"n":8,"win":25,"mean":9.6,"avgw":55.2,"avgl":-5.6,"r":9.8},"3":{"n":5,"win":20,"mean":0.4,"avgw":13.1,"avgl":-2.8,"r":4.7},"3-":null}},{"name":"Materials","size":465.0,"n_stocks":28,"current":"4/4","ic60":-0.081,"t60":-4.0,"stats":{"4":{"n":35,"win":34,"mean":-0.2,"avgw":4.9,"avgl":-2.9,"r":1.7},"4+":{"n":29,"win":31,"mean":-1.0,"avgw":2.3,"avgl":-2.5,"r":0.9},"1":{"n":7,"win":57,"mean":31.4,"avgw":60.3,"avgl":-7.1,"r":8.5},"1+":{"n":3,"win":100,"mean":74.3,"avgw":74.3,"avgl":null,"r":null},"2A":{"n":12,"win":42,"mean":17.6,"avgw":52.7,"avgl":-7.5,"r":7.1},"2B":{"n":3,"win":33,"mean":7.8,"avgw":58.7,"avgl":-17.6,"r":3.3},"2C":{"n":9,"win":33,"mean":13.4,"avgw":69.5,"avgl":-14.6,"r":4.8},"3":{"n":4,"win":50,"mean":14.1,"avgw":30.6,"avgl":-2.4,"r":12.8},"3-":null}},{"name":"Consumer Discretionary","size":413.0,"n_stocks":87,"current":"4/4","ic60":0.06,"t60":3.0,"stats":{"4":{"n":37,"win":32,"mean":0.9,"avgw":7.6,"avgl":-2.3,"r":3.2},"4+":{"n":32,"win":41,"mean":-1.4,"avgw":2.1,"avgl":-3.7,"r":0.6},"1":null,"1+":null,"2A":{"n":12,"win":33,"mean":11.1,"avgw":45.1,"avgl":-5.9,"r":7.7},"2B":null,"2C":{"n":6,"win":67,"mean":18.5,"avgw":32.5,"avgl":-9.4,"r":3.5},"3":{"n":16,"win":25,"mean":6.0,"avgw":34.8,"avgl":-3.5,"r":9.9},"3-":{"n":9,"win":67,"mean":0.6,"avgw":1.3,"avgl":-0.8,"r":1.5}}},{"name":"Health Care","size":199.0,"n_stocks":71,"current":"2/2C","ic60":0.087,"t60":4.3,"stats":{"4":{"n":42,"win":57,"mean":3.4,"avgw":9.1,"avgl":-4.2,"r":2.2},"4+":{"n":39,"win":59,"mean":0.5,"avgw":3.1,"avgl":-3.2,"r":1.0},"1":null,"1+":null,"2A":{"n":12,"win":50,"mean":30.2,"avgw":67.5,"avgl":-7.1,"r":9.6},"2B":null,"2C":{"n":8,"win":38,"mean":31.4,"avgw":105.6,"avgl":-13.1,"r":8.0},"3":{"n":9,"win":22,"mean":-4.0,"avgw":5.0,"avgl":-6.6,"r":0.8},"3-":{"n":5,"win":0,"mean":-5.2,"avgw":null,"avgl":-5.2,"r":NaN}}},{"name":"Industrials","size":147.0,"n_stocks":97,"current":"4/4","ic60":-0.102,"t60":-5.1,"stats":{"4":{"n":45,"win":44,"mean":0.2,"avgw":2.7,"avgl":-1.9,"r":1.5},"4+":{"n":43,"win":44,"mean":0.6,"avgw":3.8,"avgl":-1.9,"r":2.0},"1":null,"1+":null,"2A":{"n":11,"win":45,"mean":5.2,"avgw":20.8,"avgl":-7.7,"r":2.7},"2B":null,"2C":{"n":7,"win":43,"mean":14.8,"avgw":43.0,"avgl":-6.3,"r":6.8},"3":{"n":12,"win":25,"mean":4.1,"avgw":26.2,"avgl":-3.3,"r":8.0},"3-":{"n":3,"win":33,"mean":0.1,"avgw":0.6,"avgl":-0.2,"r":2.7}}},{"name":"Real Estate","size":138.0,"n_stocks":36,"current":"4/4","ic60":-0.119,"t60":-5.9,"stats":{"4":{"n":54,"win":37,"mean":-0.9,"avgw":2.1,"avgl":-2.6,"r":0.8},"4+":{"n":49,"win":43,"mean":-0.7,"avgw":2.3,"avgl":-2.9,"r":0.8},"1":{"n":3,"win":33,"mean":-0.6,"avgw":7.8,"avgl":-4.7,"r":1.6},"1+":null,"2A":{"n":14,"win":14,"mean":-1.3,"avgw":15.9,"avgl":-4.2,"r":3.8},"2B":null,"2C":{"n":9,"win":22,"mean":-2.3,"avgw":18.4,"avgl":-8.2,"r":2.2},"3":{"n":4,"win":25,"mean":4.6,"avgw":29.9,"avgl":-3.8,"r":7.8},"3-":null}},{"name":"Consumer Staples","size":128.0,"n_stocks":37,"current":"4/4+","ic60":0.035,"t60":1.7,"stats":{"4":{"n":47,"win":51,"mean":1.3,"avgw":4.8,"avgl":-2.3,"r":2.1},"4+":{"n":43,"win":37,"mean":3.3,"avgw":11.4,"avgl":-1.5,"r":7.8},"1":null,"1+":null,"2A":{"n":12,"win":58,"mean":7.9,"avgw":20.9,"avgl":-10.3,"r":2.0},"2B":{"n":3,"win":67,"mean":16.7,"avgw":38.6,"avgl":-27.1,"r":1.4},"2C":{"n":6,"win":67,"mean":15.5,"avgw":30.3,"avgl":-14.1,"r":2.1},"3":{"n":10,"win":20,"mean":3.6,"avgw":28.5,"avgl":-2.6,"r":10.8},"3-":{"n":5,"win":40,"mean":0.3,"avgw":1.8,"avgl":-0.7,"r":2.5}}},{"name":"Utilities","size":111.0,"n_stocks":25,"current":"3/3","ic60":-0.133,"t60":-6.6,"stats":{"4":{"n":59,"win":44,"mean":-0.2,"avgw":1.5,"avgl":-1.5,"r":1.0},"4+":{"n":55,"win":47,"mean":-0.3,"avgw":1.5,"avgl":-1.9,"r":0.8},"1":{"n":5,"win":60,"mean":0.3,"avgw":3.4,"avgl":-4.3,"r":0.8},"1+":null,"2A":{"n":19,"win":47,"mean":1.3,"avgw":5.8,"avgl":-2.8,"r":2.1},"2B":null,"2C":{"n":7,"win":57,"mean":2.7,"avgw":8.7,"avgl":-5.4,"r":1.6},"3":{"n":14,"win":29,"mean":-0.4,"avgw":1.8,"avgl":-1.3,"r":1.4},"3-":{"n":6,"win":50,"mean":-0.2,"avgw":0.6,"avgl":-0.9,"r":0.6}}}],"sub_industries":[{"name":"互联网","sector":"Communication Services","size":3095.0,"n_stocks":12,"current":"4/4+","ic60":0.19,"t60":9.5,"stats":{"4":{"n":41,"win":46,"mean":-0.3,"avgw":2.3,"avgl":-2.6,"r":0.9},"4+":{"n":35,"win":49,"mean":-0.3,"avgw":3.1,"avgl":-3.5,"r":0.9},"1":null,"1+":null,"2A":{"n":9,"win":67,"mean":21.4,"avgw":36.6,"avgl":-8.8,"r":4.2},"2B":null,"2C":{"n":7,"win":57,"mean":27.9,"avgw":53.5,"avgl":-6.3,"r":8.5},"3":{"n":6,"win":17,"mean":8.3,"avgw":62.3,"avgl":-2.4,"r":25.4},"3-":{"n":3,"win":67,"mean":0.2,"avgw":0.3,"avgl":-0.0,"r":13.8}}},{"name":"电讯","sector":"Communication Services","size":297.0,"n_stocks":9,"current":"4/4+","ic60":-0.03,"t60":-1.5,"stats":{"4":{"n":69,"win":46,"mean":1.4,"avgw":4.8,"avgl":-1.6,"r":3.0},"4+":{"n":64,"win":42,"mean":-0.3,"avgw":2.1,"avgl":-2.1,"r":1.0},"1":{"n":11,"win":27,"mean":-1.4,"avgw":0.6,"avgl":-2.1,"r":0.3},"1+":null,"2A":{"n":13,"win":15,"mean":5.6,"avgw":59.4,"avgl":-4.2,"r":14.3},"2B":null,"2C":{"n":6,"win":33,"mean":13.3,"avgw":49.3,"avgl":-4.7,"r":10.5},"3":{"n":3,"win":0,"mean":-3.7,"avgw":null,"avgl":-3.7,"r":NaN},"3-":null}},{"name":"媒体及娱乐","sector":"Communication Services","size":105.0,"n_stocks":10,"current":"4/4+","ic60":0.021,"t60":1.0,"stats":{"4":{"n":47,"win":51,"mean":16.7,"avgw":35.1,"avgl":-2.6,"r":13.7},"4+":{"n":46,"win":43,"mean":16.1,"avgw":40.8,"avgl":-2.9,"r":14.2},"1":null,"1+":null,"2A":{"n":7,"win":57,"mean":117.6,"avgw":209.5,"avgl":-5.0,"r":41.8},"2B":null,"2C":{"n":6,"win":33,"mean":123.9,"avgw":405.0,"avgl":-16.6,"r":24.4},"3":null,"3-":null}},{"name":"大模型及其应用","sector":"Information Technology","size":1849.0,"n_stocks":4,"current":"2/2A","ic60":-0.074,"t60":-3.1,"stats":{"4":{"n":15,"win":47,"mean":1.5,"avgw":6.0,"avgl":-2.5,"r":2.4},"4+":{"n":13,"win":38,"mean":0.6,"avgw":8.7,"avgl":-4.5,"r":1.9},"1":null,"1+":null,"2A":{"n":9,"win":22,"mean":16.6,"avgw":100.2,"avgl":-7.2,"r":13.9},"2B":null,"2C":{"n":4,"win":25,"mean":-9.7,"avgw":11.8,"avgl":-16.8,"r":0.7},"3":{"n":5,"win":40,"mean":-2.8,"avgw":6.1,"avgl":-8.7,"r":0.7},"3-":null}},{"name":"AI算力","sector":"Information Technology","size":1412.0,"n_stocks":21,"current":"2/2C","ic60":0.101,"t60":5.0,"stats":{"4":{"n":35,"win":49,"mean":0.2,"avgw":2.9,"avgl":-2.4,"r":1.2},"4+":{"n":32,"win":44,"mean":20.0,"avgw":48.6,"avgl":-2.3,"r":21.5},"1":null,"1+":null,"2A":{"n":10,"win":50,"mean":78.8,"avgw":161.3,"avgl":-3.7,"r":43.9},"2B":null,"2C":{"n":6,"win":50,"mean":144.7,"avgw":298.5,"avgl":-9.1,"r":32.6},"3":{"n":9,"win":44,"mean":2.7,"avgw":9.2,"avgl":-2.4,"r":3.8},"3-":{"n":4,"win":50,"mean":-0.4,"avgw":1.3,"avgl":-2.1,"r":0.6}}},{"name":"消费电子","sector":"Information Technology","size":899.0,"n_stocks":9,"current":"4/4","ic60":0.358,"t60":17.9,"stats":{"4":{"n":43,"win":40,"mean":-0.4,"avgw":3.8,"avgl":-3.1,"r":1.2},"4+":{"n":43,"win":49,"mean":2.9,"avgw":9.4,"avgl":-3.3,"r":2.9},"1":null,"1+":null,"2A":{"n":7,"win":43,"mean":72.8,"avgw":176.8,"avgl":-5.2,"r":34.3},"2B":null,"2C":{"n":5,"win":60,"mean":97.4,"avgw":167.5,"avgl":-7.7,"r":21.7},"3":{"n":8,"win":12,"mean":-3.3,"avgw":2.5,"avgl":-4.1,"r":0.6},"3-":{"n":5,"win":60,"mean":-0.3,"avgw":0.4,"avgl":-1.5,"r":0.3}}},{"name":"半导体","sector":"Information Technology","size":266.0,"n_stocks":5,"current":"4/4","ic60":0.671,"t60":7.7,"stats":{"4":{"n":8,"win":38,"mean":-1.6,"avgw":10.7,"avgl":-9.0,"r":1.2},"4+":{"n":7,"win":0,"mean":-8.3,"avgw":null,"avgl":-8.3,"r":NaN},"1":null,"1+":null,"2A":null,"2B":null,"2C":null,"3":null,"3-":null}},{"name":"软件服务","sector":"Information Technology","size":196.0,"n_stocks":21,"current":"4/4","ic60":0.043,"t60":2.1,"stats":{"4":{"n":49,"win":45,"mean":-0.5,"avgw":2.2,"avgl":-2.7,"r":0.8},"4+":{"n":46,"win":52,"mean":1.4,"avgw":5.3,"avgl":-2.9,"r":1.8},"1":null,"1+":null,"2A":{"n":10,"win":50,"mean":13.6,"avgw":32.5,"avgl":-5.3,"r":6.1},"2B":null,"2C":{"n":7,"win":43,"mean":16.6,"avgw":42.7,"avgl":-3.0,"r":14.1},"3":{"n":6,"win":33,"mean":1.3,"avgw":9.5,"avgl":-2.8,"r":3.4},"3-":null}},{"name":"其他芯片","sector":"Information Technology","size":120.0,"n_stocks":3,"current":"4/4","ic60":-0.012,"t60":-0.6,"stats":{"4":{"n":43,"win":56,"mean":2.5,"avgw":6.8,"avgl":-2.9,"r":2.3},"4+":{"n":39,"win":36,"mean":7.5,"avgw":26.8,"avgl":-3.3,"r":8.2},"1":null,"1+":null,"2A":{"n":10,"win":80,"mean":35.4,"avgw":45.4,"avgl":-4.7,"r":9.6},"2B":null,"2C":{"n":7,"win":43,"mean":13.8,"avgw":58.0,"avgl":-19.4,"r":3.0},"3":null,"3-":null}},{"name":"资讯科技器材","sector":"Information Technology","size":115.0,"n_stocks":5,"current":"4/4","ic60":-0.059,"t60":-2.9,"stats":{"4":{"n":36,"win":39,"mean":0.8,"avgw":6.4,"avgl":-2.7,"r":2.4},"4+":{"n":36,"win":39,"mean":-0.5,"avgw":2.8,"avgl":-2.5,"r":1.1},"1":{"n":4,"win":25,"mean":9.1,"avgw":50.1,"avgl":-4.6,"r":11.0},"1+":null,"2A":{"n":12,"win":42,"mean":19.1,"avgw":52.9,"avgl":-5.1,"r":10.5},"2B":null,"2C":{"n":6,"win":50,"mean":36.7,"avgw":82.3,"avgl":-8.8,"r":9.3},"3":null,"3-":null}},{"name":"能源","sector":"Energy","size":604.0,"n_stocks":10,"current":"3/3","ic60":0.031,"t60":1.5,"stats":{"4":{"n":51,"win":49,"mean":1.0,"avgw":4.4,"avgl":-2.3,"r":2.0},"4+":{"n":47,"win":51,"mean":1.0,"avgw":3.4,"avgl":-1.6,"r":2.2},"1":null,"1+":null,"2A":{"n":10,"win":50,"mean":8.4,"avgw":20.9,"avgl":-4.0,"r":5.2},"2B":{"n":3,"win":100,"mean":20.2,"avgw":20.2,"avgl":null,"r":null},"2C":{"n":6,"win":100,"mean":13.3,"avgw":13.3,"avgl":null,"r":null},"3":{"n":8,"win":25,"mean":2.4,"avgw":15.6,"avgl":-1.9,"r":8.1},"3-":null}},{"name":"保险","sector":"Financials","size":754.0,"n_stocks":11,"current":"4/4","ic60":-0.042,"t60":-2.1,"stats":{"4":{"n":47,"win":38,"mean":-0.4,"avgw":2.7,"avgl":-2.3,"r":1.2},"4+":{"n":46,"win":57,"mean":2.0,"avgw":5.2,"avgl":-2.0,"r":2.5},"1":null,"1+":null,"2A":{"n":9,"win":67,"mean":10.2,"avgw":19.0,"avgl":-7.5,"r":2.5},"2B":{"n":3,"win":33,"mean":6.0,"avgw":32.6,"avgl":-7.3,"r":4.5},"2C":{"n":7,"win":29,"mean":6.1,"avgw":32.8,"avgl":-4.6,"r":7.2},"3":{"n":4,"win":50,"mean":18.4,"avgw":39.7,"avgl":-3.0,"r":13.3},"3-":null}},{"name":"香港银行","sector":"Financials","size":690.0,"n_stocks":4,"current":"2/2C","ic60":0.127,"t60":6.3,"stats":{"4":{"n":38,"win":42,"mean":3.3,"avgw":11.8,"avgl":-2.8,"r":4.2},"4+":{"n":38,"win":47,"mean":3.7,"avgw":10.1,"avgl":-2.1,"r":4.9},"1":null,"1+":null,"2A":{"n":12,"win":42,"mean":15.0,"avgw":41.8,"avgl":-4.2,"r":9.9},"2B":null,"2C":{"n":6,"win":33,"mean":24.0,"avgw":86.2,"avgl":-7.0,"r":12.3},"3":{"n":7,"win":29,"mean":-2.4,"avgw":2.2,"avgl":-4.2,"r":0.5},"3-":{"n":4,"win":25,"mean":-0.2,"avgw":0.2,"avgl":-0.3,"r":0.7}}},{"name":"中国银行","sector":"Financials","size":590.0,"n_stocks":11,"current":"2/2C","ic60":-0.12,"t60":-6.0,"stats":{"4":{"n":54,"win":48,"mean":0.0,"avgw":1.8,"avgl":-1.6,"r":1.1},"4+":{"n":48,"win":40,"mean":-0.1,"avgw":2.0,"avgl":-1.5,"r":1.4},"1":{"n":6,"win":17,"mean":-2.2,"avgw":2.4,"avgl":-3.1,"r":0.8},"1+":null,"2A":{"n":13,"win":23,"mean":5.1,"avgw":35.8,"avgl":-4.1,"r":8.8},"2B":{"n":4,"win":50,"mean":15.3,"avgw":38.5,"avgl":-7.9,"r":4.9},"2C":{"n":9,"win":33,"mean":4.5,"avgw":26.1,"avgl":-6.3,"r":4.2},"3":{"n":4,"win":50,"mean":2.4,"avgw":8.8,"avgl":-4.0,"r":2.2},"3-":null}},{"name":"其他非银","sector":"Financials","size":339.0,"n_stocks":10,"current":"4/4","ic60":-0.187,"t60":-9.3,"stats":{"4":{"n":67,"win":39,"mean":-0.1,"avgw":3.0,"avgl":-2.0,"r":1.5},"4+":{"n":53,"win":47,"mean":-0.1,"avgw":2.4,"avgl":-2.3,"r":1.0},"1":{"n":5,"win":20,"mean":-6.4,"avgw":2.8,"avgl":-8.7,"r":0.3},"1+":null,"2A":{"n":14,"win":43,"mean":-0.2,"avgw":8.2,"avgl":-6.4,"r":1.3},"2B":{"n":3,"win":0,"mean":-10.5,"avgw":null,"avgl":-10.5,"r":NaN},"2C":{"n":11,"win":36,"mean":-2.4,"avgw":10.2,"avgl":-9.5,"r":1.1},"3":{"n":14,"win":21,"mean":-1.8,"avgw":3.1,"avgl":-3.1,"r":1.0},"3-":{"n":3,"win":67,"mean":2.0,"avgw":3.4,"avgl":-0.8,"r":4.3}}},{"name":"其他金融","sector":"Financials","size":86.0,"n_stocks":9,"current":"4/4+","ic60":-0.002,"t60":-0.1,"stats":{"4":{"n":60,"win":37,"mean":-0.5,"avgw":2.6,"avgl":-2.3,"r":1.1},"4+":{"n":50,"win":48,"mean":0.8,"avgw":3.5,"avgl":-1.7,"r":2.1},"1":null,"1+":null,"2A":{"n":13,"win":38,"mean":12.2,"avgw":40.0,"avgl":-5.3,"r":7.6},"2B":null,"2C":{"n":8,"win":38,"mean":4.3,"avgw":25.0,"avgl":-8.2,"r":3.1},"3":{"n":12,"win":42,"mean":-0.7,"avgw":4.5,"avgl":-4.4,"r":1.0},"3-":{"n":5,"win":40,"mean":1.0,"avgw":3.8,"avgl":-0.9,"r":4.5}}},{"name":"工业金属","sector":"Materials","size":726.0,"n_stocks":9,"current":"4/4","ic60":-0.116,"t60":-5.8,"stats":{"4":{"n":37,"win":35,"mean":1.9,"avgw":11.0,"avgl":-3.0,"r":3.7},"4+":{"n":34,"win":50,"mean":4.3,"avgw":11.8,"avgl":-3.2,"r":3.7},"1":{"n":4,"win":50,"mean":43.0,"avgw":91.0,"avgl":-5.0,"r":18.3},"1+":null,"2A":{"n":10,"win":50,"mean":23.0,"avgw":58.0,"avgl":-12.0,"r":4.8},"2B":null,"2C":{"n":8,"win":38,"mean":14.5,"avgw":69.9,"avgl":-18.7,"r":3.7},"3":{"n":10,"win":40,"mean":13.9,"avgw":43.6,"avgl":-5.9,"r":7.4},"3-":null}},{"name":"贵金属","sector":"Materials","size":479.0,"n_stocks":8,"current":"4/4+","ic60":-0.154,"t60":-7.7,"stats":{"4":{"n":44,"win":41,"mean":-0.5,"avgw":2.1,"avgl":-2.3,"r":0.9},"4+":{"n":34,"win":68,"mean":2.2,"avgw":4.4,"avgl":-2.3,"r":1.9},"1":{"n":6,"win":0,"mean":-4.0,"avgw":null,"avgl":-4.0,"r":NaN},"1+":null,"2A":{"n":21,"win":19,"mean":9.8,"avgw":76.0,"avgl":-5.8,"r":13.1},"2B":null,"2C":{"n":10,"win":60,"mean":20.1,"avgw":40.0,"avgl":-9.8,"r":4.1},"3":{"n":9,"win":33,"mean":-0.5,"avgw":5.8,"avgl":-3.6,"r":1.6},"3-":null}},{"name":"能源金属/小金属","sector":"Materials","size":386.0,"n_stocks":4,"current":"4/4","ic60":0.449,"t60":18.3,"stats":{"4":{"n":30,"win":37,"mean":-2.1,"avgw":2.4,"avgl":-4.7,"r":0.5},"4+":{"n":29,"win":31,"mean":-2.2,"avgw":3.8,"avgl":-4.9,"r":0.8},"1":null,"1+":null,"2A":{"n":4,"win":50,"mean":201.6,"avgw":415.5,"avgl":-12.3,"r":33.8},"2B":null,"2C":{"n":3,"win":67,"mean":197.6,"avgw":298.8,"avgl":-5.0,"r":60.0},"3":null,"3-":null}},{"name":"化工","sector":"Materials","size":155.0,"n_stocks":4,"current":"4/4","ic60":0.311,"t60":15.5,"stats":{"4":{"n":53,"win":43,"mean":6.8,"avgw":19.6,"avgl":-2.9,"r":6.7},"4+":{"n":49,"win":39,"mean":7.1,"avgw":22.1,"avgl":-2.5,"r":9.0},"1":{"n":3,"win":100,"mean":118.9,"avgw":118.9,"avgl":null,"r":null},"1+":null,"2A":{"n":12,"win":58,"mean":36.4,"avgw":68.1,"avgl":-8.1,"r":8.5},"2B":null,"2C":{"n":5,"win":60,"mean":85.5,"avgw":146.5,"avgl":-6.1,"r":24.1},"3":null,"3-":null}},{"name":"建材","sector":"Materials","size":154.0,"n_stocks":3,"current":"4/4+","ic60":0.177,"t60":8.8,"stats":{"4":{"n":61,"win":36,"mean":0.1,"avgw":4.8,"avgl":-2.5,"r":1.9},"4+":{"n":50,"win":58,"mean":2.9,"avgw":7.1,"avgl":-2.9,"r":2.4},"1":{"n":5,"win":20,"mean":2.9,"avgw":31.3,"avgl":-4.1,"r":7.6},"1+":null,"2A":{"n":11,"win":45,"mean":11.8,"avgw":30.1,"avgl":-3.5,"r":8.6},"2B":null,"2C":{"n":6,"win":33,"mean":17.4,"avgw":59.9,"avgl":-3.8,"r":15.6},"3":{"n":3,"win":33,"mean":6.2,"avgw":25.5,"avgl":-3.5,"r":7.2},"3-":null}},{"name":"零售","sector":"Consumer Discretionary","size":514.0,"n_stocks":9,"current":"4/4","ic60":0.103,"t60":5.1,"stats":{"4":{"n":36,"win":44,"mean":-0.6,"avgw":3.3,"avgl":-3.8,"r":0.9},"4+":{"n":30,"win":53,"mean":4.3,"avgw":10.3,"avgl":-2.5,"r":4.1},"1":{"n":3,"win":0,"mean":-4.3,"avgw":null,"avgl":-4.3,"r":NaN},"1+":null,"2A":{"n":10,"win":40,"mean":33.9,"avgw":94.8,"avgl":-6.7,"r":14.2},"2B":null,"2C":{"n":9,"win":33,"mean":28.5,"avgw":117.3,"avgl":-15.9,"r":7.4},"3":{"n":15,"win":13,"mean":12.5,"avgw":119.3,"avgl":-3.9,"r":30.3},"3-":{"n":7,"win":29,"mean":33.3,"avgw":119.4,"avgl":-1.1,"r":110.0}}},{"name":"汽车","sector":"Consumer Discretionary","size":401.0,"n_stocks":20,"current":"4/4","ic60":-0.043,"t60":-2.1,"stats":{"4":{"n":48,"win":46,"mean":-0.0,"avgw":2.3,"avgl":-2.0,"r":1.2},"4+":{"n":46,"win":48,"mean":-0.3,"avgw":2.9,"avgl":-3.3,"r":0.9},"1":{"n":4,"win":25,"mean":-3.3,"avgw":4.4,"avgl":-5.8,"r":0.8},"1+":null,"2A":{"n":11,"win":27,"mean":16.4,"avgw":82.0,"avgl":-8.2,"r":9.9},"2B":{"n":3,"win":0,"mean":-7.2,"avgw":null,"avgl":-7.2,"r":NaN},"2C":{"n":8,"win":25,"mean":15.9,"avgw":88.8,"avgl":-8.5,"r":10.5},"3":{"n":6,"win":33,"mean":12.0,"avgw":43.9,"avgl":-3.9,"r":11.1},"3-":null}},{"name":"智能驾驶","sector":"Consumer Discretionary","size":281.0,"n_stocks":5,"current":"4/4","ic60":0.184,"t60":9.2,"stats":{"4":{"n":69,"win":38,"mean":-0.2,"avgw":4.7,"avgl":-3.2,"r":1.5},"4+":{"n":66,"win":36,"mean":-0.3,"avgw":6.9,"avgl":-4.4,"r":1.6},"1":{"n":5,"win":20,"mean":-1.8,"avgw":20.0,"avgl":-7.2,"r":2.8},"1+":null,"2A":{"n":9,"win":22,"mean":10.8,"avgw":77.6,"avgl":-8.3,"r":9.3},"2B":null,"2C":{"n":6,"win":50,"mean":19.7,"avgw":54.1,"avgl":-14.6,"r":3.7},"3":null,"3-":null}},{"name":"耐用品","sector":"Consumer Discretionary","size":199.0,"n_stocks":14,"current":"3/3","ic60":-0.198,"t60":-9.9,"stats":{"4":{"n":38,"win":45,"mean":-0.3,"avgw":2.6,"avgl":-2.7,"r":1.0},"4+":{"n":32,"win":44,"mean":0.1,"avgw":3.6,"avgl":-2.5,"r":1.4},"1":null,"1+":null,"2A":{"n":12,"win":42,"mean":6.9,"avgw":22.1,"avgl":-3.9,"r":5.7},"2B":null,"2C":{"n":9,"win":33,"mean":2.7,"avgw":23.4,"avgl":-7.7,"r":3.0},"3":{"n":16,"win":38,"mean":0.0,"avgw":4.5,"avgl":-2.7,"r":1.7},"3-":{"n":5,"win":20,"mean":1.6,"avgw":13.6,"avgl":-1.4,"r":10.0}}},{"name":"消费服务","sector":"Consumer Discretionary","size":156.0,"n_stocks":14,"current":"4/4+","ic60":-0.026,"t60":-1.3,"stats":{"4":{"n":52,"win":56,"mean":0.8,"avgw":3.6,"avgl":-2.8,"r":1.3},"4+":{"n":46,"win":54,"mean":1.8,"avgw":6.1,"avgl":-3.4,"r":1.8},"1":{"n":3,"win":67,"mean":-1.6,"avgw":3.5,"avgl":-12.0,"r":0.3},"1+":null,"2A":{"n":12,"win":50,"mean":6.5,"avgw":21.4,"avgl":-8.4,"r":2.5},"2B":{"n":5,"win":60,"mean":10.0,"avgw":22.9,"avgl":-9.3,"r":2.5},"2C":{"n":9,"win":33,"mean":6.3,"avgw":34.1,"avgl":-7.6,"r":4.5},"3":{"n":8,"win":25,"mean":-3.4,"avgw":2.3,"avgl":-5.3,"r":0.4},"3-":{"n":3,"win":33,"mean":0.3,"avgw":1.4,"avgl":-0.2,"r":5.6}}},{"name":"旅游及消闲设施","sector":"Consumer Discretionary","size":22.0,"n_stocks":11,"current":"4/4","ic60":-0.207,"t60":-10.3,"stats":{"4":{"n":47,"win":32,"mean":-0.3,"avgw":4.3,"avgl":-2.4,"r":1.8},"4+":{"n":37,"win":57,"mean":0.9,"avgw":3.2,"avgl":-2.2,"r":1.5},"1":null,"1+":null,"2A":{"n":17,"win":47,"mean":-0.4,"avgw":6.9,"avgl":-6.8,"r":1.0},"2B":null,"2C":{"n":12,"win":25,"mean":-2.0,"avgw":8.2,"avgl":-5.4,"r":1.5},"3":{"n":16,"win":19,"mean":-0.9,"avgw":10.1,"avgl":-3.4,"r":3.0},"3-":{"n":9,"win":33,"mean":-0.7,"avgw":2.1,"avgl":-2.2,"r":1.0}}},{"name":"专业零售","sector":"Consumer Discretionary","size":20.0,"n_stocks":8,"current":"4/4+","ic60":0.028,"t60":1.4,"stats":{"4":{"n":68,"win":41,"mean":-0.1,"avgw":3.5,"avgl":-2.7,"r":1.3},"4+":{"n":63,"win":38,"mean":-0.1,"avgw":3.1,"avgl":-2.1,"r":1.5},"1":{"n":5,"win":40,"mean":-1.6,"avgw":2.5,"avgl":-4.3,"r":0.6},"1+":{"n":3,"win":67,"mean":-1.3,"avgw":0.8,"avgl":-5.6,"r":0.1},"2A":{"n":14,"win":29,"mean":-0.0,"avgw":12.3,"avgl":-5.0,"r":2.5},"2B":null,"2C":{"n":8,"win":25,"mean":0.8,"avgw":28.9,"avgl":-8.6,"r":3.4},"3":{"n":3,"win":33,"mean":-0.2,"avgw":3.8,"avgl":-2.1,"r":1.8},"3-":null}},{"name":"家庭电器及用品","sector":"Consumer Discretionary","size":20.0,"n_stocks":4,"current":"4/4","ic60":-0.178,"t60":-8.9,"stats":{"4":{"n":55,"win":58,"mean":0.5,"avgw":3.9,"avgl":-4.2,"r":0.9},"4+":{"n":45,"win":51,"mean":5.8,"avgw":14.2,"avgl":-3.0,"r":4.7},"1":{"n":3,"win":33,"mean":-7.9,"avgw":1.1,"avgl":-12.4,"r":0.1},"1+":null,"2A":{"n":18,"win":28,"mean":-6.1,"avgw":14.0,"avgl":-13.8,"r":1.0},"2B":null,"2C":{"n":8,"win":12,"mean":-3.2,"avgw":96.4,"avgl":-17.5,"r":5.5},"3":{"n":15,"win":40,"mean":3.1,"avgw":10.3,"avgl":-1.6,"r":6.4},"3-":{"n":8,"win":38,"mean":-0.9,"avgw":0.3,"avgl":-1.6,"r":0.2}}},{"name":"CXO","sector":"Health Care","size":530.0,"n_stocks":5,"current":"2/2C","ic60":0.157,"t60":7.0,"stats":{"4":{"n":30,"win":47,"mean":0.3,"avgw":5.1,"avgl":-3.8,"r":1.3},"4+":{"n":26,"win":46,"mean":-0.9,"avgw":4.4,"avgl":-5.4,"r":0.8},"1":null,"1+":null,"2A":{"n":7,"win":57,"mean":71.7,"avgw":139.4,"avgl":-18.6,"r":7.5},"2B":null,"2C":{"n":5,"win":40,"mean":43.1,"avgw":149.5,"avgl":-27.8,"r":5.4},"3":{"n":5,"win":60,"mean":67.9,"avgw":124.0,"avgl":-16.2,"r":7.7},"3-":null}},{"name":"创新药","sector":"Health Care","size":517.0,"n_stocks":15,"current":"4/4","ic60":0.086,"t60":4.3,"stats":{"4":{"n":45,"win":53,"mean":7.0,"avgw":16.4,"avgl":-3.7,"r":4.4},"4+":{"n":38,"win":42,"mean":-0.0,"avgw":3.9,"avgl":-2.9,"r":1.4},"1":{"n":5,"win":40,"mean":15.5,"avgw":47.0,"avgl":-5.6,"r":8.4},"1+":{"n":3,"win":33,"mean":22.4,"avgw":79.4,"avgl":-6.2,"r":12.9},"2A":{"n":16,"win":31,"mean":8.3,"avgw":41.1,"avgl":-6.6,"r":6.2},"2B":null,"2C":{"n":8,"win":50,"mean":33.2,"avgw":72.2,"avgl":-5.8,"r":12.4},"3":{"n":6,"win":17,"mean":-0.7,"avgw":8.6,"avgl":-2.6,"r":3.4},"3-":null}},{"name":"药品及生物科技","sector":"Health Care","size":80.0,"n_stocks":34,"current":"2/2C","ic60":0.058,"t60":2.9,"stats":{"4":{"n":52,"win":44,"mean":0.3,"avgw":3.7,"avgl":-2.3,"r":1.6},"4+":{"n":47,"win":36,"mean":2.7,"avgw":12.6,"avgl":-3.0,"r":4.3},"1":{"n":11,"win":36,"mean":-1.5,"avgw":4.1,"avgl":-4.8,"r":0.9},"1+":null,"2A":{"n":14,"win":50,"mean":13.7,"avgw":36.4,"avgl":-9.0,"r":4.1},"2B":null,"2C":{"n":7,"win":57,"mean":18.0,"avgw":40.7,"avgl":-12.3,"r":3.3},"3":{"n":7,"win":29,"mean":-3.0,"avgw":0.4,"avgl":-4.4,"r":0.1},"3-":{"n":4,"win":25,"mean":7.7,"avgw":38.9,"avgl":-2.7,"r":14.6}}},{"name":"其他医疗保健","sector":"Health Care","size":49.0,"n_stocks":16,"current":"4/4+","ic60":0.112,"t60":5.6,"stats":{"4":{"n":37,"win":46,"mean":-0.7,"avgw":3.3,"avgl":-4.1,"r":0.8},"4+":{"n":37,"win":51,"mean":3.5,"avgw":9.2,"avgl":-2.5,"r":3.7},"1":null,"1+":null,"2A":{"n":12,"win":25,"mean":14.2,"avgw":78.1,"avgl":-7.1,"r":11.0},"2B":null,"2C":{"n":5,"win":60,"mean":39.7,"avgw":78.0,"avgl":-17.7,"r":4.4},"3":{"n":12,"win":25,"mean":12.3,"avgw":59.8,"avgl":-3.5,"r":17.1},"3-":{"n":5,"win":60,"mean":0.2,"avgw":1.6,"avgl":-2.0,"r":0.8}}},{"name":"新能源产业链","sector":"Industrials","size":405.0,"n_stocks":7,"current":"4/4","ic60":-0.058,"t60":-2.9,"stats":{"4":{"n":56,"win":43,"mean":-0.4,"avgw":3.2,"avgl":-3.1,"r":1.0},"4+":{"n":51,"win":47,"mean":0.3,"avgw":4.1,"avgl":-3.1,"r":1.3},"1":{"n":4,"win":50,"mean":116.5,"avgw":235.7,"avgl":-2.8,"r":85.0},"1+":null,"2A":{"n":15,"win":20,"mean":26.1,"avgw":164.5,"avgl":-8.5,"r":19.3},"2B":null,"2C":{"n":10,"win":30,"mean":32.7,"avgw":135.9,"avgl":-11.6,"r":11.7},"3":null,"3-":null}},{"name":"机器人产业链","sector":"Industrials","size":234.0,"n_stocks":9,"current":"4/4","ic60":0.102,"t60":5.1,"stats":{"4":{"n":64,"win":45,"mean":0.6,"avgw":4.9,"avgl":-3.0,"r":1.6},"4+":{"n":65,"win":46,"mean":0.5,"avgw":5.1,"avgl":-3.5,"r":1.4},"1":null,"1+":null,"2A":{"n":14,"win":50,"mean":4.7,"avgw":17.0,"avgl":-7.6,"r":2.2},"2B":null,"2C":{"n":6,"win":67,"mean":20.0,"avgw":34.9,"avgl":-9.9,"r":3.5},"3":{"n":5,"win":40,"mean":4.0,"avgw":18.2,"avgl":-5.4,"r":3.4},"3-":null}},{"name":"综合企业","sector":"Industrials","size":180.0,"n_stocks":6,"current":"2/2C","ic60":-0.015,"t60":-0.7,"stats":{"4":{"n":56,"win":46,"mean":-0.4,"avgw":1.7,"avgl":-2.2,"r":0.8},"4+":{"n":46,"win":48,"mean":-0.3,"avgw":1.8,"avgl":-2.3,"r":0.8},"1":{"n":12,"win":25,"mean":-1.0,"avgw":3.1,"avgl":-2.4,"r":1.3},"1+":{"n":4,"win":0,"mean":-2.8,"avgw":null,"avgl":-2.8,"r":NaN},"2A":{"n":21,"win":19,"mean":0.0,"avgw":15.1,"avgl":-3.5,"r":4.3},"2B":{"n":4,"win":25,"mean":-2.7,"avgw":1.0,"avgl":-4.0,"r":0.2},"2C":{"n":11,"win":27,"mean":2.9,"avgw":20.9,"avgl":-3.9,"r":5.4},"3":{"n":16,"win":25,"mean":-1.1,"avgw":0.9,"avgl":-1.7,"r":0.5},"3-":{"n":7,"win":57,"mean":-0.1,"avgw":0.1,"avgl":-0.3,"r":0.5}}},{"name":"其他工业","sector":"Industrials","size":147.0,"n_stocks":18,"current":"4/4","ic60":-0.113,"t60":-5.6,"stats":{"4":{"n":44,"win":45,"mean":-0.4,"avgw":2.1,"avgl":-2.5,"r":0.9},"4+":{"n":34,"win":50,"mean":0.0,"avgw":2.4,"avgl":-2.3,"r":1.0},"1":null,"1+":null,"2A":{"n":15,"win":47,"mean":4.6,"avgw":15.3,"avgl":-4.7,"r":3.2},"2B":null,"2C":{"n":8,"win":62,"mean":4.8,"avgw":13.7,"avgl":-10.1,"r":1.4},"3":{"n":12,"win":25,"mean":0.1,"avgw":6.8,"avgl":-2.2,"r":3.1},"3-":{"n":3,"win":33,"mean":-1.3,"avgw":0.8,"avgl":-2.3,"r":0.3}}},{"name":"交运","sector":"Industrials","size":114.0,"n_stocks":26,"current":"3/3","ic60":-0.11,"t60":-5.5,"stats":{"4":{"n":52,"win":50,"mean":1.5,"avgw":4.9,"avgl":-2.0,"r":2.5},"4+":{"n":42,"win":57,"mean":0.9,"avgw":3.9,"avgl":-3.1,"r":1.3},"1":null,"1+":null,"2A":{"n":19,"win":47,"mean":6.7,"avgw":19.9,"avgl":-5.1,"r":3.9},"2B":{"n":3,"win":33,"mean":8.5,"avgw":45.7,"avgl":-10.1,"r":4.5},"2C":{"n":10,"win":50,"mean":8.3,"avgw":25.4,"avgl":-8.8,"r":2.9},"3":{"n":12,"win":8,"mean":-2.5,"avgw":7.8,"avgl":-3.4,"r":2.3},"3-":null}},{"name":"工业工程","sector":"Industrials","size":87.0,"n_stocks":25,"current":"4/4","ic60":-0.134,"t60":-6.7,"stats":{"4":{"n":42,"win":43,"mean":1.6,"avgw":6.1,"avgl":-1.7,"r":3.6},"4+":{"n":35,"win":40,"mean":-0.6,"avgw":1.5,"avgl":-2.1,"r":0.7},"1":{"n":7,"win":29,"mean":-1.9,"avgw":0.6,"avgl":-2.9,"r":0.2},"1+":null,"2A":{"n":14,"win":36,"mean":6.6,"avgw":25.6,"avgl":-4.0,"r":6.5},"2B":{"n":4,"win":25,"mean":8.8,"avgw":57.0,"avgl":-7.2,"r":7.9},"2C":{"n":11,"win":27,"mean":1.4,"avgw":25.0,"avgl":-7.4,"r":3.4},"3":{"n":13,"win":23,"mean":2.3,"avgw":15.9,"avgl":-1.8,"r":9.1},"3-":{"n":6,"win":50,"mean":1.0,"avgw":4.4,"avgl":-2.4,"r":1.8}}},{"name":"建筑","sector":"Industrials","size":36.0,"n_stocks":5,"current":"4/4+","ic60":-0.013,"t60":-0.6,"stats":{"4":{"n":57,"win":42,"mean":0.1,"avgw":3.0,"avgl":-2.1,"r":1.4},"4+":{"n":51,"win":49,"mean":0.1,"avgw":3.0,"avgl":-2.6,"r":1.2},"1":{"n":7,"win":29,"mean":-0.9,"avgw":6.4,"avgl":-3.9,"r":1.6},"1+":null,"2A":{"n":20,"win":25,"mean":-2.3,"avgw":4.0,"avgl":-4.4,"r":0.9},"2B":{"n":4,"win":100,"mean":5.6,"avgw":5.6,"avgl":null,"r":null},"2C":{"n":11,"win":27,"mean":-3.7,"avgw":3.9,"avgl":-6.6,"r":0.6},"3":{"n":8,"win":25,"mean":-2.1,"avgw":1.1,"avgl":-3.1,"r":0.3},"3-":null}},{"name":"香港地产","sector":"Real Estate","size":163.0,"n_stocks":13,"current":"4/4","ic60":0.002,"t60":0.1,"stats":{"4":{"n":59,"win":42,"mean":-0.7,"avgw":1.4,"avgl":-2.3,"r":0.6},"4+":{"n":58,"win":45,"mean":0.2,"avgw":3.0,"avgl":-2.0,"r":1.5},"1":{"n":3,"win":0,"mean":-3.6,"avgw":null,"avgl":-3.6,"r":NaN},"1+":null,"2A":{"n":12,"win":25,"mean":0.7,"avgw":15.7,"avgl":-4.3,"r":3.7},"2B":null,"2C":{"n":4,"win":50,"mean":3.9,"avgw":18.4,"avgl":-10.7,"r":1.7},"3":{"n":6,"win":33,"mean":1.8,"avgw":11.1,"avgl":-2.9,"r":3.8},"3-":{"n":3,"win":33,"mean":-0.9,"avgw":0.1,"avgl":-1.3,"r":0.0}}},{"name":"中国地产&物管","sector":"Real Estate","size":123.0,"n_stocks":23,"current":"4/4+","ic60":-0.257,"t60":-12.8,"stats":{"4":{"n":47,"win":43,"mean":-0.8,"avgw":2.7,"avgl":-3.3,"r":0.8},"4+":{"n":36,"win":42,"mean":-1.0,"avgw":3.9,"avgl":-4.4,"r":0.9},"1":{"n":4,"win":50,"mean":-3.3,"avgw":1.6,"avgl":-8.2,"r":0.2},"1+":null,"2A":{"n":18,"win":22,"mean":-2.3,"avgw":12.3,"avgl":-6.4,"r":1.9},"2B":{"n":4,"win":0,"mean":-7.5,"avgw":null,"avgl":-7.5,"r":NaN},"2C":{"n":11,"win":18,"mean":-3.5,"avgw":24.0,"avgl":-9.7,"r":2.5},"3":{"n":17,"win":35,"mean":0.8,"avgw":8.9,"avgl":-3.7,"r":2.4},"3-":{"n":7,"win":29,"mean":4.1,"avgw":21.6,"avgl":-2.9,"r":7.6}}},{"name":"互联网药店","sector":"Consumer Staples","size":339.0,"n_stocks":3,"current":"4/4+","ic60":0.137,"t60":6.8,"stats":{"4":{"n":55,"win":40,"mean":-0.8,"avgw":4.5,"avgl":-4.3,"r":1.1},"4+":{"n":50,"win":34,"mean":2.7,"avgw":15.7,"avgl":-3.9,"r":4.0},"1":null,"1+":null,"2A":{"n":13,"win":23,"mean":7.8,"avgw":67.4,"avgl":-10.1,"r":6.7},"2B":null,"2C":{"n":10,"win":40,"mean":11.6,"avgw":52.0,"avgl":-15.4,"r":3.4},"3":{"n":9,"win":33,"mean":25.7,"avgw":93.3,"avgl":-8.2,"r":11.4},"3-":null}},{"name":"轻工","sector":"Consumer Staples","size":109.0,"n_stocks":3,"current":"4/4","ic60":0.219,"t60":10.9,"stats":{"4":{"n":58,"win":50,"mean":0.4,"avgw":3.7,"avgl":-2.9,"r":1.3},"4+":{"n":55,"win":51,"mean":0.8,"avgw":5.3,"avgl":-3.8,"r":1.4},"1":null,"1+":null,"2A":{"n":9,"win":44,"mean":12.9,"avgw":40.1,"avgl":-8.9,"r":4.5},"2B":null,"2C":{"n":4,"win":75,"mean":58.1,"avgw":80.0,"avgl":-7.6,"r":10.6},"3":null,"3-":null}},{"name":"食品饮料","sector":"Consumer Staples","size":108.0,"n_stocks":21,"current":"4/4+","ic60":-0.089,"t60":-4.4,"stats":{"4":{"n":50,"win":54,"mean":1.7,"avgw":5.1,"avgl":-2.3,"r":2.2},"4+":{"n":42,"win":43,"mean":-0.4,"avgw":2.5,"avgl":-2.5,"r":1.0},"1":{"n":6,"win":0,"mean":-6.0,"avgw":null,"avgl":-6.0,"r":NaN},"1+":{"n":3,"win":0,"mean":-10.5,"avgw":null,"avgl":-10.5,"r":NaN},"2A":{"n":11,"win":18,"mean":5.2,"avgw":47.9,"avgl":-4.3,"r":11.1},"2B":{"n":3,"win":67,"mean":18.4,"avgw":33.3,"avgl":-11.6,"r":2.9},"2C":{"n":6,"win":50,"mean":6.4,"avgw":27.3,"avgl":-14.5,"r":1.9},"3":{"n":10,"win":20,"mean":3.1,"avgw":29.2,"avgl":-3.4,"r":8.6},"3-":{"n":4,"win":25,"mean":-0.8,"avgw":0.0,"avgl":-1.1,"r":0.0}}},{"name":"美妆个护","sector":"Consumer Staples","size":103.0,"n_stocks":5,"current":"4/4","ic60":0.061,"t60":3.0,"stats":{"4":{"n":55,"win":42,"mean":0.2,"avgw":3.2,"avgl":-2.0,"r":1.6},"4+":{"n":49,"win":49,"mean":-0.2,"avgw":2.4,"avgl":-2.7,"r":0.9},"1":null,"1+":null,"2A":{"n":14,"win":50,"mean":2.3,"avgw":8.7,"avgl":-4.2,"r":2.1},"2B":null,"2C":{"n":8,"win":38,"mean":2.0,"avgw":14.2,"avgl":-5.3,"r":2.7},"3":{"n":5,"win":40,"mean":4.0,"avgw":15.9,"avgl":-3.9,"r":4.0},"3-":null}},{"name":"农林牧渔","sector":"Consumer Staples","size":71.0,"n_stocks":4,"current":"4/4","ic60":-0.098,"t60":-4.5,"stats":{"4":{"n":52,"win":42,"mean":-0.3,"avgw":3.1,"avgl":-2.8,"r":1.1},"4+":{"n":45,"win":51,"mean":0.2,"avgw":3.8,"avgl":-3.5,"r":1.1},"1":{"n":3,"win":33,"mean":-4.7,"avgw":1.0,"avgl":-7.6,"r":0.1},"1+":null,"2A":{"n":15,"win":20,"mean":5.3,"avgw":55.7,"avgl":-7.3,"r":7.6},"2B":null,"2C":{"n":6,"win":50,"mean":11.9,"avgw":43.2,"avgl":-19.4,"r":2.2},"3":null,"3-":null}},{"name":"公用事业","sector":"Utilities","size":108.0,"n_stocks":27,"current":"1/1+","ic60":-0.125,"t60":-6.2,"stats":{"4":{"n":57,"win":49,"mean":0.0,"avgw":1.5,"avgl":-1.5,"r":1.1},"4+":{"n":55,"win":51,"mean":-0.2,"avgw":1.5,"avgl":-1.9,"r":0.8},"1":{"n":5,"win":40,"mean":0.3,"avgw":5.1,"avgl":-2.8,"r":1.8},"1+":null,"2A":{"n":17,"win":53,"mean":1.8,"avgw":6.0,"avgl":-2.8,"r":2.1},"2B":null,"2C":{"n":7,"win":57,"mean":2.7,"avgw":8.6,"avgl":-5.0,"r":1.7},"3":{"n":17,"win":18,"mean":-0.7,"avgw":2.1,"avgl":-1.3,"r":1.6},"3-":{"n":7,"win":71,"mean":0.1,"avgw":0.5,"avgl":-0.9,"r":0.5}}}]};
+
+    // ─── 行业tab: sector + sub-industry × 全子档胜率/赔率矩阵 (2026-10-19) ───
+    function renderIndustry() {
+      const _ind = indStageData || window.__indStageData;
+      if (!_ind || !_ind.sectors) return '<div style="padding:40px;color:var(--text-muted)">行业数据未加载</div>';
+      const SUBS = _ind.subs || ['4','4+','1','1+','2A','2B','2C','3','3-'];
+      const fmtM = (v) => v >= 1000 ? (v/1000).toFixed(1) + 'B' : v + 'M';
+
+      function stageCell(st, isCurrent) {
+        if (!st || st.n < 3) return `<td style="padding:5px 10px;border:${isCurrent?'3px solid #f59e0b':'1px solid var(--border)'};text-align:center;color:var(--text-muted);font-size:13px">${isCurrent?'← 当前':''}</td>`;
+        const bg = st.mean >= 4 && (st.r||0) >= 3 ? '#16a34a' : st.mean < 0 ? '#dc262655' : st.avgl == null && st.mean > 2 ? '#16a34a88' : '#22c55e22';
+        const txt = st.mean >= 4 && (st.r||0) >= 3 ? '#fff' : 'var(--text)';
+        const border = isCurrent ? '3px solid #f59e0b' : '1px solid var(--border)';
+        const glow = isCurrent ? 'box-shadow:0 0 8px #f59e0b88;' : '';
+        const curTag = isCurrent ? '<div style="font-size:11px;color:#f59e0b;font-weight:800">◀ 当前</div>' : '';
+        return `<td style="padding:5px 10px;border:${border};background:${bg};text-align:center;min-width:92px;${glow}">
+          ${curTag}
+          <div style="font-weight:700;font-size:14px;color:${txt}">${st.mean>0?'+':''}${st.mean}% ${st.r!=null?'R'+st.r:''}</div>
+          <div style="font-size:12px;color:${txt==='var(--text)'?'var(--text-muted)':'#ddd'}">胜${st.win}% n=${st.n}</div>
+          <div style="font-size:11px;color:${txt==='var(--text)'?'var(--text-muted)':'#ddd'}">赢${st.avgw!=null?'+'+st.avgw+'%':'—'} 亏${st.avgl!=null?st.avgl+'%':(st.win===100?'无':'—')}</div>
+        </td>`;
+      }
+
+      function industryTable(rows, showSector) {
+        let h = '<table style="border-collapse:collapse;font-size:13px;margin:8px 0 20px"><tr><td style="padding:4px 10px;font-weight:700;color:var(--text-muted);font-size:13px">行业</td>';
+        if (showSector) h += '<td style="padding:4px 8px;font-weight:700;color:var(--text-muted);font-size:12px">Sector</td>';
+        h += '<td style="padding:4px 8px;font-weight:700;color:var(--text-muted);font-size:12px">规模</td><td style="padding:4px 8px;font-weight:700;color:var(--text-muted);font-size:12px">当前</td>';
+        for (const s of SUBS) {
+          const col = SUB_COLOR[s] || 'var(--text-muted)';
+          h += `<td style="padding:4px 8px;font-weight:700;color:${col};text-align:center;font-size:14px">${s}</td>`;
+        }
+        h += '</tr>';
+        let lastSec = '';
+        for (const row of rows) {
+          if (showSector && row.sector !== lastSec) {
+            lastSec = row.sector;
+            h += `<tr><td colspan="${SUBS.length + (showSector?4:3)}" style="padding:8px 10px;font-weight:700;font-size:16px;color:var(--text);border-bottom:2px solid var(--border);background:var(--bg-muted)">${row.sector}</td></tr>`;
+          }
+          h += `<tr><td style="padding:5px 12px;font-weight:600;white-space:nowrap;font-size:13px"><a class="tk-link" href="#" onclick="showIndustryChart('${row.name.replace(/'/g,'')}','${showSector?'sub_industry':'sector'}'); return false;">${row.name}</a></td>`;
+          if (showSector) h += `<td style="padding:4px 8px;font-size:12px;color:var(--text-muted)">${row.sector}</td>`;
+          h += `<td style="padding:4px 8px;font-size:12px;color:var(--text-muted)">${fmtM(row.size)}</td>`;
+          h += `<td style="padding:4px 8px;font-size:12px;color:${SUB_COLOR[row.current.split('/')[1]]||'var(--text)'}">${row.current}</td>`;
+          for (const s of SUBS) h += stageCell(row.stats[s], s === row.current.split('/')[1]);
+          h += '</tr>';
+        }
+        h += '</table>';
+        return h;
+      }
+
+      // ── 汇总表: 全子档池化统计 ──
+      const summary = _ind.sub_summary || {};
+      let html = `<div style="padding:4px 0 10px;font-size:13px;color:var(--text-muted)">
+        行业指数 (pcomp成交额加权divisor, 季度再平衡) · Stage 3.0引擎 · volume=成分股252日百分位均值 · 排序按成交额</div>`;
+      html += `<div style="padding:10px 0 4px;font-size:17px;font-weight:700">全子档买点汇总 (48个子行业池化)</div>`;
+      html += '<table style="border-collapse:collapse;font-size:13px;margin:8px 0 20px"><tr>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:13px">子档</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">n</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">胜率</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">平均</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">中位</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">赢均</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">亏均</td>';
+      html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">R</td></tr>';
+      for (const s of SUBS) {
+        const st = summary[s];
+        if (!st) { html += `<tr><td style="padding:5px 12px;font-weight:700;color:${SUB_COLOR[s]||'var(--text)'}">${s}</td><td colspan="7" style="color:var(--text-muted)">—</td></tr>`; continue; }
+        const bg = st.mean >= 4 && (st.r||0) >= 3 ? '#16a34a' : st.mean < 0 ? '#dc262655' : st.avgl == null && st.mean > 2 ? '#16a34a88' : '#22c55e22';
+        const txt = st.mean >= 4 && (st.r||0) >= 3 ? '#fff' : 'var(--text)';
+        html += `<tr><td style="padding:5px 12px;font-weight:700;color:${SUB_COLOR[s]||'var(--text)'}">${s}</td>`;
+        html += `<td style="padding:5px 12px;text-align:center">${st.n}</td>`;
+        html += `<td style="padding:5px 12px;text-align:center">${st.win}%</td>`;
+        html += `<td style="padding:5px 12px;text-align:center;font-weight:700;background:${bg};color:${txt}">${st.mean>0?'+':''}${st.mean}%</td>`;
+        html += `<td style="padding:5px 12px;text-align:center">${st.mean!=null?st.mean+'%':'—'}</td>`;
+        html += `<td style="padding:5px 12px;text-align:center;color:var(--positive)">+${st.avgw||'—'}%</td>`;
+        html += `<td style="padding:5px 12px;text-align:center;color:var(--negative)">${st.avgl||'—'}%</td>`;
+        html += `<td style="padding:5px 12px;text-align:center;font-weight:700">${st.r||'—'}</td></tr>`;
+      }
+      html += '</table>';
+
+      // ── IC排名 (可折叠, 默认收起) ──
+      const icr = _ind.ic_rank || [];
+      if (icr.length) {
+        html += '<div style="padding:10px 0 4px">'
+          + '<div style="display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none" onclick="var el=document.getElementById(\'ic-rank\');var b=el.style.display!==\'none\';el.style.display=b?\'none\':\'\';this.querySelector(\'.arrow\').textContent=b?\'▶\':\'▼\'">'
+          + '<span class="arrow" style="font-size:11px;color:var(--text-muted)">▶</span>'
+          + '<span style="font-size:17px;font-weight:700">逐子行业 IC 排名 (Stage → 前瞻60日收益, ' + icr.length + '个)</span>'
+          + '</div>'
+          + '<div id="ic-rank" style="display:none;padding:4px 0 8px">'
+          + '<table style="border-collapse:collapse;font-size:13px;margin:8px 0 20px">'
+          + '<tr><td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">#</td>';
+        html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:13px">子行业</td>';
+        html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">Sector</td>';
+        html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">IC60</td>';
+        html += '<td style="padding:5px 12px;font-weight:700;color:var(--text-muted);font-size:12px">t值</td></tr>';
+        for (let i = 0; i < icr.length; i++) {
+          const r = icr[i];
+          const color = r.ic60 > 0.15 ? '#16a34a' : r.ic60 < -0.12 ? '#dc2626' : r.ic60 > 0 ? '#22c55e' : '#f97316';
+          html += `<tr><td style="padding:4px 12px;color:var(--text-muted)">${i+1}</td>`;
+          html += `<td style="padding:4px 12px;font-weight:600">${r.name}</td>`;
+          html += `<td style="padding:4px 12px;font-size:11px;color:var(--text-muted)">${r.sector}</td>`;
+          html += `<td style="padding:4px 12px;font-weight:700;color:${color}">${r.ic60>0?'+':''}${r.ic60.toFixed(3)}</td>`;
+          html += `<td style="padding:4px 12px;color:var(--text-muted)">${r.t60}</td></tr>`;
+        }
+        html += '</table></div></div>';
+      }
+
+      html += `<div style="padding:10px 0 4px;font-size:17px;font-weight:700">Sector 级 (${_ind.sectors.length}个)</div>`;
+      html += industryTable(_ind.sectors, false);
+
+      html += `<div style="padding:16px 0 4px;font-size:17px;font-weight:700">Sub-industry 级 (${_ind.sub_industries.length}个, 按Sector分组)</div>`;
+      html += industryTable(_ind.sub_industries, true);
+
+      html += '<div style="font-size:12px;color:var(--text-muted);padding:6px 0">入场=子档fresh进入→出场=转4确认或3- · 格子=平均收益%+R+胜率+样本量 · 颜色: 绿=均≥4%且R≥3, 红=负或R<1.5</div>';
+      return html;
+    }
+
+    // ─── 市场tab: 三市场V1状态 + 10格胜率/赔率热力图 (2026-10-18) ───
+    function cellColor(mean) {
+      if (mean == null) return 'var(--bg-secondary)';
+      if (mean >= 4) return '#16a34a';
+      if (mean >= 1) return '#22c55e44';
+      if (mean >= -1) return 'transparent';
+      return '#dc262644';
+    }
+    function renderMarket() {
+      if (!mktBreadthData || !mktBreadthData.markets) return '<div style="padding:40px;color:var(--text-muted)">市场宽度数据未加载</div>';
+      const BUCKETS = ['极低','低','中','高','极高'];
+      let html = '<div style="padding:4px 0 20px">';
+      for (const key of ['hk','a','us']) {
+        const m = mktBreadthData.markets[key];
+        if (!m) continue;
+        // 最优格 (按mean排序取前2, n>=30)
+        const ranked = Object.entries(m.cells).filter(([k,v]) => v.n >= 30 && v.mean != null)
+          .sort((a,b) => b[1].mean - a[1].mean);
+        const good = new Set(ranked.filter(([k,v]) => v.mean >= 4 && (v.r||0) >= 3).map(([k]) => k));
+        const isHK = (key === 'hk');
+        const badThreshold = isHK ? (v) => (v.mean != null && v.mean < 2) && ((v.r||0) < 2)
+                                  : (v) => v.mean < 0 || (v.r||99) < 1.5;
+        const bad = new Set(ranked.filter(([k,v]) => badThreshold(v)).map(([k]) => k));
+        const top5 = new Set(ranked.slice(0,5).map(([k]) => k));
+        // 头部状态卡
+        const dirColor = m.dir === '↑' ? 'var(--positive)' : 'var(--negative)';
+        const cc = m.cells[m.cell] || {};
+        html += `<div style="margin:14px 0 10px;padding:14px 18px;border-radius:10px;border:2px solid ${dirColor};background:var(--bg-secondary);display:flex;align-items:center;gap:18px;flex-wrap:wrap">
+          <div style="min-width:100px"><div style="font-size:20px;font-weight:800">${m.name}</div>
+            <div style="font-size:10px;color:var(--text-muted)">${m.bench_name} · ${m.date}</div></div>
+          <div style="text-align:center;padding:0 8px"><div style="font-size:30px;font-weight:800;color:${dirColor}">${m.cell}</div>
+            <div style="font-size:9px;color:var(--text-muted)">当前档位×方向</div></div>
+          <div style="text-align:center;padding:0 12px;border-left:1px solid var(--border);border-right:1px solid var(--border)">
+            <div style="font-size:26px;font-weight:800;color:${cc.mean!=null&&cc.mean>=3?'var(--positive)':cc.mean!=null&&cc.mean<0?'var(--negative)':'var(--text)'}">${cc.mean!=null?(cc.mean>0?'+':'')+cc.mean+'%':'—'}</div>
+            <div style="font-size:9px;color:var(--text-muted)">预期60日</div></div>
+          <div style="text-align:center;padding:0 12px;border-right:1px solid var(--border)">
+            <div style="font-size:26px;font-weight:800;color:${cc.win!=null&&cc.win>=50?'var(--positive)':'var(--text)'}">${cc.win!=null?cc.win+'%':'—'}</div>
+            <div style="font-size:9px;color:var(--text-muted)">胜率</div></div>
+          <div style="flex:1;min-width:140px;font-size:15px;font-weight:700;color:var(--text)">${m.verdict}</div>
+        </div>
+        <div style="font-size:11px;color:var(--text-muted);margin-bottom:6px">V1=${m.v1}% · V2=${m.v2}% · 档界: ${m.edges.map(e=>e+'%').join(' / ')}</div>`;
+        // 10格热力图表
+        html += '<table style="border-collapse:collapse;font-size:12px;margin-bottom:10px"><tr><td></td>'
+          + BUCKETS.map(b => `<td style="padding:4px 10px;font-weight:700;color:var(--text-muted);text-align:center">${b}</td>`).join('') + '</tr>';
+        for (const d of ['↑','↓']) {
+          html += `<tr><td style="padding:4px 8px;font-weight:700;color:${d==='↑'?'var(--positive)':'var(--negative)'}">MA10${d}</td>`;
+          for (const b of BUCKETS) {
+            const k = b + d, c = m.cells[k] || {};
+            const isCur = (k === m.cell);
+            const isTop5 = top5.has(k);
+            let bg, txtCol = 'var(--text)';
+            if (isTop5) { bg = '#16a34a'; txtCol = '#fff'; }
+            else if (good.has(k)) { bg = '#22c55e55'; }
+            else if (bad.has(k)) { bg = '#dc262655'; }
+            else { bg = 'transparent'; }
+            const border = isCur ? '3px solid #f59e0b' : bad.has(k) ? '1px solid #dc2626' : '1px solid var(--border)';
+            html += `<td style="padding:6px 12px;border:${border};background:${bg};text-align:center;min-width:86px;${isCur?'box-shadow:0 0 8px #f59e0b88;':''}">
+              <div style="font-weight:700;font-size:14px;color:${txtCol}">${c.mean!=null?(c.mean>0?'+':'')+c.mean+'%':'—'}</div>
+              <div style="font-size:10px;color:${isTop5?'#ddd':'var(--text-muted)'}">胜率${c.win!=null?c.win+'%':'—'} · n=${c.n}</div>
+              ${isCur?'<div style="font-size:10px;color:#f59e0b;font-weight:800">◀ 当前</div>':''}
+            </td>`;
+          }
+          html += '</tr>';
+        }
+        html += '</table>';
+        // 图表容器 (plotly 在渲染后填充)
+        html += `<div id="mkt-chart-${key}" style="height:300px;margin:4px 0 24px"></div>`;
+      }
+      // HK个股买点×市场档矩阵 (全子档对照: 胜率/平均/R)
+      if (mktBreadthData.hk_entry_matrix) {
+        const em = mktBreadthData.hk_entry_matrix;
+        const subs = ['4','4+','1','1+','2A','2B','2C','3','3-'];
+        const curBkt = mktBreadthData.markets.hk.bucket;
+        const curCell = mktBreadthData.markets.hk.cell;
+        html += `<div style="margin:28px 0 6px;font-size:15px;font-weight:700">港股个股买点 × 市场档位 <span style="font-size:11px;color:var(--text-muted);font-weight:400">买点信号次开入场 → 转4确认或转3-出场 (2018-10→2026-10, 406只, 无SOS过滤) · 当前档=<b style="color:#f59e0b">${curBkt}</b></span></div>`;
+        html += '<table style="border-collapse:collapse;font-size:12px">';
+        html += '<tr><td style="padding:4px 10px;color:var(--text-muted)">买点↓ 档位→</td>'
+          + BUCKETS.map(b => `<td style="padding:4px 12px;font-weight:700;text-align:center;color:${b===curBkt?'#f59e0b':'var(--text-muted)'}">${b}${b===curBkt?' ◀':''}</td>`).join('') + '</tr>';
+        for (const sub of subs) {
+          const row = em[sub] || {};
+          const subCol = {'1+':'#16a34a','2A':'#16a34a','2B':'#15803d','3-':'#dc2626','4':'#b91c1c'}[sub] || 'var(--text)';
+          html += `<tr><td style="padding:5px 10px;font-weight:700;color:${subCol}">${sub}</td>`;
+          for (const b of BUCKETS) {
+            const c = row[b];
+            if (!c || !c.n) { html += '<td style="padding:5px 12px;border:1px solid var(--border);text-align:center;color:var(--text-muted)">—</td>'; continue; }
+            const isCurCol = (b === curBkt);
+            let bg2, txt2 = 'var(--text)', sub2 = 'var(--text-muted)';
+            if (c.mean >= 4 && c.r >= 3) { bg2 = '#16a34a'; txt2 = '#fff'; sub2 = '#ddd'; }
+            else if ((c.mean != null && c.mean < 2) && ((c.r||0) < 2)) { bg2 = '#dc262655'; }
+            else { bg2 = '#22c55e22'; }
+            const border2 = isCurCol ? '3px solid #f59e0b' : '1px solid var(--border)';
+            html += `<td style="padding:5px 12px;border:${border2};background:${bg2};text-align:center;min-width:104px;${isCurCol?'box-shadow:0 0 6px #f59e0b66;':''}">
+              <div style="font-weight:700;font-size:13px;color:${txt2}">${c.mean!=null?(c.mean>0?'+':'')+c.mean+'%':'—'} <span style="font-size:10px;color:${sub2}">R${c.r!=null?c.r.toFixed(1):'—'}</span></div>
+              <div style="font-size:10px;color:${sub2}">胜率${c.win!=null?c.win.toFixed(0)+'%':'—'} · n=${c.n}</div>
+              <div style="font-size:10px"><span style="color:${txt2==='var(--text)'?'var(--positive)':'#a7f3d0'}">赢+${c.avgw!=null?c.avgw.toFixed(1):'—'}%</span> <span style="color:${txt2==='var(--text)'?'var(--negative)':'#fca5a5'}">亏${c.avgl!=null?c.avgl.toFixed(1):'—'}%</span></div>
+            </td>`;
+          }
+          html += '</tr>';
+        }
+        html += '</table>';
+      }
+      html += '<div style="font-size:11px;color:var(--text-muted);padding:6px 0">格子=市场V1全样本分位档×MA10方向 → 指数前瞻60日平均/胜率 (2016-10→2026-10)。金框=最优两格, 橙框=当前, 红框=最差格。黄金边=★。数据含幸存者偏差与全样本分位前视, 方向可信幅度打折。</div>';
+      html += '</div>';
+      // 渲染plotly图 (render后DOM已就绪: renderMarket在innerHTML赋值链中被调用, 需延迟)
+      setTimeout(() => {
+        if (typeof Plotly === 'undefined') return;
+        for (const key of ['hk','a','us']) {
+          const m = mktBreadthData.markets[key];
+          const el = document.getElementById('mkt-chart-' + key);
+          if (!m || !el) continue;
+          const idx0 = m.hist.idx[0] || 1;
+          const tr = [
+            {x: m.hist.dates, y: m.hist.v1, name: 'V1 (Stage1&2 %)', yaxis: 'y', line: {color: '#6366f1', width: 1.4}},
+            {x: m.hist.dates, y: m.hist.idx.map(v => v / idx0 * 100), name: m.bench_name + '(起点=100)', yaxis: 'y2', line: {color: '#1e293b', width: 1.6}},
+          ];
+          Plotly.newPlot(el, tr, {
+            margin: {l: 45, r: 45, t: 8, b: 28}, showlegend: true,
+            legend: {orientation: 'h', y: 1.15, x: 0},
+            yaxis: {title: 'V1 %', side: 'left'},
+            yaxis2: {title: '指数(归一)', side: 'right', overlaying: 'y'},
+            xaxis: {rangeslider: {visible: false}},
+          }, {displayModeBar: false, responsive: true});
+        }
+      }, 60);
+      return html;
+    }
+      if (tab === 'market') {
+        mainContent = renderMarket();
+      } else if (tab === 'industry') {
+        mainContent = renderIndustry();
+      } else if (tab === 'trend') {
         mainContent = renderTrend();
       } else if (tab === 'ustrend') {
         mainContent = renderUs();
@@ -519,9 +783,11 @@
               </svg>
               <div>
                 <div class="title">CPG扫描</div>
-                <div class="subtitle">更新日期：${(tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tabData.date) || '-'}</div>
+                <div class="subtitle">更新日期：${(tab === 'market' ? (mktBreadthData && mktBreadthData.updated) : tab === 'trend' ? (trendData && trendData.date) : tab === 'ustrend' ? (usData && usData.date) : tab === 'etf' ? (etfData && etfData.date) : tab === 'cetf' ? (cetfData && cetfData.date) : tab === 'atrend' ? (aData && aData.date) : tabData.date) || '-'}</div>
               </div>
               <div class="tab-toggle">
+                <button class="tab-btn ${tab==='market'?'active':''}" data-tab="market">市场</button>
+                <button class="tab-btn ${tab==='industry'?'active':''}" data-tab="industry">行业</button>
                 <button class="tab-btn ${tab==='trend'?'active':''}" data-tab="trend">港股-趋势<span class="tab-count">${trendCount}</span></button>
                 <button class="tab-btn ${tab==='ustrend'?'active':''}" data-tab="ustrend">海外-趋势<span class="tab-count">${usCount}</span></button>
                 <button class="tab-btn ${tab==='etf'?'active':''}" data-tab="etf">美国ETF<span class="tab-count">${etfCount}</span></button>
@@ -536,7 +802,7 @@
         </header>
         <main class="main">
           <div class="summary-bar">
-            ${tab === 'trend' ? renderTrendSummary() : tab === 'ustrend' ? renderUsSummary() : tab === 'etf' ? renderEtfSummary() : tab === 'cetf' ? renderCetfSummary() : tab === 'atrend' ? renderASummary() : renderSummary(sosCount, poolCount)}
+            ${tab === 'market' ? '' : tab === 'industry' ? '' : (tab === 'trend' ? renderTrendSummary() : tab === 'ustrend' ? renderUsSummary() : tab === 'etf' ? renderEtfSummary() : tab === 'cetf' ? renderCetfSummary() : tab === 'atrend' ? renderASummary() : renderSummary(sosCount, poolCount))}
           </div>
           ${errorBanner}
           ${mainContent}
@@ -693,17 +959,49 @@
     function renderTrendSummary() {
       const d = trendData;
       if (!d) return `<div class="summary-item"><span class="summary-val">趋势数据未加载</span></div>`;
+      const all = d.all_stocks || [];
       const top = (d.part1 && d.part1.sub_industries && d.part1.sub_industries[0]) || {};
-      return `
-        ${chip('最热细分', 'state-STRONG', `${d.hottest_sub || '-'} ${top.composite != null ? '(' + top.composite + ')' : ''}`, 'sec-p1')}
-        ${chip('SOS异动', 'state-EARLY', (d.part3 || []).length, 'sec-sos')}
-        ${chip('底部观察', 'state-EARLY', (d.bottom || []).length, 'sec-bottom')}
-        ${chip('东吴B', 'state-SETUP_OK', dsBFilter(d.ds_b).length, 'sec-bottom')}
-        ${chip('1→2', 'state-STRONG', t12Count(d), 'sec-t12')}
-        ${chip('3→4', 'state-PULLBACK', t34Count(d), 'sec-t34')}
-        ${chip('首次新高', 'state-SETUP_OK', (d.part1c1 || []).length, 'sec-nh1')}
-        ${chip('持续新高', 'state-SETUP_OK', (d.part1c2 || []).length, 'sec-nh2')}
-      `;
+      const cnt = (fn) => all.filter(fn).length;
+      const s1  = cnt(s => s.stage === '1');
+      const s1p = cnt(s => s.sub === '1+');
+      const s2a = cnt(s => s.sub === '2A');
+      const s2o = cnt(s => s.stage === '2' && s.sub !== '2A');
+      const s3  = cnt(s => s.stage === '3');
+      const s4  = cnt(s => s.stage === '4');
+      const s4p = cnt(s => s.sub === '4+');
+      // Stage chip: 同字号, 白字彩底
+      const stChip = (label, val, bg) =>
+        `<span style="display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:6px;
+           background:${bg};color:#fff;font-size:13px;font-weight:700;white-space:nowrap">
+           ${label} <span style="font-size:13px;font-variant-numeric:tabular-nums">${val}</span></span>`;
+      // 信息 chip: 白字彩底
+      const infoChip = (label, val, bg, target) => target
+        ? `<a href="#" onclick="document.getElementById('${target}').scrollIntoView({behavior:'smooth'});return false;"
+             style="display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:6px;
+             background:${bg};color:#fff;font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap">
+             ${label} <b>${val}</b></a>`
+        : `<span style="display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:6px;
+             background:${bg};color:#fff;font-size:12px;font-weight:600;white-space:nowrap">
+             ${label} <b>${val}</b></span>`;
+      // 第一行: Stage 计数
+      const row1 = `<div style="display:flex;flex-wrap:wrap;gap:6px;padding:2px 0">
+        ${stChip('S1', s1, '#b45309')}
+        ${stChip('1+', s1p, '#15803d')}
+        ${stChip('2A', s2a, '#16a34a')}
+        ${stChip('S2≠A', s2o, '#4d7c0f')}
+        ${stChip('S3', s3, '#c2410c')}
+        ${stChip('S4', s4, '#b91c1c')}
+        ${stChip('4+', s4p, '#c2410c')}
+      </div>`;
+      // 第二行: 其他信息
+      const row2 = `<div style="display:flex;flex-wrap:wrap;gap:6px;padding:2px 0 4px">
+        ${infoChip('最热细分', `${d.hottest_sub || '-'}${top.composite != null ? ' (' + top.composite + ')' : ''}`, '#1d4ed8', 'sec-p1')}
+        ${infoChip('SOS异动', (d.part3 || []).length, '#6d28d9', 'sec-sos')}
+        ${infoChip('东吴B', dsBFilter(d.ds_b).length, '#0e7490', 'sec-bottom')}
+        ${infoChip('首次新高', (d.part1c1 || []).length, '#0e7490', 'sec-nh1')}
+        ${infoChip('持续新高', (d.part1c2 || []).length, '#0e7490', 'sec-nh2')}
+      </div>`;
+      return row1 + row2;
     }
 
     function renderTrend() {
@@ -712,41 +1010,60 @@
       let html = `<div class="subtitle" style="padding:4px 0 10px">港股趋势四部曲 · ${d.date || ''}　最热细分行业：${d.hottest_sub || '-'}</div>`;
 
       // ── Part 1: 行业热度 (仅显示 60日涨幅>10% 的强势行业) ──
-      // ── Part 1a: 行业RS排名 (Mansfield RS, 谁在跑赢基准) ──
-      const rsTop = d.rs_top || [];
-      const rsTopSet = new Set(rsTop.map(e => e.sub_industry));
-      const accelSet = new Set((d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3).map(e => e.sub_industry));
-      if (rsTop.length) {
-        const rsTopRows = rsTop.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','hk'); return false;">${e.sub_industry}</a>` + (accelSet.has(e.sub_industry) ? ' <span class="chg-badge chg-pos">▲加速中</span>' : ''),
-          e.n, `<b>${num2(e.rs)}</b>`,
-          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
+      // ── Part 1a: 子行业预期收益排名 (当前子档历史表现, 取前15, 均值>2%或R>3) ──
+      const _ind1 = (window.indStageData || window.__indStageData || (typeof indStageData !== 'undefined' ? indStageData : null)) || (window.__indStageData || {});
+      const _subList = _ind1.sub_industries || [];
+      const _subRanked = [];
+      for (const x of _subList) {
+        const cur = x.current.includes('/') ? x.current.split('/')[1] : '';
+        const st = (x.stats || {})[cur];
+        if (!st || st.n < 3) continue;
+        if ((st.mean || 0) > 2 || (st.r || 0) > 3) {
+          _subRanked.push({name: x.name, sector: x.sector, sub: cur, mean: st.mean, r: st.r, win: st.win, n: st.n, current: x.current, size: x.size});
+        }
       }
-
-      // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
-      const rsMom = (d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3 && !rsTopSet.has(e.sub_industry));
-      if (rsMom.length) {
-        const rsMomRows = rsMom.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','hk'); return false;">${e.sub_industry}</a>`,
-          e.n, num2(e.rs),
-          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1b · 行业RS动量 (RS 1W变化≥3 加速走强; 已在1a的行业不重复)', rsMom.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
+      _subRanked.sort((a, b) => (b.mean || 0) - (a.mean || 0));
+      const top15 = _subRanked.slice(0, 15);
+      if (top15.length) {
+        const p1aRows = top15.map((e, i) => [
+          String(i + 1),
+          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.name}','hk'); return false;">${e.name}</a>`,
+          e.sector || '-',
+          `<b style="color:${SUB_COLOR[e.sub] || 'var(--text)'}">${e.current}</b>`,
+          `<b style="font-size:14px;color:${e.mean >= 4 ? '#16a34a' : e.mean > 0 ? '#22c55e' : '#dc2626'}">${e.mean > 0 ? '+' : ''}${e.mean}%</b>`,
+          e.r != null ? `<b>R${e.r}</b>` : '-',
+          e.win != null ? e.win + '%' : '-',
+          e.n]);
+        html += trendSection('Part 1a · 子行业预期收益排名 (当前Stage的历史平均收益, 前15, 筛选: 均值>2%或R>3)',
+          top15.length,
+          trendTable(['#','子行业','Sector','当前','预期收益','R','胜率','n'], p1aRows), 'sec-p1');
       }
 
       const secs = (d.part1 && d.part1.sectors || []);
-      const secRows = secs.map(s => [
-        `<a class="tk-link" href="#" onclick="showSector('${s.sector}'); return false;">${s.sector}</a>`,
-        s.n, pctRaw(s.breadth_250), num2(s.amt_surge) + 'x',
-        pctRaw(s.share_1d), pctRaw(s.share_5d), pctRaw(s.share5_pctile200), signedR(s.ret_60), `<b>${num2(s.composite)}</b>`]);
-      html += trendSection('Part 1c · GICS 板块热度 (全量)', secs.length,
-        trendTable(['板块','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
+      // Part 1b: 按Sector预期收益排序
+      const _secList = _ind1.sectors || [];
+      const _secRanked = [];
+      for (const x of _secList) {
+        const cur = x.current.includes('/') ? x.current.split('/')[1] : '';
+        const st = (x.stats || {})[cur];
+        _secRanked.push({name: x.name, current: x.current, sub: cur,
+          mean: st ? st.mean : null, r: st ? st.r : null, win: st ? st.win : null, n: st ? st.n : null,
+          size: x.size});
+      }
+      _secRanked.sort((a, b) => ((b.mean != null ? b.mean : -999) - (a.mean != null ? a.mean : -999)));
+      const secRows = _secRanked.map((x, i) => [
+        String(i + 1),
+        `<a class="tk-link" href="#" onclick="showSector('${x.name}'); return false;">${x.name}</a>`,
+        `<b style="color:${SUB_COLOR[x.sub] || 'var(--text)'}">${x.current}</b>`,
+        x.mean != null ? `<b style="color:${x.mean >= 4 ? '#16a34a' : x.mean > 0 ? '#22c55e' : '#dc2626'}">${x.mean > 0 ? '+' : ''}${x.mean}%</b>` : '—',
+        x.r != null ? `R${x.r}` : '-',
+        x.win != null ? x.win + '%' : '-',
+        x.n != null ? x.n : '-']);
+      html += trendSection('Part 1b · GICS Sector 预期收益排名 (按当前Stage历史平均收益降序)',
+        _secRanked.length,
+        trendTable(['#','Sector','当前','预期收益','R','胜率','n'], secRows));
 
-      // ── Part 1c: 6月新高 (首次/持续) ──
+      // ── 6月新高 (首次/持续) ──
       const p1cCols = ['代码','名称','细分行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4],'MA10','热度分'];
       const p1cRow = (e, sc) => [
         tk(e.ticker, sc), e.name, e.sub_industry, num2(e.close), pctR(e.pct_high_250),
@@ -1007,66 +1324,56 @@
       return trendSection(`${partBLabel} · 东吴B信号 (仅当日 B/b 信号: B=底右强买/b=底左早买, 按营收增速降序; 急杀=恐慌宣泄型底部, A/美股胜率+4pp)`, b.length,
         trendTable(DS_B_COLS_B, b.map(e => [...dsRow(e, 'ds_b'), growCell(e)])), 'sec-dsb');
     }
-    // ── 生命周期 · Stage×SATA 五段式: 筑底→要起来→刚起来→趋势上→见顶/初下行 (2026-10-13) ──
+    // ── 生命周期 · 市场档位驱动版 (2026-10-18重构): Top3子档×板块V1分组 ──
     function lifecyclePart(d) {
       const all = d.all_stocks || [];
-      const LC_COLS = ['代码','名称','行业','收盘','子档','SATA日','SATA周','持续','转换/备注'];
-      const sataSort = (a, b) => (b.sata_w || 0) - (a.sata_w || 0) || (b.sata_d || 0) - (a.sata_d || 0);
-      const note = s => ((s.t12 != null && s.t12 <= 10) ? `<b style="color:var(--positive)">1→2·${s.t12}d</b> ` : '')
-        + ((s.t34 != null && s.t34 <= 10) ? `<b style="color:var(--negative)">3→4·${s.t34}d</b> ` : '')
-        + ((s.stage === '1' && /^2/.test(s.sub || '')) ? '<b style="color:#f59e0b">⚠上穿待确认</b>' : '')
-        + ((s.stage === '3' && /^4/.test(s.sub || '')) ? '<b style="color:#f59e0b">⚠下穿待确认</b>' : '');
-      const row = s => [
-        tk(s.ticker, 'lifecycle'), s.name, s.sub_industry || '-', num2(s.close),
-        (s.sub ? `<b>${s.sub}</b>${provBadge(s)}` : '-'), sataCell(s.sata_d), sataCell(s.sata_w),
-        s.stage_days != null ? s.stage_days : '-', note(s)];
-      const grp = (title, arr, cap) => {
-        const shown = cap ? arr.slice(0, cap) : arr;
-        return `<div style="padding:10px 0 4px;font-size:12px;color:#475569;font-weight:600">${title} (${arr.length}${cap && arr.length > cap ? ` · 显示前${cap}` : ''})</div>`
-          + (shown.length ? trendTable(LC_COLS, shown.map(row)) : '<div style="padding:2px 0 4px;color:#94a3b8">—</div>');
-      };
-      // ③ 刚起来集合: 1→2确认≤10日 ∪ 2A ∪ 今日上穿未确认(防抖仍1但子档2x)
-      const g3set = new Set(all.filter(s =>
-        (s.stage === '2' && ((s.t12 != null && s.t12 <= 10) || s.sub === '2A'))
-        || (s.stage === '1' && /^2/.test(s.sub || ''))).map(s => s.ticker));
-      const g1 = all.filter(s => ((s.stage === '1' && !g3set.has(s.ticker) && s.sub !== '1+') || s.sub === '4+')).sort(sataSort);
-      const g2 = all.filter(s => s.sub === '1+')
-        .sort((a, b) => ((b.marks || []).length - (a.marks || []).length) || sataSort(a, b));   // 有标记(纠缠/背离)优先
-      const g3 = all.filter(s => g3set.has(s.ticker))
-        .sort((a, b) => (a.stage === '1' ? -1 : (a.t12 != null ? a.t12 : 99)) - (b.stage === '1' ? -1 : (b.t12 != null ? b.t12 : 99)));
-      const g4 = all.filter(s => s.stage === '2' && !g3set.has(s.ticker)).sort(sataSort);
-      const g5 = all.filter(s => s.stage === '3' || (s.stage === '4' && s.sub !== '4+' && s.t34 != null && s.t34 <= 10))
-        .sort((a, b) => ((a.stage === '4' ? 0 : /^4/.test(a.sub || '') ? 1 : a.sub === '3B' ? 2 : 3)
-                       - (b.stage === '4' ? 0 : /^4/.test(b.sub || '') ? 1 : b.sub === '3B' ? 2 : 3))
-                      || ((a.t34 != null ? a.t34 : 99) - (b.t34 != null ? b.t34 : 99)));
-      let h = '';
-      // 11子档分布条 (文字版钟形曲线; 1灰 2绿 3橙 4红)
-      const SUB_ORDER = ['4+','1','1+','2A','2B','2C','3','4','NA'];
-      const SUB_COLOR = { '4+':'#ff7043','1':'#9e9e9e','1+':'#546e7a',
-        '2A':'#16a34a','2B':'#16a34a','2C':'#16a34a','3':'#f9a825',
-        '4':'#e53935','NA':'#64748b' };
-      const subCnt = {};
-      all.forEach(x => { const k = x.sub || 'NA'; subCnt[k] = (subCnt[k] || 0) + 1; });
-      const provN = all.filter(x => x.prov).length;
-      h += '<div style="padding:6px 0 2px;font-size:12px;letter-spacing:.2px">'
-        + SUB_ORDER.filter(k => subCnt[k]).map(k =>
-            `<b style="color:${SUB_COLOR[k]}">${k === 'NA' ? 'NA(新股)' : k}</b>×${subCnt[k]}`).join(' <span style="color:#cbd5e1">|</span> ')
-        + (provN ? ` <span style="color:#f59e0b;font-size:11px">· 其中${provN}只为新股弱规则档(标"新")</span>` : '')
-        + '</div>';
-      h += grp('① 筑底/止跌 (4+止跌信号 + Stage 1过渡/1, 按SATA周降序)', g1, 20);
-      h += grp('② 要起来 (1+强筑底: 站稳MA5/10/20全上行+周MACD转正; 标记: 预金叉·纠缠·底背离)', g2);
-      h += grp('③ 刚起来/趋势修复 (1→2确认·≤10日 ∪ 2A含修复态·趋势中回调; ⚠=待3日确认)', g3);
-      h += grp('④ 趋势上 (Stage 2 成熟段, 按SATA周降序; 2C=延伸忌追高)', g4, 20);
-      h += grp('⑤ 见顶/初下行 (3→4确认·≤10日 → 3B → 3A; ⚠=今日下穿待确认)', g5);
-      const n = g1.length + g2.length + g3.length + g4.length + g5.length;
-      // 各组翻页列表 (showChart ←→ 在所在生命周期组内切换)
-      window.__lcNav = {};
-      [g1, g2, g3, g4, g5].forEach(g => {
-        const L = g.map(x => x.ticker);
-        g.forEach(x => { window.__lcNav[x.ticker] = L; });
-      });
-      return trendSection(`生命周期 · Stage×SATA v2 (SATA≥6绿; ①筑底→②要起来→③刚起来/修复→④趋势上→⑤见顶/初下行)`, n, h, 'sec-lc');
+      const top3 = d.top3_subs || ['1+','2A','2B'];
+      const mktBkt = d.mkt_bucket || '';
+      const mktCell = d.mkt_cell || '';
+      if (!all.length) return '';
+      // 翻页导航: 按显示顺序(板块V1→SATA)存每个子档的完整列表
+      window.__lcNavOrder = {};
+      for (const sub of top3) {
+        const pool = all.filter(s => s.sub === sub);
+        // 复制排序逻辑: 按板块V1分组→组内SATA→热度
+        pool.sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0))
+          || (b.sata_w || 0) - (a.sata_w || 0)
+          || (b.hotness || 0) - (a.hotness || 0));
+        window.__lcNavOrder[sub] = pool.map(st => st.ticker);
+      }
+      let h = `<div style="padding:4px 0 2px;font-size:12px;color:var(--text-muted)">
+        市场档位: <b style="color:#f59e0b">${mktBkt}</b> (${mktCell}) → 按该档位历史最优子档选股 · 板块按V1降序 · 组内按SATA周→热度降序</div>`;
+      for (const sub of top3) {
+        // 筛选当前处于该子档的票
+        const pool = all.filter(s => s.sub === sub);
+        if (!pool.length) continue;
+        // 扁平化: 板块V1降序 → 组内SATA→热度, 不再分组显示, 板块放最后一列
+        pool.sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0))
+          || (b.sata_w || 0) - (a.sata_w || 0)
+          || (b.hotness || 0) - (a.hotness || 0));
+        // 可折叠 section
+        const secId = 'lc-' + sub.replace(/[^a-zA-Z0-9]/g, '');
+        h += `<div style="padding:10px 0 4px">
+          <div style="display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none" onclick="const el=document.getElementById('${secId}');const b=el.style.display!=='none';el.style.display=b?'none':'';this.querySelector('.arrow').textContent=b?'▶':'▼'">
+            <span class="arrow" style="font-size:11px;color:var(--text-muted)">▼</span>
+            <span style="font-size:15px;font-weight:800;color:${SUB_COLOR[sub] || 'var(--text)'}">${sub}</span>
+            <span style="font-size:12px;color:var(--text-muted)">(${pool.length}只 · ${mktBkt}档历史最优)</span>
+          </div>
+          <div id="${secId}" style="padding:4px 0 8px">
+          ${trendTable(['代码','名称','收盘','SATA周','热度分','子档标记','持续','行业(V1)'],
+            pool.map(s => [
+              tk(s.ticker, 'lifecycle'), s.name,
+              num2(s.close), sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`,
+              (s.marks || []).join('·') || '-',
+              s.stage_days != null ? s.stage_days + 'd' : '-',
+              `<span style="font-size:11px">${s.sector || '-'} <span style="color:#6366f1">${s.sector_v1 != null ? (s.sector_v1 * 100).toFixed(0) + '%' : ''}</span></span>`
+            ]))}
+          </div>
+        </div>`;
+      }
+return h;
     }
+
     // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
     // (fundLv/yoyLvCell/roeLvCell 定义在 IIFE 外全局区 — showChart 也要用, 见下)
     function transPart(d, key, title, col) {
@@ -1089,22 +1396,28 @@
     function bottomPart(d, screen, btCols) {
       const bAll = d.ds_b || [];
       const b = dsBFilter(bAll).slice().sort((x, y) => (x.sig === y.sig ? growVal(y) - growVal(x) : (x.sig === 'B' ? -1 : 1)));
-      const bTk = new Set(bAll.map(e => e.ticker));
-      const bt = (d.bottom || []).filter(e => !bTk.has(e.ticker)).slice()
-        .sort((x, y) => growVal(y) - growVal(x) || (y.score || 0) - (x.score || 0));
-      const btRows = bt.map(e => [
-        tk(e.ticker, 'bottom'), e.name, e.sub_industry, num2(e.close),
-        num2(e.wj_min), num2(e.pos250), yn(e.div), yn(e.stall),
-        yn(e.buy) + (e.buy && e.buy_types ? ` <span class="muted-val" style="font-size:11px;white-space:nowrap">${e.buy_types.replace(/金叉/g, '').replace('上穿', '')}</span>` : ''),
-        `<b>${e.score}</b>`,
-        ...fundCells(e)]);
       const bRows = b.map(e => [...dsRow(e, 'ds_b'), growCell(e)]);
+      // ② 改为: 所有 Stage 4+ 个股 (2026-10-19 用户改)
+      const all = d.all_stocks || [];
+      const p4 = all.filter(s => s.sub === '4+')
+        .sort((x, y) => ((y.sector_v1 || 0) - (x.sector_v1 || 0))
+          || (y.sata_w || 0) - (x.sata_w || 0));
+      const p4Rows = p4.map(s => [
+        tk(s.ticker, 'bottom'), s.name, s.sub_industry || '-',
+        num2(s.close), sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`,
+        (s.marks || []).join('·') || '-',
+        s.stage_days != null ? s.stage_days + 'd' : '-',
+        `<span style="font-size:11px">${s.sector || '-'} <span style="color:#6366f1">${s.sector_v1 != null ? (s.sector_v1 * 100).toFixed(0) + '%' : ''}</span></span>`,
+        ...fundCells(s)
+      ]);
       const inner =
-        `<div style="padding:2px 0 6px;font-size:12px;color:#475569;font-weight:600">① 东吴当日 B/b 信号 (${b.length}) — 按营收增速降序</div>` +
+        `<div style="padding:2px 0 6px;font-size:13px;font-weight:700;color:var(--text)">① 东吴当日 B/b 信号 (${b.length})</div>` +
         (b.length ? trendTable(DS_B_COLS_B, bRows) : '<div style="padding:2px 0 6px;color:#94a3b8">今日无 B/b 信号</div>') +
-        `<div style="padding:12px 0 6px;font-size:12px;color:#475569;font-weight:600">② 底部观察 · 无B信号 (${bt.length}) — 按营收增速降序 (入池: 周J<20+低位+均线纠缠+短线走平; 背离/跌不动/买点各1分, 仅保留≥1分)</div>` +
-        trendTable(btCols, btRows);
-      return trendSection(`Part 3 · 底部区 (①当日B/b信号 ②底部观察·无B信号; 均优先高增速/明显改善)`, b.length + bt.length, inner, 'sec-bottom');
+        `<div style="padding:12px 0 6px;font-size:13px;font-weight:700;color:var(--text)">② Stage 4+ 止跌/修复个股 (${p4.length}) — 板块V1→SATA降序</div>` +
+        trendTable(['代码','名称','细分行业','收盘','SATA周','热度','标记','持续','行业(V1)',
+                    ['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]],
+                   p4Rows);
+      return trendSection(`Part 3 · 底部区 (①东吴B/b信号 ②Stage 4+止跌修复)`, b.length + p4.length, inner, 'sec-bottom');
     }
     function renderA() {
       const d = aData;
@@ -1227,7 +1540,7 @@
         `<a class="tk-link" href="#" onclick="openStockFromDetail('${s.ticker}'); return false;">${s.ticker}</a>`,
         s.name, num2(s.close), signedR(s.ret_60), pctR(s.pct_high_250),
         yn(s.ma_aligned), stageCell(s.stage),
-        (s.sub ? `<b style="font-size:11px">${s.sub}</b>${provBadge(s)}` : '-'),
+        (s.sub ? `<b style="font-size:11px;color:${SUB_COLOR[s.sub] || 'var(--text)'}">${s.sub}</b>${provBadge(s)}` : '-'),
         transCell(s.t12, 'var(--positive)'),
         transCell(s.t34, 'var(--negative)'), sataCell(s.sata_d), sataCell(s.sata_w),
         `<b>${num2(s.hotness)}</b>`]);
@@ -1404,6 +1717,68 @@
       render();
     })();
   })();
+
+  // ─── 行业图表 (全局作用域, onclick需要访问) ─────────────
+  window.__indChartList = [];
+  window.__indChartIdx = -1;
+  window.__indChartLevel = 'sub_industry';
+  window.showIndustryChart = function(name, level) {
+    window.__indChartLevel = level || 'sub_industry';
+    const _ind = window.__indStageData || {};
+    const key = window.__indChartLevel === 'sector' ? 'sectors' : 'sub_industries';
+    const list = _ind[key] || [];
+    window.__indChartList = list.map(x => x.name);
+    window.__indChartIdx = window.__indChartList.indexOf(name);
+    _openIndChart(name);
+  };
+  function _openIndChart(name) {
+    const safe = name.replace(/\//g, '_').replace(/&/g, '_');
+    const code = 'IND_' + safe;
+    document.getElementById('chart-modal').classList.add('open');
+    document.getElementById('modal-name').textContent = name;
+    const _ind = window.__indStageData || {};
+    const _key = window.__indChartLevel === 'sector' ? 'sectors' : 'sub_industries';
+    const _list = _ind[_key] || [];
+    const _me = _list.find(x => x.name === name);
+    let _info = window.__indChartLevel === 'sector' ? 'GICS Sector' : 'Sub-industry';
+    if (_me) {
+      const cur = _me.current || '';
+      const _sub = cur.includes('/') ? cur.split('/')[1] : '';
+      let _st = (_me.stats || {})[_sub];
+      let _poolTag = '';
+      if (!_st) { _st = ((window.__indStageData || {}).sub_summary || {})[_sub]; _poolTag = '池化'; }
+      const _bc = ['1+','2A','2B'].indexOf(_sub) >= 0 ? '#16a34a' : ['3-','4','4+'].indexOf(_sub) >= 0 ? '#dc2666' : '#64748b';
+      _info = '<span style="display:inline-block;background:' + _bc + ';color:#fff;font-weight:800;font-size:14px;padding:1px 10px;border-radius:6px;margin-right:8px;vertical-align:middle">Stage ' + cur + '</span>';
+      if (_st) {
+        const _mc = _st.mean >= 4 && (_st.r || 0) >= 3 ? '#16a34a' : _st.mean < 0 ? '#dc2666' : 'var(--text)';
+        _info += '<b style="font-size:14px;color:' + _mc + '">' + (_st.mean > 0 ? '+' : '') + _st.mean + '%</b>'
+          + ' <span style="font-size:12px;color:var(--text)">R' + (_st.r != null ? _st.r : '—') + ' · 胜' + _st.win + '% · n=' + _st.n + (_poolTag ? '·' + _poolTag : '') + '</span>'
+          + ' <span style="font-size:12px;color:var(--text-muted)">赢+' + (_st.avgw != null ? _st.avgw + '%' : '—') + ' / 亏' + (_st.avgl != null ? _st.avgl + '%' : '无') + '</span>';
+      }
+      if (_me.n_stocks) _info += ' <span style="font-size:12px;color:var(--text-muted)">· ' + _me.n_stocks + '只成分股</span>';
+    }
+    document.getElementById('modal-industry').innerHTML = _info;
+    document.getElementById('modal-ticker').textContent =
+      (window.__indChartIdx >= 0 ? '(' + (window.__indChartIdx + 1) + '/' + window.__indChartList.length + ')  ↑↓切换' : '');
+    document.body.style.overflow = 'hidden';
+    _chartTicker = code + '.HK';
+    _chartScreen = 'industry-chart';
+    _chartList = []; _chartIdx = -1; _chartData = null;
+    _updateIntervalBtns();
+    fetch('./data/chartdata/hk/' + encodeURIComponent(code) + '.json')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { _chartData = data; renderChart(); })
+      .catch(e => {
+        document.getElementById('modal-ticker').textContent = '行业数据加载失败: ' + e.message;
+      });
+  }
+  function navIndustry(dir) {
+    if (!window.__indChartList.length) return;
+    var ni = window.__indChartIdx + dir;
+    if (ni < 0 || ni >= window.__indChartList.length) return;
+    window.__indChartIdx = ni;
+    _openIndChart(window.__indChartList[ni]);
+  }
 
   // ─── Chart Modal (Lightweight Charts) ─────────────
   let _chartTicker = '';
@@ -1594,12 +1969,13 @@
      ['rgba(150,150,150,0.4)', ma40, 1], ['#42A5F5', ma50, 1.5], ['rgba(150,150,150,0.4)', ma60, 1], ['rgba(150,150,150,0.4)', ma70, 1]]
       .forEach(([c, arr, w]) => { if (arr.length) addSer(mainChart, maOpts(c, w), arr); });
 
-    const vs = mainChart.addHistogramSeries({ priceFormat: { type: 'volume' }, priceScaleId: 'vol' });
-    vs.setData(vols); allSeries.push(vs);
-    mainChart.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
-
-    const volMA30 = calcVolMA(rows, 30);
-    if (volMA30.length) addSer(mainChart, { color: '#FFEB3B', lineWidth: 1, priceLineVisible: false, lastValueVisible: false, priceScaleId: 'vol' }, volMA30);
+    if (_chartScreen !== 'industry-chart') {
+      const vs = mainChart.addHistogramSeries({ priceFormat: { type: 'volume' }, priceScaleId: 'vol' });
+      vs.setData(vols); allSeries.push(vs);
+      mainChart.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
+      const volMA30 = calcVolMA(rows, 30);
+      if (volMA30.length) addSer(mainChart, { color: '#FFEB3B', lineWidth: 1, priceLineVisible: false, lastValueVisible: false, priceScaleId: 'vol' }, volMA30);
+    }
 
     _charts.push(mainChart);
 
@@ -1715,6 +2091,10 @@
     : `<b style="color:${s === '2' ? 'var(--positive)' : s === '4' ? 'var(--negative)' : 'var(--text)'}">${s}</b>`;
   const transCell = (d, col) => (d != null && d <= 10)
     ? `<b style="color:${col}">${d}d</b>` : '<span class="muted-val">·</span>';
+  // 子档配色 (2026-10-18 用户定): 1+/2A/2B=绿(买侧), 3-/4=红(卖侧), 4+=橙(止跌), 3=黄(顶), 2C=橄榄(衰竭)
+  const SUB_COLOR = { '4+':'#ff7043','1':'#9e9e9e','1+':'#16a34a',
+    '2A':'#16a34a','2B':'#15803d','2C':'#65a30d','3':'#f9a825','3-':'#dc2626',
+    '4':'#b91c1c','NA':'#64748b' };
   // 降级层新股角标: 上市151-252根, MA排列+上市以来位置的弱规则档位 (引擎v2.2, 2026-10-16)
   const provBadge = s => (s && s.prov) ? '<sup style="color:#f59e0b;font-size:9px;font-weight:700">新</sup>' : '';
   const t12Count = d => (d.all_stocks || []).filter(s => s.t12 != null && s.t12 <= 10).length;
@@ -1756,8 +2136,19 @@
              : (mkt === 'us' ? window.usData : mkt === 'a' ? window.aData : window.trendData);
     if (Array.isArray(list)) {                       // 显式列表 (子行业成分股钻取)
       _chartList = list; _chartIdx = list.indexOf(ticker);
-    } else if (_chartScreen === 'lifecycle') {       // 生命周期: 在所在组内翻页 (渲染时存)
-      _chartList = (window.__lcNav || {})[ticker] || [];
+    } else if (_chartScreen === 'lifecycle') {       // 生命周期: 按显示顺序(板块V1→SATA)
+      const _all = (window.trendData || {}).all_stocks || [];
+      const _me = _all.find(s => s.ticker === ticker);
+      if (_me && _me.sub) {
+        _chartList = (window.__lcNavOrder || {})[_me.sub]
+          || _all.filter(s => s.sub === _me.sub).map(s => s.ticker);
+        _chartIdx = _chartList.indexOf(ticker);
+      } else { _chartList = []; _chartIdx = -1; }
+    } else if (_chartScreen === 'bottom') {         // Part3②: 4+个股翻页
+      const _all = (window.trendData || {}).all_stocks || [];
+      _chartList = _all.filter(s => s.sub === '4+')
+        .sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0)) || (b.sata_w || 0) - (a.sata_w || 0))
+        .map(s => s.ticker);
       _chartIdx = _chartList.indexOf(ticker);
     } else if (_chartScreen === 't12' || _chartScreen === 't34') {   // 阶段转换组
       _chartList = (window.__transNav || {})[_chartScreen] || [];
@@ -1774,7 +2165,7 @@
     if (_sat && _sat.sub) {
       const _sh = (_sat.sub_hist || []).filter(h => h[0] <= 20).map(h => `${h[1]}·${h[0]}d前`);
       const _mk = (_sat.marks && _sat.marks.length) ? ` <b style="color:#f59e0b">${_sat.marks.join('·')}</b>` : '';
-      _mb.push(`子档 <b>${_sat.sub}</b>${_sat.prov ? ' <b style="color:#f59e0b;font-size:11px">新·弱规则(上市<253日)</b>' : ''}${_mk}${_sat.sub_days != null ? `·${_sat.sub_days}d` : ''}${_sh.length ? ` <span class="muted-val">(${_sh.join(' ← ')})</span>` : ''}`);
+      _mb.push(`子档 <b style="color:${SUB_COLOR[_sat.sub] || 'var(--text)'}">${_sat.sub}</b>${_sat.prov ? ' <b style="color:#f59e0b;font-size:11px">新·弱规则(上市<253日)</b>' : ''}${_mk}${_sat.sub_days != null ? `·${_sat.sub_days}d` : ''}${_sh.length ? ` <span class="muted-val">(${_sh.join(' ← ')})</span>` : ''}`);
     }
     if (_sat && _sat.t12 != null && _sat.t12 <= 10) _mb.push(`<b style="color:var(--positive)">1→2 ${_sat.t12}天前</b>`);
     if (_sat && _sat.t34 != null && _sat.t34 <= 10) _mb.push(`<b style="color:var(--negative)">3→4 ${_sat.t34}天前</b>`);
@@ -1838,7 +2229,11 @@
     const chartOpen = document.getElementById('chart-modal').classList.contains('open');
     const sectorOpen = document.getElementById('sector-modal').classList.contains('open');
     if (chartOpen) {
-      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); navChart(1); }
+      if (_chartScreen === 'industry-chart') {
+        if (e.key === 'ArrowUp') { e.preventDefault(); navIndustry(-1); }
+        else if (e.key === 'ArrowDown') { e.preventDefault(); navIndustry(1); }
+        else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); switchInterval(_chartInterval === 'D' ? 'W' : 'D'); }
+      } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); navChart(1); }
       else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); navChart(-1); }
       else if (e.key === 'd' || e.key === 'D') { e.preventDefault(); switchInterval('D'); }
       else if (e.key === 'w' || e.key === 'W') { e.preventDefault(); switchInterval('W'); }
