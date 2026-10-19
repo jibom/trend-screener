@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "summary": {
     "total_oversold": 484,
     "weekly_kdj_divergence": 86,
@@ -10808,8 +10808,8 @@
       "k": 7.82,
       "d": 14.74,
       "j": -6.02,
-      "wk_j": 0.7,
-      "wk_d": 32.22,
+      "wk_j": 0.72,
+      "wk_d": 32.21,
       "d_kdj_div": false,
       "d_kdj_count": 0,
       "d_macd_gc": true,
