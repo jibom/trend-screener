@@ -699,7 +699,7 @@
         const subs = ['4','4+','1','1+','2A','2B','2C','3','3-'];
         const curBkt = mktBreadthData.markets.hk.bucket;
         const curCell = mktBreadthData.markets.hk.cell;
-        html += `<div style="margin:28px 0 6px;font-size:15px;font-weight:700">港股个股买点 × 市场档位 <span style="font-size:11px;color:var(--text-muted);font-weight:400">买点信号次开入场 → 转4确认或转3-出场 (2018-10→2026-10, 406只, 无SOS过滤) · 当前档=<b style="color:#f59e0b">${curBkt}</b></span></div>`;
+        html += `<div style="margin:28px 0 6px;font-size:15px;font-weight:700">港股个股买点 × 市场档位 <span style="font-size:11px;color:var(--text-muted);font-weight:400">买点信号次开入场 → 转4确认或转3-出场 (2018-10→2026-10, 391只存续+流动性池, 无SOS过滤, 2026-10-20引擎2C修复版) · 当前档=<b style="color:#f59e0b">${curBkt}</b></span></div>`;
         html += '<table style="border-collapse:collapse;font-size:12px">';
         html += '<tr><td style="padding:4px 10px;color:var(--text-muted)">买点↓ 档位→</td>'
           + BUCKETS.map(b => `<td style="padding:4px 12px;font-weight:700;text-align:center;color:${b===curBkt?'#f59e0b':'var(--text-muted)'}">${b}${b===curBkt?' ◀':''}</td>`).join('') + '</tr>';
