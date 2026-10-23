@@ -1327,47 +1327,65 @@
     // ── 生命周期 · 市场档位驱动版 (2026-10-18重构): Top3子档×板块V1分组 ──
     function lifecyclePart(d) {
       const all = d.all_stocks || [];
-      const top3 = d.top3_subs || ['1+','2A','2B'];
+      const top3 = d.top3_subs || [];
       const mktBkt = d.mkt_bucket || '';
       const mktCell = d.mkt_cell || '';
       if (!all.length) return '';
-      // 翻页导航: 按显示顺序(板块V1→SATA)存每个子档的完整列表
-      window.__lcNavOrder = {};
-      for (const sub of top3) {
-        const pool = all.filter(s => s.sub === sub);
-        // 复制排序逻辑: 按板块V1分组→组内SATA→热度
-        pool.sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0))
+      // 买侧梯队固定顺序 (2026-10-23 用户定): 1+ → 2A → 2B, 不再按市场档位最优子档排
+      const LADDER = ['1+', '2A', '2B'];
+      const RECENT = 10;   // ≤10日进入当前子档 = 最近升级
+      const isRecent = s => s.sub_days != null && s.sub_days <= RECENT;
+      const fromSub = s => { const h0 = (s.sub_hist || [])[0]; return h0 ? h0[1].split('→')[0] : ''; };
+      const sortPool = pool => pool.sort((a, b) => {
+        const ra = isRecent(a) ? 0 : 1, rb = isRecent(b) ? 0 : 1;
+        if (ra !== rb) return ra - rb;                          // ⭐最近升级置顶
+        if (ra === 0) return (a.sub_days || 0) - (b.sub_days || 0);   // 置顶组内按新鲜度
+        return ((b.sector_v1 || 0) - (a.sector_v1 || 0))         // 其余: 板块V1→SATA→热度
           || (b.sata_w || 0) - (a.sata_w || 0)
-          || (b.hotness || 0) - (a.hotness || 0));
+          || (b.hotness || 0) - (a.hotness || 0);
+      });
+      // 翻页导航: 与显示顺序一致
+      window.__lcNavOrder = {};
+      for (const sub of LADDER) {
+        const pool = all.filter(s => s.sub === sub);
+        sortPool(pool);
         window.__lcNavOrder[sub] = pool.map(st => st.ticker);
       }
+      // 板块升级聚集计数: 跨三个梯队合并 (该板块近RECENT日升级进1+/2A/2B的总只数)
+      const secUpg = {};
+      for (const s of all) {
+        if (LADDER.includes(s.sub) && isRecent(s)) secUpg[s.sector] = (secUpg[s.sector] || 0) + 1;
+      }
       let h = `<div style="padding:4px 0 2px;font-size:12px;color:var(--text-muted)">
-        市场档位: <b style="color:#f59e0b">${mktBkt}</b> (${mktCell}) → 按该档位历史最优子档选股 · 板块按V1降序 · 组内按SATA周→热度降序</div>`;
-      for (const sub of top3) {
-        // 筛选当前处于该子档的票
+        买侧梯队: <b style="color:#f59e0b">1+ → 2A → 2B</b> 固定顺序 · 市场档位 ${mktBkt} (${mktCell}) 仅作参考 · ⭐=近${RECENT}日新晋(置顶, 按新鲜度) · 其余按板块V1→SATA周→热度 · 行业列<span style="color:#16a34a">⬆N</span>=该板块近${RECENT}日升级进梯队≥2只(跨梯队合计)</div>`;
+      for (const sub of LADDER) {
         const pool = all.filter(s => s.sub === sub);
         if (!pool.length) continue;
-        // 扁平化: 板块V1降序 → 组内SATA→热度, 不再分组显示, 板块放最后一列
-        pool.sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0))
-          || (b.sata_w || 0) - (a.sata_w || 0)
-          || (b.hotness || 0) - (a.hotness || 0));
-        // 可折叠 section
+        sortPool(pool);
+        const nUp = pool.filter(isRecent).length;
+        const isTop3 = top3.includes(sub);
         const secId = 'lc-' + sub.replace(/[^a-zA-Z0-9]/g, '');
         h += `<div style="padding:10px 0 4px">
           <div style="display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none" onclick="const el=document.getElementById('${secId}');const b=el.style.display!=='none';el.style.display=b?'none':'';this.querySelector('.arrow').textContent=b?'▶':'▼'">
             <span class="arrow" style="font-size:11px;color:var(--text-muted)">▼</span>
             <span style="font-size:15px;font-weight:800;color:${SUB_COLOR[sub] || 'var(--text)'}">${sub}</span>
-            <span style="font-size:12px;color:var(--text-muted)">(${pool.length}只 · ${mktBkt}档历史最优)</span>
+            <span style="font-size:12px;color:var(--text-muted)">(${pool.length}只${nUp ? ` · <span style="color:#16a34a">⭐新晋${nUp}</span>` : ''}${isTop3 ? ` · ${mktBkt}档历史最优` : ''})</span>
           </div>
           <div id="${secId}" style="padding:4px 0 8px">
-          ${trendTable(['代码','名称','收盘','SATA周','热度分','子档标记','持续','行业(V1)'],
-            pool.map(s => [
-              tk(s.ticker, 'lifecycle'), s.name,
-              num2(s.close), sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`,
-              (s.marks || []).join('·') || '-',
-              s.stage_days != null ? s.stage_days + 'd' : '-',
-              `<span style="font-size:11px">${s.sector || '-'} <span style="color:#6366f1">${s.sector_v1 != null ? (s.sector_v1 * 100).toFixed(0) + '%' : ''}</span></span>`
-            ]))}
+          ${trendTable(['代码','名称','收盘','升级','SATA周','热度分','子档标记','持续','行业(V1)'],
+            pool.map(s => {
+              const upg = isRecent(s)
+                ? `<b style="color:#16a34a">⭐${s.sub_days}d ←${fromSub(s) || '?'}</b>`
+                : `<span style="color:var(--text-muted)">${s.sub_days != null ? s.sub_days + 'd' : '-'}</span>`;
+              const nSec = secUpg[s.sector] || 0;
+              return [
+                tk(s.ticker, 'lifecycle'), s.name,
+                num2(s.close), upg, sataCell(s.sata_w), `<b>${num2(s.hotness)}</b>`,
+                (s.marks || []).join('·') || '-',
+                s.stage_days != null ? s.stage_days + 'd' : '-',
+                `<span style="font-size:11px;${nSec >= 2 ? 'font-weight:700;color:#16a34a' : ''}">${s.sector || '-'}${nSec >= 2 ? ` <span style="color:#16a34a">⬆${nSec}</span>` : ''} <span style="color:#6366f1">${s.sector_v1 != null ? (s.sector_v1 * 100).toFixed(0) + '%' : ''}</span></span>`
+              ];
+            }))}
           </div>
         </div>`;
       }
