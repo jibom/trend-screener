@@ -371,6 +371,7 @@
     let cetfData = null;    // 中国ETF-趋势, 来自 data/trend_hotspot_cetf.json
     let mktBreadthData = null;  // 市场宽度(三市场V1+10格统计), 来自 data/market_breadth.json
     let indStageData = null;    // 行业Stage矩阵, 来自 data/industry_stage.json
+    let heatRankData = null;  // swing站热力图L1/L2排名 (跨站fetch jibom.github.io/swing-pattern)
     let search = '';
     let sortField = 'ma10_slope_pct';
     let sortDir = 'desc';
@@ -403,6 +404,11 @@
         const ri = await fetch('data/industry_stage.json');
         if (ri.ok) indStageData = JSON.parse(await ri.text());
       } catch(e) { indStageData = null; }
+      // swing站热力图排名 (CPG三tab的Part1行业section数据源; 跨站可fetch: Pages带ACAO:*)
+      try {
+        const rh = await fetch('https://jibom.github.io/swing-pattern/heatmap_rank.json');
+        if (rh.ok) heatRankData = JSON.parse(await rh.text());
+      } catch(e) { heatRankData = null; }
       window.__indStageData = indStageData || window.__indStageData;   // 同步全局(图表弹窗用); 内嵌为fetch失败兜底
       // 港股-趋势 (Part1-4): 失败不阻塞原 tab
       try {
@@ -1007,59 +1013,8 @@
       if (!d) return `<div class="empty-state"><p>趋势数据未加载 (public/data/trend_hotspot_hk.json)</p></div>`;
       let html = `<div class="subtitle" style="padding:4px 0 10px">港股趋势四部曲 · ${d.date || ''}　最热细分行业：${d.hottest_sub || '-'}</div>`;
 
-      // ── Part 1: 行业热度 (仅显示 60日涨幅>10% 的强势行业) ──
-      // ── Part 1a: 子行业预期收益排名 (当前子档历史表现, 取前15, 均值>2%或R>3) ──
-      const _ind1 = (window.indStageData || window.__indStageData || (typeof indStageData !== 'undefined' ? indStageData : null)) || (window.__indStageData || {});
-      const _subList = _ind1.sub_industries || [];
-      const _subRanked = [];
-      for (const x of _subList) {
-        const cur = x.current.includes('/') ? x.current.split('/')[1] : '';
-        const st = (x.stats || {})[cur];
-        if (!st || st.n < 3) continue;
-        if ((st.mean || 0) > 2 || (st.r || 0) > 3) {
-          _subRanked.push({name: x.name, sector: x.sector, sub: cur, mean: st.mean, r: st.r, win: st.win, n: st.n, current: x.current, size: x.size});
-        }
-      }
-      _subRanked.sort((a, b) => (b.mean || 0) - (a.mean || 0));
-      const top15 = _subRanked.slice(0, 15);
-      if (top15.length) {
-        const p1aRows = top15.map((e, i) => [
-          String(i + 1),
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.name}','hk'); return false;">${e.name}</a>`,
-          e.sector || '-',
-          `<b style="color:${SUB_COLOR[e.sub] || 'var(--text)'}">${e.current}</b>`,
-          `<b style="font-size:14px;color:${e.mean >= 4 ? '#16a34a' : e.mean > 0 ? '#22c55e' : '#dc2626'}">${e.mean > 0 ? '+' : ''}${e.mean}%</b>`,
-          e.r != null ? `<b>R${e.r}</b>` : '-',
-          e.win != null ? e.win + '%' : '-',
-          e.n]);
-        html += trendSection('Part 1a · 子行业预期收益排名 (当前Stage的历史平均收益, 前15, 筛选: 均值>2%或R>3)',
-          top15.length,
-          trendTable(['#','子行业','Sector','当前','预期收益','R','胜率','n'], p1aRows), 'sec-p1');
-      }
-
-      const secs = (d.part1 && d.part1.sectors || []);
-      // Part 1b: 按Sector预期收益排序
-      const _secList = _ind1.sectors || [];
-      const _secRanked = [];
-      for (const x of _secList) {
-        const cur = x.current.includes('/') ? x.current.split('/')[1] : '';
-        const st = (x.stats || {})[cur];
-        _secRanked.push({name: x.name, current: x.current, sub: cur,
-          mean: st ? st.mean : null, r: st ? st.r : null, win: st ? st.win : null, n: st ? st.n : null,
-          size: x.size});
-      }
-      _secRanked.sort((a, b) => ((b.mean != null ? b.mean : -999) - (a.mean != null ? a.mean : -999)));
-      const secRows = _secRanked.map((x, i) => [
-        String(i + 1),
-        `<a class="tk-link" href="#" onclick="showSector('${x.name}'); return false;">${x.name}</a>`,
-        `<b style="color:${SUB_COLOR[x.sub] || 'var(--text)'}">${x.current}</b>`,
-        x.mean != null ? `<b style="color:${x.mean >= 4 ? '#16a34a' : x.mean > 0 ? '#22c55e' : '#dc2626'}">${x.mean > 0 ? '+' : ''}${x.mean}%</b>` : '—',
-        x.r != null ? `R${x.r}` : '-',
-        x.win != null ? x.win + '%' : '-',
-        x.n != null ? x.n : '-']);
-      html += trendSection('Part 1b · GICS Sector 预期收益排名 (按当前Stage历史平均收益降序)',
-        _secRanked.length,
-        trendTable(['#','Sector','当前','预期收益','R','胜率','n'], secRows));
+      // ── Part 1: 行业排名热力 (2026-11-15 换用 swing 站热力图 L1/L2, 默认折叠) ──
+      html += heatIndustryPart('H', '港股');
 
       // ── 6月新高 (首次/持续) ──
       const p1cCols = ['代码','名称','细分行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4],'MA10','热度分'];
@@ -1094,10 +1049,10 @@
       html += bottomPart(d, 'trend', ['代码','名称','细分行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
@@ -1125,39 +1080,8 @@
       if (!d) return `<div class="empty-state"><p>海外趋势数据未加载 (public/data/trend_hotspot_us.json)</p></div>`;
       let html = `<div class="subtitle" style="padding:4px 0 10px">海外趋势四部曲 · ${d.date || ''}　最热行业：${d.hottest_sub || '-'}</div>`;
 
-      // ── Part 1a: 行业RS排名 (Mansfield RS, 谁在跑赢基准) ──
-      const rsTop = d.rs_top || [];
-      const rsTopSet = new Set(rsTop.map(e => e.sub_industry));
-      const accelSet = new Set((d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3).map(e => e.sub_industry));
-      if (rsTop.length) {
-        const rsTopRows = rsTop.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','us'); return false;">${e.sub_industry}</a>` + (accelSet.has(e.sub_industry) ? ' <span class="chg-badge chg-pos">▲加速中</span>' : ''),
-          e.n, `<b>${num2(e.rs)}</b>`,
-          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高 = 跑赢基准最多) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
-      }
-
-      // ── Part 1b: 行业RS动量 (1W RS变化最大 = 正在加速) ──
-      const rsMom = (d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3 && !rsTopSet.has(e.sub_industry));
-      if (rsMom.length) {
-        const rsMomRows = rsMom.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','us'); return false;">${e.sub_industry}</a>`,
-          e.n, num2(e.rs),
-          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1b · 行业RS动量 (RS 1W变化≥3 加速走强; 已在1a的行业不重复)', rsMom.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
-      }
-
-      const secs = (d.part1 && d.part1.sectors || []);
-      const secRows = secs.map(s => [
-        `<a class="tk-link" href="#" onclick="showSector('${s.sector}','us'); return false;">${s.sector}</a>`,
-        s.n, pctRaw(s.breadth_250), num2(s.amt_surge) + 'x',
-        pctRaw(s.share_1d), pctRaw(s.share_5d), pctRaw(s.share5_pctile200), signedR(s.ret_60), `<b>${num2(s.composite)}</b>`]);
-      html += trendSection('Part 1c · GICS Sector 热度 (全量)', secs.length,
-        trendTable(['Sector','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
+      // ── Part 1: 行业排名热力 (2026-11-15 换用 swing 站热力图 L1/L2, 默认折叠) ──
+      html += heatIndustryPart('US', '海外');
 
       const p1cCols = ['代码','名称','行业','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4],'MA10','热度分'];
       const p1cRow = (e, sc) => [
@@ -1189,10 +1113,10 @@
       html += bottomPart(d, 'trend', ['代码','名称','行业','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 4-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 4-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
@@ -1219,16 +1143,16 @@
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p2 = d.part2 || [];
-      html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
+      html += trendSection('Part 1 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))), 'sec-p2');
 
       // ── Part 3.2 / Part 4: 东吴B/S信号 ──
-      html += dsBPart(d, 'Part 3.2');
+      html += dsBPart(d, 'Part 2');
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 3-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 3-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(cols, p1c2.map(e => row(e, 'part1c2'))), 'sec-nh2');
 
       return html;
@@ -1255,16 +1179,16 @@
         yn(e.pct_high_126 >= 1.0), yn(e.pct_high_250 >= 1.0), pctR(e.nh_ratio_126),
         num2(e.amt_surge) + 'x', num2(e.amt_rank), signedR(e.ret_60), ...fundCells(e), ma10warn(e.days_below_ma10), `<b>${num2(e.hotness)}</b>`];
       const p2 = d.part2 || [];
-      html += trendSection('Part 2 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
+      html += trendSection('Part 1 · 趋势向上 (60日>10%, hotness 排序, ≤30)', p2.length,
         trendTable(cols, p2.map(e => row(e, 'part2'))), 'sec-p2');
 
       // ── Part 3.2 / Part 4: 东吴B/S信号 ──
-      html += dsBPart(d, 'Part 3.2');
+      html += dsBPart(d, 'Part 2');
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 3-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(cols, p1c1.map(e => row(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 3-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(cols, p1c2.map(e => row(e, 'part1c2'))), 'sec-nh2');
 
       return html;
@@ -1392,6 +1316,44 @@ return h;
 
     // ── Part 2c/2d: 阶段转换 (1→2=刚进入Stage2进场关注 / 3→4=跌破进入Stage4离场回避; 近10交易日, 最新在前) ──
     // (fundLv/yoyLvCell/roeLvCell 定义在 IIFE 外全局区 — showChart 也要用, 见下)
+    // ── Part 1 行业排名热力 (2026-11-15移植自 Swing Pattern 站; 默认折叠, 点按钮展开) ──
+    function heatIndCell(v, signed) {
+      if (v == null) return '<span style="color:var(--text-muted)">–</span>';
+      const col = (signed && v > 0) ? '#22c55e' : (signed && v < 0) ? '#ef4444' : 'inherit';
+      const sign = (signed && v > 0) ? '+' : '';
+      return `<span style="color:${col}">${typeof v === 'number' ? sign + v : v}</span>`;
+    }
+    function heatIndTable(rows) {
+      return trendTable(['#','行业','n','综合','日Rank','周Rank','周Δ1/2/3W','MRS','1W%','4W%','13W%','YTD%'],
+        rows.map((r, i) => [
+          String(i + 1), r['组名'], r['n'] != null ? r['n'] : '–',
+          r['综合排名'] != null ? `<b>${r['综合排名']}</b>` : '–',
+          r['最新日Rank'] != null ? r['最新日Rank'] : '–',
+          r['最新周Rank'] != null ? r['最新周Rank'] : '–',
+          r['周RankΔ1/2/3W'] || '–',
+          heatIndCell(r['MRS'], true), heatIndCell(r['1W%'], true),
+          heatIndCell(r['4W%'], true), heatIndCell(r['13W%'], true), heatIndCell(r['YTD%'], true)]));
+    }
+    function heatIndustryPart(mkt, mlabel) {
+      const d = heatRankData;
+      const bodyId = 'heat-ind-' + mkt;
+      if (!d || !d[mkt] || !d[mkt].l1) {
+        return trendSection(`Part 1 · 行业排名热力 (${mlabel}, 移植自 Swing Pattern 站)`, '未加载',
+          '<div style="padding:12px;color:var(--text-muted);font-size:13px">heatmap_rank.json 未加载 (swing-pattern 站)</div>', 'sec-p1');
+      }
+      const mk = d[mkt];
+      const body = `<div id="${bodyId}" style="display:none">
+        <div style="padding:8px 0 2px;font-size:14px;font-weight:700">${mk.l1_name} <span style="font-size:12px;color:var(--text-muted);font-weight:400">(${mk.l1.length}, 按综合排名)</span></div>
+        ${heatIndTable(mk.l1)}
+        <div style="padding:14px 0 2px;font-size:14px;font-weight:700">${mk.l2_name} <span style="font-size:12px;color:var(--text-muted);font-weight:400">(${mk.l2.length})</span></div>
+        ${heatIndTable(mk.l2)}
+        <div style="font-size:11px;color:var(--text-muted);padding:6px 0">来自 Swing Pattern 站行业热力图 · asof ${d.asof || '-'} · 综合=mean(MRS, 1W/4W/13W涨幅排名) · 周Δ1/2/3W 正=排名上行 · 点右上按钮展开/收起</div>
+      </div>`;
+      const btn = `<button id="${bodyId}-btn" data-n="${mk.l1.length + mk.l2.length}" onclick="toggleHeatInd('${bodyId}')" style="margin:10px 0;padding:6px 16px;border:1px solid var(--border);border-radius:6px;background:#1d4ed8;color:#fff;font-size:13px;font-weight:600;cursor:pointer">▸ 展开 ${mk.l1.length + mk.l2.length} 个行业排名</button>`;
+      return trendSection(`Part 1 · 行业排名热力 (${mlabel}, 移植自 Swing Pattern 站)`,
+        `${mk.l1.length}+${mk.l2.length}`, btn + body, 'sec-p1');
+    }
+
     function transPart(d, key, title, col) {
       const arr = (d.all_stocks || []).filter(s => s[key] != null && s[key] <= 10)
         .sort((a, b) => a[key] - b[key]);
@@ -1440,39 +1402,8 @@ return h;
       if (!d) return `<div class="empty-state"><p>A股趋势数据未加载 (public/data/trend_hotspot_a.json)</p></div>`;
       let html = `<div class="subtitle" style="padding:4px 0 10px">A股趋势四部曲 · ${d.date || ''}　最热申万三级：${d.hottest_sub || '-'}</div>`;
 
-      // ── Part 1a: 行业RS排名 ──
-      const rsTop = d.rs_top || [];
-      const rsTopSet = new Set(rsTop.map(e => e.sub_industry));
-      const accelSet = new Set((d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3).map(e => e.sub_industry));
-      if (rsTop.length) {
-        const rsTopRows = rsTop.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','a'); return false;">${e.sub_industry}</a>` + (accelSet.has(e.sub_industry) ? ' <span class="chg-badge chg-pos">▲加速中</span>' : ''),
-          e.n, `<b>${num2(e.rs)}</b>`,
-          e.rs_1w != null ? `<span style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</span>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1a · 行业RS排名 (Mansfield RS 最高) · ▲加速中 = RS 1W变化≥3', rsTop.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsTopRows), 'sec-p1');
-      }
-
-      // ── Part 1b: 行业RS动量 ──
-      const rsMom = (d.rs_momentum || []).filter(e => (e.rs_1w || 0) >= 3 && !rsTopSet.has(e.sub_industry));
-      if (rsMom.length) {
-        const rsMomRows = rsMom.map(e => [
-          `<a class="tk-link" href="#" onclick="showSubIndustry('${e.sub_industry}','a'); return false;">${e.sub_industry}</a>`,
-          e.n, num2(e.rs),
-          e.rs_1w != null ? `<b style="color:${e.rs_1w >= 0 ? '#22c55e' : '#ef4444'}">${e.rs_1w >= 0 ? '+' : ''}${e.rs_1w}</b>` : '-',
-          e.ret_60 != null ? e.ret_60 + '%' : '-']);
-        html += trendSection('Part 1b · 行业RS动量 (RS 1W变化≥3; 已在1a的行业不重复)', rsMom.length,
-          trendTable(['行业','n','RS','RS 1W','60日涨幅'], rsMomRows));
-      }
-
-      const secs = (d.part1 && d.part1.sectors || []);
-      const secRows = secs.map(s => [
-        `<a class="tk-link" href="#" onclick="showSector('${s.sector}','a'); return false;">${s.sector}</a>`,
-        s.n, pctRaw(s.breadth_250), num2(s.amt_surge) + 'x',
-        pctRaw(s.share_1d), pctRaw(s.share_5d), pctRaw(s.share5_pctile200), signedR(s.ret_60), `<b>${num2(s.composite)}</b>`]);
-      html += trendSection('Part 1c · 申万一级热度 (Top 10)', secs.length,
-        trendTable(['申万一级','n','新高广度250','量放','占比1日','占比5日','5日占比200日分位','60日涨幅','综合分'], secRows));
+      // ── Part 1: 行业排名热力 (2026-11-15 换用 swing 站热力图 L1/L2, 默认折叠) ──
+      html += heatIndustryPart('A', 'A股');
 
       const p1cCols = ['代码','名称','申万三级','收盘','距250高','6月新高','250日新高','6月新高占比','量放','5日均额排','60日涨幅',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4],'MA10','热度分'];
       const p1cRow = (e, sc) => [
@@ -1503,10 +1434,10 @@ return h;
       html += bottomPart(d, 'trend', ['代码','名称','申万三级','收盘','周J(8周低)','位置250','背离','跌不动','买点','分',['营收YoY % (新→旧)', 4],['净利YoY % (新→旧)', 4],['ROE % (新→旧)', 4]]);
 
       const p1c1 = d.part1c1 || [];
-      html += trendSection('Part 5-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
+      html += trendSection('Part 3-1 · 首次新高 (6月新高≤2% OR 3月新高=最高, 首次天数<4%, hotness 排序, ≤20)', p1c1.length,
         trendTable(p1cCols, p1c1.map(e => p1cRow(e, 'part1c1'))), 'sec-nh1');
       const p1c2 = d.part1c2 || [];
-      html += trendSection('Part 5-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
+      html += trendSection('Part 3-2 · 持续新高 (6月新高, 近6月新高天数≥4%, hotness 排序, ≤30)', p1c2.length,
         trendTable(p1cCols, p1c2.map(e => p1cRow(e, 'part1c2'))), 'sec-nh2');
 
       return html;
@@ -2126,6 +2057,14 @@ return h;
   }
   // ── 全局区 helper (IIFE外): showChart 与 onclick 属性都在全局作用域解析 —
   //    定义放 IIFE 内会 ReferenceError (2026-10-14 修复: 图表空白/chip无反应的根因) ──
+  function toggleHeatInd(id) {   // Part1 行业排名热力 展开/收起 (全局: onclick属性解析)
+    const b = document.getElementById(id), btn = document.getElementById(id + '-btn');
+    if (!b) return;
+    const show = b.style.display === 'none';
+    b.style.display = show ? '' : 'none';
+    if (btn) { const n = btn.getAttribute('data-n') || ''; btn.textContent = show ? '▾ 收起行业排名' : ('▸ 展开 ' + n + ' 个行业排名'); }
+  }
+
   function gotoSection(id) {   // 汇总chip点击 → 平滑滚动到对应section
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
