@@ -1,0 +1,23 @@
+2026-11-24 22:19:40,806 VIPS.HK scan failed: 'date'
+2026-11-24 22:19:40,808 0PDD.HK scan failed: 'date'
+2026-11-24 22:19:47,783 00AS.HK scan failed: 'date'
+2026-11-24 22:19:51,356 0CHA.HK scan failed: 'date'
+2026-11-24 22:19:55,765 0TAL.HK scan failed: 'date'
+2026-11-24 22:19:56,664 ATAT.HK scan failed: 'date'
+2026-11-24 22:20:37,531 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3588.HK"}}}
+2026-11-24 22:20:37,612 $3588.HK: possibly delisted; no timezone found
+2026-11-24 22:20:37,613 
+1 Failed download:
+2026-11-24 22:20:37,613 ['3588.HK']: possibly delisted; no timezone found
+2026-11-24 22:20:37,616 3588.HK scan failed: 'date'
+2026-11-24 22:21:04,370 HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1558.HK"}}}
+2026-11-24 22:21:04,441 $1558.HK: possibly delisted; no timezone found
+2026-11-24 22:21:04,442 
+1 Failed download:
+2026-11-24 22:21:04,442 ['1558.HK']: possibly delisted; no timezone found
+2026-11-24 22:21:41,359 0YMM.HK scan failed: 'date'
+2026-11-24 22:22:05,533 VNET.HK scan failed: 'date'
+2026-11-24 22:22:38,306 $9666.HK: possibly delisted; no timezone found
+2026-11-24 22:22:38,306 
+1 Failed download:
+2026-11-24 22:22:38,306 ['9666.HK']: possibly delisted; no timezone found
