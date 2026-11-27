@@ -1267,11 +1267,14 @@
           || (b.hotness || 0) - (a.hotness || 0);
       });
       // 翻页导航: 与显示顺序一致
-      window.__lcNavOrder = {};
+      // 2026-11-27: 导航键加市场前缀 — 三个市场 tab 复用本函数, 单键全局互相覆盖,
+      // 且 showChart 旧版写死 trendData → 美股/A股生命周期个股图无法 ←→ 切换
+      const _lp = d === window.usData ? 'us:' : d === window.aData ? 'a:' : 'hk:';
+      window.__lcNavOrder = window.__lcNavOrder || {};
       for (const sub of LADDER) {
         const pool = all.filter(s => s.sub === sub);
         sortPool(pool);
-        window.__lcNavOrder[sub] = pool.map(st => st.ticker);
+        window.__lcNavOrder[_lp + sub] = pool.map(st => st.ticker);
       }
       // 板块升级聚集计数: 跨三个梯队合并 (该板块近RECENT日升级进1+/2A/2B的总只数)
       const secUpg = {};
@@ -1364,8 +1367,9 @@ return h;
         sataCell(s.sata_d), sataCell(s.sata_w), signedR(s.ret_60),
         yoyLvCell(fundLv(s.sales_yoy4)), yoyLvCell(fundLv(s.profit_yoy4)), roeLvCell(fundLv(s.roe4)),
         `<b>${num2(s.hotness)}</b>`]);
+      const _tp = d === window.usData ? 'us:' : d === window.aData ? 'a:' : 'hk:';   // 2026-11-27 市场前缀, 防跨tab覆盖
       window.__transNav = window.__transNav || {};
-      window.__transNav[key] = arr.map(s => s.ticker);   // 供 showChart ←→ 翻页
+      window.__transNav[_tp + key] = arr.map(s => s.ticker);   // 供 showChart ←→ 翻页
       return trendSection(title, rows.length,
         trendTable(['代码','名称','行业','收盘','Stage','转换','持续','SATA日','SATA周','60日涨幅','营收YoY','净利YoY','ROE','热度分'], rows),
         key === 't12' ? 'sec-t12' : 'sec-t34');
@@ -2092,21 +2096,25 @@ return h;
     if (Array.isArray(list)) {                       // 显式列表 (子行业成分股钻取)
       _chartList = list; _chartIdx = list.indexOf(ticker);
     } else if (_chartScreen === 'lifecycle') {       // 生命周期: 按显示顺序(板块V1→SATA)
-      const _all = (window.trendData || {}).all_stocks || [];
+      // 2026-11-27: 按 ticker 市场取数据/导航键 (旧版写死 trendData, 美股/A股个股图无法 ←→)
+      const _pfx = mkt === 'us' ? 'us:' : mkt === 'a' ? 'a:' : 'hk:';
+      const _all = ((mkt === 'us' ? window.usData : mkt === 'a' ? window.aData : window.trendData) || {}).all_stocks || [];
       const _me = _all.find(s => s.ticker === ticker);
       if (_me && _me.sub) {
-        _chartList = (window.__lcNavOrder || {})[_me.sub]
+        _chartList = (window.__lcNavOrder || {})[_pfx + _me.sub]
           || _all.filter(s => s.sub === _me.sub).map(s => s.ticker);
         _chartIdx = _chartList.indexOf(ticker);
       } else { _chartList = []; _chartIdx = -1; }
     } else if (_chartScreen === 'bottom') {         // Part3②: 4+个股翻页
-      const _all = (window.trendData || {}).all_stocks || [];
+      const _all = ((mkt === 'us' ? window.usData : mkt === 'a' ? window.aData : window.trendData) || {}).all_stocks || [];
       _chartList = _all.filter(s => s.sub === '4+')
         .sort((a, b) => ((b.sector_v1 || 0) - (a.sector_v1 || 0)) || (b.sata_w || 0) - (a.sata_w || 0))
         .map(s => s.ticker);
       _chartIdx = _chartList.indexOf(ticker);
     } else if (_chartScreen === 't12' || _chartScreen === 't34') {   // 阶段转换组
-      _chartList = (window.__transNav || {})[_chartScreen] || [];
+      const _pfx = mkt === 'us' ? 'us:' : mkt === 'a' ? 'a:' : 'hk:';
+      _chartList = (window.__transNav || {})[_pfx + _chartScreen]
+        || (window.__transNav || {})[_chartScreen] || [];
       _chartIdx = _chartList.indexOf(ticker);
     } else if (_chartScreen && td && Array.isArray(td[_chartScreen])) {
       _chartList = td[_chartScreen].map(p => p.ticker);
